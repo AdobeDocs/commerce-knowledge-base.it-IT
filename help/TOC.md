@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 2db8eeb5bbe473db895bc092462b77de39af3e6d
+source-git-commit: 59671ff01a398ad8dc525c8948b5dc5548774cf5
 workflow-type: tm+mt
-source-wordcount: '10975'
+source-wordcount: '10989'
 ht-degree: 0%
 
 ---
@@ -797,6 +797,7 @@ ht-degree: 0%
          * [ACSD-57394: ordinamento del prodotto errato per più campi di ordinamento in [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)
          * [ACSD-56546: i prodotti configurabili e bundle vengono visualizzati come esauriti sulla vetrina](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56546-configurable-and-bundle-products-display-as-out-of-stock-on-the-storefront.md)
          * [ACSD-55566 [!UICONTROL mergeCart] la mutazione non riesce con errore interno del server in [!DNL GraphQL] risposta](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-55566-mergecart-mutation-fails-with-an-internal-server-error-in-graphql-response.md)
+         * [ACSD-58008: la modifica della data di fine come vuota fa scomparire l’aggiornamento della pianificazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-58008-editing-the-end-date-as-empty-causes-the-schedule-update-to-disappear.md)
          * [ACSD-57854: la risposta di GraphQL contiene categorie disabilitate che non devono essere elencate nelle aggregazioni di categorie](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57854-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
          * [ACSD-57565: il dashboard degli ordini visualizza informazioni sugli ordini errate](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
       * [Verifica la patch per il problema Adobe Commerce con lo strumento Quality Patches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
