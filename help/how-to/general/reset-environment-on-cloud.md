@@ -3,9 +3,9 @@ title: Ripristinare l’ambiente su Adobe Commerce nell’infrastruttura cloud
 description: Questo articolo mostra diversi scenari di ripristino dello stato precedente di un ambiente su Adobe Commerce su un’infrastruttura cloud.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: ddde2385f1d94194b34e9ed51f6cbda55c916d90
+source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -156,8 +156,8 @@ Se si esegue `setup:uninstall` Il comando ha esito negativo e non può essere co
 
 1. [SSH per l’ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Connettersi al database MySQL: `mysql -h database.internal` (Per gli ambienti Pro consulta: [Configura servizio MySQL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)).
-1. Rilasciare il database \`main\`: `drop database main;`
-1. Crea un database \`main\` vuoto: `create database main;`
+1. Rilascia il `main` DB : `drop database main;`
+1. Crea un elemento vuoto `main` DB: `create database main;`
 1. Elimina i seguenti file di configurazione: `config.php` , `config.php` , `.bak,` , `env.php`, `env.php.bak`
 
 Dopo aver ripristinato il DB, [creare un [!DNL git] invia all’ambiente per attivare la ridistribuzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html) e installare Adobe Commerce in un database appena creato. Oppure [eseguire il comando ridistribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
