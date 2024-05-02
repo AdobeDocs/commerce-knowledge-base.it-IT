@@ -1,0 +1,55 @@
+---
+title: Impossibile salvare il backend Adobe Commerce dell’entità
+description: Questo articolo fornisce una soluzione per i casi in cui non è possibile salvare un’entità nel backend di Adobe Commerce. Ad esempio, quando non puoi modificare e salvare una regola "cart_price" specifica.
+exl-id: e45dc88a-2da0-4524-bd61-6634cfebb169
+feature: Admin Workspace, Marketing Tools
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 0%
+
+---
+
+# Impossibile salvare il backend Adobe Commerce dell’entità
+
+Questo articolo fornisce una soluzione per i casi in cui non è possibile salvare un’entità nel backend di Adobe Commerce. Ad esempio, quando non è possibile modificare e salvare un `cart_price` regola.
+
+## Prodotti e versioni interessati
+
+Questo problema può interessare tutte le versioni di Adobe Commerce in cui è configurata la dimensione massima della sessione. È stato aggiunto a partire dal Magento Open Source 2.3.7-p1 e dal Commercio Adobe (tutti i metodi di distribuzione) 2.4.3.
+
+
+## Problema
+
+Quando tenti di riconfigurare lo store, la pagina viene ricaricata e le modifiche non vengono salvate. È possibile visualizzare un messaggio in `var/log/system.log`:
+
+*[2021-11-27 00:30:52] report.WARNING: La dimensione della sessione di 418056 ha superato la dimensione massima di 256000 consentita per la sessione. [][]*
+
+<u>Passaggi da riprodurre</u>:
+
+Esempio di configurazione dell’archivio non salvata:
+
+1. Seleziona una regola nell’archivio Adobe Commerce in Produzione > **Marketing** > **Regole prezzi carrello**.
+1. Scegli una regola e imposta su *Inattivo* e salva la modifica.
+
+<u>Risultato previsto</u>:
+
+La regola è impostata su inattiva.
+
+<u>Risultato effettivo</u>:
+
+* La pagina viene ricaricata senza alcun messaggio.
+* La regola è ancora impostata su attiva.
+
+## Causa
+
+Questo problema è relativo alle nuove funzionalità introdotte di recente che hanno interessato la dimensione massima della sessione. Consulta [Gestione delle sessioni](https://docs.magento.com/user-guide/stores/security-session-management.html) nella documentazione per gli sviluppatori.
+
+## Soluzione
+
+Aumenta il valore &quot;Max Session Size&quot; (Dimensione massima sessione) in (**Negozi** > **Configurazione** > **Avanzate** > **Sistema** > **Sicurezza** > Dimensione massima sessione).
+
+## Lettura correlata
+
+* [Menu Marketing](https://docs.magento.com/user-guide/marketing/marketing-menu.html) nella guida utente.

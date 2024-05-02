@@ -1,0 +1,51 @@
+---
+title: Informazioni sulla scadenza del certificato SSL personalizzato
+description: Questo articolo fornisce una soluzione per i casi in cui un certificato SSL personalizzato è stato aggiornato con un Adobe di certificato SSL fornito.
+exl-id: cc968bae-f742-449b-b291-bc121ec45935
+feature: Support
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 0%
+
+---
+
+# Informazioni sulla scadenza del certificato SSL personalizzato
+
+Questo articolo fornisce una soluzione per i casi in cui un certificato SSL personalizzato è stato aggiornato con un Adobe di certificato SSL fornito.
+
+## Prodotti e versioni interessati
+
+Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+
+## Problema
+
+Adobe Commerce aggiorna automaticamente i certificati SSL 30 giorni prima della scadenza. Questa automazione non verifica se il certificato sostituito è un SSL interno o un SSL di terze parti personalizzato e lo sostituirà con un SSL interno valido al rilevamento della scadenza. Questo può causare confusione per i proprietari e gli operatori del sito che prevedono di avere il certificato personalizzato sul sito, nonché il rischio di altri problemi di funzionalità, tra cui, ma non solo, un’interruzione del sito.
+
+<u>Passaggi da riprodurre</u>
+
+1. Certificato SSL personalizzato installato per il sito Web.
+1. L’automazione rileva che il certificato SSL personalizzato scade dopo 30 giorni.
+1. Adobe Commerce sostituisce automaticamente il certificato personalizzato con il nostro certificato interno.
+
+<u>Risultati previsti</u>
+
+Adobe Commerce ignora i certificati personalizzati quando esegue l’aggiornamento automatico del certificato SSL.
+
+<u>Risultati effettivi</u>
+
+Adobe Commerce aggiorna qualsiasi certificato entro 30 giorni dalla scadenza.
+
+## Soluzione
+
+Quando un esercente sceglie di utilizzare il proprio certificato SSL personalizzato, questo deve essere aggiornato più di 30 giorni prima della scadenza del certificato per garantire che non venga sostituito da un certificato SSL interno di Adobe Commerce.
+
+Se ti trovi in una situazione in cui il tuo SSL personalizzato è stato sostituito dal nostro SSL interno e desideri sostituirlo con il certificato SSL personalizzato aggiornato, [invia una richiesta di assistenza](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) con il percorso in cui hai caricato i nuovi file del certificato. Includi la data di inizio del nuovo SSL. Una volta ottenute queste informazioni, possiamo procedere con l’installazione del nuovo certificato SSL.
+
+## Lettura correlata
+
+* [Certificati SSL (TLS) per il Magento Commerce Cloud: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) nella nostra knowledge base di supporto.
+* [Riferimento per gli strumenti della riga di comando: magento-cloud certificate:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) nella documentazione per gli sviluppatori.
+* [Elenco di controllo di Launch](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)nella documentazione per gli sviluppatori.
+* [Accesso allo strumento di analisi a livello di sito](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) nella guida utente.

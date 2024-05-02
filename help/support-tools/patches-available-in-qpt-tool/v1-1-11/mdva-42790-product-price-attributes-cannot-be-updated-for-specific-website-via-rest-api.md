@@ -1,0 +1,85 @@
+---
+title: "MDVA-42790: gli attributi del prezzo del prodotto non possono essere aggiornati per siti Web specifici tramite API REST"
+description: La patch MDVA-42790 risolve il problema che impediva agli utenti di aggiornare gli attributi del prezzo del prodotto per siti web specifici tramite API REST. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11. L'ID della patch è MDVA-42790. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+exl-id: b9d80190-17d2-436f-86d5-33689b8224d4
+feature: REST, Attributes, Orders, Products
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 0%
+
+---
+
+# MDVA-42790: gli attributi del prezzo del prodotto non possono essere aggiornati per siti Web specifici tramite API REST
+
+La patch MDVA-42790 risolve il problema che impediva agli utenti di aggiornare gli attributi del prezzo del prodotto per siti web specifici tramite API REST. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11. L&#39;ID della patch è MDVA-42790. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+
+## Prodotti e versioni interessati
+
+**La patch viene creata per la versione Adobe Commerce:**
+
+* Adobe Commerce (tutti i metodi di implementazione) 2.4.3-p1
+
+**Compatibile con le versioni di Adobe Commerce:**
+
+* Adobe Commerce (tutti i metodi di implementazione) 2.4.3 - 2.4.3-p1
+
+>[!NOTE]
+>
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+
+## Problema
+
+Gli utenti non possono aggiornare gli attributi del prezzo del prodotto per siti web specifici tramite API REST.
+
+<u>Passaggi da riprodurre</u>:
+
+1. In Admin vai a **Negozi** > **Configurazione** > **Catalogo** > **Prezzo** > e imposta **Ambito prezzo catalogo** al sito Web.
+1. Aggiornare il prezzo speciale per un prodotto in bundle utilizzando l’API REST, `POST rest/V1/products/`.
+
+   ```JSON
+   {
+     "product": {
+       "id": 46,
+       "sku": "24-WG080",
+       "name": "Sprite Yoga Companion Kit",
+       "attribute_set_id": 4,
+       "price": 10,
+       "status": 1,
+       "visibility": 1,
+       "type_id": "bundle",
+       "weight": 0,
+       "custom_attributes": [
+         {
+           "attribute_code": "special_price",
+           "value": "2"
+         }
+       ]
+     }
+   }
+   ```
+
+<u>Risultati previsti</u>:
+
+Il prezzo speciale viene aggiornato per il prodotto incluso quando **Ambito prezzo catalogo** è impostato su Sito Web.
+
+<u>Risultati effettivi</u>:
+
+Il prezzo speciale non viene aggiornato per il prodotto in bundle quando **Ambito prezzo catalogo** è impostato su Sito Web.
+
+## Applicare la patch
+
+Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
+
+* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+
+## Lettura correlata
+
+Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
+
+* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

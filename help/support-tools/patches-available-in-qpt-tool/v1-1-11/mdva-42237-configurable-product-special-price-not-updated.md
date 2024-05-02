@@ -1,0 +1,65 @@
+---
+title: "MDVA-42237: prezzo speciale del prodotto configurabile non aggiornato"
+description: La patch MDVA-42237 risolve il problema che impedisce l'aggiornamento del prezzo speciale del prodotto configurabile in seguito alle modifiche del prezzo del sottoprodotto. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11. L'ID della patch è MDVA-42237. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+exl-id: 3e890448-8368-4eb2-ab64-c04cdacf20bb
+feature: Admin Workspace, Configuration, Orders, Personalization, Products
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 0%
+
+---
+
+# MDVA-42237: prezzo speciale del prodotto configurabile non aggiornato
+
+La patch MDVA-42237 risolve il problema che impedisce l&#39;aggiornamento del prezzo speciale del prodotto configurabile in seguito alle modifiche del prezzo del sottoprodotto. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11. L&#39;ID della patch è MDVA-42237. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+
+## Prodotti e versioni interessati
+
+**La patch viene creata per la versione Adobe Commerce:**
+
+* Adobe Commerce (tutti i metodi di implementazione) 2.4.2-p1
+
+**Compatibile con le versioni di Adobe Commerce:**
+
+* Adobe Commerce (tutti i metodi di implementazione) 2.4.2 - 2.4.3-p1
+
+>[!NOTE]
+>
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+
+## Problema
+
+Il prezzo speciale del prodotto configurabile non viene aggiornato in seguito alle modifiche apportate al prezzo del sottoprodotto.
+
+<u>Passaggi da riprodurre</u>:
+
+1. Vai a **Amministratore** > **Sistema** > **Gestione indice** e imposta **Modalità indice** a **Aggiorna per pianificazione** per tutti gli indici.
+1. Crea un prodotto configurabile con un prodotto semplice e imposta un prezzo speciale per il sottoprodotto.
+1. Verifica che il prezzo speciale si rifletta sullo Storefront.
+1. Rimuovere il prezzo speciale utilizzando GraphQL e ricontrollare il prezzo del prodotto sul Negozio.
+
+<u>Risultati previsti</u>:
+
+Il prezzo speciale non viene più visualizzato sullo Store.
+
+<u>Risultati effettivi</u>:
+
+Il prezzo non viene aggiornato sullo Store.
+
+## Applicare la patch
+
+Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
+
+* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+
+## Lettura correlata
+
+Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
+
+* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

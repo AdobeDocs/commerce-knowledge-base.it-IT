@@ -1,0 +1,67 @@
+---
+title: "MDVA-39711: impossibile accedere alla griglia clienti dopo l'eliminazione del sito Web"
+description: La patch MDVA-39711 risolve il problema che impediva all'utente amministratore di accedere alla griglia dei clienti dopo l'eliminazione del sito Web. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7. L'ID della patch è MDVA-39711. Il problema è stato risolto in Adobe Commerce 2.4.3.
+exl-id: 46bef304-9360-4b69-b064-631725de381c
+feature: Configuration
+role: Admin
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
+
+---
+
+# MDVA-39711: impossibile accedere alla griglia clienti dopo l&#39;eliminazione del sito Web
+
+La patch MDVA-39711 risolve il problema che impediva all&#39;utente amministratore di accedere alla griglia dei clienti dopo l&#39;eliminazione del sito Web. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7. L&#39;ID della patch è MDVA-39711. Il problema è stato risolto in Adobe Commerce 2.4.3.
+
+## Prodotti e versioni interessati
+
+**La patch viene creata per la versione Adobe Commerce:**
+
+* Adobe Commerce (tutti i metodi di implementazione) 2.3.7-p2, 2.3.4-p2
+
+**Compatibile con le versioni di Adobe Commerce:**
+
+* Adobe Commerce (tutti i metodi di implementazione) 2.3.0 - 2.4.2-p2
+
+>[!NOTE]
+>
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+
+## Problema
+
+L’utente amministratore non può accedere alla griglia dei clienti dopo l’eliminazione del sito web.
+
+<u>Passaggi da riprodurre</u>:
+
+1. Crea un nuovo sito Web, store e visualizzazione store.
+1. Crea un nuovo cliente nell’amministratore e associalo al sito web creato.
+1. Vai a **Negozi** > **Tutti i negozi** ed eliminare il sito Web creato.
+1. Vai a **Clienti** > **Tutti i clienti**.
+
+<u>Risultati previsti</u>:
+
+* Nessun messaggio di errore.
+* Tutti i clienti sono visibili nella griglia.
+
+<u>Risultati effettivi</u>:
+
+* L’utente riceve un messaggio di errore: *Impossibile trovare il sito Web con ID 2 richiesto. Verifica il sito web e riprova*
+* Tutti i clienti non vengono visualizzati.
+
+## Applicare la patch
+
+Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
+
+* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+
+## Lettura correlata
+
+Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
+
+* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

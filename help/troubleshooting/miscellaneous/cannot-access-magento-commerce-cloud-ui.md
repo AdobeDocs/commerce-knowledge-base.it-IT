@@ -1,0 +1,34 @@
+---
+title: Impossibile accedere all’interfaccia utente di Adobe Commerce sull’infrastruttura cloud
+description: Questo articolo fornisce soluzioni per il problema che impedisce l’accesso all’interfaccia utente di Adobe Commerce on Cloud Infrastructure e causa il messaggio "Errore 403".
+exl-id: 948e4acd-abd6-4562-b9c0-771a977188ba
+feature: Cloud, Paas
+role: Developer
+source-git-commit: 3d3d2da45d164efbbbaf8c878967caf83f845a59
+workflow-type: tm+mt
+source-wordcount: '277'
+ht-degree: 0%
+
+---
+
+# Impossibile accedere all’interfaccia utente di Adobe Commerce sull’infrastruttura cloud
+
+Questo articolo fornisce soluzioni per il problema che non consente di accedere all’interfaccia utente di Adobe Commerce on Cloud Infrastructure e ottenere il *Errore 403*.
+
+## Problema
+
+Quando tenti di accedere all’interfaccia utente di Adobe Commerce on Cloud Infrastructure per la prima volta, ottieni un’ *403: Accesso all&#39;ambiente negato* errore. Questo errore potrebbe verificarsi perché andando all’URL cloud per la prima volta viene caricato il ramo principale e potresti non avere accesso a tale ramo.
+
+## Soluzione
+
+Se ricevi un errore 403 quando accedi all’URL per la prima volta, assicurati di avere un ruolo nel ramo principale.
+
+1. СContatta il proprietario della licenza o un utente con privilegi avanzati sul progetto e assicurati che ti abbiano fornito l’accesso come **utente a livello di ambiente**, descritto anche in [Progetti cloud > Gestisci utenti da Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console) nella documentazione per gli sviluppatori.
+
+   Se disponi solo di un ruolo applicabile in un ramo specifico, dovrai passare all’URL di quel ramo, ad esempio,
+   `https://console.adobecommerce.com/<owner-name>/<project-id>/<branch-name>`
+
+   La prossima volta che accedi all’URL principale, per impostazione predefinita verrà utilizzato l’ultimo ambiente visitato.
+
+1. Se non riesci ancora ad accedere, сcontatta il proprietario della licenza o un utente con privilegi avanzati sul progetto e assicurati che ti abbiano fornito l’accesso come **utente a livello di progetto**, come descritto in [Progetti cloud > Aggiungi un utente al progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project) nella documentazione per gli sviluppatori.
+1. Se l’errore persiste, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

@@ -1,0 +1,62 @@
+---
+title: Nuovi ambienti messi in produzione quando vengono inviati da Git
+description: Questo articolo fornisce una soluzione per il problema in cui i nuovi ambienti vengono inseriti nell’ambiente di produzione su Adobe Commerce sull’infrastruttura cloud quando vengono inviati dal sistema di controllo delle versioni Git.
+exl-id: 279cd6d8-fd45-45ba-8456-8b397a01976f
+feature: Cloud, Paas
+role: Developer
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 0%
+
+---
+
+# Nuovi ambienti messi in produzione quando vengono inviati da Git
+
+Questo articolo fornisce una soluzione per il problema in cui i nuovi ambienti vengono inseriti nell’ambiente di produzione su Adobe Commerce sull’infrastruttura cloud quando vengono inviati dal sistema di controllo delle versioni Git.
+
+## Prodotti e versioni interessati
+
+* Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+
+## Problema
+
+<u>Prerequisiti</u>:
+
+Disporre di un clone locale controllato da Git del progetto.
+
+<u>Passaggi da riprodurre</u>:
+
+È necessario creare un ramo di integrazione dal ramo di staging:
+
+1. Passa al ramo di staging eseguendo il comando seguente nella shell locale: `git checkout staging`
+1. Crea un ramo di integrazione dal ramo di staging eseguendo il seguente comando nella shell locale: `git checkout -b <branch>`
+1. Invia il ramo all’archivio remoto e imposta un ramo upstream eseguendo il seguente comando nella shell locale: `git push --set-upstream origin <branch>`
+
+<u>Risultati previsti</u>:
+
+Il nuovo ramo viene creato nel ramo di staging.
+
+<u>Risultati effettivi</u>:
+
+Il nuovo ramo è stato creato sotto il ramo di produzione.
+
+## Causa
+
+Questo non è un bug. Per impostare un ramo principale per un altro ramo, il commerciante deve utilizzare l’interfaccia della riga di comando cloud di Magento.
+
+## Soluzione
+
+Un ramo padre può essere impostato solo dopo che il commerciante ha inviato e attivato un ramo appena creato. Fai riferimento a [Adobe Commerce su infrastruttura cloud > Integrazione bitbucket](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) nella documentazione per gli sviluppatori.
+
+Per aggiornare un elemento padre per il ramo esistente sul server, utilizza `magento-cloud environment:info` comando nella CLI di magento-cloud.
+
+Esempio di utilizzo:
+
+`magento-cloud environment:info parent Staging`
+
+In questo modo il ramo padre verrà impostato su &quot;Staging&quot; per il ramo attualmente estratto.
+
+## Lettura correlata
+
+* [Adobe Commerce su infrastruttura cloud > CLI magento-cloud](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) nella documentazione per gli sviluppatori.
