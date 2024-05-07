@@ -3,9 +3,9 @@ title: "Backup (snapshot) su cloud: domande frequenti"
 description: Questo articolo illustra le nozioni di base per il backup degli ambienti con istantanee su Adobe Commerce su infrastrutture cloud.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Questo articolo descrive il backup degli ambienti con istantanee sull’infrastr
 
 ## Ripristinare uno snapshot dell’ambiente
 
-Per ripristinare uno snapshot esistente (nell&#39;ambiente supportato: integrazione, staging, produzione su piano Starter o integrazione su piano Pro), seguire i passaggi descritti in [Gestione dei backup: ripristino di un backup manuale](/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) nella Guida all’infrastruttura Commerce on Cloud.
+Per ripristinare uno snapshot esistente (nell&#39;ambiente supportato: integrazione, staging, produzione su piano Starter o integrazione su piano Pro), seguire i passaggi descritti in [Gestione dei backup: ripristino di un backup manuale](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) nella Guida all’infrastruttura Commerce on Cloud.
 
 ## Backup database (DB)
 
