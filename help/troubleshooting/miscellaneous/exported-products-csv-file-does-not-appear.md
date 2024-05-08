@@ -4,9 +4,9 @@ description: Questo articolo corregge il problema relativo al tentativo di espor
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 465eb89cf5c5169b0b459ab7e6bdcbd418781093
+source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,10 @@ Per aggiungere il processo come processo cron, è necessario aggiungere `CRON_CO
 >[!NOTE]
 >
 >Se non riesci a trovare `.magento.env.yaml` per il tuo ambiente e pensi che sia stato eliminato, devi creare un nuovo `.magento.env.yaml`. Inizialmente potrebbe essere vuoto, puoi aggiungere le informazioni in base alle esigenze. Fai riferimento ai seguenti articoli: [Configurare le variabili di ambiente per la distribuzione](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) e [Variabili di ambiente](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) nella documentazione per gli sviluppatori.
+
+>[!TIP]
+>
+>[File YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) fanno distinzione tra maiuscole e minuscole e non consentono l’uso di tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
 
 >[!NOTE]
 >
