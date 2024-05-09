@@ -1,11 +1,12 @@
 ---
-title: "La distribuzione non riesce se vengono utilizzate le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json"
+title: La distribuzione non riesce con le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json
 description: 'Questo articolo fornisce una soluzione al problema che si verifica quando la distribuzione non riesce e viene visualizzato il seguente errore: "Impossibile scaricare il file https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip (HTTP/1.1 404 - Non trovato)".'
 feature: Deploy
 role: Admin
-source-git-commit: 8e0aca8f528b017e288ae6fb19b072a5cc04761b
+exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
+source-git-commit: 54ef4e95cf0e3f5822ff5e5c566129fab331f784
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -58,4 +59,4 @@ Per i passaggi, consulta [Livelli variabili](/docs/commerce-cloud-service/user-g
 ## Lettura correlata
 
 * [Impossibile accedere all’archivio Adobe Commerce sul cloud: errore 403 Forbidden o 404 Not Found durante la distribuzione](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Errore di distribuzione: errore 7 durante il download della porta 443. Connessione rifiutata](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/deployment-error-downloading-connection-refused-adobe-commerce.html)
+* [Errore di distribuzione: errore 7 durante il download della porta 443. Connessione rifiutata](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
