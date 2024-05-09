@@ -1,19 +1,19 @@
 ---
 title: Verifica del registro di distribuzione se nell’interfaccia utente di Cloud è presente l’errore "log snipped"
-description: Questo articolo fornisce una soluzione per il problema relativo all’interfaccia utente di Adobe Commerce sull’infrastruttura cloud, dove viene visualizzato il messaggio di errore *log snipped a causa della lunghezza eccessiva* durante il tentativo di visualizzare il registro di distribuzione.
+description: Questo articolo fornisce una soluzione per il problema relativo all’interfaccia utente di Adobe Commerce sull’infrastruttura cloud, dove viene visualizzato il messaggio di errore *log snipped a causa della lunghezza eccessiva* durante il tentativo di visualizzare il registro di distribuzione nell’interfaccia utente del progetto cloud.
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# Verifica del registro di distribuzione se nell’interfaccia utente di Cloud è presente l’errore &quot;log snipped&quot;
+# Verifica del registro di distribuzione se l’interfaccia utente cloud dispone di *log snipped* errore
 
-Questo articolo fornisce una soluzione per il problema in cui l’interfaccia utente di Adobe Commerce sull’infrastruttura cloud mostra *registro troncato perché troppo lungo* messaggio di errore durante il tentativo di visualizzare il registro di distribuzione.
+Questo articolo fornisce una soluzione per il problema in cui l’interfaccia utente di Adobe Commerce sull’infrastruttura cloud mostra *registro troncato perché troppo lungo* messaggio di errore durante il tentativo di visualizzare il registro di distribuzione nell’interfaccia utente del progetto cloud. (Non si applica al [Console Adobe Commerce Cloud](https://console.adobecommerce.com/).)
 
 ## Prodotti interessati
 
@@ -21,7 +21,7 @@ Adobe Commerce su infrastruttura cloud (tutte le versioni supportate)
 
 ## Problema
 
-Quando tenti di visualizzare il registro di distribuzione, l’interfaccia utente di Adobe Commerce sull’infrastruttura cloud mostra il seguente messaggio di errore: *registro troncato perché troppo lungo*.
+Quando tenti di visualizzare il registro di distribuzione nell’interfaccia utente del progetto cloud, l’interfaccia utente di Adobe Commerce nell’infrastruttura cloud mostra il seguente messaggio di errore: *registro troncato perché troppo lungo*.
 
 ## Passaggi da riprodurre
 
