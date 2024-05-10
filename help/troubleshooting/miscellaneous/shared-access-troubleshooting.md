@@ -4,9 +4,9 @@ description: "**Problema:** si desidera fornire l'accesso condiviso al proprio c
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: e77322c04c7245538c10dfb397094eee6cfe6be9
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,19 @@ ht-degree: 0%
 1. Se manca la risorsa specifica, contatta il proprietario dell’account (titolare dell’account principale).
 
 Se riscontri ancora problemi, contatta il team dell’account Adobe o invia un’e-mail a grp-Magento-HelpCenterLoginIssues@adobe.com. Specifica il tuo nome e l’e-mail associata al tuo account.
+
+## Ho utilizzato l’accesso condiviso e ho fatto clic su [!UICONTROL Support], ma quando ho aperto un nuovo ticket, il [!UICONTROL Organization] menu a discesa non visualizzato
+
+**Problema:** Sono passato all&#39;account di accesso condiviso ma non posso accedere al **[!UICONTROL Support tab]** (ad esempio).
+
+**Possibile causa:** Ti è stato concesso l’accesso condiviso a un solo esercente nel tuo account.
+
+**Soluzione:**
+
+1. Torna a **[!UICONTROL My Account]**.
+1. Se ne elenca solo uno **[!UICONTROL Shared Name]**, che sarà il *Organizzazione predefinita* che i tuoi biglietti saranno aperti sotto.
+
+Se riscontri ancora problemi, contatta il team del tuo account Adobe o invia un’e-mail a grp-Magento-HelpCenterLoginIssues@adobe.com. Specifica il tuo nome e l’e-mail associata al tuo account.
 
 ## Ho utilizzato l&#39;accesso condiviso, ma vedo ancora i miei biglietti invece di quelli condivisi
 

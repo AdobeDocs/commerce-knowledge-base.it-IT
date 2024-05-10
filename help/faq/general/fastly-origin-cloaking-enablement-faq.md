@@ -2,9 +2,9 @@
 title: "[!DNL Fastly] domande frequenti sull’abilitazione del cloaking dell’origine"
 description: Queste domande frequenti trattano domande comuni su [!DNL Fastly] abilitazione del cloaking dell’origine in Adobe Commerce (completamente implementata dal 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
-source-git-commit: 348a1f6e455aff9ad7c562ea20c95f27c9ee0b86
+source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Questa funzione è stata originariamente creata per avvantaggiare Adobe Commerce
 
 ## Devo richiedere l’abilitazione del cloaking dell’origine per il mio progetto?
 
-No. Questa funzione avrebbe dovuto essere già implementata in tutti i progetti cloud e, per impostazione predefinita, per tutti i progetti il cui provisioning è stato eseguito dal 2021, questa funzione sarebbe stata abilitata. Tuttavia, puoi richiedere che il cloaking dell’origine sia disabilitato per il progetto da [invio di una richiesta di assistenza](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+No. Questa funzione avrebbe dovuto essere già implementata in tutti i progetti cloud e, per impostazione predefinita, per tutti i progetti il cui provisioning è stato eseguito dal 2021, questa funzione sarebbe stata abilitata.
 
 ## Il cloaking dell&#39;origine cambia l&#39;indirizzo IP in uscita?
 
@@ -37,8 +37,22 @@ No, non è così.
 
 [!DNL Fastly] non memorizza in cache le chiamate API, pertanto il client deve accettare la modifica. Il cloaking dell’origine blocca solo le richieste che vanno direttamente all’origine, ad esempio:
 
+* Produzione
+
 ```php
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
+```
+
+* Staging
+
+```php
+mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
+```
+
+* StagingX
+
+```php
+mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
 In questo esempio, il client sarà ancora in grado di accedere all’API se modifica l’URL in ``mywebsite.com``:
