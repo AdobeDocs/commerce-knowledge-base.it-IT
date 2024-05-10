@@ -4,9 +4,9 @@ description: "Questo articolo illustra come risolvere l’errore di distribuzion
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Alcuni motivi per cui le chiavi non sono valide sono:
 Per risolvere il problema relativo alle chiavi di autorizzazione, attieniti alla seguente procedura (per ulteriori informazioni su ciascuna fase, consulta le sezioni seguenti):
 
 1. Ottieni le chiavi di autorizzazione valide (ignorale se sei assolutamente sicuro che la tua chiave sia valida).
-1. Aggiungi il valore delle chiavi in `env:COMPOSER_AUTH` variabile (o accertati che sia presente il valore corretto) e controlla se le chiavi sono specificate in modo coerente nella variabile e nel `auth.json` nella directory principale del progetto.
+1. Aggiungi il valore delle chiavi in `env:COMPOSER_AUTH` variabile (o accertati che sia presente il valore corretto) e verifica se le chiavi sono specificate in modo coerente nella variabile a livello di progetto e di ambiente, nonché nella `auth.json` (se esiste) nella directory principale del progetto.
 1. Aggiornare o eliminare `auth.json`, per avere un&#39;unica posizione in cui è configurata la chiave, se i valori delle chiavi di autorizzazione non sono specificati o hanno un altro valore.
 
 ### 1. Ottenere chiavi di autorizzazione valide
