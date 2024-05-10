@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 667fcacd5b6cbf56a5fd919d0683ad6a0f979fca
+source-git-commit: 5e20e9d150eb8a527e530a19abd8b364f55a5aa6
 workflow-type: tm+mt
-source-wordcount: '9319'
+source-wordcount: '9315'
 ht-degree: 0%
 
 ---
@@ -965,7 +965,6 @@ ht-degree: 0%
    * [Problema del token Github e procedure chiave del compositore](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
    * [Problema Adobe Commerce 2.4.1: impossibile modificare l’account Amazon in Chrome](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
    * [Errori ECE-Tools e aggiornamento patch per l&#39;infrastruttura cloud Adobe Commerce 2.2.x., 2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
-   * [Risoluzione dei problemi di Check-Out rapido](/help/troubleshooting/miscellaneous/quick-checkout-issues.md)
    * [PWA Studio: Webpack si blocca prima di iniziare la compilazione](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
    * [Installare le ultime patch per risolvere i problemi di Adobe Commerce Redis](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
    * [Risolvi un errore di offset non valido](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
