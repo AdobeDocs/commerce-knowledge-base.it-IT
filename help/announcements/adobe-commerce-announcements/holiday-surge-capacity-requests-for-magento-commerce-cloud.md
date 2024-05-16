@@ -4,9 +4,9 @@ description: Durante la stagione di picco delle vendite durante le festività (a
 exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
 feature: Cloud, Paas
 role: Admin
-source-git-commit: dfd3f788f42677b631ffb5b3153a1c79c2cc1ca3
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Dopo aver completato la stima consigliata, se il team ha identificato date in cu
 
 **Visualizzare la cronologia degli upsize**
 
-Puoi visualizzare la cronologia delle dimensioni richieste nel tuo [Portale dei progetti (interfaccia utente di onboarding)](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html), in **Progetto** > **Servizi** > **Tracciamento utilizzo CPU**.
+Puoi visualizzare la cronologia delle dimensioni richieste richiedendo le informazioni al tuo **CSM (Customer Success Manager)**.
 Per ogni richiesta di ridimensionamento sono disponibili le seguenti informazioni:
 
 * **Dimensione data di inizio**: data della richiesta di upsize.
