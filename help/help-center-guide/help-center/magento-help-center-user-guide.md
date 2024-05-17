@@ -3,14 +3,14 @@ title: Guida utente di Adobe Commerce Help Center
 description: Scopri come inviare un ticket di supporto all’Help Center di Adobe Commerce, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 4e8833d100b776ca3c66a96274cde2d68eb0fd10
+source-git-commit: 86810427e8f902dc184b377257c8e86dd28f38f6
 workflow-type: tm+mt
-source-wordcount: '3993'
+source-wordcount: '3992'
 ht-degree: 0%
 
 ---
 
-# Guida utente Adobe Systems Commerce Guida Center
+# Guida utente di Adobe Commerce Help Center
 
 In questa guida, scopri come inviare un ticket di supporto al [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us) e forniscono accesso condiviso agli account di Magento.
 
@@ -101,12 +101,12 @@ Tu **deve accedere** per inviare un ticket di supporto all’Help Center tramite
 
 #### Pagina Account Magento {#submit-ticket-magento-account-page}
 
-Per inviare un nuovo ticket di supporto utilizzando la pagina Account Magento, seguire questi passaggi:
+Per inviare un nuovo ticket di supporto utilizzando la pagina dell’account di Magento, effettua le seguenti operazioni:
 
-1. Accedi al tuo account Magento. Consulta [le istruzioni](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) dettagliate nella nostra guida utente.
-1. Fai clic sulla **scheda Supporto** .
+1. Accedi al tuo account di Magento. Consulta [istruzioni dettagliate](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) nella guida utente.
+1. Fai clic su **Supporto** scheda.
 
-   ![magento_account_support_scheda](assets/magento_account_support_tab.png){width="800"}
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
 
 1. La pagina iniziale dell&#39;Help Center viene caricata automaticamente.
 1. Clic **Invia un ticket** nell’angolo superiore destro.
@@ -197,14 +197,14 @@ La soluzione consiste nel convalidare il tuo indirizzo e-mail:
    ![Validate_Email_Solution](assets/Validate_Email_Solution.png){width="800"}
 
 1. Facendo clic su **Convalida e-mail** Il pulsante invia un messaggio e-mail all’indirizzo e-mail registrato per questo account di Magento con un collegamento per convalidare l’indirizzo e-mail.
-1. Fai clic sul convalida collegare e-mail per convalidare l&#39;e-mail e risolvere il problema.
-1. Se non ricevi un&#39;e-mail con un convalida collegare e-mail, invia un&#39;e-mail [Guida Center login problemi](mailto:grp-magento-helpcenterloginissues@adobe.com) e indica che non puoi convalidare il tuo indirizzo e-mail.
+1. Fai clic sul collegamento di convalida dell’e-mail per convalidare l’e-mail e risolvere il problema.
+1. Se non ricevi un’e-mail con un collegamento di convalida e-mail, invia un’e-mail a [Problemi di accesso all’Help Center](mailto:grp-magento-helpcenterloginissues@adobe.com) e indica che non puoi convalidare il tuo indirizzo e-mail.
 
 >[!NOTE]
 >
->Questo vale solo per i convalida collegare e-mail da https://account.magento.com (pagina Account Magento).
+>Questo vale solo per il collegamento di convalida e-mail da https://account.magento.com (pagina Account di Magento).
 
-### Modulo di invio ticket: il commerciante non viene visualizzato nel menu a discesa Organizzazione {#merchant-not-displayed}
+### Modulo di invio biglietto: il commerciante non viene visualizzato nel menu a discesa Organizzazione {#merchant-not-displayed}
 
 #### Problema
 
@@ -272,14 +272,14 @@ Puoi seguire i ticket di supporto inviati dai membri della tua organizzazione.
 Quando segui i biglietti della tua organizzazione:
 
 * può visualizzare i ticket all’interno di **Ticket organizzazione** scheda
-* Ricevi notifiche e-mail quando vengono inviati i nuovi ticket o i ticket esistenti vengono modificati
+* ricevere notifiche e-mail quando vengono inviati nuovi biglietti o quando vengono modificati quelli esistenti
 
-Per seguire/non seguire più ticket per un&#39;organizzazione:
+Per seguire/non seguire i ticket di un’organizzazione:
 
-1. Vai a **I miei biglietti** > **Biglietti dell&#39;organizzazione** scheda.
-1. Selezionate un&#39;organizzazione nel menu e fate clic su **Segui/Smetti di seguire**.
+1. Vai a **I miei biglietti** > **Ticket organizzazione** scheda.
+1. Seleziona un’organizzazione nel menu e fai clic su **Segui/Non seguire**.
 
-![hc_seguire-org-tickets.png](assets/hc_follow-org-tickets.png)
+![hc_follow-org-ticket.png](assets/hc_follow-org-tickets.png)
 
 ### Hotline per Adobe Commerce P1 {#P1-hotline}
 
@@ -303,13 +303,13 @@ Allega registri, schermate, registrazioni video o qualsiasi altro supporto che p
 
 L&#39;URL deve iniziare con &quot;https://&quot;. In genere è nel formato: nome del commerciante +&quot;.mcom.magento.com/admin/login&quot;, ad esempio &quot;https://luma.mcom.magento.com/admin/login&quot;.
 
-Puoi anche inserire i collegare diretti relativi al tuo problema.
+Puoi anche inserire il collegamento diretto relativo al problema.
 
 #### CC
 
-E-mail delle persone a cui desideri seguire il tuo ticket (ad esempio, *first@e.mail*).
+E-mail delle persone che desideri seguire il biglietto (ad esempio, *first@e.mail*).
 
-È possibile aggiungere e-mail di persone che non dispongono di un account Magento o di un account Zendesk; Queste persone sono ancora in grado di contribuire alla conversazione nel tuo ticket.
+Puoi aggiungere le e-mail delle persone che non hanno un Account di Magento o un account Zendesk; queste persone sono ancora in grado di contribuire alla conversazione nel biglietto.
 
 Per aggiungere più e-mail a CC:
 
@@ -329,7 +329,7 @@ Per eliminare le e-mail da CC: fai clic su **x** in un messaggio e-mail con fram
 
 #### Prodotto
 
-Seleziona il tipo di prodotto Adobe Systems Commerce che stai utilizzando:
+Seleziona il tipo di prodotto Adobe Commerce con cui stai lavorando:
 
 * Adobe Commerce: The **[!UICONTROL Implementation Type]** dopo aver selezionato questa opzione verrà visualizzato il campo (vedi di seguito per i dettagli)
 * Magento Order Management
@@ -375,12 +375,12 @@ Includi una panoramica del problema con il maggior numero di dettagli ragionevol
 
 Fornisci dettagli precisi e passaggi da riprodurre (tranne per l’infrastruttura on-premise e cloud di Adobe Commerce, in cui è presente un [Passaggi da riprodurre](#steps) ) e i sintomi del problema o della richiesta. Assicurati di includere eventuali SKU interessate, punti di dati pertinenti e altri collegamenti pertinenti.
 
-#### Ambiente (Adobe Systems Commerce in infrastruttura cloud, Adobe Systems Commerce locale, solo Adobe Systems reporting e spedizione di Commerce)
+#### Ambiente (Adobe Commerce su infrastruttura cloud, Adobe Commerce on-premise, solo Adobe Commerce Reporting and Shipping)
 
-Seleziona il tipo **di** ambiente in cui ti trovi di fronte al problema:
+Seleziona la **tipo di ambiente** su cui si affronta il problema:
 
-* Sviluppo (**rami** di integrazione)
-* Gestione temporanea
+* Sviluppo (**Rami di integrazione**)
+* Staging
 * Produzione
 
 Ulteriori informazioni su Adobe Commerce sugli ambienti dell’infrastruttura cloud in [Architettura Pro](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html) nella guida utente.
@@ -407,13 +407,13 @@ Questo campo viene visualizzato quando l’account è associato a più organizza
 >
 >1. Vai alla colonna di destra del biglietto.
 >1. Individua il menu a discesa delle organizzazioni disponibili.
->1. Selezionare l&#39;organizzazione appropriata.
+>1. Seleziona l’organizzazione appropriata.
 >
 >![Menu a discesa Organizzazione](/help/help-center-guide/help-center/assets/change_org.png)
 
-Inoltre, questo ci consentirebbe di incrociare rapidamente i riferimenti a ticket simili/duplicati/correlati inviati per questa organizzazione in passato e identificare indizi che potrebbero aiutare a indagare e risolvere il ticket corrente.
+Inoltre, questo ci consentirebbe di incrociare rapidamente i riferimenti a ticket simili/duplicati/correlati inviati per questa organizzazione in passato e di identificare indizi che potrebbero essere utili per indagare e risolvere il ticket corrente.
 
-Se disponi dell&#39;accesso condiviso a più organizzazioni ma questo campo non è disponibile, consulta [Modulo di invio ticket: il commerciante non viene visualizzato nel menu a discesa Organizzazione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed)
+Se si dispone dell&#39;accesso condiviso a più organizzazioni ma questo campo non è disponibile, fare riferimento a [Modulo di invio biglietto: il commerciante non viene visualizzato nel menu a discesa Organizzazione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#merchant-not-displayed)
 
 #### Nome partner (nome commerciante)
 
@@ -435,7 +435,7 @@ Fornisci istruzioni dettagliate per riprodurre il problema, tra cui:
 
 *Consiglio:* Supponiamo che tu stia scrivendo questi passaggi per qualcuno che conosce **niente** Adobe Commerce:
 
-* Menziona ogni passaggio, lineare se sembra semplice e ovvio
+* Menziona ogni passaggio, anche se sembra semplice e ovvio
 * Non fare affidamento sul presupposto che il lettore sappia cosa si intende
 
 Scrivi in un linguaggio semplice, con frasi brevi.
@@ -472,7 +472,7 @@ Il ticket non è stato risolto ed è in fase di elaborazione da parte del team d
 
 #### **2. In attesa di risposta**
 
-Adobe Systems supporto di Commerce si aspettano informazioni da parte tua.
+Il supporto Adobe Commerce si aspetta di ricevere informazioni da parte tua.
 
 Nella tua risposta, puoi specificare ulteriori dettagli tecnici sul problema, fornire dettagli sull’escalation o dichiarare se la soluzione, offerta dal supporto Adobe Commerce, si è rivelata utile per il problema. Assicurati di fornire le risposte il prima possibile, poiché il supporto Adobe Commerce non può procedere con l’elaborazione del ticket mentre si trova in **In attesa di risposta** stato.
 
@@ -480,13 +480,13 @@ Fai riferimento a [Aggiornamento dei criteri del ciclo di vita dei ticket di sup
 
 #### **3. Risolto**
 
-Il supporto Adobe Commerce ha fornito una soluzione per il problema e hai accettato che sia stato utile. Sei tu che segna il biglietto come **Risolto**. Se il problema risolto si verifica di nuovo, è possibile riaprire il ticket, impostandone lo stato su **Apri**.
+Il supporto Adobe Commerce ha fornito una soluzione per il problema e hai accettato che sia stato utile. Sei tu che contrassegna il biglietto come **Risolto**. Se il problema risolto si verifica di nuovo, è possibile riaprire il ticket, impostandone lo stato su Indietro a **Apri**.
 
-### Conversazione nel tuo ticket {#conversation-in-ticket}
+### Conversazione nel biglietto {#conversation-in-ticket}
 
-La conversazione nel tuo ticket unisce tutti i commenti scritti da te o dal supporto di Adobe Systems Commerce team. I commenti vengono visualizzati dall&#39;ultima (in alto) alla meno recente (in basso).
+La conversazione nel ticket unisce tutti i commenti scritti da te o dal team di supporto Adobe Commerce. I commenti vengono visualizzati dall&#39;ultimo (in alto) al primo (in basso).
 
-Per aggiungere un commento alla conversazione, seguire questi passaggi:
+Per aggiungere un commento alla conversazione, eseguire la procedura seguente:
 
 1. Scorri fino alla parte inferiore del biglietto.
 1. Fai clic su **Aggiungi alla conversazione** campo per iniziare a scrivere.
@@ -510,13 +510,13 @@ Per risolvere il ticket, fai clic su **Contrassegna come risolto** in fondo al b
 
 L’apertura di un ticket di follow-up garantirà che la questione originale sia collegata al ticket di follow-up per la continuità.
 
-Per aprire un ticket seguire-up, fai clic sul collegare &quot;*crea un seguire-up*&quot; nella parte inferiore del ticket a cui desideri creare un seguire fino a.
+Per aprire un ticket di follow-up, fai clic su &quot;*creare un follow-up*&quot; in fondo al ticket a cui desideri dare seguito.
 
 ## ACCESSO CONDIVISO: CONCEDI PRIVILEGI AD ALTRI UTENTI PER ACCEDERE AL TUO ACCOUNT {#shared-access}
 
-Puoi concedere accesso limitati al tuo account ad altri titolari di Magento Account. In particolare, utilizzando la **funzionalità di accesso** condivisa, è possibile fornire privilegi a dipendenti e fornitori di servizi fidati per utilizzare il account del Centro Guida in modo che possano lavorare con i ticket di supporto.
+Puoi concedere un accesso limitato al tuo account per altri titolari di account di Magento. In particolare, utilizzando **accesso condiviso** funzionalità, è possibile fornire privilegi a dipendenti e provider di servizi attendibili per utilizzare l&#39;account del Centro assistenza in modo che possano utilizzare i ticket di supporto.
 
-Puoi fornire e gestire accesso condivisi utilizzando la pagina Account Magento all&#39;indirizzo [https://account.magento.com](https://account.magento.com/).
+Puoi fornire e gestire l’accesso condiviso utilizzando la pagina dell’account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
 
 ### Chi può fornire l’accesso condiviso {#who-can-provide-shared-access}
 
@@ -574,7 +574,7 @@ Tuttavia, una volta revocate le autorizzazioni per tali utenti di Accesso condiv
 1. Trova l’utente da cui revocare l’accesso condiviso e fai clic su **[!UICONTROL Edit]** nella riga dell&#39;utente (*[!UICONTROL Actions]* colonna).
 1. Deseleziona tutte le risorse in *[!UICONTROL Grant Account Permissions]*.
 
-![immagine](https://git.corp.adobe.com/storage/user/38345/files/2d42fa60-559f-4697-a3cf-287c7e765405)
+![grant-account-permissions-image](assets/help-center-user-guide-grant-account-permissions-image.png){width="800"}
 
 Per ulteriori informazioni, fare riferimento al [Gestisci accesso utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-project-web-interface) documentazione sulla guida Commerce on Cloud Infrastructure.
 
@@ -582,14 +582,14 @@ Per ulteriori informazioni, fare riferimento al [Gestisci accesso utente](https:
 
 Per utilizzare l’accesso condiviso fornito, effettua le seguenti operazioni:
 
-1. Accedi al tuo account Magento su [https://account.magento.com](https://account.magento.com/).
-1. Fare clic sul **menu Cambia account** e selezionare un account.
+1. Accedi al tuo account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
+1. Fai clic su **Cambia account** e selezionare un account.
 
-   ![Magento-account-condiviso-switch](assets/magento-account-shared-switch.png){width="800"}
+   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
 
-Per sapere quale account stai attualmente utilizzando (nativo account tua o accesso condivisa), consulta il **menu Cambia account** : visualizza il account attivo.
+Per sapere quale account si sta attualmente utilizzando (il proprio account nativo o accesso condiviso), vedere **Cambia account** menu: visualizza l’account attivo.
 
-### Risoluzione dei problemi relativi ai accesso condivisi {#troubleshooting-shared-access}
+### Risoluzione dei problemi di accesso condiviso {#troubleshooting-shared-access}
 
 Consulta la sezione [Articolo sulla risoluzione dei problemi di accesso condiviso](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md) nella nostra knowledge base di supporto.
 
