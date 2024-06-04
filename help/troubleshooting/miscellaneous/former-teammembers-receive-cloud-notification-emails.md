@@ -4,16 +4,18 @@ description: Questo articolo fornisce una soluzione per l’invio di e-mail di n
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: 075f295c5b600fcca9fbecc5aad20b0640d900f9
+source-git-commit: 0017d43e221ef3023630f714c34aa65b368e214f
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
 
 # Gli ex membri del gruppo ricevono le e-mail di notifica cloud di Adobe Commerce
 
-Questo articolo fornisce una soluzione per la ricezione di notifiche da parte dei membri del team non più associati al progetto.
+Questo articolo fornisce una soluzione per rimuovere dall’elenco dei destinatari le e-mail di notifica che sono:
+* Ex membri del team non più associati al progetto.
+* Membri attuali del team che non dovrebbero ricevere le notifiche.
 
 ## Problema
 
