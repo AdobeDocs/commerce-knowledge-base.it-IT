@@ -3,7 +3,7 @@ title: Ripristino dello stato precedente dell’ambiente senza snapshot cloud
 description: Questo articolo mostra due soluzioni per eseguire il rollback di un ambiente senza avere un’istantanea dell’ambiente su Adobe Commerce sull’infrastruttura cloud.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: f3c976bd44dbc47bd5cc8076f1679d56910cfaf3
+source-git-commit: 5347e8714ef1374440f5d246100a0221e4b189fc
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -44,13 +44,13 @@ Leggi i passaggi dettagliati seguenti:
 
 È necessario disabilitare Gestione configurazione in modo che non applichi automaticamente le impostazioni di configurazione precedenti durante la distribuzione.
 
-Per disabilitare la gestione della configurazione, assicurati che `/app/etc/` la directory non contiene `config.php` (per Adobe Commerce 2.2.x) o `config.local.php` (per Adobe Commerce 2.1.x).
+Per disabilitare la gestione della configurazione, assicurati che `/app/etc/` la directory non contiene `config.php` (per Adobe Commerce 2.4.x) o `config.local.php` (per Adobe Commerce 2.1.x).
 
 Per rimuovere il file di configurazione, effettuare le seguenti operazioni:
 
 1. [SSH per l’ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Rimuovi il file di configurazione:
-   * Per Adobe Commerce 2.2:
+   * Per Adobe Commerce 2.4:
 
    ```php
     rm app/etc/config.php
