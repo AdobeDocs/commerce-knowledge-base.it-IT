@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per i casi in cui si esauris
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 6af353bb379ee88248342a7cb514dd9d36d47a92
+source-git-commit: 86515936f72bbd0a5778cb81f665993ed91e4707
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce sull’infrastruttura cloud: 2.3.0-2.3.7, 2.4.0-2.4.2-p1
+* Adobe Commerce sull’infrastruttura cloud 2.4.2 - 2.4.7
 * Questo è specifico per i cluster Pro dedicati. Gli ambienti Starter e Integration sono a nodo singolo e non dispongono del `/data/exports` directory.
 
 ## Segni di spazio su disco insufficiente
