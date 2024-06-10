@@ -5,14 +5,18 @@ description: Applicare una patch per gestire [!DNL UPS] migrazione integrazione 
 feature: Shipping/Delivery
 role: Developer
 exl-id: 8ab5d4a8-0155-4b2c-ab67-d0bd2f949a07
-source-git-commit: 7785a37e033bc2bea5b6a1509c337289e7b871cb
+source-git-commit: 6694bb1e041e6285f5bd5a05a1c37b7062521f52
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
 
 # [!DNL UPS] migrazione integrazione metodo di spedizione da [!DNL SOAP] a [!DNL RESTful API]
+
+>[!NOTE]
+>
+>Se hai caricato una delle tre patch di questo articolo prima di **6 giugno 2024**: se stai affrontando questo problema a causa del [!DNL Metric System/SI] misurazioni (chilogrammi e centimetri) non utilizzate, è necessario riapplicare una di queste nuove patch aggiornate ora pubblicate in questo articolo per la versione 2.4.4+/2.4.5+/2.4.6+ di Adobe Commerce/Magento Open Source, altrimenti non sarà possibile selezionare [!DNL Metric System/SI] misurazioni di **chilogrammi** e **centimetri** nel [!DNL UPS] metodi di spedizione in **[!DNL Admin configuration]**. Queste nuove patch sono compatibili con le patch rilasciate in precedenza. Questo problema verrà risolto definitivamente nell’ambito della prossima versione di Adobe Commerce 2.4.7-p1 pianificata per **11 giugno 2024**.
 
 >[!NOTE]
 >
@@ -39,9 +43,11 @@ Adobe Commerce su infrastruttura cloud e on-premise e Magento Open Source:
 * 2.4.6.
 * 2,4,6-pX
 
-## Causa
+## Cause
 
 Il [!DNL UPS] ha rilasciato un [aggiornamento di sicurezza per [!DNL API]](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914).
+
+Se si dispone di Unione europea (altre origini possono sperimentare lo stesso problema) come origine della spedizione, ciò causerà un errore nel [!DNL UPS REST] richiesta: &quot;*Una spedizione non può avere un KGS/IN o LBS/CM o OZS/CM come unità di misura.*&quot;
 
 ## Soluzione
 
@@ -55,15 +61,15 @@ Utilizza le seguenti patch allegate, a seconda della versione di Adobe Commerce/
 
 ### Per le versioni 2.4.4, 2.4.4-pX:
 
-* [AC-9363_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-9646_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
+* [AC-11984_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip](assets/AC-11984_UPS_Shipping_Method_Migration_REST_API_2.4.4x_COMPOSER.patch.zip)
 
 ### Per le versioni 2.4.5, 2.4.5-pX:
 
-* [AC-9358_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-9647_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
+* [AC-11983_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip](assets/AC-11983_UPS_Shipping_Method_Migration_REST_API_2.4.5x_COMPOSER.patch.zip)
 
 ### Per le versioni 2.4.6, 2.4.6-pX:
 
-* [AC-9345_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-9648_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
+* [AC-11916_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip](assets/AC-11916_UPS_Shipping_Method_Migration_REST_API_2.4.6x_COMPOSER.patch.zip)
 
 ## Come applicare il cerotto
 
