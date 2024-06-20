@@ -4,9 +4,9 @@ description: Scopri di più su [!DNL Site-Wide Analysis Tool], strumento self-se
 exl-id: 7c843d55-9e2c-4b18-8859-0ebad0ae28cf
 feature: Best Practices, Saas, Support, Tools and External Services
 role: Admin
-source-git-commit: 4e327654279095f6523a7cbec77bd2dca57b2034
+source-git-commit: 580ad148cd4346868cd9892a1ae9a4d85f73edce
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -58,3 +58,7 @@ Tutti i clienti, indipendentemente dal [!DNL Site-Wide Analysis Tool] Health Ind
 ## Come vengono consegnati i rapporti?
 
 [!DNL Site-Wide Analysis Tool] i report vengono consegnati automaticamente tramite il sistema di ticket di supporto di Adobe Commerce mensilmente o trimestralmente. [!DNL Site-Wide Analysis Tool] I rapporti possono essere generati manualmente anche dal [!DNL Site-Wide Analysis Tool] Dashboard e salvati sul desktop. Questi [!DNL Site-Wide Analysis Tool] i report possono quindi essere inviati tramite e-mail come allegati.
+
+>[!NOTE]
+>
+>Dopo aver applicato un consiglio, la generazione manuale di un rapporto non aggiorna i consigli; potrebbero essere necessari alcuni giorni per rimuoverlo dal [!DNL Site-Wide Analysis Tool Dashboard].
