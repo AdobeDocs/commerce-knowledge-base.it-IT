@@ -4,9 +4,9 @@ description: Se sei un cliente Adobe Commerce su infrastruttura cloud con archit
 exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 feature: Integration
 role: Admin
-source-git-commit: 43be85de953909253900d60488f76a20bac91793
+source-git-commit: fb26b71316e04de31fa6a895b87230bed5c1ca6a
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # Richiesta di miglioramento dell’ambiente di integrazione - Pro e Starter
 
 Se sei un cliente Adobe Commerce su infrastruttura cloud con architettura Pro e al momento utilizzi ambienti di integrazione di dimensioni standard, o sei un cliente Adobe Commerce su infrastruttura cloud con architettura di pianificazione Starter e al momento utilizzi l’ambiente di staging di dimensioni standard e desideri maggiore potenza, puoi richiedere un aggiornamento agli ambienti di integrazione avanzata, che forniscono prestazioni quattro volte superiori. Questo articolo separa le istruzioni per i clienti Pro dai clienti Starter.
+
+>[!NOTE]
+>
+> L’aggiornamento a Integrazione avanzata potrebbe non risolvere tutti i problemi di prestazioni, in quanto dipenderebbe dai requisiti di risorse totali dell’installazione, incluse integrazioni o personalizzazioni di terze parti.
+>
+> È inoltre necessario assicurarsi di seguire le best practice per ottenere le migliori prestazioni nell’ambiente di integrazione, e anche questo potrebbe non essere una soluzione completa. Consulta la seguente documentazione per maggiori informazioni: [Architettura Pro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) e [Architettura iniziale](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) nella Guida all’infrastruttura cloud di Commerce.
 
 ## Pro
 
