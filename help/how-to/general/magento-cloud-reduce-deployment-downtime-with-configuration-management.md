@@ -3,7 +3,7 @@ title: Riduzione dei tempi di inattività dell'implementazione su Adobe Commerce
 description: Per ridurre drasticamente i tempi di inattività di manutenzione e fornire una configurazione efficiente dello store tra gli ambienti, Adobe Commerce sull’infrastruttura cloud fornisce la funzione **Gestione della configurazione**. Per l’infrastruttura cloud Adobe Commerce 2.2.x e le implementazioni successive, questa funzione supporta i concetti e le opzioni di distribuzione della pipeline con passaggi ridotti.
 exl-id: fde3571c-d95c-4a9b-a024-3b29f9c491ab
 feature: Build, Cloud, Configuration, Deploy
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 23d957ceac17f9989d14b215582304199d398545
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -20,7 +20,7 @@ I problemi che richiedono tempo e denaro per l’implementazione del Web store i
 
 * **Applicare la stessa configurazione in tutti gli ambienti.** In genere, le configurazioni vengono immesse manualmente o tramite complessi aggiornamenti del database. Con Configuration Management, puoi esportare le configurazioni dal database in un singolo file per inviarlo in seguito con il tuo codice dall’ambiente di sviluppo locale a Integration, Staging e Produzione.
 
-* **Tempi di inattività del sito durante la distribuzione di contenuto statico.** In genere, il contenuto statico viene distribuito durante [fase di distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase). Questa operazione può richiedere fino a 30 minuti o più, il che non è accettabile per gli affari. La gestione della configurazione sposta la distribuzione del contenuto statico nel [fase di build](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase), che non richiede tempi di inattività.
+* **Tempi di inattività del sito durante la distribuzione di contenuto statico.** In genere, il contenuto statico viene distribuito durante [fase di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase). Questa operazione può richiedere fino a 30 minuti o più, il che non è accettabile per gli affari. La gestione della configurazione sposta la distribuzione del contenuto statico nel [fase di build](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase), che non richiede tempi di inattività.
 
 ## Versioni della tecnologia
 
@@ -34,7 +34,7 @@ Per farla breve, il processo di gestione della configurazione (noto anche come d
 Ciò offre i seguenti vantaggi:
 
 * **Impostazioni coerenti in tutti gli ambienti:** tutte le impostazioni esportate nel file di configurazione vengono bloccate (i campi corrispondenti nell’amministratore di Commerce diventano di sola lettura), il che garantisce configurazioni coerenti quando il file viene inviato in tutti gli ambienti.
-* **Tempi di inattività ridotti:** la distribuzione dei file statici si sposta dal [fase di distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#deploy-phase) (che richiede che il sito sia in modalità di manutenzione) al [fase di build](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?#build-phase) (quando il sito non è in modalità Manutenzione e non verrà disattivato in caso di errori o problemi).
+* **Tempi di inattività ridotti:** la distribuzione dei file statici si sposta dal [fase di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase) (che richiede che il sito sia in modalità di manutenzione) al [fase di build](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase) (quando il sito non è in modalità Manutenzione e non verrà disattivato in caso di errori o problemi).
 * **Dati sensibili protetti:** con Adobe Commerce on cloud infrastructure 2.2 e versioni successive, il processo esporta anche tutti i dati sensibili (ad esempio, le credenziali del gateway di pagamento) in `env.php` file. Questo file deve essere salvato solo nell’ambiente in cui viene creato e non inviato con i rami Git.
 
 Si consiglia vivamente di applicare l’approccio di gestione della configurazione nell’implementazione.

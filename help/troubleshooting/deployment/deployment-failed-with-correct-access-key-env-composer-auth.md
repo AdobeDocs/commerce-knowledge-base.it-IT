@@ -4,9 +4,9 @@ description: 'Questo articolo fornisce una soluzione al problema che si verifica
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 54ef4e95cf0e3f5822ff5e5c566129fab331f784
+source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 
 Adobe Commerce sull’infrastruttura cloud 2.4.x
 
-## Problema  
+## Problema
 
 <u>Passaggi da riprodurre</u>:
 
-Tentativo di distribuzione. 
+Tentativo di distribuzione.
 
 <u>Risultati previsti</u>:
 
@@ -40,7 +40,7 @@ Distribuzione completata.
 >
 >Questo è un errore di esempio. Potresti visualizzare un errore che indica un file diverso (a seconda della versione di Adobe Commerce implementata).
 
-La distribuzione non è riuscita. Viene visualizzato un errore simile a *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+La distribuzione non è riuscita. Viene visualizzato un errore simile a *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 
 ### Causa
@@ -54,7 +54,7 @@ Le chiavi di accesso del compositore specificate presenti in una di queste posiz
 
 Aggiornare il `env:COMPOSER_AUTH` a livello di progetto e assicurati che sia configurato con chiavi che hanno accesso al codice.
 
-Per i passaggi, consulta [Livelli variabili](/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) nella Guida all’infrastruttura cloud di Commerce.
+Per i passaggi, consulta [Livelli variabili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) nella Guida all’infrastruttura cloud di Commerce.
 
 ## Lettura correlata
 

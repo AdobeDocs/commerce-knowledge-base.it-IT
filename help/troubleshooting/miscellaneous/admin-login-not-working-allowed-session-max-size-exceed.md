@@ -2,9 +2,9 @@
 title: '[!DNL Admin] accesso non funzionante - dimensione massima sessione consentita superata'
 description: Risolvi il problema quando tenti di accedere al tuo [!DNL Admin] e il modulo si aggiorna. Impossibile effettuare l’accesso.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,6 @@ Puoi impostare su un valore superiore a *500000* a seconda della dimensione mass
 
 ## Lettura correlata
 
-* [Dimensione sessione](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions) nella Guida ai sistemi di amministrazione.
-* [Modalità operativa](/docs/commerce-operations/configuration-guide/cli/set-mode.html) nella Guida alla configurazione.
-* [Connessioni sicure](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) nella Guida all’infrastruttura cloud di Commerce.
+* [Dimensione sessione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) nella Guida ai sistemi di amministrazione.
+* [Modalità operativa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) nella Guida alla configurazione.
+* [Connessioni sicure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) nella Guida all’infrastruttura cloud di Commerce.
