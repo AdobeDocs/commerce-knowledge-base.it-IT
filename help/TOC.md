@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 449e37e140e7df13be8d59a61a33c6298cb65f53
+source-git-commit: 366e27875cd3a764d99d62997336c11adafcb623
 workflow-type: tm+mt
-source-wordcount: '11040'
+source-wordcount: '11052'
 ht-degree: 0%
 
 ---
@@ -956,7 +956,7 @@ ht-degree: 0%
       * [Risolvi i problemi relativi alla chiave di crittografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [Errore &quot;L’applicazione di aggiornamento non è disponibile&quot;](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
       * [Impossibile accedere al progetto cloud corretto](/help/troubleshooting/miscellaneous/cannot-access-the-correct-cloud-project.md)
-      * [PWA Studi: le query di Venia GraphQL su Adobe Commerce generano errori di convalida](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
+      * [PWA Studio: le query di Venia GraphQL su Adobe Commerce generano errori di convalida](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
       * [Stato del magazzino non corretto dopo l’installazione di Inventory management](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Problema noto di Adobe Commerce 2.3.5: ordini di prodotti virtuali con più spedizioni](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
       * [Utilizzo delle esportazioni di dati per individuare le discrepanze](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
@@ -1031,7 +1031,7 @@ ht-degree: 0%
       * [Errore durante l’eliminazione della cache Fastly nel cloud (richiesta di eliminazione non elaborata correttamente)](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
       * [Informazioni sulla scadenza del certificato SSL personalizzato](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [Risoluzione dei problemi Redis su Adobe Commerce](/help/troubleshooting/miscellaneous/redis-troubleshooter.md)
-      * [PWA Studi: errori di convalida durante l’esecuzione della modalità sviluppatore](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
+      * [PWA Studio: errori di convalida durante l’esecuzione della modalità sviluppatore](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [Disattiva le e-mail orarie di Amazon quando si utilizza Adobe Commerce](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [La cache invalidata causa un deterioramento del tempo di risposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
       * [Problema del token Github e procedure chiave del compositore](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
@@ -1054,19 +1054,19 @@ ht-degree: 0%
       * [ERRORE: riscaldamento non riuscito in Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
       * [Impossibile clonare l’archivio GitHub del Magento](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [Catalogo Live Search non sincronizzato](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
-      * [PWA Studi: il browser non è in grado di risolvere il sito .local.pwadev](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
+      * [PWA Studio: il browser non è in grado di risolvere il sito .local.pwadev](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [Recommendations del prodotto non visualizzato in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
       * [Risoluzione dei problemi Fastly di Adobe Commerce](/help/troubleshooting/miscellaneous/magento-fastly-troubleshooter.md)
       * [Le richieste AJAX a throughput elevato causano prestazioni insoddisfacenti](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
-      * [PWA Studi: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy a&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
+      * [PWA Studio: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy a&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [eseguire l&#39;installazione:static-content:problema deploy_version.txt](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [Reindirizza al modulo di accesso dell’amministratore di Commerce con l’errore &quot;L’account è temporaneamente disabilitato&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
       * [La Google Analytics viene disabilitata dopo la distribuzione](/help/troubleshooting/miscellaneous/google-analytics-gets-disabled-after-deployment.md)
-      * [Risoluzione dei problemi di blocco dell&#39;account Adobe Commerce Intelligence](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
+      * [Risoluzione dei problemi di blocco dell’account Adobe Commerce Intelligence](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
       * [Problemi noti che influiscono sull&#39;installazione di xdebug](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [Impossibile accedere al supporto Adobe Commerce o all’account cloud](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
       * [Dipendenze dei componenti in conflitto](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
-      * [Criteri di Adobe Commerce Intelligence Service](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
+      * [Criteri di servizio Adobe Commerce Intelligence](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [Nuovi ambienti messi in produzione quando vengono inviati da Git](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Errore dopo l’accesso all’amministrazione di Commerce](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [Timeout di Magenti Order Management System (OMS) per Adobe Commerce](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
@@ -1113,6 +1113,7 @@ ht-degree: 0%
       * [Distribuzione non riuscita: nessun comando definito nell&#39;errore dello spazio dei nomi &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [La distribuzione non riesce con le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemi noti {#known-issues-patches-attached}
+      * [Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB24-40] Rivisto per includere patch isolata per [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS] migrazione integrazione metodo di spedizione da [!DNL SOAP] a [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Hotfix di supporto per il metodo di spedizione Ground Advantage per AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - 2.4.5 hotfix di sicurezza per CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
@@ -1165,7 +1166,7 @@ ht-degree: 0%
       * [Errore Adobe Commerce 2.4.6 nell’effettuare l’ordine dal pannello di amministrazione](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemi di etichetta durante l’aggiornamento dalle versioni &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [[!DNL JQuery UI] vulnerabilità di sicurezza [!DNL CVE-2022-31160] correzione per le versioni 2.4.4, 2.4.5 e 2.4.6](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
-      * [[!DNL FedEx] migrazione dell’integrazione del metodo di spedizione da SOAP all’API RESTful](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
+      * [[!DNL FedEx] migrazione dell’integrazione del metodo di spedizione dall’SOAP all’API RESTful](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
    * Elasticsearch {#elasticsearch}
       * [Ripristino di [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Problemi di Elasticsearch dopo l’aggiornamento all’infrastruttura cloud Adobe Commerce 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
@@ -1209,14 +1210,14 @@ ht-degree: 0%
    * [Cambia il proprietario dell&#39;account per New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Modificare l’URL amministratore su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/change-magento-admin-url-on-cloud.md)
    * [Abilita Elasticsearch su cloud](/help/how-to/general/enable-elasticsearch-on-cloud.md)
-   * [Configurare NPM per l&#39;utilizzo di PWA Studi](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
+   * [Configurare NPM per l&#39;utilizzo di PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [Riorganizzare i rami cloud in Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [Come trovare la documentazione del prodotto Adobe Commerce](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [Reindirizza HTTP a HTTPS per tutte le pagine su Adobe Commerce nell’infrastruttura cloud (Forza TLS)](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [Alloca più spazio per MySQL in Adobe Commerce sul cloud](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [Modifica ID incremento per un&#39;entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare negozio](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Configurare Fastly per il piano Starter su Cloud](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Video di formazione sull’intelligenza di Adobe Commerce: Report Builder per coorte](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
+   * [Video di formazione su Adobe Commerce Intelligence: Report Builder per coorte](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [Aggiornamento da MariaDB 10.0 a 10.2 per Adobe Commerce su cloud](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [Ripristinare l’ambiente su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: nuova autenticazione delle integrazioni](/help/how-to/general/mbi-reauthenticating-integrations.md)
@@ -1238,7 +1239,7 @@ ht-degree: 0%
    * [MBI: creazione e modifica di colonne calcolate avanzate](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [Verifica il limite di spazio su disco per Adobe Commerce sull’infrastruttura cloud](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [Certificati SSL (TLS) per Adobe Commerce sull’infrastruttura cloud](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [Impossibile accedere alla versione beta più recente](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [Impossibile accedere alla versione più recente di Beta](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [Cambia modalità applicazione](/help/how-to/general/switch-the-magento-mode.md)
    * [Come accedere all’account Fastly fornito con Adobe Commerce sull’infrastruttura cloud](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [Visualizza il numero della segnalazione errori di Adobe Commerce invece dell’errore Fastly 503](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
