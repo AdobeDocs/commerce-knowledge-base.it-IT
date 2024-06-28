@@ -3,9 +3,9 @@ title: 'Patch riviste per Google Maps: perdita di accesso su tutte le versioni d
 description: "Questo articolo fornisce una correzione per i commercianti di Adobe Commerce che non sono compatibili con [!DNL Google Maps] versioni da 3.54+."
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 49bc0b643c10c6597d6a905935c36251e92b18f9
+source-git-commit: 575fce2f678321ff184779895d43be90828c2ce4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -23,17 +23,17 @@ Questo articolo fornisce una correzione per i commercianti di Adobe Commerce che
 
 On *14 giugno 2024* [!DNL Google Maps] version *3,53* ha raggiunto la fine del ciclo di vita ed è stato disattivato da [!DNL Google].
 
-Per ulteriori informazioni, consulta [[!DNL Google Maps] Platform: Maps JavaScript API] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
+[Per ulteriori informazioni fare riferimento a ([!DNL Google Maps Platform: Maps JavaScript API])] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
 Adobe Commerce non era compatibile con nessun recente [!DNL  Google Maps] versioni da 3.54+.
 
 L’incompatibilità è stata causata da precedenti `prototype.js script`, caricato tramite `lib/web/legacy-build.min.js` sostituisce la funzione nativa Array.from, che provoca un conflitto diretto con [!DNL  Google Maps] API.
 
-Fai riferimento a [[!DNL Google Maps: JS Best Practices]] (https://developers.google.com/maps/documentation/javascript/best-practices).
+[Fare riferimento a ([!DNL Google Maps: JS Best Practices])] (https://developers.google.com/maps/documentation/javascript/best-practices).
 
 <u>Passaggi da riprodurre</u> :
 
-1. Vai a **[!UICONTROL Content]** > **[!UICONTROL Pages]** > e fai clic su un **[!UICONTROL New Page]**.
+1. Fai clic su **[!UICONTROL Content]** > **[!UICONTROL Pages]** > e seleziona un’ **[!UICONTROL New Page]**.
 1. Espandi il blocco di contenuto e fai clic sulla modifica. **[!DNL PageBuilder]** pulsante.
 1. Trascina il blocco di contenuto della mappa da **[!DNL PageBuilder]** menu alla pagina.
 
