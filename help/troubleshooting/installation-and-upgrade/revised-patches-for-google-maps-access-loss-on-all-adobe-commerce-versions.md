@@ -3,7 +3,7 @@ title: 'Patch riviste per Google Maps: perdita di accesso su tutte le versioni d
 description: "Questo articolo fornisce una correzione per i commercianti di Adobe Commerce che non sono compatibili con [!DNL Google Maps] versioni da 3.54+."
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 575fce2f678321ff184779895d43be90828c2ce4
+source-git-commit: 98581cc9c251976339406f80764715096321126b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -23,13 +23,13 @@ Questo articolo fornisce una correzione per i commercianti di Adobe Commerce che
 
 On *14 giugno 2024* [!DNL Google Maps] version *3,53* ha raggiunto la fine del ciclo di vita ed è stato disattivato da [!DNL Google].
 
-[Per ulteriori informazioni fare riferimento a ([!DNL Google Maps Platform: Maps JavaScript API])] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
+Per ulteriori informazioni, consulta [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
 Adobe Commerce non era compatibile con nessun recente [!DNL  Google Maps] versioni da 3.54+.
 
 L’incompatibilità è stata causata da precedenti `prototype.js script`, caricato tramite `lib/web/legacy-build.min.js` sostituisce la funzione nativa Array.from, che provoca un conflitto diretto con [!DNL  Google Maps] API.
 
-[Fare riferimento a ([!DNL Google Maps: JS Best Practices])] (https://developers.google.com/maps/documentation/javascript/best-practices).
+Fai riferimento a [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices).
 
 <u>Passaggi da riprodurre</u> :
 
