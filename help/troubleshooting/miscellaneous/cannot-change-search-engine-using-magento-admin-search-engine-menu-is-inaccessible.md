@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per modificare il motore di 
 exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 feature: Admin Workspace, Search, Variables
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: e9f009cf4e072dcd9784693c10a4c16746af3cc5
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Fai riferimento a [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html).
+> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch.
+> 
+> Consulta:
+> [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [Installare e configurare Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [Installare e configurare Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
 
 Questo articolo fornisce una soluzione per modificare il motore di ricerca di Adobe Commerce utilizzando l’amministratore Commerce se **Motore di ricerca** non viene visualizzato o il **Usa valore di sistema** la casella di controllo è disattivata e non accessibile.
 
@@ -23,16 +28,16 @@ In questo articolo:
 
 * [Versioni interessate](#affected-versions)
 * [Modificare il motore di ricerca con Commerce Admin (passaggi)](#change-search-engine-using-magento-admin-steps)
-* [Problemi con Adobe Commerce on-premise)](#magento-commerce-on-premise)
+* [Problemi relativi ad Adobe Commerce on-premise](#magento-commerce-on-premise)
 * [Adobe Commerce sull’infrastruttura cloud](#magento-commerce-cloud)
 
 ## Versioni interessate
 
-* Adobe Commerce on-premise: 2.X.X
+* Adobe Commerce on-premise: 2.4.X
 * Adobe Commerce sull’infrastruttura cloud:
-   * Versione: 2.X.X
+   * Versione: 2.4.X
    * Architettura del piano Starter e Pro
-* MySQL, Elasticsearch: tutte le versioni supportate
+* MySQL, Elasticsearch, Opensearch, Live Search: tutte le versioni supportate
 
 ## Modificare il motore di ricerca tramite Admin (passaggi)
 
@@ -117,17 +122,39 @@ Prima di passare dal motore di ricerca di MySQL a quello di Elasticsearch negli 
 
 Per modificare il motore di ricerca utilizzato negli ambienti di staging e produzione, modifica la `SEARCH_CONFIGURATION` nella tua `.magento.env.yaml` nell’ambiente locale, quindi invia le modifiche agli ambienti di integrazione e staging/produzione per renderle effettive.
 
-Se passi da MySQL a Elasticsearch, la variabile SEARCH\_CONFIGURATION nel risultato `.magento.env.yaml` potrebbe presentarsi come segue:
+Se passi all&#39;Elasticsearch 7, la variabile SEARCH\_CONFIGURATION nel `.magento.env.yaml` potrebbe presentarsi come segue:
 
 ```yaml
 stage:
   deploy:
    SEARCH_CONFIGURATION:
-     engine: elasticsearch
+     engine: elasticsearch7
      elasticsearch_server_hostname: hostname
-     elasticsearch_server_port: '123456'
+     elasticsearch_server_port: '12345'
      elasticsearch_index_prefix: magento
      elasticsearch_server_timeout: '15'
+```
+
+Se stai passando a [Opensearch (in 2.4.6 e versioni successive)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) la variabile SEARCH\_CONFIGURATION nel risultato `.magento.env.yaml` potrebbe presentarsi come segue:
+
+```yaml
+stage:
+  deploy:
+   SEARCH_CONFIGURATION:
+     engine: opensearch
+     elasticsearch_server_hostname: hostname
+     elasticsearch_server_port: '12345'
+     elasticsearch_index_prefix: magento
+     elasticsearch_server_timeout: '15'
+```
+
+Se sei [passaggio a Live Search](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), la variabile SEARCH\_CONFIGURATION nel risultato `.magento.env.yaml` potrebbe presentarsi come segue:
+
+```yaml
+stage:
+  deploy:
+   SEARCH_CONFIGURATION:
+     engine: livesearch
 ```
 
 ### Documentazione correlata
@@ -142,3 +169,4 @@ stage:
 * [Generare e distribuire](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentazione sulla funzione `.magento.env.yaml` file di configurazione)
 * [Distribuire le variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([SEZIONE SEARCH\_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
 * [Servizi](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentazione sulla funzione `.magento/services.yaml` file di configurazione)
+* [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
