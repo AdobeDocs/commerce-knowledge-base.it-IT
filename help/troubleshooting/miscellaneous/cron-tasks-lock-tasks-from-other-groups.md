@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per il problema dell’infra
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: faa80e8233438fc15781341b3a9d5325269d6d20
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
@@ -71,4 +71,4 @@ Per verificare se il cron autogestito è abilitato, eseguire il comando `crontab
 
 ## Lettura correlata
 
-* [Imposta processi cron](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html) nella documentazione per gli sviluppatori
+* [Imposta processi cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) nella documentazione per gli sviluppatori.
