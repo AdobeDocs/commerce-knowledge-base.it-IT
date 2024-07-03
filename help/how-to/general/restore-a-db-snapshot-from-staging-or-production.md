@@ -2,9 +2,9 @@
 title: Ripristinare uno snapshot del database da Gestione temporanea o Produzione
 description: Questo articolo mostra come ripristinare un’istantanea del database da Staging o Produzione su Adobe Commerce su un’infrastruttura cloud.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: b9e72ff8d541ad01788e5198e03abcb46a1bd11f
+source-git-commit: ad0ec2e6dc1d3e1023ad4ecda595b5c942716407
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -124,16 +124,22 @@ I passaggi sono i seguenti:
 
 1. Immetti il seguente comando per importare [!DNL snapshot]:
 
-   (Per [!DNL Production])
+   (Per importare il backup del database da [!DNL Production])
 
    ```sql
    zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
-   (Per [!DNL Staging])
+   (Per importare il backup del database da [!DNL Staging])
 
    ```sql
    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+   ```
+
+   (per importare un backup di database da qualsiasi altro ambiente)
+
+   ```sql
+   zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
 ## Lettura correlata
