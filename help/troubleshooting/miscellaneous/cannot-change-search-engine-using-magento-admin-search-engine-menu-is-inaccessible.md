@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per modificare il motore di 
 exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 feature: Admin Workspace, Search, Variables
 role: Developer
-source-git-commit: e9f009cf4e072dcd9784693c10a4c16746af3cc5
+source-git-commit: 0ea7bbef7fec556f9a90151be9cf1077f5cfac45
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,14 @@ In questo articolo:
 
 ## Modificare il motore di ricerca tramite Admin (passaggi)
 
-1. Accedi all’amministratore come amministratore.
-1. Nella barra laterale di amministrazione a sinistra, fai clic su **Negozi**. Quindi, sotto **Impostazioni**, scegli **Configurazione**.
-1. Nel pannello a sinistra sotto **Catalogo,** scegli **Catalogo**.
-1. Espandi **Ricerca nel catalogo** sezione.    ![catalog_menu.png](assets/catalog_menu.png)
-1. Vai a **Motore di ricerca** e rimuovere la selezione dal **Usa valore di sistema** casella di controllo.
-1. Fai clic su **Motore di ricerca** e selezionare una delle opzioni disponibili.    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. Clic **Salva configurazione** nell’angolo superiore destro della pagina.
+1. Accedi a **[!UICONTROL Admin]** come amministratore.
+1. Sul lato sinistro del **[!UICONTROL Admin]** barra laterale, fai clic su **[!UICONTROL Stores]**.
+1. Sotto **[!UICONTROL Settings]**, scegli **[!UICONTROL Configuration]**.
+1. Passa al pannello a sinistra sotto **[!UICONTROL Catalog],** e scegli **[!UICONTROL Catalog]**.
+1. Espandi **[!UICONTROL Catalog Search]** sezione.    ![catalog_menu.png](assets/catalog_menu.png)
+1. Vai a **[!UICONTROL Search Engine]** e rimuovere la selezione dal **[!UICONTROL Use system value]** casella di controllo.
+1. Fai clic su **[!UICONTROL Search Engine]** e selezionare una delle opzioni disponibili, come illustrato di seguito.    ![search_engine_menu.png](assets/search_engine_menu.png)
+1. Fai clic su **[!UICONTROL Save Config]** nell’angolo in alto a destra della pagina.
 
 ## Problemi relativi ad Adobe Commerce on-premise
 
@@ -65,10 +66,11 @@ Il motore di ricerca è una configurazione globale impostata a livello di applic
 
 ### Soluzione: impostare la visualizzazione archivio su Configurazione predefinita
 
-1. Accedi all’amministratore come amministratore.
-1. Nella barra laterale di amministrazione a sinistra, fai clic su **Negozi**. Quindi, sotto **Impostazioni**, scegli **Configurazione**.
-1. Nell&#39;angolo superiore sinistro fare clic sul pulsante **Visualizzazione store** e scegli *Configurazione predefinita*.
-1. Clic **OK** nella finestra di dialogo di conferma per approvare la modifica della visualizzazione archivio.
+1. Accedi a **[!UICONTROL Admin]** come amministratore.
+1. Sul lato sinistro del **[!UICONTROL Admin]** barra laterale, fai clic su **[!UICONTROL Stores]**.
+1. Accedi a **[!UICONTROL Settings]** e scegli **[!UICONTROL Configuration]**.
+1. Nell&#39;angolo in alto a sinistra, fare clic sul pulsante **[!UICONTROL Store View]** e scegli **[!UICONTROL *Configurazione predefinita *]**.
+1. Fai clic su **[!UICONTROL OK]** nella finestra di dialogo di conferma per approvare le modifiche alla visualizzazione archivio.
 
 ![change_store_view.png](assets/change_store_view.png)
 
