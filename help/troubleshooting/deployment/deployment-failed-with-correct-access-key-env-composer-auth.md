@@ -4,9 +4,9 @@ description: 'Questo articolo fornisce una soluzione al problema che si verifica
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
+source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,7 @@ Distribuzione completata.
 >
 >Questo è un errore di esempio. Potresti visualizzare un errore che indica un file diverso (a seconda della versione di Adobe Commerce implementata).
 
-La distribuzione non è riuscita. Viene visualizzato un errore simile a *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
-
+La distribuzione non è riuscita. Viene visualizzato un errore simile a *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Causa
 
@@ -59,4 +58,4 @@ Per i passaggi, consulta [Livelli variabili](https://experienceleague.adobe.com/
 ## Lettura correlata
 
 * [Impossibile accedere all’archivio Adobe Commerce sul cloud: errore 403 Forbidden o 404 Not Found durante la distribuzione](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [Errore di distribuzione: errore 7 durante il download della porta 443. Connessione rifiutata](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
+* [Errore di distribuzione: errore 7 durante il download della porta 443. Connessione rifiutata](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
