@@ -3,7 +3,7 @@ title: Guida utente di Adobe Commerce Help Center
 description: Scopri come inviare un ticket di supporto all’Help Center di Adobe Commerce, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
+source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
 workflow-type: tm+mt
 source-wordcount: '4988'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Dopo aver effettuato l’accesso, puoi inviare un caso di supporto utilizzando l
 
 Per inviare un nuovo caso di supporto utilizzando la pagina iniziale di Adobe Experience League, eseguire la procedura seguente:
 
->
+>[!NOTE]
 >
 >1. Se appartieni a più organizzazioni, dovrai selezionare l’organizzazione appropriata dal menu a discesa.
 >1. Per inoltrare un caso, devi avere diritto al supporto. In caso contrario, nella parte superiore della pagina viene visualizzata una barra che informa che non sei un utente autorizzato al supporto nell’organizzazione.
@@ -276,6 +276,7 @@ Tu *deve avere* un account su https://account.adobe.com e https://account.magent
 >Se disponi già di un account all’indirizzo https://account.magento.com ma non sei in grado di effettuare l’accesso, potresti non essere stato registrato per un account all’indirizzo https://account.adobe.com, richiesto da agosto 2022.
 >
 >Per risolvere il problema:
+>
 >1. Crea un account all’indirizzo https://account.adobe.com utilizzando lo stesso indirizzo e-mail sul tuo ID MAG.
 >1. Vai all’indirizzo https://account.magento.com per collegare il tuo Adobe ID con l’ID MAG.
 
