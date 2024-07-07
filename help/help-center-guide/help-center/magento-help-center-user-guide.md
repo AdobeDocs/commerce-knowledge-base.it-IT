@@ -3,24 +3,43 @@ title: Guida utente di Adobe Commerce Help Center
 description: Scopri come inviare un ticket di supporto all’Help Center di Adobe Commerce, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
+source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4988'
 ht-degree: 0%
 
 ---
 
 # Guida utente di Adobe Commerce Help Center
 
-In questa guida, scopri come inviare un ticket di supporto al [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us) e forniscono accesso condiviso agli account di Magento.
+In questa guida, scopri come inviare un ticket di supporto al [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us) e forniscono accesso condiviso agli account Adobe Commerce.
 
 >[!NOTE]
 >
->La parte Knowledge Base del Centro assistenza di Adobe Commerce è stata migrata al portale Adobe Experience League. Quando crei un ticket di supporto, ti verranno suggeriti gli articoli correlati della Knowledge Base, insieme ad altra documentazione pertinente di Adobe Commerce disponibile in Adobe Experience League.
+>Il supporto Adobe Commerce è in fase di passaggio dall’Help Center di Adobe Commerce all’Experience League. Se ti è stato notificato che hai accesso, utilizza il flusso del modulo del caso di Experience League descritto [qui](#what-is-experience-support). Se non ricevi alcuna notifica, continua a utilizzare [Flusso dei casi dell&#39;Help Center di Adobe Commerce](#what-is-adobe-commerce-help-center).
 
-**Aggiornamento principale:** 14 ottobre 2022
+>[!NOTE]
+>
+>La parte Knowledge Base del Centro assistenza di Adobe Commerce è stata migrata al portale Adobe Experience League. Quando crei un ticket di supporto, ti verranno suggeriti gli articoli correlati della Knowledge Base, insieme ad altra documentazione pertinente di Adobe Commerce proveniente da Adobe Experience League.
 
-**[COS’È IL CENTRO ASSISTENZA ADOBE COMMERCE?](#what-is)**
+**Aggiornamento principale:** 8 luglio 2024
+
+**[COS’È IL SUPPORTO EXPERIENCE LEAGUE?](#what-is-experience-support)**
+
+**[CASI DI SUPPORTO](#support-cases)**
+
+* [Accedi al supporto Experience League](#sign-in-experience-support)
+* [Inviare un caso di supporto](#submit-case)
+
+   * [Pagina iniziale di Adobe Experience League](#experience-league-start-page)
+   * [Pagina dell’account Adobe Commerce](#submit-case-adobe-commerce-account-page)
+   * [*Verificare l&#39;indirizzo e-mail*](#verify-email-address-error)
+
+* [Tracciare i casi di supporto](#track-support-cases)
+* [Commenti nel tuo caso](#comments-in-your-case)
+* [Chiudi il caso](#close-case)
+
+**[COS’È IL CENTRO ASSISTENZA ADOBE COMMERCE?](#what-is-adobe-commerce-help-center)**
 
 **[TICKET DI SUPPORTO](#support-tickets)**
 
@@ -59,7 +78,160 @@ In questa guida, scopri come inviare un ticket di supporto al [Centro assistenza
 
 **[IL MAGENTO U FA ORA PARTE DI ADOBE DIGITAL LEARNING SERVICES](#magento-u)**
 
-## CHE COS&#39;È ADOBE COMMERCE HELP CENTER? {#what-is}
+>[!NOTE]
+>
+>A meno che tu non riceva una notifica, continua a utilizzare [Flusso dei casi dell&#39;Help Center di Adobe Commerce](#what-is-adobe-commerce-help-center). Se ti è stato notificato che sei nella coorte con accesso, segui l’Experience League di flusso del modulo del caso descritto [sotto](#what-is-experience-league-support).
+
+## COS’È IL SUPPORTO EXPERIENCE LEAGUE? {#what-is-experience-support}
+
+Experience League Support è un portale di supporto, ad Adobe dove i clienti Adobe Commerce idonei possono inviare e gestire ticket di supporto. È anche possibile consultare gli articoli sulla risoluzione dei problemi.
+
+## CASI DI SUPPORTO {#support-cases}
+
+La gestione dei casi di supporto di Adobe Experience League consente di lavorare con il supporto tramite casi per risolvere problemi specifici rilevati durante l’utilizzo di prodotti Adobe, incluso Adobe Commerce, per tutti i prodotti Adobe Commerce sotto contratto.
+
+## ACCEDI AL SUPPORTO EXPERIENCE LEAGUE {#sign-in-experience-support}
+
+L’accesso ti consente di inviare, aggiornare e rispondere alle domande degli agenti sui ticket di supporto.
+
+Per accedere al supporto Adobe Experience League, eseguire la procedura seguente:
+
+1. Accedi a [experienceleague.adobe.com](https://experienceleague.adobe.com/).
+1. Accedi utilizzando le credenziali di accesso di Adobe.
+
+![sign-in-experience-league](assets/experience_league_sign_in.png)
+
+### Inviare un caso di supporto {#support-case}
+
+Dopo aver effettuato l’accesso, puoi inviare un caso di supporto utilizzando la pagina Home di Adobe Experience League, la pagina dell’account Adobe Commerce e la pagina dell’account Adobe Commerce Cloud.
+
+* Se sei il proprietario dell’account, segui i passaggi indicati di seguito.
+* Se si è un utente di Accesso condiviso, è necessario innanzitutto cambiare account. Consulta [Accedere all’account condiviso (cambiare account)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts), quindi procedere ai passaggi seguenti.
+
+#### Pagina iniziale di Adobe Experience League {#experience-league-start-page}
+
+Per inviare un nuovo caso di supporto utilizzando la pagina iniziale di Adobe Experience League, eseguire la procedura seguente:
+
+>
+>
+>1. Se appartieni a più organizzazioni, dovrai selezionare l’organizzazione appropriata dal menu a discesa.
+>1. Per inoltrare un caso, devi avere diritto al supporto. In caso contrario, nella parte superiore della pagina viene visualizzata una barra che informa che non sei un utente autorizzato al supporto nell’organizzazione.
+
+1. Fai clic su **Supporto** nell’intestazione. Verrà aperta la pagina home del Supporto tecnico.
+
+   ![open-support-page](assets/click_support.png)
+
+1. Per avviare il processo di assegnazione del supporto, fare clic su **[!UICONTROL Open Ticket]** nel menu a sinistra, oppure fare clic su **[!UICONTROL Get Started]** in *[!UICONTROL Open a support ticket]* Card.
+
+   ![open-support-case](assets/open_support_case.png)
+
+1. Seleziona un prodotto dal menu a discesa e fornisci il titolo e la descrizione del caso.
+
+   ![select_product](assets/support_case_product.png)
+
+1. Adobe Experience League ti suggerirà articoli e best practice per risolvere il tuo caso. Se hai ancora bisogno di supporto diretto, dovrai fornire alcune informazioni aggiuntive prima di inviare il caso.
+
+   ![direct_support_required](assets/direct_support.png)
+
+1. Dopo aver inserito tutte le informazioni richieste, fai clic su **[!UICONTROL Submit case]**.
+
+Per accedere all&#39;Experience League e inviare un caso di supporto è necessario disporre di un account sia su https://account.adobe.com che su https://account.magento.com. Non potrai inviare un caso di supporto finché non avrai effettuato l’accesso.
+
+>[!NOTE]
+>
+>Se disponi già di un account all’indirizzo https://account.magento.com ma non sei in grado di accedere, potresti non essere stato registrato per un account all’indirizzo https://account.adobe.com, richiesto da agosto 2022.
+>
+>Per risolvere il problema:
+>1. Crea un account all’indirizzo https://account.adobe.com utilizzando lo stesso indirizzo e-mail sul tuo ID MAG.
+>1. Vai all’indirizzo https://account.magento.com per collegare il tuo Adobe ID con l’ID MAG.
+
+#### Pagina dell’account Adobe Commerce {#submit-case-adobe-commerce-account-page}
+
+Per inviare un nuovo ticket di supporto utilizzando la pagina dell’account Adobe Commerce, effettua le seguenti operazioni:
+
+1. Accedi al tuo account Adobe Commerce. Consulta [istruzioni dettagliate](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) nella guida utente.
+1. Fai clic su **Supporto** scheda.
+
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
+
+1. La pagina di supporto di Adobe Experience League viene caricata automaticamente.
+1. Seleziona **[!UICONTROL Open Ticket]** dal menu di sinistra.
+1. Compila i campi.
+1. Clic **Invia**.
+
+#### *Verifica il tuo indirizzo email* errore nella pagina dell’account Adobe Commerce {#verify-email-address-error}
+
+Non potrai inviare un ticket di supporto se ricevi l’errore Verifica il tuo indirizzo e-mail simile a quello riportato di seguito sulla [Account Adobe Commerce](https://account.magento.com/) pagina.
+
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
+
+
+### Tracciare i casi di supporto {#track-support-case}
+
+I casi di assistenza sono quelli che:
+
+* si sono presentati personalmente.
+* sono stati aggiunti a come watcher tramite CC (copia per conoscenza).
+
+#### Visualizza i tuoi casi
+
+Puoi visualizzare i tuoi casi facendo clic su **[!UICONTROL My Cases]** nel menu di sinistra.
+
+![view-support-case](assets/view_support_cases.png)
+
+#### Cerca casi
+
+Per trovare i casi, digita la query di ricerca nel *[!UICONTROL Search]* field e press *Invio* sulla tastiera.
+
+![casi di ricerca](assets/search_cases.png)
+
+#### Intensifica i casi
+
+Se ritieni che un caso richieda ulteriore attenzione e che il tempo di risposta iniziale sia scaduto, puoi inoltrare il caso. Per farlo,
+
+1. Fai clic su **[!UICONTROL Escalate to management]** in basso a destra del *[!UICONTROL Case Detail]* sul lato destro dello schermo.
+
+   ![gestione delle richieste](assets/escalate_to_management.png)
+
+1. Dopo aver fatto clic su, viene visualizzato un modulo popup. Compila il modulo e fai clic su **[!UICONTROL Escalate]**.
+
+   ![confirm-escalation](assets/confirm_escalation.png)
+
+   *I motivi dell&#39;escalation possono includere*: abilità di comunicazione dell’agente, conoscenze tecniche dell’agente, richiamata/aggiornamento in attesa, modifica dell’urgenza del problema, risoluzione non rispondente alle aspettative o tempo di risoluzione.
+
+#### Aggiungere un controllo sui casi di supporto
+
+Puoi aggiungere dei controlli ai casi di supporto inviati da membri dell’organizzazione. I controllori riceveranno notifiche e-mail quando vengono inviati nuovi casi o quando i casi esistenti vengono aggiornati.
+
+1. Per aggiungere un watcher a un case esistente, apri il case e fai clic sull’icona a forma di matita accanto a &quot;watchers&quot; nel pannello Dettagli case sul lato destro dello schermo.
+
+   ![add-watchers](assets/add_watchers.png)
+
+1. Dopo aver fatto clic sulla matita, puoi aggiungere o rimuovere gli osservatori dall’elenco.
+
+   ![update-watchers](assets/update_watchers.png)
+
+### Commenti nel tuo caso {#comments-in-your-case}
+
+I commenti nel tuo caso contengono tutti i commenti scritti da te o dal team di supporto Adobe Commerce. I commenti vengono visualizzati dall&#39;ultimo (in alto) al primo (in basso).
+Per aggiungere un commento, effettua le seguenti operazioni:
+
+1. Scorri fino alla parte inferiore del biglietto.
+1. Scrivi il commento in **[!UICONTROL Comments]** e fai clic su **[!UICONTROL Add comments]**.
+
+![add-comments](assets/add_comments.png)
+
+### Chiudi il caso {#close-case}
+
+Per chiudere il caso, fare clic su **[!UICONTROL Close case]** in basso a destra del *[!UICONTROL Case Detail]* pannello.
+
+![close-case](assets/close_case.png)
+
+>[!NOTE]
+>
+>Continua a utilizzare il flusso di moduli di Adobe Commerce Help Center [sotto](#what-is-adobe-commerce-help-center) per l’invio e la gestione dei ticket, a meno che non ti sia stato comunicato di essere nella coorte con accesso al flusso del modulo per i casi di Experience League descritto [qui](#what-is-experience-league-support).
+
+## CHE COS&#39;È ADOBE COMMERCE HELP CENTER? {#what-is-adobe-commerce-help-center}
 
 Il [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us) è un portale di supporto per Adobe Commerce, dove i clienti qualificati possono inviare e gestire ticket di supporto. È anche possibile consultare gli articoli sulla risoluzione dei problemi.
 
@@ -291,7 +463,7 @@ Per seguire/non seguire i ticket di un’organizzazione:
 
 ### Modello operativo per responsabilità condivisa Adobe Commerce {#shared-responsibility-operational-model}
 
-**È necessario effettuare l&#39;accesso** per accedere a [Modello operativo per responsabilità condivisa Adobe Commerce](https://support.magento.com/hc/en-us/articles/4407700678669) l&#39;articolo che ha lo scopo di chiarire le responsabilità operative relative all&#39;offerta Adobe Commerce esclusivamente sulle infrastrutture pro.
+Vedi l’articolo su [Modello operativo per responsabilità condivisa Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary), che mira a chiarire le responsabilità operative per la sola offerta Pro Infrastructure.
 
 ### Spiegazione dei campi dei ticket di supporto {#ticket-fields-explained}
 
@@ -446,15 +618,15 @@ Scrivi in un linguaggio semplice, con frasi brevi.
 
 #### Oggetto
 
-Includi una breve panoramica del problema (ad esempio, *Errore 404 su tutte le pagine* ).
+Includi una breve panoramica del problema (ad esempio, *Errore 404 su tutte le pagine*).
 
-**Articoli consigliati:** Quando inserisci il termine di ricerca, viene visualizzato un elenco degli articoli della documentazione di Commerce di Adobe che potrebbero essere correlati al problema. Fare clic su un articolo nell&#39;elenco per aprirlo.
+**Articoli consigliati:** Quando inserisci il termine di ricerca, viene visualizzato un elenco degli articoli della documentazione di Adobe Commerce che potrebbero essere correlati al problema. Fare clic su un articolo nell&#39;elenco per aprirlo.
 
 ![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
 
 *Consiglio:* Considera attentamente gli articoli proposti, che potrebbero contenere la soluzione che ti aspetti di ricevere dal team di supporto Adobe Commerce.
 
-#### Versione (Adobe Commerce on-premise, Adobe Commerce solo su infrastruttura cloud e Spedizione)
+#### Versione (Adobe Commerce on-premise, Adobe Commerce on cloud infrastructure and Shipping only)
 
 Seleziona la versione di Adobe Commerce con cui stai richiedendo assistenza. Tutte le versioni supportate di Adobe Commerce sono elencate in alto. Le versioni non supportate sono elencate in basso tra parentesi. Se è in corso la migrazione, seleziona la versione più recente per assicurarti di essere supportato.
 
@@ -498,6 +670,7 @@ Per aggiungere un commento alla conversazione, eseguire la procedura seguente:
    ![hc_aggiungere a conversazione.png](assets/hc_add-to-conversation.png)
 
 1. Per aggiungere una persona al commento, specifica l’e-mail nel **CC** del campo commento.
+
    >[!NOTE]
    >
    >L’utente in CC: deve disporre di un account esistente all’indirizzo https://account.magento.com. In caso contrario, devono innanzitutto crearne uno all’indirizzo https://account.adobe.com e accedere a https://account.magento.com con tale account.
@@ -518,29 +691,29 @@ Per aprire un ticket di follow-up, fai clic su &quot;*creare un follow-up*&quot;
 
 ## ACCESSO CONDIVISO: CONCEDI PRIVILEGI AD ALTRI UTENTI PER ACCEDERE AL TUO ACCOUNT {#shared-access}
 
-Puoi concedere un accesso limitato al tuo account per altri titolari di account di Magento. In particolare, utilizzando **accesso condiviso** funzionalità, è possibile fornire privilegi a dipendenti e provider di servizi attendibili per utilizzare l&#39;account del Centro assistenza in modo che possano utilizzare i ticket di supporto.
+Puoi concedere un accesso limitato al tuo account per altri titolari di account Adobe Commerce. In particolare, utilizzando **accesso condiviso** funzionalità, è possibile fornire privilegi a dipendenti e provider di servizi attendibili per utilizzare l&#39;account del Centro assistenza in modo che possano utilizzare i ticket di supporto.
 
-Puoi fornire e gestire l’accesso condiviso utilizzando la pagina dell’account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
+Puoi fornire e gestire l’accesso condiviso utilizzando la pagina del tuo account Adobe Commerce all’indirizzo [https://account.magento.com](https://account.magento.com/).
 
 ### Chi può fornire l’accesso condiviso {#who-can-provide-shared-access}
 
-Solo il proprietario dell’account (titolare dell’account principale) con i privilegi indicati può fornire l’accesso condiviso ad altri utenti.
+Solo il proprietario dell’account (titolare dell’account principale) con i privilegi indicati di seguito può fornire l’accesso condiviso ad altri utenti.
 
-La gestione degli utenti e del loro accesso è responsabilità del cliente, in particolare nella prospettiva dell’accesso condiviso. Pertanto, il team di supporto Adobe Commerce non può fornire l’accesso condiviso a un account di Magento per conto di un cliente. Si consiglia ai clienti di aggiungere utenti con accesso condiviso, utilizzando [Pagina Account Magento](https://account.magento.com/).
+La gestione degli utenti e del loro accesso è responsabilità del cliente, in particolare nella prospettiva dell’accesso condiviso. Pertanto, il team di supporto Adobe Commerce non può fornire l’accesso condiviso a un account Adobe Commerce per conto di un cliente. Si consiglia ai clienti di aggiungere utenti con accesso condiviso, utilizzando [Pagina dell’account Adobe Commerce](https://account.magento.com/).
 
 Gli utenti a cui è stato fornito l’accesso condiviso non possono trasferire o concedere tale accesso ad altri utenti.
 
 ### Fornire accesso condiviso {#provide-shared-access}
 
-Consulta la [Condivisione dell’account](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) sezione della Guida utente di Adobe Commerce per i passaggi dettagliati sulla configurazione di un account condiviso.
+Consulta la [Condividere un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) sezione della Guida introduttiva di Adobe Commerce per i passaggi dettagliati sulla configurazione di un account condiviso.
 
-Dopo aver fornito l’accesso condiviso a un nuovo utente, le informazioni correlate sono disponibili in **Accesso condiviso** > **Gestisci autorizzazioni** della pagina dell&#39;account di Magento.
+Dopo aver fornito l’accesso condiviso a un nuovo utente, le informazioni correlate sono disponibili in **Accesso condiviso** > **Gestisci autorizzazioni** della pagina del tuo account Adobe Commerce.
 
-![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
+![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
 ### Revoca (eliminazione) accesso condiviso {#revoke-shared-access}
 
-1. Accedi al tuo account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
+1. Accedi al tuo account Adobe Commerce all’indirizzo [https://account.magento.com](https://account.magento.com/).
 1. Nel pannello a sinistra, in Accesso condiviso, scegli **Gestire le autorizzazioni.**
 1. Trova l’utente da cui revocare l’accesso condiviso e fai clic su ![icona rimuovi](assets/remove_icon.png){width="25"} nella riga dell&#39;utente (**Azioni** colonna).
 1. Clic **Elimina utente** per revocare l&#39;accesso o X nell&#39;angolo superiore per annullare la revoca.
@@ -549,7 +722,7 @@ Dopo aver fornito l’accesso condiviso a un nuovo utente, le informazioni corre
 
    È inoltre possibile revocare l&#39;accesso condiviso utilizzando **Modifica** menu:
 
-1. Accedi al tuo account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
+1. Accedi al tuo account Adobe Commerce all’indirizzo [https://account.magento.com](https://account.magento.com/).
 1. Nel pannello a sinistra, in Accesso condiviso, scegli **Gestire le autorizzazioni.**
 1. Trova l’utente da cui revocare l’accesso condiviso e fai clic su **Modifica** nella riga dell&#39;utente (**Azioni** colonna).
 1. Clic **Elimina questo utente** nella parte inferiore della pagina.
@@ -573,7 +746,7 @@ Non è possibile eliminare l&#39;elenco di utenti di Accesso condiviso con il no
 
 Tuttavia, una volta revocate le autorizzazioni per tali utenti di Accesso condiviso, questi non disporranno più di tale accesso.
 
-1. Accedi al tuo account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
+1. Accedi al tuo account Adobe Commerce all’indirizzo [https://account.magento.com](https://account.magento.com/).
 1. Nel pannello a sinistra, sotto *[!UICONTROL Shared Access]*, scegli **[!UICONTROL Manage Permissions]**.
 1. Trova l’utente da cui revocare l’accesso condiviso e fai clic su **[!UICONTROL Edit]** nella riga dell&#39;utente (*[!UICONTROL Actions]* colonna).
 1. Deseleziona tutte le risorse in *[!UICONTROL Grant Account Permissions]*.
@@ -586,10 +759,10 @@ Per ulteriori informazioni, fare riferimento al [Gestisci accesso utente](https:
 
 Per utilizzare l’accesso condiviso fornito, effettua le seguenti operazioni:
 
-1. Accedi al tuo account di Magento all’indirizzo [https://account.magento.com](https://account.magento.com/).
+1. Accedi al tuo account Adobe Commerce all’indirizzo [https://account.magento.com](https://account.magento.com/).
 1. Fai clic su **Cambia account** e selezionare un account.
 
-   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
+   ![magento-account-shared-switch](assets/magento_account_shared_switch.png){width="800"}
 
 Per sapere quale account si sta attualmente utilizzando (il proprio account nativo o accesso condiviso), vedere **Cambia account** menu: visualizza l’account attivo.
 
@@ -605,4 +778,3 @@ I commercianti solitamente pagano i nostri servizi con una transazione con carta
 
 Il Magento U è stato unito con [Servizi di apprendimento digitale Adobe (ADLS)](https://learning.adobe.com/).
 
-Il Magento U Zendesk verrà gradualmente eliminato.
