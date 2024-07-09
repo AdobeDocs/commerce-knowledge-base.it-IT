@@ -3,9 +3,9 @@ title: Partner Adobe Commerce su richieste sandbox di infrastruttura cloud
 description: Questo articolo contiene collegamenti a risorse utili per Adobe Commerce sulle richieste sandbox dell’infrastruttura cloud.
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ Consulta la sezione [Knowledge Base di supporto Adobe Commerce](https://support.
 ## Dove e come i partner della soluzione o i partner tecnici inviano una richiesta di supporto? {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
 * I partner della soluzione possono inviare un ticket per i problemi relativi alla sandbox inviando un’e-mail a [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) e verrà inoltrato al team di supporto tecnico del partner.
-* I partner tecnici possono inviare una richiesta di assistenza per [Commerce Marketplace Centro assistenza](https://marketplacesupport.magento.com/hc/en-us/requests) pagina.
+* I partner tecnologici possono [contatta l’assistenza per il marketplace](mailto:commercemarketplacesupport@adobe.com).
