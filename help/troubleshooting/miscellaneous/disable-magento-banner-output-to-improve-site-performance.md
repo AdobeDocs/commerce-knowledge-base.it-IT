@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Disattiva l&#39;output del banner Adobe Commerce per migliorare le prestazioni del sito
 
-Questo articolo fornisce una correzione per le basse prestazioni del sito. Le prestazioni ridotte del sito possono essere causate da `Magento_Banner` modulo abilitato ma non utilizzato. La disattivazione dell’output del modulo può migliorare le prestazioni del sito. Consulta l’articolo per i passaggi di risoluzione.
+Questo articolo fornisce una correzione per le basse prestazioni del sito. Il modulo `Magento_Banner` è abilitato ma non utilizzato a causa di prestazioni del sito insufficienti. La disattivazione dell’output del modulo può migliorare le prestazioni del sito. Consulta l’articolo per i passaggi di risoluzione.
 
 >[!NOTE]
 >
->Se utilizzi la funzionalità banner di Adobe Commerce, consulta [Le richieste AJAX a throughput elevato causano prestazioni insoddisfacenti](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) articolo nella knowledge base di supporto per consigli su come evitare problemi di prestazioni causati da richieste Ajax eccessive.
+>Se utilizzi la funzionalità banner di Adobe Commerce, consulta l&#39;articolo [Le richieste AJAX a throughput elevato causano prestazioni scadenti](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) nella knowledge base di supporto per raccomandazioni su come evitare problemi di prestazioni causati da richieste Ajax eccessive.
 
 ## Prodotti e versioni interessati
 
@@ -26,35 +26,35 @@ Questo articolo fornisce una correzione per le basse prestazioni del sito. Le pr
 
 ## Problema
 
-Il `Magento_Banner` il modulo è attivato, ma non utilizzato.
+Il modulo `Magento_Banner` è abilitato, ma non utilizzato.
 
 Per verificare se questo è il caso:
 
 Per Adobe Commerce su infrastruttura cloud 2.2.x:
 
 1. Accedi all’amministratore di Commerce.
-1. Accedi a **Contenuto** > *Elementi* > **Banner**.
+1. Passa a **Contenuto** > *Elementi* > **Banner**.
 1. Se la griglia visualizzata in questa pagina è vuota, non sono presenti banner.
 
-Se non vede il **Banner** opzione in **Contenuto** > *Elementi* Quindi non è così e le raccomandazioni di questo articolo non possono essere applicate.
+Se non trovi l&#39;opzione **Banner** in **Contenuto** > *Elementi*, non è così e non puoi applicare i consigli di questo articolo.
 
-Per Adobe Commerce su infrastruttura cloud 2.3.x (la funzionalità era [rinominato nella versione 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+Per Adobe Commerce su infrastruttura cloud 2.3.x (la funzionalità era [rinominata nella versione 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Accedi all’amministratore di Commerce.
-1. Accedi a **Contenuto** > *Elementi >*  **Blocchi dinamici**.
+1. Passa a **Contenuto** > *Elementi >* **Blocchi dinamici**.
 1. Se la griglia visualizzata in questa pagina è vuota, non sono presenti blocchi dinamici (banner).
 
-Se non vede il **Blocchi dinamici** opzione in **Contenuto** > *Elementi* Quindi non è così e le raccomandazioni di questo articolo non possono essere applicate.
+Se non trovi l&#39;opzione **Blocchi dinamici** in **Contenuto** > *Elementi*, non è così e non puoi applicare i consigli di questo articolo.
 
 ## Causa
 
-Quando `Magento_Banner` Se il modulo è abilitato, Adobe Commerce invia richieste Ajax dalla vetrina al server per ottenere le informazioni del banner. Queste richieste Ajax hanno un impatto sulle prestazioni, soprattutto in condizioni di carico elevato (volume elevato e traffico elevato). Se questa funzionalità non viene utilizzata, si consiglia di disabilitare l’output del modulo. Si sconsiglia di disattivare il modulo a causa di problemi di dipendenza.
+Quando il modulo `Magento_Banner` è abilitato, Adobe Commerce invia richieste Ajax dalla vetrina al server per ottenere le informazioni del banner. Queste richieste Ajax hanno un impatto sulle prestazioni, soprattutto in condizioni di carico elevato (volume elevato e traffico elevato). Se questa funzionalità non viene utilizzata, si consiglia di disabilitare l’output del modulo. Si sconsiglia di disattivare il modulo a causa di problemi di dipendenza.
 
 ## Soluzione
 
 >[!WARNING]
 >
->È consigliabile testare le modifiche su [Ambiente di staging/integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) in primo luogo, prima di applicarlo alla Produzione. Consigliamo inoltre di avere un backup recente prima di qualsiasi manipolazione.
+>È consigliabile testare le modifiche nell&#39;ambiente di [staging/integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) prima di applicarle all&#39;ambiente di produzione. Consigliamo inoltre di avere un backup recente prima di qualsiasi manipolazione.
 
-1. Disattiva il `Magento_Banner` output del modulo, come descritto [Disattiva output modulo](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) nella documentazione per gli sviluppatori. Il nome del modulo da utilizzare è `Magento_Banner`.
-1. Distribuisci il codice. Per l’infrastruttura cloud di Adobe Commerce, distribuisci come descritto nella sezione [Distribuire lo store](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) articolo nella documentazione per gli sviluppatori.
+1. Disattivare l&#39;output del modulo `Magento_Banner`, come descritto in [Disattivare l&#39;output del modulo](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) nella documentazione per gli sviluppatori. Il nome del modulo da utilizzare è `Magento_Banner`.
+1. Distribuisci il codice. Per Adobe Commerce su infrastruttura cloud, esegui la distribuzione come descritto nell&#39;articolo [Distribuisci il tuo archivio](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) nella documentazione per gli sviluppatori.

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-48587: il widget prodotto non funziona con SKU contenenti caratteri HTML
 
-La patch ACSD-48587 risolve il problema in cui i caratteri speciali HTML nelle regole di corrispondenza dei widget dei prodotti impediscono loro di visualizzare i prodotti corrispondenti. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26. L’ID della patch è ACSD-48587. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
+La patch ACSD-48587 risolve il problema in cui i caratteri speciali HTML nelle regole di corrispondenza dei widget dei prodotti impediscono loro di visualizzare i prodotti corrispondenti. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.26. L’ID della patch è ACSD-48587. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.4
 
@@ -27,42 +27,42 @@ La patch ACSD-48587 risolve il problema in cui i caratteri speciali HTML nelle r
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-Il widget del prodotto non funziona con SKU contenenti *&quot;&amp;&quot;* simboli.
+Il widget prodotto non funziona con SKU contenenti simboli *&quot;&amp;&quot;*.
 
 <u>Passaggi da riprodurre</u>:
 
 1. Creare un prodotto contenente *&quot;&amp;&quot;* nello SKU (ad esempio, s000&amp;01).
-1. Modificare il contenuto di una pagina CMS su *Page Builder*.
+1. Modifica il contenuto di una pagina CMS nel *Page Builder*.
 1. Aggiungi un widget prodotti.
-1. Modifica il widget e imposta **[!UICONTROL Select Products by]** = **[!UICONTROL SKU]**.
-1. Inserisci lo SKU che contiene *&quot;&amp;&quot;* nel campo SKU del prodotto.
+1. Modificare il widget e impostare **[!UICONTROL Select Products by]** = **[!UICONTROL SKU]**.
+1. Immettere lo SKU che contiene *&quot;&amp;&quot;* nel campo SKU prodotto.
 1. Salva il contenuto e la pagina CMS.
-1. Controlla la *Pagina CMS* contenuto per *Anteprima Page Builder* e la vetrina dei prodotti.
+1. Controlla il contenuto della *pagina CMS* per l&#39;*anteprima Page Builder* e la vetrina del prodotto.
 
 <u>Risultati previsti</u>:
 
-Il prodotto con *&quot;&amp;&quot;* nello SKU viene visualizzato nell’anteprima di Page Builder e nella vetrina.
+Il prodotto con *&quot;&amp;&quot;* nello SKU viene visualizzato nell&#39;anteprima di Page Builder e nella vetrina.
 
 <u>Risultati effettivi</u>:
 
-Il prodotto con *&quot;&amp;&quot;* nello SKU non viene visualizzato nell’anteprima di Page Builder.
+Il prodotto con *&quot;&amp;&quot;* nello SKU non viene visualizzato nell&#39;anteprima di Page Builder.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

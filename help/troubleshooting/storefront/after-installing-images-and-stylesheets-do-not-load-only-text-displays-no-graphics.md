@@ -41,14 +41,14 @@ Il percorso delle immagini e dei fogli di stile non è corretto, a causa di un U
 
 Per confermare questo caso, utilizza una finestra di ispezione del browser web per controllare i percorsi delle risorse statiche e verificare che si trovino sul file system di Adobe Commerce o di Magento Open Source.
 
-Le risorse statiche si trovano in `<magento_root>/pub/static/` , all&#39;interno del `frontend` e `adminhtml` directory.
+Le risorse statiche si trovano in `<magento_root>/pub/static/` , nelle directory `frontend` e `adminhtml`.
 
 ## Soluzione
 
 Di seguito sono riportate le possibili soluzioni in base al software utilizzato e alla causa del problema:
 
-* Se utilizzi il server web Apache, verifica i [riscritture server](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html#apache-help-rewrite) e l’URL di base del server Adobe Commerce/Magento Open Source e riprova. Se imposti Apache `AllowOverride` direttiva non correttamente, i file statici non vengono trasmessi dalla posizione corretta.
-* Se utilizzi il server web Inginx, assicurati di [configurare un file host virtuale](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/nginx.html#configure-nginx-ubuntu). Il file host virtuale nginx deve soddisfare i seguenti criteri:
-   * Il `include` la direttiva deve puntare al file di configurazione nginx di esempio nella directory di installazione di Adobe Commerce/Magento Open Source. Ad esempio:    `include /var/www/html/magento2/nginx.conf.sample;`
-   * Il `server_name` La direttiva deve corrispondere all’URL di base specificato durante l’installazione di Adobe Commerce/Magento Open Source. Ad esempio: `server_name 192.186.33.10;`
-* Se l’applicazione è in [modalità di produzione](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode), provare a distribuire i file di visualizzazione statica utilizzando `magento setup:static-content:deploy` comando. Per informazioni dettagliate sulla distribuzione di file statici, fare riferimento a [Distribuire file di visualizzazione statica](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) nella documentazione per gli sviluppatori.
+* Se utilizzi il server web Apache, verifica che l&#39;impostazione [server riscriva](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html#apache-help-rewrite) e l&#39;URL di base del server Adobe Commerce/Magento Open Source e riprova. Se la direttiva Apache `AllowOverride` non è stata configurata correttamente, i file statici non vengono distribuiti dalla posizione corretta.
+* Se si utilizza il server Web nginx, [configurare un file host virtuale](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/nginx.html#configure-nginx-ubuntu). Il file host virtuale nginx deve soddisfare i seguenti criteri:
+   * La direttiva `include` deve puntare al file di configurazione nginx di esempio nella directory di installazione di Adobe Commerce/Magento Open Source. Ad esempio:    `include /var/www/html/magento2/nginx.conf.sample;`
+   * La direttiva `server_name` deve corrispondere all&#39;URL di base specificato durante l&#39;installazione di Adobe Commerce/Magento Open Source. Esempio: `server_name 192.186.33.10;`
+* Se l&#39;applicazione è in [modalità di produzione](https://devdocs.magento.com/guides/v2.3/config-guide/bootstrap/magento-modes.html#production-mode), provare a distribuire i file di visualizzazione statica utilizzando il comando `magento setup:static-content:deploy`. Per informazioni dettagliate sulla distribuzione di file statici, consultare [Distribuire file di visualizzazione statici](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) nella documentazione per gli sviluppatori.

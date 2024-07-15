@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Messaggio di errore durante l’aggiunta di siti a Security Scan
 
-Questo articolo fornisce possibili soluzioni al problema che si verifica quando un utente non è in grado di aggiungere siti a [Commerce Security Scan](https://account.magento.com/scanner/dashboard/).
+In questo articolo vengono fornite possibili soluzioni per il problema che si verifica quando un utente non è in grado di aggiungere siti all&#39;[analisi della sicurezza di Commerce](https://account.magento.com/scanner/dashboard/).
 
 ## Prodotti e versioni interessati
 
@@ -22,7 +22,7 @@ Questo articolo fornisce possibili soluzioni al problema che si verifica quando 
 
 ## Problema
 
-L’utente non è in grado di aggiungere siti a [Commerce Security Scan](https://account.magento.com/scanner/dashboard/). Quando si tenta di aggiungere un sito viene visualizzato il seguente messaggio di errore: *Impossibile inviare il sito per la scansione.*
+L&#39;utente non è in grado di aggiungere siti all&#39;[Analisi sicurezza di Commerce](https://account.magento.com/scanner/dashboard/). Durante il tentativo di aggiungere un sito viene visualizzato il seguente messaggio di errore: *Impossibile inviare il sito per la scansione.*
 
 ## Soluzione
 
@@ -31,10 +31,10 @@ L’utente non è in grado di aggiungere siti a [Commerce Security Scan](https:/
    * 34 196 167 176
    * 3 218 25 102
 
-1. Il codice di conferma è sensibile al tempo. Se sono trascorsi più di 30 minuti dopo il **Aggiungi sito** clic sul collegamento, il codice è probabilmente scaduto.
+1. Il codice di conferma è sensibile al tempo. Se sono trascorsi più di 30 minuti dopo che è stato fatto clic sul collegamento **Aggiungi sito**, è probabile che il codice sia scaduto.
 1. Non dimenticare di pulire la cache e accertati che il codice di convalida venga visualizzato nel corpo del codice sorgente della pagina iniziale. Il codice di conferma deve essere inserito in base alle specifiche di markup HTML: il commento HTML può essere inserito nel corpo della pagina (si consiglia di inserirlo nella sezione piè di pagina); il tag META deve essere presente solo nella sezione head.
-1. Prima di fare clic **Verifica codice di conferma**, apri la Developer Console del browser, fai clic su **Rete** e controlla la risposta da magento.com. Deve essere HTTP 200 (OK) e il corpo della risposta deve contenere un oggetto JSON.
-1. Se il codice di risposta è HTTP 200 e il corpo della risposta è un oggetto JSON e il `verified` valore proprietà: `false`, significa che il codice non è stato trovato nella pagina. Il `details` Il valore della proprietà deve contenere la spiegazione. Ad esempio, se l’archivio utilizza un certificato SSL autofirmato, probabilmente si verificherà un errore di connessione.
+1. Prima di fare clic su **Verifica codice di conferma**, apri la console per sviluppatori del browser, fai clic sulla scheda **Rete** e controlla la risposta da magento.com. Deve essere HTTP 200 (OK) e il corpo della risposta deve contenere un oggetto JSON.
+1. Se il codice di risposta è HTTP 200 e il corpo della risposta è un oggetto JSON e il valore della proprietà `verified` è `false`, significa che il codice non è stato trovato nella pagina. Il valore della proprietà `details` deve contenere la spiegazione. Ad esempio, se l’archivio utilizza un certificato SSL autofirmato, probabilmente si verificherà un errore di connessione.
 
 Se non riesci ancora ad aggiungere siti, completa i passaggi seguenti:
 
@@ -53,4 +53,4 @@ Se non riesci ancora ad aggiungere siti, completa i passaggi seguenti:
 
 ## Lettura correlata
 
-* [Security Scan](https://docs.magento.com/user-guide/magento/security-scan.html) nella guida utente.
+* [Analisi protezione](https://docs.magento.com/user-guide/magento/security-scan.html) nella guida utente.

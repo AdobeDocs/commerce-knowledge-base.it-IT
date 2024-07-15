@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-42283: il formato data-ora per le impostazioni locali francesi non è valido
 
-La patch MDVA-42283 risolve il problema che causa la mancata validità del formato data/ora nella griglia dell&#39;ordine di amministrazione per le impostazioni internazionali in francese. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L&#39;ID della patch è MDVA-42283. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+La patch MDVA-42283 risolve il problema che causa la mancata validità del formato data/ora nella griglia dell&#39;ordine di amministrazione per le impostazioni internazionali in francese. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L&#39;ID della patch è MDVA-42283. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.2-p2
 
@@ -27,7 +27,7 @@ La patch MDVA-42283 risolve il problema che causa la mancata validità del forma
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -36,7 +36,7 @@ Il formato data/ora nella griglia dell&#39;ordine di amministrazione per le impo
 <u>Passaggi da riprodurre</u>:
 
 1. Crea un ordine, un cliente, una pagina CMS o un blocco CMS.
-1. Vai a **Amministratore** > **Impostazioni account** e impostare le impostazioni locali dell&#39;interfaccia per l&#39;amministratore su **Français (Canada)**/**français (Canada)(fr_CA)** o **Portoghese brasiliano (pt_BR)**.
+1. Vai a **Amministratore** > **Impostazioni account** e imposta le impostazioni locali dell&#39;interfaccia per l&#39;amministratore su **Français (Canada)**/**Français (Canada)(fr_CA)** o **Portoghese brasiliano (pt_BR)**.
 1. Osservare il valore nella colonna data per qualsiasi ordine, spedizione, nota di credito, cliente, pagina CMS o griglia di blocchi CMS.
 
 <u>Risultati previsti</u>:
@@ -51,14 +51,14 @@ Il valore data-ora non è corretto.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione per il problema in cui i nuovi ambienti v
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce su infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
@@ -29,9 +29,9 @@ Disporre di un clone locale controllato da Git del progetto.
 
 È necessario creare un ramo di integrazione dal ramo di staging:
 
-1. Passa al ramo di staging eseguendo il comando seguente nella shell locale: `git checkout staging`
-1. Crea un ramo di integrazione dal ramo di staging eseguendo il seguente comando nella shell locale: `git checkout -b <branch>`
-1. Invia il ramo all’archivio remoto e imposta un ramo upstream eseguendo il seguente comando nella shell locale: `git push --set-upstream origin <branch>`
+1. Passare al ramo di gestione temporanea eseguendo il comando seguente nella shell locale: `git checkout staging`
+1. Creare un ramo di integrazione dal ramo di gestione temporanea eseguendo il comando seguente nella shell locale: `git checkout -b <branch>`
+1. Eseguire il push del ramo all&#39;archivio remoto e impostare un ramo upstream eseguendo il comando seguente nella shell locale: `git push --set-upstream origin <branch>`
 
 <u>Risultati previsti</u>:
 
@@ -47,9 +47,9 @@ Questo non è un bug. Per impostare un ramo principale per un altro ramo, il com
 
 ## Soluzione
 
-Un ramo padre può essere impostato solo dopo che il commerciante ha inviato e attivato un ramo appena creato. Fai riferimento a [Adobe Commerce su infrastruttura cloud > Integrazione bitbucket](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) nella documentazione per gli sviluppatori.
+Un ramo padre può essere impostato solo dopo che il commerciante ha inviato e attivato un ramo appena creato. Consulta [Adobe Commerce su infrastruttura cloud > Integrazione bitbucket](https://devdocs.magento.com/cloud/integrations/bitbucket-integration.html#create-a-new-cloud-branch) nella documentazione per sviluppatori.
 
-Per aggiornare un elemento padre per il ramo esistente sul server, utilizza `magento-cloud environment:info` comando nella CLI di magento-cloud.
+Per aggiornare un elemento padre per il ramo esistente sul server, utilizzare il comando `magento-cloud environment:info` nell&#39;interfaccia CLI di Magento-Cloud.
 
 Esempio di utilizzo:
 
@@ -59,4 +59,4 @@ In questo modo il ramo padre verrà impostato su &quot;Staging&quot; per il ramo
 
 ## Lettura correlata
 
-* [Adobe Commerce su infrastruttura cloud > CLI magento-cloud](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) nella documentazione per gli sviluppatori.
+* [Adobe Commerce su infrastruttura cloud > CLI di magento-cloud](https://devdocs.magento.com/cloud/reference/cli-ref-topic.html) nella documentazione per gli sviluppatori.

@@ -15,29 +15,29 @@ ht-degree: 0%
 
 La patch MDVA-22026 risolve il problema dell&#39;impossibilità di importare immagini di prodotto da un URL esterno.
 
-Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20. L&#39;ID della patch è MDVA-22026. Il problema è stato risolto nella versione 2.3.4 di Adobe Commerce.
+Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.20. L&#39;ID della patch è MDVA-22026. Il problema è stato risolto nella versione 2.3.4 di Adobe Commerce.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:** Adobe Commerce sull’infrastruttura cloud 2.3.2-p2
+**La patch è stata creata per Adobe Commerce versione:** Adobe Commerce su infrastruttura cloud 2.3.2-p2
 
-**Compatibile con le versioni di Adobe Commerce:** Adobe Commerce on-premise e Adobe Commerce sull’infrastruttura cloud 2.3.2-2.3.3-p1
+**Compatibile con le versioni di Adobe Commerce:** Adobe Commerce on-premise e Adobe Commerce on cloud infrastructure 2.3.2-2.3.3-p1
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
 <u>Passaggi da riprodurre</u>:
 
-1. In Amministratore, vai a **Sistema** > **Importa**.
-1. Imposta **Tipo di entità** = *Prodotti*.
-1. Imposta **Comportamento di importazione** = *Aggiungi/aggiorna*.
-1. Imposta **Conteggio errori consentiti** = *10000*.
+1. In Admin, vai a **Sistema** > **Importa**.
+1. Imposta **Tipo Di Entità** = *Prodotti*.
+1. Imposta **Comportamento Importazione** = *Aggiungi/Aggiorna*.
+1. Imposta **Numero Errori Consentiti** = *10000*.
 1. Selezionare il file da importare.
-1. Fai clic su **Verifica dati** (che deve convalidare il file).
-1. Fai clic su **Importa** pulsante.
+1. Fare clic sul pulsante **Verifica dati** (che deve convalidare il file).
+1. Fai clic sul pulsante **Importa**.
 
 <u>Risultati previsti</u>:
 
@@ -55,14 +55,14 @@ Importazione non riuscita di prodotti da file CSV, incluse immagini da URL ester
 
 Per applicare singole patch, utilizzare i collegamenti riportati di seguito, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html).
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html).
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html).
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
-* [Verifica la patch per il problema Adobe Commerce con lo strumento Quality Patches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
+* [È stato rilasciato lo strumento Quality Patches: è stato introdotto un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [Controlla la patch per il problema Adobe Commerce con lo strumento Quality Patches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
-Per informazioni sulle altre patch disponibili nello strumento QPT, consultare [Patch disponibili nello strumento QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sezione.
+Per informazioni sulle altre patch disponibili nello strumento QPT, fare riferimento alla sezione [Patch disponibili nello strumento QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-).

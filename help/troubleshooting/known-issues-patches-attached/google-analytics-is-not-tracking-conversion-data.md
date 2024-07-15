@@ -25,8 +25,8 @@ I dati di conversione non sono stati tracciati dalle Google Analytics a causa di
 
 <u>Passaggi da riprodurre</u>:
 
-1. Abilitare e configurare la funzionalità Google Analytics in Amministrazione Commerce in **Negozi** > **Impostazioni** > **Configurazione** > **Vendite** > **API GOOGLE** > **Google Analytics**.
-1. Clic **Salva configurazione**.
+1. Abilita e configura la funzionalità Google Analytics nell&#39;amministratore di Commerce in **Archivi** > **Impostazioni** > **Configurazione** > **Vendite** > **API Google** > **Google Analytics**.
+1. Fai clic su **Salva configurazione**.
 1. Effettua un ordine sul vetrina.
 1. Vai a **Dashboard Google Analytics** > **Conversioni** > **Panoramica**.
 1. Imposta l’intervallo di date sulla data corrente.
@@ -62,6 +62,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

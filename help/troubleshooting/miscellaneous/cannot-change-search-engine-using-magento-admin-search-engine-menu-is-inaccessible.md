@@ -18,11 +18,11 @@ ht-degree: 0%
 > [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch.
 > 
 > Consulta:
-> [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
-> [Installare e configurare Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
-> [Installare e configurare Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+> [Installa e configura Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [Installa e configura Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [Installa e configura Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
 
-Questo articolo fornisce una soluzione per modificare il motore di ricerca di Adobe Commerce utilizzando l’amministratore Commerce se **Motore di ricerca** non viene visualizzato o il **Usa valore di sistema** la casella di controllo è disattivata e non accessibile.
+Questo articolo fornisce una soluzione per modificare il motore di ricerca di Adobe Commerce utilizzando l&#39;amministratore di Commerce se il campo **Motore di ricerca** non è visualizzato o se la casella di controllo **Usa valore di sistema** è disattivata e non accessibile.
 
 In questo articolo:
 
@@ -41,48 +41,48 @@ In questo articolo:
 
 ## Modificare il motore di ricerca tramite Admin (passaggi)
 
-1. Accedi a **[!UICONTROL Admin]** come amministratore.
-1. Sul lato sinistro del **[!UICONTROL Admin]** barra laterale, fai clic su **[!UICONTROL Stores]**.
-1. Sotto **[!UICONTROL Settings]**, scegli **[!UICONTROL Configuration]**.
-1. Passa al pannello a sinistra sotto **[!UICONTROL Catalog],** e scegli **[!UICONTROL Catalog]**.
-1. Espandi **[!UICONTROL Catalog Search]** sezione.    ![catalog_menu.png](assets/catalog_menu.png)
-1. Vai a **[!UICONTROL Search Engine]** e rimuovere la selezione dal **[!UICONTROL Use system value]** casella di controllo.
-1. Fai clic su **[!UICONTROL Search Engine]** e selezionare una delle opzioni disponibili, come illustrato di seguito.    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. Fai clic su **[!UICONTROL Save Config]** nell’angolo in alto a destra della pagina.
+1. Accedere a **[!UICONTROL Admin]** come amministratore.
+1. Sul lato sinistro della barra laterale **[!UICONTROL Admin]**, fare clic su **[!UICONTROL Stores]**.
+1. In **[!UICONTROL Settings]** scegliere **[!UICONTROL Configuration]**.
+1. Passa al pannello a sinistra in **[!UICONTROL Catalog],** e scegli **[!UICONTROL Catalog]**.
+1. Espandere la sezione **[!UICONTROL Catalog Search]**.    ![menu_catalogo.png](assets/catalog_menu.png)
+1. Passare al campo **[!UICONTROL Search Engine]** e rimuovere la selezione dalla casella di controllo **[!UICONTROL Use system value]**.
+1. Fare clic sul menu **[!UICONTROL Search Engine]** e selezionare una delle opzioni disponibili, come illustrato di seguito.    ![menu_motore_di_ricerca.png](assets/search_engine_menu.png)
+1. Fai clic su **[!UICONTROL Save Config]** nell&#39;angolo superiore destro della pagina.
 
 ## Problemi relativi ad Adobe Commerce on-premise
 
 ### Problema 1: il campo Motore di ricerca non viene visualizzato
 
-Quando accedi a **Ricerca nel catalogo** sezione, il **Motore di ricerca** non viene visualizzato.
+Quando accedi alla sezione **Ricerca nel catalogo**, il menu **Motore di ricerca** non viene visualizzato.
 
-![search_engine_not_viewed.png](assets/search_engine_not_displayed.png)
+![motore di ricerca_non_visualizzato.png](assets/search_engine_not_displayed.png)
 
 ### Causa: la vista archivio non è una configurazione predefinita
 
-La vista Store per l’amministratore è stata impostata su un valore diverso da *Configurazione predefinita*.
+La visualizzazione archivio per l&#39;amministratore è stata impostata su un valore diverso da *Configurazione predefinita*.
 
 Il motore di ricerca è una configurazione globale impostata a livello di applicazione, non nell&#39;ambito dell&#39;archivio. Gli archivi all’interno di un’applicazione Adobe Commerce non possono utilizzare motori di ricerca diversi.
 
 ### Soluzione: impostare la visualizzazione archivio su Configurazione predefinita
 
-1. Accedi a **[!UICONTROL Admin]** come amministratore.
-1. Sul lato sinistro del **[!UICONTROL Admin]** barra laterale, fai clic su **[!UICONTROL Stores]**.
-1. Accedi a **[!UICONTROL Settings]** e scegli **[!UICONTROL Configuration]**.
-1. Nell&#39;angolo in alto a sinistra, fare clic sul pulsante **[!UICONTROL Store View]** e scegli **[!UICONTROL *Configurazione predefinita *]**.
-1. Fai clic su **[!UICONTROL OK]** nella finestra di dialogo di conferma per approvare le modifiche alla visualizzazione archivio.
+1. Accedere a **[!UICONTROL Admin]** come amministratore.
+1. Sul lato sinistro della barra laterale **[!UICONTROL Admin]**, fare clic su **[!UICONTROL Stores]**.
+1. Passare a **[!UICONTROL Settings]** e scegliere **[!UICONTROL Configuration]**.
+1. Nell&#39;angolo superiore sinistro fare clic sul selettore **[!UICONTROL Store View]** e scegliere **[!UICONTROL *Configurazione predefinita *]**.
+1. Fare clic su **[!UICONTROL OK]** nella finestra di dialogo di conferma per approvare le modifiche alla visualizzazione dello store.
 
-![change_store_view.png](assets/change_store_view.png)
+![cambia_vista_archivio.png](assets/change_store_view.png)
 
 **Documentazione correlata:** [Modifica dell&#39;ambito](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope) nella guida utente.
 
 ### Problema 2: impossibile deselezionare &quot;Usa valore di sistema&quot;
 
-Quando accedi a **Ricerca nel catalogo** sezione dell’amministratore, il **Usa valore di sistema** La casella di controllo è disattivata, pertanto non è possibile rimuovere la selezione dalla casella di controllo per cambiare successivamente il motore di ricerca.
+Quando accedi alla sezione **Ricerca nel catalogo** dell&#39;amministratore, la casella di controllo **Usa valore di sistema** è disattivata, pertanto non puoi rimuovere la selezione dalla casella di controllo per cambiare il motore di ricerca in un secondo momento.
 
 ### Causa
 
-Il motore di ricerca predefinito è stato configurato a livello di configurazione dell’applicazione in `app/etc/env.php` o `app/etc/config.php` e quindi non possono essere modificati utilizzando l’Admin.
+Il motore di ricerca predefinito è stato configurato nel livello di configurazione dell&#39;applicazione nei file `app/etc/env.php` o `app/etc/config.php` e pertanto non può essere modificato con Admin.
 
 Esempio della sezione con configurazione predefinita del motore di ricerca:
 
@@ -104,7 +104,7 @@ array (
 
 ### Soluzione
 
-Rimuovi la sezione con la configurazione predefinita del motore di ricerca dalla sezione `app/etc/env.php` o `app/etc/config.php` file di configurazione.
+Rimuovere la sezione con la configurazione predefinita del motore di ricerca dai file di configurazione `app/etc/env.php` o `app/etc/config.php`.
 
 ### Articoli correlati nella documentazione per sviluppatori
 
@@ -114,17 +114,17 @@ Rimuovi la sezione con la configurazione predefinita del motore di ricerca dalla
 
 Il passaggio da un motore di ricerca all’altro utilizzando l’amministratore non è disponibile in Adobe Commerce sull’infrastruttura cloud a causa del modo in cui questa è stata organizzata.
 
-Durante il processo di distribuzione, gli script di distribuzione dell’infrastruttura cloud di Adobe Commerce verificano se l’Elasticsearch è stato dichiarato in `MAGENTO_CLOUD_RELATIONSHIPS` variabile. Se dichiarato, l&#39;Elasticsearch viene selezionato come motore di ricerca attivo e configurato automaticamente. [Motore di ricerca MySQL](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) diventa inaccessibile in Admin. Se la relazione Elasticsearch non è stata dichiarata, MySQL è impostato su attivo e Elasticsearch diventa inaccessibile.
+Durante il processo di distribuzione, gli script di distribuzione dell&#39;infrastruttura cloud di Adobe Commerce verificano se l&#39;Elasticsearch è stato dichiarato nella variabile `MAGENTO_CLOUD_RELATIONSHIPS`. Se dichiarato, l&#39;Elasticsearch viene selezionato come motore di ricerca attivo e configurato automaticamente; il motore di ricerca [MySQL](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md) diventa inaccessibile nell&#39;amministratore. Se la relazione Elasticsearch non è stata dichiarata, MySQL è impostato su attivo e Elasticsearch diventa inaccessibile.
 
-Si sconsiglia di modificare il `app/etc/env.php` o `app/etc/config.php` i file di configurazione direttamente nell’ambiente cloud; per questo motivo, la modifica di questi file per rendere visibile il motore di Elasticsearch nell’amministratore (la soluzione consigliata nella sezione precedente) non è applicabile al progetto cloud.
+Non è consigliabile modificare i file di configurazione `app/etc/env.php` o `app/etc/config.php` direttamente nell&#39;ambiente cloud. Per questo motivo, la modifica di questi file per rendere il motore di Elasticsearch da visualizzare nell&#39;amministratore (la soluzione consigliata nella sezione precedente) non è applicabile al progetto cloud.
 
 ### Modificare il motore di ricerca negli ambienti di staging e produzione
 
-Prima di passare dal motore di ricerca di MySQL a quello di Elasticsearch negli ambienti di staging e produzione, accertarsi di aver [ha inviato un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) la richiesta di abilitare l’Elasticsearch nell’ambiente e nel ticket è stata risolta correttamente.
+Prima di cambiare il motore di ricerca da MySQL a Elasticsearch negli ambienti di staging e produzione, assicurati di aver inviato in precedenza [un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo di abilitare Elasticsearch nell&#39;ambiente e che il ticket sia stato risolto correttamente.
 
-Per modificare il motore di ricerca utilizzato negli ambienti di staging e produzione, modifica la `SEARCH_CONFIGURATION` nella tua `.magento.env.yaml` nell’ambiente locale, quindi invia le modifiche agli ambienti di integrazione e staging/produzione per renderle effettive.
+Per cambiare il motore di ricerca utilizzato negli ambienti di staging e produzione, modifica la variabile di ambiente `SEARCH_CONFIGURATION` nel file `.magento.env.yaml` nell&#39;ambiente locale, quindi invia le modifiche agli ambienti di integrazione e staging/produzione affinché le modifiche diventino effettive.
 
-Se passi all&#39;Elasticsearch 7, la variabile SEARCH\_CONFIGURATION nel `.magento.env.yaml` potrebbe presentarsi come segue:
+Se si passa all&#39;Elasticsearch 7, la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
 
 ```yaml
 stage:
@@ -137,7 +137,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Se stai passando a [Opensearch (in 2.4.6 e versioni successive)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) la variabile SEARCH\_CONFIGURATION nel risultato `.magento.env.yaml` potrebbe presentarsi come segue:
+Se si passa a [Opensearch (in 2.4.6 e versioni successive)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search), la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
 
 ```yaml
 stage:
@@ -150,7 +150,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Se sei [passaggio a Live Search](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), la variabile SEARCH\_CONFIGURATION nel risultato `.magento.env.yaml` potrebbe presentarsi come segue:
+Se [passi a Live Search](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
 
 ```yaml
 stage:
@@ -168,7 +168,7 @@ stage:
 #### Documentazione per gli sviluppatori
 
 * [Configura servizio Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
-* [Generare e distribuire](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentazione sulla funzione `.magento.env.yaml` file di configurazione)
-* [Distribuire le variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([SEZIONE SEARCH\_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
-* [Servizi](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentazione sulla funzione `.magento/services.yaml` file di configurazione)
+* [Genera e distribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentazione sul file di configurazione `.magento.env.yaml`)
+* [Distribuisci variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([SEARCH\_CONFIGURATION section](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
+* [Servizi](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentazione sul file di configurazione `.magento/services.yaml`)
 * [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)

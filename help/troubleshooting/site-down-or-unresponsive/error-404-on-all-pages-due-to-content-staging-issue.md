@@ -24,9 +24,9 @@ Questo articolo fornisce una correzione per il problema di infrastruttura cloud 
 
 >[!NOTE]
 >
->Questo articolo non si applica alla situazione in cui si verifica un errore 404 quando si tenta di [anteprima dell’aggiornamento della gestione temporanea](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). Se riscontri questo problema, apri una [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+>Questo articolo non è applicabile alla situazione in cui si verifica un errore 404 quando si tenta di [visualizzare in anteprima l&#39;aggiornamento della gestione temporanea](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change). Se riscontri questo problema, apri un [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
-L’accesso a qualsiasi pagina della vetrina o all’amministratore genera l’errore 404 (pagina &quot;Ops, le nostre cattive...&quot;) dopo aver eseguito operazioni con aggiornamenti pianificati per archiviare le risorse di contenuto utilizzando [Staging dei contenuti](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (aggiornamenti per le risorse di contenuto del negozio pianificate utilizzando [Magento\_Modulo gestione temporanea](https://developer.adobe.com/commerce/php/module-reference/)). Ad esempio, potresti aver eliminato un prodotto con un aggiornamento pianificato o rimosso la data di fine per l’aggiornamento pianificato.
+L&#39;accesso a qualsiasi pagina della vetrina o all&#39;amministratore genera l&#39;errore 404 (la pagina &quot;Ops, le nostre cattive...&quot;) dopo aver eseguito operazioni con aggiornamenti pianificati per le risorse di contenuto del negozio utilizzando [Staging contenuto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (aggiornamenti per le risorse di contenuto del negozio pianificate utilizzando il modulo [Magento\_Staging](https://developer.adobe.com/commerce/php/module-reference/)). Ad esempio, potresti aver eliminato un prodotto con un aggiornamento pianificato o rimosso la data di fine per l’aggiornamento pianificato.
 
 Una risorsa di contenuto store include:
 
@@ -42,11 +42,11 @@ Alcuni scenari sono descritti nella sezione Causa seguente.
 
 ## Causa
 
-Il `flag` nel database (DB) contiene collegamenti non validi al database `staging_update` tabella.
+La tabella `flag` nel database (DB) contiene collegamenti non validi alla tabella `staging_update`.
 
 Il problema è relativo alla gestione temporanea dei contenuti. Di seguito sono riportati due scenari specifici; tieni presente che potrebbero verificarsi più situazioni che attivano il problema.
 
-**Scenario 1** Eliminazione di una risorsa di contenuto store che:
+**Scenario 1:** eliminazione di una risorsa di contenuto dell&#39;archivio che:
 
 * ha un aggiornamento pianificato con Content Staging
 * l’aggiornamento ha una data di fine (ossia la data di scadenza dopo la quale la risorsa aggiornata torna alla versione precedente)
@@ -54,7 +54,7 @@ Il problema è relativo alla gestione temporanea dei contenuti. Di seguito sono 
 
 Allo stesso tempo, il problema potrebbe non verificarsi se una risorsa eliminata non ha una data di fine per l’aggiornamento pianificato.
 
-**Scenario 2** Rimozione della data/ora di fine di un aggiornamento pianificato.
+**Scenario 2:** Rimozione della data/ora di fine di un aggiornamento pianificato.
 
 ### Identifica se il problema è correlato
 
@@ -68,19 +68,19 @@ Per verificare se il problema riscontrato è quello descritto in questo articolo
    -> WHERE flag_code = 'staging';
 ```
 
-Se la query restituisce una tabella in cui `update_exists` valore è &quot;0&quot;, quindi un collegamento non valido al `staging_update` presente nel database e i passaggi descritti nella [Sezione Soluzione](#solution) aiuterà a risolvere il problema. Di seguito è riportato un esempio del risultato della query con `update_exists` valore uguale a &quot;0&quot;:
+Se la query restituisce una tabella in cui il valore `update_exists` è &quot;0&quot;, nel database esiste un collegamento non valido alla tabella `staging_update` e i passaggi descritti nella [sezione Soluzione](#solution) aiuteranno a risolvere il problema. Di seguito è riportato un esempio del risultato della query con valore `update_exists` uguale a &quot;0&quot;:
 
 ![update_exists_0.png](assets/update_exists_0.png)
 
-Se la query restituisce una tabella in cui `update_exists` se il valore è &quot;1&quot; o vuoto, significa che il problema non è correlato agli aggiornamenti di staging. Di seguito è riportato un esempio del risultato della query con `update_exists` valore uguale a &quot;1&quot;:
+Se la query restituisce una tabella in cui il valore `update_exists` è &quot;1&quot; o un risultato vuoto, significa che il problema non è correlato agli aggiornamenti della gestione temporanea. Di seguito è riportato un esempio del risultato della query con valore `update_exists` uguale a &quot;1&quot;:
 
-![updates_exist_1.png](assets/updates_exist_1.png)
+![aggiornamenti_exists_1.png](assets/updates_exist_1.png)
 
-In questo caso, puoi fare riferimento a [Risoluzione dei problemi di inattività del sito](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) per suggerimenti sulla risoluzione dei problemi.
+In questo caso, è possibile fare riferimento a [Risoluzione dei problemi di inattività del sito](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) per informazioni sulla risoluzione dei problemi.
 
 ## Soluzione
 
-1. Esegui la query seguente per eliminare il collegamento non valido al `staging_update` tabella:
+1. Eseguire la query seguente per eliminare il collegamento non valido alla tabella `staging_update`:
 
    ```sql
    DELETE FROM flag WHERE flag_code = 'staging';

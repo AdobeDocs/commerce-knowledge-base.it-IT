@@ -33,7 +33,7 @@ Gli esercenti impostano un coupon per singolo utilizzo e i clienti possono utili
 
 <u>Risultato previsto</u>:
 
-Il coupon può essere utilizzato una sola volta. Viene visualizzato un messaggio di tipo: *Codice coupon &quot;COUPON_NAME&quot; non valido*.
+Il coupon può essere utilizzato una sola volta. Viene visualizzato un messaggio: *Il codice coupon &quot;COUPON_NAME&quot; non è valido*.
 
 <u>Risultato effettivo</u>:
 
@@ -42,11 +42,11 @@ Il coupon può essere utilizzato più volte.
 
 ## Causa
 
-I commercianti non hanno `sales.rule.update.coupon.usage` configurazione e funzionamento del consumer che provocano un comportamento non corretto.
+I commercianti non dispongono di `sales.rule.update.coupon.usage` consumer configurato e in esecuzione che provocano un comportamento non corretto.
 
 ## Soluzione
 
-Aggiungi il `sales.rule.update.coupon.usage` consumer per `app/etc/env.php` file.
+Aggiungere il consumer `sales.rule.update.coupon.usage` al file `app/etc/env.php`.
 
 ```php
 ...
@@ -62,7 +62,7 @@ Aggiungi il `sales.rule.update.coupon.usage` consumer per `app/etc/env.php` file
 ...
 ```
 
-Per i passaggi dettagliati, consulta [Gestisci code di messaggi > Configurazione](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) nella documentazione per gli sviluppatori.
+Per i passaggi dettagliati, consulta [Gestione delle code di messaggi > Configurazione](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

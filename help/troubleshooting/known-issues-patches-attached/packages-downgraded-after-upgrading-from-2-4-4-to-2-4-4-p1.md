@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Pacchetti declassati dopo l’aggiornamento da 2.4.4 a 2.4.4-p1
 
-Questo articolo fornisce un hotfix per il problema che si verifica quando gli esercenti eseguono la versione 2.4.4 di `composer update` e quindi i pacchetti (moduli) elencati di seguito vengono scaricati alle versioni precedenti che non sono compatibili con la versione 2.4.4 e che devono essere utilizzati solo con la versione 2.4.5 e successive.
+Questo articolo fornisce un hotfix per il problema che si verifica quando i commercianti nella versione 2.4.4 eseguono il comando `composer update` e quindi i pacchetti (moduli) elencati di seguito vengono scaricati alle versioni precedenti che non sono compatibili con la versione 2.4.4 e che devono essere utilizzati solo con la versione 2.4.5 e successive.
 
 ## Prodotti e versioni interessati
 
@@ -82,7 +82,7 @@ Durante l’aggiornamento dalla versione 2.4.4 alla versione 2.4.4-p1, le versio
 
 <u>Passaggi da riprodurre</u>:
 
-Quando i commercianti della versione 2.4.4 eseguono `composer update` , quindi gli stessi pacchetti (moduli) elencati sopra in **Scenario 1** vengono aggiornati alle versioni più recenti, compatibili solo con la versione 2.4.5 e non destinate all’utilizzo con la versione 2.4.4.
+Quando i commercianti della versione 2.4.4 eseguono il comando `composer update`, gli stessi pacchetti (moduli) elencati in precedenza nello **Scenario 1** vengono aggiornati alle versioni più recenti, che sono compatibili solo con la versione 2.4.5 e non devono essere utilizzati con la versione 2.4.4.
 
 <u>Risultati previsti</u>:
 
@@ -94,7 +94,7 @@ I pacchetti (moduli) vengono declassati dopo l’aggiornamento dalla versione 2.
 
 ## Soluzione 1: patch
 
-La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file o sul seguente collegamento: [Scarica ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
+La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fino alla fine dell&#39;articolo e fai clic sul nome del file o sul seguente collegamento: [Scarica ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
 
 ## Versioni compatibili di Adobe Commerce e Magento Open Source:
 
@@ -110,27 +110,27 @@ La patch è stata creata per:
 
 ## Come applicare il cerotto
 
-Utilizza lo script di base allegato [ACPLTSRV-2017-fix.sh.zi p](assets/ACPLTSRV-2017-fix.sh.zip) come soluzione alternativa per questo problema.
+Utilizza lo script di base [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip) allegato come soluzione alternativa per questo problema.
 
-**Istruzioni precise su come utilizzare lo script:**
+**Istruzioni esatte su come utilizzare lo script:**
 
 ### In Adobe Commerce sull’infrastruttura cloud:
 
-1. Scaricare il file script di base `ACPLTSRV-2017-fix.sh` al pagamento locale della base di codice cloud.
-1. Eseguire il file di script di base `ACPLTSRV-2017-fix.sh` per modificare localmente i file del compositore.
+1. Scaricare il file dello script di base `ACPLTSRV-2017-fix.sh` nell&#39;estrazione locale dal codebase cloud.
+1. Eseguire il file script di base `ACPLTSRV-2017-fix.sh` per modificare localmente i file del compositore.
 1. Aggiungi e conferma i file del compositore modificati nel tuo archivio Git.
 
 ### Su Adobe Commerce o Magento Open Source on-premise:
 
-1. Posiziona lo script Bash `ACPLTSRV-2017-fix.sh` nel `root` cartella dell’installazione di Adobe Commerce/Magento Open Source 2.4.4 (la stessa cartella del file `composer.json`).
-1. Esegui lo script Bash con un `apply` argomento per bloccare i pacchetti interessati (moduli) alle rispettive versioni 2.4.4:
+1. Posizionare lo script Bash `ACPLTSRV-2017-fix.sh` nella cartella `root` dell&#39;installazione di Adobe Commerce/Magento Open Source 2.4.4 (la stessa cartella di `composer.json`).
+1. Eseguire lo script bash con un argomento `apply` per bloccare i pacchetti interessati (moduli) alle versioni 2.4.4 corrispondenti:
 
    ```bash
    sh ACPLTSRV-2017-fix.sh apply
    ```
 
 1. Esegui il compositore aggiornato per installare i pacchetti (moduli) bloccati.
-1. Quando sei pronto per eseguire l’aggiornamento a 2.4.5 o 2.4.4-p1, esegui lo script con `rollback` argomento:
+1. Quando sei pronto per eseguire l&#39;aggiornamento alla versione 2.4.5 o 2.4.4-p1, esegui lo script con un argomento `rollback`:
 
    ```bash
    sh ACPLTSRV-2017-fix.sh rollback
@@ -141,4 +141,4 @@ Utilizza lo script di base allegato [ACPLTSRV-2017-fix.sh.zi p](assets/ACPLTSRV-
 
 ## Soluzione alternativa 2
 
-La seconda soluzione per questo problema consiste nel non eseguire `composer update` senza argomenti.
+La seconda soluzione per questo problema consiste nel non eseguire il comando `composer update` senza argomenti.

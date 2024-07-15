@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-48627: il prodotto configurabile esaurito causa un errore
 
-La patch ACSD-48627 risolve il problema relativo al prodotto configurabile esaurito che causa un errore durante l’invio di una richiesta GraphQL per ottenere i dettagli del carrello. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25. L’ID della patch è ACSD-48627. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
+La patch ACSD-48627 risolve il problema relativo al prodotto configurabile esaurito che causa un errore durante l’invio di una richiesta GraphQL per ottenere i dettagli del carrello. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.25. L’ID della patch è ACSD-48627. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.5-p1
 
@@ -27,7 +27,7 @@ La patch ACSD-48627 risolve il problema relativo al prodotto configurabile esaur
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -39,7 +39,7 @@ Prodotto configurabile esaurito causa un errore quando si invia una richiesta Gr
 1. Aggiungi alcuni prodotti al carrello, incluso un prodotto configurabile.
 1. Vai al backend di amministrazione e modifica il prodotto configurabile impostando su 0 la quantità di tutti i prodotti secondari.
 1. Il prodotto configurabile non sarà disponibile perché tutti i prodotti secondari sono esauriti.
-1. Controlla la `catalog_product_index_price` tabella. Il record con questo prodotto è vuoto.
+1. Controllare la tabella `catalog_product_index_price`. Il record con questo prodotto è vuoto.
 1. Effettua una richiesta GraphQL per ottenere il token del cliente.
 
    ```GraphQL
@@ -266,24 +266,24 @@ Prodotto configurabile esaurito causa un errore quando si invia una richiesta Gr
 
 <u>Risultati previsti</u>:
 
-No *Errore interno del server* nella risposta.
+Nessun *errore interno del server* nella risposta.
 
 <u>Risultati effettivi</u>:
 
-È presente un *Errore interno del server* nella risposta.
+*Errore interno del server* nella risposta.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

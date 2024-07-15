@@ -24,14 +24,14 @@ Questo articolo fornisce una soluzione al problema quando tutti i messaggi di er
 
 <u>Passaggi da riprodurre:</u>
 
-1. Vai a **Crea nuovo account** sulla vetrina.
+1. Vai alla pagina **Crea nuovo account** nella vetrina.
 1. Crea un nuovo account tramite e-mail registrata. Viene visualizzato il seguente messaggio:
 
 `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## Causa
 
-Il problema è causato da un problema PHP 7.4.2 relativo a set\\read cookies. Consulta [PHP BUG \#79174 setcookie() codifica lo spazio come \`+\`, ma $\_COOKIE non lo decodifica più](https://bugs.php.net/bug.php?id=79174).
+Il problema è causato da un problema PHP 7.4.2 relativo a set\\read cookies. Vedere [PHP BUG \#79174 setcookie() codifica lo spazio come \`+\`, ma $\_COOKIE non li decodifica più](https://bugs.php.net/bug.php?id=79174).
 
 ## Soluzione
 

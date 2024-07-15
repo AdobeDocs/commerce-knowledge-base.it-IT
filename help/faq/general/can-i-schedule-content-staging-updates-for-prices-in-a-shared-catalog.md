@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Posso pianificare gli aggiornamenti di Gestione temporanea dei contenuti per i prezzi in un catalogo condiviso?
 
-Adobe Commerce non offre la funzionalità di pianificazione di un aggiornamento dei prezzi ([Staging dei contenuti](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) per uno o più prodotti in un catalogo condiviso.
+Adobe Commerce non offre la funzionalità di pianificazione di un aggiornamento del prezzo ([Gestione temporanea dei contenuti](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)) per uno o più prodotti in un catalogo condiviso.
 
-Ciò significa che non è possibile pianificare un aggiornamento del prezzo direttamente dal **Imposta determinazione prezzi e struttura** del pannello di amministrazione di Commerce (non è presente **Pianifica nuovo aggiornamento** in questo menu).
+Ciò significa che non è possibile pianificare un aggiornamento del prezzo direttamente dal menu **Imposta prezzi e struttura** del pannello di amministrazione di Commerce (in questo menu non è presente il pulsante **Pianifica nuovo aggiornamento**).
 
 È comunque possibile utilizzare metodi alternativi e pianificare un aggiornamento del prezzo per:
 
@@ -23,12 +23,12 @@ Ciò significa che non è possibile pianificare un aggiornamento del prezzo dire
 
 ## Pianifica aggiornamento prezzo per un gruppo di clienti
 
-1. Inizio [pianificazione di un nuovo aggiornamento del prodotto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
-1. Scorri verso il basso fino a **Prezzo** e fai clic su **Advanced Pricing**.
+1. Avvia [la pianificazione di un nuovo aggiornamento del prodotto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
+1. Scorri verso il basso fino al campo **Prezzo** e fai clic su **Determinazione prezzi avanzata**.
 
    ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
 
-1. In **Sezione Prezzo gruppo di clienti**, seleziona il gruppo di clienti necessario e imposta il prezzo aggiornato.
+1. Nella sezione **Prezzo gruppo clienti**, seleziona il gruppo clienti necessario e imposta il prezzo aggiornato.
 
    ![customer_group_price.png](assets/customer_group_price.png){width="700"}
 
@@ -40,9 +40,9 @@ Ricorda: i cataloghi condivisi sfruttano i prezzi dei gruppi di clienti.
 
 **Documentazione correlata**
 
-* [Pianificazione di un aggiornamento (Content Staging)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) nella guida utente.
+* [Pianificazione di un aggiornamento (gestione temporanea del contenuto)](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) nella guida utente.
 * [Advanced Pricing](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) nella guida utente.
 
 ## Pianifica aggiornamento prezzo per il prezzo base
 
-Consulta l’articolo correlato: [In che modo la modifica del prezzo di base influisce sul prezzo di catalogo condiviso?](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) nella nostra knowledge base di supporto.
+Vedere l&#39;articolo correlato: [In che modo la modifica del prezzo di base influisce sul prezzo di catalogo condiviso?](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) nella Knowledge Base di supporto.

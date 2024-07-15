@@ -1,22 +1,23 @@
 ---
-title: '"ACSD-56635: i clienti importati vengono duplicati quando la condivisione account è impostata su [!DNL Global]'''
-description: Applica la patch ACSD-56635 per risolvere il problema Adobe Commerce, se il cliente importato viene duplicato con lo stesso indirizzo e-mail quando l’importazione viene utilizzata con la condivisione dell’account impostata su [!DNL Global].
+title: "ACSD-56635: i clienti importati vengono duplicati quando la condivisione account è impostata su [!DNL Global]"
+description: Applica la patch ACSD-56635 per risolvere il problema Adobe Commerce, in cui il cliente importato viene duplicato con lo stesso indirizzo e-mail quando l'importazione viene utilizzata con la condivisione dell'account impostata su [!DNL Global].
 feature: Customers, Attributes
 role: Admin, Developer
-source-git-commit: 86d752c9c2791ef19960876afafe24fefe5d29ed
+exl-id: abd542a1-6764-4385-97a6-b46015363b42
+source-git-commit: 880fc679afc853b514fddda56e570fe1a279a3d9
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# ACSD-56635: i clienti importati vengono duplicati con lo stesso indirizzo e-mail quando la condivisione dell’account è impostata su [!DNL Global]
+# ACSD-56635: i clienti importati vengono duplicati con lo stesso indirizzo e-mail quando la condivisione account è impostata su [!DNL Global]
 
-La patch ACSD-56635 risolve il problema relativo alla duplicazione del cliente importato con lo stesso indirizzo e-mail quando l’importazione viene utilizzata con la condivisione dell’account impostata su [!DNL Global]. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48. L’ID della patch è ACSD-56635. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
+La patch ACSD-56635 risolve il problema relativo alla duplicazione del cliente importato con lo stesso indirizzo e-mail quando l&#39;importazione viene utilizzata con la condivisione account impostata su [!DNL Global]. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48. L’ID della patch è ACSD-56635. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.6-p3
 
@@ -26,7 +27,7 @@ La patch ACSD-56635 risolve il problema relativo alla duplicazione del cliente i
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -34,18 +35,18 @@ I clienti importati vengono duplicati con lo stesso indirizzo e-mail quando la c
 
 <u>Passaggi da riprodurre</u>:
 
-1. Nell’ambito di Adobe Commerce (2.4-development b2b) **[!UICONTROL Admin]**, accesso **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Account Sharing Options]**.
-1. Imposta il *[!UICONTROL Share Customer Accounts]* impostazione su *[!DNL Global]*.
+1. In Adobe Commerce (2.4-development b2b) **[!UICONTROL Admin]**, accedere a **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Account Sharing Options]**.
+1. Impostare *[!UICONTROL Share Customer Accounts]* su *[!DNL Global]*.
 1. Creazione di più siti Web e store:
 
    * ws1 > s11, s12 > sw111, sw122
    * ws2 > s21, s22 > sw211, sw212
 
-1. Crea un nuovo cliente in *sito web principale* da amministratore con indirizzo e-mail utilizzato come <adb@yormail.com>.
-1. Sotto **[!UICONTROL Admin]**, passa a **[!UICONTROL System]** > **[!UICONTROL Import]**.
-1. Seleziona **[!UICONTROL Customer Entity Type]** as *[!UICONTROL Customers Main File]*.
-1. Utilizza lo stesso indirizzo e-mail di <adb@yormail.com> in un sito Web diverso, ad esempio ws1. Consulta il file CSV di esempio customer.csv fornito di seguito.
-1. Completa l’importazione per visualizzare il nuovo utente creato in *ws1* con lo stesso indirizzo e-mail.
+1. Crea un nuovo cliente nel *sito Web principale* dall&#39;amministratore con indirizzo e-mail utilizzato come <adb@yormail.com>.
+1. In **[!UICONTROL Admin]**, passa a **[!UICONTROL System]** > **[!UICONTROL Import]**.
+1. Seleziona **[!UICONTROL Customer Entity Type]** come *[!UICONTROL Customers Main File]*.
+1. Utilizzare lo stesso indirizzo di posta elettronica di <adb@yormail.com> in un sito Web diverso, ad esempio ws1. Consulta il file CSV di esempio customer.csv fornito di seguito.
+1. Completare l&#39;importazione per visualizzare il nuovo utente creato nel sito Web *ws1* con lo stesso indirizzo di posta elettronica.
 
 contenuto customer.csv:
 
@@ -66,14 +67,14 @@ I clienti duplicati vengono creati con lo stesso indirizzo e-mail quando si util
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

@@ -16,7 +16,7 @@ Questo articolo fornisce risposte rapide alle domande su come ottenere certifica
 
 ## Quale certificato SSL/TLS fornisce Adobe?
 
-L&#39;Adobe fornisce un [Crittografiamo il certificato SSL/TLS](https://letsencrypt.org/) per distribuire traffico HTTPS protetto da [!DNL Fastly]. Adobe fornisce un certificato per ogni ambiente Adobe Commerce su infrastruttura cloud Architettura del piano Pro, Staging e Adobe Commerce su infrastruttura cloud Ambiente di pianificazione iniziale per proteggere tutti i domini in tale ambiente.
+L&#39;Adobe fornisce un [certificato SSL/TLS ](https://letsencrypt.org/) convalidato dal dominio per il traffico HTTPS protetto da [!DNL Fastly]. Adobe fornisce un certificato per ogni ambiente Adobe Commerce su infrastruttura cloud Architettura del piano Pro, Staging e Adobe Commerce su infrastruttura cloud Ambiente di pianificazione iniziale per proteggere tutti i domini in tale ambiente.
 
 ## Che cosa comprende un certificato?
 
@@ -29,7 +29,7 @@ Per l’architettura del piano Starter e gli ambienti di integrazione PaaS, sar�
 Per aggiungere il dominio al servizio in [!DNL Fastly]:
 
 1. Puntare il dominio in DNS a prod.magentocloud.map.fastly.net e attendere fino a 6 ore.
-1. [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiesta di aggiunta di questo dominio alla configurazione Nginx (se non l’hai già fatto in precedenza).
+1. [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo di aggiungere questo dominio nella configurazione Nginx (se non l&#39;hai già fatto in precedenza).
 
 ## Come si richiede un certificato?
 
@@ -39,18 +39,18 @@ Se non hai ancora avviato un sito Web, potresti aver ricevuto il CNAME per la ri
 
 Caso 2
 
-Se il sito è già attivo e/o puoi puntare immediatamente agli URL che verranno utilizzati per il sito live, non è necessario richiedere un CNAME ACME. Dopo aver aggiunto gli URL necessari al sito Adobe Commerce sull’infrastruttura cloud e aver indirizzato il DNS all’indirizzo [!DNL Fastly], la convalida HTTP funzionerà e creerà il certificato SSL per la prima volta oppure aggiornerà il certificato con URL aggiuntivi.
+Se il sito è già attivo e/o puoi puntare immediatamente agli URL che verranno utilizzati per il sito live, non è necessario richiedere un CNAME ACME. Dopo aver aggiunto gli URL necessari al sito Adobe Commerce sull&#39;infrastruttura cloud e aver puntato il DNS su [!DNL Fastly], la convalida HTTP funzionerà e creerà il certificato SSL per la prima volta oppure aggiornerà il certificato con URL aggiuntivi.
 
 ## Posso usare un mio certificato SSL/TLS?
 
-Puoi fornire un certificato SSL/TLS personalizzato invece di utilizzare [Crittografiamo il certificato](https://letsencrypt.org/) fornite dall’Adobe.
+È possibile fornire un proprio certificato SSL/TLS invece di utilizzare il [Crittografiamo il certificato](https://letsencrypt.org/) fornito dall&#39;Adobe.
 
 Tuttavia, questo processo richiede un lavoro aggiuntivo per l&#39;impostazione e la manutenzione. Devi innanzitutto generare una richiesta di firma del certificato (CSR, Certificate Signing Request) per il nome di dominio (o nome comune) del sito web e fornirla al fornitore SSL per fornire un certificato SSL.
 
-Una volta ottenuto il certificato SSL, invia una [Ticket di supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) oppure utilizza il tuo CTA per aggiungere certificati con hosting personalizzato agli ambienti cloud.
+Una volta ottenuto il certificato SSL, invia un [ticket di supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) o collabora con il tuo CTA per aggiungere certificati con hosting personalizzato agli ambienti cloud.
 
 * Se i domini non sono più in uso, verranno eliminati automaticamente dal nostro sistema e non sono necessarie ulteriori azioni.
-* Se possiedi già un certificato, caricalo utilizzando un client SFTP (SSH File Transfer Protocol) in un percorso di file inaccessibile al web sul server e [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per comunicare il percorso del file.
+* Se possiedi già un certificato, caricalo utilizzando un client SFTP (SSH File Transfer Protocol) in un percorso di file inaccessibile al Web sul tuo server e [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per comunicare al cliente il percorso del file.
 
 >[!WARNING]
 >
@@ -63,16 +63,16 @@ Il nome del certificato SSL è rilevante solo per l’URL principale, è il nome
 
 ## Quale dominio verrà visualizzato nel campo Nome comune del certificato?
 
-Il dominio visualizzato sul certificato è solo il primo dominio aggiunto al certificato TLS, popola il **Nome comune** (**CN**) e i browser visualizzano prima questo nome. Il **Nome alternativo soggetto** (**SAN**) contiene tutti i nomi DNS per il certificato TLS. Non è possibile modificare o richiedere il Nome comune visualizzato.
+Il dominio visualizzato nel certificato è solo il primo dominio aggiunto al certificato TLS, popola il campo **Nome comune** (**CN**) e i browser visualizzano prima questo nome. Il campo **Nome alternativo soggetto** (**SAN**) contiene tutti i nomi DNS per il certificato TLS. Non è possibile modificare o richiedere il Nome comune visualizzato.
 
 ## Posso utilizzare certificati TLS con caratteri jolly?
 
-I certificati TLS con caratteri jolly possono essere utilizzati solo con il certificato personalizzato e non con i certificati Adobe Commerce Let&#39;s Encrypt. Come parte dell’ottimizzazione TLS, Adobe sta cessando il supporto dei certificati TLS con caratteri jolly. Stiamo identificando e contattando i commercianti che utilizzano un certificato con caratteri jolly con i certificati Let&#39;s Encrypt di Adobe e che sono configurati in [!DNL Fastly] per Adobe Commerce. Stiamo chiedendo che questi certificati con caratteri jolly vengano sostituiti con domini esatti per garantire la copertura TLS. Per sostituire un certificato TLS con caratteri jolly, visita la [sezione dominio](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) del [!DNL Fastly] plugin. Da qui è possibile aggiungere domini esatti e rimuovere il carattere jolly. Si noti che il DNS dovrà puntare a [!DNL Fastly] per indirizzare questi nuovi domini attraverso la rete CDN. Dopo l’aggiunta dei domini e l’aggiornamento del DNS, viene creata una [Crittografiamo](https://letsencrypt.org/) verrà eseguito il provisioning del certificato. Se non rimuovi un dominio che punta a [!DNL Fastly] utilizzando un carattere jolly, Adobe eliminerà il certificato condiviso. Questo può causare un’interruzione del sito se non hai configurato l’FQDN dell’URL e lo stesso FQDN dell’URL nel DNS. Devi quindi confermare che anche gli URL configurati abbiano una corrispondenza uno-a-uno nel proprio DNS che punta a [!DNL Fastly].
+I certificati TLS con caratteri jolly possono essere utilizzati solo con il certificato personalizzato e non con i certificati Adobe Commerce Let&#39;s Encrypt. Come parte dell’ottimizzazione TLS, Adobe sta cessando il supporto dei certificati TLS con caratteri jolly. Stiamo identificando e contattando i commercianti che utilizzano un certificato con caratteri jolly con i certificati Let&#39;s Encrypt di Adobe e che sono configurati nella console [!DNL Fastly] per Adobe Commerce. Stiamo chiedendo che questi certificati con caratteri jolly vengano sostituiti con domini esatti per garantire la copertura TLS. Per sostituire un certificato TLS con caratteri jolly, visita la [sezione dominio](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) del plug-in [!DNL Fastly]. Da qui è possibile aggiungere domini esatti e rimuovere il carattere jolly. Nota che il DNS dovrà puntare a [!DNL Fastly] affinché questi nuovi domini vengano instradati attraverso la rete CDN. Una volta aggiunti i domini e aggiornato il DNS, verrà eseguito il provisioning di un certificato [Crittografiamo](https://letsencrypt.org/) corrispondente. Se non si rimuove un dominio che punta a [!DNL Fastly] utilizzando un carattere jolly, Adobe eliminerà il certificato condiviso. Questo può causare un’interruzione del sito se non hai configurato l’FQDN dell’URL e lo stesso FQDN dell’URL nel DNS. È quindi necessario confermare che anche gli URL configurati hanno una corrispondenza uno-a-uno nel DNS che punta a [!DNL Fastly].
 
 ## Cosa devo fare se il mio dominio non punta più ad Adobe Commerce?
 
-Se il dominio non fa più riferimento a Adobe Commerce, rimuovilo da [!DNL Fastly]/Adobe Commerce. Consulta [!DNL Fastly] [Eliminazione di un dominio](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain) per ulteriori informazioni. Anche se non è necessario puntare il dominio ad Adobe Commerce, verifica se è necessario un certificato TLS di dominio di livello superiore. Se è necessario un dominio di primo livello, aggiorna il DNS in modo che punti ad Adobe Commerce. Se fa già riferimento ad Adobe Commerce, aggiorna il record CAA in modo da includere [let-encrypt](https://letsencrypt.org/). Se esegui questi passaggi, vedrai il certificato LE aggiornato con gli URL secondari necessari coperti dal certificato&#x200B;.
+Se il dominio non fa più riferimento a Adobe Commerce, rimuoverlo dal sistema di [!DNL Fastly]/Adobe Commerce. Per ulteriori informazioni, vedere [!DNL Fastly] [Eliminazione di un dominio](https://docs.fastly.com/en/guides/working-with-domains#deleting-a-domain). Anche se non è necessario puntare il dominio ad Adobe Commerce, verifica se è necessario un certificato TLS di dominio di livello superiore. Se è necessario un dominio di primo livello, aggiorna il DNS in modo che punti ad Adobe Commerce. Se fa già riferimento ad Adobe Commerce, aggiorna il record CAA per includere [lets-encrypt](https://letsencrypt.org/). Se esegui questi passaggi, vedrai il certificato LE aggiornato con gli URL secondari necessari coperti dal certificato&#x200B;.
 
 ## Lettura correlata
 
-[Provisioning dei certificati SSL/TLS](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) nella documentazione per gli sviluppatori
+[Fornire certificati SSL/TLS](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) nella documentazione per gli sviluppatori

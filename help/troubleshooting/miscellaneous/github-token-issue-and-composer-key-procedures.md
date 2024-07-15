@@ -17,7 +17,7 @@ Questo articolo fornisce soluzioni per il problema di distribuzioni non riuscite
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 * Compositore versioni 1.10.20 e inferiori
 
 >[!NOTE]
@@ -28,7 +28,7 @@ Questo articolo fornisce soluzioni per il problema di distribuzioni non riuscite
 
 Le distribuzioni non riescono e i registri di distribuzione contengono informazioni simili alle seguenti:
 
-*Errore irreversibile: UnexpectedValueException non rilevata. Il token oauth github per github.com contiene caratteri non validi: &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot; in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
+*Errore irreversibile: UnexpectedValueException non rilevata. Il token oauth github per github.com contiene caratteri non validi: &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot; in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
 
 ## Causa
 
@@ -38,13 +38,13 @@ Le chiavi del compositore obsolete causano errori del token Github che causano d
 
 Per risolvere il problema, aggiorna la versione del Compositore al 1.10.22:
 
-1. Nell’ambiente locale, esegui `composer require “composer/composer”:”>1.10.21`.
-1. Questo aggiunge il requisito per la versione del pacchetto Compositore. Controlla il file di blocco - `composer/composer` la versione deve essere 1.0.22 o successiva.
-1. Conferma `composer.json` e `composer.lock` e invia una distribuzione.
+1. Nell&#39;ambiente locale, eseguire `composer require “composer/composer”:”>1.10.21`.
+1. Questo aggiunge il requisito per la versione del pacchetto Compositore. Controllare il file di blocco - la versione `composer/composer` deve essere 1.0.22 o successiva.
+1. Eseguire il commit di `composer.json` e `composer.lock` e inviare una distribuzione push.
 
 Se questo metodo non funziona, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Lettura correlata
 
 * [Blog Github: dietro i nuovi formati dei token di autenticazione di GitHub](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [InfoQ.com news article: GitHub Cambia il formato del token per migliorare l&#39;identificabilità, la scansione segreta e l&#39;entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [InfoQ.com news article: GitHub cambia il formato del token per migliorare l&#39;identificabilità, la scansione segreta e l&#39;entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)

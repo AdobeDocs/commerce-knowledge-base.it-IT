@@ -22,13 +22,13 @@ Questo articolo fornisce una soluzione per i casi in cui non è possibile modifi
 
 ## Problema
 
-Dopo aver salvato una modifica alla configurazione in `app/etc/env.php` o `app/etc/config.php`, non è possibile modificare l’impostazione in Admin.
+Dopo aver salvato una modifica alla configurazione in `app/etc/env.php` o `app/etc/config.php`, non è possibile modificare l&#39;impostazione in Admin.
 
 <u>Passaggi da riprodurre</u>:
 
 Nota: questo è un esempio: il problema può interessare tutte le configurazioni salvate.
 
-1. Il commerciante salva le credenziali dei metodi di consegna utilizzando il seguente comando nel terminale: `./vendor/bin/ece-tools config:dump`. In questo modo le credenziali vengono salvate nel `app/etc/env.php` file.
+1. Il commerciante salva le credenziali dei metodi di consegna utilizzando il comando seguente nel terminale: `./vendor/bin/ece-tools config:dump`. Le credenziali verranno salvate nel file `app/etc/env.php`.
 1. Il commerciante quindi tenta di modificare le credenziali in un secondo momento.
 
 <u>Risultati previsti</u>:
@@ -41,17 +41,17 @@ I campi nell’Amministratore sono bloccati oppure è possibile modificare i val
 
 ## Causa
 
-Quando la configurazione viene salvata in `env.php` o `config.php`, non sarà possibile modificare l’impostazione in Admin. Per consentire la modifica dell’impostazione, è necessario rimuovere la configurazione da `env.php` o `config.php`.
+Quando la configurazione viene salvata in `env.php` o `config.php`, non sarà possibile modificare l&#39;impostazione in Admin. Per consentire la modifica dell&#39;impostazione, è necessario rimuovere la configurazione da `env.php` o `config.php`.
 
 ## Soluzione
 
-Assicurati che la configurazione non sia stata salvata in `app/etc/env.php` o `app/etc/config.php`. Se è stato salvato, effettuare le seguenti operazioni:
+Verificare che la configurazione non sia stata salvata in `app/etc/env.php` o `app/etc/config.php`. Se è stato salvato, effettuare le seguenti operazioni:
 
-* `config.php` - Rimuovi l’impostazione e quindi ridistribuiscila.
-* `env.php` : modifica il file direttamente sul server, rimuovi l’impostazione ed esegui `bin/magento app:config:import`.
+* `config.php` - Rimuovere l&#39;impostazione e quindi ridistribuire.
+* `env.php` - Modificare l&#39;impostazione direttamente sul server e rimuoverla, quindi eseguire `bin/magento app:config:import`.
 
 ## Lettura correlata
 
-* [Esportare la configurazione](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) nella documentazione per gli sviluppatori.
-* [Imposta valori di configurazione](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) nella documentazione per gli sviluppatori.
-* [Adobe Commerce sull’infrastruttura cloud: riduci i tempi di inattività dell’implementazione con la gestione della configurazione](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) nella nostra knowledge base di supporto.
+* [Esporta la configurazione](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-export.html#sensitive-or-system-specific-settings) nella documentazione per gli sviluppatori.
+* [Imposta i valori di configurazione](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-config-mgmt-set.html#config-cli-config-set) nella documentazione per gli sviluppatori.
+* [Adobe Commerce sull&#39;infrastruttura cloud: riduci i tempi di inattività dell&#39;implementazione con Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) nella knowledge base per il supporto.

@@ -13,24 +13,24 @@ ht-degree: 0%
 
 # Adobe Commerce Recommendations per le vulnerabilità PHP
 
-Il 3 settembre, il Multi-State Information Sharing and Analysis Center (MS-ISAC) ha emesso un avviso relativo a più vulnerabilità che potrebbero consentire l&#39;esecuzione arbitraria del codice e una raccomandazione che tutti i siti che utilizzano PHP dovrebbero aggiornare alla versione più recente PHP il più presto possibile ([l’avviso completo è disponibile qui](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
+Il 3 settembre, il Multi-State Information Sharing and Analysis Center (MS-ISAC) ha emesso un avviso relativo a più vulnerabilità che potrebbero consentire l&#39;esecuzione arbitraria del codice e un consiglio che tutti i siti che utilizzano PHP devono aggiornare alla versione PHP più recente ASAP ([avviso completo è disponibile qui](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)).
 
 >[!WARNING]
 >
->Sull’infrastruttura cloud Adobe Commerce on, tieni presente che gli aggiornamenti dei servizi non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico del supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi 48 ore prima di quando le modifiche devono essere in produzione [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) specificare l&#39;aggiornamento del servizio richiesto e indicare l&#39;ora in cui si desidera avviare il processo di aggiornamento.
+>Sull’infrastruttura cloud Adobe Commerce on, tieni presente che gli aggiornamenti dei servizi non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico del supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi, 48 ore prima del momento in cui le modifiche devono essere in produzione [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) specificando l&#39;aggiornamento del servizio richiesto e indicando l&#39;ora in cui desideri avviare il processo di aggiornamento.
 
 Continua a leggere per conoscere l’impatto e i passaggi per i siti Adobe Commerce:
 
-**Adobe Commerce ospitato sul nostro prodotto Cloud**
+**Adobe Commerce ospitato sul nostro prodotto cloud**
 
 Se utilizzi Adobe Commerce su un’infrastruttura cloud, ti preghiamo di collaborare con il team tecnologico per ridistribuire Adobe Commerce a partire da qualsiasi momento\* per sfruttare i vantaggi dell’aggiornamento. Consigliamo ai commercianti di completare la reinstallazione entro il 30 settembre per evitare problemi di conformità PCI che potrebbero diventare effettivi a seguito di queste vulnerabilità alla fine del mese.
 
 Note aggiuntive sulla ridistribuzione del sito Cloud per questo aggiornamento:
 
 * Se il tuo sito utilizza ancora PHP versione 7.0, dovrai prima effettuare l’aggiornamento a una versione PHP supportata per poter usufruire di questi aggiornamenti di sicurezza.
-* Per 2.1.x/2.2.x, sono disponibili ulteriori informazioni sull’aggiornamento di PHP [qui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
+* Per 2.1.x/2.2.x, ulteriori informazioni sull&#39;aggiornamento del PHP sono disponibili [qui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
 
-\* *Le versioni precedenti di questo articolo e la nostra messaggistica indicavano il 19 settembre, ma i nostri team hanno terminato il lavoro prima del previsto.*
+\* *Le versioni precedenti di questo articolo e della nostra messaggistica indicavano il 19 settembre, ma i nostri team hanno terminato il lavoro prima del previsto.*
 
 **Adobe Commerce su tutte le altre soluzioni di hosting**
 
@@ -46,4 +46,4 @@ In base all’avviso, le patch consigliate per questa vulnerabilità includono:
 * PHP 7.2: [https://www.php.net/ChangeLog-7.php\#7.2.22](https://www.php.net/ChangeLog-7.php#7.2.22)
 * PHP 7.3: [https://www.php.net/ChangeLog-7.php\#7.3.9](https://www.php.net/ChangeLog-7.php#7.3.9)
 
-Per maggiori informazioni su PHP e sulle versioni recenti, visita [Sito PHP](https://www.php.net/). E se hai domande o desideri ulteriori informazioni sulle best practice per la sicurezza, consulta la nostra [Guida alle best practice per la sicurezza](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).
+Per ulteriori informazioni su PHP e sulle versioni recenti, visitare il sito di [PHP](https://www.php.net/). Se hai domande o desideri ulteriori informazioni sulle best practice per la sicurezza, consulta la [Guida alle best practice per la sicurezza](https://www.adobe.com/content/dam/cc/en/security/pdfs/Adobe-Magento-Commerce-Best-Practices-Guide.pdf).

@@ -21,10 +21,10 @@ Questo articolo descrive un problema noto di Adobe Commerce on-premise 2.4.2 in 
 
 ## Problema
 
-L’immagine del prodotto viene salvata in `s3` bucket, ma non viene sincronizzato di nuovo nel `pub/media` directory. Questo problema si verifica solo quando si utilizzano entrambi:
+L&#39;immagine del prodotto viene salvata nel bucket `s3`, ma non viene sincronizzata nuovamente nella directory `pub/media`. Questo problema si verifica solo quando si utilizzano entrambi:
 
 * Nginx abilitato per il sito per ridimensionare le immagini
-* AWS `s3` come storage multimediale
+* AWS `s3` come archivio multimediale
 
 <u>Prerequisiti</u>:
 
@@ -32,10 +32,10 @@ Adobe Commerce installato con Nginx.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Configurare Adobe Commerce per l’utilizzo di AWS `s3` come storage multimediale.
-1. Configurare Nginx utilizzando `nginx.conf.sample` file di configurazione fornito nella directory di installazione di Adobe Commerce e in un host virtuale Nginx. Consulta [Configurare Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) nella documentazione per gli sviluppatori.
+1. Configurare Adobe Commerce per l&#39;utilizzo di AWS `s3` come archivio multimediale.
+1. Configurare Nginx utilizzando il file di configurazione `nginx.conf.sample` fornito nella directory di installazione di Adobe Commerce e un host virtuale Nginx. Consulta [Configurare Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) nella documentazione per gli sviluppatori.
 1. Crea un prodotto semplice con un’immagine del prodotto.
-1. Nginx ha una configurazione senza commenti per il ridimensionamento delle immagini in `nginx.conf.sample` simile a questo:
+1. Nginx ha una configurazione senza commenti per il ridimensionamento dell&#39;immagine in `nginx.conf.sample` simile alla seguente:
 
 ```conf
 load_module /etc/nginx/modules/ngx_http_image_filter_module.so;

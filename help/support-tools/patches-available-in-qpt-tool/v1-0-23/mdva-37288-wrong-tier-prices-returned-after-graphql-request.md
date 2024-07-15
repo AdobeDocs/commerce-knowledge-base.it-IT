@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37288: i prezzi dei livelli restituiti dopo la richiesta di GraphQL sono errati
 
-La patch di qualità MDVA-37288 per Adobe Commerce risolve il problema della restituzione di prezzi errati dopo la richiesta GraphQL. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23. Il problema è pianificato per la risoluzione in Adobe Commerce versione 2.4.3.
+La patch di qualità MDVA-37288 per Adobe Commerce risolve il problema della restituzione di prezzi errati dopo la richiesta GraphQL. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) v.1.0.23. Il problema è pianificato per la risoluzione in Adobe Commerce versione 2.4.3.
 
 ## Prodotti e versioni interessati
 
@@ -22,7 +22,7 @@ La patch di qualità MDVA-37288 per Adobe Commerce risolve il problema della res
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -169,8 +169,8 @@ esempio di risposta:
 
 Per applicare singole patch, utilizza i seguenti collegamenti nella documentazione per gli sviluppatori, a seconda del prodotto Adobe Commerce:
 
-* Adobe Commerce e Magento Open Source on-premise: [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html)
+* Adobe Commerce e Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html)
 
 ## Lettura correlata
 
@@ -179,4 +179,4 @@ Per ulteriori informazioni sullo strumento Patch di qualità nella nostra knowle
 * [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
 * [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 
-Per informazioni sulle altre patch disponibili nello strumento QPT, consultare [Patch disponibili nello strumento QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) nella knowledge base di supporto.
+Per informazioni sulle altre patch disponibili nello strumento QPT, consulta la sezione [Patch disponibili nello strumento QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) nella nostra knowledge base di supporto.

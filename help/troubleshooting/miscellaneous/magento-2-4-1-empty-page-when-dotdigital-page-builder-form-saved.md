@@ -24,10 +24,10 @@ Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe
 
 <u>Passaggi da riprodurre</u>
 
-1. Vai a **Pannello di amministrazione** > **Contenuto** > **Pagine**, e seleziona **Modifica** di qualsiasi pagina.
-1. Vai a **Contenuto** e fai clic sul pulsante **Modifica con Page Builder** pulsante.
-1. Trascina **modulo digitale** blocca e seleziona **Modifica**.
-1. Seleziona una delle maschere di test, quindi fai clic su **Incorporato** e salva il modulo.
+1. Vai a **Admin Panel** > **Content** > **Pages** e seleziona **Edit** di qualsiasi pagina.
+1. Vai a **Contenuto** e fai clic sul pulsante **Modifica con Page Builder**.
+1. Trascina il blocco **modulo digitale** e seleziona **Modifica**.
+1. Seleziona uno dei moduli di test, quindi scegli la modalità **Incorporato** e salva il modulo.
 1. Salva la modifica della pagina.
 
 <u>Risultato previsto:</u>
@@ -44,7 +44,7 @@ La soluzione consiste nell’utilizzare un browser alternativo a Safari. Il prob
 
 ## Lettura correlata
 
-* [Cos’è Page Builder?](https://devdocs.magento.com/page-builder/docs/) nella documentazione per gli sviluppatori.
+* [Cos&#39;è Page Builder?](https://devdocs.magento.com/page-builder/docs/) nella documentazione per gli sviluppatori.
 * [Configurazione di Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) nella documentazione per gli sviluppatori.
 * [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) nella guida utente.
 * [Page Builder - Elementi](https://docs.magento.com/user-guide/cms/page-builder-elements.html) nella guida utente.

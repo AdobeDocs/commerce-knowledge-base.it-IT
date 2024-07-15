@@ -17,29 +17,29 @@ Questo articolo fornisce un hotfix per il problema quando si ha difficoltà a cr
 
 ## Problema
 
-Il **Creare un account** pulsante sulla **Crea nuovo account** La pagina rimane disabilitata se un acquirente ha immesso dati non validi. In questo modo si evita che gli acquirenti tentino nuovamente di creare un account dopo aver commesso un errore.
+Il pulsante **Crea account** nella pagina **Crea nuovo account** rimane disabilitato se un acquirente ha immesso dati non validi. In questo modo si evita che gli acquirenti tentino nuovamente di creare un account dopo aver commesso un errore.
 
 <u>Passaggi da riprodurre</u>:
 
 1. Vai a **Crea nuovo account cliente**.
-1. Compila i campi modulo. In **Password** , i valori di input che non soddisfano i requisiti della password. Ad esempio:
-   * Le password in **Password** e **Conferma password** i campi non corrispondono.
-   * Le password in **Password** e **Conferma password** I campi non sono abbastanza lunghi.
-1. Fai clic su **Creare un account** pulsante.
+1. Compila i campi modulo. Nel campo **Password** immettere valori che non soddisfano i requisiti della password. Ad esempio:
+   * Le password nei campi **Password** e **Conferma password** non corrispondono.
+   * Le password nei campi **Password** e **Conferma password** non sono sufficientemente lunghe.
+1. Fare clic sul pulsante **Crea account**.
 
 <u>Risultati previsti</u>:
 
-* **Creare un account** deve rimanere attivo/attivato.
+* **Creare un account** deve rimanere attivo/abilitato.
 * L’utente deve essere in grado di creare un nuovo account.
 
 <u>Risultati effettivi</u>:
 
-* **Creare un account** rimane disattivato, anche dopo aver compilato tutti i campi obbligatori con dati validi/corretti.
+* **Il pulsante Crea account** rimane disattivato anche dopo aver compilato tutti i campi obbligatori con dati validi/corretti.
 * Il cliente non è in grado di creare un nuovo account.
 
 ## Patch
 
-La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file o sul seguente collegamento: [Scarica MC-38509-compositore.patch](assets/MC-38509-composer.patch.zip)
+La patch è allegata a questo articolo. Per scaricarlo, scorrere verso il basso fino alla fine dell&#39;articolo e fare clic sul nome del file oppure sul collegamento seguente: [Scarica MC-38509-compositore.patch](assets/MC-38509-composer.patch.zip)
 
 ## Versioni compatibili di Adobe Commerce:
 
@@ -52,9 +52,9 @@ La patch non è compatibile con altre versioni ed edizioni di Adobe Commerce.
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## Lettura correlata
 
-* [GitHub Adobe Commerce > L’invio di un modulo per la creazione di un account non valido lascia il pulsante Invia disattivato](https://github.com/magento/magento2/issues/30513)
+* [Adobe Commerce GitHub > Con l&#39;invio di un modulo account di creazione non valido il pulsante di invio rimane disattivato](https://github.com/magento/magento2/issues/30513)
 * [Guida utente di Adobe Commerce > Guida introduttiva > Creazione di un account](https://docs.magento.com/user-guide/magento/magento-account-create.html)

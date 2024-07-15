@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # Video di formazione su Adobe Commerce Intelligence: Report Builder SQL
 
-Ricorda: **per accedere al Report Builder SQL sono necessarie le autorizzazioni di amministratore.**
+Ricorda che **per accedere al Report Builder SQL sono necessarie le autorizzazioni di amministratore!**
 
 Questo video illustra:
 
 * Eseguire una query SQL
-* Procedura [visualizzare i risultati](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
+* Come [visualizzare i risultati](/docs/commerce-business-intelligence/mbi/tutorials/create-visuals-from-sql.html) <!-- Link fails-->
 * Salvare il report in un dashboard
 
-Per guardare il video, vai a [Commerce Intelligence - Report Builder SQL](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
+Per guardare il video, vai a [Commerce Intelligence - SQL Report Builder](/docs/commerce-learn/tutorials/business-intelligence/sql-report-builder.html) in Adobe Experience League.
 
-**Vuoi seguire?** Consulta la nostra [Esercitazione su SQL Report Builder](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) per istruzioni scritte.
+**Continuare?** Consulta il [tutorial sul Report Builder SQL](/docs/commerce-business-intelligence/mbi/analyze/sql/sql-rpt-bldr.html) per istruzioni scritte.

@@ -17,7 +17,7 @@ Questo articolo fornisce una correzione del problema che si verifica quando si a
 
 **Causa:**   [Problema Github \#12385](https://github.com/magento/magento2/issues/12385).
 
-**Soluzione:** Aggiornamento della patch di Adobe Commerce più recente per risolvere questi problemi per tutte le versioni di Redis e per specifiche versioni di Adobe Commerce.
+**Soluzione:** aggiornamento alla patch Adobe Commerce più recente per risolvere questi problemi per tutte le versioni di Redis e per le versioni specifiche di Adobe Commerce.
 
 ## Versioni e tecnologie interessate
 
@@ -25,7 +25,7 @@ Questo articolo fornisce una correzione del problema che si verifica quando si a
 * Adobe Commerce on-premise versioni 2.1.11 - 2.1.13 e 2.2.1
 * Redis, tutte le versioni
 
-Se utilizzi Adobe Commerce nella versione dell’infrastruttura cloud [2.2.0.](#h_64593789291526919876198), è disponibile una soluzione alternativa.
+Se si utilizza Adobe Commerce nella versione [2.2.0](#h_64593789291526919876198) dell&#39;infrastruttura cloud, è disponibile una soluzione alternativa.
 
 ## Problema
 
@@ -35,7 +35,7 @@ Ciò si verifica solo quando le sessioni utente sono memorizzate in Redis.
 
 ## Causa
 
-Adobe Commerce ha riscontrato un problema con il meccanismo di blocco delle sessioni che ha aggiunto un timeout di 30 secondi ad alcune operazioni quando Redis veniva utilizzato per l’archiviazione delle sessioni. Per ulteriori informazioni, vedere [Problema Github \#12385](https://github.com/magento/magento2/issues/12385).
+Adobe Commerce ha riscontrato un problema con il meccanismo di blocco delle sessioni che ha aggiunto un timeout di 30 secondi ad alcune operazioni quando Redis veniva utilizzato per l’archiviazione delle sessioni. Per informazioni dettagliate, consulta il [problema Github \#12385](https://github.com/magento/magento2/issues/12385).
 
 Questo problema è stato risolto in Adobe Commerce 2.1.14 e 2.2.2.
 
@@ -43,10 +43,10 @@ Questo problema è stato risolto in Adobe Commerce 2.1.14 e 2.2.2.
 
 ### Soluzione 1: applicare la patch con una correzione
 
-Per ricevere una patch: [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiesta della patch. Nel ticket, specifica la versione di Adobe Commerce e il numero di riferimento corrispondente per la patch:
+Per ricevere una patch, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo la patch. Nel ticket, specifica la versione di Adobe Commerce e il numero di riferimento corrispondente per la patch:
 
 * **2.1.11 e versioni successive:** MDVA-7835
-* **2.2.1.** MDVA-8128
+* **2.2.1:** MDVA-8128
 
 Il numero di riferimento generale (indipendente dalla versione) è MAGETWO-84289.
 
@@ -56,7 +56,7 @@ Se in precedenza hai preso in considerazione l’aggiornamento a Adobe Commerce 
 
 ## Soluzione alternativa: disattivare il blocco della sessione
 
-Per disattivare il blocco della sessione, impostare `disable_locking` a `1` nella sezione di configurazione Redis del `env.php` file:
+Per disattivare il blocco della sessione, impostare `disable_locking` su `1` nella sezione di configurazione Redis del file `env.php`:
 
 ```php
 'session' =>
@@ -76,10 +76,10 @@ Questa soluzione non influisce su altre funzionalità di Adobe Commerce.
 
 ### Ripristina soluzione alternativa dopo l’applicazione della patch
 
-Dopo aver applicato la patch con la correzione, la soluzione alternativa non è più necessaria, pertanto è possibile ripristinarla (impostare `disable_locking` a `0`).
+Dopo l&#39;applicazione della patch con la correzione, la soluzione alternativa non è più necessaria, pertanto è possibile ripristinarla (impostare `disable_locking` su `0`).
 
 ## Adobe Commerce su infrastruttura cloud 2.2.0: utilizzare ECE-Tools v2002.0.8 o versione successiva {#h_64593789291526919876198}
 
-Il [Utensili ECE](https://devdocs.magento.com/cloud/project/ece-tools-update.html) pacchetto di script di distribuzione con le versioni 2002.0.3 - 2002.0.7 [si applica](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) la soluzione alternativa automaticamente, impostazione `disable_locking` a `1`. Questo disattiva il meccanismo di blocco della sessione per Adobe Commerce 2.2.0, in cui non si verifica il problema originale.
+Il pacchetto di script di distribuzione [ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html) con versioni 2002.0.3 - 2002.0.7 [applica](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) automaticamente la soluzione alternativa, impostando `disable_locking` su `1`. Questo disattiva il meccanismo di blocco della sessione per Adobe Commerce 2.2.0, in cui non si verifica il problema originale.
 
 Se esegui Adobe Commerce su infrastruttura cloud 2.2.0, aggiorna ECE-Tools alla versione v2002.0.8 successiva. Puoi anche valutare la possibilità di aggiornare l’infrastruttura cloud di Adobe Commerce alla versione 2.2.2 o successiva.

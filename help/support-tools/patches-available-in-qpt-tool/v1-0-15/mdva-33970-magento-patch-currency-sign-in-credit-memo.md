@@ -13,55 +13,55 @@ ht-degree: 0%
 
 # Patch MDVA-33970: segno di valuta nella nota di credito
 
-La patch MDVA-33970 risolve il problema relativo alla visualizzazione di un segno di dollaro ($) invece della valuta localizzata in una nota di credito. Ciò si verifica quando **Sito Web** ambito utilizzato per un **Prezzo** attributo.
+La patch MDVA-33970 risolve il problema relativo alla visualizzazione di un segno di dollaro ($) invece della valuta localizzata in una nota di credito. Ciò si verifica quando viene utilizzato un ambito **Sito Web** per un attributo **Prezzo**.
 
-Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15. Il problema è pianificato per la risoluzione in Adobe Commerce versione 2.4.3.
+Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.15. Il problema è pianificato per la risoluzione in Adobe Commerce versione 2.4.3.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:** Adobe Commerce sull’infrastruttura cloud 2.3.4-p2
+**La patch è stata creata per Adobe Commerce versione:** Adobe Commerce su infrastruttura cloud 2.3.4-p2
 
-**Compatibile con le versioni di Adobe Commerce:** Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.4 - 2.4.1-p1
+**Compatibile con le versioni di Adobe Commerce:** Adobe Commerce su infrastruttura cloud e Adobe Commerce on-premise 2.3.4 - 2.4.1-p1
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-<u>Precondizioni</u>:
+<u>Condizioni preliminari</u>:
 
 In questo esempio vengono utilizzate le seguenti impostazioni:
 
-* Sono presenti 2 siti Web, ciascuno con un **Archivia** e un **Visualizzazione store**.
-* Il **Configurazione predefinita** ha il dollaro di Singapore come **Valuta** (**Archivi > Configurazione > Generale > Impostazione valuta**):
-   * **Valuta di base** = *Dollaro Singapore*
-   * **Valuta di visualizzazione predefinita** = *Dollaro Singapore*
-   * **Valute consentite** = *Dollaro Singapore*
-* **Sito Web 1** ha un **Configurazione predefinita**.
-* **Sito Web 2** ha il Ringgit malese come **Valuta**:
-   * **Valuta di base** = *Ringgit malese*
+* Sono presenti due siti Web, ciascuno con **Store** e **Store View**.
+* La **configurazione predefinita** ha il dollaro di Singapore come **valuta** (**archivi > configurazione > generale > impostazione valuta**):
+   * **Valuta Di Base** = *Dollaro Di Singapore*
+   * **Valuta predefinita** = *Dollaro di Singapore*
+   * **Valute consentite** = *Dollaro di Singapore*
+* **Il sito Web 1** ha una **configurazione predefinita**.
+* **Il sito Web 2** ha il Ringgit malese come **Valuta**:
+   * **Valuta Di Base** = *Ringgit Malese*
    * **Valuta di visualizzazione predefinita** = *Ringgit malese*
    * **Valute consentite** = *Ringgit malese*
-* Vai a **Negozi > Simboli di valuta**, e Imposta:
+* Vai a **Archivi > Simboli di valuta** e imposta:
    * **MYR (Ringgit malese)** = *RM*
    * **SGD (Dollaro di Singapore)** = *SGD* (**Usa standard** = *Selezionato*)
-* Alcuni **Prodotto** esiste.
+* Alcuni **Prodotti** esistono.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Crea un **Ordine** dal **Sito Web 2** Puoi impostarla come predefinita per evitare impostazioni aggiuntive.
+1. Imposta un **Ordine** dal **Sito Web 2** (puoi impostarlo come predefinito per evitare impostazioni aggiuntive).
 1. Accedi a **Amministratore**.
 1. Apri l’ordine appena creato.
-1. Verifica che la **Simbolo valuta** = *RM*.
-1. Creare un **Fattura**.
-1. Verifica che la **Simbolo valuta** = *RM* nella fattura.
-1. Creare un **Nota di credito**.
-1. Verifica che la **Simbolo valuta**  ** ** = *RM* nel **Nota di credito**.
-1. Apri **Note di credito** scheda in **Ordine**.
-1. Controlla la **Simbolo valuta** nella griglia.
+1. Verificare che il **simbolo di valuta** = *RM*.
+1. Crea una **fattura**.
+1. Verificare che il **simbolo di valuta** = *RM* nella fattura.
+1. Crea una **Nota di credito**.
+1. Verificare che il **simbolo di valuta** ** ** = *RM* nella **Nota di credito**.
+1. Apri la scheda **Note di credito** in **Ordine**.
+1. Controllare il **simbolo di valuta** nella griglia.
 1. Apri **Vendite > Note di credito**.
-1. Controlla la **Simbolo valuta** nella griglia.
+1. Controllare il **simbolo di valuta** nella griglia.
 
 <u>Risultati previsti</u>:
 
@@ -75,14 +75,14 @@ Viene utilizzato il simbolo del dollaro ($), anche se non è impostato nelle imp
 
 Per applicare singole patch, utilizzare i seguenti collegamenti, a seconda del prodotto Adobe Commerce:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili nello strumento QPT, consultare [Patch disponibili nello strumento QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sezione.
+Per informazioni sulle altre patch disponibili nello strumento QPT, fare riferimento alla sezione [Patch disponibili nello strumento QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-).

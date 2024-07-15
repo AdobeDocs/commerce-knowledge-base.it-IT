@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-49973: prestazioni migliorate nel recupero dei prodotti in bundle tramite [!DNL GraphQL]'''
-description: Applica la patch ACSD-49973 per risolvere il problema di Adobe Commerce che si verifica quando si recuperano prodotti in bundle tramite [!DNL GraphQL].
+title: "ACSD-49973: prestazioni migliorate nel recupero dei prodotti in bundle tramite [!DNL GraphQL]"
+description: Applica la patch ACSD-49973 per risolvere il problema di Adobe Commerce in cui si verifica il deterioramento delle prestazioni durante il recupero dei prodotti in bundle tramite [!DNL GraphQL].
 exl-id: 7d7fce0f-40f9-4dec-aee7-1014690ccd7c
 feature: GraphQL, Products
 role: Admin
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-49973: prestazioni migliorate nel recupero dei prodotti in bundle tramite [!DNL GraphQL]
 
-La patch ACSD-49973 migliora le prestazioni recuperando i prodotti in bundle tramite [!DNL GraphQL]. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30. L’ID della patch è ACSD-49973. Tieni presente che il problema è risolto in Adobe Commerce 2.4.7.
+La patch ACSD-49973 migliora le prestazioni recuperando i prodotti in bundle tramite [!DNL GraphQL]. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.30. L’ID della patch è ACSD-49973. Tieni presente che il problema è risolto in Adobe Commerce 2.4.7.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.4-p2
 
@@ -27,25 +27,25 @@ La patch ACSD-49973 migliora le prestazioni recuperando i prodotti in bundle tra
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-Si verifica un deterioramento delle prestazioni quando si recuperano i prodotti in bundle tramite [!DNL GraphQL].
+Si verifica un calo delle prestazioni durante il recupero dei prodotti in bundle tramite [!DNL GraphQL].
 
 <u>Prerequisiti</u>:
 
-Creare 2000 prodotti in bundle utilizzando [Toolkit di prestazioni](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/generate-data.html).
+Crea 2000 prodotti bundle utilizzando [Performance Toolkit](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/generate-data.html).
 
 <u>Passaggi da riprodurre</u>:
 
-1. Abilita [!DNL DB] logger query:
+1. Abilita il logger di query [!DNL DB]:
 
    ```
    bin/magento dev:query-log:enable
    ```
 
-1. Esegui quanto segue [!DNL GraphQL] query:
+1. Eseguire la seguente query [!DNL GraphQL]:
 
    ```GraphQL
    {
@@ -63,28 +63,28 @@ Creare 2000 prodotti in bundle utilizzando [Toolkit di prestazioni](https://expe
    }
    ```
 
-1. Verifica `var/log/db.log` per le richieste al `catalog_product_bundle_selection` tabella.
+1. Controllare `var/log/db.log` per le richieste alla tabella `catalog_product_bundle_selection`.
 
 <u>Risultati previsti</u>:
 
-Richieste al `catalog_product_bundle_selection` la tabella non deve essere presente nel `var/log/db.log`.
+Le richieste alla tabella `catalog_product_bundle_selection` non devono essere presenti in `var/log/db.log`.
 
 <u>Risultati effettivi</u>:
 
-Sono presenti 2.000 richieste per `catalog_product_bundle_selection` che vengono attivati contemporaneamente, causando un deterioramento delle prestazioni.
+Sono presenti 2.000 richieste alla tabella `catalog_product_bundle_selection` che vengono attivate contemporaneamente, causando un peggioramento delle prestazioni.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

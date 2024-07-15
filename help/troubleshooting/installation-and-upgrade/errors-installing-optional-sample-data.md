@@ -34,11 +34,11 @@ Queste eccezioni sono il risultato delle impostazioni delle autorizzazioni del f
 
 ### Soluzione
 
-[Impostare nuovamente la proprietà e le autorizzazioni del file system](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) come utente con `root` privilegi.
+[Imposta nuovamente la proprietà e le autorizzazioni del file system](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) come utente con privilegi `root`.
 
 ## Sintomo (modalità di produzione)
 
-Se al momento sei impostato per [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), l&#39;installazione dei dati di esempio non riesce se si utilizza [magento sampledata:distribuire](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html) comando:
+Se si è impostati per la [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), l&#39;installazione dei dati di esempio non riesce se si utilizza il comando [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html):
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -46,9 +46,9 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 ### Soluzione
 
-Non installare dati di esempio in modalità di produzione. Passa alla modalità sviluppatore e cancella alcuni `var` e riprovare.
+Non installare dati di esempio in modalità di produzione. Passa alla modalità sviluppatore, cancella alcune directory `var` e riprova.
 
-Immettete i seguenti comandi nell&#39;ordine indicato come [Proprietario file system Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
+Immettere i seguenti comandi nell&#39;ordine indicato come [proprietario del file system Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
 
 ```php
 cd <magento_root>
@@ -70,7 +70,7 @@ PHP Fatal error: Call to undefined method Magento\Catalog\Model\Resource\Product
 Durante l’installazione di dati di esempio, disabilita SELinux utilizzando una risorsa come:
 
 * [www.ibm.com](https://www.ibm.com/docs/ja/ahts/4.0?topic=t-disabling-selinux)
-* [Documentazione di CentOS](https://docs.centos.org/en-US/docs/)
+* [Documentazione CentOS](https://docs.centos.org/en-US/docs/)
 
 ## Sintomo (sviluppo di branca)
 
@@ -107,15 +107,15 @@ Questo errore si verifica quando viene superato il tempo massimo di esecuzione c
 
 ### Soluzione
 
-Come utente con `root` privilegi, modifica `php.ini` per aumentare il valore di `max_execution_time` a 600 o più. (600 secondi sono 10 minuti. È possibile aumentare il valore a quello desiderato.) Dovresti cambiare `max_execution_time` torna al valore precedente dopo il completamento dell’installazione.
+In qualità di utente con privilegi di `root`, modificare `php.ini` per aumentare il valore di `max_execution_time` a 600 o più. (600 secondi sono 10 minuti. È possibile aumentare il valore a quello desiderato.) Ripristinare il valore precedente di `max_execution_time` dopo l&#39;installazione.
 
-Se non sai dove `php.ini` si trova, immetti il seguente comando:
+Se non si è sicuri della posizione di `php.ini`, immettere il comando seguente:
 
 ```php
 php --ini
 ```
 
-Il valore di `Loaded Configuration File` è il `php.ini` devi modificare.
+Il valore di `Loaded Configuration File` è `php.ini` da modificare.
 
 >[!NOTE]
 >

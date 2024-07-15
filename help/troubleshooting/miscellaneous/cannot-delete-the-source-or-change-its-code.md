@@ -37,6 +37,6 @@ Il codice è fondamentale per collegare la sorgente agli ordini. Questo è un ID
 
 È possibile rimuovere un&#39;origine da un prodotto trasferendo il magazzino o eliminando il prodotto da tutte le spedizioni in un&#39;ubicazione.
 
-Se devi rimuovere un’origine da [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) e l&#39;elaborazione degli ordini di Adobe Commerce Inventory, è possibile disattivare l&#39;origine. Le origini disattivate conservano tutti i dati, i prodotti assegnati e le quantità di magazzino e possono essere riattivate in qualsiasi momento per ricominciare la spedizione.
+Se è necessario rimuovere un&#39;origine dai calcoli di [SSA](https://devdocs.magento.com/guides/v2.3/inventory/source-selection-algorithms.html) e dall&#39;elaborazione degli ordini di Adobe Commerce Inventory, è possibile disabilitare l&#39;origine. Le origini disattivate conservano tutti i dati, i prodotti assegnati e le quantità di magazzino e possono essere riattivate in qualsiasi momento per ricominciare la spedizione.
 
-Consulta la [Guida alla creazione di origini](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources) per informazioni dettagliate su come disattivare un’origine.
+Per informazioni dettagliate su come disabilitare un&#39;origine, vedere la [guida alla creazione di origini](https://github.com/magento/inventory/wiki/Create-Sources#disable-sources).

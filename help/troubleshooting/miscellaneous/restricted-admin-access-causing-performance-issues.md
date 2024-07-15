@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Accesso amministratore limitato che causa problemi di prestazioni
 
-Questo articolo fornisce soluzioni per i casi in cui le prestazioni sono influenzate negativamente dall’utilizzo di [Ruoli di amministratore con ambito ruolo limitato dal sito Web](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) nella guida utente.
+Questo articolo fornisce soluzioni per i casi in cui le prestazioni sono influenzate negativamente dall&#39;utilizzo di [Ruoli amministratore con ambito ruolo limitato dal sito Web](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) nella guida utente.
 
 ## Prodotti e versioni interessati
 
@@ -30,9 +30,9 @@ Il problema è risolto in Adobe Commerce 2.2.10 e 2.3.3.
 
 Di seguito sono riportate le opzioni per evitare il problema:
 
-* Aggiorna l’applicazione Adobe Commerce alla versione 2.2.10 o 2.3.3. (per istruzioni, vedere [Aggiornamento della versione di Adobe Commerce sull’infrastruttura cloud](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) nella documentazione per gli sviluppatori).
+* Aggiorna l’applicazione Adobe Commerce alla versione 2.2.10 o 2.3.3. (per le istruzioni, consulta la [versione dell&#39;aggiornamento di Adobe Commerce sull&#39;infrastruttura cloud](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) nella documentazione per gli sviluppatori).
 * Se possibile, evita di limitare l’ambito del ruolo utente amministratore in base al sito web.
-* [Invia un ticket di supporto Magento](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), per richiedere una patch, se disponibile.
+* [Inviare un ticket di supporto di Magento](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), per richiedere una patch, se disponibile.
 
 ## Lettura correlata
 

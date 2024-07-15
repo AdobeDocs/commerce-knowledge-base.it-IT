@@ -25,9 +25,9 @@ I dati del catalogo non vengono sincronizzati correttamente oppure è stato aggi
 
 <u>Passaggi da riprodurre</u>
 
-1. Configura e connetti Live Search per la tua istanza di Adobe Commerce come descritto in [Installa Live Search > Configura chiavi API](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) nella documentazione per gli utenti.
-1. Dopo 30 minuti, verifica i dati del catalogo esportati come descritto in [Installa Live Search > Verifica esportazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) nella documentazione per gli utenti.
-1. Dopo 30 minuti, verificare la connessione come descritto in [Installa Live Search > Verifica la connessione](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) nella documentazione per gli utenti.
+1. Configura e connetti Live Search per la tua istanza di Adobe Commerce come descritto in [Installare Live Search > Configurare le chiavi API](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) nella documentazione utente.
+1. Dopo 30 minuti, verificare i dati del catalogo esportati come descritto in [Installa Live Search > Verifica esportazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) nella documentazione utente.
+1. Dopo 30 minuti, verifica la connessione come descritto in [Installa Live Search > Verifica la connessione](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) nella documentazione utente.
 
 Oppure
 
@@ -56,7 +56,7 @@ Una volta effettuata la configurazione e la connessione, possono essere necessar
 
 Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specifica, effettua le seguenti operazioni:
 
-1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nel `feed_data` colonna. Inoltre, prendi nota del `modified_at` timestamp.
+1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
@@ -72,7 +72,7 @@ Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specif
 
 ### Controlla la marca temporale dell’ultima esportazione del prodotto
 
-1. Se trovi i dati corretti in `catalog_data_exporter_products`, utilizza la seguente query SQL per verificare il timestamp dell’ultima esportazione. Dovrebbe essere dopo il `modified_at` timestamp:
+1. Se vengono visualizzati i dati corretti in `catalog_data_exporter_products`, utilizzare la query SQL seguente per verificare la marca temporale dell&#39;ultima esportazione. Deve essere dopo la marca temporale `modified_at`:
 
    ```sql
    select * from flag where flag_code = 'products-feed-version';
@@ -84,13 +84,13 @@ Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specif
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Attendi `<>` tempo (tempo per gli aggiornamenti incrementali). Se i dati non vengono ancora visualizzati, [creare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Attendere `<>` (tempo per aggiornamenti incrementali). Se i dati non vengono ancora visualizzati, [crea un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Sincronizza codice attributo specifico
 
 Se i dati dell’attributo del prodotto non vengono sincronizzati correttamente per un codice di attributo specifico, effettua le seguenti operazioni:
 
-1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nel `feed_data` colonna. Inoltre, prendi nota del `modified_at` timestamp.
+1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
@@ -106,9 +106,9 @@ Se i dati dell’attributo del prodotto non vengono sincronizzati correttamente 
 
 ### Verifica la marca temporale dell’ultima esportazione dell’attributo del prodotto
 
-Se trovi i dati corretti in `catalog_data_exporter_product_attributes`:
+Se vengono visualizzati i dati corretti in `catalog_data_exporter_product_attributes`:
 
-1. Utilizza la seguente query SQL per verificare la marca temporale dell’ultima esportazione. Dovrebbe essere dopo il `modified_at` timestamp.
+1. Utilizza la seguente query SQL per verificare la marca temporale dell’ultima esportazione. Deve essere dopo la marca temporale `modified_at`.
 
    ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -120,7 +120,7 @@ Se trovi i dati corretti in `catalog_data_exporter_product_attributes`:
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. Attendere 15-20 minuti (tempo per gli aggiornamenti incrementali). Se i dati non vengono ancora visualizzati, [creare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. Attendere 15-20 minuti (tempo per gli aggiornamenti incrementali). Se i dati non vengono ancora visualizzati, [crea un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Sincronizza dopo la modifica della configurazione API
 
@@ -133,4 +133,4 @@ bin/magento saas:resync --feed productattributes
 
 ## Lettura correlata
 
-Consulta [Live Search integrato](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) nella documentazione per gli utenti.
+Consulta [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) nella documentazione utente.

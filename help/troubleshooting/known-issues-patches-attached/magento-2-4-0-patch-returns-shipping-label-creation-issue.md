@@ -26,20 +26,20 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0 
 
 1. Effettuare e completare un ordine con uno dei seguenti metodi di spedizione principali: FedEx, DHL, UPS e USPS.
 1. Crea e autorizza restituzioni per questo ordine.
-1. Apri un’autorizzazione **Informazioni sulla restituzione** e fai clic su **Crea etichetta di spedizione** pulsante.
+1. Aprire una pagina di **Informazioni sulla restituzione** autorizzata e fare clic sul pulsante **Crea etichetta di spedizione**.
 1. Seleziona il metodo di spedizione, aggiungi un prodotto a un pacchetto e fai clic su Salva.
 
 <u>Risultato previsto:</u>
 
-Un&#39;etichetta di spedizione è stata creata correttamente e viene visualizzato un messaggio: *Hai creato un&#39;etichetta di spedizione.*
+Un&#39;etichetta di spedizione è stata creata e viene visualizzato un messaggio: *È stata creata un&#39;etichetta di spedizione.*
 
 <u>Risultato effettivo:</u>
 
-Il **Informazioni sulla restituzione** La pagina è interrotta e viene visualizzato un messaggio di errore nella pagina Informazioni sulla restituzione: *Informazioni generali Questa sezione è stata modificata e non è stata salvata. Questa scheda contiene dati non validi*.
+La pagina **Informazioni sulla restituzione** è interrotta e viene visualizzato un messaggio di errore nella pagina Informazioni sulla restituzione: *In questa sezione sono state apportate modifiche generali che non sono state salvate. Questa scheda contiene dati non validi*.
 
 ## Soluzione
 
-Applica [patch](assets/MC-35984-2.4.0-CE-composer.patch.zip) fornite nel presente articolo.
+Applica la [patch](assets/MC-35984-2.4.0-CE-composer.patch.zip) fornita in questo articolo.
 
 ## Patch
 
@@ -47,11 +47,11 @@ La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fi
 
 [MC-35984-2.4.0-CE-compositore.patch](assets/MC-35984-2.4.0-CE-composer.patch.zip)
 
-La patch è disponibile anche per il download in entrambi, `.git` e `.composer`, formati su [Download di Adobe Commerce](https://magento.com/tech-resources/download) pagina, sotto **Patch** nella navigazione a sinistra della colonna. Cercare la patch MC-35984.
+La patch è disponibile anche per il download nei formati `.git` e `.composer` nella pagina [Download di Adobe Commerce](https://magento.com/tech-resources/download), in **Patch** nella barra di navigazione a sinistra. Cercare la patch MC-35984.
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella pagina del supporto tecnico.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella pagina del supporto tecnico.
 
 ## Letture correlate nella knowledge base di supporto:
 

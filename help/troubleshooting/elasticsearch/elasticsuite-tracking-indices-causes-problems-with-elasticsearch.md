@@ -28,10 +28,10 @@ Le versioni di ElasticSuite precedenti alla 2.9.8 / 2.10.7 memorizzano gli indic
 Se è installato il plug-in di terze parti ElasticSuite, potrebbero verificarsi problemi di memoria Elasticsearch e il servizio di Elasticsearch potrebbe bloccarsi a causa degli indici di tracciamento ElasticSuite. I sintomi includono:
 
 * L&#39;Elasticsearch si blocca senza errori di memoria.
-* Quando si esegue un comando di integrità `curl -m1 localhost:9200/_cluster/health?pretty` o `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (per gli account iniziali) sono presenti centinaia o migliaia di `unassigned_shards`
+* Durante l&#39;esecuzione di un comando di integrità `curl -m1 localhost:9200/_cluster/health?pretty` o `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (per gli account di avvio) sono presenti centinaia o migliaia di `unassigned_shards`
 * Le prestazioni dell&#39;Elasticsearch o del sito sono gravemente compromesse.
-* *&quot;Nessun nodo attivo trovato nel cluster&quot;* in Elasticsearch, distribuisci o registra gli errori.
-* *&quot;Rifiuto dell’aggiornamento della mappatura per [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* in errori di distribuzione o di registro.
+* *&quot;Nessun nodo attivo trovato nel cluster&quot;* in Elasticsearch errori di distribuzione o di registro.
+* *&quot;Rifiuto dell&#39;aggiornamento della mappatura a [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* in errori di distribuzione o di registro.
 
 ## Causa
 
@@ -43,7 +43,7 @@ ElasticSuite dispone di una nuova funzione che crea indici di tracciamento. Ques
 
 Dopo aver aggiornato il plug-in ElasticSuite alla versione successiva alla 2.8.0, puoi configurare una pulizia periodica degli indici.
 
-Vai a **Negozi** > **Configurazione** > **Tracciamento** > **Configurazione globale** > **Ritardo di conservazione**
+Vai a **Archivi** > **Configurazione** > **Tracciamento** > **Configurazione globale** > **Ritardo conservazione**
 
 Il periodo di conservazione predefinito è di 365 giorni. Può ridurlo a 30 o 15 giorni.
 
@@ -53,7 +53,7 @@ Dopo aver aggiornato il plug-in ElasticSuite alla versione > 2.9.8 / 2.10.7, gli
 
 Puoi comunque ridurre il periodo di conservazione:
 
-Vai a **Negozi** > **Configurazione** > **Tracciamento** > **Configurazione globale** > **Ritardo di conservazione**
+Vai a **Archivi** > **Configurazione** > **Tracciamento** > **Configurazione globale** > **Ritardo conservazione**
 
 Il periodo di conservazione predefinito è di 12 mesi (genererà 12 indici). Può ridurla a 3 o 6 mesi.
 
@@ -69,4 +69,4 @@ Crea un processo cron per eliminare gli indici di tracciamento. Questo comando e
 Se desideri eliminare gli indici con una frequenza temporale impostata, crea un processo cron facendo riferimento ai seguenti articoli nella documentazione per sviluppatori:
 
 * [Configurare un processo cron personalizzato e un gruppo cron (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
-* [Imposta processi cron](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
+* [Configura processi cron](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)

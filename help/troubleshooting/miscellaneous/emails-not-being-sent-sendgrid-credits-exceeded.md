@@ -25,7 +25,7 @@ Non ci sono limiti rigidi al numero di e-mail che possono essere inviate in Prod
 
 ## Come verificare se i crediti sono stati superati:
 
-Architettura del piano Pro di Adobe Commerce su infrastruttura cloud: controlla `/var/log/mail.log` - potresti visualizzare un messaggio come questo:
+Architettura del piano Pro di Adobe Commerce su infrastruttura cloud: controlla `/var/log/mail.log`. Potresti visualizzare un messaggio simile al seguente:
 
 `May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).`
 
@@ -35,9 +35,9 @@ Il numero di e-mail consentite che possono essere inviate è limitato.
 
 ## Soluzione
 
-* Se visualizzi questo messaggio nell&#39;ambiente di produzione, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e inviare il messaggio di cui sopra e richiedere l’aumento dei crediti.
-* Se non visualizzi questo messaggio o ti trovi su Adobe Commerce on cloud infrastructure Starter plan architecture, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e di menzionare che `mail.log` non indica che i crediti sono stati superati.
+* Se visualizzi questo messaggio nell&#39;ambiente di produzione, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornisci il messaggio di cui sopra e richiedi l&#39;aumento dei crediti.
+* Se non visualizzi questo messaggio o ti trovi su Adobe Commerce on cloud infrastructure Starter plan architecture, invia anche [un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e indica che il file `mail.log` non indica che i crediti sono stati superati.
 
 ## Lettura correlata
 
-* [InviaGriglia](https://devdocs.magento.com/cloud/project/sendgrid.html) nella documentazione per gli sviluppatori.
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) nella documentazione per gli sviluppatori.

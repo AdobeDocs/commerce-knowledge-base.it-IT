@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-50794: impossibile rimuovere la confezione regalo dall&#39;ordine del cliente tramite GraphQL
 
-La patch ACSD-50794 risolve il problema che impediva agli utenti di rimuovere la confezione regalo dall’ordine del cliente tramite GraphQL. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32. L’ID della patch è ACSD-50794. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
+La patch ACSD-50794 risolve il problema che impediva agli utenti di rimuovere la confezione regalo dall’ordine del cliente tramite GraphQL. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.32. L’ID della patch è ACSD-50794. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.5-p1
 
@@ -27,7 +27,7 @@ La patch ACSD-50794 risolve il problema che impediva agli utenti di rimuovere la
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -37,15 +37,15 @@ Gli utenti non possono rimuovere la confezione regalo dall’ordine del cliente 
 
 1. Crea un cliente dal front-end.
 1. Crea un prodotto semplice.
-1. Abilita *[!UICONTROL Gift Messages]* andando in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Gift Options]** e imposta *[!UICONTROL Allow Gift Messages]* = *[!UICONTROL Yes]*.
+1. Abilita *[!UICONTROL Gift Messages]* andando in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Gift Options]** e impostando *[!UICONTROL Allow Gift Messages]* = *[!UICONTROL Yes]*.
 1. Crea *[!UICONTROL Gift Wrapping]* andando in **[!UICONTROL Stores]** > **[!UICONTROL Other Settings]** > **[!UICONTROL Gift Wrapping]**.
 1. Ottieni token cliente.
 1. Crea un carrello vuoto, customerCart.
    * Aggiungi prodotti al carrello: `addProductsToCart` mutazione
    * Imposta indirizzo di fatturazione: `setBillingAddressOnCart` mutazione
    * Imposta indirizzo di spedizione: `setShippingAddressesOnCart` mutazione
-   * Imposta metodo di spedizione: `setShippingMethodsOnCart` mutazione (velocità piatta)
-   * Imposta metodo di pagamento: `setPaymentMethodOnCart` mutazione (checkmo)
+   * Imposta metodo di spedizione: mutazione `setShippingMethodsOnCart` (velocità piatta)
+   * Imposta metodo di pagamento: mutazione `setPaymentMethodOnCart` (checkmo)
 1. Ora controlla la confezione regalo *Uid* con questa query del carrello:
 
    <pre><code class="language-GraphQL">
@@ -60,9 +60,9 @@ Gli utenti non possono rimuovere la confezione regalo dall’ordine del cliente 
 
 1. Impostare il wrapping regalo utilizzando `setGiftOptionsOnCart`.
 1. Controlla la query cart: cart.
-1. Annulla impostazione confezione regalo tramite `setGiftOptionsOnCart` (imposta il valore su null).
+1. Annullare l&#39;impostazione del wrapping regalo utilizzando `setGiftOptionsOnCart` (valore impostato su null).
 1. Di nuovo, controlla la query cart: cart.
-1. Ordinamento: `placeOrder` mutazione.
+1. Ordine dei luoghi: mutazione `placeOrder`.
 1. Esegui query cliente: cliente.
 
    <pre><code class="language-graphql">
@@ -112,14 +112,14 @@ La query del cliente restituisce comunque la confezione regalo come applicata.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

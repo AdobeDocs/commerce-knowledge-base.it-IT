@@ -26,12 +26,12 @@ Quando un negozio ha Amazon Pay e un altro pagamento assegnato a paesi diversi, 
 
 L’aggiornamento di una pagina web rappresenta una soluzione a questo problema.
 
-Per risolvere questo problema e rimuovere l’errore, è stata creata una [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
+Per risolvere il problema e rimuovere l&#39;errore, è stata creata una [patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip).
 
 <u>Prerequisiti</u>:
 
 * Viene creato un prodotto semplice.
-* **Assegno/vaglia postale** è abilitato solo per paesi specifici (at **Archivia** > **Configurazione** > **Vendite** > **Metodi di pagamento**).
+* **Verifica/Vaglia postale** è abilitato solo per paesi specifici (in **Store** > **Configurazione** > **Vendite** > **Metodi di pagamento**).
 
 * Esempio: Pagamento da paesi applicabili = paesi specifici
 * Esempio: Pagamento da paesi specifici = Regno Unito
@@ -45,26 +45,26 @@ Per risolvere questo problema e rimuovere l’errore, è stata creata una [patch
 
    * Paese = *Stati Uniti*
 
-1. Seleziona la tariffa di spedizione e fai clic su **Successivo**.
+1. Seleziona la tariffa di spedizione e fai clic su **Avanti**.
 
    * La fase di pagamento è aperta.
    * Nessun pagamento disponibile.
    * Messaggio: **Nessun metodo di pagamento disponibile.**
-   * Non esiste **Inserisci ordine** pulsante.
+   * Nessun pulsante **Inserisci ordine**.
 
-1. Torna a **Passaggio di spedizione** e modifica il valore in:
+1. Torna al **Passaggio di spedizione** e modifica il valore in:
 
    * Paese = *Regno Unito*
 
-1. Seleziona la tariffa di spedizione e fai clic su **Successivo**.
+1. Seleziona la tariffa di spedizione e fai clic su **Avanti**.
 
 <u>Risultato previsto</u>:
 
 Viene visualizzata la fase Pagamento.
 
-* **Consegna contanti** viene visualizzato.
-* **Assegno/vaglia postale** viene visualizzato.
-* Il **Inserisci ordine** viene visualizzato.
+* Viene visualizzato **Contrassegno**.
+* Viene visualizzato **Vaglia postale**.
+* Viene visualizzato il pulsante **Inserisci ordine**.
 
 <u>Risultato effettivo</u>:
 
@@ -72,11 +72,11 @@ Viene visualizzata la fase Pagamento.
 
 * Nessun pagamento disponibile.
 * Messaggio: *Nessun metodo di pagamento disponibile.*
-* Non esiste **Inserisci ordine** pulsante.
+* Nessun pulsante **Inserisci ordine**.
 
 ## Soluzione
 
-[Applicare la patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) di seguito.
+[Applica la patch](assets/BUNDLE-2546_EE_2.3.5-p1.composer.patch.zip) di seguito.
 
 ## Patch
 
@@ -97,6 +97,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto per le istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Errore &quot;Impossibile salvare la classe nella directory del codice&quot;
 
-Questo articolo descrive come risolvere il problema in cui il modo in cui hai specificato le dipendenze impedisce la generazione automatica immediata delle classi e ottieni il *&quot;Impossibile salvare la classe nella directory generata/code&quot;* messaggio di errore.
+In questo articolo viene descritto come risolvere il problema in cui il modo in cui sono state specificate le dipendenze impedisce la generazione automatica immediata delle classi e viene visualizzato il messaggio di errore *&quot;Impossibile salvare la classe nella directory generato/code&quot;*.
 
 ## Prodotti e versioni interessati
 
@@ -26,7 +26,7 @@ Questo articolo descrive come risolvere il problema in cui il modo in cui hai sp
 1. Nell’ambiente locale, scrivi una classe personalizzata con una dipendenza dalla classe generata automaticamente.
 1. Esegui lo scenario in cui viene attivata la classe personalizzata e verificane il corretto funzionamento.
 1. Apporta le modifiche all&#39;ambiente di integrazione. Questo attiverebbe il processo di distribuzione. Implementazione completata.
-1. In [ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), esegui lo scenario in cui viene attivata la classe personalizzata.
+1. Nell&#39;[ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), esegui lo scenario in cui viene attivata la classe personalizzata.
 
 <u>Risultato previsto</u>
 
@@ -34,15 +34,15 @@ Tutto funziona correttamente, nello stesso modo in cui funziona nell’ambiente 
 
 <u>Risultato effettivo</u>
 
-Errore nel messaggio di errore che indica che la classe non può essere salvata in `generated/code` directory.
+Errore con il messaggio di errore che indica che la classe non può essere salvata nella directory `generated/code`.
 
 ## Causa
 
-La causa del problema è che la classe sulla quale si ha la dipendenza, non viene generata durante la distribuzione e non può essere generata in un secondo momento quando la classe viene attivata, perché `generated/code` la directory non è disponibile per la scrittura al termine della distribuzione.
+La causa del problema è che la classe sulla quale si ha la dipendenza non viene generata durante la distribuzione e non può essere generata in un secondo momento quando la classe viene attivata, perché la directory `generated/code` non è disponibile per la scrittura dopo il completamento della distribuzione.
 
 Questo può accadere per due motivi principali:
 
-* Caso 1: la classe con dipendenze da classi generate automaticamente si trova nel punto di ingresso (come `index.php` ), che non viene analizzato per rilevare le dipendenze durante la distribuzione.
+* Caso 1: la classe con dipendenze su classi generate automaticamente si trova nel punto di ingresso (ad esempio `index.php` ), che non viene analizzato per individuare dipendenze durante la distribuzione.
 * Caso 2: la dipendenza dalla classe generata automaticamente viene specificata direttamente (rispetto all&#39;utilizzo consigliato del costruttore per dichiarare la dipendenza).
 
 ## Soluzione
@@ -57,7 +57,7 @@ Spostare il codice di classe dal punto di ingresso a un modulo separato e quindi
 
 <u>Esempio</u>
 
-Codice originale in, ad esempio, `index2.php` :
+Codice originale, ad esempio, `index2.php`:
 
 ```php
 <?php
@@ -85,7 +85,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 Devi effettuare le seguenti operazioni:
 
-1. Spostare la definizione della classe in `app/code/YourVendor/YourModule`:
+1. Sposta la definizione della classe in `app/code/YourVendor/YourModule`:
 
    ```php
       <?php

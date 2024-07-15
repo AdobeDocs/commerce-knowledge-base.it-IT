@@ -21,7 +21,7 @@ Questo articolo fornisce una soluzione al problema che si verifica quando Fastly
 
 ## Problema
 
-Nella pagina Fastly Configuration, accanto al frammento I/O Fastly, viene visualizzato lo stato Corrente: \_disabilitato \_con il seguente messaggio in basso: Contatta il tuo rappresentante commerciale o invia un messaggio e-mail a `support@fastly.com` per richiedere l’attivazione dell’ottimizzazione immagine per il servizio Fastly.
+Nella pagina Fastly Configuration, accanto al frammento di I/O Fastly, viene visualizzato lo stato Corrente: \_disabilitato \_con il seguente messaggio sottostante: Contattare il rappresentante commerciale o inviare un messaggio di posta elettronica a `support@fastly.com` per richiedere l&#39;attivazione dell&#39;ottimizzazione immagine per il servizio Fastly.
 
 ## Causa
 
@@ -29,4 +29,4 @@ Il sito potrebbe non essere ancora attivo. Esistono processi in atto per precari
 
 ## Soluzione
 
-Creare un [Ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e richiedere l’ottimizzazione dell’immagine.
+Crea un [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e richiedi ottimizzazione immagine.

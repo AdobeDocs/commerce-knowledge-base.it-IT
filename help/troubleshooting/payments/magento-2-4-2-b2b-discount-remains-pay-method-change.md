@@ -24,19 +24,19 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 B2B in cui uno
 
 ## Problema
 
-<u>Passaggi da riprodurre</u> :
+<u>Passaggi da riprodurre</u>:
 
-1. Creare un carrello **Regola prezzo** che è legato a un metodo di pagamento (Esempio: gli utenti Paypal ottengono uno sconto del 20%).
+1. Crea un carrello **Regola prezzo** legato a un metodo di pagamento (esempio: gli utenti Paypal ricevono uno sconto del 20%).
 1. Creare un ordine di acquisto e selezionare Paypal come metodo di pagamento. Viene applicato lo sconto.
 1. L&#39;ordine di acquisto viene approvato.
 1. Vai alla pagina di pagamento per completare l&#39;ordine.
 1. Seleziona un altro metodo di pagamento.
 
-<u>Risultati effettivi</u> :
+<u>Risultati effettivi</u>:
 
 Lo sconto per il metodo di pagamento rimane applicato al totale dell&#39;ordine.  Non viene visualizzato alcun messaggio di errore. Il proprietario dell&#39;archivio sarà in grado di visualizzare questo problema verificatosi verificando la cronologia degli ordini.
 
-<u>Risultati previsti</u> :Lo sconto del metodo di pagamento viene rimosso dal totale dell’ordine, come previsto.
+<u>Risultati previsti</u>: lo sconto per il metodo di pagamento viene rimosso dal totale dell&#39;ordine, come previsto.
 
 ## Soluzione
 

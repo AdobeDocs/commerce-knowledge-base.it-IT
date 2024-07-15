@@ -28,16 +28,16 @@ In Adobe Commerce for cloud, quando si dispone di attività cron complesse (atti
 
 I processi eseguiti dai processi cron non vengono eseguiti. Ad esempio, gli aggiornamenti dei prodotti non vengono applicati per ore o i clienti segnalano di non ricevere e-mail.
 
-All&#39;apertura di `cron_schedule` tabella di database, vengono visualizzati i processi con `missed` stato.
+Quando si apre la tabella del database `cron_schedule`, vengono visualizzati i processi con stato `missed`.
 
 ## Causa
 
-In precedenza, nel nostro ambiente cloud, il server Jenkins veniva utilizzato per eseguire processi cron. Jenkins eseguirà una sola istanza di un processo alla volta; di conseguenza, ce ne sarà una sola `bin/magento cron:run` processo in esecuzione alla volta.
+In precedenza, nel nostro ambiente cloud, il server Jenkins veniva utilizzato per eseguire processi cron. Jenkins eseguirà una sola istanza di un processo alla volta; di conseguenza, sarà in esecuzione un solo processo `bin/magento cron:run` alla volta.
 
 ## Soluzione
 
-1. Contatto [Supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per abilitare i nodi gestiti autonomamente.
-1. Modifica il `.magento.app.yaml` nella directory principale del codice per Adobe Commerce nel ramo Git. Aggiungi quanto segue:
+1. Contatta il [supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per abilitare i client autogestiti.
+1. Modificare il file `.magento.app.yaml` nella directory radice del codice per Adobe Commerce nel ramo Git. Aggiungi quanto segue:
 
    ```yaml
      crons:
@@ -50,7 +50,7 @@ In precedenza, nel nostro ambiente cloud, il server Jenkins veniva utilizzato pe
 
 >[!NOTE]
 >
->Non è necessario trasferire le vecchie configurazioni cron in cui più `cron:run` sono presenti alla nuova pianificazione cron; il normale `cron:run` è sufficiente aggiungere come descritto in precedenza. Tuttavia, è necessario trasferire i tuoi processi personalizzati se ne avevi.
+>Non è necessario trasferire le vecchie configurazioni cron in cui sono presenti più `cron:run` alla nuova pianificazione cron; l&#39;attività `cron:run` regolare, aggiunta come descritto in precedenza, è sufficiente. Tuttavia, è necessario trasferire i tuoi processi personalizzati se ne avevi.
 
 ### Verifica se è stato abilitato il cron autogestito (solo per staging e produzione Cloud Pro)
 
@@ -63,7 +63,7 @@ Per verificare se il cron autogestito è abilitato, eseguire il comando `crontab
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* Il cron autogestito non è abilitato se non è possibile visualizzare le attività e ottenere *&quot;non sei autorizzato a utilizzare questo programma&quot;* messaggio di errore.
+* Il cron autogestito non è abilitato se non è possibile visualizzare le attività e ottenere il messaggio di errore *&quot;non è consentito utilizzare questo programma&quot;*.
 
 >[!NOTE]
 >
@@ -71,4 +71,4 @@ Per verificare se il cron autogestito è abilitato, eseguire il comando `crontab
 
 ## Lettura correlata
 
-* [Imposta processi cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) nella documentazione per gli sviluppatori.
+* [Configura i processi cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) nella documentazione per gli sviluppatori.

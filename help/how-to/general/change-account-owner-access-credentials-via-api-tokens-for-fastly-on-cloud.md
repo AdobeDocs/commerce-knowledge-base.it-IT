@@ -12,5 +12,5 @@ ht-degree: 0%
 
 # Modifica il proprietario dell’account (accedere alle credenziali tramite token API) per Fastly on Cloud
 
-Consulta la sezione [Account servizio Fastly e credenziali](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials) nella Guida all’infrastruttura Commerce on Cloud.
+Consulta l&#39;account [Fastly Service e le relative credenziali](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=en#test-fastly-credentials) nella guida Commerce on Cloud Infrastructure.
 

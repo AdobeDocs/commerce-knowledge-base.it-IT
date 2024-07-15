@@ -1,6 +1,6 @@
 ---
-title: Impossibile accedere [!DNL New Relic] su progetto cloud Adobe Commerce
-description: Questo articolo fornisce una soluzione per i casi in cui non è possibile accedere [!DNL New Relic] nonostante sia stato aggiunto a un progetto cloud su Adobe Commerce.
+title: Impossibile accedere a  [!DNL New Relic]  nel progetto cloud Adobe Commerce
+description: Questo articolo fornisce una soluzione per i casi in cui non è possibile accedere a  [!DNL New Relic] nonostante l'aggiunta a un progetto cloud in Adobe Commerce.
 exl-id: bafe2dd9-8a16-4249-b814-7e421e25e828
 feature: Cloud, Observability, Paas
 role: Developer
@@ -11,25 +11,25 @@ ht-degree: 0%
 
 ---
 
-# Impossibile accedere [!DNL New Relic] su un progetto Adobe Commerce Cloud
+# Impossibile accedere a [!DNL New Relic] nel progetto Adobe Commerce Cloud
 
-Questo articolo fornisce una soluzione per i casi in cui non è possibile accedere [!DNL New Relic] nonostante sia stato aggiunto a un progetto cloud Adobe Commerce.
+Questo articolo fornisce una soluzione per i casi in cui non è possibile accedere a [!DNL New Relic] nonostante l&#39;aggiunta a un progetto cloud Adobe Commerce.
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud tutto [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Tutte le [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) di Adobe Commerce sull&#39;infrastruttura cloud
 
 ## Problema
 
-Nonostante l’aggiunta a un progetto cloud, non è possibile accedere al [!DNL New Relic] conto del progetto.
+Nonostante l&#39;aggiunta a un progetto cloud, non è possibile accedere all&#39;account [!DNL New Relic] per tale progetto.
 
 ## Causa
 
-L’aggiunta a un progetto cloud non comporta la concessione automatica di [!DNL New Relic] accesso.
+L&#39;aggiunta a un progetto cloud non concede automaticamente l&#39;accesso [!DNL New Relic].
 
 ## Soluzione
 
-Contatta il proprietario dell’account New Relic e richiedi l’aggiunta al suo account in [!DNL New Relic].
+Contatta il proprietario dell&#39;account New Relic e richiedi l&#39;aggiunta al proprio account in [!DNL New Relic].
 
 ## Lettura correlata
 

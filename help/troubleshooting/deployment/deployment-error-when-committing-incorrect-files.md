@@ -21,7 +21,7 @@ Adobe Commerce su infrastruttura cloud (tutte le versioni)
 
 ## Problema
 
-Si verificano errori di distribuzione quando si esegue il commit nel repository di file/cartelle. Ad esempio, il seguente errore è causato da un tentativo di connessione al database quando non è attualmente disponibile durante il [Fase di build](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
+Si verificano errori di distribuzione quando si esegue il commit nel repository di file/cartelle. Ad esempio, il seguente errore è causato da un tentativo di connessione al database quando non è attualmente disponibile durante la [fase di compilazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +42,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## Causa
 
-Alcuni file o cartelle non devono essere salvati nell’archivio, in quanto causano un’interruzione nel [flusso di lavoro di distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
+Alcuni file o cartelle non devono essere salvati nell&#39;archivio, in quanto causano un&#39;interruzione nel [flusso di lavoro di distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
 
 ## Soluzione
 

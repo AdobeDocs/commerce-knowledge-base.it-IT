@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Impossibile caricare il sito a causa della modalità di manutenzione rimasta abilitata
 
-Questo articolo corregge i casi in cui il sito non viene caricato a causa di una modalità di manutenzione che viene lasciata attivata o non disabilitata automaticamente. Potresti ricevere un messaggio di errore: *Servizio temporaneamente non disponibile Il server non è al momento in grado di soddisfare la richiesta a causa di tempi di inattività di manutenzione o problemi di capacità.*
+Questo articolo corregge i casi in cui il sito non viene caricato a causa di una modalità di manutenzione che viene lasciata attivata o non disabilitata automaticamente. È possibile che venga visualizzato un messaggio di errore: *Servizio temporaneamente non disponibile Il server non è al momento in grado di soddisfare la richiesta a causa di tempi di inattività di manutenzione o problemi di capacità.*
 
 ## Versioni e prodotti interessati
 
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## Lettura correlata
 
-Per informazioni su quando utilizzare la modalità di manutenzione, consulta [Attiva o disattiva la modalità di manutenzione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) nella documentazione per gli sviluppatori.
+Per informazioni su quando utilizzare la modalità di manutenzione, consultare [Attiva o disattiva la modalità di manutenzione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) nella documentazione per gli sviluppatori.

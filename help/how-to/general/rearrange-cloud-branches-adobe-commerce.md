@@ -29,17 +29,17 @@ L’organizzazione gerarchica corretta per i rami è:
 
 Per riorganizzare i rami cloud:
 
-1. È necessario disporre di [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) ruolo.
-1. Installare Magento-cloud [!DNL CLI] (se non lo ha fatto).
+1. Devi avere la mansione [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+1. Installare il cloud magento [!DNL CLI] (se non lo si è fatto).
 1. Esegui il seguente comando per i rami da spostare:
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
 Nota: è possibile specificare il ramo padre quando si crea un nuovo ramo. Per i passaggi, consulta [Guida introduttiva alla creazione di rami](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) nella documentazione per gli sviluppatori.
 
-Puoi creare un nuovo ramo dell’ambiente utilizzando `branch <environment-name> <parent-environment-ID>` comando ambiente magento-cloud.
+È possibile creare un nuovo ramo dell&#39;ambiente utilizzando il comando dell&#39;ambiente magento-cloud `branch <environment-name> <parent-environment-ID>`.
 
 La creazione e l’attivazione di un nuovo ramo dell’ambiente potrebbe richiedere un po’ di tempo.
 
 ## Lettura correlata
 
-[Gestire i rami con [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) nella documentazione per gli sviluppatori.
+[Gestisci i rami con  [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) nella documentazione per gli sviluppatori.

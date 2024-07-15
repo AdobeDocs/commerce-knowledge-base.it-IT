@@ -1,7 +1,7 @@
 ---
-title: '''[!DNL FedEx] migrazione dell’integrazione del metodo di spedizione da SOAP all’API RESTful'
+title: Migrazione dell'integrazione del metodo di spedizione '[!DNL FedEx] da SOAP all'API RESTful'
 promoted: true
-description: Applicare una patch per gestire [!DNL FedEx] migrazione dell’integrazione del metodo di spedizione dall’API SOAP all’API RESTful per Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
+description: Applica una patch per gestire la migrazione dell'integrazione del metodo di spedizione  [!DNL FedEx]  dall'SOAP all'API RESTful per Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL FedEx] migrazione dell’integrazione del metodo di spedizione da SOAP all’API RESTful
+# Migrazione dell&#39;integrazione del metodo di spedizione [!DNL FedEx] da SOAP all&#39;API RESTful
 
-Questo articolo fornisce una patch per risolvere i problemi relativi a [!DNL FedEx] migrazione dell’integrazione del metodo di spedizione dall’API SOAP all’API RESTful per Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
+Questo articolo fornisce una patch per risolvere i problemi relativi alla migrazione dell&#39;integrazione del metodo di spedizione [!DNL FedEx] dall&#39;SOAP all&#39;API RESTful per Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
 
-[!DNL FedEx Web Services] tracking, convalida degli indirizzi e convalida dei codici postali I linguaggi di definizione dei servizi web (WSDLS) verranno ritirati il 15 maggio 2024. Basato su SOAP [!DNL FedEx Web Services] è in fase di sviluppo ed è stato sostituito con [!DNL FedEx] API RESTFUL. Per ulteriori informazioni, consulta [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+Il tracciamento di [!DNL FedEx Web Services], la convalida degli indirizzi e la convalida dei codici postali WSDLS (Web Services Definition Languages) verranno ritirati il 15 maggio 2024. [!DNL FedEx Web Services] basato su SOAP è in fase di sviluppo ed è stato sostituito con [!DNL FedEx] API RESTFUL. Per ulteriori informazioni, consultare [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
 
-Questo cambiamento influisce sulla nostra attuale [!DNL FedEx] implementazione dell’integrazione del metodo di spedizione in Adobe Commerce, richiede la correzione dell’implementazione corrente e la migrazione dalle API SOAP obsolete all’ultima versione [!DNL FedEx] API RESTFUL.
+Questa modifica influisce sull&#39;implementazione corrente del metodo di spedizione [!DNL FedEx] in Adobe Commerce e richiede la correzione dell&#39;implementazione corrente e la migrazione dalle API SOAP obsolete alle API RESTFUL [!DNL FedEx] più recenti.
 
-A partire dal 15 maggio 2024, i clienti di Adobe Commerce non potranno utilizzare i nostri [!DNL FedEx] per l’integrazione del metodo di spedizione, Adobe sta rilasciando questo hotfix che consente ai clienti Adobe Commerce 2.4.4+ di utilizzare la versione più recente [!DNL FedEx] API RESTFUL anziché SOAP obsolete.
+A partire dal 15 maggio 2024, i clienti di Adobe Commerce non potranno utilizzare l&#39;attuale integrazione del metodo di spedizione [!DNL FedEx]. Adobe sta pertanto rilasciando questo hotfix che consente ai clienti Adobe Commerce 2.4.4+ di utilizzare le API RESTFUL [!DNL FedEx] più recenti invece di quelle SOAP obsolete.
 
 
 ## Prodotti e versioni interessati
@@ -35,7 +35,7 @@ Adobe Commerce su infrastruttura cloud e on-premise e Magento Open Source:
 
 ## Causa
 
-Il [!DNL FedEx] hanno dichiarato obsolete le API basate su SOAP e le hanno sostituite con quelle RESTful. Fai riferimento a [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+[!DNL FedEx] ha dichiarato obsolete le API basate su SOAP sostituendole con quelle RESTful. Fare riferimento a [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
 
 ## Soluzione
 
@@ -64,22 +64,22 @@ Utilizza le seguenti patch allegate, a seconda della versione di Adobe Commerce/
 
 ## Come applicare il cerotto
 
-Decomprimi il file e visualizza [Come applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella knowledge base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
 
 ## Come stabilire se i cerotti sono stati applicati
 
-Considerando che non è possibile verificare facilmente se il problema è stato corretto, è possibile verificare se la patch è stata applicata correttamente. Questo utilizza (ad esempio: *AC-9363*) come cerotto da controllare.
+Considerando che non è possibile verificare facilmente se il problema è stato corretto, è possibile verificare se la patch è stata applicata correttamente. In questo modo viene utilizzata (esempio: *AC-9363*) come patch da controllare.
 
-<u>Per farlo, segui questi passaggi</u>:
+<u>A tale scopo, procedere come segue</u>:
 
-1. [Installare [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
 1. Esegui il comando:
 
    ```bash
    vendor/bin/magento-patches -n status |grep "9363|Status"
    ```
 
-1. Dovresti vedere un output simile a questo, dove AC-9363 restituisce il *Applicato* stato:
+1. Dovresti vedere un output simile a questo, dove AC-9363 restituisce lo stato *Applicato*:
 
    ```bash
    ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/AC-9363_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                

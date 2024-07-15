@@ -24,7 +24,7 @@ Questa patch risolve il problema dell’impossibilità di modificare un metodo d
 
 Quando un cliente effettua il check-out con Amazon Pay, effettua l’accesso, procede al passaggio di pagamento e tenta di modificare la propria carta di credito dal widget pagamenti, viene visualizzato un messaggio di errore. Impossibile completare l&#39;estrazione se l&#39;acquirente ignora l&#39;errore e procede all&#39;estrazione.
 
-Per risolvere questo problema e rimuovere l’errore, è stata creata una [patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
+Per risolvere il problema e rimuovere l&#39;errore, è stata creata una [patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
 
 <u>Passaggi da riprodurre</u>:
 
@@ -33,13 +33,13 @@ Per risolvere questo problema e rimuovere l’errore, è stata creata una [patch
 1. Seleziona il metodo di spedizione e procedi alla fase di pagamento.
 1. Prova a cambiare la carta di credito.
 
-<u>Risultato previsto</u>: viene selezionata un’altra carta di credito come metodo di pagamento senza errori.
+<u>Risultato previsto</u>: è stata selezionata un&#39;altra carta di credito come metodo di pagamento senza errori.
 
-<u>Risultato effettivo</u>: viene visualizzato il messaggio di errore: *&quot;Contatta questo commerciante per completare l&#39;ordine.&quot;*
+<u>Risultato effettivo</u>: viene visualizzato il messaggio di errore: *&quot;Contattare il commerciante per informazioni sul completamento dell&#39;ordine.&quot;*
 
 ## Soluzione
 
-[Applicare la patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) di seguito.
+[Applica la patch](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) di seguito.
 
 ## Patch
 
@@ -61,6 +61,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto per le istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

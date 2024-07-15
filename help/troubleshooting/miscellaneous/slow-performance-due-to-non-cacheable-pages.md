@@ -22,7 +22,7 @@ Questo articolo fornisce soluzioni per l’aumento dei tempi di caricamento dei 
 
 ### Problema
 
-Le prestazioni del sito risultano rallentate perché nelle pagine sono presenti blocchi di cache che devono essere memorizzabili in cache ma che sono stati impostati su `cacheable="false"` .
+Le prestazioni del sito sono rallentate perché nelle pagine sono presenti blocchi di cache che devono essere memorizzabili nella cache ma sono stati impostati su `cacheable="false"`.
 
 ### Causa
 
@@ -36,9 +36,9 @@ Queste pagine sono:
 
 I termini &quot;memorizzabile in cache&quot; e &quot;non memorizzabile in cache&quot; indicano se una pagina deve essere memorizzata in cache o meno. Per impostazione predefinita, tutte le pagine sono memorizzabili in cache. Tuttavia, se qualsiasi blocco in un layout è designato come non memorizzabile in cache, l’intera pagina non è memorizzabile in cache.
 
-La schermata seguente mostra un blocco con un’impostazione `cacheable="false”`  ** ** che crea una pagina non memorizzabile in cache.
+La schermata seguente mostra un blocco con un&#39;impostazione `cacheable="false”` ** ** che crea una pagina non memorizzabile in cache.
 
-![non_cache_kb.png](assets/non_cacheable_kb.png)
+![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 
 Esempi di pagine non memorizzabili in cache includono prodotti di confronto, carrello e pagine di pagamento.
 
@@ -46,14 +46,14 @@ I seguenti elenchi di pagine non vengono memorizzati in cache (le cache Fastly, 
 
 ### Soluzione
 
-Verifica se i file specificati sopra hanno l’impostazione `cacheable="false”` . In caso affermativo, controlla se questa impostazione è necessaria o richiesta.
+Verificare se i file specificati sopra hanno l&#39;impostazione `cacheable="false”`. In caso affermativo, controlla se questa impostazione è necessaria o richiesta.
 
-* Se necessario, puoi spostare i blocchi non memorizzabili in cache in [meccanismo di contenuti privati](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co) invece.
+* Se necessario, puoi spostare i blocchi non memorizzabili in cache in [meccanismo di contenuto privato](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co).
 * Se non è necessario, rimuovere l&#39;attributo `cacheable="false”` e svuotare la cache di layout.
 
 >[!NOTE]
 >
->Per Adobe Commerce su infrastruttura cloud 2.4.1 e versioni successive, puoi utilizzare [Strumento di analisi a livello di sito](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) per verificare automaticamente se la cache della pagina intera non è configurata correttamente.
+>Per Adobe Commerce su infrastruttura cloud 2.4.1 e versioni successive, puoi utilizzare [Strumento di analisi a livello di sito](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) per verificare automaticamente se la cache a pagina intera non è configurata correttamente.
 
 ### Lettura correlata
 

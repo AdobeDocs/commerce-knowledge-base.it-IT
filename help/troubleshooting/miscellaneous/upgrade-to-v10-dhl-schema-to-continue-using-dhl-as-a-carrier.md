@@ -21,7 +21,7 @@ Questo articolo fornisce una soluzione per consentire ai commercianti di continu
 
 ## Problema
 
-Nell’agosto 2022 è stata rilasciata la [aggiornamento dello schema DHL versione 6.2. insieme a una patch di correzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) per i commercianti di continuare a offrire spedizione DHL. DHL sta introducendo nuovamente uno schema più recente - versione 10.0 - a ottobre 2022 e la versione precedente (schema 6.2) diventerà obsoleta alla fine di dicembre 2022. Adobe Commerce 2.4.5 e la precedente integrazione DHL supportano solo la versione 6.2.
+Nell&#39;agosto 2022 è stato rilasciato l&#39;[aggiornamento dello schema DHL versione 6.2. insieme a una patch di correzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) per consentire ai commercianti di continuare a offrire la spedizione DHL. DHL sta introducendo nuovamente uno schema più recente - versione 10.0 - a ottobre 2022 e la versione precedente (schema 6.2) diventerà obsoleta alla fine di dicembre 2022. Adobe Commerce 2.4.5 e la precedente integrazione DHL supportano solo la versione 6.2.
 
 ## Soluzione
 
@@ -31,12 +31,12 @@ I commercianti che non desiderano effettuare l’aggiornamento a 2.4.5-p1 e 2.4.
 
 ## Patch
 
-L&#39;ID patch è AC-3023 ed è disponibile nel [!DNL Quality Patches Tool] versione 1.1.21.
+L&#39;ID patch è AC-3023 ed è disponibile nella versione 1.1.21 di [!DNL Quality Patches Tool].
 
-Fai riferimento ai seguenti collegamenti su come utilizzare [!DNL Quality Patches Tool] e installare le patch in base ai metodi di distribuzione:
+Fare riferimento ai seguenti collegamenti per informazioni su come utilizzare [!DNL Quality Patches Tool] e installare le patch in base ai metodi di distribuzione utilizzati:
 
-* Adobe Commerce on-premise e Magento Open Source: [Strumenti patch di qualità > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce on-premise e Magento Open Source: [Strumenti per le patch di qualità > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 **La patch è applicabile alle seguenti versioni di Adobe Commerce (tutti i metodi di distribuzione):**
 
@@ -46,11 +46,11 @@ Fai riferimento ai seguenti collegamenti su come utilizzare [!DNL Quality Patche
 
 * [[!DNL Quality Patches Tool] > Note sulla versione](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) in Adobe Experience League.
 
-* [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
+* [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) in Adobe Experience League.
 
 ## Lettura correlata
 
-* [Applicare una patch per continuare a offrire DHL come corriere](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) nella nostra knowledge base di supporto.
+* [Applica una patch per continuare a offrire DHL come corriere](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html) nella nostra knowledge base di supporto.
 
 * [Vettori di spedizione > DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html) nella guida utente.
 * [Riferimento configurazione > Vendite > Metodi di consegna](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html) nella guida utente.

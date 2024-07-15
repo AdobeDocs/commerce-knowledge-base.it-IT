@@ -13,11 +13,11 @@ ht-degree: 2%
 
 # MDVA-41229: le immagini disponibili nel back-end non vengono visualizzate nel front-end dopo l’importazione di prodotti configurabili
 
-La patch MDVA-41229 risolve il problema per cui le immagini disponibili sul back-end non vengono visualizzate sul front-end dopo l’importazione di prodotti configurabili. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L&#39;ID della patch è MDVA-41229. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+La patch MDVA-41229 risolve il problema per cui le immagini disponibili sul back-end non vengono visualizzate sul front-end dopo l’importazione di prodotti configurabili. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L&#39;ID della patch è MDVA-41229. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.3.2-p2 e 2.4.3-p1
 
@@ -27,7 +27,7 @@ La patch MDVA-41229 risolve il problema per cui le immagini disponibili sul back
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -36,7 +36,7 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
 <u>Passaggi da riprodurre</u>:
 
 1. Installa un Adobe Commerce pulito.
-1. Aggiungi un attributo personalizzato andando in **Negozi** > **Attributi** > **Prodotto** > **Aggiungi nuovo attributo** con le impostazioni seguenti:
+1. Aggiungi un attributo personalizzato andando in **Archivi** > **Attributi** > **Prodotto** > **Aggiungi nuovo attributo** con le impostazioni seguenti:
    * Proprietà:
       * Proprietà attributo:
          * Etichetta predefinita: Imposta dimensione
@@ -73,9 +73,9 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
       * Visibile sulle pagine del catalogo in Storefront: sì
       * Utilizzato nell’elenco dei prodotti: sì
       * Utilizzato per l’ordinamento nell’elenco dei prodotti: no
-1. Aggiungi questo attributo al set di attributi predefinito nel gruppo Dettagli prodotto (**Negozi** > **Attributi** > **Set di attributi**).
+1. Aggiungi questo attributo al set di attributi predefinito nel gruppo Dettagli prodotto (**Archivi** > **Attributi** > **Set di attributi**).
 1. Scarica le immagini impostate nella cartella var all’interno della directory principale di Adobe Commerce.
-1. Vai a **Sistema** > **Trasferimento dati** > e importare il file utilizzando le opzioni seguenti:
+1. Vai a **Sistema** > **Trasferimento dati** > e importa il file utilizzando le opzioni seguenti:
    * Importa impostazioni:
       * Tipo di entità: prodotti
    * Comportamento importazione:
@@ -89,7 +89,7 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
    * File da importare:
       * Selezionate il file da importare
       * Directory file immagini: lasciate vuoto
-1. Vai alla vetrina per `/product-set.html` e passare da un formato all&#39;altro. Per Set Size 24, non ci sarà alcuna galleria.
+1. Vai alla vetrina per `/product-set.html` pagina e passa tra diverse dimensioni di set. Per Set Size 24, non ci sarà alcuna galleria.
 
 <u>Risultati previsti</u>:
 
@@ -103,14 +103,14 @@ Non ci sono gallerie per i prodotti.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

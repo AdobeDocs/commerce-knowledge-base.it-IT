@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Configurare Fastly per il piano Starter su Cloud
 
-Fare riferimento a [Configura Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) nella documentazione per gli sviluppatori.
+Consulta [Configura Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) nella documentazione per gli sviluppatori.

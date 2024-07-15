@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ![login_panel_s.png](assets/login_panel_s.png)
 
-Leggi i passaggi in [Reimposta la sezione della password per l&#39;accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in) nella guida utente.
+Leggi i passaggi nella sezione [Reimpostare la password di Accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in) nella nostra guida utente.
 
 Di seguito sono riportate le note di utilizzo critiche.
 
 ### Abilita e-mail in uscita
 
-Prima di utilizzare **Password dimenticata** modulo, [abilita e-mail in uscita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) utilizzando [Console cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Prima di utilizzare il modulo **Password dimenticata**, [abilita le e-mail in uscita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) tramite [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
 ### Controlla la cartella Posta indesiderata
 
-Se non riesci a trovare il messaggio con un collegamento Reimposta password, controlla *Posta indesiderata* cartella. Il nome dell’e-mail è *Conferma reimpostazione password per nome utente amministratore*.
+Se non riesci a trovare il messaggio con un collegamento Reimposta password, controlla la cartella *Posta indesiderata*. Il nome dell&#39;e-mail è *Conferma reimpostazione password per nome utente amministratore*.
 
 ## Metodo 2: aggiunta di un nuovo utente amministratore
 
 Se non è possibile ripristinare o reimpostare la password per l&#39;utente esistente, è possibile creare un nuovo utente amministratore e impostare una password per questo utente. A tale scopo, effettua le seguenti operazioni:
 
-1. Utilizzare [SSH per accedere all’ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. Utilizza [SSH per accedere all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Esegui il comando seguente: `bin/magento admin:user:create   --admin-user=%user_name% --admin-password=%your_password% --admin-email=%your_email% --admin-firstname=%admin_user_first_name% --admin-lastname=%admin_user_last_name%`

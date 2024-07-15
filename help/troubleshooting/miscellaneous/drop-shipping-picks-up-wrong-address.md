@@ -29,4 +29,4 @@ Al momento Magento Inventory non supporta l&#39;utilizzo del calcolo delle tarif
 
 ## Lettura correlata
 
-* [Domande frequenti sull’inventario del Magento](https://github.com/magento/inventory/wiki/MSI-FAQs) in GitHub.
+* [Domande frequenti sull&#39;inventario dei Magenti](https://github.com/magento/inventory/wiki/MSI-FAQs) in GitHub.

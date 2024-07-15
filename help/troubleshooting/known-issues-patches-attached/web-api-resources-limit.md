@@ -51,11 +51,11 @@ Le patch non sono compatibili con altre versioni di Adobe Commerce.
 
 ### Come applicare il cerotto
 
-Decomprimi il download `.zip` e applicare la patch come descritto in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Decomprimere il file `.zip` scaricato e applicare la patch come descritto in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 >[!WARNING]
 >
->Se sospetti che il tuo archivio stia avendo un attacco DoS, Adobe consiglia di abbassare i limiti di input predefiniti a un valore inferiore per imporre restrizioni sul numero di risorse che possono essere richieste.  È possibile personalizzare i limiti predefiniti a livello di programmazione utilizzando [argomenti del costruttore di classe](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
+>Se sospetti che il tuo archivio stia avendo un attacco DoS, Adobe consiglia di abbassare i limiti di input predefiniti a un valore inferiore per imporre restrizioni sul numero di risorse che possono essere richieste.  È possibile personalizzare i limiti predefiniti a livello di programmazione utilizzando [argomenti del costruttore di classe](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
 >come descritto nella documentazione per gli sviluppatori: [Sicurezza API > Limitazione velocità > Numero massimo di input del parametro](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
 
 ## Lettura correlata

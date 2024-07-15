@@ -22,22 +22,22 @@ Questo articolo spiega che la maggior parte dei metodi di pagamento non vengono 
 
 >[!NOTE]
 >
->L’integrazione del pagamento core Adobe Commerce Cybersource è obsoleta a partire dalla versione 2.3.3 e verrà completamente rimossa nella versione 2.4.0. Utilizza il [estensione ufficiale](https://marketplace.magento.com/cybersource-global-payment-management.html) dal marketplace.
+>L’integrazione del pagamento core Adobe Commerce Cybersource è obsoleta a partire dalla versione 2.3.3 e verrà completamente rimossa nella versione 2.4.0. Utilizza invece l&#39;[estensione ufficiale](https://marketplace.magento.com/cybersource-global-payment-management.html) da Marketplace.
 
 ## Problema
 
-<u>Prerequisiti</u>: in Commerce Admin, abilita e configura i metodi di pagamento PayPal e Cybersource e abilita Multishipping per il tuo store.
+<u>Prerequisiti</u>: nell&#39;amministratore di Commerce, abilita e configura i metodi di pagamento PayPal e Cybersource e abilita Multishipping per il tuo archivio.
 
 <u>Passaggi da riprodurre</u>:
 
 1. Nella vetrina, aggiungi più prodotti al carrello.
 1. Vai alla pagina del carrello.
-1. Clic **Check-Out con più indirizzi**.
+1. Fare clic su **Estrai con più indirizzi**.
 1. Accedi o crea un account.
 1. Suddividere i prodotti tra gli indirizzi nella pagina Spedisci a più indirizzi.
-1. Clic **Vai a Informazioni spedizione**.
+1. Fare clic su **Vai alle informazioni sulla spedizione**.
 1. Selezionare i metodi di spedizione per ogni spedizione.
-1. Clic **Continua con le informazioni di fatturazione**.
+1. Fai clic su **Continua con informazioni fatturazione**.
 
 <u>Risultato previsto</u>: PayPal e Cybersource sono disponibili come opzioni di pagamento.
 

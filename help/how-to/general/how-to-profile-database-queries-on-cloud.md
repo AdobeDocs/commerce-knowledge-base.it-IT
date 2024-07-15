@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Profilo delle query di database in Adobe Commerce su infrastruttura cloud
 
-Consulta la sezione [Query del database del profilo](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) nella documentazione per gli sviluppatori.
+Consulta le [query sul database dei profili](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) nella documentazione per gli sviluppatori.

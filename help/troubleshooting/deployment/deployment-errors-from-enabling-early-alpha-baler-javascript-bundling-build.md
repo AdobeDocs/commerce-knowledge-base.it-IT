@@ -30,8 +30,8 @@ Si sconsiglia ai commercianti di utilizzare il modulo Baler in un ambiente di pr
 
 <u>Passaggi da riprodurre</u>:
 
-1. Il commerciante tenta di inserire il **SCD\_USE\_BALER** variabile nella fase di build della `.magento.env.yaml` che abilita il pacchetto di bundling JavaScript di Baler.
-1. Il mercante aggiunge anche la dipendenza del compositore Baler: `"magento/module-baler": "1.0.0-alpha"` a `require` sezione di `composer.json`.
+1. Il commerciante tenta di inserire la variabile **SCD\_USE\_BALER** nella fase di build del file `.magento.env.yaml`, che abilita il pacchetto di aggregazione Javascript di Baler.
+1. Il commerciante aggiunge anche la dipendenza del compositore Baler: `"magento/module-baler": "1.0.0-alpha"` alla sezione `require` di `composer.json`.
 
 <u>Risultato previsto</u>:
 
@@ -39,7 +39,7 @@ Distribuzione riuscita.
 
 <u>Risultato effettivo</u>:
 
-L’esercente visualizza il seguente messaggio di errore nei registri di distribuzione sul cloud, che è `<project home>/var/log/cloud.log`, nella fase di distribuzione del contenuto statico:
+Il commerciante visualizza il seguente messaggio di errore nei registri di distribuzione sul cloud, ovvero `<project home>/var/log/cloud.log`, nella fase di distribuzione del contenuto statico:
 
 ```
 [2020-08-19 12:06:12] WARNING: [1007] Baler JS bundling cannot be used because of the following issues:
@@ -52,9 +52,9 @@ Il modulo Baler è attualmente nella fase iniziale di sviluppo alfa e il process
 
 ## Soluzione
 
-Puoi consultare la documentazione di Alpha del Baler esistente all’indirizzo [Github/Magento/Baler/Guida introduttiva ad alpha](https://github.com/magento/baler/blob/master/docs/ALPHA.md). Tuttavia, non è pronto per l’uso in produzione e viene utilizzato a proprio rischio. Si consiglia invece di unire o raggruppare file JavaScript (JS) utilizzando il bundling integrato di Adobe Commerce (bundling di base) per l’ottimizzazione dei file.
+È possibile rivedere la documentazione esistente dell&#39;Alpha di Baler all&#39;indirizzo [Github/Magento/Baler/Guida introduttiva ad alpha](https://github.com/magento/baler/blob/master/docs/ALPHA.md). Tuttavia, non è pronto per l’uso in produzione e viene utilizzato a proprio rischio. Si consiglia invece di unire o raggruppare file JavaScript (JS) utilizzando il bundling integrato di Adobe Commerce (bundling di base) per l’ottimizzazione dei file.
 
-* Puoi attivare l’unione o il bundling in Amministrazione (l’unione e il bundling non possono essere abilitati contemporaneamente): **Negozi** > **Impostazioni** > **Configurazione** > **Avanzate** > **Sviluppatore** > **Impostazioni JavaScript**.
-* Puoi anche abilitare il bundling integrato di Adobe Commerce (bundling di base) dalla riga di comando: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
+* È possibile attivare l&#39;unione o il raggruppamento nell&#39;amministratore (l&#39;unione e il raggruppamento non possono essere abilitati contemporaneamente): **Archivi** > **Impostazioni** > **Configurazione** > **Avanzate** > **Sviluppatore** > **Impostazioni JavaScript**.
+* È inoltre possibile abilitare il bundling integrato di Adobe Commerce (bundling di base) dalla riga di comando: `php -f bin/magento config:set dev/js/enable_js_bundling 1`
 
-Per ulteriori informazioni, consulta [Ottimizzazione dei file CSS e JavaScript su Adobe Commerce nell’infrastruttura cloud e Adobe Commerce on-premise](https://support.magento.com/hc/en-us/articles/360044482152).
+Per ulteriori informazioni, consulta [Ottimizzazione dei file CSS e JavaScript su Adobe Commerce nell&#39;infrastruttura cloud e Adobe Commerce on-premise](https://support.magento.com/hc/en-us/articles/360044482152).

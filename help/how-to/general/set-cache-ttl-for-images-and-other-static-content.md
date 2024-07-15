@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Impostare il TTL della cache per immagini e altri contenuti statici
 
-Consulta la sezione [Imposta cache per file statici](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) nella guida utente.
+Consulta [Impostare la cache per i file statici](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) nella guida utente.

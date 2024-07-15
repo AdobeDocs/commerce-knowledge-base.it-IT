@@ -41,7 +41,7 @@ Le pagine vengono ancora memorizzate nella cache, pertanto la pagina di manutenz
 ## Soluzione visibile al sito nonostante sia in modalità di manutenzione
 
 1. SSH per l’ambiente.
-1. Esegui il `php bin/magento cache:clean` comando.
+1. Eseguire il comando `php bin/magento cache:clean`.
 
 ## Lettura correlata
 

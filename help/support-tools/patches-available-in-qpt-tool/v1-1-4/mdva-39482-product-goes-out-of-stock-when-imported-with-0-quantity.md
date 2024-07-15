@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-39482: il prodotto esaurisce le scorte se viene importato con la quantità &#39;0&#39; con ordini inevasi abilitati
 
-MDVA-39482 risolve il problema relativo all&#39;esaurimento delle scorte del prodotto importato con quantità pari a &quot;0&quot; quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4. L&#39;ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+MDVA-39482 risolve il problema relativo all&#39;esaurimento delle scorte del prodotto importato con quantità pari a &quot;0&quot; quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4. L&#39;ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 Adobe Commerce (tutti i metodi di implementazione) 2.4.1-p1
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.3.6 - 2.3.7-p2, 2.4.1 - 2.4
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -36,13 +36,13 @@ Se viene importata con una quantità pari a &quot;0&quot;, il prodotto esaurisce
 <u>Prerequisiti</u>:
 
 1. È necessario installare MSI e i dati di esempio.
-1. Vai a **Negozi** > **Configurazioni** > **Catalogo** > **Inventario**:
+1. Vai a **Archivi** > **Configurazioni** > **Catalogo** > **Inventario**:
    * Imposta ordini arretrati su &quot;Consenti quantità inferiore a 0&quot;
    * Imposta soglia esaurita su &quot;-10&quot;
 
 <u>Passaggi da riprodurre</u>:
 
-1. Assicurati che lo SKU sia **In magazzino** e ha quantità **24 MB01**.
+1. Assicurati che lo SKU sia **In magazzino** e abbia una quantità di **24-MB01**.
 1. Importa il file CSV delle origini Stock. Accertatevi di selezionare &quot;Origini magazzino&quot; in Tipo entità:
 
    ```code panel
@@ -54,24 +54,24 @@ Se viene importata con una quantità pari a &quot;0&quot;, il prodotto esaurisce
 
 <u>Risultati previsti</u>:
 
-24-MB01 è **In magazzino** in Storefront.
+24-MB01 è **Disponibile** in Storefront.
 
 <u>Risultati effettivi</u>:
 
-24-MB01 è **Esaurito** in Storefront.
+24-MB01 è **esaurito** in Storefront.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento al [Patch disponibili in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sezione.
+Per informazioni sulle altre patch disponibili in QPT, consulta la sezione [Patch disponibili in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-).

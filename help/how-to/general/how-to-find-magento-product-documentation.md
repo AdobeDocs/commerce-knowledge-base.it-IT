@@ -18,9 +18,9 @@ La knowledge base di supporto di Adobe Commerce fornisce soluzioni per la risolu
 
 Sono inoltre disponibili risorse separate per la risoluzione dei problemi per:
 
-* Apprendimento su Adobe Commerce: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
-* Partner per le soluzioni: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
-* Partner tecnologici: [https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
+* Apprendimento di Adobe Commerce: [https://learning.adobe.com/products-resources/contact-us.html](https://learning.adobe.com/products-resources/contact-us.html)
+* Partner soluzioni: [https://solutionpartners.adobe.com/](https://solutionpartners.adobe.com/)
+* Partner tecnici: [https://partners.adobe.com/exchangeprogram/experiencecloud.html](https://solutionpartners.adobe.com/)
 * Commerce Marketplace: [https://commercemarketplace.adobe.com](https://commercemarketplace.adobe.com)
 
 Se stai cercando documentazione tecnica o per l’utente finale, utilizza uno dei seguenti collegamenti:
@@ -34,7 +34,8 @@ Se stai cercando documentazione tecnica o per l’utente finale, utilizza uno de
 <td>Sito Web</td>
 </tr>
 <tr>
-<td rowspan="2">Adobe Commerce on-premise e Adobe Commerce sull’infrastruttura cloud</td>
+<td rowspan="2">Adobe Commerce on-premise e
+Adobe Commerce sull’infrastruttura cloud</td>
 <td>
 <p>Documentazione (tecnica) per gli sviluppatori:</p>
 <p><a href="https://developer.adobe.com/commerce/docs/">https://developer.adobe.com/commerce/docs/</a></p>
@@ -74,7 +75,7 @@ Se stai cercando documentazione tecnica o per l’utente finale, utilizza uno de
 </td>
 </tr>
 <tr>
-<td>[!DNL Progressive Web App] (PWA Studi)</td>
+<td>[!DNL Progressive Web App] (PWA Studio)</td>
 <td>
 <p>Documentazione (tecnica) per gli sviluppatori:</p>
 <p><a href="https://developer.adobe.com/commerce/pwa-studio/">https://developer.adobe.com/commerce/pwa-studio/</a></p>
@@ -100,6 +101,6 @@ Se stai cercando documentazione tecnica o per l’utente finale, utilizza uno de
 
 ## Blog e comunicazioni
 
-* Centro protezione Adobe (aggiornamenti e patch di protezione): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
+* Centro protezione Adobe (aggiornamenti e patch di sicurezza): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
 * Blog per sviluppatori della community Adobe Commerce (procedure, best practice e notizie tecniche dalla community): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Blog Adobe Commerce (e-commerce ad alto livello):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Blog Adobe Commerce (e-commerce di alto livello):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)

@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Visualizza il numero della segnalazione errori di Adobe Commerce invece dell’errore Fastly 503
 
-Per impostazione predefinita, Fastly nasconde tutti gli errori Adobe Commerce dietro al **Servizio 503 non disponibile** errore. Per visualizzare il numero del rapporto del registro errori di Adobe Commerce (per trovarlo nei registri e visualizzare i dettagli dell’errore), apri il sito web omettendo Fastly seguendo la procedura riportata di seguito:
+Per impostazione predefinita, Fastly nasconde tutti gli errori Adobe Commerce dietro l&#39;errore **503 Servizio non disponibile**. Per visualizzare il numero del rapporto del registro errori di Adobe Commerce (per trovarlo nei registri e visualizzare i dettagli dell’errore), apri il sito web omettendo Fastly seguendo la procedura riportata di seguito:
 
 1. Aggiungi il dominio e l’indirizzo IP dell’applicazione al file hosts sul computer locale.
 1. Cancella la cache del browser e i cookie (o passa alla modalità in incognito).
@@ -20,8 +20,8 @@ Per impostazione predefinita, Fastly nasconde tutti gli errori Adobe Commerce di
 
 Una volta visualizzato l’errore Adobe Commerce autentico e il numero della segnalazione di errore, puoi ottenere i dettagli nel file della segnalazione di errore seguendo questi passaggi:
 
-1. SSH nell’ambiente interessato. Fai riferimento a [SSH in un ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) nella documentazione per gli sviluppatori.
-1. Individua il `./var/report/{error_number}` file.
+1. SSH nell’ambiente interessato. Consulta [SSH in un ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) nella documentazione per gli sviluppatori.
+1. Individuare il file `./var/report/{error_number}`.
 
 ## Aggiungi dominio applicazione e indirizzo IP al file host: passaggi dettagliati
 

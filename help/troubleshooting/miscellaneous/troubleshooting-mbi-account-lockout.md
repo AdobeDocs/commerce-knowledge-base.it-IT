@@ -1,5 +1,5 @@
 ---
-title: Risoluzione dei problemi di blocco dell'account Adobe Commerce Intelligence
+title: Risoluzione dei problemi di blocco dell’account Adobe Commerce Intelligence
 description: Questo articolo fornisce soluzioni per il blocco dell’account Adobe Commerce Intelligence. Dovremo prima determinare se si tratta di un difetto, di un problema momentaneo o di qualcos'altro. Segui i passaggi seguenti ti aiuterà a tornare nel tuo account il più rapidamente possibile.
 exl-id: 85968257-ba4b-4cfb-a4fa-497b4c5b5aea
 feature: Cache, Commerce Intelligence, Console
@@ -11,27 +11,27 @@ ht-degree: 0%
 
 ---
 
-# Risoluzione dei problemi di blocco dell&#39;account Adobe Commerce Intelligence
+# Risoluzione dei problemi di blocco dell’account Adobe Commerce Intelligence
 
 <!--
 BOB: Is this in TOC?
 -->
 
-Questo articolo fornisce soluzioni per il blocco dell&#39;account di Commerce Intelligence. Dovremo prima determinare se si tratta di un difetto, di un problema momentaneo o di qualcos&#39;altro. Segui i passaggi seguenti ti aiuterà a tornare nel tuo account il più rapidamente possibile.
+Questo articolo fornisce soluzioni per il blocco dell’account Commerce Intelligence. Dovremo prima determinare se si tratta di un difetto, di un problema momentaneo o di qualcos&#39;altro. Segui i passaggi seguenti ti aiuterà a tornare nel tuo account il più rapidamente possibile.
 
 ## Verifica che l’indirizzo e-mail sia corretto
 
-Controllare l&#39;indirizzo di posta elettronica per verificare che l&#39;indirizzo di posta elettronica che si sta tentando di utilizzare per l&#39;accesso sia associato a un account Commerce Intelligence esistente. Potrebbe essere necessario chiedere a un amministratore dell’account di confermare che non sono presenti errori di battitura nell’indirizzo e-mail.
+Controlla nuovamente il tuo indirizzo e-mail per essere certo che l&#39;indirizzo e-mail che stai tentando di utilizzare per accedere sia associato a un account Commerce Intelligence esistente. Potrebbe essere necessario chiedere a un amministratore dell’account di confermare che non sono presenti errori di battitura nell’indirizzo e-mail.
 
-Dopo aver confermato che l’indirizzo e-mail è corretto, prova ad accedere di nuovo utilizzando [questo collegamento](https://dashboard.rjmetrics.com/v2/session/create#/).
+Dopo aver confermato che l&#39;indirizzo e-mail è corretto, tentare di accedere nuovamente utilizzando [questo collegamento](https://dashboard.rjmetrics.com/v2/session/create#/).
 
 ## Prova a reimpostare la password
 
-Se hai verificato di utilizzare l’e-mail corretta, prova a reimpostare la password. È possibile utilizzare **Dimenticato?** nella pagina di accesso della sezione precedente per attivare un messaggio e-mail di reimpostazione della password.
+Se hai verificato di utilizzare l’e-mail corretta, prova a reimpostare la password. È possibile utilizzare **dimenticato?Collegamento** nella pagina di accesso della sezione precedente per attivare un&#39;e-mail di reimpostazione della password.
 
-Se inizialmente l&#39;e-mail non viene visualizzata, assicurati di cercarla nella cartella Posta indesiderata. A volte anche le e-mail con buone intenzioni possono essere scambiate per &quot;spazzatura&quot;. **Tieni presente che i collegamenti di accesso temporanei presenti in queste e-mail funzionano solo una volta!**
+Se inizialmente l&#39;e-mail non viene visualizzata, assicurati di cercarla nella cartella Posta indesiderata. A volte anche le e-mail con buone intenzioni possono essere scambiate per &quot;spazzatura&quot;. **I collegamenti di accesso temporanei in queste e-mail sono validi solo una volta!**
 
-Se sei ancora bloccato, assicurati che il tuo indirizzo e-mail sia corretto e di utilizzare il collegamento corretto dall’e-mail di reimpostazione. Si consiglia di provare quanto segue **prima di richiedere un altro ripristino e tentare di accedere di nuovo:**
+Se sei ancora bloccato, assicurati che il tuo indirizzo e-mail sia corretto e di utilizzare il collegamento corretto dall’e-mail di reimpostazione. Prima di richiedere un altro ripristino e tentare di nuovo l&#39;accesso, è consigliabile provare **:**
 
 * Cancella la cache del browser, i cookie e le password salvate
 * Disattivare temporaneamente qualsiasi software ad-blocking
@@ -46,7 +46,7 @@ Se non riesci ancora ad accedere al tuo account, ti consigliamo di verificare la
 
 ![Apertura degli strumenti di sviluppo di Chrome.](assets/Opening_Chrome_dev_tools.gif)
 
-Nell’esempio precedente, abbiamo utilizzato il metodo più comune (**clic destro** > **Inspect**) per aprire la console. Se il browser in uso non dispone di questo metodo o se hai bisogno di assistenza, utilizza i collegamenti alla documentazione riportati di seguito per il browser Web in uso:
+Nell&#39;esempio precedente è stato utilizzato il metodo più comune (**clic destro** > **Inspect**) per aprire la console. Se il browser in uso non dispone di questo metodo o se hai bisogno di assistenza, utilizza i collegamenti alla documentazione riportati di seguito per il browser Web in uso:
 
 <table>
 <tbody>
@@ -62,14 +62,14 @@ Nell’esempio precedente, abbiamo utilizzato il metodo più comune (**clic dest
 
 In alcuni browser, l’apertura degli strumenti per sviluppatori potrebbe non consentire la visualizzazione automatica della console, in quanto il codice del sito potrebbe essere visualizzato per primo. Se ciò si verifica, fai clic sull’opzione Console nella finestra per sviluppatori e scatta una schermata degli eventuali errori visualizzati.
 
-Invia un ticket al nostro team di supporto con il **schermate di errore** e il tuo **Indirizzo e-mail dell&#39;account Commerce Intelligence**.
+Invia un ticket al nostro team di supporto con le **schermate di errore** e l&#39;indirizzo e-mail del tuo account di **Commerce Intelligence**.
 
 ## Non vedi errori o sei solo perso?
 
-Non si preoccupi! Archivia un nuovo ticket di supporto (assicurati di includere l&#39;indirizzo e-mail dell&#39;account Commerce Intelligence). Verrai reindirizzato al tuo account il prima possibile.
+Non si preoccupi! Crea un nuovo ticket di supporto (assicurati di includere l’indirizzo e-mail del tuo account Commerce Intelligence). Ti contatteremo sul tuo account il prima possibile.
 
 ## Argomenti correlati nella Knowledge Base di supporto:
 
 * [Aggiunta di un nuovo utente e impostazione delle autorizzazioni](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
-* [Come posso aggiornare il mio indirizzo email o la mia password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
+* [Come posso aggiornare il mio indirizzo e-mail o la mia password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
 * [Come si reimposta la password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)

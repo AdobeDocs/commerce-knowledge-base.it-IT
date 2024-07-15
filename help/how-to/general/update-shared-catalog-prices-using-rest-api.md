@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Aggiornamento dei prezzi del catalogo condiviso tramite API REST
 
-Per aggiungere o aggiornare i prezzi in Cataloghi condivisi con API, si consiglia di utilizzare `TierPriceStorageInterface` servizio, descritto nella [Gestire i prezzi dei livelli](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) Riferimento API REST nella documentazione per gli sviluppatori. Per i prezzi del catalogo condiviso, utilizziamo il prezzo di livello e il gruppo di clienti.
+Per aggiungere o aggiornare i prezzi nei cataloghi condivisi con API, si consiglia di utilizzare il servizio `TierPriceStorageInterface`, descritto in [Gestione prezzi livello](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) REST API Reference nella documentazione per gli sviluppatori. Per i prezzi del catalogo condiviso, utilizziamo il prezzo di livello e il gruppo di clienti.

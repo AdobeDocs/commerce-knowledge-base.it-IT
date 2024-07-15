@@ -17,20 +17,20 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce on clo
 
 ## Problema
 
-Se per l’archivio è abilitata la Google Analytics, quando un cliente con uBlock o un altro ad blocker installato procede al pagamento, il `trackingCode.js` Il caricamento del file è bloccato e RequireJS interrompe il flusso di esecuzione JS. Questo causa problemi nel caricamento della pagina di pagamento.
+Se per l&#39;archivio sono abilitate le Google Analytics, quando un cliente con uBlock o un altro ad blocker installato procede all&#39;estrazione, il caricamento del file `trackingCode.js` viene bloccato e RequireJS interrompe il flusso di esecuzione JS. Questo causa problemi nel caricamento della pagina di pagamento.
 
-<u>Passaggi da riprodurre</u> :
+<u>Passaggi da riprodurre</u>:
 
 Prerequisiti: un ad blocker deve essere installato e attivo nel browser.
 
 1. In Commerce Admin, abilita e configura la funzionalità Google Analytics.
 1. Apri una pagina di prodotto nella vetrina.
 1. Aggiungi prodotti al carrello.
-1. Fai clic su **Vai a Pagamento** collegamento.
+1. Fare clic sul collegamento **Vai a estrazione**.
 
-<u>Risultato previsto</u>: la pagina di pagamento viene caricata e il cliente può completare il pagamento.
+<u>Risultato previsto</u>: la pagina di estrazione viene caricata e il cliente può completare l&#39;estrazione.
 
-<u>Risultato effettivo</u>: la pagina Checkout non viene caricata; lo spinner di caricamento non scompare mai.
+<u>Risultato effettivo</u>: la pagina di estrazione non viene caricata; lo spinner di caricamento non scompare mai.
 
 ## Patch
 
@@ -53,10 +53,10 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## Collegamenti utili
 
-* [La questione discussa su GitHub](https://github.com/magento/magento2/pull/13061)
+* [Il problema discusso su GitHub](https://github.com/magento/magento2/pull/13061)
 
 ## File allegati

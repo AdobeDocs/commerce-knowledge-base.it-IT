@@ -29,12 +29,12 @@ Viene visualizzato un messaggio di errore e scompare nella fase di fatturazione 
 1. Nella vetrina, accedi come cliente (facoltativamente potrebbe essere un pagamento come ospite, se abilitato in Amministrazione).
 1. Aggiungi un prodotto al carrello.
 1. Fai clic su per aprire l’anteprima del carrello.
-1. Clic **Visualizza e modifica carrello**.
-1. Nella pagina Carrello, fai clic su **Check-Out con più indirizzi**.
-1. Clic **Vai a Informazioni spedizione** e specifica gli indirizzi.
-1. Clic **Continua con le informazioni di fatturazione**.
-1. Seleziona **Braintree PayPal** e fai clic su **PayPal** pulsante.
-1. Nella finestra pop-up, fai clic su **Accetto e paga**.
+1. Fare clic su **Visualizza e modifica carrello**.
+1. Nella pagina del carrello, fai clic su **Estrai con più indirizzi**.
+1. Fare clic su **Vai a Informazioni spedizione** e specificare gli indirizzi.
+1. Fai clic su **Continua con informazioni fatturazione**.
+1. Seleziona **Braintree PayPal** e fai clic sul pulsante **PayPal**.
+1. Nella finestra popup, fai clic su **Accetto e paga**.
 
 <u>Risultato previsto:</u>
 
@@ -42,7 +42,7 @@ L’ordine viene effettuato senza errori.
 
 <u>Risultato effettivo:</u>
 
-L’ordine viene effettuato, ma con un errore. Il *Impossibile inizializzare l&#39;estrazione PayPal. Contatta il proprietario del negozio*.  L&#39;errore viene visualizzato per un secondo e scompare.
+L’ordine viene effettuato, ma con un errore. Impossibile inizializzare l&#39;estrazione di *PayPal. Contattare il proprietario dell&#39;archivio*.  L&#39;errore viene visualizzato per un secondo e scompare.
 
 ## Correzione
 

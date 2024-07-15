@@ -43,13 +43,13 @@ I prodotti devono essere visualizzati nella seconda pagina.
 
 <u>Risultato effettivo</u>:
 
-**&quot;***Impossibile trovare prodotti corrispondenti alla selezione***&quot;** viene visualizzato nella seconda pagina.
+**&quot;***Impossibile trovare prodotti corrispondenti alla selezione***&quot;** messaggio visualizzato nella seconda pagina.
 
 ## Soluzione
 
 Per risolvere il problema, applica la patch allegata a questo articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file o sul seguente collegamento:
 
-[Problema di paginazione del catalogo di download nella patch Elasticsearch 6.x](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) - La patch è compatibile con tutte le versioni e le edizioni interessate.
+[Scarica il problema di impaginazione del catalogo nella patch di Elasticsearch 6.x](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip). La patch è compatibile con tutte le versioni e le edizioni interessate.
 
 >[!WARNING]
 >
@@ -57,6 +57,6 @@ Per risolvere il problema, applica la patch allegata a questo articolo. Per scar
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

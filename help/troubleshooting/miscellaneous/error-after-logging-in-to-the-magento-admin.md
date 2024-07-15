@@ -19,7 +19,7 @@ In questo articolo viene fornita una soluzione al problema per cui viene visuali
 
 L&#39;URL richiesto /magento2index.php/admin/admin/dashboard/index/key/0c81957145a968b697c32a846598dc2e/ non è stato trovato in questo server.
 
-Si noti l&#39;assenza di una barra tra `magento2` e `index.php` nell’URL.
+Si noti l&#39;assenza di una barra tra `magento2` e `index.php` nell&#39;URL.
 
 ## Soluzione
 
@@ -27,6 +27,6 @@ L&#39;URL di base non è corretto. L’URL di base deve:
 
 * Inizia con `http://` o `https://`
 * Termina con una barra ( `/` )
-* Usa le stesse maiuscole e minuscole di `web/unsecure/base_url` registrare in `core_config_data` tabella di database
+* Usa le stesse maiuscole e minuscole del record `web/unsecure/base_url` nella tabella del database `core_config_data`
 
 Rieseguire l&#39;installazione utilizzando un valore valido.

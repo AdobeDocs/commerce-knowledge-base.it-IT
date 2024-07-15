@@ -29,7 +29,7 @@ Quando si elimina un aggiornamento della pianificazione attivo tra la data di in
 1. Crea una nuova sottocategoria in **Catalogo** > **Categorie**.
 1. Crea un nuovo aggiornamento di staging con l&#39;ora di inizio e di fine.
 1. Attendi che venga applicato l’aggiornamento, ovvero l’ora di inizio.
-1. Elimina l’aggiornamento utilizzando **Visualizza/Modifica** collegamento.
+1. Elimina l&#39;aggiornamento utilizzando il collegamento **Visualizza/Modifica**.
 
 <u>Risultati previsti</u>:
 
@@ -80,6 +80,6 @@ La patch MDVA-23505\_EE\_2.2.5\_COMPOSER\_v1.patch è compatibile (ma potrebbe n
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

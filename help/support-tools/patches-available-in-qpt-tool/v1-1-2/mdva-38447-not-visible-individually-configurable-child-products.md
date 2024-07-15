@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-38447: i prodotti secondari configurabili &quot;Not visible individual&quot; vengono restituiti nella risposta di GraphQL e la query MySQL è lenta
 
-La patch di MDVA-38447 Adobe Commerce risolve il problema relativo alla restituzione di prodotti secondari configurabili &quot;Non visibile singolarmente&quot; nella risposta di GraphQL e alla lentezza della query MySQL per i prodotti GraphQL con filtro categoria. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L&#39;ID della patch è MDVA-38447. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch di MDVA-38447 Adobe Commerce risolve il problema relativo alla restituzione di prodotti secondari configurabili &quot;Non visibile singolarmente&quot; nella risposta di GraphQL e alla lentezza della query MySQL per i prodotti GraphQL con filtro categoria. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L&#39;ID della patch è MDVA-38447. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.2
 
@@ -27,7 +27,7 @@ La patch di MDVA-38447 Adobe Commerce risolve il problema relativo alla restituz
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -41,17 +41,38 @@ I moduli B2B devono essere installati.
 
 1. Creare un prodotto configurabile con prodotti semplici impostati su **Non visibile singolarmente**.
 1. Esegui una **reindicizzazione completa**.
-1. Esegui una **Query GraphQL** mi piace:
+1. Esegui una **query GraphQL** come:
 
-<pre>query getFilteredProducts( $filter: ProductAttributeFilterInput!
+<pre>query getFilteredProducts(
+  $filter: ProductAttributeFilterInput.
   $sort: ProductAttributeSortInput.
-  $search: String $pageSize: Int!
+  $search: String
+  $pageSize: int!
   $currentPage: Int!
-) { products( filtro: $filter ordinamento: $sort ricerca: $search pageSize: $pageSize currentPage: $currentPage ) { total_count page_info { total_pages_size_page_size } elementi { name sku } } }</pre>
+) {
+  products(
+    filtro: $filter
+    sort: $sort
+    ricerca: $search
+    pageSize: $pageSize
+    currentPage: $currentPage
+  ) {
+    total_count
+    page_info {
+      total_pages
+      current_page
+      page_size
+    }
+    elementi {
+      nome
+      sku
+    }
+  }
+}</pre>
 
 Variabili:
 
-<pre>{"filter":{"user_group":{"eq":""}},"search":"config-100","sort":{},"pageSize":200,"currentPage":1}
+<pre>{"filter":{"user_group":{"eq":"}},"search":"config-100","sort":{},"pageSize":200,"currentPage":1}
 </pre>
 
 <u>Risultati previsti</u>:
@@ -66,14 +87,14 @@ I prodotti con visibilità impostata su &quot;Non visibile singolarmente&quot; v
 
 Per applicare singole patch, utilizzare i collegamenti seguenti a seconda del tipo di distribuzione:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sulle patch di qualità per Adobe Commerce, consulta:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [È stato rilasciato lo strumento Quality Patches: è stato introdotto un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
 * [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento al [Patch disponibili in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) sezione.
+Per informazioni sulle altre patch disponibili in QPT, consulta la sezione [Patch disponibili in QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-).

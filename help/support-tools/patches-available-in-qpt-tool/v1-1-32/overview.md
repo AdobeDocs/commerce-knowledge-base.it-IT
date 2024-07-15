@@ -1,6 +1,6 @@
 ---
-title: '"Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.32'''
-description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.32.
+title: 'Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.32'
+description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in  [!DNL Quality Patches Tool] (QPT) v1.1.32.
 exl-id: b0bec56f-3275-4100-9563-c1f63e0966e6
 feature: Tools and External Services
 role: Admin
@@ -17,15 +17,15 @@ Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti da
 
 QPT v1.1.32 include le seguenti patch:
 
-1. **ACSD-49628**: risolve il problema relativo alla presenza di [!UICONTROL Page Builder] Gli errori CORS impediscono il salvataggio del prodotto.
-1. **ACSD-51305**: risolve il problema per cui i prodotti secondari compositi esauriti non sono disponibili nella risposta di GraphQL.
-1. **ACSD-50621**: risolve il problema per cui i prezzi livello per diversi siti web in un catalogo condiviso non sono visibili quando si tenta di modificarli in un ambiente multisito.
-1. **ACSD-51041**: risolve il problema relativo al tempo necessario per completare l’indice dei prezzi in presenza di un set di prodotti di grandi dimensioni.
-1. **ACSD-51379**: risolve il problema relativo alle modifiche apportate al contenuto del testo della pagina tramite [!UICONTROL Page Builder] non vengono salvate.
-1. **ACSD-49480**: risolve il problema relativo alla presenza di [!UICONTROL Cart Price Rule] elimina le regole successive, rendendole non operative come previsto.
-1. **ACSD-51230**: risolve il problema relativo alla presenza di [!UICONTROL Gift Card] l&#39;account viene cancellato quando un rimborso parziale di un prodotto semplice viene elaborato da un ordine.
-1. **ACSD-51238**: risolve il problema relativo alla rimozione dell’origine dell’inventario quando si aggiornano prodotti configurabili e si modifica il prezzo.
-1. **ACSD-50794**: risolve il problema per cui i dettagli del messaggio o della confezione regalo non vengono aggiornati nel database quando vengono rimossi tramite GraphQL.
-1. **ACSD-51528**: risolve il problema relativo a un comportamento diverso in `snake_case` formattazione del previsto.
+1. **ACSD-49628**: è stato risolto il problema che impediva il salvataggio del prodotto a causa di [!UICONTROL Page Builder] errori CORS.
+1. **ACSD-51305**: è stato risolto il problema che impediva la disponibilità di prodotti secondari compositi esauriti nella risposta di GraphQL.
+1. **ACSD-50621**: è stato risolto il problema che impediva la visualizzazione dei prezzi di livello per siti Web diversi in un catalogo condiviso durante il tentativo di modificarli nell&#39;ambiente multisito.
+1. **ACSD-51041**: è stato risolto il problema relativo al completamento dell&#39;indice dei prezzi in presenza di un set di prodotti di grandi dimensioni.
+1. **ACSD-51379**: risolve il problema per cui le modifiche apportate al contenuto del testo della pagina tramite [!UICONTROL Page Builder] non vengono salvate.
+1. **ACSD-49480**: risolve il problema che causa l&#39;eliminazione delle regole successive da parte di [!UICONTROL Cart Price Rule], impedendo il corretto funzionamento.
+1. **ACSD-51230**: è stato risolto il problema relativo all&#39;eliminazione dell&#39;account [!UICONTROL Gift Card] quando viene elaborato un rimborso parziale di un prodotto semplice da un ordine.
+1. **ACSD-51238**: risolve il problema della rimozione dell&#39;origine inventario durante l&#39;aggiornamento dei prodotti configurabili e la modifica del prezzo.
+1. **ACSD-50794**: è stato risolto il problema che impediva l&#39;aggiornamento dei dettagli del messaggio regalo o del pacchetto regalo nel database durante la rimozione tramite GraphQL.
+1. **ACSD-51528**: è stato risolto il problema che causava un comportamento diverso da quello previsto nella formattazione di `snake_case`.
 
 Utilizza il menu a sinistra per passare a una pagina patch specifica.

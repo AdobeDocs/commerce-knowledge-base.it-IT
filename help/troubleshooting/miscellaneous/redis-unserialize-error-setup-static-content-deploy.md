@@ -1,6 +1,6 @@
 ---
-title: Redis unserialize error `setup:static-content:deploy`
-description: Questo articolo fornisce una correzione per l’errore Redis unserialize durante l’esecuzione di `magento setup:static-content:deploy`.
+title: 'Redis: errore di annullamento della serializzazione "setup:static-content:deploy"'
+description: Questo articolo fornisce una correzione per l’errore di annullamento della serializzazione Redis durante l’esecuzione di "magento setup:static-content:deploy".
 exl-id: 4bc88933-3bf9-4742-b864-b82d3c1b07a9
 feature: Cache, Deploy, Page Content, SCD, Services, Variables
 role: Developer
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Errore di annullamento serializzazione Redis `setup:static-content:deploy`
+# Redis: errore di annullamento della serializzazione `setup:static-content:deploy`
 
-Questo articolo fornisce una correzione per l’errore Redis unserialize durante l’esecuzione di `magento setup:static-content:deploy`.
+Questo articolo fornisce una correzione per l&#39;errore di annullamento della serializzazione Redis durante l&#39;esecuzione di `magento setup:static-content:deploy`.
 
-In esecuzione `magento setup:static-content:deploy` causa l’errore Redis:
+L&#39;esecuzione di `magento setup:static-content:deploy` causa l&#39;errore Redis:
 
 ```
 [Exception]
@@ -25,13 +25,13 @@ Notice: unserialize(): Error at offset 0 of 1 bytes in
 
 Il problema è causato da processi di interferenza paralleli sulla connessione Redis.
 
-Per risolvere, esegui `setup:static-content:deploy` in modalità thread singolo impostando la seguente variabile di ambiente:
+Per risolvere il problema, eseguire `setup:static-content:deploy` in modalità thread singolo impostando la seguente variabile di ambiente:
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-oppure, esegui `setup:static-content:deploy` seguito dal comando `-j 1` (o `--jobs=1` ).
+in alternativa, eseguire il comando `setup:static-content:deploy` seguito dall&#39;argomento `-j 1` (o `--jobs=1` ).
 
 La disattivazione del multithreading rallenta il processo di distribuzione delle risorse statiche.
 
@@ -43,7 +43,7 @@ La disattivazione del multithreading rallenta il processo di distribuzione delle
 
 ## Problema
 
-Esecuzione di `setup:static-content:deploy` Il comando causa l&#39;errore Redis:
+L&#39;esecuzione del comando `setup:static-content:deploy` causa l&#39;errore Redis:
 
 ```php
 )
@@ -79,17 +79,17 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 Il problema è causato da processi di interferenza paralleli sulla connessione Redis.
 
-Qui, un processo in `App/Config/Type/System.php` era prevista una risposta per `system_defaultweb`, ma ha ricevuto una risposta per `system_cache_exists` è stato fatto con un processo diverso. Vedi la spiegazione dettagliata in [Post di Jason Woods](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+In questo caso, un processo in `App/Config/Type/System.php` stava aspettando una risposta per `system_defaultweb`, ma ha ricevuto una risposta per `system_cache_exists` che è stata eseguita da un processo diverso. Vedi la spiegazione dettagliata nel [post di Jason Woods](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
 
 ## Soluzione
 
-Disattiva parallelismo ed esegui `setup:static-content:deploy` in modalità thread singolo impostando la seguente variabile di ambiente:
+Disattivare il parallelismo ed eseguire `setup:static-content:deploy` in modalità thread singolo impostando la seguente variabile di ambiente:
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-Inoltre, è possibile eseguire `setup:static-content:deploy` seguito dal comando `-j 1` (o `--jobs=1`).
+È inoltre possibile eseguire il comando `setup:static-content:deploy` seguito dall&#39;argomento `-j 1` (o `--jobs=1`).
 
 >[!NOTE]
 >
@@ -99,5 +99,5 @@ Inoltre, è possibile eseguire `setup:static-content:deploy` seguito dal comando
 
 Nella documentazione per gli sviluppatori:
 
-* [Configurare Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
-* [Aggiornamento della riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)
+* [Configura Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
+* [Aggiornamento riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)

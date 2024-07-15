@@ -1,6 +1,6 @@
 ---
 title: "Problema noto di Adobe Commerce 2.4.0: errore di visualizzazione degli ordini"
-description: '"Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce per un errore di visualizzazione degli ordini. Quando i clienti connessi esaminano i propri ordini nel menu **Il mio account** (**Il mio account &gt; I miei ordini**), la griglia degli ordini non è in grado di portare il numero di ordini per pagina a 20 dalla pagina 2 quando sono presenti 11 ordini. Inoltre, se ci sono più ordini di quelli configurati per la visualizzazione per pagina, quando si passa all’ultima pagina con gli ordini, la modifica del numero di ordini mostrati per pagina genera il messaggio di errore: *Non hai effettuato alcun ordine*. Questo problema verrà risolto in Adobe Commerce 2.4.1.'''
+description: '"Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce per un errore di visualizzazione degli ordini. Quando i clienti connessi esaminano i propri ordini nel menu **My Account** (**My Account &gt; My Orders**), la griglia degli ordini non è in grado di portare il numero di ordini per pagina a 20 dalla pagina 2 quando sono presenti 11 ordini. Inoltre, se ci sono più ordini di quelli configurati per la visualizzazione per pagina, quando si passa all’ultima pagina con gli ordini, la modifica del numero di ordini mostrati per pagina genera il messaggio di errore: *Non hai effettuato alcun ordine*. Questo problema verrà risolto in Adobe Commerce 2.4.1.'''
 exl-id: a6d300e1-1cbc-42b9-997d-d72f8765517b
 feature: B2B, Categories, Storefront
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema noto di Adobe Commerce 2.4.0: errore di visualizzazione degli ordini
 
-Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce per un errore di visualizzazione degli ordini. Quando i clienti hanno effettuato l’accesso, esaminano i loro ordini in **Il mio account** menu (**Account > Ordini personali**), la griglia ordini non è in grado di portare il numero di ordini per pagina a 20 dalla pagina 2 quando sono presenti 11 ordini. Inoltre, se ci sono più ordini di quanti ne sia configurato per essere visualizzato per pagina, quando si passa all’ultima pagina con gli ordini, la modifica del numero di ordini mostrati per pagina genera il messaggio di errore: *Non hai effettuato alcun ordine*. Questo problema verrà risolto in Adobe Commerce 2.4.1.
+Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce per un errore di visualizzazione degli ordini. Quando i clienti connessi esaminano i propri ordini nel menu **Account personale** (**Account personale > Ordini personali**), la griglia ordini non è in grado di passare da 20 a 20 a 20 dalla pagina 2 quando sono presenti 11 ordini. Inoltre, se sono presenti più ordini di quelli configurati per la visualizzazione per pagina, quando si passa all&#39;ultima pagina con ordini, la modifica del numero di ordini visualizzati per pagina genera il messaggio di errore: *Non è stato effettuato alcun ordine*. Questo problema verrà risolto in Adobe Commerce 2.4.1.
 
 ## Prodotti e versioni interessati
 
@@ -33,7 +33,7 @@ Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe
 1. Vai a **Il mio account**.
 1. Vai a **I miei ordini**.
 1. Fare clic sulla seconda pagina per visualizzare l&#39;undicesimo ordine nella griglia degli ordini.
-1. Seleziona **Show = 20 per pagina** dal menu a discesa.
+1. Selezionare **Mostra = 20 per pagina** dal menu a discesa.
 
 <u>Risultato previsto</u>
 
@@ -41,11 +41,11 @@ Tutti gli 11 ordini vengono visualizzati sulla prima pagina, come previsto.
 
 <u>Risultato effettivo</u>
 
-Il *Non hai effettuato alcun ordine* viene visualizzato un messaggio di errore.
+Viene visualizzato il messaggio di errore *Non hai effettuato alcun ordine*.
 
 ## Soluzione alternativa
 
-La soluzione consiste nel far riaprire l&#39;acquirente **I miei ordini** e quindi l&#39;elenco degli ordini verrà visualizzato correttamente. Il problema verrà risolto nella prossima versione, Adobe Commerce 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
+La soluzione consiste nel far riaprire la pagina **I miei ordini** dall&#39;acquirente, quindi l&#39;elenco degli ordini verrà visualizzato correttamente. Il problema verrà risolto nella prossima versione, Adobe Commerce 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
 
 ## Letture correlate nella knowledge base di supporto
 

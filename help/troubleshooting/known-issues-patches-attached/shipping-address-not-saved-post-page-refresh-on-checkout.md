@@ -19,9 +19,9 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.2.3,
 
 I clienti effettuano il checkout guest e compilano tutti i moduli, incluso l&#39;indirizzo di spedizione. Arrivano alla sezione Revisione e pagamenti e ricaricano la pagina. Il modulo è vuoto ed è necessario reimmettere l&#39;indirizzo di spedizione. La funzionalità carrello acquisti persistente è abilitata.
 
-<u>Passaggi da riprodurre</u> :
+<u>Passaggi da riprodurre</u>:
 
-**Prerequisiti**: la funzionalità del carrello acquisti permanente è abilitata. Verifica se è abilitato in Amministratore, in **Negozi** > **Configurazione** > **Clienti** o **Negozi** > **Configurazione** > **Vendite,** a seconda della versione di Adobe Commerce.
+**Prerequisiti**: la funzionalità del carrello acquisti permanente è abilitata. Controlla se è abilitato nell&#39;amministratore, in **Archivi** > **Configurazione** > **Clienti** o **Archivi** > **Configurazione** > **Vendite,** a seconda della versione di Adobe Commerce.
 
 1. Vai alla vetrina.
 1. Aggiungi prodotti al carrello.
@@ -61,6 +61,6 @@ La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fi
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

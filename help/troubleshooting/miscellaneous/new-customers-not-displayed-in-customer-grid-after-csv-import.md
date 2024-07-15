@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # I nuovi clienti non vengono visualizzati nella griglia clienti dopo l’importazione CSV
 
-Questo articolo fornisce una correzione del problema quando non è possibile visualizzare nuovi clienti in **Clienti** > **Tutti i clienti** dopo un’importazione da un `.csv` file. La soluzione è impostare `customer_grid` indicizzatore su &quot;Aggiorna al salvataggio&quot; e reindicizza manualmente la griglia del cliente.
+Questo articolo fornisce una correzione del problema quando non è possibile visualizzare nuovi clienti in **Clienti** > **Tutti i clienti** dopo un&#39;importazione da un file `.csv`. La soluzione consiste nell&#39;impostare l&#39;indicizzatore `customer_grid` sulla modalità &quot;Aggiorna al salvataggio&quot; e reindicizzare manualmente la griglia del cliente.
 
 ## Versioni interessate
 
@@ -22,23 +22,23 @@ Questo articolo fornisce una correzione del problema quando non è possibile vis
 
 ## Problema
 
-Dopo aver importato nuovi clienti da un `.csv` utilizzando la funzionalità di importazione nativa di Adobe Commerce, potrebbe non essere possibile visualizzare i nuovi record cliente in **Clienti** > **Tutti i clienti** in Admin fino a quando non reindicizzi manualmente il `customer_grid` indicizzatore.
+Dopo aver importato nuovi clienti da un file `.csv` utilizzando la funzionalità di importazione nativa di Adobe Commerce, potresti non essere in grado di visualizzare i nuovi record dei clienti in **Clienti** > **Tutti i clienti** nell&#39;amministratore finché non reindicizzi manualmente l&#39;indicizzatore `customer_grid`.
 
 ## Causa
 
-La modalità di indicizzazione &quot;Aggiorna in base alla pianificazione&quot; in Adobe Commerce 2.2.0 e versioni successive non supporta `customer_grid` indicizzatore per problemi di prestazioni.
+La modalità di indicizzazione &quot;Aggiorna secondo pianificazione&quot; in Adobe Commerce 2.2.0 e versioni successive non supporta l&#39;indicizzatore `customer_grid` a causa di problemi di prestazioni.
 
 ## Soluzione
 
-Configurare `customer_grid` indicizzatore da reindicizzare utilizzando la modalità &quot;Aggiorna al salvataggio&quot;. A questo scopo, effettua le seguenti operazioni:
+Configurare l&#39;indicizzatore `customer_grid` per la reindicizzazione utilizzando la modalità &quot;Aggiorna al salvataggio&quot;. A questo scopo, effettua le seguenti operazioni:
 
 1. Accedi all’amministratore di Commerce.
-1. Clic **Sistema** > **Strumenti** > **Gestione indice**.
+1. Fare clic su **Sistema** > **Strumenti** > **Gestione indice**.
 1. Selezionare la casella di controllo accanto a Indicizzatore griglia cliente.
-1. In **Azioni** elenco a discesa, seleziona *Aggiorna al salvataggio*.
-1. Clic **Invia**.
+1. Nell&#39;elenco a discesa **Azioni**, selezionare *Aggiorna al salvataggio*.
+1. Fai clic su **Invia**.
 
-Consigliamo inoltre di reindicizzare manualmente `customer_grid` dopo aver configurato la modalità di indicizzazione, verificare che l’indice sia aggiornato e possa funzionare con cron. Per reindicizzare manualmente, utilizza il seguente comando:
+È inoltre consigliabile reindicizzare manualmente l&#39;indicizzatore `customer_grid` dopo aver configurato la modalità di indicizzazione per assicurarsi che l&#39;indice sia aggiornato e possa funzionare con cron. Per reindicizzare manualmente, utilizza il seguente comando:
 
 `bin/magento indexer:reindex customer_grid`
 
@@ -46,5 +46,5 @@ Consigliamo inoltre di reindicizzare manualmente `customer_grid` dopo aver confi
 
 Link ad argomenti correlati nella documentazione per gli sviluppatori:
 
-* [Panoramica sull’indicizzazione](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [Gestire gli indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+* [Panoramica sull&#39;indicizzazione](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
+* [Gestione degli indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)

@@ -47,7 +47,7 @@ bin/uct upgrade:check --current-version=2.4.4 path/to/the/module
    bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
    ```
 
-1. L’unico output è `Upgrade compatibility tool`:
+1. L&#39;unico output è `Upgrade compatibility tool`:
 
    ```terminal
    bin/uct upgrade:check /var/www/project/magento/ -c 2.4.1
@@ -62,7 +62,7 @@ Esistono due possibili soluzioni per evitare questa limitazione della memoria PH
 
 <u>Soluzione 1</u>:
 
-Ignorare la limitazione della memoria impostando `memory_limit` a `-1`:
+Ignorare la limitazione di memoria impostando `memory_limit` su `-1`:
 
 ```bash
 php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
@@ -70,11 +70,11 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 
 >[!NOTE]
 >
-> Il `M2_VERSION` è la versione di target di Adobe Commerce che desideri confrontare con la tua istanza di Adobe Commerce.
+> `M2_VERSION` è la versione Adobe Commerce di destinazione che desideri confrontare con la tua istanza Adobe Commerce.
 
 <u>Soluzione 2</u>:
 
-Aggiunta di `-m` consente a Upgrade Compatibility Tool di analizzare ogni modulo specifico in modo indipendente per evitare di incontrare due moduli con lo stesso nome nell’istanza Adobe Commerce.
+L&#39;aggiunta dell&#39;opzione `-m` consente a Upgrade Compatibility Tool di analizzare ogni modulo specifico in modo indipendente per evitare di incontrare due moduli con lo stesso nome nell&#39;istanza Adobe Commerce.
 
 Questa opzione di comando consente inoltre a Upgrade Compatibility Tool di analizzare una cartella contenente diversi moduli:
 
@@ -82,4 +82,4 @@ Questa opzione di comando consente inoltre a Upgrade Compatibility Tool di anali
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-Consulta la [Eseguire lo strumento in un&#39;interfaccia della riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html) per ulteriori informazioni sulle opzioni dell&#39;interfaccia della riga di comando.
+Per ulteriori informazioni sulle opzioni dell&#39;interfaccia della riga di comando, vedere [Eseguire lo strumento in un&#39;interfaccia della riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html).

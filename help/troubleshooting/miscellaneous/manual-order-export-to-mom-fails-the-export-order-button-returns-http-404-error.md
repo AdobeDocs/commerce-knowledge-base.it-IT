@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # L&#39;esportazione manuale degli ordini in MOM non riesce. Il pulsante Export Order (Esporta ordine) restituisce un errore HTTP 404
 
-Questo articolo illustra come risolvere un problema, in cui si tenta di esportare un ordine in Magento Order Management (MOM) facendo clic sul pulsante **Ordine di esportazione** nella visualizzazione dell’ordine in Commerce Admin restituisce un &quot; *Pagina 404 non trovata* &quot; errore.
+In questo articolo viene illustrato come risolvere un problema, in cui se si tenta di esportare un ordine nel Magento Order Management facendo clic sul pulsante **Esporta ordine** nella visualizzazione ordine di Commerce Admin viene restituito un errore &quot; *404 Pagina non trovata* &quot;.
 
 ## Prodotti e versioni interessati
 
@@ -24,10 +24,10 @@ Questo articolo illustra come risolvere un problema, in cui si tenta di esportar
 
 <u>Passaggi da riprodurre:</u>:
 
-1. In Commerce Admin, fai clic su **Vendite > Ordini**.
-1. Fai clic su **Crea nuovo ordine** pulsante.
-1. Seleziona un utente, aggiungi uno o più articoli, seleziona i metodi di pagamento e di spedizione, quindi fai clic su **Invia ordine** pulsante.
-1. Fai clic su **Ordine di esportazione** e quindi **OK**.
+1. In Amministrazione Commerce, fare clic su **Vendite > Ordini**.
+1. Fai clic sul pulsante **Crea nuovo ordine**.
+1. Selezionare un utente, aggiungere uno o più articoli, selezionare i metodi di pagamento e di spedizione, quindi fare clic sul pulsante **Invia ordine**.
+1. Fare clic sul pulsante **Esporta ordine** e quindi **OK**.
 
 <u>Risultato previsto</u>:
 
@@ -35,7 +35,7 @@ L&#39;ordine viene inviato a MOM.
 
 <u>Risultato effettivo</u>:
 
-A &quot; *Errore 404: pagina non trovata* &quot;viene visualizzata la pagina.
+Viene visualizzata la pagina &quot; *404 Error: Page Not Found*&quot; (Errore: pagina non trovata).
 
 ## Soluzione
 

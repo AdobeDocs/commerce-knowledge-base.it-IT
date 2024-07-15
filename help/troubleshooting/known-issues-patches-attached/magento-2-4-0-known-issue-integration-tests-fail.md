@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema noto di Adobe Commerce 2.4.0: test di integrazione non riusciti
 
-Questo articolo fornisce una patch per il problema di Adobe Commerce 2.4.0 in cui i test di integrazione non riescono a causa della dichiarazione di `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` non è compatibile con PHPUnit 9, utilizzato per la versione 2.4.0.
+Questo articolo fornisce una patch per il problema di Adobe Commerce 2.4.0 in cui i test di integrazione non riescono perché la dichiarazione di `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` non è compatibile con PHPUnit 9, utilizzato per la versione 2.4.0.
 
 ## Prodotti e versioni interessati
 
@@ -53,6 +53,6 @@ La patch è stata creata per:
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto per le istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questo articolo fornisce una soluzione alternativa per un problema noto di Adobe Commerce 2.4.0 in cui i metodi di pagamento Braintree non sono inclusi nell’utilizzo dell’estrazione di più indirizzi. Il problema è stato risolto in Adobe Commerce 2.4.1.
 
-Nota: Adobe Commerce consiglia di utilizzare [Commerce Marketplace estensione Braintree](https://marketplace.magento.com/paypal-module-braintree.html) per le versioni 2.3 e successive al fine di mantenere la conformità alle normative PSD. L’estensione non offre la funzionalità di estrazione con più indirizzi.
+Nota: Adobe Commerce consiglia di utilizzare l&#39;[estensione Braintree Commerce Marketplace](https://marketplace.magento.com/paypal-module-braintree.html) per le versioni 2.3 e successive per mantenere la conformità di PSD. L’estensione non offre la funzionalità di estrazione con più indirizzi.
 
 ## Prodotti e versioni interessati
 
@@ -34,9 +34,9 @@ Viene utilizzata l’integrazione Braintree di base.
 1. Accedi come cliente.
 1. Aggiungi un prodotto al carrello.
 1. Apri il carrello.
-1. Premi **Visualizza e modifica carrello**.
-1. Premi **Check-Out con più indirizzi**.
-1. Premi **Vai a Informazioni spedizione**.
+1. Premere **Visualizza e modifica carrello**.
+1. Premere **Estrai con più indirizzi**.
+1. Premi **Vai alle informazioni sulla spedizione**.
 1. Premi **Continua con le informazioni di fatturazione**.
 
 <u>Risultato previsto</u>:

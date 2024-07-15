@@ -18,7 +18,7 @@ I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati val
 * [Elenco di controllo diagnostico delle discrepanze di dati](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Utilizzo delle esportazioni per evidenziare le discrepanze di dati](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-Si consiglia inoltre di verificare la corretta [metodi di replica](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) e [ricontrolli](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
+È inoltre consigliabile verificare che siano stati impostati i [metodi di replica](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) e i [nuovi controlli](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) corretti per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
 
 ## Ho ancora bisogno di aiuto!
 

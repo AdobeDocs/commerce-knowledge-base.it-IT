@@ -30,11 +30,11 @@ In Commerce Admin, vai a **Vendite** > **Braintree terminale virtuale** . ** **
 
 <u>Risultato previsto:</u>
 
-Il **Braintree terminale virtuale** La pagina viene caricata con l’interfaccia utente corretta.
+La pagina **Braintree terminale virtuale** viene caricata con l&#39;interfaccia utente corretta.
 
 <u>Risultato effettivo:</u>
 
-Interfaccia utente di **Braintree terminale virtuale** pagina non funzionante.
+L&#39;interfaccia utente della pagina **Braintree terminale virtuale** è interrotta.
 
 ### Scenario 2: il metodo di pagamento Braintree è configurato
 
@@ -44,11 +44,11 @@ In Commerce Admin, vai a **Vendite** > **Braintree terminale virtuale** . ** **
 
 <u>Risultato previsto:</u>
 
-Il **Braintree terminale virtuale** La pagina viene caricata con l’interfaccia utente corretta e viene visualizzato un avviso per informare che Braintree non è ancora configurato.
+La pagina **Braintree terminale virtuale** viene caricata con l&#39;interfaccia utente corretta e viene visualizzato un avviso che informa che Braintree non è ancora configurato.
 
 <u>Risultato effettivo:</u>
 
-Interfaccia utente di **Braintree terminale virtuale** la pagina è interrotta e non viene visualizzato alcun avviso.
+L&#39;interfaccia utente della pagina **Braintree terminale virtuale** è interrotta e non viene visualizzato alcun avviso.
 
 ## Soluzione
 
@@ -69,6 +69,6 @@ La patch è stata creata per:
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

@@ -19,12 +19,12 @@ Questo articolo fornisce una correzione per i problemi relativi al controllo di 
 
 La modalità di risoluzione del problema dipende dalla configurazione con un solo utente o con due utenti:
 
-* *Un utente* significa che accedi al server Adobe Commerce come lo stesso utente che esegue anche il server web. Questo tipo di configurazione è comune negli ambienti di hosting condivisi.
-* *Due utenti* significa che normalmente *non può* accedi come utente del server web o passa a. In genere si accede come un utente ed il server web viene eseguito come un altro utente. Questo è tipico nell&#39;hosting privato o se disponi di un server personalizzato.
+* *Un utente* significa che si accede al server Adobe Commerce come lo stesso utente che esegue anche il server Web. Questo tipo di configurazione è comune negli ambienti di hosting condivisi.
+* *Due utenti* indicano che in genere *non è possibile* accedere come utente del server Web o passare a tale utente. In genere si accede come un utente ed il server web viene eseguito come un altro utente. Questo è tipico nell&#39;hosting privato o se disponi di un server personalizzato.
 
 ## Risoluzione per un solo utente
 
-Se disponi dell’accesso alla riga di comando, immetti il seguente comando presupponendo che Adobe Commerce sia installato in `/var/www/html/magento2`:
+Se si dispone dell&#39;accesso alla riga di comando, immettere il comando seguente presupponendo che Adobe Commerce sia installato in `/var/www/html/magento2`:
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+w {} + && chmod u+x bin/magento
@@ -34,13 +34,13 @@ Se non disponi dell’accesso alla riga di comando, utilizza un client FTP o un�
 
 ## Risoluzione per due utenti
 
-Per inserire tutti i comandi su una sola riga, immettere il seguente presupposto: Adobe Commerce è installato in `/var/www/html/magento2` e il nome del gruppo di server web è `apache`:
+Per immettere facoltativamente tutti i comandi su una riga, immettere il seguente presupposto: Adobe Commerce è installato in `/var/www/html/magento2` e il nome del gruppo di server Web è `apache`:
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} + && chown -R :apache . && chmod u+x bin/magento
 ```
 
-Se le autorizzazioni del file system dell’evento non sono impostate correttamente e non possono essere modificate dal proprietario del file system di Adobe Commerce, puoi immettere il comando come utente con `root` privilegi:
+Nel caso in cui le autorizzazioni del file system dell&#39;evento non siano impostate correttamente e non possano essere modificate dal proprietario del file system Adobe Commerce, è possibile immettere il comando come utente con privilegi `root`:
 
 ```bash
 $ cd /var/www/html/magento2 && sudo find var vendor

@@ -37,10 +37,10 @@ Se l&#39;e-mail del mittente non è stata configurata correttamente o il dominio
    ```
 
    * Se non restituisce alcun risultato, significa che l’indirizzo del mittente non è stato configurato.
-   * Se restituisce un risultato, passare a **Passaggio 2**.
+   * Se restituisce un risultato, passare al **passaggio 2**.
 
 1. Se l’e-mail è apparsa nella cartella Spam, fai clic sul collegamento nell’e-mail. Se il collegamento è scaduto, prova ad accedere di nuovo per ripetere la procedura.
-1. Una volta ottenuto l’accesso, vai a **Negozi** > **Configurazione** > **Generale** > **Memorizza indirizzi e-mail** e configurare gli indirizzi e-mail.
+1. Una volta ottenuto l&#39;accesso, vai a **Archivi** > **Configurazione** > **Generale** > **Archivia indirizzi e-mail** e configura gli indirizzi e-mail.
 
 ### Passaggio 2: se/una volta configurati correttamente gli indirizzi e-mail, SSH nell’ambiente ed esegui questo comando:
 
@@ -48,8 +48,8 @@ Se l&#39;e-mail del mittente non è stata configurata correttamente o il dominio
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-Controlla la cartella Spam per l’e-mail. Se l’e-mail è apparsa lì, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) per richiedere che il dominio sia etichettato con il bianco in SendGrid.
+Controlla la cartella Spam per l’e-mail. Se l&#39;e-mail viene visualizzata, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) per richiedere che il dominio sia contrassegnato con un&#39;etichetta bianca in SendGrid.
 
 ## Lettura correlata
 
-* [InviaGriglia](https://devdocs.magento.com/cloud/project/sendgrid.html) nella documentazione per gli sviluppatori.
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) nella documentazione per gli sviluppatori.

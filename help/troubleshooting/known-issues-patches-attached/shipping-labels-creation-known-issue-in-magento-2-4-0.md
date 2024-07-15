@@ -28,34 +28,34 @@ Questo articolo fornisce una patch per un problema noto di Adobe Commerce 2.4.0,
 
 <u>Passaggi da riprodurre:</u>
 
-1. Apri l’ordine inserito nell’Amministratore, in **Vendite** > **Ordini**.
-1. Fai clic su **Spedisci** pulsante. Il **Nuova spedizione** viene visualizzata la pagina.
+1. Apri l&#39;ordine effettuato nell&#39;amministratore in **Vendite** > **Ordini**.
+1. Fare clic sul pulsante **Spedisci**. Viene visualizzata la pagina **Nuova spedizione**.
 
 <u>Risultato previsto:</u>
 
-Il **Crea etichetta di spedizione** nella parte inferiore della pagina viene visualizzata una casella di controllo.
+Nella parte inferiore della pagina viene visualizzata la casella di controllo **Crea etichetta di spedizione**.
 
 <u>Risultato effettivo:</u>
 
-Il **Crea etichetta di spedizione** la casella di controllo non viene visualizzata.
+La casella di controllo **Crea etichetta di spedizione** non è visualizzata.
 
 ### Scenario 2: creare un&#39;etichetta per la spedizione esistente
 
 <u>Passaggi da riprodurre:</u>
 
-1. Apri l’ordine inserito nell’Amministratore, in **Vendite** > **Ordini**.
-1. Fai clic su **Spedisci** pulsante. Il **Nuova spedizione** viene visualizzata la pagina.
-1. Fai clic su **Invia spedizione** pulsante. Viene creata una spedizione.
+1. Apri l&#39;ordine effettuato nell&#39;amministratore in **Vendite** > **Ordini**.
+1. Fare clic sul pulsante **Spedisci**. Viene visualizzata la pagina **Nuova spedizione**.
+1. Fare clic sul pulsante **Invia spedizione**. Viene creata una spedizione.
 1. Apri la spedizione appena creata.
-1. Fai clic su **Crea etichetta di spedizione** pulsante. Il **Crea pacchetti** viene visualizzata una finestra di dialogo.
+1. Fare clic sul pulsante **Crea etichetta di spedizione**. Viene visualizzata la finestra di dialogo **Crea pacchetti**.
 
 <u>Risultato previsto:</u>
 
-Il **Aggiungi prodotti al pacchetto** pulsante sulla **Crea pacchetti** nella finestra modale vengono visualizzati i campi con gli elementi dell’ordine.
+Il pulsante **Aggiungi prodotti al pacchetto** nella finestra modale **Crea pacchetti** visualizza i campi con gli elementi dell&#39;ordine.
 
 <u>Risultato effettivo:</u>
 
-Il **Crea pacchetti** finestra modale non viene visualizzata correttamente, non è possibile aggiungere articoli ordine alla spedizione.
+La finestra modale **Crea pacchetti** non è visualizzata correttamente. Impossibile aggiungere elementi dell&#39;ordine alla spedizione.
 
 ## Soluzione
 
@@ -67,7 +67,7 @@ La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fi
 
 [MC-35514-2.4.0-CE-compositore-2.patch](assets/MC-35514-2.4.0-CE-composer-2.patch.zip)
 
-La patch è disponibile anche per il download in entrambi, `.git` e `.composer`, formati su [Download di Adobe Commerce](https://magento.com/tech-resources/download) pagina, sotto **Patch** nella navigazione a sinistra della colonna. Cercare la patch MC-35514.
+La patch è disponibile anche per il download nei formati `.git` e `.composer` nella pagina [Download di Adobe Commerce](https://magento.com/tech-resources/download), in **Patch** nella barra di navigazione a sinistra. Cercare la patch MC-35514.
 
 ### Versioni compatibili di Adobe Commerce:
 
@@ -78,6 +78,6 @@ La patch è stata creata per:
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

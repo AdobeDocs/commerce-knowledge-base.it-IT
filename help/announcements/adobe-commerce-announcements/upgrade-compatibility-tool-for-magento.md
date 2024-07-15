@@ -19,12 +19,12 @@ Upgrade Compatibility Tool 1.1.0 è uno strumento da riga di comando che control
 
 Upgrade Compatibility Tool 1.1.0 introduce miglioramenti significativi, tra cui:
 
-* **Convalidare le modifiche ai file di base**: Adobe consiglia vivamente di non personalizzare il codice del prodotto di base. Con questa versione, abbiamo aggiunto un punto di controllo per i clienti e i partner per identificare eventuali modifiche al codice di base per comprendere l’impatto delle modifiche in modo rapido e tempestivo. L&#39;aggiunta di questo strumento all&#39;interno del processo di sviluppo consente ai partner e ai commercianti di identificare i problemi in modo proattivo, evitando problemi durante gli aggiornamenti futuri e riducendo il costo totale di proprietà.
-* **Esportare il rapporto in un file JSON**: questo miglioramento è stato implementato in seguito al feedback ricevuto dalla community. Ora, quando esegui lo strumento, i dettagli di tutti i problemi identificati vengono esportati in un file JSON, in modo che gli utenti possano leggere, condividere e gestire i risultati senza dover eseguire nuovamente lo strumento.
-* **Convalide VBE migliorate**: le VBE (Vendor Bundled Extensions) non fanno parte del codice core di Adobe Commerce, ma sono testate e supportate da Adobe. Con questo aggiornamento, ora convalidiamo i VBE utilizzando lo stesso approccio utilizzato per il codice di base. Questo miglioramento aiuterà gli utenti a comprendere chiaramente i problemi relativi alle personalizzazioni e ai codici/VBE di base.
-* **Fornisci codici di errore**: abbiamo introdotto i codici di errore per aiutare gli utenti a identificare, comprendere e risolvere i problemi durante un aggiornamento. I messaggi di errore e di avviso forniscono una descrizione chiara e una soluzione suggerita.
-* **Possibilità di elencare solo i problemi critici**: con questo, gli utenti potranno concentrarsi solo sui problemi critici e che genereranno problemi durante l’aggiornamento.
-* **Problemi relativi al delta tra due versioni**: con questo miglioramento proposto dai membri della community, gli utenti UCT saranno in grado di ottenere un delta dei problemi tra due versioni, che consentirà loro di concentrarsi solo sui nuovi problemi introdotti per la versione di destinazione che aggiorneranno.
+* **Convalida modifiche file di base**: l&#39;Adobe consiglia vivamente di non personalizzare il codice prodotto di base. Con questa versione, abbiamo aggiunto un punto di controllo per i clienti e i partner per identificare eventuali modifiche al codice di base per comprendere l’impatto delle modifiche in modo rapido e tempestivo. L&#39;aggiunta di questo strumento all&#39;interno del processo di sviluppo consente ai partner e ai commercianti di identificare i problemi in modo proattivo, evitando problemi durante gli aggiornamenti futuri e riducendo il costo totale di proprietà.
+* **Esporta il report in un file JSON**: questo miglioramento è stato implementato in seguito al feedback ricevuto dalla community. Ora, quando esegui lo strumento, i dettagli di tutti i problemi identificati vengono esportati in un file JSON, in modo che gli utenti possano leggere, condividere e gestire i risultati senza dover eseguire nuovamente lo strumento.
+* **Convalide VBE migliorate**: le VBE (Vendor Bundled Extensions) non fanno parte del codice di base di Adobe Commerce, ma sono testate e supportate da Adobe. Con questo aggiornamento, ora convalidiamo i VBE utilizzando lo stesso approccio utilizzato per il codice di base. Questo miglioramento aiuterà gli utenti a comprendere chiaramente i problemi relativi alle personalizzazioni e ai codici/VBE di base.
+* **Fornisci codici di errore**: sono stati introdotti codici di errore per aiutare gli utenti a identificare, comprendere e risolvere i problemi durante un aggiornamento. I messaggi di errore e di avviso forniscono una descrizione chiara e una soluzione suggerita.
+* **Possibilità di elencare solo i problemi critici**: con questo, gli utenti potranno concentrarsi solo sui problemi critici e genereranno problemi durante l&#39;aggiornamento.
+* **Problemi Delta tra due versioni**: con questo miglioramento proposto dai membri della community, gli utenti UCT saranno in grado di ottenere un delta dei problemi tra due versioni, che consentirà loro di concentrarsi solo sui nuovi problemi introdotti per la versione di destinazione che aggiorneranno.
 
 ## Quali versioni può confrontare lo strumento?
 
@@ -36,7 +36,7 @@ Clienti Adobe Commerce.
 
 ## Installare Upgrade Compatibility Tool 1.1.0
 
-Per i passaggi di installazione, consulta Adobe Commerce: [Upgrade Compatibility Tool > Installa](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) nella documentazione per gli sviluppatori. Per i prerequisiti per l’utilizzo dello strumento, consulta Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) nella documentazione per gli sviluppatori.
+Per i passaggi di installazione, consulta Adobe Commerce: [Upgrade Compatibility Tool > Install](https://devdocs.magento.com/upgrade-compatibility-tool/install.html) nella documentazione per gli sviluppatori. Per i prerequisiti per l&#39;utilizzo dello strumento, consulta Adobe Commerce: [Upgrade Compatibility Tool](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html) nella documentazione per gli sviluppatori.
 
 ## Qual è il numero accanto a ciascun problema?
 
@@ -47,11 +47,11 @@ I messaggi di errore di Upgrade Compatibility Tool sono suddivisi per livello (p
 * Codice di errore: identificatore assegnato da Adobe Commerce al messaggio di errore.
 * Descrizione errore: una descrizione che riepiloga la causa dell’errore.
 * Azione suggerita per l’errore: se applicabile, fornisce indicazioni per la risoluzione e la risoluzione dell’errore.
-* I codici sono elencati e descritti nella [Pagina di riferimento del messaggio di errore](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
+* I codici sono elencati e descritti nella [pagina di riferimento del messaggio di errore](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html).
 
 ## Dove posso condividere feedback sullo strumento?
 
-Puoi contattare il team UCT sulla nostra [#upgrade-compatibility-tool](https://magentocommeng.slack.com/archives/C019Y143U9F) canale Slack. Saremo lieti di ricevere il tuo feedback e i tuoi suggerimenti per migliorare lo strumento.
+Puoi contattare il team UCT nel nostro canale Slack [#upgrade-compatibility-tool](https://magentocommeng.slack.com/archives/C019Y143U9F). Saremo lieti di ricevere il tuo feedback e i tuoi suggerimenti per migliorare lo strumento.
 
 ## Lettura correlata
 

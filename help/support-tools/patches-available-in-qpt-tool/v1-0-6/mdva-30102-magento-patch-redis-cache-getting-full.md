@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-30102: cache Redis piena
 
-La patch MDVA-30102 risolve il problema della cache Redis, che diventa piena e genera errori, causando problemi con le pagine di elenco dei prodotti (PLP) e le pagine di dettagli del prodotto (PDP), come i prodotti mancanti. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.6.
+La patch MDVA-30102 risolve il problema della cache Redis, che diventa piena e genera errori, causando problemi con le pagine di elenco dei prodotti (PLP) e le pagine di dettagli del prodotto (PDP), come i prodotti mancanti. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.6.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce sull’infrastruttura cloud 2.3.5-p1
 
@@ -27,16 +27,16 @@ La patch MDVA-30102 risolve il problema della cache Redis, che diventa piena e g
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-La cache Redis si sta esaurendo e le risorse `maxmemory` sembra essere insufficiente. La cache di layout non aveva TTL e non è stata eliminata, causando la crescita della cache e l’eliminazione di altre chiavi in Redis. Di conseguenza, tutta la memoria Redis è stata allocata per la cache di layout.
+La cache Redis si sta esaurendo e l&#39;allocazione di `maxmemory` sembra insufficiente. La cache di layout non aveva TTL e non è stata eliminata, causando la crescita della cache e l’eliminazione di altre chiavi in Redis. Di conseguenza, tutta la memoria Redis è stata allocata per la cache di layout.
 
 <u>Prerequisiti</u>:
 
 * L’utente deve utilizzare Adobe Commerce 2.4 e disporre di 100.000 prodotti semplici (il tipo di prodotto non conta) e 50 categorie.
-* La cache Redis deve essere configurata in base ai passaggi riportati in [Guida alla configurazione di Adobe Commerce > Usa Redis per la pagina Adobe Commerce e la cache predefinita](https://devdocs.magento.com/guides/v2.4/config-guide/redis/redis-pg-cache.html#example-command) nella documentazione per gli sviluppatori.
+* La cache Redis deve essere configurata in base ai passaggi forniti in [Guida alla configurazione di Adobe Commerce > Usa Redis per la pagina Adobe Commerce e cache predefinita](https://devdocs.magento.com/guides/v2.4/config-guide/redis/redis-pg-cache.html#example-command) nella documentazione per gli sviluppatori.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -60,14 +60,14 @@ La cache Redis cresce fino a circa 5 GB. Esiste un limite massimo di 8 GB di mem
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

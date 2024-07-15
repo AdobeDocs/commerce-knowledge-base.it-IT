@@ -40,24 +40,24 @@ può essere visualizzato anche sulla riga di comando.
 
 ## Soluzione {#solution}
 
-Ti consigliamo [allocare 2 GB di memoria a PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) nella documentazione per gli sviluppatori per verificare che l’installazione o l’aggiornamento abbiano esito positivo.
+È consigliabile [allocare 2 GB di memoria a PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) nella documentazione per gli sviluppatori per verificare che l&#39;installazione o l&#39;aggiornamento abbiano esito positivo.
 
 Se lo hai già fatto, crea un file di scambio sul computer. Un computer Linux utilizza *spazio di swap* se necessita di più risorse di memoria e la RAM è piena. Lo spazio di swap viene utilizzato per le pagine inattive in memoria.
 
-Di seguito sono riportati solo i suggerimenti; potrebbero essere disponibili altre opzioni. Prima di continuare, consultare un amministratore di rete o un&#39;altra risorsa. È necessario eseguire i comandi per creare un file di scambio come utente con `root` privilegi.
+Di seguito sono riportati solo i suggerimenti; potrebbero essere disponibili altre opzioni. Prima di continuare, consultare un amministratore di rete o un&#39;altra risorsa. È necessario eseguire i comandi per creare un file di scambio come utente con privilegi `root`.
 
 ### Scambia file su Ubuntu {#swap-file-on-ubuntu}
 
-Utilizza il `fallocate` come descritto nei seguenti riferimenti:
+Utilizza il comando `fallocate` come descritto in questi riferimenti:
 
-* [Come Aggiungere Swap su Ubuntu 14.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
-* [Come Aggiungere Spazio Di Scambio Su Ubuntu 16.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
-* [SwapFaq (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
+* [Come aggiungere lo scambio su Ubuntu 14.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
+* [Come aggiungere spazio di scambio su Ubuntu 16.04 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
+* [Domande frequenti su Swap (help.ubuntu.com)](https://help.ubuntu.com/community/SwapFaq)
 
 ### Scambia file su CentOS {#swap-file-on-centos}
 
-Utilizza il `mkswap` come descritto nei seguenti riferimenti:
+Utilizza il comando `mkswap` come descritto in questi riferimenti:
 
 * [Come aggiungere lo scambio su CentOS 6 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
 * [Come aggiungere lo scambio su CentOS 7 (Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
-* [Spazio di swap (portale clienti RedHat)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
+* [Scambia spazio (portale clienti RedHat)](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)

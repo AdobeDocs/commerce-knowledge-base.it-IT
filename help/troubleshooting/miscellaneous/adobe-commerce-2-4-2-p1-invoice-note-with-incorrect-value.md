@@ -26,20 +26,20 @@ Quando il gruppo di clienti viene modificato al momento della creazione dell&#39
 
 <u>Passaggi da riprodurre</u>:
 
-1. Creare un **Verifica account cliente** e aggiungerlo al **Gruppo di clienti al dettaglio**.
-1. Creare un **Nuovo ordine** per il cliente di prova, aggiungi **Prodotto** e **Indirizzo**.
-1. Seleziona **Metodo di spedizione**.
-1. In **Informazioni account** sezione, cambia gruppo di clienti da **Rivenditore** a **Pubblica amministrazione**.
-1. Clic **Inserisci ordine**.
-1. Clic **Fattura** > **Sottometti fattura**.
+1. Crea un **Account cliente di prova** e aggiungilo al **Gruppo clienti vendita al dettaglio**.
+1. Crea un **nuovo ordine** per il cliente di prova, aggiungi **prodotto** e **indirizzo**.
+1. Selezionare **Metodo di spedizione**.
+1. Nella sezione **Informazioni account**, cambia il gruppo clienti da **Rivenditore** a **Pubblica amministrazione**.
+1. Fai clic su **Inserisci ordine**.
+1. Fare clic su **Fattura** > **Invia fattura**.
 
 <u>Risultati previsti</u>:
 
-La nota seguente dovrebbe essere visualizzata sotto **Note per questo ordine**  sezione: &quot;Fattura vertice inviata correttamente. Importo: $0,00.&quot;
+La nota seguente deve essere visualizzata nella sezione **Note per questo ordine**: &quot;Fattura vertice inviata correttamente. Importo: $0,00.&quot;
 
 <u>Risultati effettivi</u>:
 
-La nota seguente viene visualizzata sotto **Note per questo ordine** sezione: &quot;Fattura vertice inviata correttamente. Importo: $3,23.&quot;
+La nota seguente viene visualizzata nella sezione **Note per questo ordine**: &quot;Fattura vertice inviata correttamente. Importo: $3,23.&quot;
 
 ## Soluzione
 

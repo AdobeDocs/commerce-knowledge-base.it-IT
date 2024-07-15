@@ -39,7 +39,7 @@ Nella richiesta di ricerca nei registri viene generata la seguente eccezione:
 
 ## Causa
 
-Per impostazione predefinita, solo alcuni tipi di attributi di prodotto possono essere utilizzati nella navigazione a livelli. Sono Sì/No, A discesa, Selezione multipla e Prezzo. Per questo motivo, in Commerce Admin non è possibile impostare un attributo di qualsiasi altro tipo come **Uso in navigazione a livelli** = *Filtrabile* o **Utilizzo nella navigazione a livelli dei risultati di ricerca** = *Sì*. Tuttavia, esiste la possibilità tecnica di aggirare questo limite modificando direttamente il `is_filterable` e `is_filterable_in_search` valori nel database. In questo caso, e qualsiasi altro tipo di attributo, ad esempio Data, Testo e così via, è impostato per essere utilizzato in Navigazione a livelli, l&#39;Elasticsearch 5 genera un&#39;eccezione.
+Per impostazione predefinita, solo alcuni tipi di attributi di prodotto possono essere utilizzati nella navigazione a livelli. Sono Sì/No, A discesa, Selezione multipla e Prezzo. Per questo motivo, nell&#39;amministratore di Commerce non è possibile impostare un attributo di qualsiasi altro tipo come **Utilizzo nella navigazione a livelli** = *Filterable* o **Utilizzo nella navigazione a livelli dei risultati di ricerca** = *Sì*. Esiste tuttavia la possibilità tecnica di aggirare questo limite modificando direttamente i valori `is_filterable` e `is_filterable_in_search` nel database. In questo caso, e qualsiasi altro tipo di attributo, ad esempio Data, Testo e così via, è impostato per essere utilizzato in Navigazione a livelli, l&#39;Elasticsearch 5 genera un&#39;eccezione.
 
 Per questo motivo, è necessario verificare se esistono attributi diversi da Menu a discesa, Selezione multipla e Prezzo impostati per l&#39;utilizzo in Navigazione a livelli. Eseguire la query seguente per cercare questi attributi:
 
@@ -53,10 +53,10 @@ Il risultato conterrà un elenco di attributi utilizzati per la navigazione a li
 
 ## Soluzione
 
-Per risolvere il problema, è necessario impostare `is_filterable` (ovvero, utilizzato nella navigazione a livelli) e `filterable_in_search` (utilizzato nei risultati di ricerca Navigazione a livelli) a &quot;0&quot; (non utilizzato). A questo scopo, effettua le seguenti operazioni:
+Per risolvere il problema, è necessario impostare `is_filterable` (ovvero, utilizzato in Navigazione a livelli) e `filterable_in_search` (ovvero, utilizzato nei risultati della ricerca Navigazione a livelli) su &quot;0&quot; (non utilizzato). A questo scopo, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizzare uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), oppure accedere manualmente al database dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea
@@ -79,6 +79,6 @@ Per risolvere il problema, è necessario impostare `is_filterable` (ovvero, util
    bin/magento cache:clean
    ```
 
-o in Commerce Admin in **Sistema** > **Strumenti** > **Gestione cache**.
+o nell&#39;amministratore di Commerce in **Sistema** > **Strumenti** > **Gestione cache**.
 
 Ora dovresti essere in grado di eseguire ricerche nel catalogo senza problemi.

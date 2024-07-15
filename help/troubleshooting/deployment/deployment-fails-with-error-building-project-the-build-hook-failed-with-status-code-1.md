@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;
 
-Questo articolo illustra le cause e le soluzioni del problema relativo all’infrastruttura cloud di Adobe Commerce, in cui la fase di build del processo di distribuzione non riesce e il messaggio di errore viene riassunto con: *&quot;Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;*.
+In questo articolo vengono illustrate le cause e le soluzioni del problema relativo all&#39;infrastruttura cloud di Adobe Commerce, in cui la fase di compilazione del processo di distribuzione non riesce e il messaggio di errore viene riepilogato con: *&quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;*.
 
 ## Prodotti e versioni interessati
 
@@ -32,11 +32,11 @@ Distribuzione completata correttamente.
 <u>Risultato effettivo</u>:
 
 1. La fase di costruzione non riesce e l’intero processo di distribuzione si blocca.
-1. Nel registro degli errori di distribuzione, il messaggio di errore termina con: *&quot;Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1. Build interrotta&quot;.*
+1. Nel log degli errori di distribuzione, il messaggio di errore termina con: *&quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1. Build interrotta&quot;.*
 
 ## Causa
 
-Ci sono diversi motivi per cui la creazione dell’ambiente non riesce. In genere, nel registro di distribuzione viene visualizzato un lungo messaggio di errore, in cui la prima parte è più specifica in merito al motivo e la conclusione è *&quot;Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1. Build interrotta&quot;.*
+Ci sono diversi motivi per cui la creazione dell’ambiente non riesce. In genere, nel registro di distribuzione viene visualizzato un lungo messaggio di errore, in cui la prima parte è più specifica per il motivo e la conclusione è *&quot;Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1. Build interrotta&quot;.*
 
 Osservando più da vicino la prima parte specifica del problema sarà utile identificare il problema. Di seguito sono elencate le più comuni e la sezione successiva fornisce le relative soluzioni:
 
@@ -47,9 +47,9 @@ Osservando più da vicino la prima parte specifica del problema sarà utile iden
 
 ## Soluzione
 
-* Verifica che lo spazio di archiviazione sia sufficiente. Per informazioni su come verificare lo spazio disponibile, vedere [Verifica dello spazio su disco nell’ambiente cloud tramite CLI](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md) articolo. È possibile pulire le directory di registro e/o aumentare lo spazio su disco.
+* Verifica che lo spazio di archiviazione sia sufficiente. Per informazioni su come verificare lo spazio disponibile, vedere l&#39;articolo [Controllare lo spazio su disco nell&#39;ambiente cloud utilizzando CLI](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md). È possibile pulire le directory di registro e/o aumentare lo spazio su disco.
 * Assicurati che gli strumenti ECE siano configurati correttamente.
-* Controllare se il problema è causato dalla patch. Risolvi il conflitto o il contatto [Supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Per ulteriori informazioni, consulta di seguito.
+* Controllare se il problema è causato dalla patch. Risolvere il conflitto o contattare il [Supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Per ulteriori informazioni, consulta di seguito.
 * Verifica se è l’estensione personalizzata a causare il problema. Risolvi il conflitto o contatta gli sviluppatori di estensioni per la soluzione.
 
 I paragrafi seguenti forniscono ulteriori dettagli.
@@ -63,11 +63,11 @@ Directory da considerare per la pulizia:
 * `var/debug/`
 * `var`
 
-Per informazioni dettagliate su come aumentare lo spazio su disco se utilizzi l’architettura di pianificazione iniziale per l’infrastruttura cloud di Adobe Commerce, consulta [Aumento dello spazio su disco per l&#39;ambiente di integrazione nel cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md). Le stesse istruzioni possono essere utilizzate per aumentare lo spazio di Adobe Commerce sull’infrastruttura cloud Ambiente di integrazione dell’architettura Pro plan. Per Pro Production/Staging, è necessario inviare un ticket a [Supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)e richiedere maggiore spazio su disco. Ma è monitorato da Platform. In genere, tuttavia, non è necessario occuparsi di questo problema nell’architettura di staging/produzione di Pro, in quanto Adobe Commerce monitora questi parametri per conto dell’utente e avvisa l’utente e/o esegue azioni in base al contratto.
+Per informazioni dettagliate su come aumentare lo spazio su disco se si utilizza l&#39;architettura del piano Starter per l&#39;infrastruttura cloud di Adobe Commerce, vedere [Aumentare lo spazio su disco per l&#39;ambiente di integrazione nel cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md). Le stesse istruzioni possono essere utilizzate per aumentare lo spazio di Adobe Commerce sull’infrastruttura cloud Ambiente di integrazione dell’architettura Pro plan. Per Pro Production/Staging, è necessario inviare un ticket a [Supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e richiedere maggiore spazio su disco. Ma è monitorato da Platform. In genere, tuttavia, non è necessario occuparsi di questo problema nell’architettura di staging/produzione di Pro, in quanto Adobe Commerce monitora questi parametri per conto dell’utente e avvisa l’utente e/o esegue azioni in base al contratto.
 
 ### Verificare che gli strumenti ECE siano configurati correttamente
 
-1. Assicurati che gli hook di build siano definiti correttamente in `magento.app.yaml` file. Se utilizzi Adobe Commerce 2.2.X, gli hook di creazione devono essere definiti come segue:
+1. Verificare che gli hook di compilazione siano definiti correttamente nel file `magento.app.yaml`. Se utilizzi Adobe Commerce 2.2.X, gli hook di creazione devono essere definiti come segue:
 
    ```yaml
    # We run build hooks before your application has been packaged.
@@ -78,11 +78,11 @@ Per informazioni dettagliate su come aumentare lo spazio su disco se utilizzi l�
        php ./vendor/bin/ece-tools deploy
    ```
 
-   Utilizza il [Aggiornamento a strumenti ece](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) articolo per riferimento.
+   Utilizza l&#39;articolo [Aggiorna a strumenti ece](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) come riferimento.
 
-1. Assicurarsi che il pacchetto di strumenti ECE sia presente nel `composer.lock` eseguendo il comando seguente:    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;: &quot;magento/ece-tools&quot;</code>&#39; compositore.lock</code></pre>    Se sono specificati, la risposta sarà simile al seguente esempio:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. Verificare che il pacchetto ECE-tools sia presente nel file `composer.lock` eseguendo il comando seguente:    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;: &quot;magento/ece-tools&quot;</code>&#39; compositore.lock</code></pre>    Se sono specificati, la risposta sarà simile al seguente esempio:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
 
-Consulta la [Aggiornamento a strumenti ece](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) articolo per riferimento.
+Consulta l&#39;articolo [Aggiornamento a strumenti ece](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) per maggiori informazioni.
 
 ### È la patch a causare il problema?
 
@@ -103,7 +103,7 @@ W: build
 E: Error building project: The build hook failed with status code 1. Aborted build.
 ```
 
-Questi messaggi di errore indicano che la patch che stai tentando di applicare è stata creata per una versione di Adobe Commerce diversa o è in conflitto con le personalizzazioni o con le patch applicate in precedenza. Prova a risolvere il conflitto o il contatto [Supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+Questi messaggi di errore indicano che la patch che stai tentando di applicare è stata creata per una versione di Adobe Commerce diversa o è in conflitto con le personalizzazioni o con le patch applicate in precedenza. Prova a risolvere il conflitto o contatta il [supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### È l&#39;estensione la causa del problema?
 

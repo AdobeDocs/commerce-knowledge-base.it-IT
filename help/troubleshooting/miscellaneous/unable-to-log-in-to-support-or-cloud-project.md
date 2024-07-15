@@ -17,11 +17,11 @@ Questo articolo fornisce una soluzione per i casi in cui hai difficoltà ad acce
 
 ## Prodotti e versioni interessati
 
-Adobe Commerce (tutti i metodi di distribuzione) tutto [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce (tutti i metodi di distribuzione) tutte le [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
-Quando si passa a [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) o [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) potresti notare che ora è disponibile un modulo di accesso unificato e non essere più in grado di immettere le credenziali come in precedenza.
+Quando accedi a [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) o [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) potresti notare che ora è disponibile un modulo di accesso unificato e che non puoi più immettere le credenziali come hai fatto in precedenza.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -51,7 +51,7 @@ Puoi accedere all’account con:
 - Un account aziendale/personale Adobe esistente.
 - Se non disponi di un account Adobe, creane uno con lo stesso indirizzo e-mail.
 
-Per i passaggi, consulta [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) in Adobe Experience League.
+Per i passaggi, fare riferimento a [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) in Adobe Experience League.
 
 ## Lettura correlata
 

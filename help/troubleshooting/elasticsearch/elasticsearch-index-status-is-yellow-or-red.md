@@ -13,9 +13,9 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Fai riferimento a [Installare e configurare Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Consulta [Installare e configurare Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
 
-L’articolo corregge alcuni casi in cui lo stato dell’indice Elasticsearch non è &quot;*verde*&quot;. &#39;*giallo*&#39; indica normale e &#39;*rosso*&#39; indica che è errato. Lo stato &quot;giallo&quot; o &quot;rosso&quot; può comparire insieme a prodotti mancanti o alla visualizzazione di informazioni sul prodotto obsolete.
+L&#39;articolo fornisce una correzione quando lo stato dell&#39;indice Elasticsearch non è &#39;*green*&#39;. &#39;*giallo*&#39; indica normale e &#39;*rosso*&#39; indica non valido. Lo stato &quot;giallo&quot; o &quot;rosso&quot; può comparire insieme a prodotti mancanti o alla visualizzazione di informazioni sul prodotto obsolete.
 
 ## Versioni e prodotti interessati
 
@@ -24,7 +24,7 @@ L’articolo corregge alcuni casi in cui lo stato dell’indice Elasticsearch no
 
 ## Problema
 
-L’indice di ricerca del catalogo di Elasticsearch è lento e ha come risultato lo stato &quot;*giallo*&#39; o &#39;*rosso*&#39; anziché &#39;*verde*&quot;. Potresti anche riscontrare delle modifiche mancanti sul front-end.
+L&#39;indice di ricerca del catalogo di Elasticsearch è lento e lo stato risultante è &#39;*giallo*&#39; o &#39;*rosso*&#39; anziché &#39;*verde*&#39;. Potresti anche riscontrare delle modifiche mancanti sul front-end.
 
 ## Causa
 
@@ -59,4 +59,4 @@ Se questi passaggi non funzionano, [invia un ticket di supporto](/help/help-cent
 
 ## Lettura correlata
 
-Per ulteriori informazioni, consulta [API di integrità del cluster Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).
+Per ulteriori informazioni, fare riferimento a [Elasticsearch Cluster Health API](https://www.elastic.co/guide/en/elasticsearch/reference/current/cluster-health.html).

@@ -20,10 +20,10 @@ Adobe Commerce (tutti i metodi di distribuzione) 2.3.x, 2.4.x.
 
 Crea un dump &quot;scrubbed&quot; dall’amministratore:
 
-1. In Commerce Admin, vai a **Sistema** > **Supporto** > **Agente di raccolta dati**.
-1. Clic **Nuovo backup**.
-1. Dopo alcuni minuti, fai clic su **Aggiorna stato** (potrebbe richiedere più tempo, ripetere ogni 5 minuti fino al completamento).
-1. Riposiziona i file di dump generati da `/var/support` alla directory principale di Adobe Commerce.
+1. In Amministrazione Commerce, vai a **Sistema** > **Supporto** > **Agente di raccolta dati**.
+1. Fare clic su **Nuovo backup**.
+1. Dopo alcuni minuti, fare clic su **Aggiorna stato** (l&#39;operazione potrebbe richiedere più tempo, ripetere ogni 5 minuti fino al completamento).
+1. Trasferire i file di dump generati dalla directory `/var/support` alla directory principale di Adobe Commerce.
 
 Puoi quindi fornire a Supporto del collegamento di download diretto ai file di dump (il tuo indirizzo dello store e il nome del file come visualizzato).
 
@@ -31,4 +31,4 @@ In caso di problemi durante la creazione delle immagini da Admin, è consigliabi
 
 ## Lettura correlata
 
-* [Creazione di backup completo del database per Adobe Commerce su infrastruttura cloud](/help/how-to/general/create-database-dump-on-cloud.md) nella nostra knowledge base di supporto.
+* [Crea un backup completo del database per Adobe Commerce sull&#39;infrastruttura cloud](/help/how-to/general/create-database-dump-on-cloud.md) nella knowledge base di supporto.

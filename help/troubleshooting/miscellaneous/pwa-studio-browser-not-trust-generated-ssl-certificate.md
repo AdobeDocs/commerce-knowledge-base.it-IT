@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione a un avviso di certificato SSL generato e
 
 ## Prodotti e versioni interessati
 
-PWA Studi per Adobe Commerce
+PWA Studio per Adobe Commerce
 
 ## Problema
 
@@ -41,18 +41,18 @@ La generazione dei certificati è gestita da [devcert](https://github.com/davewa
 
 La versione deve essere 1.0 o successiva (o LibreSSL 2, nel caso di OSX High Sierra).
 
-È possibile installare versioni successive di OpenSSL con [Homebrew](https://brew.sh/) su OSX, [Chocolatey](https://chocolatey.org/) su Windows o il gestore di pacchetti della distribuzione Linux.
+Puoi installare versioni successive di OpenSSL con [Homebrew](https://brew.sh/) su OSX, [Chocolatey](https://chocolatey.org/) su Windows o il gestore di pacchetti della distribuzione Linux.
 
-Se utilizzi Linux, assicurati che `libnss3-tools` (o equivalente) è installato sul sistema. Ulteriori informazioni fornite in questa sezione del [devcert](https://github.com/davewasmer/devcert#skipcertutil) leggimi.
+Se esegui Linux, assicurati che `libnss3-tools` (o l&#39;equivalente) sia installato nel tuo sistema. Ulteriori informazioni fornite in questa sezione del file readme [devcert](https://github.com/davewasmer/devcert#skipcertutil).
 
 Alcuni utenti hanno suggerito di eliminare la cartella devcert per attivare la rigenerazione dei certificati.
 
-* Per gli utenti di MacOS, questa cartella si trova in genere all’indirizzo: `{{~/Library/Application Support/devcert }}`
-* Per gli utenti di Windows, questa cartella si trova in genere in: `${User}\AppData\Local\devcert`
+* Per gli utenti di MacOS, questa cartella si trova in genere in: `{{~/Library/Application Support/devcert }}`
+* Per gli utenti di Windows, questa cartella si trova in genere all&#39;indirizzo: `${User}\AppData\Local\devcert`
 
 ## Lettura correlata nella knowledge base del supporto
 
 * [PWA Studi: errore di attendibilità del certificato autofirmato](https://support.magento.com/hc/en-us/articles/360038973172)
 * [PWA Studio: Webpack si blocca prima di iniziare la compilazione](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-* [PWA Studi: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy su&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
-* [PWA Studi: errori di convalida durante l’esecuzione della modalità sviluppatore](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
+* [PWA Studio: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy su&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
+* [PWA Studio: errori di convalida durante l’esecuzione della modalità sviluppatore](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)

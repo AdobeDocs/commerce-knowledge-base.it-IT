@@ -17,4 +17,4 @@ Observation for Adobe Commerce è un nerdlet di New Relic che consente di visual
 
 La scheda Riepilogo di Osservazione per Adobe Commerce ha lo scopo di visualizzare rapidamente alcuni dei problemi incontrati dai siti per aiutarti a risolvere automaticamente o identificare potenziali cause principali dei problemi del sito. Le schede aggiuntive forniscono informazioni più approfondite sui servizi dei componenti, sul database, sull&#39;infrastruttura e sugli stati dei processi.
 
-Per consultare la guida completa sull’utilizzo di Observation for Adobe Commerce sull’infrastruttura cloud, visita [Osservazione per Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html) in Experience League.
+Per visualizzare la guida completa sull&#39;utilizzo di Observation per Adobe Commerce sull&#39;infrastruttura cloud, vai alla [guida Observation for Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html) nell&#39;Experience League.

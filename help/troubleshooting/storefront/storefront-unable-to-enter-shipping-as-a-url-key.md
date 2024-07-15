@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Impossibile salvare _spedizione_ come chiave URL
+# Impossibile salvare _shipping_ come chiave URL
 
-Questo articolo fornisce una soluzione al problema quando non è possibile salvare la spedizione come chiave URL (_ad es. /shipping_) per prodotti o pagine CMS. Quando tenti di salvare la chiave URL, ricevi un errore che indica che la chiave URL è un URL duplicato.
+Questo articolo fornisce una soluzione al problema quando non è possibile salvare la spedizione come chiave URL (_ad esempio, /shipping_) per i prodotti o le pagine CMS. Quando tenti di salvare la chiave URL, ricevi un errore che indica che la chiave URL è un URL duplicato.
 
 ## Prodotti e versioni interessati
 
@@ -21,20 +21,20 @@ Adobe Commerce (tutti i metodi di distribuzione) 2.4.x
 
 ## Problema
 
-Impossibile salvare una pagina CMS con il termine _spedizione_ nella chiave URL.
+Impossibile salvare una pagina CMS con il termine _shipping_ nella chiave URL.
 
 <u>Passaggi da riprodurre</u>:
 
-Creare un **[!UICONTROL CMS page]** con la chiave URL come _spedizione_.
+Crea un **[!UICONTROL CMS page]** con la chiave URL come _shipping_.
 
 <u>Risultato previsto</u>:
 
-La pagina viene salvata con _spedizione_ come chiave URL.
+La pagina viene salvata con _shipping_ come chiave URL.
 
 <u>Risultato effettivo</u>:
 
 Impossibile salvare in quanto si verifica questo errore:
-*Il valore specificato nel campo Chiave URL genera un URL già esistente.*
+*Il valore specificato nel campo Chiave URL genererebbe un URL già esistente.*
 
 ## Causa
 
@@ -50,24 +50,24 @@ Spedizione è una parola riservata definita in `vendor/magento/module-shipping/e
 
 ## Soluzione
 
-Non è possibile utilizzare il termine _spedizione_ nella chiave URL, ma puoi utilizzare il termine _spedizione_ combinato con un&#39;altra lettera o numero (_Ad esempio, shipping1 e shipping2_).
+Non puoi usare il termine _shipping_ nella chiave URL, ma puoi usare il termine _shipping_ combinato con un&#39;altra lettera o numero (_Ad esempio shipping1 e shipping2_).
 
-Anche se il termine non deve necessariamente essere _spedizione_+&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;> - il termine potrebbe essere qualsiasi stringa purché la lunghezza non superi *255* caratteri.
+Anche se il termine non deve essere _shipping_+&lt;altro numero o lettera>, potrebbe essere una stringa qualsiasi purché la lunghezza non superi *255* caratteri.
 
 ## Effettua le seguenti operazioni:
 
 1. Accedi ad Adobe Commerce Admin.
 1. Vai a **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
-1. Clic **[!UICONTROL Add URL Rewrite]**.
-1. Seleziona **[!UICONTROL Custom]** nel **[!UICONTROL Create URL Rewrite]** a discesa.
-   1. Digita il [!UICONTROL Request Path] as **_spedizione_**.
-   1. In **[!UICONTROL Target Path]**, digita la nuova chiave URL (_Ad esempio, &quot;shipping1&quot;_).
-   1. Seleziona **[!UICONTROL No]** nel **[!UICONTROL Redirect]** a discesa.
+1. Fare clic su **[!UICONTROL Add URL Rewrite]**.
+1. Selezionare **[!UICONTROL Custom]** nel menu a discesa **[!UICONTROL Create URL Rewrite]**.
+   1. Digitare [!UICONTROL Request Path] come **_spedizione_**.
+   1. In **[!UICONTROL Target Path]** digitare la nuova chiave URL (_Ad esempio, &quot;shipping1&quot;_).
+   1. Selezionare **[!UICONTROL No]** nel menu a discesa **[!UICONTROL Redirect]**.
 
 
-      (**Nota**: il Percorso della richiesta è ciò che un utente immette nel browser e il Percorso di destinazione è il punto in cui deve reindirizzare.
+      (**Nota**: il percorso della richiesta è ciò che un utente immette nel browser e il percorso di destinazione è il punto in cui deve reindirizzare.)
 
-Inoltre, evita di utilizzare queste parole chiave etichettate come *riservato* parole chiave che causano la visualizzazione della stessa eccezione. L’utilizzo di una qualsiasi delle parole chiave elencate di seguito come valore chiave URL causerà la visualizzazione dello stesso errore.
+Inoltre, evita di usare queste parole chiave etichettate come *parole chiave riservate* che causano la visualizzazione della stessa eccezione. L’utilizzo di una qualsiasi delle parole chiave elencate di seguito come valore chiave URL causerà la visualizzazione dello stesso errore.
 
 
 ```
@@ -122,5 +122,5 @@ Inoltre, evita di utilizzare queste parole chiave etichettate come *riservato* p
 
 ## Lettura correlata
 
-* [Riscritture URL](https://docs.magento.com/user-guide/marketing/url-rewrite.html) nella nostra Guida utente su merchandising e promozioni.
-* [Best practice per l’ottimizzazione SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) nella nostra Guida utente su merchandising e promozioni.
+* [URL riscrive](https://docs.magento.com/user-guide/marketing/url-rewrite.html) nella guida utente per merchandising e promozioni.
+* [Best practice per l&#39;ottimizzazione SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) nella guida utente per merchandising e promozioni.

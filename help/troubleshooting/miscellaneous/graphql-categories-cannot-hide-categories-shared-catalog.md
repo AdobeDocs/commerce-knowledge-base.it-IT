@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## Problema
 
-Categorie di GraphQL e `categoryList` le query ignorano l&#39;autorizzazione categoria per nascondere le categorie in un catalogo condiviso. Questo accade a tutti i commercianti su Adobe Commerce 2.4.3 con la funzione Catalogo condiviso B2B attivata.
+Le categorie di GraphQL e le query `categoryList` ignorano l&#39;autorizzazione della categoria per nascondere le categorie in un catalogo condiviso. Questo accade a tutti i commercianti su Adobe Commerce 2.4.3 con la funzione Catalogo condiviso B2B attivata.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -34,8 +34,8 @@ Questo accade a tutti i commercianti su Adobe Commerce 2.4.3 con vetrina PWA che
 1. Assegna alcuni prodotti a ciascuna di queste categorie.
 1. Assegna CAT1 al catalogo personalizzato, rimuovi l’assegnazione di CAT2 dal catalogo privato personalizzato. Questo annulla l’assegnazione di tutti i prodotti da CAT2 dal catalogo condiviso.
 1. Salva il catalogo personalizzato.
-1. Impostare l&#39;autorizzazione per la categoria per CAT2 su *Rifiuta* Sfogliando la categoria e impostando il gruppo di clienti sul catalogo privato sopra riportato.
-1. Esegui il `categoryList query` o la query delle categorie come utente della società dal passaggio tre.
+1. Impostare l&#39;autorizzazione per la categoria per CAT2 su *Nega* categoria esplorazione e impostare il gruppo di clienti sul catalogo privato sopra riportato.
+1. Eseguire la query `categoryList query` o le categorie come utente della società dal passaggio tre.
 
 <u>Risultati previsti</u>:
 
@@ -51,8 +51,8 @@ Funzionalità non implementata.
 
 ## Soluzione
 
-Il problema verrà risolto nell’ambito della versione 2.4.4 di e gli esercenti devono [invia un ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per ottenere una patch personalizzata, se è necessaria una soluzione prima della versione 2.4.4.
+Il problema verrà risolto nell&#39;ambito della versione 2.4.4 e gli esercenti devono [inviare un ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per ottenere una patch personalizzata se necessitano di una soluzione prima della versione 2.4.4.
 
 ## Lettura correlata
 
-* [Limiti del numero di categorie di Adobe Commerce per le best practice](https://support.magento.com/hc/en-us/articles/360048176832) nella nostra knowledge base di supporto.
+* [Limiti per il numero di categorie secondo le best practice di Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048176832) nella Knowledge Base di supporto.

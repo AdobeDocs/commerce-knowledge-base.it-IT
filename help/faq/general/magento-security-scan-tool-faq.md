@@ -40,14 +40,14 @@ Lo strumento Security Scan è gratuito. I commercianti devono accettare una dich
 
 ## Come funziona lo strumento Security Scan? {#how-does-the-magento-security-scan-tool-work}
 
-Lo strumento Security Scan è basato su Web e vi si accede dall&#39;account Adobe Commerce online dell&#39;esercente ([account.magento.com](https://account.magento.com/)). L’analisi della sicurezza funziona sia su HTTP che HTTPS. Controlla i problemi di sicurezza noti e identifica le patch e gli aggiornamenti mancanti di Adobe Commerce.
+Lo strumento di analisi della sicurezza è basato sul Web e vi si accede dall&#39;account Adobe Commerce online del commerciante ([account.magento.com](https://account.magento.com/)). L’analisi della sicurezza funziona sia su HTTP che HTTPS. Controlla i problemi di sicurezza noti e identifica le patch e gli aggiornamenti mancanti di Adobe Commerce.
 
 ## Come è possibile registrarsi per utilizzare lo strumento Security Scan? {#how-do-i-sign-up-to-use-the-magento-security-scan-tool}
 
-I commercianti possono registrarsi per utilizzare lo strumento Security Scan Tool per scansionare i loro negozi Web dal loro account Adobe Commerce ([account.magento.com](https://account.magento.com)). Segui il collegamento per iscriverti allo strumento Security Scan [qui](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
+I commercianti possono registrarsi per utilizzare lo strumento Security Scan Tool per eseguire la scansione dei loro negozi Web dal loro account Adobe Commerce ([account.magento.com](https://account.magento.com)). Segui il collegamento per iscriverti allo strumento Security Scan [qui](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
 
 ## Cosa posso fare se mi imbatto in un falso positivo nel rapporto di scansione? {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
 Consigliamo ai nostri commercianti di indagare su tutte le scansioni non riuscite e di adottare le misure appropriate per risolvere tali problemi. Dopo le indagini, se i commercianti si imbattono in un risultato di scansione che sembra essere un falso positivo, chiediamo al commerciante di avvisare l&#39;Adobe di prendere le misure appropriate.
 
-Per inviare un rapporto di falso positivo, inserisci un ticket con il supporto per gli esercenti di Adobe Commerce in modo da poter valutare il falso positivo, apportare le modifiche necessarie e/o fornire raccomandazioni per evitare di visualizzare tali notifiche in futuro. Gli esercenti possono anche segnalare un falso positivo inviandoci un’e-mail all’indirizzo [securityscan@magento.com](mailto:securityscan@magento.com).
+Per inviare un rapporto di falso positivo, inserisci un ticket con il supporto per gli esercenti di Adobe Commerce in modo da poter valutare il falso positivo, apportare le modifiche necessarie e/o fornire raccomandazioni per evitare di visualizzare tali notifiche in futuro. I commercianti possono inoltre segnalare un falso positivo inviandoci un&#39;e-mail all&#39;indirizzo [securityscan@magento.com](mailto:securityscan@magento.com).

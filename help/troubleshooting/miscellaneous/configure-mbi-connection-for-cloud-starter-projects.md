@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce Intelligence era precedentemente nota come Magento Business Intelligence (MBI).
+>Adobe Commerce Intelligence era precedentemente noto come Magento Business Intelligence (MBI).
 
 Questo articolo fornisce una soluzione per quando desideri configurare la connessione Adobe Commerce Intelligence per un progetto Cloud Starter esistente.
 
@@ -25,7 +25,7 @@ Adobe Commerce su cloud starter (tutte le versioni)
 
 ## Problema
 
-Si desidera configurare la connessione Commerce Intelligence per un progetto Cloud Starter esistente.
+Desideri configurare la connessione Commerce Intelligence per un progetto Cloud Starter esistente.
 
 >[!NOTE]
 >
@@ -40,10 +40,10 @@ Segui questi passaggi:
 1. Crea il tuo account Adobe Commerce Intelligence:
 
    * Vai a [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login).
-   * Accedi a **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
-   * Fai clic su **[!UICONTROL Create Instance]**. Se non trovi questo pulsante, contatta il tuo Customer Success Manager o Customer Technical Advisor.
+   * Passa a **[!UICONTROL My Account]** > **[!UICONTROL My MBI Instances]**.
+   * Fare clic su **[!UICONTROL Create Instance]**. Se non trovi questo pulsante, contatta il tuo Customer Success Manager o Customer Technical Advisor.
    * Seleziona l’abbonamento a Cloud Starter. Se disponi solo di un abbonamento a Cloud Starter, questo verrà selezionato automaticamente.
-   * Clic **[!UICONTROL Continue]**.
+   * Fare clic su **[!UICONTROL Continue]**.
    * Inserisci le informazioni per creare l’account.
 
    ![Crea account MBI](/help/troubleshooting/miscellaneous/assets/create_mbi_account.png)
@@ -64,31 +64,31 @@ Segui questi passaggi:
 
    ![Aggiungi informazioni archivio](/help/troubleshooting/miscellaneous/assets/add_store_info_mbi.png)
 
-   Prima di collegare il database per il terzo passaggio del flusso di onboarding è necessario raccogliere alcune informazioni. Verrà compilato il *[!UICONTROL Connect your database]* al passaggio 9.
+   Prima di collegare il database per il terzo passaggio del flusso di onboarding è necessario raccogliere alcune informazioni. Compilerai la pagina *[!UICONTROL Connect your database]* nel passaggio 9.
 
-1. Creazione di un utente Commerce Intelligence dedicato.
+1. Crea un utente Commerce Intelligence dedicato.
 
-   * Crea un nuovo utente il [account.adobe.com](https://account.adobe.com/).
+   * Crea un nuovo utente in [account.adobe.com](https://account.adobe.com/).
    * Vai a [https://accounts.magento.com/customer/account/](https://accounts.magento.com/customer/account/) per generare il tuo account Adobe Commerce.
-   * Perché un nuovo utente? Adobe Commerce Intelligence richiede che un utente aggiunto al progetto recuperi continuamente nuovi dati da trasferire al data warehouse di Commerce Intelligence dell&#39;account. Questo utente fungerà da connessione. L’aggiunta di questo utente al progetto avverrà nel passaggio 4.
-   * L&#39;utente Commerce Intelligence dedicato ha lo scopo di impedire che l&#39;utente aggiunto venga inavvertitamente disattivato o eliminato e che venga interrotta la connessione Commerce Intelligence.
+   * Perché un nuovo utente? Adobe Commerce Intelligence richiede che un utente aggiunto al progetto recuperi continuamente nuovi dati da trasferire al data warehouse Commerce Intelligence dell’account. Questo utente fungerà da connessione. L’aggiunta di questo utente al progetto avverrà nel passaggio 4.
+   * La presenza di un utente Commerce Intelligence dedicato ha lo scopo di impedire che l&#39;utente aggiunto venga inavvertitamente disattivato o eliminato e che venga interrotta la connessione Commerce Intelligence.
 
-1. Aggiungi l’utente appena creato all’ambiente principale del progetto come *Collaboratore*.
+1. Aggiungi l&#39;utente appena creato all&#39;ambiente principale del progetto come *Collaboratore*.
 
-   ![Aggiungere un utente come collaboratore](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png)
+   ![Aggiungi utente come collaboratore](/help/troubleshooting/miscellaneous/assets/contributor_user_mbi.png)
 
-1. Ottenere le chiavi SSH di Commerce Intelligence.
+1. Ottieni le tue chiavi SSH di Commerce Intelligence.
 
-   * Vai a **[!UICONTROL Connect your database]** dell&#39;interfaccia utente di configurazione di Commerce Intelligence e scorrere verso il basso fino a **[!UICONTROL Encryption settings]**.
-   * Per il campo, **[!UICONTROL Encryption Type]**, scegli **[!UICONTROL SSH Tunnel]**.
+   * Andare alla pagina **[!UICONTROL Connect your database]** dell&#39;interfaccia utente di configurazione di Commerce Intelligence e scorrere verso il basso fino a **[!UICONTROL Encryption settings]**.
+   * Per il campo **[!UICONTROL Encryption Type]**, scegliere **[!UICONTROL SSH Tunnel]**.
    * Dall’elenco a discesa, puoi copiare e incollare la chiave pubblica di Magento BI Essentials fornita.
 
    ![Impostazioni crittografia](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
-1. Aggiungere la nuova chiave pubblica Magento BI Essentials all&#39;utente Commerce Intelligence creato al passaggio 5.
+1. Aggiungi la nuova chiave pubblica Magento BI Essentials all’utente Commerce Intelligence creato nel passaggio 5.
 
-   * Vai a [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login). Accedere con le informazioni di accesso dell&#39;account per il nuovo utente di Commerce Intelligence creato. Quindi vai al **[!UICONTROL Account Settings]** scheda.
-   * Scorri verso il basso nella pagina ed espandi il menu a discesa per le chiavi SSH. Quindi fai clic su **[!UICONTROL Add a public key]**.
+   * Vai a [accounts.magento.com/customer/account/login](https://account.magento.com/customer/account/login). Accedi con le informazioni di accesso dell&#39;account per il nuovo utente Commerce Intelligence creato. Quindi passare alla scheda **[!UICONTROL Account Settings]**.
+   * Scorri verso il basso nella pagina ed espandi il menu a discesa per le chiavi SSH. Quindi fare clic su **[!UICONTROL Add a public key]**.
 
    ![Aggiungi una chiave pubblica](/help/troubleshooting/miscellaneous/assets/add_public_key_mbi.png)
 
@@ -98,7 +98,7 @@ Segui questi passaggi:
 
 1. Fornisci credenziali MySQL di Business Intelligence Essentials.
 
-   * Aggiorna il tuo `.magento/services.yaml`.
+   * Aggiorna `.magento/services.yaml`.
 
    ```
    mysql:
@@ -118,7 +118,7 @@ Segui questi passaggi:
                     main: ro
    ```
 
-   * Aggiorna il tuo `.magento.app.yaml`.
+   * Aggiorna `.magento.app.yaml`.
 
    ```
    relationships:
@@ -127,9 +127,9 @@ Segui questi passaggi:
             redis: "redis:redis"
    ```
 
-1. Ottenere informazioni sulla connessione del database a Commerce Intelligence.
+1. Ottenere informazioni per la connessione del database a Commerce Intelligence.
 
-   Esegui `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp` per ottenere informazioni sulla connessione al database.
+   Eseguire `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 --decode | json_pp` per ottenere informazioni sulla connessione al database.
 
    Dovresti ricevere informazioni simili a quelle riportate di seguito:
 
@@ -156,34 +156,34 @@ Segui questi passaggi:
 
 1. Connetti il tuo database Adobe Commerce.
 
-   ![Connettere il database Adobe Commerce](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
+   ![Connetti il tuo database Adobe Commerce](/help/troubleshooting/miscellaneous/assets/connect_magento_database_mbi.png)
 
    *Input*:
 
-   * Nome integrazione: [Scegli un nome per l’integrazione.]
+   * Nome integrazione: [Scegliere un nome per l&#39;integrazione.]
    * Host: `mbi.internal`
    * Porta: 3306
    * Nome utente: mbi
-   * Password: [password di input fornita nell&#39;output del punto 8.]
+   * Password: [password di input fornita nell&#39;output del passaggio 8.]
    * Nome database: main
-   * Prefissi tabella: [lascia vuoto se non sono presenti prefissi di tabella]
+   * Prefissi tabella: [lasciare vuoto se non sono presenti prefissi tabella]
 
-1. Imposta il [!UICONTROL Timezone Settings].
+1. Imposta [!UICONTROL Timezone Settings].
 
-   ![Impostazioni del fuso orario](/help/troubleshooting/miscellaneous/assets/timezone_settings_mbi.png)
+   ![Impostazioni fuso orario](/help/troubleshooting/miscellaneous/assets/timezone_settings_mbi.png)
 
    *Input*
 
    * Database: Fuso orario: UTC
-   * Fuso orario desiderato: [Scegli il fuso orario in cui visualizzare i dati.]
+   * Fuso orario desiderato: [Scegliere il fuso orario in cui visualizzare i dati.]
 
 1. Ottieni informazioni sulle impostazioni di crittografia.
 
-   * L’interfaccia utente del progetto fornisce una stringa di accesso SSH. Questa stringa può essere utilizzata per raccogliere le informazioni necessarie per l&#39;indirizzo remoto e il nome utente nella configurazione **[!UICONTROL Encryption settings]**. Seleziona **[!UICONTROL SSH]** per visualizzare il nome utente e l&#39;indirizzo remoto. La stringa di testo prima del *@* è il tuo nome utente e la stringa di testo dopo *@* è il tuo indirizzo remoto.
+   * L’interfaccia utente del progetto fornisce una stringa di accesso SSH. Questa stringa può essere utilizzata per raccogliere le informazioni necessarie per l&#39;indirizzo remoto e il nome utente durante la configurazione di **[!UICONTROL Encryption settings]**. Selezionare **[!UICONTROL SSH]** per visualizzare il nome utente e l&#39;indirizzo remoto. La stringa di testo prima di *@* è il tuo nome utente e la stringa di testo dopo *@* è il tuo indirizzo remoto.
 
-   ![Accedi a pagina mastro sito](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
+   ![Accedi a sito principale](/help/troubleshooting/miscellaneous/assets/access_site_mbi.png)
 
-1. Informazioni di input per [!UICONTROL Encryption Settings].
+1. Immettere le informazioni per [!UICONTROL Encryption Settings].
 
    ![Impostazioni crittografia](/help/troubleshooting/miscellaneous/assets/encryption_type_mbi.png)
 
@@ -194,6 +194,6 @@ Segui questi passaggi:
    * Nome utente: vfbfui4vmfez6-master-7rqtwti—mymagento
    * Porta: 22
 
-1. Clic **[!UICONTROL Save Integration]**.
+1. Fare clic su **[!UICONTROL Save Integration]**.
 1. Connessione all&#39;account Commerce Intelligence Essentials completata.
 1. Se sei un cliente Adobe Commerce Intelligence Pro, contatta il tuo Customer Success Manager o il tuo consulente tecnico per coordinare i passaggi successivi.

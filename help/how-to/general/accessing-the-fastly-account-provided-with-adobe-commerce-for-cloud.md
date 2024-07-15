@@ -20,8 +20,8 @@ Consulta la sezione [Ottieni credenziali rapide](https://devdocs.magento.com/clo
 
 ## Come verificare le credenziali Fastly
 
-Consulta la sezione [Verificare le credenziali Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) nella documentazione per gli sviluppatori.
+Consulta la sezione [Verifica credenziali rapide](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-[Modifica il proprietario dell’account (accedere alle credenziali tramite token API) per Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) nella nostra knowledge base di supporto.
+[Modifica il proprietario dell&#39;account (accedi alle credenziali tramite token API) per Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) nella knowledge base di supporto.

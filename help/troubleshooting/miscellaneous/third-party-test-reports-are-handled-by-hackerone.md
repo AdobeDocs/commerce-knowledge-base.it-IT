@@ -1,5 +1,5 @@
 ---
-title: Le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti devono essere indirizzate a [!DNL HackerOne]
+title: Le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti dovrebbero andare a  [!DNL HackerOne]
 description: Questo articolo fornisce una soluzione per risolvere le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti.
 feature: Security
 role: Developer, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti devono essere indirizzate a [!DNL HackerOne]
+# Le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti devono andare a [!DNL HackerOne]
 
 Questo articolo fornisce una soluzione per risolvere le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti.
 
@@ -25,4 +25,4 @@ Merchant ha eseguito un test PEN attraverso un&#39;agenzia di sicurezza indipend
 
 ## Soluzioni
 
-Le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti devono essere inviate al [!DNL HackerOne] sito Web. Adobe Commerce non dispone di un punto di contatto diretto in [!DNL HackerOne], in modo da poter contattare direttamente [!DNL HackerOne]. Adobe gestisce solo il report MST (Magento Security Scan tool).
+Le vulnerabilità rilevate dalle analisi di sicurezza di terze parti devono essere inviate al sito Web [!DNL HackerOne]. Adobe Commerce non dispone di un punto di contatto diretto in [!DNL HackerOne], pertanto devi contattare direttamente [!DNL HackerOne]. Adobe gestisce solo il report MST (Magento Security Scan tool).

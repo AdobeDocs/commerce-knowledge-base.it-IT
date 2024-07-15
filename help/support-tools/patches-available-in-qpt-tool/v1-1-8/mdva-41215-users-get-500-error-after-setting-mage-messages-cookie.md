@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-41215: errore 500 dopo l&#39;impostazione del cookie &quot;mage-messages&quot;
 
-La patch MDVA-41215 risolve il problema che causa l&#39;errore 500 degli utenti dopo aver impostato il cookie &quot;mage-messages&quot;, se esiste già, ma non sono presenti nuovi messaggi. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8. L&#39;ID della patch è MDVA-41215. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch MDVA-41215 risolve il problema che causa l&#39;errore 500 degli utenti dopo aver impostato il cookie &quot;mage-messages&quot;, se esiste già, ma non sono presenti nuovi messaggi. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8. L&#39;ID della patch è MDVA-41215. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 Adobe Commerce (tutti i metodi di implementazione) 2.4.1
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.3.0 - 2.4.3-p1
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -38,7 +38,7 @@ Gli utenti ricevono l’errore 500 dopo aver impostato il cookie &quot;mage-mess
 1. Vai a **../cliente/account/accesso**.
 1. Apri la scheda Rete negli strumenti di sviluppo del browser (assicurati che sia selezionato l’opzione mantieni registro).
 1. Compila il modulo con valori non validi (l’accesso non dovrebbe riuscire).
-1. Clic **Invia**.
+1. Fai clic su **Invia**.
 1. Copia come cURL la prima richiesta dalla scheda di rete e cerca i valori PHPSESSID e form_key.
 1. Sostituisci i valori PHPSESSID e form_key nella richiesta cURL aggiornata e inviala.
 
@@ -49,24 +49,24 @@ Gli utenti ricevono l’errore 500 dopo aver impostato il cookie &quot;mage-mess
 
 <u>Risultati previsti</u>:
 
-Utenti ottengono `HTTP/1.1 200 OK`
+Gli utenti ottengono `HTTP/1.1 200 OK`
 
 <u>Risultati effettivi</u>:
 
-Utenti ottengono `HTTP/1.1 500 Internal Server Error`
+Gli utenti ottengono `HTTP/1.1 500 Internal Server Error`
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

@@ -36,4 +36,4 @@ Una correzione sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pia
    * [Problema del metodo di pagamento nazionale in Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.5 e 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
    * [Adobe Commerce richiede ai clienti di effettuare l’accesso ma fornisce un collegamento non valido](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
    * [Patch per il problema di pagamento Amazon in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
-   * [Adobe Commerce 2.3.5 Problemi noti nella documentazione per gli sviluppatori](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)
+   * [Problemi noti di Adobe Commerce 2.3.5 nella documentazione per gli sviluppatori](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione per i casi in cui i moduli inclusi nelle 
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce (tutti i metodi di distribuzione) tutto  [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* Adobe Commerce (tutti i metodi di distribuzione) tutte le [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
@@ -31,8 +31,8 @@ Questo comportamento è previsto in quanto le estensioni in bundle con il fornit
 
 ## Soluzione
 
-Installa/acquista separatamente le estensioni ufficiali. Questi sono disponibili sul sito [Commerce Marketplace](https://marketplace.magento.com/extensions.html).
+Installa/acquista separatamente le estensioni ufficiali. Sono disponibili nella [Commerce Marketplace](https://marketplace.magento.com/extensions.html).
 
 ## Lettura correlata
 
-[Estensioni in bundle con il fornitore](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) in Documentazione di Adobe Commerce > Informazioni sulla versione > Note sulla versione di Adobe Commerce 2.4.4.
+[Estensioni in bundle con il fornitore](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions) nella documentazione di Adobe Commerce > Informazioni sulla versione > Note sulla versione di Adobe Commerce 2.4.4.

@@ -24,27 +24,27 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 in cui la conv
 
 Prerequisiti:
 
-Abilita **Pulizia degli indirizzi verticali**. Per i passaggi, consulta [Configurazione della pulizia degli indirizzi di Storefront](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) nella guida utente.
+Abilita **Pulizia indirizzi vertici**. Per i passaggi, consulta [Configurazione della pulizia degli indirizzi di Storefront](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) nella nostra guida utente.
 
 <u>Passaggi da riprodurre:</u>
 
 1. Crea un account e accedi.
-1. Aggiungi un articolo al carrello facendo clic su **Aggiungi al carrello**. Fai clic sull’icona del carrello, quindi fai clic su **Procedi all&#39;estrazione**.
-1. Immetti un indirizzo valido in **Indirizzo di spedizione** campo.
-1. Seleziona una delle opzioni in **Metodi di spedizione**. Quindi fai clic su **Successivo**.
-1. Se la convalida degli indirizzi suggerisce informazioni diverse sull&#39;indirizzo, fare clic su **Aggiorna indirizzo** e fai clic su **Successivo**.
-1. Deseleziona la **Il mio indirizzo di fatturazione e spedizione è lo stesso** casella di controllo.
+1. Aggiungere un elemento al carrello facendo clic su **Aggiungi al carrello**. Fai clic sull&#39;icona del carrello, quindi fai clic su **Procedi all&#39;estrazione**.
+1. Immettere un indirizzo valido nel campo **Indirizzo di spedizione**.
+1. Selezionare una delle opzioni in **Metodi di spedizione**. Quindi fare clic su **Avanti**.
+1. Se la convalida degli indirizzi suggerisce informazioni sull&#39;indirizzo diverse, fare clic su **Aggiorna indirizzo** e su **Avanti**.
+1. Deseleziona **La casella di controllo Il mio indirizzo di fatturazione e di spedizione è uguale**.
 
 <u>Primo scenario:</u>
 
-Segui le [oltre sei passaggi](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) e quindi:
+Segui i [sei passaggi precedenti](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) e quindi:
 
 1. Immettere un nuovo indirizzo di fatturazione valido.
-1. Fai clic sul pulsante **Aggiorna** pulsante. Il messaggio/suggerimento verrà visualizzato come segue: *Indirizzo non valido.* Seguirà un suggerimento di indirizzo come: *Codice postale : XXXXX- XXXX Via : XXX Via XXX*
-1. Fai clic sul pulsante **Aggiorna** (non fare clic sul pulsante **Aggiorna indirizzo** suggerimento di indirizzi verticali).
-1. Fai clic sul pulsante **Modifica** pulsante dell’indirizzo di fatturazione aggiornato.
+1. Fai clic sul pulsante **Aggiorna**. Il messaggio/suggerimento verrà visualizzato come segue: *Indirizzo non valido.* Seguirà un suggerimento di indirizzo come: *Codice postale: XXXXX- XXXX Via: XXX Via XXX*
+1. Fai clic sul pulsante **Aggiorna** (non fare clic sul pulsante **Aggiorna indirizzo** del suggerimento per gli indirizzi verticali).
+1. Fai clic sul pulsante **Modifica** dell&#39;indirizzo di fatturazione aggiornato.
 1. Seleziona l’indirizzo dal menu a discesa dell’indirizzo.
-1. Fai clic sul pulsante **Aggiorna** pulsante.
+1. Fai clic sul pulsante **Aggiorna**.
 
 <u>Risultato previsto:</u>
 
@@ -52,16 +52,16 @@ Il messaggio di convalida/suggerimento precedente viene rimosso.
 
 <u>Risultato effettivo:</u>
 
-Messaggio/suggerimento di convalida *&quot;Indirizzo non valido Codice postale : XXXXX-XXXX Via : XXX Via XXX Città XXX&quot;* il messaggio è **NOT** è stato rimosso. Lo stesso problema si verifica se si immette un indirizzo non valido nel modulo.
+Messaggio/suggerimento di convalida *&quot;Indirizzo non valido Codice postale: XXXXX-XXXX Via: XXX Via XXX Città XXX&quot;* Il messaggio è **NOT** rimosso. Lo stesso problema si verifica se si immette un indirizzo non valido nel modulo.
 
 <u>Secondo scenario:</u>
 
-Segui le [oltre sei passaggi](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) e quindi:
+Segui i [sei passaggi precedenti](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) e quindi:
 
 1. Compila il modulo dell’indirizzo con un indirizzo valido.
-1. Fai clic sul pulsante **Aggiorna** pulsante. Il messaggio/suggerimento verrà visualizzato come segue: *Indirizzo non valido.* Seguirà un suggerimento di indirizzo come: *Codice di avviamento postale: XXXXX-XXXX Via: XXX Via XXX*.
-1. Fai clic sul pulsante **Aggiorna** (non fare clic sul pulsante **Aggiorna indirizzo** pulsante di suggerimento dell&#39;indirizzo del vertice).
-1. Controlla la ***Il mio indirizzo di fatturazione e spedizione è lo stesso*** a discesa.
+1. Fai clic sul pulsante **Aggiorna**. Il messaggio/suggerimento verrà visualizzato come segue: *Indirizzo non valido.* Seguirà un suggerimento di indirizzo come: *Codice postale: XXXXX-XXXX Via: XXX Via XXX*.
+1. Fai clic sul pulsante **Aggiorna** (non fare clic sul pulsante **Aggiorna indirizzo** del suggerimento di indirizzo del vertice).
+1. Controlla che l&#39;elenco a discesa ***Il mio indirizzo di fatturazione e di spedizione sia lo stesso***.
 
 <u>Risultato previsto:</u>
 
@@ -69,7 +69,7 @@ Il messaggio di convalida/suggerimento precedente viene rimosso.
 
 <u>Risultato effettivo:</u>
 
-Messaggio/suggerimento di convalida *&quot;Indirizzo non valido Codice postale: XXXXX-XXXX Street XXX City street XXX&quot;* il messaggio è **NOT** è stato rimosso. Lo stesso problema si verifica se si immette un indirizzo non valido nel modulo.
+Messaggio/suggerimento di convalida *&quot;Non è stato trovato un indirizzo valido Codice postale: XXXXX-XXXX Via XXX Via XXX Città XXX&quot;* Il messaggio è **NOT** rimosso. Lo stesso problema si verifica se si immette un indirizzo non valido nel modulo.
 
 ## Lettura correlata nella knowledge base di supporto:
 

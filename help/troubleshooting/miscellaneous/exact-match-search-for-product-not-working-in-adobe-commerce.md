@@ -24,13 +24,13 @@ Questo articolo fornisce un chiarimento per il problema in cui i risultati della
 
 <u>Prerequisiti:</u>
 
-Sono presenti prodotti con valori attributo `Saga 1` e `Saga 16` sia negli store di Adobe Commerce 2.3 che in quelli di Adobe Commerce 2.4.
+Sono presenti prodotti con valori di attributo `Saga 1` e `Saga 16` negli archivi di Adobe Commerce 2.3 e Adobe Commerce 2.4.
 
 <u>Passaggi da riprodurre:</u>
 
-1. Nella parte anteriore di un negozio basato su Adobe Commerce 2.3, immetti *Saga 1* nel campo di ricerca e fai clic su **Ricerca**.
-1. Nei risultati della ricerca, si ottengono solo i prodotti con il valore dell’attributo `Saga 1`.
-1. Nella vetrina di un negozio basato su Adobe Commerce 2.4, immetti *Saga 1* nel campo di ricerca e fai clic su **Ricerca**.
+1. Nella parte anteriore di un negozio basato su Adobe Commerce 2.3, immetti *Saga 1* nel campo di ricerca e fai clic su **Cerca**.
+1. Si noti che nei risultati di ricerca si ottengono solo i prodotti con il valore di attributo `Saga 1`.
+1. Nella parte anteriore di un negozio basato su Adobe Commerce 2.4, immetti *Saga 1* nel campo di ricerca e fai clic su **Cerca**.
 
 <u>Risultato effettivo:</u>
 
@@ -38,7 +38,7 @@ I risultati della ricerca in 2.4 includono prodotti con valori di attributo `Sag
 
 <u>Risultato previsto:</u>
 
-I risultati di ricerca in 2.4 sono simili a 2.3 e includono solo prodotti con valore di attributo `Saga 1`.
+I risultati della ricerca in 2.4 sono simili a 2.3 e includono solo prodotti con valore di attributo `Saga 1`.
 
 ## Causa
 
@@ -46,6 +46,6 @@ La funzionalità di ricerca nativa di Adobe Commerce utilizzata nella versione 2
 
 ## Lettura correlata
 
-[Installare Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) nella guida utente.
+[Installa Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) nella guida utente.
 
 [Live Search](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) nella documentazione per gli sviluppatori.

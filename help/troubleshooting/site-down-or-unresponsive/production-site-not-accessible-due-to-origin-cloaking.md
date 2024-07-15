@@ -26,13 +26,13 @@ https:&#x200B;//mydomain.com.c.&lt;projectid>.magento.cloud/ non è più accessi
 <u>Passaggi da riprodurre:</u>
 
 1. Accedi al progetto.
-1. Clic **Progetto di Access** per un elenco di URL e SSH.
+1. Fare clic su **Progetto di Access** per visualizzare un elenco di URL e SSH.
 
 <u>Risultati effettivi:</u>
 
 Impossibile caricare la pagina con il seguente errore:
 
-*NET::ERR\_CERT\_INVALID*  *Avviso TLS, certificato non valido (554):*
+*NET::ERR\_CERT\_INVALID* *Avviso TLS, certificato non valido (554):*
 
 <u>Risultati previsti:</u>
 
@@ -47,8 +47,8 @@ Il cloaking dell’origine è una funzione di sicurezza che consente ad Adobe Co
 ## Soluzione
 
 * Se il sito cloud è attivo, passa a https://mydomain.com/.
-* Se disponi di un sito attivo (non cloud), utilizzando il dominio https://mydomain.com/, imposta un sottodominio `mcprod.mydomain.com` e aggiornare **URL di base** a *https://mcprod.mydomain.com* invece, allora [puntare il DNS a Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* Se disponi di un sito attivo (non cloud) che utilizza il dominio https://mydomain.com/, configura un sottodominio `mcprod.mydomain.com` e aggiorna **URL di base** in *https://mcprod.mydomain.com*, quindi [punta il DNS a Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
 
 ## Lettura correlata
 
-[Domande frequenti sull’abilitazione del cloaking dell’origine rapida](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) nella nostra knowledge base di supporto.
+[Domande frequenti sull&#39;abilitazione del cloaking dell&#39;origine rapida](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) nella knowledge base di supporto.

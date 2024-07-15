@@ -21,7 +21,7 @@ In questo argomento viene illustrata la soluzione di un problema tipico che può
 
 ## Problema
 
-Quando distribuisci il codice tra ambienti diversi, gli script di build e distribuzione verificano i `master/production/staging` il ramo viene distribuito per mantenere abilitate le Google Analytics. Quando si distribuiscono rami di sviluppo (o secondari) di master in ambienti di sviluppo (integrazione), lo script di distribuzione disabilita le Google Analytics.
+Durante la distribuzione del codice tra ambienti, gli script di compilazione e distribuzione verificano che il ramo `master/production/staging` sia distribuito per mantenere abilitate le Google Analytics. Quando si distribuiscono rami di sviluppo (o secondari) di master in ambienti di sviluppo (integrazione), lo script di distribuzione disabilita le Google Analytics.
 
 ## Causa
 
@@ -29,7 +29,7 @@ Questa è una funzione progettata per garantire che i dati e le interazioni degl
 
 ## Soluzione
 
-Se desideri che le Google Analytics siano sempre abilitate, imposta la variabile di distribuzione `ENABLE_GOOGLE_ANALYTICS = true`, come descritto in [Distribuire le variabili](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) nella documentazione per gli sviluppatori.
+Se si desidera che le Google Analytics siano sempre abilitate, impostare la variabile di distribuzione `ENABLE_GOOGLE_ANALYTICS = true`, come descritto in [Distribuire variabili](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >

@@ -27,14 +27,14 @@ Quando si utilizza Amazon Pay durante il pagamento, i clienti accedono agli acco
 <u>Passaggi da riprodurre:</u>
 
 1. Nella vetrina, aggiungi qualsiasi elemento al carrello e procedi al pagamento come ospite.
-1. Fai clic su **Amazon Pay** pulsante. Viene visualizzato il pop-up di accesso a Amazon.com.
+1. Fai clic sul pulsante **Amazon Pay**. Viene visualizzato il pop-up di accesso a Amazon.com.
 1. Accedi all’account Amazon.
-1. Seleziona un indirizzo e fai clic su **Successivo**.
+1. Seleziona un indirizzo e fai clic su **Avanti**.
 1. Seleziona il metodo di pagamento.
-1. Clic **Inserisci ordine**.
+1. Fai clic su **Ordina**.
 1. Torna alla home page e accedi all’account del negozio.
 1. Aggiungi di nuovo qualsiasi elemento al carrello e procedi al pagamento.
-1. Fai clic su **Amazon Pay** pulsante.
+1. Fai clic sul pulsante **Amazon Pay**.
 
 <u>Risultato effettivo:</u>
 
@@ -48,7 +48,7 @@ Viene visualizzata una finestra a comparsa per l&#39;accesso a Amazon.com e puoi
 
 Il problema può verificarsi in una delle seguenti situazioni:
 
-* Quando `SameSite` il valore del cookie è `LAX`, il cookie non verrà inviato come parte di chiamate di terze parti.
+* Quando il valore del cookie `SameSite` è `LAX`, il cookie non verrà inviato come parte di chiamate di terze parti.
 * La funzione di blocco dei contenuti di Mozilla Firefox impedisce a terzi di monitorare le attività degli utenti del browser bloccando l’utilizzo di script e meccanismi di archiviazione lato client. Firefox utilizza un fornitore esterno, Disconnect.me, per fornire un elenco di siti di tracciamento da bloccare. Amazon Pay utilizza un iframe in un sito web di terze parti per restituire un token di accesso dopo l’accesso ed eseguire il rendering del widget Indirizzo e wallet. Con la funzione di blocco dei contenuti, le richieste di caricamento degli iframe in Amazon Pay vengono considerate come richieste di tracciamento di terze parti e vengono bloccate, impedendo all’acquirente di procedere con il pagamento.
 * Qualsiasi situazione in cui i cookie di terze parti o JS vengono bloccati esplicitamente dal browser.
 

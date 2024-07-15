@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Modifica l&#39;indirizzo e-mail dell&#39;account di Adobe corrente
 
-Questo articolo spiega come modificare l’indirizzo e-mail corrente registrato nel [account Adobe](https://account.adobe.com/) a un nuovo indirizzo attualmente non registrato in [account Adobe](https://account.adobe.com/) o [Account Magento](https://account.magento.com/).
+In questo articolo viene illustrato come modificare l&#39;indirizzo di posta elettronica corrente registrato nell&#39;[account di Adobe](https://account.adobe.com/) in un nuovo indirizzo attualmente non registrato nell&#39;[account di Adobe](https://account.adobe.com/) o nell&#39;[account di Magento](https://account.magento.com/).
 
 ## Prodotti e versioni interessati
 
@@ -28,6 +28,6 @@ Se non hai accesso all’indirizzo e-mail corrente, imposta l’inoltro e-mail d
 
 Per modificare l’indirizzo e-mail, segui la procedura riportata di seguito:
 
-1. Reimposta la password utilizzata con il vecchio indirizzo e-mail. Seguire le istruzioni fornite in [Reimposta password dimenticata](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) nell&#39;Adobe helpx.
+1. Reimposta la password utilizzata con il vecchio indirizzo e-mail. Segui le istruzioni fornite in [Reimposta password dimenticata](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
 1. Il collegamento per la reimpostazione della password viene inviato alla cassetta postale del proprietario corrente con le istruzioni.
-1. Accedi a [Pagina account Adobe](https://account.adobe.com) per accedere con la nuova e-mail e impostare la password.
+1. Passa alla [pagina dell&#39;account di Adobe](https://account.adobe.com) per accedere con la nuova e-mail e impostare la password.

@@ -17,7 +17,7 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.2.1 
 
 ## Problema
 
-In Adobe Commerce 2.2.1 con l’estensione B2B installata, gli ordini creati in vetrina da un cliente registrato non vengono visualizzati nell’elenco degli ordini nell’account del cliente in Commerce Admin. Nel registro di debug (`./var/log/debug.log`), viene registrato il seguente errore:
+In Adobe Commerce 2.2.1 con l’estensione B2B installata, gli ordini creati in vetrina da un cliente registrato non vengono visualizzati nell’elenco degli ordini nell’account del cliente in Commerce Admin. Nel registro di debug (`./var/log/debug.log`) viene registrato il seguente errore:
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
@@ -30,9 +30,9 @@ Il catalogo dello store contiene prodotti, non dati di esempio di Adobe Commerce
 1. Passa alla vetrina e crea un account cliente.
 1. Aggiungi un prodotto al carrello, completa il pagamento e invia un ordine.
 1. Accedi all’amministratore.
-1. Accedi a **Clienti,** quindi scegli **Tutti i clienti**.
-1. Per il cliente appena creato, fai clic su **Modifica**.
-1. Clic **Ordini** nel pannello a sinistra.
+1. Passa a **Clienti,** quindi scegli **Tutti i clienti**.
+1. Per il cliente appena creato, fare clic su **Modifica**.
+1. Fai clic su **Ordini** nel pannello a sinistra.
 
 <u>Risultato previsto</u>:
 
@@ -61,6 +61,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto, per istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

@@ -1,6 +1,6 @@
 ---
-title: Google Tag Manager è danneggiato dal [!DNL Live Search] widget
-description: Questo articolo offre una soluzione per [!DNL Live Search Product Listing Widget] causando [!DNL Google Tag Manager] per interrompere il funzionamento.
+title: Google Tag Manager è danneggiato dal widget  [!DNL Live Search]
+description: Questo articolo offre una soluzione a  [!DNL Live Search Product Listing Widget] causando [!DNL Google Tag Manager] l'interruzione del funzionamento.
 feature: Install, Search, Best Practices
 role: Admin, Developer
 exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Google Tag Manager] è danneggiato dal [!DNL Live Search] widget
+# [!DNL Google Tag Manager] è danneggiato dal widget [!DNL Live Search]
 
-Questo articolo offre una soluzione per [!DNL Live Search Product Listing Widget] causando [!DNL Google Tag Manager] per interrompere il funzionamento.
+Questo articolo offre una soluzione a [!DNL Live Search Product Listing Widget] causando l&#39;interruzione del funzionamento di [!DNL Google Tag Manager].
 
 ## Prodotti e versioni interessati
 
@@ -21,13 +21,13 @@ Questo articolo offre una soluzione per [!DNL Live Search Product Listing Widget
 
 ## Problema
 
-Il [!DNL Live Search Product Listing Widget] cause [!DNL Google Tag Manager] per interrompere il funzionamento.
+[!DNL Live Search Product Listing Widget] impedisce a [!DNL Google Tag Manager] di funzionare.
 
 ## Soluzione
 
-Per garantire che [!DNL Google Tag Manager] funziona con [!DNL Live Search], utilizza *Cerca scheda*.
+Per assicurarsi che [!DNL Google Tag Manager] funzioni con [!DNL Live Search], utilizzare la *scheda di ricerca*.
 
-A questo scopo, disattiva il widget in Admin. [!DNL Live Search] then utilizza il *Cerca scheda*.
+A questo scopo, disattiva il widget in Admin. [!DNL Live Search] utilizza quindi per impostazione predefinita l&#39;*Scheda di ricerca*.
 
 ## Lettura correlata
 

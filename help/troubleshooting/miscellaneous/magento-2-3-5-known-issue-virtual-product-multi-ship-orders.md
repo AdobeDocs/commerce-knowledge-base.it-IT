@@ -25,7 +25,7 @@ Questo articolo spiega un problema noto in Adobe Commerce 2.3.5 in cui un ordine
 <u>Passaggi da riprodurre</u>:
 
 1. Nella vetrina, aggiungi prodotti fisici e virtuali al carrello.
-1. Procedi con il pagamento e seleziona **Check-Out con più indirizzi**.
+1. Procedi con l&#39;estrazione e seleziona **Estrai con più indirizzi**.
 1. Aggiungi tutte le informazioni richieste e ordina.
 
 <u>Risultato previsto</u>:

@@ -33,7 +33,7 @@ Nessun errore.
 
 <u>Risultato effettivo</u>:
 
-Dopo l&#39;aggiornamento a laminas/laminas-escape:2.7.1, sulla pagina di modifica del prodotto (o di gestione del prodotto) viene visualizzato un messaggio di errore: *TypeError: rawurlencode() prevede che il parametro 1 sia una stringa, int specificato in /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*
+Dopo l&#39;aggiornamento a laminas/laminas-escape:2.7.1 viene visualizzato un messaggio di errore in una pagina di modifica del prodotto (o di gestione del prodotto): *Errore di tipo: rawurlencode() prevede che il parametro 1 sia una stringa, int fornito in /var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php:246*
 Questo errore si verifica sulle pagine front-end e Admin causando la distorsione del contenuto della pagina.
 
 ## Causa
@@ -42,8 +42,8 @@ laminas/laminas-escape 2.7.1 ha iniziato a utilizzare la convalida rigorosa del 
 
 ## Soluzione
 
-Esegui `composer require laminas/laminas-escaper:2.7.0` nella directory principale di ciascun progetto.
+Eseguire `composer require laminas/laminas-escaper:2.7.0` nella directory principale di ciascun progetto.
 
 ## Lettura correlata
 
-Documentazione laminas: [Fuga laminare](https://docs.laminas.dev/laminas-escaper/)
+Documentazione laminas: [laminas-escape](https://docs.laminas.dev/laminas-escaper/)

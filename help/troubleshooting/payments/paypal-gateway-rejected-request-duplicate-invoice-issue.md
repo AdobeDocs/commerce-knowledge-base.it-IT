@@ -53,20 +53,20 @@ Per impostazione predefinita, PayPal non consente di elaborare due volte la stes
 
 Modifica il tuo profilo PayPal per consentire più pagamenti per ID fattura. Devi apportare queste modifiche tramite PayPal.
 
-1. Accedi al tuo account all’indirizzo [https://www.paypal.com](https://www.paypal.com/).
-1. Clic **Profilo** > **Profilo e impostazioni** (angolo superiore destro).
+1. Accedi al tuo account all&#39;indirizzo [https://www.paypal.com](https://www.paypal.com/).
+1. Fai clic su **Profilo** > **Profilo e impostazioni** (angolo superiore destro).
 1. Vai a **I miei strumenti di vendita**.
-1. Accedi a **Pagamento e gestione dei rischi** > **Blocca pagamenti** e fai clic su **Aggiorna**.
+1. Passa a **Pagamento e gestione dei rischi** > **Blocca pagamenti** e fai clic su **Aggiorna**.
 1. **Preferenze di vendita**, fai clic su **Preferenze di ricezione pagamento**.
-1. Sotto **Blocca pagamenti accidentali**, scegli **No, consenti più pagamenti per ID fattura**.    ![paypal_allow_multiple_payments_per_invo_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
+1. In **Blocca pagamenti accidentali**, scegliere **No, consenti più pagamenti per ID fattura**.    ![paypal_allow_multiple_payments_per_invo_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
 1. Scorri verso il basso e fai clic su **Salva**.
 
 ## Ulteriori informazioni
 
-* [Blocca pagamenti accidentali](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) sui documenti per sviluppatori PayPal.
+* [Blocca pagamenti accidentali](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) nei documenti per sviluppatori PayPal.
 * Pagamenti PayPal nella nostra guida utente:
    * [Pagamento PayPal Express](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
    * [Altre soluzioni PayPal](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)
 * Nella documentazione per gli sviluppatori:
    * [Impostare i metodi di pagamento PayPal per Adobe Commerce su infrastruttura cloud](/docs/commerce-cloud-service/user-guide/configure-store/paypal.html)
-   * [Integrazioni di pagamenti](https://developer.adobe.com/commerce/php/development/payments-integrations/)
+   * [Integrazioni pagamenti](https://developer.adobe.com/commerce/php/development/payments-integrations/)

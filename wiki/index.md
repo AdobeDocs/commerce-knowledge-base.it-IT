@@ -9,7 +9,7 @@ ht-degree: 0%
 
 Ti diamo il benvenuto nella pagina principale della documentazione dell’archivio della Knowledge Base di supporto Adobe Commerce.
 Qui puoi trovare i documenti che ti aiutano a creare contributi e modelli più adatti, con lo stesso scopo.
-Per informazioni sul flusso di contributi generale, vai a [Guida per i collaboratori](../.github/CONTRIBUTING.md).
+Per ulteriori informazioni sul flusso di contributi generali, visitare la [Guida per i collaboratori](../.github/CONTRIBUTING.md).
 
 ## Guide
 

@@ -36,25 +36,25 @@ Se devi utilizzare lo script allegato e la patch, o solo lo script, dipende dall
 
 Per queste versioni è necessario applicare la patch ed eseguire lo script di pulizia del database associato per terminare la registrazione continua ed eliminare i registri.
 
-1. Eseguire la patch del compositore per interrompere la registrazione. Questa patch è allegata all’articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file, oppure fai clic sul seguente collegamento [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). Per istruzioni su come applicare il cerotto, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+1. Eseguire la patch del compositore per interrompere la registrazione. Questa patch è allegata all’articolo. Per scaricarlo, scorri verso il basso fino alla fine dell&#39;articolo e fai clic sul nome del file, oppure sul seguente collegamento [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). Per istruzioni su come applicare la patch, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
-1. Ora esegui lo script per pulire il database dai tentativi di accesso non riusciti preesistenti. Questo script è allegato all’articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file, oppure fai clic sul seguente collegamento [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
+1. Ora esegui lo script per pulire il database dai tentativi di accesso non riusciti preesistenti. Questo script è allegato all’articolo. Per scaricarlo, scorrere verso il basso fino alla fine dell&#39;articolo e fare clic sul nome del file oppure sul seguente collegamento [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
-Consulta la sezione [**Come eseguire lo script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) sezione per le istruzioni.
+Fare riferimento alla sezione [**Come eseguire lo script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) per le istruzioni.
 
-**Adobe Commerce e versioni di Magento Open Source 2.3.3 e successive/2.2.10 e successive**<br>
-Solo per queste versioni, esegui lo script seguente per cancellare i vecchi registri (la registrazione è stata terminata in precedenza per queste versioni tramite una correzione rilasciata a ottobre 2019). Questo script è allegato all’articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file, oppure fai clic sul seguente collegamento [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
+**Adobe Commerce e Magento Open Source versioni 2.3.3 e successive/2.2.10 e successive**<br>
+Solo per queste versioni, esegui lo script seguente per cancellare i vecchi registri (la registrazione è stata terminata in precedenza per queste versioni tramite una correzione rilasciata a ottobre 2019). Questo script è allegato all’articolo. Per scaricarlo, scorrere verso il basso fino alla fine dell&#39;articolo e fare clic sul nome del file oppure sul seguente collegamento [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
 
-Consulta la sezione [**Come eseguire lo script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) sezione nella knowledge base di supporto, per istruzioni.
+Per istruzioni, fare riferimento alla sezione [**Come eseguire lo script**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) nella Knowledge Base di supporto.
 
 **Come eseguire lo script**
 
 Per eseguire lo script, attenersi alle istruzioni riportate di seguito.
 
-1. Inserisci `DB_CLEANUP_SCRIPT_v2.php` nella directory principale dell’installazione di Adobe Commerce o di Magento Open Source (nella stessa directory dell’app che contiene `app/bootstrap.php`).
-1. Esegui questo comando nel terminale: `php DB_CLEANUP_SCRIPT_v2.php` e avvierà il processo di pulizia del database.
+1. Posiziona `DB_CLEANUP_SCRIPT_v2.php` nella directory principale dell&#39;installazione di Adobe Commerce o di Magento Open Source (nella stessa directory dell&#39;app che contiene `app/bootstrap.php`).
+1. Eseguire questo comando nel terminale `php DB_CLEANUP_SCRIPT_v2.php`. Verrà avviato il processo di pulizia del database.
 
-In caso di problemi durante l&#39;esecuzione dello script, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) o inviaci un&#39;email all&#39;indirizzo [security@magento.com](mailto:security@magento.com).
+Se riscontri problemi durante l&#39;esecuzione dello script, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) o inviaci un&#39;e-mail all&#39;indirizzo [security@magento.com](mailto:security@magento.com).
 
 **File allegati**
 

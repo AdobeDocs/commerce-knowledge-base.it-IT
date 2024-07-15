@@ -21,18 +21,18 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 in cui non ven
 
 ## Problema
 
-<u>Precondizione</u> :
+<u>Precondizione</u>:
 
 Abilita il pagamento Venmo nella configurazione Braintree.
 
-<u>Passaggi da riprodurre</u> :
+<u>Passaggi da riprodurre</u>:
 
 1. Nella vetrina, aggiungi qualsiasi elemento al carrello.
-1. Procedi a **Pagamento**.
+1. Procedi a **Estrai**.
 1. Selezionare il metodo di spedizione appropriato.
 1. Seleziona **Venmo** come metodo di pagamento.
-1. Clic **Paga con Venmo**.
-1. Clic **Inserisci ordine**.
+1. Fai clic su **Paga con Venmo**.
+1. Fai clic su **Ordina**.
 
 <u>Risultati effettivi</u>:
 

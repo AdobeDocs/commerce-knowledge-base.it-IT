@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Errori ECE-Tools e aggiornamento patch per l&#39;infrastruttura cloud Adobe Commerce 2.2.x., 2.3.x
 
-Questo articolo fornisce una soluzione per il problema in cui vengono visualizzati messaggi di errore, tra cui &quot;*impossibile aprire il flusso:*&quot; o &quot;*File o directory non presente*&quot; quando si tenta di distribuire aggiornamenti a strumenti ECE, patch o altre modifiche.
+Questo articolo fornisce una soluzione al problema che causa la visualizzazione di messaggi di errore, tra cui &quot;*impossibile aprire il flusso:*&quot; o &quot;*Nessun file o directory di questo tipo*&quot; durante il tentativo di distribuire aggiornamenti a strumenti ECE, patch o altre modifiche.
 
 ## Prodotti e versioni interessati
 
@@ -21,7 +21,7 @@ Adobe Commerce sull’infrastruttura cloud 2.2.x., 2.3.x
 
 ## Problema
 
-Gli errori durante il tentativo di distribuire aggiornamenti a strumenti ECE, patch o altre modifiche includono: errori PHP nella console Cloud e nella `var/log/cloud.log`
+Gli errori durante il tentativo di distribuire aggiornamenti a strumenti ECE, patch o altre modifiche includono: errori PHP nella console cloud e in `var/log/cloud.log`
 
 ```
 W: PHP Warning: require(<path to file>): failed to open stream: No such file or directory in <path to file> on line 70
@@ -65,11 +65,11 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## Causa
 
-Configurazione errata del `composer.json` file.
+Configurazione errata del file `composer.json`.
 
 ## Soluzione
 
-Se manca un&#39;impostazione `composer.json` , alcune directory non verranno copiate dalla Adobe Commerce Code Base. Impossibile applicare il pacchetto e l&#39;aggiornamento/patch. Impossibile trovare i file.
+Se nel file `composer.json` manca un&#39;impostazione, alcune directory non verranno copiate dalla base di codice di Adobe Commerce. Impossibile applicare il pacchetto e l&#39;aggiornamento/patch. Impossibile trovare i file.
 
 Modifica la sezione aggiuntiva in modo che corrisponda a quella fornita di seguito, quindi ripeti l’implementazione.
 

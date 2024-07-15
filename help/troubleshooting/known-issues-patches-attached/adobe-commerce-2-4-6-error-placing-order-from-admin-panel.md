@@ -21,7 +21,7 @@ Quando effettui un ordine dal pannello di amministrazione, la selezione dei punt
 
 <u>Passaggi da riprodurre</u>
 
-1. Vai a **[!UICONTROL Sales]** > **[!UICONTROL Orders]** e selezionare un cliente per creare un ordine.
+1. Vai a **[!UICONTROL Sales]** > **[!UICONTROL Orders]** e seleziona un cliente per creare un ordine.
 2. Selezionare il punto vendita per effettuare l&#39;ordine dalla schermata del selettore del punto vendita.
 
 <u>Risultato previsto</u>
@@ -44,5 +44,5 @@ La patch è stata creata per e compatibile con Adobe Commerce on cloud infrastru
 
 ## Come applicare il cerotto
 
-* Per istruzioni sull’applicazione di patch per Adobe Commerce sull’infrastruttura cloud, consulta [Applicare le patch](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella Guida all’infrastruttura Commerce on Cloud.
-* Per istruzioni sull’applicazione di patch per Adobe Commerce on-premise, fare riferimento a [Applicare le patch](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) nella Guida all’aggiornamento di Commerce.
+* Per istruzioni sull&#39;applicazione di patch per Adobe Commerce sull&#39;infrastruttura cloud, consulta [Applica patch](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella Guida all&#39;infrastruttura Commerce su Cloud.
+* Per istruzioni sull&#39;applicazione di patch per Adobe Commerce on-premise, fare riferimento a [Applica patch](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) nella Guida all&#39;aggiornamento di Commerce.

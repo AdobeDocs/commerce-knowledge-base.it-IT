@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Descrizioni dei motivi del contatto del ticket di supporto
 
-Questo articolo elenca il ticket di supporto **Motivo del contatto** opzioni di campo e descrizioni più dettagliate di ciascuna.
+In questo articolo sono elencate le opzioni del campo **Motivo contatto** del ticket di supporto e le descrizioni più dettagliate di ciascuna.
 
 ## Motivi di contatto
 
@@ -52,7 +52,7 @@ Questo articolo elenca il ticket di supporto **Motivo del contatto** opzioni di 
 
 ## Motivi dell’applicazione Adobe Commerce
 
-Queste sono le opzioni visualizzate se **Applicazione Adobe Commerce** è selezionato come **Motivo del contatto**:
+Queste sono le opzioni che vengono visualizzate se **Applicazione Adobe Commerce** è selezionata come **Motivo contatto**:
 
 <table class="tg">
 <thead>
@@ -83,8 +83,8 @@ Queste sono le opzioni visualizzate se **Applicazione Adobe Commerce** è selezi
     <td>Domande o problemi relativi a Live Search. Specifica l’ID ambiente indicato nell’amministratore Adobe Commerce in Sistema &gt; Connettore servizi Commerce.</td>
   </tr>
   <tr>
-    <td>PWA Studi</td>
-    <td>Domande o problemi relativi a PWA Studi per Adobe Commerce</td>
+    <td>PWA Studio</td>
+    <td>Domande o problemi relativi a PWA Studio per Adobe Commerce</td>
   </tr>
   <tr>
     <td>Applicazione di base (altro)</td>
@@ -95,7 +95,7 @@ Queste sono le opzioni visualizzate se **Applicazione Adobe Commerce** è selezi
 
 ## Motivi dell&#39;infrastruttura Adobe Commerce Cloud
 
-Queste sono le opzioni visualizzate se **Infrastruttura Adobe Commerce Cloud** è selezionato come **Motivo del contatto**:
+Queste sono le opzioni che vengono visualizzate se **Adobe Commerce Cloud Infrastructure** è selezionato come **Contact Reason**:
 
 <table class="tg">
 <thead>
@@ -150,4 +150,4 @@ Queste sono le opzioni visualizzate se **Infrastruttura Adobe Commerce Cloud** �
 
 ## Lettura correlata
 
-Fai riferimento a [Guida all’Help Center > Spiegazione dei campi dei ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) per visualizzare i dettagli relativi ad altri campi modulo assegnazione ticket.
+Consulta [Guida del Centro assistenza > Informazioni sui campi dei ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) per ulteriori dettagli sugli altri campi modulo di assegnazione dei ticket.

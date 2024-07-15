@@ -11,23 +11,23 @@ ht-degree: 0%
 
 ---
 
-# PWA Studi: errori di convalida durante l’esecuzione della modalità sviluppatore
+# PWA Studio: errori di convalida durante l’esecuzione della modalità sviluppatore
 
 In questo argomento viene illustrata una soluzione che consente di individuare i casi in cui si verificano errori di convalida durante l’esecuzione della modalità sviluppatore in Progressive Web App (PWA) Studio per Adobe Commerce a causa della mancata creazione del concetto di &quot;venia&quot; (Venia è una vetrina PWA). file di ambiente. Questo file conterrà le variabili per l’ambiente di sviluppo locale.
 
 ## Prodotti e versioni interessati
 
-* PWA Studi per Adobe Commerce
+* PWA Studio per Adobe Commerce
 
 ## Problema
 
 <u>Passaggio da riprodurre</u>:
 
-* Esegui modalità sviluppatore in PWA Studi per Adobe Commerce.
+* Esegui modalità sviluppatore in PWA Studio per Adobe Commerce.
 
 <u>Risultato previsto</u>:
 
-* Il server PWA Studi viene avviato normalmente.
+* Il server PWA Studio viene avviato normalmente.
 
 <u>Risultato effettivo</u>:
 
@@ -53,5 +53,5 @@ nella directory principale per generare il file che conterrà le variabili per l
 
 ## Lettura correlata
 
-* [Documentazione di PWA Studi per Adobe Commerce](https://magento.github.io/pwa-studio/)
-* [Venia Storefront (concetto)](https://magento.github.io/pwa-studio/venia-pwa-concept/)
+* [PWA Studi per la documentazione di Adobe Commerce](https://magento.github.io/pwa-studio/)
+* [Venia Storefront (Concetto)](https://magento.github.io/pwa-studio/venia-pwa-concept/)

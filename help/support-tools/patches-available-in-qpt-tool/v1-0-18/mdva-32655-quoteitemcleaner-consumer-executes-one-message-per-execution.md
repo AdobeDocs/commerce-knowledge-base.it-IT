@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-32655: il consumer &quot;quoteItemCleaner&quot; esegue un messaggio per esecuzione
 
-La patch MDVA-32655 corregge lo stato errato del messaggio &quot;in corso&quot; con il messaggio &quot;completo&quot; corretto per il consumatore `quoteItemCleaner` dopo aver eliminato diversi prodotti. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.18. L’ID della patch è 32655. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.3.
+La patch MDVA-32655 corregge lo stato errato del messaggio &quot;in corso&quot; con il messaggio &quot;completo&quot; corretto per il consumatore `quoteItemCleaner` dopo l&#39;eliminazione di diversi prodotti. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.18. L’ID della patch è 32655. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.3.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 Adobe Commerce sull’infrastruttura cloud 2.3.3
 
@@ -27,20 +27,20 @@ Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.0 - 2
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-Il `quoteItemCleaner` il consumer esegue un solo messaggio a ogni esecuzione.
+Il consumer `quoteItemCleaner` esegue un solo messaggio per ogni esecuzione.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Controlla la `queue_message_status` e assicurati che tutti i messaggi della coda esistenti siano in stato &quot;Completato&quot; (ID stato 4).
+1. Controllare la tabella del database `queue_message_status` e assicurarsi che tutti i messaggi della coda esistenti siano in stato &quot;Completato&quot; (ID stato 4).
 1. Interrompi l’esecuzione automatica del cron di Adobe Commerce.
 1. Crea due o tre prodotti semplici.
 1. Effettuare una cancellazione di massa su questi tre prodotti semplici.
-1. In `queue_message_status` tabella sono presenti tre nuovi record per `catalog_product_removed_queue` argomento con ID stato 2 (nuovo record).
-1. Esegui il comando seguente per elaborare questi elementi in sospeso `catalog_product_removed_queue` messaggi:
+1. Nella tabella `queue_message_status` sono presenti tre nuovi record per l&#39;argomento `catalog_product_removed_queue` con ID stato 2 (nuovo record).
+1. Eseguire il comando seguente per elaborare i `catalog_product_removed_queue` messaggi in sospeso:
 
    ```bash
    bin/magento queue:consumers:start quoteItemCleaner --single-thread --max-messages=100
@@ -52,7 +52,7 @@ Il `quoteItemCleaner` il consumer esegue un solo messaggio a ogni esecuzione.
 select * from queue_message_status s join queue q on s.queue_id = q.id where q.name = "catalog_product_removed_queue";
 ```
 
-Tutte le `catalog_product_removed_queue` gli stati dei messaggi vengono aggiornati al completamento (ID=4).
+Tutti gli stati del messaggio `catalog_product_removed_queue` sono aggiornati al completamento (ID=4).
 
 <u>Risultati effettivi</u>:
 
@@ -62,14 +62,14 @@ Solo un record dei tre viene aggiornato allo stato &quot;Completato&quot; (ID = 
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento al [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta le [patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

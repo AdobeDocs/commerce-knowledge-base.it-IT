@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Personalizzare la configurazione del progetto in Commerce Admin
 
-Per informazioni aggiornate sulla personalizzazione della configurazione del progetto in Commerce Admin, consulta [Personalizzare la progettazione dell’amministratore Adobe Commerce](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html) nella documentazione per gli sviluppatori.
+Per informazioni aggiornate sulla personalizzazione della configurazione della progettazione in Commerce Admin, consulta [Personalizzare la progettazione dell&#39;amministratore Adobe Commerce](https://devdocs.magento.com/guides/v2.4/howdoi/admin/customize_admin.html) nella documentazione per gli sviluppatori.

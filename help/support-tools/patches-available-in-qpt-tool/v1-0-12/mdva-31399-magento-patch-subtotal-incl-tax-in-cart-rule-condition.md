@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Patch MDVA-31399: Subtotale (incl. Imposta) nella condizione della regola carrello
 
-La patch MDVA-31399 aggiunge *Subtotale (Incl. Imposta)* opzione per [condizione regola prezzo carrello](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions), per risolvere il problema relativo all&#39;impossibilità di applicare una regola del prezzo del carrello basata sul subtotale (incl. Partita IVA. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12.
+La patch MDVA-31399 aggiunge il subtotale *(incluso Imposta)* opzione per [condizione regola prezzo carrello](https://docs.magento.com/user-guide/v2.3/marketing/price-rules-cart-create.html#step-2-describe-the-conditions), che risolve il problema relativo all&#39;impossibilità di applicare una regola prezzo carrello basata sul subtotale (incl. Partita IVA. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.12.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 Adobe Commerce sull’infrastruttura cloud 2.3.5-p2
 
@@ -27,7 +27,7 @@ Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.2 - 2
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -37,10 +37,10 @@ Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.2 - 2
 
 1. Configura il prezzo del prodotto in modo da includere l&#39;imposta.
 1. Creare una regola fiscale e un&#39;aliquota per il 20%.
-1. Creare un prodotto con **Prezzo** = *100* (questo prezzo include le imposte).
+1. Crea un prodotto con **Prezzo** = *100* (questo prezzo include le imposte).
 1. Crea una nuova regola di prezzo del carrello con un coupon &quot;10off&quot; per applicare uno sconto fisso di $ 10 se il subtotale corrisponde a queste condizioni:
 
-**Condizioni**: *Se TUTTE queste condizioni sono TRUE:*        * **Subtotale** è uguale o maggiore di 100.*
+**Condizioni**: *Se TUTTE queste condizioni sono TRUE:*        * **Il subtotale** è uguale o maggiore di 100.*
 
 <u>Risultati previsti</u>:
 
@@ -54,14 +54,14 @@ Nelle condizioni delle regole del carrello sono disponibili due opzioni: *Subtot
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento al [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta le [patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

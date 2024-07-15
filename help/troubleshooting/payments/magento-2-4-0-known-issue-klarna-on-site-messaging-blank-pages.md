@@ -20,14 +20,14 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.0 con il metodo 
 * Adobe Commerce on-premise 2.4.0
 * Adobe Commerce sull’infrastruttura cloud 2.4.0
 
-<u>Prerequisiti:</u> Il metodo di pagamento Klarna è abilitato.
+<u>Prerequisiti:</u> il metodo di pagamento Klarna è abilitato.
 
 <u>Passaggi da riprodurre:</u>
 
-1. In Commerce Admin, vai a **Negozi** > **Configurazione** > **Vendite** > **Metodi di pagamento** > **Klarna** > **Messaggistica On-Site Klarna**.
-1. Imposta **Abilita** a *Sì*.
-1. Lascia **Tema di progettazione** campo vuoto.
-1. Salva la configurazione facendo clic su **Salva configurazione**.
+1. Nell&#39;amministratore di Commerce, vai a **Negozi** > **Configurazione** > **Vendite** > **Metodi di pagamento** > **Klarna** > **Messaggistica in loco Klarna**.
+1. Imposta **Abilita** su *Sì*.
+1. Lascia vuoto il campo **Tema progettazione**.
+1. Salvare la configurazione facendo clic su **Salva configurazione**.
 1. Vai alla vetrina e passa a qualsiasi pagina di prodotto.
 
 <u>Risultato previsto:</u>
@@ -40,4 +40,4 @@ Viene visualizzata una pagina vuota.
 
 ## Soluzione
 
-Se abiliti la messaggistica sul sito di Klarna, assicurati sempre che il **Tema di progettazione** non è vuoto.
+Se abiliti la messaggistica sul sito di Klarna, accertati sempre che il campo **Tema di progettazione** non sia vuoto.

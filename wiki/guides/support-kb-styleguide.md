@@ -49,16 +49,16 @@ Nel dubbio, non scrivere con l’iniziale maiuscola. Nei titoli, utilizza l’in
 
 ## Elementi dell’interfaccia utente
 
-* Tutto ciò che l’utente fa clic inserisce **grassetto**. Ad esempio, &quot;Fare clic su **Continua**.&quot; I valori delle opzioni e i messaggi di errore sono formattati con _corsivo_.
-* Laddove possibile, evita di menzionare il tipo di elemento dell’interfaccia utente nelle istruzioni. (Fare clic **Successivo**. e fai clic su **Successivo** ).
+* Tutto ciò su cui l&#39;utente fa clic viene inserito in **bold**. Ad esempio, &quot;Fare clic su **Continua**.&quot; I valori delle opzioni e i messaggi di errore sono formattati con _corsivo_.
+* Laddove possibile, evita di menzionare il tipo di elemento dell’interfaccia utente nelle istruzioni. (Fai clic su **Avanti**. e fare clic sul pulsante **Avanti**.)
 * Utilizzare &quot;Scegli&quot; e &quot;>&quot; nelle sequenze di comandi. (Scegli **Modifica** > **Preferenze**. e fai clic su Modifica | Preferenze.)
 * Preposizione: &quot;in&quot; per finestra di dialogo, finestra, sono un, pannello, vista, procedura guidata, elenco, cartella, nodo.
 * Preposizione: &quot;su&quot; per schermo, pagina, barra degli strumenti, barra dei menu, scheda, riquadro, barra multifunzione.
-* Preposizione: clic (clic) **Successivo** e clic su **Successivo**).
+* Preposizione: fai clic su (fai clic su **Avanti** e poi su **Avanti**).
 
 ## Nomi file
 
-I nomi dei file e delle cartelle vengono formattati come codice. Esempio: il `/var/log` La directory di sistema contiene i registri di tutti gli ambienti.
+I nomi dei file e delle cartelle vengono formattati come codice. Esempio: la directory di sistema `/var/log` contiene i registri per tutti gli ambienti.
 
 
 ## Numeri
@@ -206,7 +206,7 @@ Messaggio di errore: __Si è verificato un errore.__
 
 </td>
 
-<td colspan="1"> Messaggio di errore:  <i>Si è verificato un errore.</i> </td>
+<td colspan="1"> Messaggio di errore: <i>Si è verificato un errore.</i> </td>
 
 <td colspan="1">
 </td>
@@ -219,7 +219,7 @@ Messaggio di errore: __Si è verificato un errore.__
 
 ## Accessibilità
 
-* Tutti gli elementi non testuali o grafici hanno equivalenti testuali o testo Alt. Esempio: ![esempio_immagine](/url "alt_text_for_this_image").
+* Tutti gli elementi non testuali o grafici hanno equivalenti testuali o testo Alt. Esempio: ![immagine_esempio](/url "testo_alternativo_per_questa_immagine").
 
 * Tutti i collegamenti descrivono la destinazione del collegamento. Esempio [link](/uri "destination_of_the_link").
 
@@ -253,14 +253,14 @@ Alla fine di un articolo viene visualizzato solo un elenco di collegamenti speci
 
 ### Collegamenti a siti Web esterni
 
-Utilizza URL ordinari anziché URL di riferimento per collegare pagine esterne  [Adobe.com](http://Adobe.com).
+Utilizza URL normali anziché goURL per collegarti a pagine esterne a [Adobe.com](http://Adobe.com).
 
 
 ## Virgole
 
 In generale, seguite le raccomandazioni del Manuale di stile di Chicago per la punteggiatura aperta dello stile, punteggiando solo dove necessario per evitare errori di lettura. Ad esempio, puoi omettere la virgola prima di una congiunzione in una frase composta se il rischio di lettura errata è minimo o nullo. Se necessario, utilizza la virgola per ottenere chiarimenti.
 
-* Utilizza sempre la virgola seriale (una virgola che precede _e_ o _o_ in un elenco di tre o più elementi): x, y e z
+* Utilizza sempre la virgola seriale (una virgola che precede _e_ o _o_ in un elenco di tre o più elementi): x, y e z
 
 * Inserire una virgola prima di una congiunzione che introduca una clausola indipendente: &quot;Specificare una posizione e digitare un nome per l&#39;elenco dei file.&quot;
 
@@ -276,4 +276,4 @@ In generale, seguite le raccomandazioni del Manuale di stile di Chicago per la p
 
 ## Marchio
 
-* Il Magento Commerce è ora Adobe Commerce. Consulta la sezione [Modifica termini](https://github.com/magento/knowledge-base/wiki) wiki per ulteriori informazioni su come utilizzare un linguaggio di branding aggiornato.
+* Il Magento Commerce è ora Adobe Commerce. Per ulteriori informazioni su come utilizzare un linguaggio di branding aggiornato, fare riferimento al wiki [Termini di rebrand](https://github.com/magento/knowledge-base/wiki).

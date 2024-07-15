@@ -21,13 +21,13 @@ Adobe Commerce (tutte le opzioni di implementazione) 2.3.x
 
 ## Problema
 
-Un cliente riceve un errore 404 quando tenta di accedere a Reporting avanzato e sono presenti errori nei registri associati a `analytics_collect_data job` .
+Un cliente riceve un errore 404 quando tenta di accedere al Reporting avanzato e sono presenti errori nei registri associati a `analytics_collect_data job`.
 
 ## Versioni compatibili del Magento:
 
 Le patch sono compatibili (ma potrebbero non risolvere il problema) con le seguenti versioni di Adobe Commerce:
 
-* [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip): Adobe Commerce (tutte le opzioni di implementazione) 2.3.1-2.3.4-p2
+* [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip): Adobe Commerce (tutte le opzioni di distribuzione) 2.3.1-2.3.4-p2
 * [MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip): Adobe Commerce (tutte le opzioni di distribuzione) 2.3.0
 * [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip): Adobe Commerce (tutte le opzioni di distribuzione) 2.3.0
 
@@ -41,7 +41,7 @@ Per risolvere il problema, applicare la patch pertinente allegata a questo artic
 
 Per verificare quale cerotto usare:
 
-<ol><li>Rivedi i registri utilizzando il seguente comando:<code>grep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz</code>
+<ol><li>Esaminare i registri utilizzando il comando seguente:<code>grep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz</code>
 </li><li>A seconda dell’errore visualizzato, seleziona una patch utilizzando le informazioni riportate nella tabella seguente.<table style="width: 826px;">
 <tbody>
 <tr>
@@ -52,7 +52,12 @@ Per verificare quale cerotto usare:
 </tr>
 <tr>
 <td>
-<pre>report.CRITICAL: Errore durante l'esecuzione di un processo cron {"exception":"[object] (RuntimeException(codice: 0): Errore durante l'esecuzione di un processo cron in /srv/public_html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php:327, TypeError(codice: 0): substr_count() prevede che il parametro 1 sia una stringa, null specificato in /srv/public_html/vendor/magento/module-page-builder-analytics/Model/ContentTypeUsageReportProvider.php:106)"} []</pre>OPPURE<pre>report.ERROR: il processo Cron analytics_collect_data contiene un errore: substr_count() prevede che il parametro 1 sia una stringa, dato null. Statistiche: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384}
+<pre>report.CRITICAL: Errore durante l'esecuzione di un processo cron {"exception":"[object] (RuntimeException(code:
+  0): errore durante l’esecuzione di un processo cron in /srv/public_html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php:327,
+  TypeError(code: 0): substr_count() prevede che il parametro 1 sia una stringa, dato null
+  in /srv/public_html/vendor/magento/module-page-builder-analytics/Model/ContentTypeUsageReportProvider.php:106)"}
+  []</pre>OPPURE<pre>report.ERROR: Errore di analytics_collect_data del processo del connettore: substr_count() Expects
+  il parametro 1 deve essere una stringa, è stato fornito un valore null. Statistiche: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384}
   [] []</pre>
 <p> </p>
 </td>
@@ -74,7 +79,7 @@ Per verificare quale cerotto usare:
 
 ## Come applicare il cerotto
 
-Decomprimi il file e segui le istruzioni in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Decomprimere il file e seguire le istruzioni in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## Lettura correlata
 

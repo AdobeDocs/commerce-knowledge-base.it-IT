@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-43491: l&#39;etichetta dell&#39;immagine di base non viene aggiornata se importata tramite CSV
 
-La patch MDVA-43491 risolve il problema in cui `base_image_label` non viene aggiornato se importato tramite un file CSV per un sito web multi-store. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L&#39;ID della patch è MDVA-43491. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+La patch MDVA-43491 risolve il problema per cui `base_image_label` non viene aggiornato quando viene importato tramite un file CSV per un sito Web multi-store. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L&#39;ID della patch è MDVA-43491. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.2-p2
 
@@ -27,11 +27,11 @@ La patch MDVA-43491 risolve il problema in cui `base_image_label` non viene aggi
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-Il `base_image_label` non viene aggiornato se importato utilizzando un file CSV per un sito web multi-store.
+`base_image_label` non viene aggiornato se importato utilizzando un file CSV per un sito Web multischermo.
 
 <u>Prerequisiti</u>:
 
@@ -45,9 +45,9 @@ Uno o più siti Web, archivi e visualizzazioni dello store non predefiniti esist
    * Assegna il prodotto ai nuovi siti Web creati.
 
 1. Esporta il prodotto come file CSV.
-1. Aggiornare il `base_image_label` per ogni visualizzazione store duplicando la riga predefinita del file CSV.
-1. Importa il file CSV. Le etichette di ogni negozio verranno aggiornate correttamente, e questo può essere verificato nella sezione **Immagini e video** nella pagina di modifica del prodotto.
-1. Esporta nuovamente il file CSV e aggiorna la `base_image_label` con valori diversi.
+1. Aggiorna `base_image_label` per ogni visualizzazione archivio duplicando la riga predefinita del file CSV.
+1. Importa il file CSV. Le etichette di ogni archivio verranno aggiornate correttamente, che possono essere verificate nella scheda **Immagini e video** nella pagina di modifica del prodotto.
+1. Esporta nuovamente il file CSV e aggiorna la colonna `base_image_label` con valori diversi.
 1. Importa di nuovo il file CSV.
 1. Apri il prodotto in Admin e controlla se l’etichetta è stata aggiornata per ogni visualizzazione store.
 
@@ -57,20 +57,20 @@ Il testo alternativo (etichetta immagine) viene aggiornato con il valore specifi
 
 <u>Risultati effettivi</u>:
 
-Testo alternativo (etichetta immagine) non aggiornato con `base_image_label` nel file CSV.
+Testo alternativo (etichetta immagine) non aggiornato con il valore `base_image_label` nel file CSV.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

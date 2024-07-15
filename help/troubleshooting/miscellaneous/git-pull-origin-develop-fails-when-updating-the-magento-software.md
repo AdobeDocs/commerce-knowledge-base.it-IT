@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # lo sviluppo dell’origine git pull ha esito negativo durante l’aggiornamento del software Adobe Commerce
 
-Questo articolo fornisce una correzione per i casi in cui non è possibile aggiornare il software Adobe Commerce durante l’esecuzione `git pull origin develop`.
+Questo articolo corregge i casi in cui non è possibile aggiornare il software Adobe Commerce durante l&#39;esecuzione di `git pull origin develop`.
 
 ## Dettagli
 
@@ -44,7 +44,7 @@ La soluzione dipende dal fatto che i file siano stati modificati intenzionalment
 
 #### File modificati intenzionalmente
 
-Risolvere manualmente i conflitti nel modo consueto. Se non sai cosa fare, consulta [Guida GitHub](https://help.github.com/).
+Risolvere manualmente i conflitti nel modo consueto. Se non sai come procedere, consulta la [Guida GitHub](https://help.github.com/).
 
 #### Non hai modificato intenzionalmente alcun file
 
@@ -71,6 +71,6 @@ Effettuare una delle seguenti operazioni:
 
   >[!NOTE]
   >
-  >L’Adobe non consiglia o approva alcuna impostazione di configurazione GitHub particolare. I precedenti sono solo suggerimenti. Per ulteriori informazioni, consulta [Guida GitHub](https://help.github.com/).
+  >L’Adobe non consiglia o approva alcuna impostazione di configurazione GitHub particolare. I precedenti sono solo suggerimenti. Per ulteriori informazioni, consultare la [Guida di GitHub](https://help.github.com/).
 
   Continua da dove hai interrotto con il tuo aggiornamento Adobe Commerce.

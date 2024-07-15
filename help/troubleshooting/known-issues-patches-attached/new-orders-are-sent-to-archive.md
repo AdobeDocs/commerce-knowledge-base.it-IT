@@ -27,7 +27,7 @@ Quando i clienti inseriscono gli ordini, questi vengono visualizzati nella grigl
 
 1. Aggiungi qualsiasi prodotto al carrello nella vetrina, procedi attraverso il pagamento e ordina.
 1. In Amministrazione Commerce, passa a **Vendite** > **Operazioni** > **Ordine**. Visualizzare l&#39;ordine nella griglia.
-1. Accedi a **Vendite** > **Archivia** > **Ordini**. Visualizzare il nuovo ordine nella griglia.
+1. Passa a **Vendite** > **Archivia** > **Ordini**. Visualizzare il nuovo ordine nella griglia.
 
 <u>Risultati previsti</u>:
 
@@ -59,7 +59,7 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## Link utili nella guida utente
 

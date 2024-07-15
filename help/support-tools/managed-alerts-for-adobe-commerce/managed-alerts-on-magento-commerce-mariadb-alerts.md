@@ -24,15 +24,15 @@ Architettura del piano Pro di Adobe Commerce su infrastruttura cloud
 
 ## Problema
 
-Riceverai un avviso gestito in New Relic se ti sei registrato a [Avvisi gestiti per Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) e una o più soglie di allarme sono state superate. Questi avvisi sono stati sviluppati da Adobe per fornire ai clienti un set standard utilizzando le informazioni provenienti da Supporto e Progettazione.
+In New Relic riceverai un avviso gestito se hai effettuato la registrazione a [Avvisi gestiti per Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md) e una o più soglie di avviso sono state superate. Questi avvisi sono stati sviluppati da Adobe per fornire ai clienti un set standard utilizzando le informazioni provenienti da Supporto e Progettazione.
 
-**Sì!**
+**Esegui!**
 
 * Interrompi qualsiasi distribuzione pianificata fino a quando l&#39;avviso non viene cancellato.
-* Attiva immediatamente la modalità di manutenzione se il sito non risponde o se non risponde completamente. Per i passaggi, consulta [Guida all’installazione > Abilitare o disabilitare la modalità di manutenzione](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) nella documentazione per gli sviluppatori. Assicurarsi di aggiungere l&#39;IP all&#39;elenco degli indirizzi IP esenti per assicurarsi di poter accedere al sito per la risoluzione dei problemi. Per i passaggi, consulta [Gestisci l&#39;elenco di indirizzi IP esenti](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt).
+* Attiva immediatamente la modalità di manutenzione se il sito non risponde o se non risponde completamente. Per i passaggi, fare riferimento alla [Guida all&#39;installazione > Abilitare o disabilitare la modalità di manutenzione](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) nella documentazione per gli sviluppatori. Assicurarsi di aggiungere l&#39;IP all&#39;elenco degli indirizzi IP esenti per assicurarsi di poter accedere al sito per la risoluzione dei problemi. Per ulteriori informazioni, vedere [Gestire l&#39;elenco degli indirizzi IP esenti](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt).
 * Termina gli script, ad esempio le importazioni, che potrebbero essere la causa dell’avviso se le prestazioni del sito sono interessate.
 
-**Non farlo!**
+**Non fare!**
 
 * Eseguire indicizzatori o nodi aggiuntivi che possono causare ulteriore stress su MariaDB.
 * Esegui le principali attività amministrative (ad esempio, amministrazione di Commerce, importazioni/esportazioni di dati).
@@ -44,21 +44,21 @@ Riceverai un avviso gestito in New Relic se ti sei registrato a [Avvisi gestiti 
 
 Se si riceve un avviso Critico query DML, iniziare dal primo passaggio. Se viene visualizzato un avviso di avviso di query DML, iniziare dal passaggio 2.
 
-1. Controlla se è presente un ticket di supporto Adobe Commerce. Per i passaggi, consulta la knowledge base [Tracciare i ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#track-tickets). Il supporto potrebbe aver ricevuto un avviso di soglia New Relic, aver creato un ticket e iniziato a lavorare sul problema. Se non esiste alcun ticket, creane uno. Il ticket deve contenere le seguenti informazioni:
+1. Controlla se è presente un ticket di supporto Adobe Commerce. Per ulteriori informazioni, consulta la nostra knowledge base [Tracciare i ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#track-tickets). Il supporto potrebbe aver ricevuto un avviso di soglia New Relic, aver creato un ticket e iniziato a lavorare sul problema. Se non esiste alcun ticket, creane uno. Il ticket deve contenere le seguenti informazioni:
 1. Motivo contatto: selezionare &quot;Avviso New Relic MariaDB ricevuto&quot;.
 1. Descrizione dell&#39;avviso.
-1. [Collegamento per incidente New Relic](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). Questo è incluso nel tuo [Avvisi gestiti per Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md).
+1. [Collegamento per incidente New Relic](https://docs.newrelic.com/docs/alerts-applied-intelligence/new-relic-alerts/alert-incidents/view-violation-event-details-incidents). Questo è incluso nei tuoi [Avvisi gestiti per Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md).
 1. Per identificare l’origine del problema, prova a identificare le query DML:
-1. Esaminare le operazioni del database utilizzando i passaggi di New Relic [Pagina interfaccia utente APM > Monitoraggio > Pagina Database](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time) .
+1. Rivedi le operazioni del database utilizzando i passaggi della pagina [Pagine interfaccia utente APM di New Relic > Monitoraggio > Database](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time) .
 1. Ordina per CONTEGGIO CHIAMATE, quindi OPERAZIONE. Esaminare le operazioni INSERT, DELETE e UPDATE.
 1. Cerca AVG alta.
 1. Fare clic per trovare i chiamanti delle operazioni del database. In questo modo verranno identificate le transazioni che utilizzano tale query in base al tempo.
 1. Cerca ottimizzazioni del codice o ottimizzazioni operative:
 1. Ottimizzazioni del codice: cerca di ottimizzare le query con inserimenti/aggiornamenti in blocco, riducendo al minimo l’utilizzo dell’indice o limitando il codice.
 1. Ottimizzazioni operative: consente di effettuare l’offload delle modifiche dei dati che richiedono un utilizzo intensivo delle risorse per ridurre i tempi di traffico.
-1. Ulteriori ottimizzazioni: accertati di aver utilizzato l’ultima versione di ECE-Tools. Per i passaggi, consulta [Cloud for Adobe Commerce > Aggiorna versione strumenti ece](https://devdocs.magento.com/cloud/project/ece-tools-update.html) nella documentazione per gli sviluppatori.
+1. Ulteriori ottimizzazioni: accertati di aver utilizzato l’ultima versione di ECE-Tools. Per i passaggi, consulta [Cloud for Adobe Commerce > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) nella nostra documentazione per sviluppatori.
 
 ## Lettura correlata
 
-* Per ricercare altri problemi comuni relativi a MariaDB, fare riferimento a [Problemi di database più comuni per Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html).
-* Per ricercare le best practice per i database, consulta [Best practice per il database di Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).
+* Per ricercare altri problemi comuni relativi a MariaDB, consulta [Problemi più comuni relativi al database per Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html).
+* Per ricercare le best practice del database, consulta [Best practice del database per Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html).

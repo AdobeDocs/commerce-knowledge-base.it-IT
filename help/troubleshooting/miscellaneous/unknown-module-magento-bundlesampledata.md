@@ -27,9 +27,9 @@ Durante l’installazione viene visualizzato un messaggio simile al seguente:
 
 Provare a eseguire una delle seguenti operazioni alla volta, quindi ripetere l&#39;installazione.
 
-1. Eseguire l&#39;Installazione guidata Web. I moduli sono elencati in  **Configurazioni moduli avanzate**. Per disattivare **Magento\_BundleSampleData** , cancella il **Magento\_BundleSampleData** come illustrato nella figura seguente.
+1. Eseguire l&#39;Installazione guidata Web. I moduli sono elencati in **Configurazioni moduli avanzate**. Per disabilitare il modulo **Magento\_BundleSampleData**, deselezionare la casella di controllo **Magento\_BundleSampleData** come illustrato nella figura seguente.
 
    ![tshoot_bundlesampledata.png](assets/tshoot_bundlesampledata.png)
 
 1. Cancella tutti i dati e la cronologia del browser dal browser.
-1. Se disponi di Chrome, cancella tutti i dati del browser relativi al tuo sito.  Vai a **Impostazioni** > **Opzioni avanzate** > **Privacy** > **Impostazioni contenuto** > **Tutti i cookie e i dati del sito**. Nella colonna Sito, fai clic sull’indirizzo del server Adobe Commerce e fai clic su **Rimuovi tutto**.
+1. Se si dispone di Chrome, cancellare tutti i dati del browser relativi al sito.  Vai a **Impostazioni** > **Opzioni avanzate** > **Privacy** > **Impostazioni contenuto** > **Tutti i cookie e i dati del sito**. Nella colonna Sito fare clic sull&#39;indirizzo del server Adobe Commerce e quindi su **Rimuovi tutto**.

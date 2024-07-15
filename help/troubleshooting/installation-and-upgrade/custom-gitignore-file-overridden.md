@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Il comando Composer install sostituisce il file .gitignore, Adobe Commerce
 
-Questo articolo fornisce una soluzione per quando un `.gitignore` il file viene sovrascritto da compositore su Adobe Commerce on cloud infrastructure 2.4.2-p1 e 2.3.7.
+Questo articolo fornisce una soluzione per quando un file `.gitignore` tracciato viene sovrascritto dal compositore su Adobe Commerce su infrastruttura cloud 2.4.2-p1 e 2.3.7.
 
 ## Prodotti e versioni interessati
 
@@ -21,7 +21,7 @@ Adobe Commerce su infrastruttura cloud 2.4.2-p1 e 2.3.7.
 
 ## Problema
 
-`.gitignore` sovrascrittura del file durante l&#39;esecuzione del comando compositore installa.
+Il file `.gitignore` viene sovrascritto durante l&#39;esecuzione del comando di installazione del compositore.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -39,7 +39,7 @@ Adobe Commerce su infrastruttura cloud 2.4.2-p1 e 2.3.7.
    1. `echo "/this/line/should/stay" >> .gitignore`
    1. `git init`
    1. `git add * && git add .*`
-   1. `git commit -m "Init"` N. file impegnato nell’archivio
+   1. `git commit -m "Init"` # file inviati al repository
    1. `rm -rf vendor/*`
    1. `composer install`
    1. `git diff`
@@ -58,15 +58,15 @@ Adobe Commerce su infrastruttura cloud 2.4.2-p1 e 2.3.7.
 
 <u>Risultato previsto</u>:
 
-`.gitignore` non viene sovrascritto dal compositore.
+`.gitignore` non è sovrascritto dal compositore.
 
 <u>Risultato effettivo</u>:
 
-`.gitignore` viene sovrascritto da ogni esecuzione di installazione del compositore.
+`.gitignore` viene sovrascritto da ogni esecuzione dell&#39;installazione del compositore.
 
 ## Soluzione
 
-Per mantenere il tuo `.gitignore file` devi ignorarlo nella sezione `magento-deploy-ignore` sezione.
+Per mantenere `.gitignore file` personalizzato, è necessario ignorarlo nella sezione `magento-deploy-ignore`.
 
 ```git
 {
@@ -84,4 +84,4 @@ Per mantenere il tuo `.gitignore file` devi ignorarlo nella sezione `magento-dep
 
 ## Lettura correlata
 
-* [Il file .gitignore tracciato viene sovrascritto dal compositore.](https://github.com/magento/magento2/issues/32888) in GitHub Magento2.
+* [Il file .gitignore tracciato è stato sovrascritto dal compositore.](https://github.com/magento/magento2/issues/32888) in GitHub Magento2.

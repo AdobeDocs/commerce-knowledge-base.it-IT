@@ -25,32 +25,32 @@ Questo articolo fornisce una soluzione per il problema noto di Adobe Commerce 2.
 <u>Passaggi da riprodurre</u>:
 
 1. Vai a **Pannello di amministrazione** > **Vendite** > **Ordini**.
-1. Fai clic su **Crea nuovo ordine** pulsante.
+1. Fai clic sul pulsante **Crea nuovo ordine**.
 1. Seleziona il cliente creato.
 1. Vai alla vetrina come cliente creato.
-1. Vai a **Prodotto** pagina. Fai clic su **Aggiorna** pulsante sulla **Prodotti visualizzati di recente** sezione di **Attività del cliente**.
+1. Vai alla pagina **Prodotto**. Fai clic sul pulsante **Aggiorna** nella sezione **Prodotti visualizzati di recente** delle **Attività del cliente**.
 1. Torna alla vetrina.
 1. Effettua un ordine utilizzando i prodotti creati.
-1. Torna a **Pannello di amministrazione** e fai clic su **Aggiorna** pulsante della **Ultimi articoli ordinati** sezione di **Attività del cliente**.
-1. Torna alla vetrina. Aggiungi il prodotto creato al **Elenco di confronto**.
-1. Torna a **Pannello di amministrazione**. Fai clic su **Aggiorna** pulsante della **Prodotti in Elenco di confronto** sezione di **Attività del cliente**.
+1. Torna al **Pannello di amministrazione** e fai clic sul pulsante **Aggiorna** della sezione **Ultimi elementi ordinati** delle **Attività del cliente**.
+1. Torna alla vetrina. Aggiungere il prodotto creato all&#39;**Elenco di confronto**.
+1. Torna al **Pannello di amministrazione**. Fai clic sul pulsante **Aggiorna** della sezione **Prodotti nell&#39;elenco di confronto** delle **Attività del cliente**.
 1. Torna alla vetrina.
-1. Rimuovi il prodotto creato da **Elenco di confronto**.
-1. Torna a **Pannello di amministrazione**.
-1. Fai clic su **Aggiorna** pulsante della **Prodotti confrontati di recente** sezione di **Attività del cliente**.
+1. Rimuovere il prodotto creato dall&#39;**elenco di confronto**.
+1. Torna al **Pannello di amministrazione**.
+1. Fai clic sul pulsante **Aggiorna** nella sezione **Prodotti confrontati di recente** delle **Attività del cliente**.
 1. Torna alla vetrina.
 
 <u>Risultati previsti</u>:
 
-Il nome del prodotto deve essere visualizzato nel **Prodotti visualizzati di recente**, **Ultimi articoli ordinati**, **Prodotti in Elenco di confronto**, e **Prodotti confrontati di recente** sezione.
+Il nome del prodotto deve essere visualizzato nella sezione **Prodotti visualizzati di recente**, **Ultimi articoli ordinati**, **Prodotti in elenco confronto** e **Prodotti confrontati di recente**.
 
 <u>Risultati effettivi</u>:
 
-La pagina viene scorsa verso l’alto ogni volta che **Aggiorna** clic sul pulsante. Il nome del prodotto non viene visualizzato nella sezione corretta.
+Viene eseguito lo scorrimento della pagina ogni volta che si fa clic su un pulsante **Aggiorna**. Il nome del prodotto non viene visualizzato nella sezione corretta.
 
 ## Soluzione
 
-L’utente amministratore può aggiornare una soluzione alternativa **Attività del cliente** facendo clic su **Aggiorna modifiche** nella parte inferiore della barra laterale. Il problema è pianificato per essere risolto nella patch di Adobe Commerce 2.4.1.
+Una soluzione alternativa consiste nel fatto che l&#39;utente amministratore può aggiornare **le attività del cliente** facendo clic sul pulsante **Aggiorna modifiche** nella parte inferiore della barra laterale. Il problema è pianificato per essere risolto nella patch di Adobe Commerce 2.4.1.
 
 ![mceclip0.png](assets/mceclip0.png)
 

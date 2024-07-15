@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Installare le ultime patch per risolvere i problemi di Adobe Commerce Redis
 
-Questo articolo fornisce informazioni sulle ultime patch relative a Redis disponibili in [Patch di Adobe Commerce sull’infrastruttura cloud](https://devdocs.magento.com/cloud/project/project-patch.html) pacchetto.
+Questo articolo fornisce informazioni sulle ultime patch relative a Redis disponibili nel pacchetto [Adobe Commerce sulle patch dell&#39;infrastruttura cloud](https://devdocs.magento.com/cloud/project/project-patch.html).
 
 ## Prodotti e versioni interessati
 
@@ -25,7 +25,7 @@ L&#39;utilizzo aggiuntivo di CPU e memoria da parte di Redis potrebbe ridurre le
 
 ## Soluzione
 
-Applica le ultime patch fornite da Adobe Commerce sul pacchetto di patch per l’infrastruttura cloud. Per istruzioni dettagliate, fare riferimento a [Applicare le patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+Applica le ultime patch fornite da Adobe Commerce sul pacchetto di patch per l’infrastruttura cloud. Per istruzioni dettagliate, consulta [Applicare le patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 Le ultime patch Redis distribuite dal pacchetto Adobe Commerce sulle patch dell’infrastruttura cloud contribuiscono a:
 

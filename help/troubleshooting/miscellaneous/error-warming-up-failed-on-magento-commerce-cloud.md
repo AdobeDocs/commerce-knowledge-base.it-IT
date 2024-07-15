@@ -19,7 +19,7 @@ Questo articolo fornisce una soluzione per quando la cache delle pagine si sta s
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud, tutto [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce sull&#39;infrastruttura cloud, tutte le [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 
@@ -43,9 +43,9 @@ Il riscaldamento della cache non funziona se è abilitato il controllo degli acc
 
 ## Soluzione
 
-Assicurati di non aver abilitato il controllo degli accessi: passa al ramo/ambiente specifico e fai clic sul pulsante **Impostazioni** e controlla il **Controllo accesso HTTP** impostazione - in questo scenario non è possibile eseguire il riscaldamento della cache ed è necessario disabilitare il controllo degli accessi.
+Verificare che il controllo degli accessi non sia abilitato: accedere al ramo/ambiente specifico, fare clic sull&#39;icona **Impostazioni** e controllare l&#39;impostazione **Controllo degli accessi HTTP**. In questo caso non è possibile eseguire il riscaldamento della cache e il controllo degli accessi deve essere disabilitato.
 
 ## Lettura correlata
 
 * [Guida utente di Adobe Commerce > Cache a pagina intera](https://docs.magento.com/user-guide/system/cache-full-page.html) nella guida utente.
-* [Riscaldamento della cache e sito non disponibile in Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) nella nostra knowledge base di supporto.
+* [Riscaldamento della cache e sito non disponibile in Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) nella Knowledge Base di supporto.

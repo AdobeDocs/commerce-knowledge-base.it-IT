@@ -22,7 +22,7 @@ Questo articolo fornisce una patch per l’emissione nota di uno sconto su ordin
 
 ## Problema
 
-<u>Prerequisiti</u>: viene creato un coupon di sconto e esistono regole di approvazione che impediscono l’elaborazione automatica degli OA.
+<u>Prerequisiti</u>: viene creato un buono sconto e le regole di approvazione che impediscono l&#39;elaborazione automatica degli OA esistono.
 
 <u>Passaggi da riprodurre:</u>
 
@@ -49,8 +49,8 @@ La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fi
 
 [B2B-709-composer.patch](assets/B2B-709-composer.patch.zip)
 
-La patch è disponibile anche per il download in entrambi, `.git` e `.composer` , formati su [Download di Adobe Commerce](https://magento.com/tech-resources/download) pagina, sotto **Patch** nella navigazione a sinistra della colonna. Cercare la patch XXX.
+La patch può essere scaricata anche nei formati `.git` e `.composer` nella pagina [Download di Adobe Commerce](https://magento.com/tech-resources/download), in **Patch** nella barra di navigazione a sinistra. Cercare la patch XXX.
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto per le istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.

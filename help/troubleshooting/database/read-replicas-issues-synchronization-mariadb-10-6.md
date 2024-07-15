@@ -26,11 +26,11 @@ Le letture non critiche mostrano informazioni errate.
 
 ## Causa
 
-Il `slave_parallel_mode` La configurazione del database è stata modificata per impostazione predefinita in *ottimistica* quando il valore deve essere *conservatore* e `synchronous_replication` valore predefinito in Ece-Tools *true* quando il valore deve essere *false*.
+La configurazione di `slave_parallel_mode` nel database è stata modificata per impostazione predefinita in *optimistic* quando il valore dovrebbe essere *conservative* e il valore `synchronous_replication` in Ece-Tools è impostato per impostazione predefinita su *true* quando il valore dovrebbe essere *false*.
 
 ## Soluzione
 
-1. Verifica che la `slave_parallel_mode` il parametro è impostato su *conservatore* (sarà necessario [genera un ticket di supporto](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) se il valore non viene visualizzato come *conservatore*). Per eseguire il controllo, eseguire il comando seguente:
+1. Verificare che il parametro `slave_parallel_mode` sia impostato su *conservativo* (sarà necessario [alzare un ticket di supporto](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) se il valore non è visualizzato come *conservativo*). Per eseguire il controllo, eseguire il comando seguente:
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -42,7 +42,7 @@ Il `slave_parallel_mode` La configurazione del database è stata modificata per 
     1 row in set (0.001 sec)
    ```
 
-1. Aggiorna `.magento.env.yaml` configurazioni del database per:
+1. Aggiorna le configurazioni del database `.magento.env.yaml` in:
 
    ```yaml
        DATABASE_CONFIGURATION:
@@ -54,10 +54,10 @@ Il `slave_parallel_mode` La configurazione del database è stata modificata per 
 
 
 
-Per i passaggi relativi all’aggiornamento della configurazione del database, consulta [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) nell’argomento Distribuisci variabili nella Guida di Commerce su Cloud Infrastructure.
+Per i passaggi relativi all&#39;aggiornamento della configurazione del database, fare riferimento a [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) nell&#39;argomento Distribuisci variabili nella Guida all&#39;infrastruttura di Commerce su Cloud.
 
 
 ## Lettura correlata
 
-* [Configurare le variabili di ambiente per la distribuzione](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) nella Guida all’infrastruttura cloud di Commerce.
-* [Best practice per la configurazione del database](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) nel Playbook di implementazione.
+* [Configurare le variabili di ambiente per la distribuzione](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Best practice per la configurazione del database](/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) nella playbook di implementazione.

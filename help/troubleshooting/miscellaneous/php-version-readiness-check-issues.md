@@ -17,7 +17,7 @@ In questo articolo vengono illustrate le soluzioni per i problemi di versione PH
 
 >[!WARNING]
 >
->Sull’infrastruttura cloud di Adobe Commerce, tieni presente che gli aggiornamenti dei servizi non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico del supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi 48 ore prima di quando le modifiche devono essere in produzione [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) specificare l&#39;aggiornamento del servizio richiesto e indicare l&#39;ora in cui si desidera avviare il processo di aggiornamento.
+>Sull’infrastruttura cloud di Adobe Commerce, tieni presente che gli aggiornamenti dei servizi non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico del supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi, 48 ore prima del momento in cui le modifiche devono essere in produzione [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) specificando l&#39;aggiornamento del servizio richiesto e indicando l&#39;ora in cui desideri avviare il processo di aggiornamento.
 
 ## Prodotti e versioni interessati
 
@@ -43,7 +43,7 @@ Il controllo di preparazione PHP non visualizza la versione PHP, come illustrato
 
 ### Soluzione
 
-Sintomo di una configurazione errata del processo cron. Per ulteriori informazioni, consulta [Imposta processi cron](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron) nella documentazione per gli sviluppatori.
+Sintomo di una configurazione errata del processo cron. Per ulteriori informazioni, consulta [Configurare i processi cron](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron) nella documentazione per gli sviluppatori.
 
 ## Versione PHP errata
 
@@ -60,9 +60,9 @@ Supponiamo che se si ha questo problema, si è un utente avanzato che ha probabi
 Per risolvere il problema, provare a eseguire le operazioni seguenti:
 
 * Riavvia il server web o php-fm.
-* Controlla la `$PATH` variabile di ambiente per percorsi multipli a PHP.
-* Utilizza il `which php` comando per individuare il primo eseguibile PHP nel percorso; se non è corretto, rimuoverlo o creare un collegamento simbolico alla versione PHP corretta.
-* Utilizza un [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) per raccogliere ulteriori informazioni.
+* Controllare la variabile di ambiente `$PATH` per individuare più percorsi a PHP.
+* Utilizzare il comando `which php` per individuare il primo eseguibile PHP nel percorso. Se non è corretto, rimuoverlo o creare un collegamento simbolico alla versione PHP corretta.
+* Utilizzare una pagina [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) per raccogliere ulteriori informazioni.
 * Assicurati di eseguire una versione PHP supportata in base ai nostri requisiti di sistema, nella documentazione per gli sviluppatori:
    * [Requisiti di sistema di Adobe Commerce 2.3.x](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
    * [Requisiti di sistema di Adobe Commerce 2.2.x](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)

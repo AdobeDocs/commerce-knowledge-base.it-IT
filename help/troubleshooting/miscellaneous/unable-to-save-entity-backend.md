@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Impossibile salvare il backend Adobe Commerce dell’entità
 
-Questo articolo fornisce una soluzione per i casi in cui non è possibile salvare un’entità nel backend di Adobe Commerce. Ad esempio, quando non è possibile modificare e salvare un `cart_price` regola.
+Questo articolo fornisce una soluzione per i casi in cui non è possibile salvare un’entità nel backend di Adobe Commerce. Ad esempio, quando non è possibile modificare e salvare una regola `cart_price` specifica.
 
 ## Prodotti e versioni interessati
 
@@ -24,14 +24,14 @@ Questo problema può interessare tutte le versioni di Adobe Commerce in cui è c
 
 Quando tenti di riconfigurare lo store, la pagina viene ricaricata e le modifiche non vengono salvate. È possibile visualizzare un messaggio in `var/log/system.log`:
 
-*[2021-11-27 00:30:52] report.WARNING: La dimensione della sessione di 418056 ha superato la dimensione massima di 256000 consentita per la sessione. [][]*
+Rapporto *[2021-11-27 00:30:52].AVVISO: la dimensione della sessione di 418056 ha superato la dimensione massima di 256000 consentita per la sessione. [][]*
 
 <u>Passaggi da riprodurre</u>:
 
 Esempio di configurazione dell’archivio non salvata:
 
-1. Seleziona una regola nell’archivio Adobe Commerce in Produzione > **Marketing** > **Regole prezzi carrello**.
-1. Scegli una regola e imposta su *Inattivo* e salva la modifica.
+1. Seleziona una regola nell&#39;archivio Adobe Commerce in Produzione > **Marketing** > **Regole prezzo carrello**.
+1. Scegliere una regola e impostarla su *Inattiva* e salvare la modifica.
 
 <u>Risultato previsto</u>:
 
@@ -48,7 +48,7 @@ Questo problema è relativo alle nuove funzionalità introdotte di recente che h
 
 ## Soluzione
 
-Aumenta il valore &quot;Max Session Size&quot; (Dimensione massima sessione) in (**Negozi** > **Configurazione** > **Avanzate** > **Sistema** > **Sicurezza** > Dimensione massima sessione).
+Aumentare il valore &quot;Dimensione massima sessione&quot; in (**Archivi** > **Configurazione** > **Avanzate** > **Sistema** > **Sicurezza** > Dimensione massima sessione).
 
 ## Lettura correlata
 

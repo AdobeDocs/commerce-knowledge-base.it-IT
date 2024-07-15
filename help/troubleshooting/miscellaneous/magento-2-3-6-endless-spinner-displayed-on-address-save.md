@@ -31,5 +31,5 @@ Il problema è stato risolto in Adobe Commerce 2.3.1.
 
 ## Lettura correlata
 
-* [Indirizzi diversi non consentiti quando si deseleziona &#39;Il mio indirizzo di fatturazione e spedizione è lo stesso&#39; utilizzando la funzione Pulizia indirizzi verticali](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) nella nostra knowledge base di supporto.
-* [Aggiornamento indirizzo e-mail del messaggio di convalida degli indirizzi verticali di Adobe Commerce 2.4.1](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) nella nostra knowledge base di supporto.
+* [Indirizzi diversi non consentiti quando si deseleziona &#39;Il mio indirizzo di fatturazione e spedizione è uguale&#39; utilizzando VertexAddress Cleansing](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) nella Knowledge Base del supporto tecnico.
+* [Aggiornamento dell&#39;indirizzo di posta del messaggio di convalida degli indirizzi verticali di Adobe Commerce 2.4.1](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) nella Knowledge Base del supporto tecnico.

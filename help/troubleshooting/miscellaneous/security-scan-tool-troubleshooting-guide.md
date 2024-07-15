@@ -17,21 +17,21 @@ Scopri come risolvere i vari problemi con lo strumento Security Scan per Adobe C
 
 ## Problema: impossibile inviare il sito
 
-Lo strumento Security Scan richiede di dimostrare la proprietà del sito prima che il dominio possa essere aggiunto allo strumento Security Scan. Questa operazione può essere eseguita aggiungendo un codice di conferma al sito utilizzando un commento di HTML o `<meta>` tag. Il commento HTML deve essere inserito all’interno del `<body>` , ad esempio nella sezione piè di pagina. Il `<meta>` il tag deve essere inserito all’interno del `<head>` sezione.
+Lo strumento Security Scan richiede di dimostrare la proprietà del sito prima che il dominio possa essere aggiunto allo strumento Security Scan. È possibile aggiungere un codice di conferma al sito utilizzando un commento HTML o il tag `<meta>`. Il commento HTML deve essere inserito all&#39;interno del tag `<body>`, ad esempio nella sezione piè di pagina. Il tag `<meta>` deve essere inserito nella sezione `<head>` della pagina.
 
 Un problema comune riscontrato dai commercianti si verifica quando lo strumento Security Scan non è in grado di confermare la proprietà del sito del commerciante.
 
-Se ricevi un errore e non riesci a inviare il sito per la scansione, fai riferimento a [Messaggio di errore durante l’aggiunta di siti a Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md) articolo sulla risoluzione dei problemi nella knowledge base di supporto.
+Se ricevi un errore e non riesci a inviare il sito per la scansione, consulta l&#39;articolo [Messaggio di errore durante l&#39;aggiunta di siti all&#39;analisi della sicurezza](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md) nella Knowledge Base di supporto.
 
 ## Problema: rapporti vuoti generati dallo strumento Security Scan
 
-Ottieni rapporti di scansione vuoti dallo strumento Security Scan (Scansione di sicurezza) o rapporti contenenti un solo errore come *Lo strumento di sicurezza non è riuscito a raggiungere l’URL di base* o *Impossibile trovare l&#39;installazione di Magento nell&#39;URL specificato*.
+Si ottengono report di analisi vuoti dallo strumento Security Scan o report contenenti un solo errore come *Impossibile raggiungere l&#39;URL di base* o *Impossibile trovare l&#39;installazione di Magento nell&#39;URL specificato*.
 
 ### Soluzione
 
 1. Verificare che gli IP 52.87.98.44, 34.196.167.176 e 3.218.25.102 non siano bloccati alle porte 80 e 443.
-1. Controlla l’URL inviato per verificare la presenza di reindirizzamenti (ad esempio, `https://mystore.com` reindirizza a `https://www.mystore.com` o viceversa o viene reindirizzato ad altri nomi di dominio).
-1. Esaminare i registri di accesso WAF/server Web per le richieste rifiutate/non soddisfatte. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` sono le risposte comuni del server che generano rapporti vuoti. Di seguito è riportato un esempio di codice di conferma che blocca le richieste da parte degli agenti utente:
+1. Controllare l&#39;URL inviato per i reindirizzamenti (ad esempio, `https://mystore.com` reindirizzamenti a `https://www.mystore.com` o viceversa o reindirizzamenti ad altri nomi di dominio).
+1. Esaminare i registri di accesso WAF/server Web per le richieste rifiutate/non soddisfatte. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` sono le risposte comuni del server che causano la generazione di rapporti vuoti. Di seguito è riportato un esempio di codice di conferma che blocca le richieste da parte degli agenti utente:
 
 ```code block
 if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent_allowlist)
@@ -39,7 +39,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 {   error 403;   }
 ```
 
-Puoi anche vedere [Il report dello strumento Security Scan è vuoto](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md) articolo nella knowledge base di supporto per ulteriori informazioni.
+È inoltre possibile visualizzare [Il report dello strumento di analisi della sicurezza è vuoto](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md) articolo nella Knowledge Base di supporto per ulteriori informazioni.
 
 ## Problema: il problema di sicurezza è stato risolto ma è ancora visualizzato come vulnerabile durante l’analisi
 
@@ -47,7 +47,7 @@ Puoi anche vedere [Il report dello strumento Security Scan è vuoto](/help/troub
 
 ### Causa
 
-I metadati dell’istanza cloud vengono raccolti solo per `active` e `live` Progetti cloud e NON è un processo in tempo reale.
+I metadati dell&#39;istanza cloud vengono raccolti solo per `active` e `live` progetti cloud e NON sono un processo in tempo reale.
 
 Lo script di raccolta delle statistiche viene eseguito una volta al giorno, quindi lo strumento Security Scan deve raccogliere i nuovi dati in un secondo momento.
 
@@ -55,11 +55,11 @@ La latenza prevista per il ciclo di sincronizzazione è di una settimana e richi
 
 Gli stati seguenti possono essere visualizzati dai controlli:
 
-1. **Superato**: lo strumento Security Scan ha analizzato i dati aggiornati e approvato le modifiche.
-1. **Sconosciuto**: lo strumento Security Scan non contiene ancora dati sul dominio. Attendere il successivo ciclo di sincronizzazione.
-1. **Non riuscito**: se lo stato non viene visualizzato, è necessario risolvere il problema (abilita 2FA, cambia l’URL dell’amministratore, ecc.) e attendere il successivo ciclo di sincronizzazione.
+1. **Passaggio**: lo strumento Security Scan ha analizzato i dati aggiornati e ha approvato le modifiche.
+1. **Sconosciuto**: lo strumento Security Scan non contiene ancora dati sul dominio. Attendere il prossimo ciclo di sincronizzazione.
+1. **Non riuscito**: se lo stato non viene visualizzato correttamente, è necessario risolvere il problema (abilitare 2FA, cambiare l&#39;URL di amministrazione, ecc.) e attendere il successivo ciclo di sincronizzazione.
 
-Se sono trascorse 24 ore dalle modifiche apportate all’istanza e non vengono riportate nel rapporto Security Scan, puoi [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Immetti l’URL dello store durante l’invio del ticket.
+Se sono trascorse 24 ore dalle modifiche apportate all&#39;istanza e non vengono riportate nel rapporto Security Scan, puoi [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Immetti l’URL dello store durante l’invio del ticket.
 
 ## Errore sospetto BotNet
 
@@ -77,7 +77,7 @@ Ricevi una notifica relativa al guasto &quot;BotNet Suspect&quot;.
 1. Controlla se sono stati creati nuovi account SSH, modifiche al file system e così via.
 1. Eseguire un&#39;analisi della protezione.
 1. Controlla la versione e l’aggiornamento di Adobe Commerce, soprattutto se è ancora in esecuzione il Magento 1, che non è più supportato.
-1. Se il problema persiste, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornisci l’URL dello store.
+1. Se il problema persiste, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornisci l&#39;URL dell&#39;archivio.
 
 ## Problema: errore di inserimento compromissione
 
@@ -87,10 +87,10 @@ Riceve un errore relativo a un errore di &quot;Iniezione compromessa&quot;.
 
 1. Esaminare gli script indicati nel report relativo allo strumento Security Scan.
 1. Controlla il corpo sorgente della pagina iniziale per le iniezioni di script in linea.
-1. Eseguire la revisione delle modifiche alla configurazione del sistema, in particolare quelle personalizzate `HTML head` e `Miscellaneous HTML` in `footer` valori di sezione.
+1. Eseguire la revisione delle modifiche alla configurazione del sistema, in particolare `HTML head` e `Miscellaneous HTML` personalizzati nei valori di sezione `footer`.
 1. Eseguire la revisione del codice e del database per individuare eventuali modifiche e segni di malware iniettato.
 
-Se nessuna delle condizioni sopra descritte può essere d’aiuto, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornisci l’URL dell’archivio e il messaggio di errore dal rapporto.
+Se nessuno dei problemi sopra descritti è utile, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornisci l&#39;URL dell&#39;archivio e il messaggio di errore dal report.
 
 ## Domande frequenti
 

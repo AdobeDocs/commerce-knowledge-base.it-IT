@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce *post-implementazione ignorata perché la distribuzione non è riuscita* errore
-description: "Questo articolo spiega come analizzare un errore di distribuzione: *La post-distribuzione viene ignorata perché la distribuzione non è riuscita*"
+description: "Questo articolo spiega come analizzare un errore di distribuzione: *La distribuzione di Post viene ignorata perché la distribuzione non è riuscita*"
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
@@ -10,13 +10,13 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce *post-distribuzione ignorata perché la distribuzione non è riuscita* errore
+# Adobe Commerce *post-distribuzione ignorato perché la distribuzione non è riuscita* errore
 
-Questo articolo spiega come analizzare un errore di distribuzione: *La post-distribuzione viene ignorata perché la distribuzione non è riuscita* che si verifica durante la distribuzione in ambienti diversi, ad esempio l’aggiornamento.
+In questo articolo viene illustrato come analizzare un errore di distribuzione: *La distribuzione di Post è stata ignorata perché la distribuzione non è riuscita*. Ciò si verifica durante la distribuzione in ambienti diversi, ad esempio durante l&#39;aggiornamento.
 
 ## Prodotti e versioni interessati
 
-Adobe Commerce sull’infrastruttura cloud [tutte le versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce sull&#39;infrastruttura cloud [tutte le versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## Problema
 
@@ -46,4 +46,4 @@ Indeterminato: la causa di questo messaggio di errore dipende dal codice e dal d
     W:
 ```
 
-Per ottenere la traccia degli errori per determinare la causa effettiva, SSH al server e controllare il file di registro `var/log/install_upgrade.log`.
+Per ottenere la traccia degli errori per determinare la causa effettiva, SSH al server e controllare il file di log `var/log/install_upgrade.log`.

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Distribuzione bloccata con errore &quot;Impossibile caricare l’applicazione nel cluster remoto&quot;
 
-Questo articolo fornisce una soluzione al problema di Adobe Commerce, in cui la distribuzione si blocca, e il seguente messaggio di errore è disponibile nel registro di distribuzione: *&quot;Errore: impossibile caricare l&#39;applicazione nel cluster remoto&quot;*.
+Questo articolo fornisce una soluzione per il problema di Adobe Commerce, in cui la distribuzione si blocca e nel registro di distribuzione è possibile trovare il seguente messaggio di errore: *&quot;Errore: impossibile caricare l&#39;applicazione nel cluster remoto&quot;*.
 
 ## Prodotti e versioni interessati
 
@@ -31,7 +31,7 @@ Distribuzione completata correttamente.
 
 <u>Risultato effettivo</u>:
 
-L’implementazione si blocca e nell’interfaccia utente cloud del registro degli errori di distribuzione viene visualizzato il seguente messaggio di errore: *&quot;Errore: impossibile caricare l’applicazione nel cluster remoto&quot; trovato nel registro di distribuzione dopo la distribuzione non riuscita. Nel sito potrebbe essere visualizzato l’errore &quot;Timeout primo byte 503&quot;*.
+La distribuzione si blocca e nel registro degli errori di distribuzione nell&#39;interfaccia utente del cloud viene visualizzato il seguente messaggio di errore: *&quot;Errore: impossibile caricare l&#39;applicazione nel cluster remoto&quot; trovato nel registro di distribuzione dopo la distribuzione non riuscita. Il sito potrebbe visualizzare l&#39;errore &quot;Timeout del primo byte 503&quot;*.
 
 ## Causa
 
@@ -48,4 +48,4 @@ Directory da considerare per la pulizia:
 * `var/debug/`
 * `var`
 
-Per informazioni dettagliate su come aumentare lo spazio su disco se ti trovi nell’architettura del piano Starter per l’infrastruttura cloud di Adobe Commerce, consulta [Aumento dello spazio su disco per l&#39;ambiente di integrazione nel cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) nella nostra knowledge base di supporto. Le stesse istruzioni possono essere utilizzate per aumentare lo spazio dell’ambiente di integrazione dell’architettura Pro plan Adobe Commerce sull’infrastruttura cloud. Per la produzione/staging Pro, è necessario [crea un ticket per il supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) e richiedere maggiore spazio su disco. In genere, tuttavia, non è necessario occuparsi di questo problema nella fase di staging/produzione del piano Pro, in quanto Adobe Commerce monitora questi parametri per te e avvisa e/o intraprende azioni in base al contratto.
+Per informazioni dettagliate su come aumentare lo spazio su disco se si utilizza l&#39;architettura del piano Starter per l&#39;infrastruttura cloud di Adobe Commerce, vedere [Aumentare lo spazio su disco per l&#39;ambiente di integrazione sul cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) nella knowledge base del supporto. Le stesse istruzioni possono essere utilizzate per aumentare lo spazio dell’ambiente di integrazione dell’architettura Pro plan Adobe Commerce sull’infrastruttura cloud. Per Pro Production/Staging, è necessario [inviare un ticket al supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) e richiedere maggiore spazio su disco. In genere, tuttavia, non è necessario occuparsi di questo problema nella fase di staging/produzione del piano Pro, in quanto Adobe Commerce monitora questi parametri per te e avvisa e/o intraprende azioni in base al contratto.

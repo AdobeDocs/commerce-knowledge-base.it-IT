@@ -26,8 +26,8 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 B2B in cui l�
 <u>Passaggi da riprodurre</u>:
 
 1. L’amministratore della società crea un OA (ordine di acquisto) nel front-end.
-1. Controlla l’e-mail Approvato automaticamente. Il **nome cliente** / **tasso di cambio** devono essere valori previsti.
-1. Cambia simbolo di valuta (**Archivi > Configurazione > Impostazione divisa > Opzioni divisa**) in Amministratore e nome dell’amministratore della società nella pagina Account cliente.
+1. Controlla l’e-mail Approvato automaticamente. Il **nome cliente** / **tasso di valuta** deve essere un valore previsto.
+1. Modificare il simbolo di valuta (**Archivi > Configurazione > Impostazione valuta > Opzioni valuta**) nel nome dell&#39;amministratore e della società nella pagina Account cliente.
 1. L&#39;amministratore cliente crea un altro OA in Amministratore.
 1. Controlla l’e-mail Approvato automaticamente.
 
@@ -45,4 +45,4 @@ Esegui manualmente il processo cron o il consumer per propagare le nuove informa
 
 ## Lettura correlata
 
-* [Gestire le code dei messaggi](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) nella documentazione per gli sviluppatori.
+* [Gestisci le code dei messaggi](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) nella documentazione per gli sviluppatori.

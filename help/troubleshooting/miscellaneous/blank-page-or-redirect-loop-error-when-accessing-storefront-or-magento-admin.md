@@ -33,7 +33,7 @@ Viene visualizzata la pagina.
 
 <u>Risultato effettivo</u>
 
-La pagina è vuota o visualizza *&quot;Questa pagina web ha un ciclo di reindirizzamento&quot;* messaggio di errore.
+La pagina è vuota o visualizza il messaggio di errore *&quot;Questa pagina Web ha un ciclo di reindirizzamento&quot;*.
 
 ## Causa
 
@@ -45,11 +45,12 @@ Per risolvere il problema, è necessario correggere il valore del collegamento p
 
 Per assicurarsi che questa sia la causa del problema, procedere come segue:
 
-1. Controlla la `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml` (se hai il problema di reindirizzamento vuoto/loop in Admin) o `web/secure/use_in_frontend` (se hai il problema di reindirizzamento vuoto/loop sulla vetrina) valore in `'core_config_data'` Tabella DB.
-   * Se `web/secure/enable_upgrade_insecure` è impostato su &quot;1&quot;, quindi Adobe Commerce è configurato per aggiungere l’intestazione di risposta `Content-Security-Policy: upgrade-insecure-requests`, dando istruzioni ai browser di utilizzare HTTPS e reindirizzando tutte le query che passano da HTTP a HTTPS, sia per l’amministratore che per la vetrina.
+1. Controllare il valore `web/secure/enable_upgrade_insecure` , `web/secure/use_in_adminhtml` (se si è verificato il problema di reindirizzamento vuoto/loop in Admin) o `web/secure/use_in_frontend` (se si è verificato il problema di reindirizzamento vuoto/loop nella vetrina) nella tabella del database `'core_config_data'`.
+   * Se `web/secure/enable_upgrade_insecure` è impostato su &quot;1&quot;, Adobe Commerce è configurato per aggiungere l&#39;intestazione di risposta `Content-Security-Policy: upgrade-insecure-requests`, indicando così ai browser di utilizzare HTTPS, reindirizzando tutte le query provenienti da HTTP
+a HTTPS, sia per Admin che per storefront.
    * Se `web/secure/use_in_adminhtml` è impostato su &quot;1&quot;, Adobe Commerce restituisce i reindirizzamenti HTTPS per tutte le richieste HTTP per le pagine di amministrazione.
-   * Se `web/secure/use_in_frontend` è impostato su &quot;1&quot;, Adobe Commerce restituisce i reindirizzamenti HTTPS per tutte le richieste HTTP per le prime pagine del negozio.
-1. Controlla la `web/secure/base_url` e `web/unsecure/base_url` valori in `'core_config_data'` tabella. Se iniziano entrambi con    `http`, è necessario correggere il valore &quot;secure&quot;.
+   * Se `web/secure/use_in_frontend` è impostato su &quot;1&quot;, Adobe Commerce restituisce i reindirizzamenti HTTPS per tutte le richieste HTTP per le pagine iniziali dell&#39;archivio.
+1. Controllare i valori `web/secure/base_url` e `web/unsecure/base_url` nella tabella `'core_config_data'`. Se iniziano entrambi con    `http`, è necessario correggere il valore &quot;secure&quot;.
 
 Risoluzione del problema:
 

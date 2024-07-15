@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Prestazioni API e del sito ridotte
 
-Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.1 relativo alle basse prestazioni di siti e API causate dal lungo tempo richiesto per la scrittura `debug.log`.
+Questo articolo fornisce una patch per il problema noto dell&#39;infrastruttura cloud Adobe Commerce 2.2.1 relativo alle prestazioni ridotte del sito e dell&#39;API a causa del lungo tempo necessario per scrivere `debug.log`.
 
 ## Problema
 
-Le prestazioni del sito sono lente. Le operazioni API vengono eseguite lentamente, ad esempio aggiornando i prodotti tramite `PUT` metodo. Se si analizzano più da vicino le operazioni che utilizzano New Relic, la maggior parte della memoria e della CPU viene utilizzata per la scrittura in `/var/log/debug.log`.
+Le prestazioni del sito sono lente. Le operazioni API vengono eseguite lentamente, ad esempio aggiornando i prodotti utilizzando il metodo `PUT`. Se si analizzano più da vicino le operazioni che utilizzano New Relic, la maggior parte della memoria e della CPU viene utilizzata per la scrittura in `/var/log/debug.log`.
 
 ## Soluzione
 
@@ -42,6 +42,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto per le istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

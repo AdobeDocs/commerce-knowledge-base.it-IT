@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Riduci scaduti `oauth_tokens` prima dell’aggiornamento 2.4.6
+# Riduci `oauth_tokens` scaduto prima dell&#39;aggiornamento alla versione 2.4.6
 
-Questo articolo fornisce una soluzione al problema in cui è presente un numero elevato di `oauth_tokens` nel tuo `oauth_token` che può causare un lungo ritardo nell’aggiornamento alla versione 2.4.6. Si consiglia di ridurre il `oauth_token` tabella che utilizza [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] processo per eliminare i token scaduti.
+Questo articolo fornisce una soluzione al problema che causa la visualizzazione di un numero elevato di `oauth_tokens` nella tabella `oauth_token`, che può causare un ritardo prolungato nell&#39;aggiornamento alla versione 2.4.6. È consigliabile ridurre la tabella `oauth_token` utilizzando il processo [!DNL cron] [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) per eliminare i token scaduti.
 
 ## Prodotti e versioni interessati
 
@@ -21,20 +21,20 @@ Questo articolo fornisce una soluzione al problema in cui è presente un numero 
 
 ## Problema
 
-Se il numero di `oauth_tokens` nel tuo `oauth_token` che può causare un lungo ritardo nell’aggiornamento alla versione 2.4.6.
+Se nella tabella `oauth_token` è presente un numero elevato di `oauth_tokens`, l&#39;aggiornamento alla versione 2.4.6 potrebbe subire un lungo ritardo.
 
 Il processo di aggiornamento include la crittografia di tali token per un ulteriore livello di sicurezza ed è stato eseguito solo 100 record alla volta. Se il numero di token è elevato, l’operazione potrebbe richiedere diverse ore.
 
-Riduzione di un numero elevato di `oauth_tokens` nel tuo `oauth_token` Questa tabella può evitare un lungo ritardo nell’aggiornamento alla versione 2.4.6.
+La riduzione di un numero elevato di `oauth_tokens` nella tabella `oauth_token` può evitare un ritardo prolungato nell&#39;aggiornamento alla versione 2.4.6.
 
 ## Soluzione
 
-Prima di avviare un aggiornamento, assicurati che il [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] processo in esecuzione. Riduce le dimensioni del `oauth_token` tabella eliminando i valori scaduti `oauth_tokens` token e devono essere già abilitati per impostazione predefinita.
+Prima di avviare un aggiornamento, verificare che il processo [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] sia in esecuzione. Riduce le dimensioni della tabella `oauth_token` eliminando i token `oauth_tokens` scaduti e dovrebbe essere già abilitato per impostazione predefinita.
 
-Per attivare manualmente [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron] job, esegui:
+Per attivare manualmente il processo [`CleanExpiredTokens.php`](https://github.com/magento/magento2/blob/2.4.5-p2/app/code/Magento/Integration/Cron/CleanExpiredTokens.php) [!DNL cron], eseguire:
 ```bin/magento cron:run --group=default```
 
 ## Lettura correlata
 
 * [Servizi > [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html) nella guida di riferimento alla configurazione di Commerce.
-* [Guida all’autenticazione](https://developer.adobe.com/developer-console/docs/guides/authentication/) nella guida di Adobe Developer.
+* [Guida all&#39;autenticazione](https://developer.adobe.com/developer-console/docs/guides/authentication/) nella guida di Adobe Developer.

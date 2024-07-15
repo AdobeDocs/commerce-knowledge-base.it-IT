@@ -21,7 +21,7 @@ Le e-mail di conferma dell’ordine vengono inviate dall’indirizzo e-mail del 
 
 <u>Passaggi da riprodurre</u>:
 
-1. Effettua un ordine con **Invia conferma ordine** casella selezionata.
+1. Inserire un ordine con la casella **Invia conferma ordine** selezionata.
 1. Controlla l’e-mail.
 
 <u>Risultato previsto</u>:
@@ -59,6 +59,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

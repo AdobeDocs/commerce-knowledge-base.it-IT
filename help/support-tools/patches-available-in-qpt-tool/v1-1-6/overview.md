@@ -1,6 +1,6 @@
 ---
-title: '"Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.6'''
-description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.6.
+title: 'Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.6'
+description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in  [!DNL Quality Patches Tool] (QPT) v1.1.6.
 exl-id: 7ffa9b78-20ff-4144-9d6c-8ae8ba65e90c
 feature: Tools and External Services
 role: Admin
@@ -11,20 +11,20 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Panoramica della versione 1.1.6
+# Panoramica di [!DNL Quality Patches Tool] (QPT) v1.1.6
 
 Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.6.
 
 QPT v1.1.6 include le seguenti patch:
 
-1. **MDVA-31763**: risolve il problema se le regole del prezzo di catalogo vengono ripristinate (o non applicate) fino alla reindicizzazione manuale.
-1. **MDVA-37748**: risolve il problema in cui una query GraphQL restituisce prodotti non assegnati a un catalogo condiviso.
-1. **MDVA-39229**: risolve il problema che causa la visualizzazione del seguente errore dopo l’aggiornamento dell’ora di inizio dell’aggiornamento della regola del catalogo Staging: *Errore di staging_synchronize_entities_period per il processo di creazione della copia: impossibile eliminare l&#39;aggiornamento attivo.*
-1. **MDVA-40545**: risolve il problema per cui veniva recuperato solo il primo nodo per una pagina anche se erano presenti più nodi per la stessa pagina.
-1. **MDVA-40619**: è stato risolto il problema che causava un errore 500 durante il tentativo di modifica in linea della gerarchia di pagine del CMS in una pagina CMS.
-1. **MDVA-41046**: risolve il problema per cui sono disponibili prodotti semplici con opzioni personalizzate da assegnare a prodotti configurabili/raggruppati.
-1. **MDVA-41061**: risolve il problema se lo stato delle scorte viene reimpostato su vendibile quando un prodotto viene salvato dall’amministratore.
-1. **MDVA-41164**: risolve il problema che impediva all’utente amministratore di salvare o modificare un’azienda con un attributo cliente personalizzato per il tipo di file o immagine.
-1. **MDVA-41236**: risolve il problema che impediva la creazione di un nuovo aggiornamento pianificato o la modifica di un aggiornamento pianificato esistente per un prodotto se la Data di fine era stata precedentemente rimossa.
+1. **MDVA-31763**: è stato risolto il problema che causava il ripristino (o la mancata applicazione) delle regole del prezzo di catalogo fino alla reindicizzazione manuale.
+1. **MDVA-37748**: è stato risolto il problema che si verificava se una query GraphQL restituiva prodotti non assegnati a un catalogo condiviso.
+1. **MDVA-39229**: è stato risolto il problema che provoca la visualizzazione del seguente errore dopo l&#39;aggiornamento dell&#39;ora di inizio dell&#39;aggiornamento dello staging della regola del catalogo: *Errore di staging_synchronize_entities_period del processo Cron: impossibile eliminare l&#39;aggiornamento attivo.*
+1. **MDVA-40545**: è stato risolto il problema che causava il recupero solo del primo nodo di una pagina anche se per la stessa pagina erano presenti più nodi.
+1. **MDVA-40619**: è stato risolto il problema che causava un errore 500 durante il tentativo di modifica in linea in una pagina CMS a causa di modifiche apportate alla gerarchia di pagine CMS.
+1. **MDVA-41046**: è stato risolto il problema che rendeva disponibili prodotti semplici con opzioni personalizzate da assegnare a prodotti configurabili o raggruppati.
+1. **MDVA-41061**: è stato risolto il problema relativo allo stato delle scorte che viene reimpostato su vendibile quando un prodotto viene salvato dall&#39;amministratore.
+1. **MDVA-41164**: è stato risolto il problema che impediva all&#39;utente amministratore di salvare o modificare un&#39;azienda con un attributo cliente personalizzato di tipo file o immagine.
+1. **MDVA-41236**: è stato risolto il problema che impediva la creazione di un nuovo aggiornamento pianificato o la modifica di un aggiornamento pianificato esistente per un prodotto se la data di fine era stata precedentemente rimossa.
 
 Utilizza il menu a sinistra per passare a una pagina patch specifica.

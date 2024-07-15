@@ -1,6 +1,6 @@
 ---
-title: "[!DNL Fastly] domande frequenti sull’abilitazione del cloaking dell’origine"
-description: Queste domande frequenti trattano domande comuni su [!DNL Fastly] abilitazione del cloaking dell’origine in Adobe Commerce (completamente implementata dal 2021).
+title: "[!DNL Fastly] domande frequenti sull'abilitazione cloaking dell'origine"
+description: In questa domanda frequente vengono illustrate le domande comuni sull'abilitazione del cloaking  [!DNL Fastly]  di origine in Adobe Commerce (completamente implementato a partire dal 2021).
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
 source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
@@ -9,17 +9,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Fastly] domande frequenti sull’abilitazione del cloaking dell’origine
+# Domande frequenti sull&#39;abilitazione cloaking dell&#39;origine [!DNL Fastly]
 
-Queste domande frequenti trattano domande comuni su [!DNL Fastly] abilitazione del cloaking dell’origine in Adobe Commerce (completamente implementata dal 2021).
+In questa domanda frequente vengono illustrate le domande comuni sull&#39;abilitazione del cloaking di origine [!DNL Fastly] in Adobe Commerce (completamente implementato dal 2021).
 
-## Cos’è [!DNL Fastly] occultamento origine?
+## Che cos&#39;è il cloaking dell&#39;origine [!DNL Fastly]?
 
-Il cloaking dell’origine è una funzione di sicurezza che consente ad Adobe Commerce sull’infrastruttura cloud di bloccare qualsiasi [!DNL non-Fastly] traffico (per prevenire gli attacchi DDoS, vai all’infrastruttura cloud (origine).
+Il cloaking dell&#39;origine è una funzione di sicurezza che consente ad Adobe Commerce sull&#39;infrastruttura cloud di bloccare qualsiasi traffico [!DNL non-Fastly] (per evitare attacchi DDoS, passare all&#39;infrastruttura cloud (origine)).
 
 ## Quali sono i vantaggi del cloaking dell’origine?
 
-Il cloaking dell&#39;origine è progettato per evitare che il traffico bypassi il [!DNL Fastly Web Application Firewall] (WAF) e la sua instradamento attraverso il flusso di **[!DNL Fastly]** > **Load Balancer** > **Istanze**. Con questa implementazione, tutto il traffico sarà di sicuro percorribile attraverso [!DNL Fastly] WAF e WAF interno integrati nel load balancer.
+Il cloaking dell&#39;origine è progettato per evitare che il traffico ignori [!DNL Fastly Web Application Firewall] (WAF) e lo instradi attraverso il flusso rigorosamente definito di **[!DNL Fastly]** > **Load Balancer** > **Istanze**. Con questa implementazione, tutto il traffico sarà garantito attraverso il WAF [!DNL Fastly] e il WAF interno integrato nel load balancer.
 
 ## Perché si sta verificando l’abilitazione del cloaking dell’origine?
 
@@ -35,7 +35,7 @@ No, non è così.
 
 ## Il cloaking dell’origine influisce sull’API REST?
 
-[!DNL Fastly] non memorizza in cache le chiamate API, pertanto il client deve accettare la modifica. Il cloaking dell’origine blocca solo le richieste che vanno direttamente all’origine, ad esempio:
+[!DNL Fastly] non memorizza nella cache le chiamate API, pertanto il client deve essere in grado di gestire correttamente la modifica. Il cloaking dell’origine blocca solo le richieste che vanno direttamente all’origine, ad esempio:
 
 * Produzione
 
@@ -55,7 +55,7 @@ mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
 mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
-In questo esempio, il client sarà ancora in grado di accedere all’API se modifica l’URL in ``mywebsite.com``:
+In questo esempio, il client sarà comunque in grado di accedere all&#39;API se modifica l&#39;URL in ``mywebsite.com``:
 
 ```php
 mywebsite.com/rest/default/V1/integration/admin/token?username=XXXX&password=XXXXX;
@@ -66,7 +66,7 @@ mywebsite.com/rest/default/V1/inventory/source-items
 
 ## Questa modifica influirà sull&#39;implementazione e sui tempi di inattività?
 
-No, questa modifica **NOT** influire sull’implementazione e sui tempi di inattività.
+No, questa modifica **NON** influisce sulla distribuzione e sui tempi di inattività.
 
 ## Se il progetto dispone di più ambienti di staging, il cloaking dell&#39;origine verrà applicato a tutti gli ambienti di staging?
 

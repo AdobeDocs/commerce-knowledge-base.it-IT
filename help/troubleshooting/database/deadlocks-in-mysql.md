@@ -24,7 +24,7 @@ Questo articolo parla dei deadlock in MySQL per aiutarli a identificare e risolv
 
 I deadlock in MySQL si verificano quando due o più transazioni si bloccano reciprocamente e richiedono blocchi. I deadlock presenti non sempre indicano un problema, ma spesso sono un sintomo di altri problemi MySQL o Adobe Commerce che si sono verificati.
 
-Spesso i registri dell’applicazione, della distribuzione o MySQL menzionano un *&quot;deadlock&quot;* errore o errore *&quot;Deadlock trovato durante il tentativo di ottenere il blocco. Provare a riavviare la transazione.&quot;*
+I registri applicazioni, distribuzione o MySQL spesso menzionano un errore *&quot;deadlock&quot;* o l&#39;errore *&quot;Deadlock trovato durante il tentativo di ottenere il blocco; provare a riavviare la transazione.&quot;*
 
 ## Causa
 
@@ -35,17 +35,17 @@ Ad esempio, è consigliabile evitare l&#39;importazione di un database MySQL blo
 ## Soluzione
 
 1. Verificare la presenza di errori di deadlock nei registri applicazioni, distribuzione o MySQL:
-   * [Posizioni dei registri di Adobe Commerce e Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [Adobe Commerce sulle posizioni dei registri dell’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+   * [Percorsi di registro Adobe Commerce e Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
+   * [Percorsi dei registri dell&#39;infrastruttura cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
 1. Controllare l&#39;elenco dei processi MySQL per l&#39;esecuzione dei processi con il comando `mysql -e 'show full processlist';`
 1. Se utilizzi Adobe Commerce su infrastruttura cloud, verifica che MySQL slave sia abilitato. Consulta questo articolo: [Distribuire le variabili (MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
-1. A seconda degli errori coinvolti, la soluzione potrebbe presentarsi da sola oppure potrebbe essere necessario includere informazioni di registro utili se è necessario aprire una [Ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. A seconda degli errori coinvolti, la soluzione potrebbe presentarsi da sola o potrebbe essere necessario includere le informazioni di registro utili per aprire un [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Lettura correlata
 
 * [Come ridurre al minimo e gestire i deadlock](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
 * [Ottimizzazione indicizzatore - Cambio tabella indicizzatore](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
-* [Operazioni in blocco - Consumo messaggi](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
+* [Operazioni in blocco - Utilizzo messaggi](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
 
 >[!NOTE]
 >

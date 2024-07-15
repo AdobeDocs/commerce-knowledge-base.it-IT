@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Ripristinare uno snapshot del database da [!DNL Staging] o [!DNL Production]
 
-Questo articolo mostra come ripristinare un database [!DNL snapshot] da [!DNL Staging] o [!DNL Production] su infrastruttura Adobe Commerce on Cloud Pro.
+In questo articolo viene illustrato come ripristinare un database [!DNL snapshot] da [!DNL Staging] o [!DNL Production] nell&#39;infrastruttura Adobe Commerce su Cloud Pro.
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 Scegliere il caso più appropriato:
 
@@ -26,9 +26,9 @@ Scegliere il caso più appropriato:
 
 I passaggi sono i seguenti:
 
-1. Utilizzo di [!DNL SFTP], passare alla posizione in cui il database [!DNL snapshot] è stato posizionato, in genere sul primo server/nodo del [!DNL cluster] Ad esempio: `/mnt/recovery-<recovery_id>`). NOTA: se il progetto è basato su Azure, ad esempio, l’URL del progetto avrà un aspetto simile a https://us-a1.magento.cloud/projects/&lt;cluster_id>, quindi l&#39;istantanea verrà inserita in `/mnt/shared/<cluster ID>/all-databases.sql.gz` o `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz` invece.
+1. Utilizzando [!DNL SFTP], passare alla posizione in cui è stato posizionato il database [!DNL snapshot], in genere sul primo server/nodo di [!DNL cluster] (ad esempio: `/mnt/recovery-<recovery_id>`). NOTA: se il progetto è basato su Azure, ad esempio l&#39;URL del progetto è simile a https://us-a1.magento.cloud/projects/&lt;cluster_id>, lo snapshot verrà inserito in `/mnt/shared/<cluster ID>/all-databases.sql.gz` o `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz`.
 
-   NOTA: il formato dello snapshot nei progetti di Azure sarà diverso e conterrà altri database che non possono essere importati. Prima di importare lo snapshot, è necessario eseguire ulteriori operazioni per estrarre il database appropriato prima di importare il dump.
+   NOTA: il formato dello snapshot nei progetti di Azure sarà diverso e conterrà altri database che non possono essere importati. Prima di importare la copia istantanea     è necessario eseguire ulteriori operazioni per estrarre il database appropriato prima di importare l&#39;immagine.
 
    Per la produzione:
 
@@ -61,15 +61,15 @@ I passaggi sono i seguenti:
    --init-command="SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT ;SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS ;SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION ;SET NAMES utf8 ;SET @OLD_TIME_ZONE=@@TIME_ZONE ;SET TIME_ZONE='+00:00' ;SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 ;SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 ;SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' ;SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0;"
    ```
 
-1. Copiare il database [!DNL dump file] Ad esempio: `<cluster ID>.sql.gz` per [!DNL Production] o `<cluster ID_stg>.sql.gz` per [!DNL Staging]) nel computer locale.
-1. Assicurati di aver impostato [!DNL SSH tunnel] per connettersi al database in modalità remota: [[!DNL SSH] e [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) nella documentazione per gli sviluppatori.
+1. Copiare il database [!DNL dump file] (ad esempio: `<cluster ID>.sql.gz` per [!DNL Production] o `<cluster ID_stg>.sql.gz` per [!DNL Staging]) nel computer locale.
+1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) nella documentazione per gli sviluppatori.
 1. Connettersi al database.
 
    ```sql
    mysql -h <db-host> -P <db-port> -p -u <db-user> <db-name>
    ```
 
-1. [!DNL Drop] la banca dati; alla [!DNL MariaDB] prompt, immetti:
+1. [!DNL Drop] il database; al prompt [!DNL MariaDB], immettere:
 
    (Per [!DNL Production])
 
@@ -83,7 +83,7 @@ I passaggi sono i seguenti:
    drop database <cluster ID_stg>;
    ```
 
-1. Immetti il seguente comando per importare [!DNL snapshot]:
+1. Immettere il comando seguente per importare [!DNL snapshot]:
 
    (Per [!DNL Production])
 
@@ -101,14 +101,14 @@ I passaggi sono i seguenti:
 
 I passaggi sono i seguenti:
 
-1. Passare alla posizione in cui si trova il database [!DNL snapshot] è stato posizionato, in genere sul primo server/nodo del [!DNL cluster] Ad esempio: `/mnt/recovery-<recovery_id>`).
-1. A [!DNL drop] e ricreare il database cloud, prima connettiti al database:
+1. Passare alla posizione in cui è stato posizionato il database [!DNL snapshot], in genere sul primo server/nodo di [!DNL cluster] (ad esempio: `/mnt/recovery-<recovery_id>`).
+1. Per [!DNL drop] e ricreare il database cloud, connettersi innanzitutto al database:
 
    ```sql
    mysql -h 127.0.0.1 -P <db-port> -p -u <db-user> <db-name>
    ```
 
-1. [!DNL Drop] la banca dati; alla [!DNL MariaDB] prompt, immetti:
+1. [!DNL Drop] il database; al prompt [!DNL MariaDB], immettere:
 
    (Per [!DNL Production])
 
@@ -122,7 +122,7 @@ I passaggi sono i seguenti:
    drop database <cluster ID_stg>;
    ```
 
-1. Immetti il seguente comando per importare [!DNL snapshot]:
+1. Immettere il comando seguente per importare [!DNL snapshot]:
 
    (Per importare il backup del database da [!DNL Production])
 
@@ -152,5 +152,5 @@ I passaggi sono i seguenti:
 
 Nella documentazione per gli sviluppatori:
 
-* [Importa codice: importa il database](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html#cloud-import-db)
+* [Codice importazione: importare il database](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html#cloud-import-db)
 * [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump)

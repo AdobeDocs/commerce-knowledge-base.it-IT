@@ -21,7 +21,7 @@ Questo articolo parla di un problema di indicizzazione comune in Adobe Commerce,
 
 ## Problema
 
-Durante una reindicizzazione completa nell’interfaccia CLI, Adobe Commerce visualizza il messaggio di errore: *&#39;L&#39;indice è bloccato da un altro processo di reindicizzazione. Ignorato.&#39;* In altre parole, quando il processo o il tipo di indice è bloccato, non è possibile reindicizzare quel particolare tipo di indice bloccato. La reindicizzazione salta sempre quel tipo di indice.
+Durante una reindicizzazione completa nell&#39;interfaccia CLI, Adobe Commerce visualizza il messaggio di errore: L&#39;indice di *è bloccato da un altro processo di reindicizzazione. Ignorato.&#39;* In altre parole, quando il processo o il tipo di indice è bloccato, non è possibile reindicizzare quel particolare tipo di indice bloccato. La reindicizzazione salta sempre quel tipo di indice.
 
 ## Causa
 
@@ -81,8 +81,8 @@ Nella nostra guida utente:
 
 Nella documentazione per gli sviluppatori:
 
-* [Panoramica sull’indicizzazione](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
+* [Panoramica sull&#39;indicizzazione](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
 * [Best practice per gli indicizzatori](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
-* [Configurare Ed Eseguire Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
-* [Gestire Gli Indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
-* [Ottimizzazione dell&#39;indicizzatore](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)
+* [Configura Ed Esegui Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
+* [Gestione Degli Indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
+* [Ottimizzazione indicizzatore](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)

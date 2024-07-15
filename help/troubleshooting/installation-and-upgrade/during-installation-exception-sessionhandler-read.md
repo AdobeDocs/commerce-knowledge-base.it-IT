@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Durante l&#39;installazione, eccezione SessionHandler::read()
 
-Questo articolo fornisce una correzione per un’eccezione **SessionHandler::read()** durante l’installazione di Adobe Commerce.
+Questo articolo fornisce una correzione per un errore **SessionHandler::read()** dell&#39;eccezione durante l&#39;installazione di Adobe Commerce.
 
 ## Problema
 
@@ -25,20 +25,20 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->Questo errore si verifica solo nelle versioni dei codici precedenti al 28 settembre 2015. Se installi un codice datato 29 settembre o successivo, questo errore non dovrebbe verificarsi. Per ulteriori informazioni sulle opzioni di configurazione per Redis, consulta [Configurare Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) nella documentazione per gli sviluppatori. Per ulteriori informazioni su come specificare Redis utilizzando il programma di installazione della riga di comando, vedere [argomento di installazione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-install.html) o [argomento di configurazione della distribuzione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-deployment.html#instgde-cli-subcommands-configphp) nella documentazione per gli sviluppatori.
+>Questo errore si verifica solo nelle versioni dei codici precedenti al 28 settembre 2015. Se installi un codice datato 29 settembre o successivo, questo errore non dovrebbe verificarsi. Per ulteriori informazioni sulle opzioni di configurazione per Redis, vedi [Configurare Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) nella documentazione per gli sviluppatori. Per ulteriori informazioni su come specificare Redis utilizzando il programma di installazione della riga di comando, vedere l&#39;[argomento sull&#39;installazione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-install.html) o l&#39;[argomento sulla configurazione della distribuzione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-deployment.html#instgde-cli-subcommands-configphp) nella documentazione per gli sviluppatori.
 
 ## Causa
 
-Questo accade quando `session.save_handler` Il parametro PHP è impostato su un&#39;archiviazione di sessione diversa da `files` (ad esempio, `redis`, `memcached`e così via). Questo è un problema noto che stiamo lavorando per risolvere.
+Ciò si verifica quando il parametro PHP `session.save_handler` è impostato su un&#39;altra archiviazione di sessione diversa da `files` (ad esempio, `redis`, `memcached` e così via). Questo è un problema noto che stiamo lavorando per risolvere.
 
 ## Soluzioni:
 
-* Aggiorna il codice Adobe Commerce. Fai riferimento a [Guida all&#39;installazione > Aggiornare il software Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall.html#instgde-install-magento-update) nella documentazione per gli sviluppatori.
+* Aggiorna il codice Adobe Commerce. Consulta [Guida all&#39;installazione > Aggiornare il software Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall.html#instgde-install-magento-update) nella documentazione per gli sviluppatori.
 * Utilizza la seguente soluzione alternativa con il codice esistente:
 
 ## Individua `php.ini` {#locate-php-ini}
 
-Individua `php.ini` immettendo il comando seguente:
+Individuare `php.ini` immettendo il comando seguente:
 
 ```php
 php -i | grep "Loaded Configuration File"
@@ -51,7 +51,7 @@ Seguono le posizioni tipiche:
 
 ## Soluzione alternativa {#workaround}
 
-1. Come utente con `root` privilegi, apertura `php.ini` in un editor di testo.
+1. In qualità di utente con privilegi di `root`, apri `php.ini` in un editor di testo.
 1. Individua `session.save_handler`
 1. Impostalo in uno dei seguenti modi:
    * Per aggiungere un commento:

@@ -11,4 +11,4 @@ ht-degree: 0%
 
 # Configurare le impostazioni DNS veloci negli ambienti di staging e produzione
 
-Consulta la sezione [Configura rapidamente](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) articolo nella documentazione per gli sviluppatori per informazioni aggiornate.
+Per informazioni aggiornate, consulta l&#39;articolo [Configurazione rapida](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) nella documentazione per gli sviluppatori.

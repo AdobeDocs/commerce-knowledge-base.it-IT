@@ -17,7 +17,7 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.2.4 
 
 ## Problema
 
-I clienti (aziende) possono creare correttamente un account aziendale sul sito, ma ottenere *&quot;Nessuna entità di questo tipo con customerId = &quot;* e *&quot;Non si dispone ancora di un account aziendale&quot;* messaggi di errore. Possono anche ricevere *&quot;Errore interno del server 500&quot;* quando tenti di accedere alla pagina Profilo aziendale.
+I clienti (aziende) possono creare un account aziendale sul sito, ma ottenere il messaggio di errore *&quot;Nessuna entità di questo tipo con customerId = &quot;* e *&quot;Non si dispone ancora di un account aziendale&quot;*. È inoltre possibile che ricevano *&quot;500 Internal Server Error&quot;* quando tentano di accedere alla pagina del profilo aziendale.
 
 ## Patch
 
@@ -38,4 +38,4 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questo articolo descrive una soluzione per un problema noto in Adobe Commerce durante il pagamento, che si verifica quando viene visualizzato un messaggio di errore durante la selezione di un metodo di pagamento locale per alcuni paesi. Ciò si verifica per i paesi: Belgio, Italia, Paesi Bassi, Polonia e Spagna.
 
-Il messaggio di errore, &quot;*Non sono attualmente disponibili metodi di pagamento. Aggiorna l&#39;indirizzo di fatturazione.*&quot; apparirà, ma i metodi di pagamento locali continueranno ad apparire e a funzionare correttamente. Una correzione permanente sarà disponibile in Adobe Commerce 2.4.1.
+Il messaggio di errore &quot;*Non sono attualmente disponibili metodi di pagamento. Aggiorna l&#39;indirizzo di fatturazione.*&quot; verrà visualizzato, ma i metodi di pagamento locali continueranno a essere visualizzati e a funzionare correttamente. Una correzione permanente sarà disponibile in Adobe Commerce 2.4.1.
 
 ## Prodotti e versioni interessati
 
@@ -44,7 +44,7 @@ I metodi di pagamento locali dovrebbero essere visualizzati normalmente, senza u
 
 <u>Risultato effettivo</u>:
 
-Il messaggio di errore, &quot;*Non sono attualmente disponibili metodi di pagamento. Aggiorna l&#39;indirizzo di fatturazione.*&quot;, ma i metodi di pagamento locali continueranno a essere visualizzati e a funzionare correttamente.
+Il messaggio di errore &quot;*Non sono attualmente disponibili metodi di pagamento. Aggiorna l&#39;indirizzo di fatturazione.Viene visualizzato*&quot;, ma i metodi di pagamento locali continueranno a essere visualizzati e funzioneranno correttamente.
 
 ## Soluzione
 

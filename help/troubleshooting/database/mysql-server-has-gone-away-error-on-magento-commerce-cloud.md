@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Il server MySQL non è più disponibile&#x200B; errore in Adobe Commerce su cloud
 
-Questo articolo parla della soluzione per il problema in cui si riceve un &quot; *SQL Server non più disponibile* messaggio di errore &quot; in `cron.log` file. Possono verificarsi una serie di sintomi, tra cui problemi di importazione dei file di immagine o errori di distribuzione.
+In questo articolo viene illustrata la soluzione del problema per cui viene visualizzato il messaggio di errore &quot; *SQL Server è scomparso*&quot; nel file `cron.log`. Possono verificarsi una serie di sintomi, tra cui problemi di importazione dei file di immagine o errori di distribuzione.
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud, tutto [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce sull&#39;infrastruttura cloud, tutte le [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
-Ricevi un’&quot; *SQL Server non più disponibile* messaggio di errore &quot; in `cron.log` file.
+Viene visualizzato il messaggio di errore &quot; *SQL Server è scomparso*&quot; nel file `cron.log`.
 
 <u>Passaggi da riprodurre</u>
 
@@ -33,20 +33,20 @@ Distribuzione riuscita.
 
 <u>Risultato effettivo</u>
 
-Messaggio di errore in `cron.log` :&quot; *SQLSTATE\[HY000\] \[2006\] Il server MySQL non è più disponibile at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
+Messaggio di errore in `cron.log` :&quot; *SQLSTATE\[HY000\] \[2006\] Il server MySQL è scomparso at/app/AAAAAAAAA/vendor/magento/zendframework1/library/Zend/Db/Adapter/Pdo/Abstract.php:144&quot;*
 
 ## Causa
 
-Il `default_socket_timeout` il valore è impostato su un valore troppo basso. Ciò è causato dall&#39;impostazione `default_socket_timeout` . Se php non riceve nulla dal database MySQL entro questo periodo, presuppone che sia disconnesso e genera l&#39;errore.
+Il valore `default_socket_timeout` è impostato su un valore troppo basso. La causa è l&#39;impostazione `default_socket_timeout`. Se php non riceve nulla dal database MySQL entro questo periodo, presuppone che sia disconnesso e genera l&#39;errore.
 
 ## Soluzione
 
-1. Controlla il periodo di timeout corrente per `default_socket_timeout` eseguendo in CLI:    ```    php -i |grep default_socket_timeout    ```
-1. A seconda dell&#39;impostazione di timeout, il `default_socket_timeout` variabile al tempo di esecuzione più lungo possibile previsto nel `/etc/platform/<project_name>/php.ini` file. Si consiglia di impostare un valore compreso tra 10 e 15 minuti.
+1. Controllare il periodo di timeout corrente per `default_socket_timeout` eseguendo in CLI:    ```    php -i |grep default_socket_timeout    ```
+1. A seconda dell&#39;aumento dell&#39;impostazione di timeout, la variabile `default_socket_timeout` raggiunge il tempo di esecuzione più lungo possibile previsto nel file `/etc/platform/<project_name>/php.ini`. Si consiglia di impostare un valore compreso tra 10 e 15 minuti.
 1. Esegui il commit in GIT e ridistribuiscilo.
 
 ## Lettura correlata
 
 * [Il caricamento del database perde la connessione a MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
-* [Best practice per il database di Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
-* [Problemi di database più comuni in Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)

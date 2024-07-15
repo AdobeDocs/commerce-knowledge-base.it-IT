@@ -9,7 +9,7 @@ ht-degree: 0%
 
 ## Autore in Markdown
 
-In generale, utilizziamo [Guida allo stile della sintassi Markdown di Adobe Experience League](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), ma ci sono alcune differenze ed eccezioni. Inoltre, in alcuni casi sono necessari determinati tag HTML.
+In genere si utilizza la [Guida di stile della sintassi Markdown di Adobe Experience League](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), ma esistono alcune differenze ed eccezioni. Inoltre, in alcuni casi sono necessari determinati tag HTML.
 
 Di seguito sono riportati alcuni esempi della formattazione Markdown più comunemente utilizzata nel nostro archivio.
 
@@ -23,11 +23,11 @@ Per formattare il testo in corsivo, utilizzare un singolo asterisco:
 
 `This text will be *italics*`
 
-Per formattare il testo come sottolineato, utilizzare `<ins>` tag:
+Per formattare il testo come sottolineato, utilizzare il tag `<ins>`:
 
 `<ins>This text will be underlined</ins>`
 
-Per aggiungere un&#39;interruzione di riga, utilizzare `<br>` HTML.
+Per aggiungere un&#39;interruzione di riga, utilizzare il tag HTML `<br>`.
 
 
 ## Intestazioni
@@ -54,8 +54,11 @@ Per inserire un blocco di codice, racchiudi il blocco di codice in tre apici ret
 
 sql \`\`\`
 
-SELEZIONA NOME_TABELLA COME `Table`, ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
-FROM information_schema.TABLES WHERE TABELLA_SCHEMA = &quot;%project_id%&quot; ORDINA PER (DATA_LENGTH + INDEX_LENGTH) DESC;
+SELEZIONA NOME_TABELLA COME `Table`,
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
+FROM information_schema.TABLES
+WHERE TABELLA_SCHEMA = &quot;%project_id%&quot;
+ORDINA PER (DATA_LENGTH + INDEX_LENGTH) DESC;
 
 \`\`\`
 
@@ -130,7 +133,7 @@ I collegamenti esterni sono semplici:
 
 Qualsiasi tipo di allegato deve essere nei formati .png, .jpg e .jpeg. Per motivi di sicurezza, accettiamo solo gli allegati in uno dei tre formati.
 
-Per inserire un&#39;immagine, posizionarla in *risorse* sottocartella nella stessa cartella di sezione dell’articolo e utilizza la sintassi seguente per inserire l’immagine nell’articolo:
+Per inserire un&#39;immagine, inseriscila nella sottocartella *assets* nella stessa cartella di sezione dell&#39;articolo e utilizza la sintassi seguente per inserire l&#39;immagine nell&#39;articolo:
 
 ```markdown
 ![alt text](assets/image.png)
@@ -162,17 +165,17 @@ Questo è un collegamento a questa intestazione:
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-Se devi fare riferimento a un elemento diverso da header, utilizza HTML per definire l’elemento da aggiungere. [attributo id](https://www.w3schools.com/html/html_id.asp). Puoi quindi utilizzare Markdown o HTML per fare riferimento a questo ID.
+Se devi fare riferimento a un elemento diverso da header, utilizza HTML per definire l&#39;elemento da aggiungere utilizza l&#39;[attributo id](https://www.w3schools.com/html/html_id.asp). Puoi quindi utilizzare Markdown o HTML per fare riferimento a questo ID.
 
 ### Collegamenti relativi e collegamenti ad altri articoli
 
-Non utilizzare collegamenti relativi per fare riferimento agli articoli della Knowledge Base di supporto. Questi collegamenti non funzioneranno quando l&#39;articolo verrà pubblicato in [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us).
-Utilizza i collegamenti ipertestuali completi dalla sezione [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us).
+Non utilizzare collegamenti relativi per fare riferimento agli articoli della Knowledge Base di supporto. Questi collegamenti non funzioneranno quando il tuo articolo verrà pubblicato nel [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us).
+Utilizzare i collegamenti ipertestuali completi dal [Centro assistenza Adobe Commerce](https://support.magento.com/hc/en-us).
 
 
 ## Tabelle
 
-Utilizzare [Formattazione HTML per le tabelle](https://www.w3schools.com/html/html_tables.asp).
+Utilizza la formattazione di [HTML per le tabelle](https://www.w3schools.com/html/html_tables.asp).
 
 
 ## Avvisi e blocchi di informazioni

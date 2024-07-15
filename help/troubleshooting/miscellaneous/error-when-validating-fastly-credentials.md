@@ -33,18 +33,18 @@ L’utente riceve un errore durante la convalida delle credenziali Fastly.
    curl -H "Fastly-Key: <API key>" https://api.fastly.com/service/<service ID>/version/active
    ```
 
-1. Se il comando precedente restituisce un errore simile al seguente: *{&quot;msg&quot;:&quot;Token $TOKEN scaduto il 28 settembre 2021:03:37Z&quot;}*, invia un ticket di supporto per richiedere un nuovo token API.
+1. Se il comando precedente restituisce un errore simile al seguente: *{&quot;msg&quot;:&quot;Token $TOKEN scaduto il 2021-09-28T02:03:37Z&quot;}*, invia un ticket di supporto per richiedere un nuovo token API.
 
-   Per informazioni su come inviare un ticket di supporto, consulta [Guida utente di Adobe Commerce Help Center > TICKET DI SUPPORTO](/help/help-center-guide/help-center/magento-help-center-user-guide.md#support-tickets) nella nostra knowledge base di supporto.
+   Per informazioni su come inviare un ticket di supporto, consulta [Guida utente del Centro assistenza Adobe Commerce > TICKET DI SUPPORTO](/help/help-center-guide/help-center/magento-help-center-user-guide.md#support-tickets) nella nostra knowledge base di supporto.
 
    >[!NOTE]
    >
    >Non condividere mai password o token API validi/attivi direttamente nel ticket, poiché per motivi di sicurezza dovremo revocare il token corrente e generarne uno nuovo.
 
-1. Se il comando non restituisce l&#39;errore, verificare di eseguire la versione più recente del [!DNL Fastly] estensione. Se utilizzi una versione precedente a 1.2.203, devi prima fare clic su **[!UICONTROL Save Config]** prima di poter verificare le credenziali.
+1. Se il comando non restituisce l&#39;errore, verificare di eseguire la versione più recente dell&#39;estensione [!DNL Fastly]. Se utilizzi una versione precedente alla 1.2.203, devi fare clic su **[!UICONTROL Save Config]** prima di poter verificare le credenziali.
 
 ## Letture correlate nella documentazione per gli sviluppatori:
 
-* [Cloud for Adobe Commerce > Fastly > Account e credenziali del servizio Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
+* [Cloud per Adobe Commerce > Fastly > Account e credenziali del servizio Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
 
-* [Cloud for Adobe Commerce > Configura velocemente > Verifica le credenziali Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)
+* [Cloud per Adobe Commerce > Configura velocemente > Verifica le credenziali Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)

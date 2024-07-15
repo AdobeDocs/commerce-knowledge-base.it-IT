@@ -23,14 +23,14 @@ Questo articolo suggerisce una soluzione per il problema di timeout che potrebbe
 
 ## Problema
 
-Prerequisiti: **Negozi** > **Configurazione** > **CATALOGO** > **Catalogo** > **Usa il percorso delle categorie per gli URL dei prodotti** è impostata su *Sì* per la visualizzazione store.
+Prerequisiti: l&#39;opzione **Archivi** > **Configurazione** > **CATALOGO** > **Catalogo** > **Usa percorso categorie per URL prodotto** è impostata su *Sì* per la visualizzazione archivio.
 
 <u>Passaggi da riprodurre</u>
 
-1. In Commerce Admin, vai a **Catalogo** > **Categorie**.
+1. In Amministrazione Commerce, vai a **Catalogo** > **Categorie**.
 1. Apri una categoria grande, ad esempio più di 1000 prodotti assegnati.
 1. Aggiungi un prodotto alla categoria.
-1. Clic **Salva categoria**.
+1. Fai clic su **Salva categoria**.
 
 <u>Risultato previsto:</u>
 
@@ -46,22 +46,22 @@ Il processo richiede più tempo del timeout configurato dal server.
 
 ## Soluzione
 
-Disattivazione di **Genera riscritture URL &quot;categoria/prodotto&quot;** rimuoverà tutte le riscritture URL di categoria/prodotto dal database e ridurrà significativamente il tempo necessario per le operazioni con le categorie grandi.
+Se si disabilita l&#39;opzione **Genera URL &quot;categoria/prodotto&quot; Riscrittura**, verranno rimosse dal database tutte le riscritture degli URL di categoria/prodotto e verrà ridotto in modo significativo il tempo necessario per le operazioni con categorie di grandi dimensioni.
 
 >[!WARNING]
 >
 >Se questa opzione viene disattivata, la rimozione permanente delle riscritture degli URL di categoria/prodotto non sarà più possibile ripristinarle.
 
-Per disattivare **Genera riscritture URL &quot;categoria/prodotto&quot;** opzione:
+Per disabilitare l&#39;opzione **Genera URL &quot;categoria/prodotto&quot; Riscrive**:
 
-1. In Amministrazione Commerce, passa a **Negozi** > **Configurazione** > **CATALOGO** > **Catalogo**.
-1. Nell&#39;angolo in alto a sinistra della pagina di configurazione, nel **Ambito** , imposta l&#39;ambito di configurazione su *Configurazione predefinita*.
-1. Imposta **Genera riscritture URL &quot;categoria/prodotto&quot;** a *No*.
-1. Clic **Salva configurazione**.
-1. Pulisci cache eseguendo    ```bash    bin/magento cache:clean    ```    o in Commerce Admin in **Sistema** > **Strumenti** > **Gestione cache**.
+1. In Amministrazione Commerce, passa a **Archivi** > **Configurazione** > **CATALOGO** > **Catalogo**.
+1. Nell&#39;angolo superiore sinistro della pagina di configurazione, nel campo **Ambito**, imposta l&#39;ambito di configurazione su *Configurazione predefinita*.
+1. Impostare **Genera URL &quot;categoria/prodotto&quot; Riscrive** in *No*.
+1. Fai clic su **Salva configurazione**.
+1. Pulisci cache eseguendo    ```bash    bin/magento cache:clean    ```    o nell&#39;amministratore di Commerce in **Sistema** > **Strumenti** > **Gestione cache**.
 
 Ora è possibile aggiungere prodotti alle categorie o spostare le categorie con un numero elevato di prodotti. Queste operazioni richiederanno molto meno tempo e non dovrebbero causare timeout.
 
 ## Lettura correlata
 
-[Reindirizzamenti automatici dei prodotti](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html) nella guida utente.
+[Reindirizzamenti automatici ai prodotti](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html) nella guida utente.

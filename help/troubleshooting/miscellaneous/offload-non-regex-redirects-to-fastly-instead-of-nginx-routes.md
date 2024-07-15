@@ -17,7 +17,7 @@ Questo argomento suggerisce una soluzione a un tipico problema di prestazioni ch
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud (tutte le versioni) `Master/Production/Staging` ambienti che sfruttano Fastly
+* Adobe Commerce sull&#39;infrastruttura cloud (tutte le versioni) `Master/Production/Staging` ambienti che sfruttano Fastly
 
 ## Problema
 
@@ -25,9 +25,9 @@ Nell’infrastruttura cloud di Adobe Commerce on, non è possibile eseguire un n
 
 ## Causa
 
-Il `routes.yaml` file in `.magento/routes.yaml` definisce le route per l’infrastruttura cloud di Adobe Commerce.
+Il file `routes.yaml` nella directory `.magento/routes.yaml` definisce le route per l&#39;infrastruttura cloud di Adobe Commerce.
 
-Se le dimensioni del `routes.yaml` è pari o superiore a 32 KB, è necessario scaricare i reindirizzamenti/riscritture non regex su Fastly.
+Se la dimensione del file `routes.yaml` è pari o superiore a 32 KB, è necessario scaricare i reindirizzamenti/riscritture non regex su Fastly.
 
 Questo livello Nginx non può gestire un numero elevato di reindirizzamenti/riscritture non regex, altrimenti si verificheranno problemi di prestazioni.
 
@@ -37,13 +37,13 @@ La soluzione è scaricare i reindirizzamenti non regex su Fastly. Crea un percor
 
 I passaggi seguenti spiegano come posizionare i reindirizzamenti su Fastly invece di Nginx.
 
-1. Creare un dizionario Edge.
+1. Crea un dizionario Edge.
 
-   Innanzitutto, puoi utilizzare [Snippet VCL in Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) per definire un dizionario edge. Conterrà i reindirizzamenti.
+   Innanzitutto, puoi utilizzare [snippet VCL in Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) per definire un dizionario perimetrale. Conterrà i reindirizzamenti.
 
    Alcune avvertenze:
 
-   * Fastly non può fare regex sulle voci del dizionario. È solo una corrispondenza esatta. Per ulteriori informazioni su queste limitazioni, consulta [Documenti di Fastly sulle limitazioni del dizionario Edge](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).
+   * Fastly non può fare regex sulle voci del dizionario. È solo una corrispondenza esatta. Per ulteriori informazioni su queste limitazioni, consulta la [documentazione di Fastly sulle limitazioni del dizionario Edge](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).
    * Fastly ha un limite di 1000 voci in un singolo dizionario. Fastly può espandere questo limite, ma questo porta alla terza avvertenza.
    * Ogni volta che aggiorni le voci e distribuisci quel VCL aggiornato a tutti i nodi, c&#39;è un aumento geometrico del tempo di caricamento con dizionari in espansione - il che significa, un dizionario di 2000 voci in realtà si carica 3x-4x più lentamente di un dizionario di 1000 voci. Ma questo è un problema solo quando distribuisci il VCL (aggiornando il dizionario o modificando il codice della funzione VCL).
 
@@ -59,7 +59,7 @@ I passaggi seguenti spiegano come posizionare i reindirizzamenti su Fastly invec
 
    Quando si verifica la ricerca URL, viene eseguito il confronto per applicare il codice di errore personalizzato, se viene trovata una corrispondenza.
 
-   Utilizzate un altro frammento VCL per aggiungere un elemento simile al seguente `vcl_recv`:
+   Utilizzare un altro frammento VCL per aggiungere qualcosa di simile al seguente a `vcl_recv`:
 
    ```
         declare local var.redir-path STRING;
@@ -74,7 +74,7 @@ I passaggi seguenti spiegano come posizionare i reindirizzamenti su Fastly invec
 
 1. Gestire il reindirizzamento.
 
-   Quando viene trovata una corrispondenza, viene eseguita l’azione definita per tale corrispondenza `obj.status`, in questo caso un reindirizzamento di spostamento permanente 301.
+   Quando viene trovata una corrispondenza, viene eseguita l&#39;azione definita per tale `obj.status`, in questo caso un reindirizzamento di spostamento permanente 301.
 
    Utilizzare uno snippet finale in `vcl_error` per inviare nuovamente i codici di errore 301 al client:
 
@@ -87,7 +87,7 @@ I passaggi seguenti spiegano come posizionare i reindirizzamenti su Fastly invec
           }
    ```
 
-   Con questo blocco, stiamo controllando se il codice di errore è stato trasmesso da `vcl_recv` corrisponde e, in tal caso, imposta la posizione sul messaggio di errore trasmesso, quindi modifica il codice di stato in 301 e il messaggio in &quot;Spostato definitivamente&quot;. A questo punto, la risposta dovrebbe essere pronta per tornare al client.
+   Con questo blocco, stiamo verificando se il codice di errore trasmesso da `vcl_recv` corrisponde e, in tal caso, imposteremo il percorso sul messaggio di errore trasmesso, quindi modificheremo il codice di stato in 301 e il messaggio in &quot;Spostato definitivamente&quot;. A questo punto, la risposta dovrebbe essere pronta per tornare al client.
 
 ### Servizio stage
 
@@ -102,4 +102,4 @@ Se non desideri eseguire un ambiente di staging di Adobe Commerce, ma desideri v
 * [Riferimento VCL Fastly](https://docs.fastly.com/vcl/)
 * [Configurare le route](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) nella documentazione per gli sviluppatori.
 * [Configura Fastly](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella documentazione per gli sviluppatori.
-* [Scheda di riferimento rapido per espressioni regolari VCL](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) nella documentazione per gli sviluppatori.
+* [Scheda di riferimento rapido per le espressioni regolari VCL](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) nella documentazione per gli sviluppatori.

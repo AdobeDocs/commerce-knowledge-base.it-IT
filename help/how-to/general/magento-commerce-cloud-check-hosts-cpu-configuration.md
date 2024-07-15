@@ -21,4 +21,4 @@ Adobe Commerce sull’infrastruttura cloud 2.3.x, 2.4.x
 
 ## Scarica l’articolo
 
-Clic [Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf](assets/Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf) per scaricare l&#39;articolo.
+Fai clic su [Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf](assets/Check_host_s_CPU_Configuration_-_Application_to_host_resizes.pdf) per scaricare l&#39;articolo.

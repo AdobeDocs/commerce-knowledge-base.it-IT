@@ -1,5 +1,5 @@
 ---
-title: Come verificare il motivo [!DNL cron] è stato disabilitato
+title: Verificare il motivo della disabilitazione di  [!DNL cron]
 description: Questo articolo offre soluzioni per la risoluzione dei problemi relativi ai cron in Adobe Commerce sui prodotti dell’infrastruttura cloud.
 feature: Configuration
 role: Developer
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Come verificare il motivo [!DNL cron] è stato disabilitato
+# Verificare il motivo per cui [!DNL cron] è stato disabilitato
 
-Questo articolo offre soluzioni per la risoluzione dei problemi relativi a [!DNL cron] in Adobe Commerce sui prodotti dell’infrastruttura cloud.
+Questo articolo offre soluzioni per la risoluzione dei problemi relativi a [!DNL cron] nei prodotti Adobe Commerce per infrastrutture cloud.
 
 ## Prodotti e versioni interessati
 
@@ -21,10 +21,10 @@ Questo articolo offre soluzioni per la risoluzione dei problemi relativi a [!DNL
 
 ## Problema
 
-## Di seguito sono riportati i sintomi [!DNL cron] problemi:
+## Di seguito sono riportati i sintomi di [!DNL cron] problemi:
 
-Hai notato che il tuo [!DNL cron] non stava correndo.
-Ad esempio: nelle `app/etc/env.php` file:
+Hai notato che [!DNL cron] non era in esecuzione.
+Ad esempio: vengono visualizzate le righe seguenti nel file `app/etc/env.php`:
 
 ```'cron' =>
   array (
@@ -32,7 +32,7 @@ Ad esempio: nelle `app/etc/env.php` file:
   ),
 ```
 
-Un array vuoto indica che il [!DNL cron] è **abilitato**:
+Un array vuoto indica che [!DNL cron] è **abilitato**:
 
 ```'cron' =>
   array (
@@ -43,41 +43,41 @@ Un array vuoto indica che il [!DNL cron] è **abilitato**:
 
 Ci sono diversi motivi per cui [!DNL cron] non è attualmente attivo:
 
-1. Il [!DNL cron] è stato disabilitato a causa di errori [!DNL OpCache] impostazioni.
-1. Il team Infrastruttura ha disabilitato [!DNL cron], perché causava un peggioramento delle prestazioni del sito o un peggioramento delle prestazioni.
-1. Il [!DNL cron] non è stato riattivato perché la distribuzione non è riuscita.
+1. [!DNL cron] è stato disabilitato a causa di [!DNL OpCache] impostazioni mancanti.
+1. Il team dell&#39;infrastruttura ha disabilitato [!DNL cron] perché causava un calo delle prestazioni del sito.
+1. [!DNL cron] non è stato riabilitato perché la distribuzione non è riuscita.
 
 Consulta una delle seguenti sezioni per una soluzione al problema.
 
 ## Soluzioni
 
-### Soluzione per la perdita dei dati [!DNL OpCache] impostazioni {#solution-missed-opcache-settings}
+### Soluzione per le impostazioni [!DNL OpCache] mancanti {#solution-missed-opcache-settings}
 
-Consulta [[!DNL Cron] interrotto a causa di configurazione errata o mancante [!DNL OpCache] impostazioni](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings) nella knowledge base di Commerce.
+Vedi [[!DNL Cron] arrestato a causa di configurazione errata o impostazioni mancanti [!DNL OpCache] nella Knowledge Base di Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings).
 
 ### Soluzione per utenti disabili dal team di infrastruttura {#solution-disabled-by-infrastructure-team}
 
 1. Controlla i ticket di supporto precedenti in cui il tuo sito non rispondeva o non rispondeva.
 1. Verificare quindi se il team Infrastruttura ha segnalato di averlo disabilitato.
 1. Verificare di aver risolto i problemi segnalati dal team Infrastruttura.
-1. Invia un [Richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se hai bisogno di ulteriore assistenza per richiedere di riabilitare [!DNL cron] e spiegare come sono stati risolti i problemi indicati dal team Infrastruttura.
+1. Inviare una [richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se è necessaria ulteriore assistenza per richiedere la riattivazione di [!DNL cron] e spiegare come sono stati risolti i problemi indicati dal team Infrastruttura.
 
 ### Impossibile distribuire la soluzione {#solution-deployment-failed}
 
 Controlla i registri di distribuzione:
 
-* [Visualizzare e gestire i registri](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) nella Guida all’infrastruttura Commerce on Cloud.
-* [Verifica del registro di distribuzione se l’interfaccia utente cloud dispone di *`log snipped`* errore](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) nella knowledge base di Commerce.
+* [Visualizza e gestisci i registri](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Verifica del registro di distribuzione se nell&#39;interfaccia utente di Cloud è presente *`log snipped`* errore](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) nella Knowledge Base di Commerce.
 
-1. Se la distribuzione non era riuscita durante il `setup:upgrade` passaggio, il [!DNL cron] non sarà stato riattivato.
+1. Se la distribuzione non è riuscita durante il passaggio `setup:upgrade`, [!DNL cron] non sarà stato riabilitato.
 Ad esempio: vedi questa riga nel registro di distribuzione:
 
    ```The command "/bin/bash -c "set -o pipefail; php ./bin/magento setup:upgrade --keep-generated --ansi --no-interaction  | tee -a /app/$<project_id>/var/log/install_upgrade.log"" failed. Cache types config flushed successfully```
 
-1. In caso contrario, la distribuzione potrebbe non essere riuscita durante un’altra fase. Controlla il registro di distribuzione e accertati che entrambe le righe siano visualizzate (esempio di seguito). Se non trovi entrambe le righe simili nel registro, significa che il [!DNL cron] non è stato riabilitato:
+1. In caso contrario, la distribuzione potrebbe non essere riuscita durante un’altra fase. Controlla il registro di distribuzione e accertati che entrambe le righe siano visualizzate (esempio di seguito). Se nel registro non vengono visualizzate entrambe le righe simili, significa che [!DNL cron] non è stato riabilitato:
 
    ```  [2024-03-06T10:55:39.345564+00:00] INFO: Disable cron```<br>
 ...<br>
    ```  [2024-02-07T10:50:09.579005+00:00] INFO: Enable cron```
 
-**Invia un [Richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se ha bisogno di ulteriore assistenza.**
+**Invia una [richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se hai bisogno di ulteriore assistenza.**

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# PWA Studi: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy su&quot;
+# PWA Studio: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy su&quot;
 
-In questo argomento viene illustrata una soluzione quando nel browser viene visualizzato un &quot;*Impossibile eseguire il proxy a*&quot; e la console visualizza un
+In questo argomento viene illustrata una soluzione quando nel browser viene visualizzato un &quot;*Impossibile eseguire il proxy a*&quot; e nella console viene visualizzato un
 
 ```
 ENOTFOUND
@@ -23,7 +23,7 @@ Errore durante l’utilizzo di Progressive Web App (PWA) Studio per Adobe Commer
 
 ## Prodotti e versioni interessati
 
-* PWA Studi per Adobe Commerce
+* PWA Studio per Adobe Commerce
 
 ## Problema
 
@@ -37,7 +37,7 @@ Errore durante l’utilizzo di Progressive Web App (PWA) Studio per Adobe Commer
 
 <u>Risultato effettivo</u>:
 
-* Nel browser Web viene visualizzato il messaggio &quot;*Impossibile eseguire il proxy a*&quot;e la console visualizza un errore simile al seguente:
+* Nel browser viene visualizzato l&#39;errore &quot;*Impossibile eseguire il proxy a*&quot; e nella console viene visualizzato un errore simile al seguente:
 
 ```
     ENOTFOUND
@@ -51,9 +51,9 @@ NodeJS non è in grado di risolvere il nome host dell’archivio Adobe Commerce.
 ## Soluzione
 
 1. Assicurati che il tuo archivio Adobe Commerce venga caricato in più di un browser web.
-1. Se esegui un server DNS locale o una VPN, aggiungi una voce al file host (che si trova in `/etc/hosts`) e mappare manualmente questo dominio ([Istruzioni generiche sulla modifica di file host](https://linuxize.com/post/how-to-edit-your-hosts-file/)) in modo che NodeJS possa risolverlo.
+1. Se si esegue un server DNS locale o una VPN, aggiungere una voce al file host (che si trova in `/etc/hosts`) e mappare manualmente questo dominio ([Istruzioni generiche sulla modifica del file host](https://linuxize.com/post/how-to-edit-your-hosts-file/)) in modo che NodeJS possa risolverlo.
 
 ## Lettura correlata
 
-* [Documentazione di PWA Studi per Adobe Commerce](https://magento.github.io/pwa-studio/)
+* [PWA Studi per la documentazione di Adobe Commerce](https://magento.github.io/pwa-studio/)
 * [Strumenti e librerie](https://magento.github.io/pwa-studio/technologies/tools-libraries/)

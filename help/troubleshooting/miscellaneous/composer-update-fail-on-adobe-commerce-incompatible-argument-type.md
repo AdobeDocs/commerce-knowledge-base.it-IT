@@ -43,7 +43,7 @@ Il problema è causato dall’incompatibilità del codice core di Adobe Commerce
 
 Il problema verrà risolto automaticamente una volta rilasciata la nuova versione di symfony/console 4.2.29 (prevista per agosto 2021).
 
-**Come risolvere il problema on-premise in Adobe Commerce:**
+**Correzione in Adobe Commerce on-premise:**
 
 Adobe Commerce on-premise 2.4.x
 
@@ -55,12 +55,12 @@ Tutti i commercianti on-premise Adobe Commerce versione 2.3.5 devono eseguire il
 
 ``composer require symfony/console:"~4.1.0||~4.2.0||~4.3.0||>=4.4.0 <4.4.27 || ~4.4.29"``
 
-**Come risolvere il problema relativo all’infrastruttura cloud di Adobe Commerce:**
+**Correzione in Adobe Commerce sull&#39;infrastruttura cloud:**
 
-Esegui i comandi di cui sopra o effettua l’aggiornamento alla versione più recente degli strumenti ECE (strumenti ece: 2002.1.7), che sarà disponibile giovedì 29 luglio. Per i passaggi, consulta [Cloud for Adobe Commerce > Aggiorna versione strumenti ece](https://devdocs.magento.com/cloud/project/ece-tools-update.html) nella documentazione per gli sviluppatori.
+Esegui i comandi di cui sopra o effettua l’aggiornamento alla versione più recente degli strumenti ECE (strumenti ece: 2002.1.7), che sarà disponibile giovedì 29 luglio. Per i passaggi, consulta [Cloud for Adobe Commerce > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) nella nostra documentazione per sviluppatori.
 
 La correzione completa verrà rilasciata in Adobe Commerce (tutti i metodi di distribuzione) 2.4.4.
 
 ## Lettura correlata
 
-* Github: [2021-07-27 Aggiornamento del compositore Tipo di argomento incompatibile: Tipo richiesto: int. Tipo effettivo: stringa](https://github.com/magento/magento2/issues/33595)
+* Github: [2021-07-27 Aggiornamento Compositore Tipo di argomento incompatibile: Tipo richiesto: int. Tipo effettivo: stringa](https://github.com/magento/magento2/issues/33595)

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-45424: Compensazione prenotazione errata creata dopo rimborso parziale
 
-La patch ACSD-45424 risolve il problema che comporta la creazione di una compensazione della prenotazione non corretta dopo un rimborso parziale. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17. L’ID della patch è ACSD-45424. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
+La patch ACSD-45424 risolve il problema che comporta la creazione di una compensazione della prenotazione non corretta dopo un rimborso parziale. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17. L’ID della patch è ACSD-45424. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.1
 
@@ -27,7 +27,7 @@ La patch ACSD-45424 risolve il problema che comporta la creazione di una compens
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -53,31 +53,31 @@ La compensazione della prenotazione non corretta viene creata dopo un rimborso p
    SELECT * FROM inventory_reservation WHERE sku = 'P3';
    ```
 
-   Riceverai il record dell’ordine effettuato nella `inventory_reservation` tabella. La quantità è 10, che è corretta.
+   Otterrai il record dell&#39;ordine inserito nella tabella `inventory_reservation`. La quantità è 10, che è corretta.
 1. Fattura questo ordine dal backend.
-1. Ora crea una nota di credito per un solo prodotto. NON selezionare *Torna all&#39;archivio* casella di controllo.
+1. Ora crea una nota di credito per un solo prodotto. NON selezionare la casella di controllo *Torna all&#39;archivio*.
 1. Esegui la stessa query dal passaggio 8.
 
 <u>Risultati previsti</u>:
 
-Se non hai selezionato *Torna all&#39;archivio* durante la creazione della nota di credito, il `inventory_reservation` la tabella non avrà un record corrispondente alla nota di credito.
+Se durante la creazione della nota di credito non è stato selezionato *Torna al magazzino*, la tabella `inventory_reservation` non avrà un record corrispondente alla nota di credito.
 
 <u>Risultati effettivi</u>:
 
-Anche se non hai selezionato il *Torna all&#39;archivio* durante la creazione della nota di credito, aggiunge un record a `inventory_reservation` tabella con `creditmemo_created` tipo di evento. Inoltre, il record della nota di accredito aggiunto nel `inventory_reservation` la tabella ha una quantità pari a 10 anche se è stata creata la nota di accredito per una sola quantità.
+Anche se non hai selezionato *Torna allo Stock* durante la creazione della nota di credito, aggiunge un record alla tabella `inventory_reservation` con tipo di evento `creditmemo_created`. Inoltre, il record della nota di credito aggiunto nella tabella `inventory_reservation` ha una quantità di 10 anche se la nota di credito è stata creata per una sola quantità.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

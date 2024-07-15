@@ -41,21 +41,21 @@ In Adobe Commerce sono disponibili due tipi di cache:
 
 ### Controlla se la cache è stata invalidata
 
-Puoi trovare informazioni sui tipi di cache invalidati nella sezione `<install_directory>/var/log/debug.log` file.
+Nel file `<install_directory>/var/log/debug.log` sono disponibili informazioni sui tipi di cache invalidati.
 
 Per eseguire questa operazione:
 
 1. Apri `<install_directory>/var/log/debug.log`
-1. Cerca &quot; *cache\_invalidate* &quot; messaggio.
+1. Cerca il messaggio &quot; *cache\_invalidate*&quot;.
 1. Quindi controlla il tag specificato. Indica quale cache è stata scaricata. Potresti riscontrare dei problemi a causa della cache invalidata se visualizzi un tag senza un particolare ID entità specificato, ad esempio:
-   * `cat_p` : sta per cache dei prodotti di catalogo.
+   * `cat_p` - sta per cache prodotti catalogo.
    * `cat_c` - cache categoria catalogo.
    * `FPC` - cache a pagina intera.
    * `CONFIG` - cache di configurazione.
 
-   Avere anche solo uno di loro scaricato rallenterebbe la risposta del sito web. Se il tag contiene un ID entità, ad esempio, `category_product_1258`, che indica la cache per un particolare prodotto o categoria e così via. Lo scaricamento della cache per un particolare prodotto o categoria non ridurrebbe in modo significativo il tempo di risposta.
+   Avere anche solo uno di loro scaricato rallenterebbe la risposta del sito web. Se il tag contiene un ID entità, ad esempio `category_product_1258`, ciò indicherebbe la cache per un particolare prodotto o categoria e così via. Lo scaricamento della cache per un particolare prodotto o categoria non ridurrebbe in modo significativo il tempo di risposta.
 
-Di seguito è riportato un esempio di `debug.log` contenente record relativi a `cat_p` e `category_product_15044` cache scaricata:
+Di seguito è riportato un esempio di `debug.log` contenente record relativi allo scaricamento della cache di `cat_p` e `category_product_15044`:
 
 ![esempio del contenuto debug.log](assets/debug_log_sample.png)
 
@@ -67,4 +67,4 @@ Di solito, la cache viene invalidata per i seguenti motivi:
 ## Consiglio
 
 1. Evita di scaricare la cache da Commerce CLI.
-1. Configura gli indicizzatori in **Aggiorna per pianificazione** invece di **Aggiorna in modalità di salvataggio** perché quest’ultimo attiva la reindicizzazione completa. Per maggiori informazioni, consulta [Gestisci gli indicizzatori > Configura indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) nella documentazione per gli sviluppatori.
+1. Configurare gli indicizzatori in **Aggiorna in base alla pianificazione** anziché **Aggiorna in modalità di salvataggio** perché quest&#39;ultima attiva la reindicizzazione completa. Per maggiori informazioni, consulta [Gestire gli indicizzatori > Configurare gli indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) nella documentazione per gli sviluppatori.

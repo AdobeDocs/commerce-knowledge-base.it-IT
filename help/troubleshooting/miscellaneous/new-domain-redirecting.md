@@ -25,19 +25,19 @@ Il nuovo dominio viene reindirizzato al dominio predefinito nell’ambiente corr
 
 ## Causa
 
-Ciò si verifica quando le variabili non vengono aggiornate dopo l’aggiunta di un nuovo dominio o il [!DNL Fastly] il servizio è stato configurato nell&#39;ambiente.
+Ciò si verifica quando le variabili non vengono aggiornate dopo l&#39;aggiunta di un nuovo dominio o quando nell&#39;ambiente è stato configurato il servizio [!DNL Fastly] errato.
 
 ## Soluzione
 
-1. Se il dominio viene reindirizzato nello stesso ambiente, assicurati di aver configurato [Variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
-1. Se il dominio viene reindirizzato a un altro ambiente, verifica di aver configurato il [!DNL Fastly] eseguendo il comando seguente: `bin/magento fastly:conf:get -s`
+1. Se il dominio viene reindirizzato nello stesso ambiente, verificare di aver configurato le [variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
+1. Se il dominio sta reindirizzando a un altro ambiente, verificare di aver configurato il servizio [!DNL Fastly] corretto eseguendo il comando seguente: `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->È possibile trovare [!DNL Fastly] credenziali API effettuando l’accesso a ogni ambiente (Staging/Produzione) e controllando il `/mnt/shared/fastly_tokens.txt` file. Per ulteriori informazioni, consulta [configura [!DNL Fastly] servizi](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella Guida all’infrastruttura cloud di Commerce.
+>È possibile trovare le credenziali API [!DNL Fastly] accedendo a ogni ambiente (Gestione temporanea/Produzione) e controllando il file `/mnt/shared/fastly_tokens.txt`. Per ulteriori informazioni, vedere [configure [!DNL Fastly] services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella Guida all&#39;infrastruttura cloud di Commerce.
 
 Se entrambe le configurazioni precedenti sono corrette, invia un ticket di supporto.
 
 ## Lettura correlata
 
-* [Elenco di controllo per la configurazione di un nuovo dominio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) nella nostra knowledge base di supporto.
+* [Elenco di controllo per la configurazione di un nuovo dominio](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) nella Knowledge Base di supporto.

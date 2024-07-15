@@ -37,10 +37,10 @@ Per verificare la configurazione corrente e la memoria utilizzata, eseguire il c
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
-Il *REDIS\_PORT* e *REDIS\_HOST* le variabili possono essere recuperate da `app/etc/env.php`.
+Le variabili *REDIS\_PORT* e *REDIS\_HOST* possono essere recuperate da `app/etc/env.php`.
 
-Se l&#39;output dell&#39;esecuzione della query precedente indica che la percentuale di memoria disponibile è inferiore al 40%, [invia un ticket al supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) chiedere un aumento del `maxmemory` in Redis Server. Se il valore delle chiavi eliminate non è &quot;0&quot; o il tempo di attività Redis in giorni è uguale a 0 (indicando che Redis si è bloccato oggi), devi anche [invia un ticket al supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiesta di un&#39;indagine e di una correzione per il problema.
+Se l&#39;output dell&#39;esecuzione della query precedente indica che la percentuale di memoria disponibile è inferiore al 40%, [inviare un ticket al supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aumento dell&#39;impostazione `maxmemory` in Redis Server. Se il valore delle chiavi eliminate non è &quot;0&quot; o il tempo di attività Redis in giorni è uguale a 0 (indicando che Redis si è arrestato oggi), è necessario anche [inviare un ticket al supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un&#39;indagine e una correzione per questo problema.
 
 ## Lettura correlata
 
-Per ulteriori informazioni sulla memoria Redis, fare riferimento a [Ottimizzazione della memoria Redis](https://redis.io/topics/memory-optimization).
+Per ulteriori informazioni sulla memoria Redis, consultare [Ottimizzazione memoria Redis](https://redis.io/topics/memory-optimization).

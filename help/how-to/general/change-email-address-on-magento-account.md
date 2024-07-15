@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Come modificare l’indirizzo e-mail sull’account magento.com quando il campo è disattivato?
 
-Questo articolo spiega come modificare l’indirizzo e-mail sul tuo [Magento.com](https://account.magento.com) quando il campo è disattivato.
+In questo articolo viene illustrato come modificare l&#39;indirizzo di posta elettronica nell&#39;account [Magento.com](https://account.magento.com) quando il campo è disattivato.
 
 ## Prodotti e versioni interessati
 
@@ -20,13 +20,13 @@ Questo articolo spiega come modificare l’indirizzo e-mail sul tuo [Magento.com
 
 ## Causa
 
-L’indirizzo e-mail sul tuo [Magento.com](https://account.magento.com) l’account è collegato al tuo account di Adobe all’indirizzo <https://account.adobe.com> e dovranno essere aggiornate lì.
+L&#39;indirizzo di posta elettronica dell&#39;account [Magento.com](https://account.magento.com) è collegato all&#39;account di Adobe all&#39;indirizzo <https://account.adobe.com> e dovrà essere aggiornato.
 
 ## Passaggi per modificare l’indirizzo e-mail
 
 ### Caso I:
 
-Modifica dell’indirizzo e-mail di un utente con un proprio account in <https://account.adobe.com>
+Modifica dell&#39;indirizzo di posta elettronica di un utente con un proprio account in <https://account.adobe.com>
 
 <u>Soluzione</u>
 
@@ -40,20 +40,20 @@ Modifica dell’indirizzo e-mail di un utente con un proprio account in <https:/
 
 ### Caso II:
 
-Modifica dell&#39;indirizzo e-mail di un utente che al momento non dispone di un proprio account in <https://account.adobe.com>
+Modifica dell&#39;indirizzo di posta elettronica di un utente che al momento non dispone di un proprio account in <https://account.adobe.com>
 
 <u>Soluzione</u>
 
-Se hai accesso alla cassetta postale del [e-mail proprietario corrente], reimpostare la password per l&#39;e-mail del proprietario corrente seguendo la [Reimpostare o modificare la password di Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) nella Guida utente di Creative Cloud.
+Se hai accesso alla cassetta postale dell&#39;[indirizzo e-mail del proprietario corrente], reimposta la password per l&#39;indirizzo e-mail del proprietario corrente seguendo la [Guida reimposta o modifica la password di Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) nella Guida utente di Creative Cloud.
 
 1. Individuare il collegamento per la reimpostazione della password inviato alla cassetta postale del proprietario corrente con le istruzioni.
-1. Imposta una nuova password e modifica l’e-mail in [e-mail nuovo proprietario].
-1. Accedi a [Account IMS](https://account.adobe.com/) per accedere con la nuova e-mail e modificare la password.
-1. Dopo aver modificato l’indirizzo e-mail e la password, passa a [Magento.com](https://account.magento.com) per accedere utilizzando [e-mail nuovo proprietario].
+1. Imposta una nuova password e cambia l&#39;e-mail in [indirizzo e-mail nuovo proprietario].
+1. Passare a [Account IMS](https://account.adobe.com/) per accedere con la nuova e-mail e modificare la password.
+1. Dopo aver modificato l&#39;indirizzo e-mail e la password, passa a [Magento.com](https://account.magento.com) per accedere utilizzando l&#39;e-mail [nuovo proprietario].
 
-Tuttavia, se non hai accesso alle e-mail inviate al [e-mail proprietario corrente], effettua le seguenti operazioni:
+Tuttavia, se non hai accesso alle e-mail inviate all&#39;[indirizzo e-mail del proprietario corrente], procedi come segue:
 
-1. Configurare l’inoltro di e-mail da [e-mail proprietario corrente] in una nuova e-mail utilizzando la configurazione del server di posta della tua azienda.
+1. Configura l&#39;inoltro e-mail dall&#39;[indirizzo e-mail del proprietario corrente] a una nuova e-mail utilizzando la configurazione del server di posta della tua azienda.
 1. Ora procedi con i passaggi precedenti.
 
 ## Lettura correlata

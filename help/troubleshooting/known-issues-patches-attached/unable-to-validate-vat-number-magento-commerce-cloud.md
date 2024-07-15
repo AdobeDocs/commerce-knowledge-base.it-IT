@@ -30,8 +30,8 @@ Sono state interessate tutte le versioni di Adobe Commerce on-premise e Adobe Co
 
 <u>Passaggi da riprodurre:</u>
 
-1. Vai a **Negozi** > **Configurazione** > **Clienti** > **Configurazione cliente** > **Crea nuove opzioni account** e imposta **Abilita assegnazione automatica** a **Gruppo di clienti** a *Sì*.
-1. Vai a **Generale** > **Informazioni sul negozio** > e imposta un paese e un numero di partita IVA validi.
+1. Vai a **Archivi** > **Configurazione** > **Clienti** > **Configurazione cliente** > **Crea nuove opzioni account** e imposta **Abilita assegnazione automatica** su **Gruppo clienti** su *Sì*.
+1. Vai a **Generale** > **Informazioni archivio** > e imposta un paese e un numero di IVA validi.
 1. Fai clic su **Convalida partita IVA**.
 
 <u>Risultato previsto:</u>
@@ -44,7 +44,7 @@ Viene visualizzato il seguente errore: &quot;*Errore durante la verifica della p
 
 ## Soluzione
 
-Applica [patch](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) fornite nel presente articolo.
+Applica la [patch](assets/MDVA-27623_EE_2.3.2-p2_COMPOSER_v1.patch.zip) fornita in questo articolo.
 
 ## Patch
 
@@ -54,6 +54,6 @@ La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fi
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

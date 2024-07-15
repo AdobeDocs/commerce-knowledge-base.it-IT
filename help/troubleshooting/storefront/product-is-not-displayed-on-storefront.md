@@ -29,7 +29,7 @@ Questo articolo fornisce soluzioni per i casi in cui i prodotti non vengono visu
 
    ![open_product_page_magento_2.4.1.png](assets/open_product_page_magento_2.4.1.png)
 
-1. Clic **Aggiungi prodotto** e segui il processo di creazione del prodotto. Oppure importa prodotti da un file CSV.
+1. Fai clic su **Aggiungi prodotto** e segui il processo di creazione del prodotto. Oppure importa prodotti da un file CSV.
 
 <u>Risultato previsto</u>:
 
@@ -49,13 +49,13 @@ Ciascuno dei seguenti punti potrebbe risolvere il problema.
 
 * Controlla le impostazioni del prodotto in Admin. Vai a **Catalogo** > **Prodotti**, apri la pagina del prodotto e assicurati che i seguenti campi siano configurati correttamente:
    * **Abilita prodotto** = *Sì.*
-   * **Stato Stock**: *In magazzino*. Oppure se *Esaurito* è il valore corretto, assicurati che **Visualizza prodotti esauriti** (**NEGOZI** > **Impostazioni** > **Configurazione** > **CATALOGO** > **Inventario** > **Opzioni Stock** > **Visualizza prodotti esauriti**) è impostato su *Sì* (configurata a livello globale).
-   * **Categorie**: se tenti di trovare il prodotto in una pagina di categoria, verifica che il prodotto sia assegnato alla categoria. Per semplificare la risoluzione dei problemi, crea una nuova categoria dalla pagina corrente e assegna un prodotto.
+   * **Stato Stock**: *In Stock*. Oppure se *Esaurito* è il valore corretto, assicurarsi che **Visualizza prodotti esauriti** (**ARCHIVI** > **Impostazioni** > **Configurazione** > **CATALOGO** > **Inventario** > **Opzioni magazzino** > **Visualizza prodotti esauriti**) sia impostato su *Sì* (configurato a livello globale).
+   * **Categorie**: se tenti di trovare il prodotto in una pagina della categoria, verifica che il prodotto sia assegnato alla categoria. Per semplificare la risoluzione dei problemi, crea una nuova categoria dalla pagina corrente e assegna un prodotto.
    * **Visibilità** = *Catalogo, Ricerca.*
-   * In **Prodotto nei siti Web** , assicurati che il prodotto sia assegnato al sito web corretto.
+   * Nella sezione **Prodotto in siti Web**, assicurati che il prodotto sia assegnato al sito Web corretto.
    * Passa il selettore dell&#39;ambito alla visualizzazione dello store in cui si tenta di trovare il prodotto nella vetrina e verifica le stesse impostazioni.
-* Eseguire la reindicizzazione completa eseguendo `bin/magento indexer:reindex` dalla console ed esegui il flushing di tutta la cache in Admin, in **Sistema** > **Strumenti** > **Gestione cache**, o dalla console eseguendo `bin/magento cache:clean`.
-* Se quanto sopra non aiuta, puoi avviare ulteriori indagini controllando i registri in `var/log` directory.
+* Eseguire la reindicizzazione completa eseguendo `bin/magento indexer:reindex` dalla console e svuotare tutta la cache dell&#39;amministratore in **Sistema** > **Strumenti** > **Gestione cache** oppure dalla console eseguendo `bin/magento cache:clean`.
+* Se quanto sopra non aiuta, è possibile avviare ulteriori indagini controllando i registri nella directory `var/log`.
 
 ## Lettura correlata nella knowledge base del supporto
 

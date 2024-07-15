@@ -28,10 +28,10 @@ La dimensione delle tabelle MySQL non influisce direttamente sulle prestazioni d
 
 Considera le seguenti opzioni per evitare una diminuzione delle prestazioni:
 
-* Crea un processo CRON per la pulizia di tabelle di grandi dimensioni. Consulta [Trova tabelle MySQL di grandi dimensioni](/help/how-to/general/find-large-mysql-tables.md) nella knowledge base di supporto per consigli su come identificare tabelle di grandi dimensioni.
+* Crea un processo CRON per la pulizia di tabelle di grandi dimensioni. Per suggerimenti su come identificare le tabelle di grandi dimensioni, vedere [Trovare tabelle MySQL di grandi dimensioni](/help/how-to/general/find-large-mysql-tables.md) nella Knowledge Base di supporto.
 * Per tabelle di dimensioni superiori a 1 GB, utilizzare un motore MySQL ottimizzato per la scrittura dei registri. Ad esempio, il motore di archiviazione.
 * Aggiorna la funzionalità per evitare di archiviare i registri nel database.
 
 ## Lettura correlata
 
-[Le tabelle dei log delle modifiche sovradimensionate causano ritardi negli aggiornamenti delle entità](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) nella nostra knowledge base di supporto.
+[Tabelle di log delle modifiche di dimensioni eccessive che causano ritardi negli aggiornamenti delle entità](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) nella Knowledge Base di supporto.

@@ -20,7 +20,7 @@ Questo articolo spiega come sincronizzare l’ambiente di produzione fino alla g
 
 ## Per sincronizzare i dati da un ambiente all&#39;altro
 
-Per sincronizzare i dati, è necessario scaricare manualmente il database dall&#39;ambiente di origine. Per trasferire i dati in un altro ambiente, devi quindi caricare il dump di origine nell’ambiente di destinazione e importarlo. Per ulteriori informazioni, consulta [Importa codice Adobe Commerce in un progetto Cloud > Importa database Adobe Commerce](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html) nella documentazione per gli sviluppatori.
+Per sincronizzare i dati, è necessario scaricare manualmente il database dall&#39;ambiente di origine. Per trasferire i dati in un altro ambiente, devi quindi caricare il dump di origine nell’ambiente di destinazione e importarlo. Per ulteriori informazioni, consulta [Importare codice Adobe Commerce in un progetto Cloud > Importare database Adobe Commerce](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html) nella documentazione per gli sviluppatori.
 
 Per l’architettura del piano Pro di Adobe Commerce su infrastruttura cloud, puoi anche eseguire la sincronizzazione da Staging e Produzione al ramo principale dell’integrazione. Questa sincronizzazione richiama e invia solo codice, non dati. Per sincronizzare i dati, devi scaricare i dati del database e inviarli al database di un altro ambiente.
 
@@ -30,8 +30,8 @@ Per l’architettura del piano Pro di Adobe Commerce su infrastruttura cloud, pu
 
 ## Per sincronizzare i file da un ambiente all&#39;altro
 
-Per sincronizzare i file da un ambiente all&#39;altro, utilizzare `rsync` comando. Per ulteriori informazioni, consulta [Distribuire il codice ed eseguire la migrazione di file e dati statici > Eseguire la migrazione di file tramite rsync](https://devdocs.magento.com/cloud/live/stage-prod-migrate.html#migrate-files-using-rsync) nella documentazione per gli sviluppatori.
+Per sincronizzare i file da un ambiente all&#39;altro, utilizzare il comando `rsync`. Per ulteriori informazioni, vedere [Distribuire il codice ed eseguire la migrazione di file e dati statici > Eseguire la migrazione di file utilizzando rsync](https://devdocs.magento.com/cloud/live/stage-prod-migrate.html#migrate-files-using-rsync) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >
->Se desideri sincronizzare il codice da Integration a Staging, devi farlo dal ramo Integration. Per i passaggi, consulta [Sincronizzazione dall’elemento padre dell’ambiente](/docs/commerce-cloud-service/user-guide/project/console-branches.html#sync-an-environment) nella documentazione per gli sviluppatori.
+>Se desideri sincronizzare il codice da Integration a Staging, devi farlo dal ramo Integration. Per i passaggi, consulta [Sincronizzazione dall&#39;ambiente padre](/docs/commerce-cloud-service/user-guide/project/console-branches.html#sync-an-environment) nella documentazione per gli sviluppatori.

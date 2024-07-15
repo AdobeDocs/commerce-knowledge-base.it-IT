@@ -23,4 +23,4 @@ Sì, per mantenere la sincronizzazione continua dei sistemi, Adobe Commerce recu
 
 ## Per rinunciare a queste e-mail:
 
-Seguire queste istruzioni per [Aggiornamento delle preferenze di notifica sul sito di Amazon](https://sellercentral.amazon.com/gp/help/external/G871).
+Segui queste istruzioni per [Aggiornare le preferenze di notifica sul sito di Amazon](https://sellercentral.amazon.com/gp/help/external/G871).

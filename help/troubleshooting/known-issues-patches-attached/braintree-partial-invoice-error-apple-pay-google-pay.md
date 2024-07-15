@@ -21,7 +21,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.4.4
 
 ## Problema
 
-Quando si utilizza Apple Pay o Google Pay come metodi di pagamento, gli utenti ricevono l’errore &quot;*Il comando ‘vault_capture’ non esiste. Verifica il comando e riprova.*&quot; durante la creazione di fatture parziali.
+Quando si utilizza Apple Pay o Google Pay come metodi di pagamento, gli utenti ricevono l&#39;errore &quot;*Il comando ‘vault_capture’ non esiste. Verifica il comando e riprova.*&quot; durante la creazione di fatture parziali.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -39,7 +39,7 @@ Vengono create fatture parziali.
 
 <u>Risultati effettivi</u>:
 
-Viene creata la prima fattura parziale. Durante la creazione della seconda fattura parziale, gli utenti ricevono il seguente errore: *Il comando ‘vault_capture’ non esiste. Verifica il comando e riprova*.
+Viene creata la prima fattura parziale. Durante la creazione della seconda fattura parziale, gli utenti ricevono il seguente errore: *Il comando ‘vault_capture’ non esiste. Verificare il comando e riprovare*.
 
 ## Causa
 
@@ -53,4 +53,4 @@ Per risolvere il problema, applica la seguente patch:
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

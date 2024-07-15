@@ -25,19 +25,21 @@ Quando modifichi un profilo sull’account cloud, puoi modificare i seguenti cam
 
 Per modificare questi campi, effettua le seguenti operazioni:
 
-1. Accedi al tuo account all’indirizzo [Accesso account Adobe](https://accounts.magento.cloud).
-1. Fai clic sul pulsante **[!UICONTROL Account Settings]** scheda.
-1. Seleziona la *crea nuova password* casella di controllo.
+1. Accedi al tuo account all&#39;indirizzo [account di accesso di Adobe](https://accounts.magento.cloud).
+1. Fare clic sulla scheda **[!UICONTROL Account Settings]**.
+1. Selezionare la casella di controllo *crea nuova password*.
 1. Apporta le modifiche necessarie e fai clic su *salva*.
 
 **NOTA**: *La password non verrà modificata.*
 
 ## Cosa non può essere modificato?
 
-1. **[!UICONTROL Password]**: per modificare la password, visita [Adobe di reimpostazione della password](https://account.adobe.com/), poiché questo profilo è collegato al tuo account/indirizzo e-mail.
+1. **[!UICONTROL Password]**:
+Per cambiare la password, visita [Adobe password reset](https://account.adobe.com/), poiché questo profilo è collegato al tuo account/indirizzo e-mail.
 
-1. **[!UICONTROL Email Address]**: la modifica di questo campo dipende dalle circostanze individuali.
+1. **[!UICONTROL Email Address]**:
+La modifica di questo campo dipende dalle circostanze individuali.
 
 Se devi trasferire la proprietà dell’account corrente a un nuovo proprietario o a un indirizzo e-mail diverso, dovrai aggiornare l’e-mail dell’utente principale associata all’account.
 
-Consulta: [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+Fai riferimento a: [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)

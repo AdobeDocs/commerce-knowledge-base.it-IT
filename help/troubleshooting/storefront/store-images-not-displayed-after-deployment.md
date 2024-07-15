@@ -31,9 +31,9 @@ Ciò può verificarsi a causa del caricamento delle immagini dalla cache.
 
 In questo caso, potete utilizzare il comando di Magento per rigenerare la cache delle immagini e visualizzarle correttamente.
 
-Per eseguire questa operazione, è necessario disporre delle informazioni SSH e dell’URL dello store disponibili tramite [Console cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Per eseguire questa operazione, è necessario disporre delle informazioni SSH e dell&#39;URL dell&#39;archivio disponibili tramite [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
-1. SSH al progetto che è stato usato come origine per [dump del database](/help/how-to/general/create-database-dump-on-cloud.md), come descritto in [SSH nell’ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) nella documentazione per gli sviluppatori.
+1. SSH al progetto che era un&#39;origine per il [dump del database](/help/how-to/general/create-database-dump-on-cloud.md), come descritto in [SSH all&#39;ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) nella documentazione per gli sviluppatori.
 1. Rigenera la cache delle immagini eseguendo:
 
    ```bash

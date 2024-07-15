@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problemi noti che influiscono sull&#39;installazione di xdebug
 
-Questo articolo fornisce una soluzione per quando si verifica un errore di eccezione quando si utilizza l&#39;estensione PHP opzionale `xdebug`.
+Questo articolo fornisce una soluzione per l&#39;errore di eccezione che si verifica quando si utilizza l&#39;estensione PHP opzionale `xdebug`.
 
 * Durante l&#39;installazione
 * Accesso all’amministrazione di Commerce o alla vetrina dopo una corretta installazione
@@ -26,10 +26,10 @@ Fatal error: Maximum function nesting level of '100' reached, aborting!
 
 Per risolvere questo problema, puoi:
 
-* Disattiva il `xdebug` estensione.
-* Imposta il valore di `xdebug.max_nesting_level` a un valore pari o superiore a 200. Per ulteriori informazioni, consulta [documentazione di xdebug](http://xdebug.org/docs/basic#max_nesting_level).
+* Disattiva l&#39;estensione `xdebug`.
+* Impostare il valore di `xdebug.max_nesting_level` su un valore pari o superiore a 200. Per ulteriori informazioni, vedere la [documentazione xdebug](http://xdebug.org/docs/basic#max_nesting_level).
 
-Dopo aver modificato la configurazione di o disabilitato `xdebug`, riavvia Apache:
+Dopo aver modificato la configurazione di o disabilitato `xdebug`, riavviare Apache:
 
 * CentOS: `sudo service httpd restart`
 * Ubuntu: `sudo service apache2 restart`

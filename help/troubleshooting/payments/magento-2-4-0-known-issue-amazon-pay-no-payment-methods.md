@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0 problema noto: Amazon pay, nessun metodo di pagamento
 
-Questo articolo fornisce una soluzione per un problema noto di Adobe Commerce 2.4.0 in cui i metodi di pagamento mancano quando i clienti utilizzano **Torna al pagamento standard**, dopo aver abilitato Amazon pay.
+Questo articolo fornisce una soluzione per un problema noto di Adobe Commerce 2.4.0 in cui mancano i metodi di pagamento quando i clienti utilizzano **Torna all&#39;estrazione standard**, dopo aver abilitato Amazon Pay.
 
 ## Prodotti e versioni interessati
 
@@ -25,7 +25,7 @@ Adobe Commerce on-premise e Adobe Commerce on cloud infrastructure v2.3.5.p1 e v
 1. Aggiungi qualsiasi elemento al carrello e procedi al pagamento.
 1. Accedi al tuo account Amazon Pay.
 1. Seleziona un indirizzo e procedi al pagamento.
-1. Clic **Torna al pagamento standard**.
+1. Fai clic su **Torna all&#39;estrazione standard**.
 1. Procedi al pagamento.
 
 <u>Risultati previsti:</u>

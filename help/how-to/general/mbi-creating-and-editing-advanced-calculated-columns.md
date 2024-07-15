@@ -12,18 +12,18 @@ ht-degree: 0%
 
 # MBI: creazione e modifica di colonne calcolate avanzate
 
-[Utenti amministratori](https://docs.magento.com/mbi/administrator/user-management/user-management.html) avere la possibilità di creare e modificare determinate colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.
+[Gli utenti amministratori](https://docs.magento.com/mbi/administrator/user-management/user-management.html) possono creare e modificare determinate colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.
 
 Per l’elenco delle colonne calcolate che è possibile creare in Gestione Date Warehouse e per istruzioni su come configurarle correttamente, consulta i seguenti articoli nella guida utente:
 
 * [Creazione di colonne calcolate](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
 * [Tipi di colonna calcolati](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/calc-column-types.html)
 * [Informazioni e valutazione delle relazioni tra tabelle](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
-* [Creazione di percorsi per colonne calcolate](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
+* [Creazione di percorsi per le colonne calcolate](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
 
 ## Ho ancora bisogno di aiuto!
 
-Se hai bisogno di assistenza per creare una colonna calcolata normale o desideri creare o modificare una colonna calcolata avanzata, [contatta il nostro team](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e includono quanto segue:
+Se hai bisogno di assistenza per creare una colonna calcolata normale o vuoi creare o modificare una colonna calcolata avanzata, [rivolgiti al nostro team](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e includi quanto segue:
 
 * Cosa stai cercando di fare?
 * Su quale tabella è necessario creare le nuove colonne?
@@ -38,4 +38,4 @@ Se non sei sicuro di come rispondere a queste domande, non preoccuparti! Fai del
 * [Guida utente di MBI](https://docs.magento.com/mbi)
 * [MBI: discrepanze di dati](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
 * [MBI: analista dati](https://docs.magento.com/mbi/data-analyst.html)
-* [MBI: informazioni della Guida su Magento BI](https://docs.magento.com/mbi/getting-started/support.html)
+* [MBI: informazioni della Guida su BI di Magento](https://docs.magento.com/mbi/getting-started/support.html)

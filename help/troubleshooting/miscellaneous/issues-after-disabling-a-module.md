@@ -22,14 +22,14 @@ Questo articolo fornisce una soluzione per i problemi di funzionalità dei modul
 
 ## Problema
 
-Dopo aver disabilitato l’output del modulo in Commerce Admin, in **Negozi** > **Impostazioni** > **Configurazione** > AVANZATE > **Avanzate**, è possibile che si verifichino problemi relativi alla funzionalità del modulo.
+Dopo aver disabilitato l&#39;output del modulo nell&#39;amministrazione di Commerce, in **Archivi** > **Impostazioni** > **Configurazione** > AVANZATE > **Avanzate**, è possibile che si verifichino problemi relativi alla funzionalità del modulo.
 
 ## Causa
 
-Disabilitazione dell’output di un modulo in **Negozi** > **Impostazioni** > **Configurazione** > AVANZATE > **Avanzate** disabilita solo l’output (HTML, JS), ma non disabilita la funzionalità di questo modulo.
+Se si disabilita l&#39;output di un modulo in **Archivi** > **Impostazioni** > **Configurazione** > AVANZATE > **Avanzate**, verrà disabilitato solo l&#39;output (HTML, JS), ma non la funzionalità del modulo.
 
 ## Soluzione
 
-Se devi disattivare la funzionalità del modulo, disattiva il modulo come descritto in [Abilitare o disabilitare i moduli](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) nella documentazione per gli sviluppatori.
+Se devi disabilitare la funzionalità del modulo, disabilita il modulo come descritto in [Abilita o disabilita i moduli](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) nella documentazione per gli sviluppatori.
 
 La funzionalità di disabilitazione dell’output del modulo è stata rimossa a partire dalla versione 2.2.0.

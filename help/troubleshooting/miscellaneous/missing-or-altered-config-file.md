@@ -21,22 +21,22 @@ Questo articolo illustra come risolvere il problema relativo alla modifica o all
 
 ## Problema
 
-File di configurazione `config.php` e/o `env.php` sono stati modificati in modo errato o sono mancanti.
+I file di configurazione `config.php` e/o `env.php` sono stati modificati in modo errato o sono mancanti.
 
 ## Soluzione
 
 Il processo di distribuzione crea un file di backup per ciascun file di configurazione:
 
-* `app/etc/config.php.bak` — contiene impostazioni specifiche del sistema e viene generato automaticamente durante la generazione, se non esiste
+* `app/etc/config.php.bak` — contiene impostazioni specifiche del sistema e viene generato automaticamente durante la compilazione se non esiste
 * `app/etc/env.php.bak` — contiene dati di configurazione sensibili
 
-Potete ripristinarli utilizzando gli strumenti ECE `backup:restore` comando.
+È possibile ripristinarli utilizzando il comando ECE-tools `backup:restore`.
 
 I file BAK sono un prodotto del processo di distribuzione. Se si modifica manualmente un file di configurazione dopo la distribuzione, le modifiche non verranno applicate ai file BAK esistenti.
 
 Per ripristinare i file di configurazione:
 
-1. Accedi all’archivio remoto tramite [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. Accedi al tuo archivio remoto utilizzando [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
 1. Elencare i file di backup disponibili.
 
    ```
@@ -62,7 +62,7 @@ Per ripristinare i file di configurazione:
    app/etc/config.php file exists! If you want to rewrite existed files use --force
    ```
 
-1. Utilizza il `--force` per sovrascrivere tutti i file.
+1. Utilizzare l&#39;opzione `--force` per sovrascrivere tutti i file.
 
    ```
    ./vendor/bin/ece-tools backup:restore --force

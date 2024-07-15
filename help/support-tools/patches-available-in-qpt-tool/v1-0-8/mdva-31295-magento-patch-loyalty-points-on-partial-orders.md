@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-31295: punti fedeltà su ordini parziali
 
-La patch di MDVA-31295 risolve il problema relativo al calcolo errato dei punti premio al completamento di un ordine parziale e alla tassazione degli elementi. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8. Il problema è stato risolto in Adobe Commerce 2.4.2.
+La patch di MDVA-31295 risolve il problema relativo al calcolo errato dei punti premio al completamento di un ordine parziale e alla tassazione degli elementi. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.8. Il problema è stato risolto in Adobe Commerce 2.4.2.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce on-premise 2.3.0
 
@@ -27,7 +27,7 @@ La patch di MDVA-31295 risolve il problema relativo al calcolo errato dei punti 
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -39,10 +39,10 @@ I premi non vengono applicati ai conti dei clienti quando l&#39;ordine è comple
 1. Aggiungi due prodotti al carrello.
 1. Vai a pagamento, imposta l&#39;indirizzo di spedizione che ha le imposte, e inserisci l&#39;ordine.
 1. Nell’amministratore, passa all’ordine inserito di recente.
-1. Clic **Fattura** e imposta **Qtà da fatturare** a 0 per uno degli elementi e fare clic su **Qtà aggiornamento**. Invia fattura.
-1. Fare clic su Spedisci e imposta **Qtà da spedire** a 0 per l&#39;articolo non fatturato. Clic **Invia spedizione**.
+1. Fare clic su **Fattura** e impostare **Qtà su Fattura** su 0 per uno degli elementi, quindi fare clic su **Aggiorna Qtà**. Invia fattura.
+1. Fare clic su Spedisci e impostare **Qtà da spedire** su 0 per l&#39;articolo non fatturato. Fare clic su **Invia spedizione**.
 1. Fare clic su Annulla ordine. Lo stato viene impostato su Completato.
-1. Nell’amministratore, vai a **Clienti** > Scegli l’acquisto di un cliente effettuato prima del > **Punti premio** > **Cronologia punti premio**.
+1. Nell&#39;amministratore, vai a **Clienti** > Scegli l&#39;acquisto del cliente effettuato prima di > **Punti premio** > **Cronologia punti premio**.
 1. Controlla i punti premio guadagnati per l&#39;ordine effettuato.
 
 <u>Risultati previsti</u>:
@@ -57,14 +57,14 @@ I punti premio non vengono calcolati per un ordine imponibile al completamento d
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

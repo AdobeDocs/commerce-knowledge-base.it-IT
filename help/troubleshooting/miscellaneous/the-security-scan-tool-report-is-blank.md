@@ -1,6 +1,6 @@
 ---
 title: Il report dello strumento Security Scan è vuoto
-description: Questo articolo corregge il problema relativo alla visualizzazione di una pagina vuota al posto del rapporto effettivo da parte dello strumento Security Scan. Per risolvere il problema, potrebbe essere necessario aggiungere gli IP utilizzati dallo strumento all’Elenco Consentiti del firewall
+description: Questo articolo corregge il problema relativo alla visualizzazione di una pagina vuota al posto del rapporto effettivo da parte dello strumento Security Scan. Per risolvere il problema, potrebbe essere necessario aggiungere gli IP utilizzati dallo strumento al Inserisco nell'elenco Consentiti di del firewall.
 exl-id: e5f7f8c6-2dd3-44e3-8d19-f1f38d06dd6c
 feature: Compliance, Security
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Il report dello strumento Security Scan è vuoto
 
-Questo articolo corregge il problema relativo alla visualizzazione di una pagina vuota al posto del rapporto effettivo da parte dello strumento Security Scan. Per risolvere il problema, potrebbe essere necessario aggiungere gli IP utilizzati dallo strumento all’Elenco Consentiti del firewall
+Questo articolo corregge il problema relativo alla visualizzazione di una pagina vuota al posto del rapporto effettivo da parte dello strumento Security Scan. Per risolvere il problema, potrebbe essere necessario aggiungere gli IP utilizzati dallo strumento al Inserisco nell&#39;elenco Consentiti di del firewall.
 
 ## Prodotti e versioni interessati:
 
@@ -24,7 +24,7 @@ Questo articolo corregge il problema relativo alla visualizzazione di una pagina
 <u>Passaggi da riprodurre</u>:
 
 1. Configurare lo strumento Security Scan per controllare il sito Web, come descritto in [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) nella guida utente.
-1. Nella colonna Azioni selezionare **Esegui scansione**.
+1. Nella colonna Azioni selezionare **Esegui analisi**.
 
 <u>Risultati previsti</u>:
 
@@ -42,10 +42,10 @@ Nessuna notifica e nessun rapporto disponibile.
 
 Prova ad aprire il tuo sito web.
 
-* Se la pagina viene caricata correttamente, potrebbe essere necessario aggiungere gli IP utilizzati dagli strumenti Security Scan Tools al Inserisco nell&#39;elenco Consentiti di analisi del firewall. Sono utilizzati i seguenti IP: 52.87.98.44, 34.196.167.176, 3.218.25.102 alle porte 80 e 443.
-* Se il sito non viene caricato e restituisce *&quot;Errore durante l’elaborazione della richiesta&quot;* messaggio, controlla il sito web per eventuali errori.
+* Se la pagina viene caricata correttamente, potrebbe essere necessario aggiungere gli IP utilizzati dagli strumenti di analisi della sicurezza al Inserisco nell&#39;elenco Consentiti del firewall. Sono utilizzati i seguenti IP: 52.87.98.44, 34.196.167.176, 3.218.25.102 alle porte 80 e 443.
+* Se il sito non viene caricato e restituisce il messaggio *&quot;Si è verificato un errore durante l&#39;elaborazione della richiesta&quot;*, controllare il sito Web per individuare eventuali errori.
 
 ## Lettura correlata
 
-* [Lancio e pubblicazione](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) nella documentazione per gli sviluppatori.
-* [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) nella guida utente.
+* [Pubblica e avvia](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) nella documentazione per gli sviluppatori.
+* [Analisi protezione](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) nella guida utente.

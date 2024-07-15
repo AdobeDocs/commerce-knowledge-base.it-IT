@@ -1,6 +1,6 @@
 ---
 title: Il pannello di navigazione superiore non si carica nella vetrina
-description: In questo articolo vengono fornite soluzioni di configurazione per i problemi ESI (Varnish Edge Side Includes), in cui il contenuto di determinate pagine, in genere il pannello di navigazione superiore, non viene visualizzato nella vetrina se si utilizza Varnish per la memorizzazione in cache.
+description: Questo articolo fornisce soluzioni di configurazione per i problemi ESI (Varnish Edge Side Includes), in cui il contenuto di determinate pagine, in genere il pannello di navigazione superiore, non viene visualizzato nella vetrina se si utilizza Varnish per la memorizzazione in cache.
 exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
 feature: Categories, Site Navigation, Storefront, Variables
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Il pannello di navigazione superiore non si carica nella vetrina
 
-In questo articolo vengono fornite soluzioni di configurazione per i problemi ESI (Varnish Edge Side Includes), in cui il contenuto di determinate pagine, in genere il pannello di navigazione superiore, non viene visualizzato nella vetrina se si utilizza Varnish per la memorizzazione in cache.
+Questo articolo fornisce soluzioni di configurazione per i problemi ESI (Varnish Edge Side Includes), in cui il contenuto di determinate pagine, in genere il pannello di navigazione superiore, non viene visualizzato nella vetrina se si utilizza Varnish per la memorizzazione in cache.
 
 ## Prodotti e versioni interessati
 
@@ -51,18 +51,18 @@ I possibili motivi del problema sono i seguenti:
 
 Per risolvere i problemi, è necessario eseguire una configurazione aggiuntiva di Vernice e riavviare Vernice.
 
-1. Come utente con `root` , apri il file di configurazione Vanish in un editor di testo. Consulta la [Modificare la configurazione del sistema di vernice](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) nella documentazione per gli sviluppatori di per informazioni su dove potrebbe trovarsi il file per diversi sistemi operativi.
-1. In `DAEMON_OPTS variable`, aggiungi `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`. Questo dovrebbe essere:
+1. In qualità di utente con privilegi di `root`, apri il file di configurazione Vanish in un editor di testo. Per informazioni sulla posizione del file per sistemi operativi diversi, vedere [Modificare la configurazione del sistema di Microsoft ](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) nella documentazione per gli sviluppatori.
+1. In `DAEMON_OPTS variable`, aggiungere `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`. Questo dovrebbe essere:
 
    ```bash
    DAEMON_OPTS="-a :6081 \    -p feature=+esi_ignore_other_elements \    -p feature=+esi_disable_xml_check \    -p feature=+esi_ignore_https \    -T localhost:6082 \    -f /etc/varnish/default.vcl \    -S /etc/varnish/secret \    -s malloc,256m"
    ```
 
 1. Salva le modifiche e esci dall’editor di testo.
-1. Nel file di configurazione VCL, aumenta le intestazioni di risposta aumentando i valori di questi parametri: `http_resp_hdr_len`, `http_resp_size`, `workspace_backend`. Assicurati che gli ultimi due abbiano valori simili.
-1. Quando modifichi questo, devi eseguire `service varnish restart` affinché le modifiche diventino effettive.
+1. Nel file di configurazione VCL, aumentare le intestazioni di risposta aumentando i valori di questi parametri: `http_resp_hdr_len`, `http_resp_size`, `workspace_backend`. Assicurati che gli ultimi due abbiano valori simili.
+1. Quando si modifica questa impostazione, è necessario eseguire `service varnish restart` per rendere effettive le modifiche.
 
 ## Lettura correlata
 
-* [Configura vernice e il tuo server web](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) nella documentazione per gli sviluppatori.
-* [Documentazione di vernice](https://varnish-cache.org/docs/5.1/reference/index.html)
+* [Configura Microsoft e il tuo server Web](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) nella documentazione per gli sviluppatori.
+* [Documentazione vernice](https://varnish-cache.org/docs/5.1/reference/index.html)

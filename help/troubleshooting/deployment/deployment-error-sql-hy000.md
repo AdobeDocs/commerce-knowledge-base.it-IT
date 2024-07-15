@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Errore di distribuzione: SQLSTATE[HY000]
 
-Questo articolo fornisce una soluzione per il problema in cui la distribuzione non riesce a causa di SQLSTATE[HY000] errore.
+In questo articolo viene fornita una soluzione per il problema in cui la distribuzione non riesce a causa dell&#39;errore SQLSTATE[HY000].
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce [tutti i metodi di distribuzione](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce, [tutti i metodi di distribuzione](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 

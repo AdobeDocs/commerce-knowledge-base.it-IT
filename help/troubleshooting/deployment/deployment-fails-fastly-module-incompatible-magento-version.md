@@ -17,13 +17,13 @@ AGGIORNATO IL 29 FEBBRAIO 2019
 
 Questo articolo corregge eventuali errori di distribuzione dovuti all’incompatibilità del modulo Fastly con la versione corrente di Adobe Commerce.
 
-**Problema:** La distribuzione non riesce dopo un nuovo commit e un nuovo push, con un messaggio di errore simile al seguente:
+**Problema:** la distribuzione non riesce dopo un nuovo commit e un nuovo push, con un messaggio di errore simile al seguente:
 
 >\[Eccezione\] Avviso: argomento 3 mancante per Fastly\\Cdn\\Plugin\\..., chiamato in /app/vendor/magento/framework/Interception/Interceptor.php ... e definito in /app/vendor/fastly/magento2/Plugin/ExcludeFilesFromMinification.php ...
 
 **Causa:** modifiche non compatibili con le versioni precedenti nel modulo Fastly v1.2.79.
 
-**Soluzione temporanea:** aggiorna il modulo Fastly alla versione 1.2.82 o successiva e carica un nuovo VCL in Commerce Admin. Quindi, conferma e invia le modifiche per attivare una distribuzione corretta.
+**Soluzione (temporanea):** aggiornare il modulo Fastly alla versione 1.2.82 o successiva e caricare una nuova VCL in Commerce Admin. Quindi, conferma e invia le modifiche per attivare una distribuzione corretta.
 
 ## Versioni interessate
 
@@ -54,7 +54,7 @@ La distribuzione potrebbe non riuscire e presentare i seguenti messaggi di error
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-Se utilizzi la soluzione Adobe Commerce su infrastruttura cloud, il messaggio di errore verrà visualizzato in [registro di distribuzione](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Per Adobe Commerce on-premise, l’errore verrà visualizzato nella riga di comando.
+Se utilizzi la soluzione Adobe Commerce su infrastruttura cloud, visualizzerai questo messaggio di errore nel [registro di distribuzione](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Per Adobe Commerce on-premise, l’errore verrà visualizzato nella riga di comando.
 
 ## Causa
 

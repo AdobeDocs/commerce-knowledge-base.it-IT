@@ -37,7 +37,7 @@ labels: patch: 2041.1,article,labels,tags
 ---
 ```
 
-Per evitare questo errore, racchiudi il titolo o le etichette (o entrambi, se entrambi hanno due punti) in **virgolette singole**.
+Per evitare questo errore, racchiudere il titolo o le etichette (o entrambi, se entrambi hanno due punti) tra **virgolette singole**.
 
 **Esempio:**
 
@@ -61,7 +61,7 @@ labels: patch: 2041.1,'article',labels,tags
 ---
 ```
 
-Questo errore viene corretto racchiudendo il titolo o le etichette (o entrambi) in **virgolette doppie**.
+Questo errore viene corretto racchiudendo il titolo o le etichette (o entrambi) tra **virgolette doppie**.
 
 **Esempio:**
 
@@ -83,7 +83,7 @@ labels: patch: 2041.1,'article',"labels",can't,tags
 ---
 ```
 
-In questo caso, racchiudi il titolo o le etichette (o entrambi) in **virgolette doppie** e utilizza un **barra rovesciata** per applicare l&#39;escape a tutte le virgolette doppie nel titolo e nelle etichette.
+In questo caso, racchiudi il titolo o le etichette (o entrambi) tra **virgolette doppie** e utilizza una **barra rovesciata** per eliminare tutte le virgolette doppie nel titolo e nelle etichette.
 
 **Esempio:**
 

@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-47336: [!UICONTROL Something went wrong] errore durante la rimozione delle notifiche in Adobe Commerce Admin'''
-description: Applica la patch ACSD-47336 per risolvere il problema di Adobe Commerce che l’utente vede [!UICONTROL Something went wrong] errore durante la rimozione delle notifiche in [!DNL Commerce] Amministratore
+title: "ACSD-47336: errore [!UICONTROL Something went wrong] durante la rimozione delle notifiche in Adobe Commerce Admin"
+description: Applica la patch ACSD-47336 per risolvere il problema di Adobe Commerce, in cui l'utente visualizza l'errore [!UICONTROL Something went wrong], quando ignora le notifiche in  [!DNL Commerce] Admin.
 exl-id: 7561f055-ce04-4a49-8c58-271c24420a60
 feature: Admin Workspace
 role: Admin
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47336 _[!UICONTROL Something went wrong]_errore durante la rimozione delle notifiche in Adobe Commerce Admin
+# ACSD-47336: errore _[!UICONTROL Something went wrong]_durante la rimozione delle notifiche in Adobe Commerce Admin
 
-La patch ACSD-47336 risolve il problema in cui l’utente visualizza _[!UICONTROL Something went wrong]_errore durante la rimozione delle notifiche in [!DNL Commerce] Amministratore Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24. L’ID della patch è ACSD-47336. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
+La patch ACSD-47336 risolve il problema per cui l&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_durante l&#39;eliminazione delle notifiche nell&#39;amministratore [!DNL Commerce]. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24. L’ID della patch è ACSD-47336. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione): 2.4.5
 
@@ -27,38 +27,38 @@ La patch ACSD-47336 risolve il problema in cui l’utente visualizza _[!UICONTRO
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-L’utente vede _[!UICONTROL Something went wrong]_errore durante la rimozione delle notifiche in [!DNL Commerce] Amministratore
+L&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_quando ignora le notifiche nell&#39;amministratore [!DNL Commerce].
 
 <u>Passaggi da riprodurre</u>:
 
 1. Eseguire un’operazione in blocco (ad esempio, aggiornamento in blocco degli attributi del prodotto dalla griglia del prodotto).
-1. Completa l’operazione (ad es. esegui `bin/magento queue:consumer:start product_action_attribute.update`).
-1. Aggiorna il [!DNL Commerce] pagina Amministratore, espandi la sezione notifica amministratore e fai clic sul pulsante **[!UICONTROL Dismiss All Completed Tasks]** collegamento.
+1. Completare l&#39;operazione, ad esempio eseguire `bin/magento queue:consumer:start product_action_attribute.update`.
+1. Aggiorna la pagina di amministrazione [!DNL Commerce], espandi la sezione di notifica amministratore e fai clic sul collegamento **[!UICONTROL Dismiss All Completed Tasks]**.
 
 <u>Risultati previsti</u>:
 
-Il _[!UICONTROL Something went wrong]_L&#39;errore non deve essere visualizzato quando si cancellano le attività completate.
+L&#39;errore _[!UICONTROL Something went wrong]_non deve essere visualizzato quando si cancellano le attività completate.
 
 <u>Risultati effettivi</u>:
 
-Il _[!UICONTROL Something went wrong]_viene visualizzato un errore.
+Viene visualizzato l&#39;errore _[!UICONTROL Something went wrong]_.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

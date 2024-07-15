@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Pulizia degli indirizzi verticali: indirizzi diversi non consentiti
 
-Questo articolo descrive la soluzione del problema che si verifica quando l’utente tenta di inserire un **diverso** indirizzo di fatturazione e spedizione, con la convalida degli indirizzi verticali abilitata, la vetrina non consente all&#39;utente di inserirli.
+In questo articolo viene illustrata la soluzione del problema per cui quando l&#39;utente tenta di immettere un indirizzo di fatturazione e spedizione **diverso**, con la convalida degli indirizzi verticali abilitata, la vetrina non consente all&#39;utente di immetterlo.
 
 ## Prodotti e versioni interessati
 
@@ -23,15 +23,15 @@ Questo articolo descrive la soluzione del problema che si verifica quando l’ut
 
 <u>Passaggi da riprodurre</u>:
 
-1. Vai a Amministratore > **Negozi** > **Configurazione** > **Vendite** > **Pulizia degli indirizzi**.
-1. Seleziona *Abilitato* dal **Usa pulitura indirizzi verticali** a discesa e **Salva configurazione**.
+1. Vai a Amministratore > **Archivi** > **Configurazione** > **Vendite** > **Pulizia indirizzi**.
+1. Seleziona *Abilitato* dal menu a discesa **Usa pulizia indirizzi verticali** e **Salva configurazione**.
 1. Vai al front-end come ospite e aggiungi un prodotto al carrello.
-1. Fai clic sull’icona del carrello e **Procedi all&#39;estrazione**.
+1. Fai clic sull&#39;icona del carrello e **Procedi all&#39;estrazione**.
 1. Compila i campi indirizzo.
-1. Seleziona desiderato **Metodo di spedizione** e fai clic su **Successivo**.
-1. Fai clic sul pulsante **Successivo** pulsante di nuovo.
-1. Deseleziona **Indirizzo di fatturazione e spedizione** **sono uguali** e inserisci un nuovo indirizzo di fatturazione (diverso da Indirizzo).
-1. Fai clic su **Aggiorna** , quindi fare clic su **Aggiorna indirizzo**.
+1. Seleziona il **metodo di spedizione** desiderato e fai clic su **Avanti**.
+1. Fai di nuovo clic sul pulsante **Avanti**.
+1. Deseleziona **Il mio indirizzo di fatturazione e spedizione** **sono uguali** e immetti un nuovo indirizzo di fatturazione (diverso da Indirizzo).
+1. Fare clic sul pulsante **Aggiorna**, quindi su **Aggiorna indirizzo**.
 
 <u>Risultati previsti</u>:
 

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Aumento dello spazio su disco per l&#39;ambiente di integrazione nel cloud
 
-Fare riferimento a [Gestione dello spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) nella guida di Commerce on Cloud Infrastructure.
+Consulta [Gestione dello spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) nella guida Commerce su Cloud Infrastructure.

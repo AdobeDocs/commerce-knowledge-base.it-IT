@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host di Elasticsearch. Fai riferimento a [Installare e configurare Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) nella documentazione per gli sviluppatori.
+> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host di Elasticsearch. Consulta [Installa e configura Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html) nella documentazione per gli sviluppatori.
 
 Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.3 relativo all’ottenimento di risultati di ricerca diversi per la stessa query di ricerca con MySQL e Elasticsearch.
 
@@ -21,18 +21,20 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce on clo
 
 I risultati della ricerca nel catalogo con lo stesso set di filtri variano a seconda del motore di ricerca utilizzato, MySQL o Elasticsearch.
 
-<u>Passaggi da riprodurre</u> :
+<u>Passaggi da riprodurre</u>:
 
 1. Installa e configura Elasticsearch.
 1. Nella vetrina, seleziona uno dei filtri.
 1. Prendi nota del numero di prodotti corrispondenti.
-1. Configura il predefinito [Ricerca MySQL](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md).
+1. Configura la [ricerca MySQL predefinita](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md).
 1. Nella vetrina, seleziona uno dei filtri.
 1. Prendi nota del numero di prodotti corrispondenti.
 
-<u>Risultato previsto</u>: il numero di prodotti corrispondenti è lo stesso.
+<u>Risultato previsto</u>:
+Il numero di prodotti corrispondenti è lo stesso.
 
-<u>Risultato effettivo</u>: il numero di prodotti corrispondenti è diverso.
+<u>Risultato effettivo</u>:
+Il numero di prodotti corrispondenti è diverso.
 
 ## Patch
 
@@ -46,10 +48,10 @@ Le patch sono allegate a questo articolo. Per scaricare una patch, scorri verso 
 
 Le patch sono state create per:
 
-* Adobe Commerce sull’infrastruttura cloud 2.2.3 (il `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` file)
-* Adobe Commerce sull’infrastruttura cloud 2.2.6 (il `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` file)
+* Adobe Commerce su infrastruttura cloud 2.2.3 (il file `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch`)
+* Adobe Commerce su infrastruttura cloud 2.2.6 (il file `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch`)
 
-Il `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
+La patch `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
 
 * Adobe Commerce sull’infrastruttura cloud 2.2.4
 * Adobe Commerce sull’infrastruttura cloud 2.2.5
@@ -57,12 +59,12 @@ Il `MDVA-12312_EE_2.2.3_COMPOSER_v1.patch` La patch è compatibile (ma potrebbe 
 * Adobe Commerce on-premise 2.2.4
 * Adobe Commerce on-premise 2.2.5
 
-Il `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
+La patch `MDVA-14172_EE_2.2.6_COMPOSER_v1.patch` è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
 
 * Adobe Commerce on-premise 2.2.6
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella knowledge base di supporto per le istruzioni.
+Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

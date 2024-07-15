@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Annullamento della validità della memorizzazione nella cache di Adobe Commerce su infrastruttura cloud v2.3.5 GraphQL non funziona
 
-Questo articolo fornisce una patch per il problema in cui GraphQL `GET` la richiesta restituisce informazioni obsolete se il cliente modifica le informazioni sul prodotto.
+Questo articolo fornisce una patch per il problema in cui la richiesta di GraphQL `GET` restituisce informazioni obsolete se il cliente modifica le informazioni sul prodotto.
 
 ## Prodotti e versioni interessati
 
@@ -33,11 +33,11 @@ Le richieste GraphQL vengono memorizzate nella cache da Fastly e la versione mem
 
 <u>Risultati previsti</u>:
 
-Il `X-Cache` l’intestazione contiene `MISS`.
+L&#39;intestazione `X-Cache` contiene `MISS`.
 
 <u>Risultati effettivi</u>:
 
-Il `X-Cache` l’intestazione contiene `HIT`, il che significa che la risposta è memorizzata nella cache.
+L&#39;intestazione `X-Cache` contiene `HIT`, il che significa che la risposta è memorizzata nella cache.
 
 ## Soluzione
 
@@ -73,6 +73,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni su come applicare una patch del compositore.
+Per istruzioni su come applicare una patch del compositore, vedere [Applicazione di una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

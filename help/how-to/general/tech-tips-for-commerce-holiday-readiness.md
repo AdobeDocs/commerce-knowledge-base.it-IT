@@ -18,8 +18,8 @@ Il PDF allegato offre suggerimenti su come preparare l’infrastruttura per un t
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud, tutto [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* Adobe Commerce sull&#39;infrastruttura cloud, tutte le [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
 
 ## Scarica il pdf
 
-Clic [Suggerimenti tecnici per Commerce Holiday Ready.pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) per scaricare il pdf.
+Fai clic su [Suggerimenti tecnici per Commerce Holiday Readiness.pdf](assets/tech-tips-for-commerce-holiday-readiness.pdf) per scaricare il pdf.

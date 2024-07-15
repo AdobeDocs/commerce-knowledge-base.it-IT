@@ -32,11 +32,11 @@ Impostare tutte le opzioni seguenti in base alle esigenze.
 
 ### Tutti i server web e Vernice {#all-web-servers-and-varnish}
 
-1. Individua il `php.ini` utilizzando un [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo) file.
-1. Come utente con `root` privilegi, apertura `php.ini` in un editor di testo.
-1. Individua il `max_execution_time` impostazione.
-1. Modifica il valore in `18000` .
-1. Salva le modifiche apportate a `php.ini` ed esci dall’editor di testo.
+1. Individua `php.ini` utilizzando un file [`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo).
+1. In qualità di utente con privilegi di `root`, apri `php.ini` in un editor di testo.
+1. Individuare l&#39;impostazione `max_execution_time`.
+1. Cambia il valore in `18000`.
+1. Salvare le modifiche apportate a `php.ini` e uscire dall&#39;editor di testo.
 1. Riavvia Apache:
 
    * CentOS: `service httpd restart`
@@ -46,7 +46,7 @@ Impostare tutte le opzioni seguenti in base alle esigenze.
 
 ### Solo indice {#nginx-only}
 
-Se utilizzi Inginx, utilizza il nostro `nginx.conf.sample` oppure aggiungi impostazioni di timeout nel file di configurazione dell&#39;host nginx al `location ~ ^/setup/index.php` come segue:
+Se utilizzi nginx, utilizza le impostazioni di timeout incluse in `nginx.conf.sample` o aggiungi le impostazioni di timeout nel file di configurazione dell&#39;host nginx alla sezione `location ~ ^/setup/index.php` come segue:
 
 ```php
 location ~ ^/setup/index.php {
@@ -60,7 +60,7 @@ Inginx di riavvio: `service nginx restart`
 
 ### Solo vernice {#varnish-only}
 
-Se si utilizza vernice, modificare `default.vcl` e aggiungi un valore limite di timeout al `backend` strofa come segue:
+Se si utilizza Vernice, modificare `default.vcl` e aggiungere un valore di limite di timeout alla stanza `backend` nel modo seguente:
 
 ```php
 backend default {

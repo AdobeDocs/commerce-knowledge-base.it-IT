@@ -19,9 +19,9 @@ Questo articolo è uno strumento di risoluzione dei problemi per Adobe Commerce 
 
 +++Problema Redis?
 
-a. SÌ - Procedere come segue [Passaggio 2](#step2)</a>.
+a. SÌ - Procedere al [passaggio 2](#step2)</a>.
 
-b. NO - Torna a [support.magento.com](https://support.magento.com/hc/en-us) e cercare gli articoli pertinenti per la risoluzione dei problemi.
+b. NO - Torna a [support.magento.com](https://support.magento.com/hc/en-us) e cerca gli articoli pertinenti per la risoluzione dei problemi.
 
 +++
 
@@ -29,9 +29,9 @@ b. NO - Torna a [support.magento.com](https://support.magento.com/hc/en-us) e ce
 
 +++Le patch Redis correnti sono installate?
 
-a. SÌ - Procedere come segue [Passaggio 3](#step3)</a>.
+a. SÌ - Procedere al [passaggio 3](#step3)</a>.
 
-b. NO - Assicurati di disporre della versione più recente del pacchetto `magento-cloud-patches` installato. Questo pacchetto contiene le patch necessarie per Redis. Per accedere, vai a [Patch magneto-cloud GitHub](https://github.com/magento/magento-cloud-patches/).
+b. NO - Assicurarsi di aver installato la versione più recente del pacchetto `magento-cloud-patches`. Questo pacchetto contiene le patch necessarie per Redis. Per accedere, vai a [GitHub magneto-cloud-patches](https://github.com/magento/magento-cloud-patches/).
 
 +++
 
@@ -39,11 +39,11 @@ b. NO - Assicurati di disporre della versione più recente del pacchetto `magent
 
 +++Su Redis versioni 3.2 o 5.0?
 
-Controllare eseguendo i seguenti comandi nella CLI. Pro o staging: `$ redis-cli -p %port-number% info | grep redis_version`, dove `%port-number%` è il numero della porta, che si trova nel `app/etc/env.php` o eseguendo uno dei seguenti comandi: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` o `$ cat app/etc/env.php | grep redis -A 3` Starter o integrazione: `$ redis-cli -h 'redis.internal' info | grep redis_version`
+Controllare eseguendo i seguenti comandi nella CLI. Pro o Staging: `$ redis-cli -p %port-number% info | grep redis_version`, dove `%port-number%` è il numero della porta, che si trova nel file `app/etc/env.php` o eseguendo uno dei seguenti comandi: `$ vendor/bin/ece-tools env:config:show | grep -i redis -A 3` o `$ cat app/etc/env.php | grep redis -A 3` Starter o Integrazione: `$ redis-cli -h 'redis.internal' info | grep redis_version`
 
-a. SÌ - Procedere come segue [Passaggio 4](#step4).
+a. SÌ - Procedere al [passaggio 4](#step4).
 
-b. NO - Adobe Commerce supporta Redis versioni 3.2 e 5.0. Se utilizzi Adobe Commerce su infrastruttura cloud 2.3.3 o versione successiva, ti consigliamo di effettuare l’aggiornamento a Redis 5. Per le fasi di configurazione di Adobe Commerce sull&#39;infrastruttura cloud Architettura del piano Pro, Integrazione e ambienti Starter, incluso il ramo principale, fare riferimento a [Adobe Commerce sull’infrastruttura cloud > Configurazione del servizio Redis](https://devdocs.magento.com/cloud/project/services-redis.html)</a> nella documentazione per gli sviluppatori. **Devi [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per modificare la configurazione del servizio negli ambienti di produzione e staging dell&#39;architettura Pro. Inoltre, per Adobe Commerce su infrastruttura cloud e Adobe Commerce on-premise 2.3.5+, si consiglia l’implementazione della cache Redis estesa. Questo tipo di implementazione della cache di Redis offre miglioramenti che riducono al minimo il numero di query a Redis eseguite su ogni richiesta di Adobe Commerce. Per i passaggi, consulta [Implementazione della cache Redis estesa con Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) nella nostra knowledge base di supporto. Per tutti gli altri utenti di Adobe Commerce, consulta [Guida alla configurazione di Adobe Commerce > Configura Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) nella documentazione per gli sviluppatori, per i passaggi.
+b. NO - Adobe Commerce supporta Redis versioni 3.2 e 5.0. Se utilizzi Adobe Commerce su infrastruttura cloud 2.3.3 o versione successiva, ti consigliamo di effettuare l’aggiornamento a Redis 5. Per i passaggi di configurazione su Adobe Commerce su infrastruttura cloud Architettura del piano Pro, Integrazione e ambienti Starter, incluso il ramo principale, fare riferimento a [Adobe Commerce su infrastruttura cloud > Configurazione del servizio Redis](https://devdocs.magento.com/cloud/project/services-redis.html)</a> nella documentazione per gli sviluppatori. **È necessario [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per modificare la configurazione del servizio negli ambienti di produzione e staging dell&#39;architettura Pro. Inoltre, per Adobe Commerce su infrastruttura cloud e Adobe Commerce on-premise 2.3.5+, si consiglia l’implementazione della cache Redis estesa. Questo tipo di implementazione della cache di Redis offre miglioramenti che riducono al minimo il numero di query a Redis eseguite su ogni richiesta di Adobe Commerce. Per i passaggi, consulta [Implementazione della cache Redis estesa Adobe Commerce 2.3.5+](https://support.magento.com/hc/en-us/articles/360049292532) nella knowledge base per il supporto. Per tutti gli altri utenti di Adobe Commerce, consulta [Guida alla configurazione di Adobe Commerce > Configurare Redis](https://devdocs.magento.com/guides/v2.4/config-guide/redis/config-redis.html) nella documentazione per gli sviluppatori, per i passaggi.
 
 +++
 
@@ -53,9 +53,9 @@ b. NO - Adobe Commerce supporta Redis versioni 3.2 e 5.0. Se utilizzi Adobe Comm
 
 Verificare la versione disponibile eseguendo il comando in CLI/Terminal: `$php vendor/bin/composer info magento/ece-tools`.
 
-a. SÌ - Procedere come segue [Passaggio 5](#step5).
+a. SÌ - Procedere al [passaggio 5](#step5).
 
-b. N. - [Aggiornamento di ECE-Tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html) alla versione più recente.
+b. NO - [Aggiorna gli strumenti ECE](https://devdocs.magento.com/cloud/project/ece-tools-update.html) all&#39;ultima versione.
 
 +++
 
@@ -63,9 +63,9 @@ b. N. - [Aggiornamento di ECE-Tools](https://devdocs.magento.com/cloud/project/e
 
 +++L’app e Redis sono soggette a molto traffico di rete?
 
-a. SÌ - Provare quanto segue: per un&#39;architettura non divisa, assicurarsi che [connessione secondaria](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md) viene utilizzato. Per l&#39;architettura divisa, [La cache L2 deve essere abilitata](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
+a. SÌ - Provare a eseguire le operazioni seguenti: per un&#39;architettura non divisa, verificare che sia utilizzata una [connessione secondaria](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md). Per l&#39;architettura divisa, la cache [L2 deve essere abilitata](https://devdocs.magento.com/guides/v2.4/config-guide/cache/two-level-cache.html).
 
-b. NO - Configurare la configurazione della cache L2 tramite [Aggiornamento back-end Redis](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Procedi a [Passaggio 6](#step6).
+b. NO - Configurare la configurazione della cache L2 [Aggiornando Redis Backend](https://devdocs.magento.com/cloud/env/variables-deploy.html#redis_backend). Procedi al [passaggio 6](#step6).
 
 +++
 
@@ -73,7 +73,7 @@ b. NO - Configurare la configurazione della cache L2 tramite [Aggiornamento back
 
 +++Il sito funziona ancora lentamente dopo l’abilitazione della cache L2?
 
-a. YES - Controllare la directory temp `/dev/shm` per verificare se è necessario aumentare lo spazio. Se hai bisogno di più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. YES - Controllare la directory temporanea `/dev/shm` per verificare se è necessario aumentare lo spazio. Se hai bisogno di più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 b. NO - L’abilitazione della cache L2 sembra aver risolto i problemi Redis.
 
 +++

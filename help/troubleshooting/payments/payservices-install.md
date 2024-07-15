@@ -17,7 +17,7 @@ In questo articolo vengono illustrati gli errori che possono verificarsi durante
 
 ## Prodotti e versioni interessati
 
-* [Servizi di pagamento](https://marketplace.magento.com/magento-payment-services.html) è ora compatibile con Adobe Commerce versioni da 2.4.0 a 2.4.4.
+* [Payment Services](https://marketplace.magento.com/magento-payment-services.html) è ora compatibile con Adobe Commerce versioni da 2.4.0 a 2.4.4.
 
 ## Problema - Chiavi del compositore non corrette
 
@@ -28,11 +28,11 @@ Durante l&#39;installazione dell&#39;estensione Payment Services, è possibile c
 1. Tentativo di [installare Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
 1. Vedi il seguente errore:
 
-   *Impossibile trovare una versione corrispondente del pacchetto magento/servizi di pagamento. Controlla l’ortografia del pacchetto, il vincolo di versione e che il pacchetto sia disponibile in una stabilità corrispondente alla stabilità minima (stabile).*
+   *Impossibile trovare una versione corrispondente del pacchetto magento/servizi di pagamento. Verificare che l&#39;ortografia del pacchetto, il vincolo di versione e la disponibilità del pacchetto siano stabili in modo da corrispondere alla stabilità minima (stabile).*
 
 <u>Risultato previsto</u>:
 
-Puoi seguire questi [istruzioni di installazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) nella documentazione per gli sviluppatori per installare correttamente Payment Services.
+Segui queste [istruzioni di installazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) nella documentazione per gli sviluppatori per installare correttamente Payment Services.
 
 <u>Risultato effettivo</u>:
 
@@ -44,7 +44,7 @@ Sono state utilizzate chiavi di composizione errate durante l&#39;installazione.
 
 ### Soluzione
 
-Verifica che [le chiavi del Compositore sono collegate all’ID Magento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) utilizzato durante la registrazione di Payment Services.
+Verifica che [le chiavi del Compositore siano collegate all&#39;ID Magento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) utilizzato durante la registrazione a Payment Services.
 
 ## Problema: utilizzo dello stesso spazio dei dati in più istanze
 
@@ -59,7 +59,7 @@ Quando crei un progetto SaaS, Commerce genera uno o più spazi dati SaaS a secon
 * Adobe Commerce: uno spazio dati di produzione; due spazi dati di test
 * Magento Open Source: uno spazio dati di produzione; nessuno spazio dati di prova
 
-Segui le istruzioni in [Chiave API Commerce e chiave privata](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) per configurare correttamente l&#39;estensione Payment Services.
+Segui le istruzioni contenute in [Chiave API Commerce e chiave privata](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) per configurare correttamente l&#39;estensione Payment Services.
 
 ## Problema - Memoria insufficiente per PHP
 
@@ -70,11 +70,11 @@ Durante l&#39;installazione dell&#39;estensione Payment Services, è possibile c
 1. Tentativo di [installare Payment Services](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
 1. Vedi il seguente errore, o simile:
 
-   *Errore irreversibile: memoria consentita di 2146435072 byte esaurita (tentativo di allocare 4096 byte) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php alla riga 52*
+   *Errore irreversibile: dimensione di memoria consentita di 2146435072 byte esauriti (tentativo di allocare 4096 byte) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php alla riga 52*
 
 <u>Risultato previsto</u>:
 
-Puoi seguire questi [istruzioni di installazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) nella documentazione per gli sviluppatori per installare correttamente Payment Services.
+Segui queste [istruzioni di installazione](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) nella documentazione per gli sviluppatori per installare correttamente Payment Services.
 
 <u>Risultato effettivo</u>:
 
@@ -86,4 +86,4 @@ Il limite per PHP nell’ambiente non è impostato su una soglia sufficientement
 
 ### Soluzione
 
-[Aumentare il limite di memoria per PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) sull’ambiente in `php.ini`.
+[Aumentare il limite di memoria per PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) nell&#39;ambiente in `php.ini`.

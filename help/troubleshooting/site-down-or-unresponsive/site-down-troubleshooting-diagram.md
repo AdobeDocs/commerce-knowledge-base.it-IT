@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Questo diagramma di risoluzione dei problemi del sito Adobe Commerce può essere utilizzato per identificare e risolvere le cause di un sito inattivo.
 
-![immagine diagramma risoluzione problemi sito in basso](assets/updated_site_down_1.jpeg)
+![immagine diagramma risoluzione problemi sito inattivo](assets/updated_site_down_1.jpeg)

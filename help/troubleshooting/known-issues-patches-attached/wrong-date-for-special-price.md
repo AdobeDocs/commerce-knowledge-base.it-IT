@@ -17,7 +17,7 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.2.2 
 
 ## Problema
 
-Quando si imposta o si modifica il prezzo speciale di un prodotto, la data e l&#39;ora correnti vengono salvate nel database come valore per `special_from_date` (non visibile durante la modifica di un prodotto). Se modifichi il prezzo speciale e l’account utente amministratore è impostato su una lingua diversa nell’interfaccia, è possibile che venga impostato un valore errato `special_from_date` a causa di problemi nel formato della data di analisi per diverse impostazioni internazionali.
+Quando si imposta o si modifica il prezzo speciale di un prodotto, la data e l&#39;ora correnti vengono salvate nel database come valore per l&#39;attributo `special_from_date` (non visibile durante la modifica di un prodotto). Se si modifica il prezzo speciale e l&#39;account utente amministratore è impostato su un&#39;altra lingua dell&#39;interfaccia, è possibile che venga impostato un valore errato su `special_from_date` a causa di problemi nel formato di data dell&#39;analisi per diverse lingue.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -26,10 +26,10 @@ Prerequisiti: le impostazioni locali dell&#39;utente amministratore sono inglese
 1. Accedi all’amministratore di Commerce.
 1. Passa alle impostazioni dell’account utente amministratore.
 1. Impostare Interfaccia locale su Ucraino.
-1. Clic **Salva account**.
+1. Fai clic su **Salva account**.
 1. Vai a **Catalogo** > **Prodotto**.
 1. Seleziona un prodotto.
-1. Nella pagina del prodotto, fai clic su **Advanced Pricing**.
+1. Nella pagina del prodotto, fare clic su **Advanced Pricing**.
 1. Aggiungi un prezzo speciale.
 1. Salva il prodotto.
 1. Ripetere i passaggi 7-9.
@@ -67,6 +67,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

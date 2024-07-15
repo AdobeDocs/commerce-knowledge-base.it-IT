@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Creare una patch per l’installazione di Adobe Commerce Composer da un commit GitHub
 
-Fare riferimento a [Sezione delle patch personalizzate della sezione Applicazione delle patch](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) nella documentazione per gli sviluppatori.
+Consulta la sezione [Patch personalizzate nella sezione Applicazione delle patch](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) nella documentazione per gli sviluppatori.

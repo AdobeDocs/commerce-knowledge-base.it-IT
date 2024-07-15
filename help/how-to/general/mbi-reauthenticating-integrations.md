@@ -16,7 +16,7 @@ Questo articolo fornisce soluzioni per autorizzare nuovamente un’integrazione 
 
 ## Integrazioni di database e SaaS
 
-Per gli elenchi delle integrazioni di Database e SaaS, fare riferimento a [Connessione di dati esterni tramite un’integrazione](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) nella documentazione per gli sviluppatori. All’apertura della pagina, utilizza il sommario a sinistra per la navigazione.
+Per gli elenchi delle integrazioni di Database e SaaS, consulta [Connessione di dati esterni tramite un&#39;integrazione](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) nella documentazione per gli sviluppatori. All’apertura della pagina, utilizza il sommario a sinistra per la navigazione.
 
 ## Problemi di connessione?
 

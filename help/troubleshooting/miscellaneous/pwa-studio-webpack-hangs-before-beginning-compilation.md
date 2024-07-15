@@ -1,6 +1,6 @@
 ---
 title: "PWA Studio: Webpack si blocca prima di iniziare la compilazione"
-description: In questo articolo viene illustrata una soluzione consigliata per l'interruzione prolungata di un codice JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studi).
+description: In questo articolo viene illustrata una soluzione consigliata per l'interruzione prolungata di un codice JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # PWA Studio: Webpack si blocca prima di iniziare la compilazione
 
-Questo articolo descrive una soluzione suggerita per quando un JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) si blocca per molto tempo prima di iniziare la compilazione in Progressive Web App Studio (PWA Studi).
+In questo articolo viene illustrata una soluzione suggerita per la sospensione prolungata di un codice JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
 
 ## Prodotti e versioni interessati
 
-* PWA Studi
+* PWA Studio
 
 ## Problema
 
-[Scopri la versione più recente di pwa-buildpack](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)e
+[Verificare la versione più recente di pwa-buildpack](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack) e
 
 ```yaml
 pwa-buildpack
 ```
 
-il numero di versione sarà accanto al `package.json` elenco nomi file. Se si dispone di una versione precedente di
+il numero di versione sarà accanto all&#39;elenco dei nomi file `package.json`. Se si dispone di una versione precedente di
 
 ```yaml
 pwa-buildpack
@@ -37,7 +37,7 @@ progetto, il webpack potrebbe bloccarsi per molto tempo prima di iniziare la com
 
 <u>Passaggi da riprodurre</u>:
 
-<u>Prerequisiti</u>: configura una vetrina PWA Studi, ad esempio Venia, con un’istanza Adobe Commerce locale ed esegui una
+<u>Prerequisiti</u>: configura una vetrina PWA Studi, ad esempio Venia, con un&#39;istanza Adobe Commerce locale ed esegui una
 
 ```yaml
 build
@@ -88,12 +88,12 @@ openssl version
 
 La versione deve essere 1.0 o successiva (o LibreSSL 2, nel caso di OSX High Sierra.).
 
-È possibile installare versioni successive di OpenSSL con [Homebrew](https://brew.sh/) su OSX, [Chocolatey](https://chocolatey.org/) su Windows o il gestore di pacchetti della distribuzione Linux.
+Puoi installare versioni successive di OpenSSL con [Homebrew](https://brew.sh/) su OSX, [Chocolatey](https://chocolatey.org/) su Windows o il gestore di pacchetti della distribuzione Linux.
 
 ## Lettura correlata
 
-* [Webpack Javascript: Concetti](https://webpack.js.org/concepts/)
+* [Webpack JavaScript: Concetti](https://webpack.js.org/concepts/)
 * [Configurazione vetrina Venia](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
 * [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [Interfaccia riga di comando buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
+* [interfaccia della riga di comando buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
 * [Strumenti e librerie: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)

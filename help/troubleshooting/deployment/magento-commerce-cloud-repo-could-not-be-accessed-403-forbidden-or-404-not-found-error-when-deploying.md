@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questo articolo illustra come risolvere l’errore di distribuzione non riuscita di Adobe Commerce sull’infrastruttura cloud in modo simile al seguente:
 
-&quot;*Impossibile accedere all’URL &quot;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39;&quot;: HTTP/1.1 403 Forbidden* &quot;. Oppure &quot;*Impossibile scaricare il file https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip&quot; (HTTP/1.1 404 - Non trovato)*&quot;.
+&quot;*Impossibile accedere all&#39;URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39;: HTTP/1.1 403 Forbidden* &quot;. Oppure non è stato possibile scaricare il file &quot;*https://repo.magento.com/archives/magento/module-customer-segment/magento-module-customer-segment-102.0.5.0-patch2.zip&quot; (HTTP/1.1 404 - Non trovato)*&quot;.
 
 ## Prodotti e versioni interessati
 
@@ -33,7 +33,7 @@ Attiva la distribuzione manualmente o eseguendo un’unione, un push o una sincr
 
 L’implementazione si blocca. Nel registro degli errori di distribuzione nell’interfaccia utente di Project viene visualizzato un messaggio di errore simile al seguente:
 
-*&quot;Impossibile accedere all&#39;URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39;: HTTP/1.1 \[403 Forbidden or 404 Not Found\]&quot;*.
+*&quot;Impossibile accedere all&#39;URL &#39;https://repo.magento.com/archives/magento/magento-cloud-configuration/magento-magento-cloud-configuration-x.x.x.x.zip&#39;: HTTP/1.1 \[403 Non consentito o 404 Non trovato\]&quot;*.
 
 Fai clic sull’icona &quot;Errore&quot; nell’interfaccia utente di Project per visualizzare il registro.
 
@@ -59,18 +59,18 @@ Alcuni motivi per cui le chiavi non sono valide sono:
 Per risolvere il problema relativo alle chiavi di autorizzazione, attieniti alla seguente procedura (per ulteriori informazioni su ciascuna fase, consulta le sezioni seguenti):
 
 1. Ottieni le chiavi di autorizzazione valide (ignorale se sei assolutamente sicuro che la tua chiave sia valida).
-1. Aggiungi il valore delle chiavi in `env:COMPOSER_AUTH` variabile (o accertati che sia presente il valore corretto) e verifica se le chiavi sono specificate in modo coerente nella variabile a livello di progetto e di ambiente, nonché nella `auth.json` (se esiste) nella directory principale del progetto.
-1. Aggiornare o eliminare `auth.json`, per avere un&#39;unica posizione in cui è configurata la chiave, se i valori delle chiavi di autorizzazione non sono specificati o hanno un altro valore.
+1. Aggiungere il valore delle chiavi nella variabile `env:COMPOSER_AUTH` (o verificare che sia presente il valore corretto) e verificare che le chiavi siano specificate in modo coerente nella variabile a livello di progetto e di ambiente, nonché nel file `auth.json` (se esiste) nella directory principale del progetto.
+1. Aggiornare o eliminare `auth.json` in modo che la chiave venga configurata in un&#39;unica posizione, se i valori delle chiavi di autorizzazione non sono specificati o hanno un altro valore.
 
 ### 1. Ottenere chiavi di autorizzazione valide
 
 Se utilizzi le chiavi create con l’account condiviso, devi contattare il proprietario della licenza di Adobe Commerce, che ti fornirà l’accesso e richiedere la generazione delle chiavi.
 
-Se la licenza è stata revocata in precedenza a causa di problemi di pagamento e tali problemi sono stati risolti e la licenza è stata rinnovata, è necessario [genera le nuove chiavi di autenticazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
+Se la licenza è stata revocata in precedenza a causa di problemi di pagamento e tali problemi sono stati risolti e la licenza è stata rinnovata, è necessario [generare le nuove chiavi di autenticazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html).
 
 ### 2. Aggiungi il valore delle chiavi nella variabile env:COMPOSER\_AUTH e controlla se le stesse chiavi sono specificate in auth.json
 
-Consulta le istruzioni e le informazioni correlate in [Preparare il sistema esistente](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) e [Aggiungi chiavi di autenticazione](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) nella documentazione per gli sviluppatori.
+Consulta le istruzioni e le informazioni correlate in [Prepara il sistema esistente](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) e [Aggiungi chiavi di autenticazione](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) nella documentazione per gli sviluppatori.
 
 ### 3. Aggiornare o eliminare auth.json
 
@@ -78,9 +78,9 @@ Di seguito è riportata una descrizione dettagliata di come aggiornare le chiavi
 
 1. Accedi al computer in cui è installato Adobe Commerce sulle chiavi SSH dell’infrastruttura cloud.
 1. Accedi al progetto: `magento-cloud login`
-1. Crea un ramo per aggiornare il codice (nell’esempio seguente il nome del ramo è `auth` viene creato dal ramo principale):     `magento-cloud environment:branch auth master`
+1. Creare un ramo per aggiornare il codice (nell&#39;esempio seguente il nome del ramo è `auth` viene creato dal ramo principale):     `magento-cloud environment:branch auth master`
 1. Passa alla directory principale del progetto.
-1. Facoltativo: eliminare `auth.json` se preferisci e continua a [passaggio 9](#step9).
+1. Facoltativo: eliminare `auth.json` se si preferisce e continuare con il [passaggio 9](#step9).
 1. Apri `auth.json` in un editor di testo.
 
    ```json

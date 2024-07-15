@@ -46,7 +46,7 @@ La distribuzione non è riuscita. Nei registri viene visualizzato un errore di d
 
 ### Causa
 
-Il **core_config_data** La tabella contiene le configurazioni per un ID store o un ID sito Web che non esiste più nel database. Ciò si verifica quando si importa un backup del database da un&#39;altra istanza o da un altro ambiente e le configurazioni per tali ambiti rimangono nel database anche se gli store o i siti Web associati sono stati eliminati.
+La tabella **core_config_data** contiene le configurazioni per un ID archivio o un ID sito Web che non esiste più nel database. Ciò si verifica quando si importa un backup del database da un&#39;altra istanza o da un altro ambiente e le configurazioni per tali ambiti rimangono nel database anche se gli store o i siti Web associati sono stati eliminati.
 
 ### Soluzione
 
@@ -82,7 +82,7 @@ Per risolvere questo problema, identifica le righe non valide rimaste da tali co
 
    `bin/magento`
 
-   Se ricevi un errore simile al seguente che indica che il sito web con ID X richiesto non è stato trovato, significa che sono rimaste configurazioni eliminate nel database sia dal sito web che dallo store.
+   Se ricevi un errore simile al seguente che indica che il sito web con ID X richiesto non è stato trovato, sono presenti configurazioni rimanenti        nel database dai siti Web e dai negozi che sono stati eliminati.
 
    ```
    In WebsiteRepository.php line 110:
@@ -102,7 +102,7 @@ Per risolvere questo problema, identifica le righe non valide rimaste da tali co
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
    ```
 
-Per verificare il corretto funzionamento della soluzione, eseguire la `bin/magento` di nuovo. Gli errori non dovrebbero più essere visualizzati e la distribuzione può essere eseguita correttamente.
+Per verificare che la soluzione funzioni, eseguire di nuovo il comando `bin/magento`. Gli errori non dovrebbero più essere visualizzati e la distribuzione può essere eseguita correttamente.
 
 ## Lettura correlata
 

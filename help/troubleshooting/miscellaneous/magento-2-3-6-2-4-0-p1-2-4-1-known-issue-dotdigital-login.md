@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema noto: accesso dotdigital
 
-Questo articolo descrive un problema noto di Adobe Commerce 2.3.6, 2.4.0-p1 e 2.4.1 in cui è impossibile accedere a [dotdigital](https://dotdigital.com/) tramite il pannello di amministrazione quando l’account dotdigital è abilitato.
+Questo articolo descrive un problema noto di Adobe Commerce 2.3.6, 2.4.0-p1 e 2.4.1 per cui è impossibile accedere a [dotdigital](https://dotdigital.com/) tramite il pannello di amministrazione quando l&#39;account dotdigital è abilitato.
 
 ## Prodotti e versioni interessati
 
@@ -30,8 +30,8 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.3.6, 2.4.0-p1 e 2.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Vai a **Negozi** > **Configurazione** > **DOTDIGITAL** > **Impostazioni chat** > **Abilitato** è impostato su *Sì.*
-1. Fai clic su **Configura** in **Configura widget chat** o **Configurare i team di chat**.
+1. Vai a **Archivi** > **Configurazione** > **DOTDIGITAL** > **Impostazioni chat** > **Abilitato** è impostato su *Sì.*
+1. Fai clic su **Configura** in **Configura widget chat** o **Configura team chat**.
 
 <u>Risultati previsti</u>:
 
@@ -47,4 +47,4 @@ Soluzione alternativa: utilizza un browser alternativo a Safari per questa parti
 
 ## Lettura correlata
 
-[Adobe Commerce 2.4.1 Problema noto: l’indirizzo vertice non viene convalidato con indirizzi di spedizione/fatturazione diversi](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) nella nostra knowledge base di supporto.
+[Problema noto di Adobe Commerce 2.4.1 - L&#39;indirizzo del vertice non viene convalidato con indirizzi di spedizione/fatturazione diversi](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) nella Knowledge Base del supporto tecnico.

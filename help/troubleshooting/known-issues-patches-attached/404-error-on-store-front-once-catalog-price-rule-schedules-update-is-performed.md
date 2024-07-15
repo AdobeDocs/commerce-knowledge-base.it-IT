@@ -21,17 +21,17 @@ Le pagine di vetrina non sono più disponibili, restituendo l’errore 404. Il p
 
 <u>Passaggi da riprodurre</u>:
 
-1. Nell’amministratore di Commerce, crea una nuova regola di prezzo catalogo in **Marketing** > **Promozioni** > **Regola prezzo catalogo**.
-1. In **Regola prezzo catalogo** griglia, fare clic su **Modifica,** pianificare un nuovo aggiornamento e impostare **Stato** a *Attivo.*
-1. Accedi a **Contenuto** > **Staging dei contenuti** > **Dashboard.**
+1. Nell&#39;amministratore di Commerce, crea una nuova regola di prezzo catalogo in **Marketing** > **Promozioni** > **Regola prezzo catalogo**.
+1. Nella griglia **Regola prezzo catalogo**, fai clic su **Modifica,** pianifica un nuovo aggiornamento e imposta **Stato** su *Attivo.*
+1. Passa a **Contenuto** > **Gestione temporanea dei contenuti** > **Dashboard.**
 1. Seleziona l’aggiornamento creato di recente e modificane l’ora di inizio.
 1. Salva le modifiche.
 
-<u>Risultato previsto</u> :
+<u>Risultato previsto</u>:
 
 Quando la data di inizio Aggiornamento diventa effettiva, la regola del prezzo di catalogo viene applicata correttamente.
 
-<u>Risultato effettivo</u> :
+<u>Risultato effettivo</u>:
 
 Quando la data di inizio Aggiornamento diventa effettiva, tutti i cataloghi e i prodotti nella vetrina non sono più disponibili e viene restituito l’errore 404.
 
@@ -43,9 +43,9 @@ Di seguito è riportata una descrizione dettagliata dei passaggi richiesti:
 
 1. [Applicare la patch](#patch).
 1. In Commerce Admin, elimina la regola del prezzo di catalogo relativa al problema (dove è stata aggiornata l’ora di inizio). A questo scopo, apri la pagina della regola in **Marketing** > **Promozioni** > **Regola prezzo catalogo** e fai clic su **Elimina regola**.
-1. L&#39;accesso al database comporta l&#39;eliminazione manuale del record correlato dal `catalogrule` tabella.
-1. Correggere i collegamenti non validi nel database. Consulta la [paragrafo correlato](#fix_links) per i dettagli.
-1. Nell’interfaccia di amministrazione di Commerce in **Marketing**, vai a **Promozioni** > **Regola prezzo catalogo** e crea la nuova regola con la configurazione richiesta.
+1. Se si accede al database, eliminare manualmente il record correlato dalla tabella `catalogrule`.
+1. Correggere i collegamenti non validi nel database. Per ulteriori dettagli, vedere il [paragrafo correlato](#fix_links).
+1. Nell&#39;amministratore di Commerce in **Marketing**, vai a **Promozioni** > **Regola prezzo catalogo** e crea la nuova regola con la configurazione richiesta.
 1. Cancella la cache del browser in **Sistema** > **Gestione cache**.
 1. Assicurati che i processi cron siano configurati correttamente e che possano essere eseguiti correttamente.
 
@@ -68,7 +68,7 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## Correzione dei collegamenti non validi alla gestione temporanea nel database {#fix_links}
 
@@ -76,16 +76,16 @@ Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&
 >
 >Si consiglia vivamente di creare un backup del database prima di qualsiasi manipolazione del database. Consigliamo inoltre di testare prima le query nell’ambiente di sviluppo.
 
-Per correggere le righe con collegamenti non validi a, effettua le seguenti operazioni `staging_update` tabella.
+Eseguire la procedura seguente per correggere le righe con collegamenti non validi alla tabella `staging_update`.
 
-1. Verifica se i collegamenti non validi a `staging_update` la tabella esiste in `flag` tabella. Si tratta di documenti in cui `flag_code=staging`.
-1. Identifica la versione non valida da `flag` tabella utilizzando la query seguente:
+1. Verificare se nella tabella `flag` sono presenti collegamenti non validi alla tabella `staging_update`. Si tratta di record in cui `flag_code=staging`.
+1. Identificare la versione non valida dalla tabella `flag` utilizzando la query seguente:
 
    ```sql
    SELECT flag_data FROM flag WHERE flag_code = 'staging';
    ```
 
-1. Dalla sezione `staging_update` nella tabella, seleziona la versione esistente inferiore alla versione corrente (non valida) e recupera il valore della versione precedente di due numeri. La prendi, non la versione precedente, per evitare la situazione in cui la versione precedente è la versione massima nella `staging_update` tabella che potrebbe essere applicata e dobbiamo ancora riapplicarla.
+1. Dalla tabella `staging_update`, selezionare la versione esistente che è minore della versione corrente (non valida) e recuperare il valore della versione che è due numeri. È possibile utilizzare questa versione, non quella precedente, per evitare che la versione precedente sia la versione massima della tabella `staging_update` che può essere applicata e che sia necessario riapplicarla.
 
    ```sql
    SELECT id FROM staging_update WHERE id < %current_id% ORDER BY id DESC LIMIT 1, 1
@@ -93,7 +93,7 @@ Per correggere le righe con collegamenti non validi a, effettua le seguenti oper
 
    La versione ricevuta in risposta è la versione valida `id`.
 
-1. Per le righe con collegamenti non validi in `flag` tabella, imposta `flag_data` ai dati che conterranno un id versione valido. Questo consente di risparmiare le prestazioni nella fase di reindicizzazione e di evitare la reindicizzazione di tutte le entità.
+1. Per le righe con collegamenti non validi nella tabella `flag`, impostare i valori `flag_data` su dati che conterranno un ID versione valido. Questo consente di risparmiare le prestazioni nella fase di reindicizzazione e di evitare la reindicizzazione di tutte le entità.
 
    ```sql
    UPDATE flag SET flag_data=REPLACE(flag_data, '%invalid_id%', '%new_valid_id%') WHERE flag_code='staging';

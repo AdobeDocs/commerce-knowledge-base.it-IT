@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione per quando si tenta di aggiungere un uten
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 
@@ -29,11 +29,12 @@ Questo è il comportamento previsto. Per poter essere aggiunto come utente al pr
 
 ## Soluzione
 
-1. Chiedere all&#39;utente di accedere al proprio account all&#39;indirizzo https://accounts.magento.cloud (deve essersi già registrato per un account all&#39;indirizzo adobe.com con tale indirizzo e-mail. Creare/avere un account su https://account.adobe.com non significa automaticamente che l’utente avrebbe un account su https://accounts.magento.cloud) Nota: se l’utente ha avuto un account su account.magento.com o accounts.magento.cloud prima di agosto 2022, potrebbe non avere un account con/su adobe.com a meno che non l’abbia creato nell’agosto 2022 o successivamente. Se l’utente non dispone di un account Adobe e non è in grado di accedere, invia un’e-mail a [Grp-Magento-HelpCenterLoginIssues@adobe.com](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com) con i dettagli.
+1. Chiedere all&#39;utente di accedere al proprio account all&#39;indirizzo https://accounts.magento.cloud (deve essersi già registrato per un account all&#39;indirizzo adobe.com con tale indirizzo e-mail. La creazione o l&#39;utilizzo di un account in https://account.adobe.com non implica automaticamente che l&#39;utente disponga di un account in https://accounts.magento.cloud)
+Nota: se l’utente ha avuto un account su account.magento.com o accounts.magento.cloud prima di agosto 2022, potrebbe non avere un account con/su adobe.com a meno che non l’abbia creato ad agosto 2022 o successivamente. Se l&#39;utente non dispone di un account Adobe e non è in grado di accedere, invia un&#39;e-mail a [Grp-Magento-HelpCenterLoginIssues@adobe.com](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com) con i dettagli.
 1. L’utente deve quindi passare a https://accounts.magento.cloud.
-1. Dopo averlo fatto, dovresti essere in grado di aggiungere l’utente al progetto. Per i passaggi, consulta [Aggiungere utenti e gestire l’accesso](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) nella Guida all’infrastruttura Commerce on Cloud.
+1. Dopo averlo fatto, dovresti essere in grado di aggiungere l’utente al progetto. Per i passaggi, consulta [Aggiungere utenti e gestire l&#39;accesso](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) nella guida Commerce on Cloud Infrastructure.
 
 ## Lettura correlata:
 
-* [Gestire l’accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nella Guida all’infrastruttura Commerce on Cloud.
-* [Impossibile accedere al supporto Adobe Commerce o all’account cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html)
+* [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Impossibile accedere al supporto Adobe Commerce o all&#39;account cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.html)

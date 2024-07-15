@@ -30,7 +30,7 @@ Se si è verificata un&#39;interruzione potenzialmente causata da un database so
    grep 'Query_time: [5-9][0-9]\|Query_time: [0-9][0-9][0-9]' /var/log/mysql/mysql-slow.log -A 3
    ```
 
-1. Vai a <https://www.unixtimestamp.com/> (o un convertitore di marca temporale Unix simile) e inserire la marca temporale di quando è stata eseguita la query lenta.
+1. Vai a <https://www.unixtimestamp.com/> (o a un convertitore di marca temporale Unix simile) e inserisci la marca temporale di quando è stata eseguita la query lenta.
 1. Se il tempo è correlato a qualsiasi interruzione del sito verificatasi, la causa potrebbe essere un database sovraccarico. Verificare i carichi presenti nel database in quel momento. Esempi di tali carichi potrebbero essere:
 
 * Processi Cron
@@ -39,13 +39,13 @@ Se si è verificata un&#39;interruzione potenzialmente causata da un database so
 * Creazione di immagini
 
 
-### Analizzare le query utilizzando [!DNL Percona Toolkit] (Adobe Commerce Pro: solo architettura cloud)
+### Analizzare le query utilizzando [!DNL Percona Toolkit] (solo Adobe Commerce Pro: architettura cloud)
 
-Se il progetto Adobe Commerce viene distribuito su architettura Pro, puoi utilizzare [!DNL Percona Toolkit] per analizzare le query.
+Se il progetto Adobe Commerce è distribuito su architettura Pro, puoi utilizzare [!DNL Percona Toolkit] per analizzare le query.
 
-1. Esegui il `pt-query-digest --type=slowlog` comando rispetto ai log delle query lente di MySQL.
-   * Per individuare la posizione dei registri di query lente, consulta **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** nella documentazione per gli sviluppatori.
-   * Consulta la [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest) documentazione.
+1. Eseguire il comando `pt-query-digest --type=slowlog` nei registri query lente MySQL.
+   * Per trovare il percorso dei registri di query lente, vedi **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** nella documentazione per gli sviluppatori.
+   * Consulta la documentazione di [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest).
 1. In base ai problemi rilevati, puoi adottare le misure necessarie per correggere la query in modo che venga eseguita più rapidamente.
 
 ## Controllo dell&#39;&quot;elenco processi&quot; MySQL
@@ -80,5 +80,5 @@ In questo modo sarà possibile stabilire se il server MySQL è attivo e se non s
 
 * [Sintassi elenco processi MySQL](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
 * [Sintassi di terminazione MySQL](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
-* [Sicurezza, prestazioni e gestione dei dati](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) nella documentazione per gli sviluppatori.
+* [Sicurezza, prestazioni e gestione dati](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html) nella documentazione per gli sviluppatori.
 * [Guida di MySQL](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html) nella documentazione per gli sviluppatori.

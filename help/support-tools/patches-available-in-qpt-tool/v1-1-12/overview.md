@@ -1,6 +1,6 @@
 ---
-title: '"Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.12'''
-description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.12.
+title: 'Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.12'
+description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in  [!DNL Quality Patches Tool] (QPT) v1.1.12.
 exl-id: 749dbfd5-9ded-4919-8c57-0f66c85751e9
 feature: Tools and External Services
 role: Admin
@@ -11,27 +11,27 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Panoramica della versione 1.1.12
+# Panoramica di [!DNL Quality Patches Tool] (QPT) v1.1.12
 
 Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.12.
 
 QPT v1.1.12 include le seguenti patch:
 
-1. **MDVA-39546**: risolve il problema per cui la data di inizio per l’aggiornamento della gestione temporanea poteva essere impostata su una data precedente alla data corrente durante la modifica.
-1. **MDVA-39713**: risolve il problema per cui l’utente può modificare l’ora di inizio di un aggiornamento pianificato attivo.
-1. **MDVA-39993**: risolve il problema per cui le modifiche di inventario eseguite tramite API non si riflettono sulla pagina del prodotto sul front-end.
-1. **MDVA-41136**: corregge il problema in cui la data di scadenza del `mage-cache-sessid` non viene esteso, con conseguente pulizia dei dati del cliente.
-1. **MDVA-41229**: è stato corretto il problema per cui le immagini disponibili sul back-end non venivano visualizzate sul front-end dopo l’importazione di prodotti configurabili.
-1. **MDVA-41628**: risolve il problema relativo all’accesso alle nuove risorse da parte degli utenti amministratori con restrizioni esistenti quando vengono aggiunti nuovi moduli.
-1. **MDVA-42410**: risolve il problema relativo alla visualizzazione dei rapporti coupon solo della valuta di base predefinita.
-1. **MDVA-42645**: risolve il problema per cui l’amministratore non può rimborsare i punti premio se la funzionalità di credito del negozio è disabilitata.
-1. **MDVA-42689** Adobe Commerce : risolve il problema relativo alla generazione di un *Violazione del vincolo di integrità* errore durante l’aggiornamento delle categorie di prodotto durante l’importazione.
-1. **MDVA-42855**: risolve il problema per cui un nuovo indirizzo del cliente non viene salvato nella rubrica durante il pagamento.
-1. **MDVA-42950**: risolve il problema per cui i video non vengono riprodotti sulla pagina del prodotto.
-1. **MDVA-43232**: risolve il problema relativo all’ordinamento dei prodotti in [!DNL Visual Merchandiser] In base al prezzo speciale in basso/superiore viene generato un errore durante il salvataggio della categoria.
-1. **MDVA-43348**: corregge il problema per cui la richiesta GraphQL di gift card mostra un errore se `gift_card_options` contain *uid*.
-1. **MDVA-43414**: corregge l’errore irreversibile PHP che si verifica durante l’esecuzione di `inventory.reservations.updateSalabilityStatus` mette in coda il consumatore negli SKU numerici.
-1. **MDVA-43726**: risolve il problema per cui la regola del prezzo di catalogo basata sulla corrispondenza dell’attributo a livello di negozio non viene applicata dopo una reindicizzazione parziale.
-1. **MDVA-43731**: risolve il problema in cui *Sinonimi di ricerca* non funziona più quando il valore viene aggiunto in *Condizioni minime da rispettare*.
+1. **MDVA-39546**: è stato risolto il problema per cui la data di inizio per l&#39;aggiornamento dello staging poteva essere impostata su una data precedente a quella corrente durante la modifica.
+1. **MDVA-39713**: è stato risolto il problema che impediva all&#39;utente di modificare l&#39;ora di inizio per un aggiornamento pianificato attivo.
+1. **MDVA-39993**: risolve il problema per cui le modifiche di inventario eseguite tramite API non vengono applicate alla pagina del prodotto nel front-end.
+1. **MDVA-41136**: è stato risolto il problema che impediva l&#39;estensione della data di scadenza di `mage-cache-sessid`, causando la pulizia dei dati del cliente.
+1. **MDVA-41229**: è stato risolto il problema che impediva la visualizzazione delle immagini disponibili nel back-end dopo l&#39;importazione di prodotti configurabili.
+1. **MDVA-41628**: è stato risolto il problema che impediva agli utenti amministratori con restrizioni esistenti di accedere alle nuove risorse all&#39;aggiunta di nuovi moduli.
+1. **MDVA-42410**: è stato risolto il problema che causava la visualizzazione della sola valuta di base predefinita nei report coupon.
+1. **MDVA-42645**: è stato risolto il problema che impediva all&#39;amministratore di rimborsare i punti premio se la funzionalità di credito dell&#39;archivio è disabilitata.
+1. **MDVA-42689**: è stato corretto il problema a causa del quale Adobe Commerce generava un errore *Violazione del vincolo di integrità* durante l&#39;aggiornamento delle categorie di prodotti durante l&#39;importazione.
+1. **MDVA-42855**: è stato risolto il problema che impediva il salvataggio di un nuovo indirizzo del cliente nella rubrica durante l&#39;estrazione.
+1. **MDVA-42950**: è stato risolto il problema che impediva la riproduzione dei video nella pagina del prodotto.
+1. **MDVA-43232**: è stato risolto il problema che causava un errore durante il salvataggio della categoria durante l&#39;ordinamento dei prodotti in [!DNL Visual Merchandiser] in base al prezzo speciale nella parte inferiore/superiore.
+1. **MDVA-43348**: è stato risolto il problema che causava la visualizzazione di un errore nella richiesta GraphQL di gift card se `gift_card_options` conteneva *uid*.
+1. **MDVA-43414**: corregge l&#39;errore irreversibile PHP che si verifica durante l&#39;esecuzione del consumer di coda `inventory.reservations.updateSalabilityStatus` negli SKU numerici.
+1. **MDVA-43726**: è stato risolto il problema che impediva l&#39;applicazione della regola del prezzo del catalogo basata sulla corrispondenza degli attributi a livello di archivio dopo la reindicizzazione parziale.
+1. **MDVA-43731**: è stato risolto il problema che impediva il funzionamento di *Sinonimi di ricerca* quando il valore viene aggiunto in *Termini minimi da abbinare*.
 
 Utilizza il menu a sinistra per passare a una pagina patch specifica.

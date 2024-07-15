@@ -39,13 +39,13 @@ L’Adobe raccomanda vivamente di applicare il cerotto il prima possibile, anche
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## Altre raccomandazioni per la sicurezza
 
 Adobe consiglia inoltre vivamente ai commercianti di implementare strumenti per proteggere il pannello di amministrazione, tra cui autenticazione a due fattori, VPN, Inserire nell&#39;elenco Consentiti IP e altro ancora. Per informazioni dettagliate, consulta i seguenti blog e documentazione:
 
-* [5 Azioni immediate per Protect contro gli attacchi della forza bruta](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
-* [Protect Password di installazione del Magento in attesa di un nuovo aggiornamento](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
+* [5 Azioni immediate per Protect contro attacchi di forza bruta](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
+* [Protect La Password Di Installazione Del Magento Sta Cercando Un Nuovo Aggiornamento](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [Best practice per la sicurezza](https://magento.com/security/best-practices/security-best-practices)
-* Aggiunta e configurazione dell’autenticazione a due fattori in Adobe Commerce per [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) e [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* Aggiunta e configurazione dell&#39;autenticazione a due fattori in Adobe Commerce per [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) e [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)

@@ -17,10 +17,10 @@ Questo articolo corregge il messaggio di errore &quot;I file CSV devono utilizza
 
 Per risolvere il problema, è necessario modificare la codifica del file. Il salvataggio del file con la codifica corretta in genere risolve il problema, ma tieni presente che questa operazione potrebbe causare la perdita di alcune informazioni (ad esempio, i caratteri non validi potrebbero venire eliminati).
 
-È consigliabile utilizzare [Testo Sublime](https://www.sublimetext.com/2) per salvare e codificare il file.
+È consigliabile utilizzare [Testo sublime](https://www.sublimetext.com/2) per salvare e codificare il file.
 
 1. Apri il file in Microsoft Excel, Google Docs, Apple Numbers o nel programma desiderato.
-1. Fai clic su &#x200B;&#x200B; **File** > **Salva con nome** &#x200B;&#x200B; e scegli la &#x200B;&#x200B; **Valori separati da virgole (.csv)** per salvare il file.
+1. Fai clic su &#x200B;&#x200B; **File** > **Salva con nome** &#x200B;&#x200B; e scegli il formato &#x200B;&#x200B; **Valori separati da virgole (.csv)** per salvare il file.
 1. Apri il file CSV in Testo sublime.
-1. In Testo sublime passare a &#x200B;&#x200B; **File** > **Salva con codifica** > **UTF-8\* &#x200B;** . Il file CSV verrà salvato con codifica UTF-8.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [Caricare i dati](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html) (nella nostra guida utente) a una nuova tabella in Magento BI.
+1. In Testo sublime passare a &#x200B;&#x200B; **File** > **Salva con codifica** > **UTF-8\*&#x200B;**. Il file CSV verrà salvato con codifica UTF-8.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
+1. [Carica i dati](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html) (nella guida utente) in una nuova tabella in Magento BI.

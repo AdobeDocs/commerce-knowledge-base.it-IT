@@ -1,6 +1,6 @@
 ---
-title: '"Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.19'''
-description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.19.
+title: 'Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.19'
+description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in  [!DNL Quality Patches Tool] (QPT) v1.1.19.
 exl-id: 2502d404-9bcf-4e23-9470-230c751b5d60
 feature: Tools and External Services
 role: Admin
@@ -11,15 +11,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Quality Patches Tool] (QPT) Panoramica della versione 1.1.19
+# Panoramica di [!DNL Quality Patches Tool] (QPT) v1.1.19
 
 Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.19.
 
 QPT v1.1.19 include le seguenti patch:
 
-1. **ACSD-45781**: risolve il problema per cui il campo di ricerca della vetrina non viene visualizzato sul dispositivo mobile.
-1. **ACSD-46213**: risolve il problema se la richiesta della struttura ad albero delle categorie è limitata a 20 categorie.
-1. **ACSD-46404**: è stato risolto il problema che impediva a un utente amministratore di accedere dopo l’aggiornamento alla versione 2.4.4.
-1. **ACSD-46192**: risolve il problema relativo all’utilizzo di `async/bulk/V1/configurable-products/bySku/options` endpoint.
+1. **ACSD-45781**: è stato risolto il problema che impediva la visualizzazione del campo di ricerca iniziale dell&#39;archivio su dispositivi mobili.
+1. **ACSD-46213**: è stato corretto il problema per cui la richiesta della struttura delle categorie è limitata a 20 categorie.
+1. **ACSD-46404**: è stato risolto il problema che impediva a un utente amministratore di accedere dopo l&#39;aggiornamento alla versione 2.4.4.
+1. **ACSD-46192**: è stato risolto il problema relativo all&#39;utilizzo dell&#39;endpoint `async/bulk/V1/configurable-products/bySku/options`.
 
 Utilizza il menu a sinistra per passare a una pagina patch specifica.

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# Errore &quot;L’indicativo di località non è impostato&quot; durante l’esecuzione `setup:upgrade`
+# Errore &#39;Codice località non impostato&#39; durante l&#39;esecuzione di `setup:upgrade`
 
-Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.3 relativo all’ottenimento di *&quot;L&#39;indicativo di località non è impostato&quot;* errore durante l’esecuzione del seguente comando:
+Questo articolo fornisce una patch per il problema noto di Adobe Commerce on Cloud Infrastructure 2.2.3 relativo all&#39;ottenimento dell&#39;errore *&quot;Area code is not set&quot;* durante l&#39;esecuzione del comando seguente:
 
 ```bash
 setup:upgrade
@@ -31,7 +31,7 @@ Quando si esegue
 bin/magento setup:upgrade
 ```
 
-, viene visualizzato il seguente messaggio di errore: *&quot;Modulo &#39;Magento\_AdvancedSalesRule&#39;: installazione dei dati in corso...Indicativo di località non impostato. È necessario impostare l&#39;indicativo di località prima di avviare una sessione&quot;* e l’esecuzione del comando viene interrotta. Il problema viene visualizzato perché la configurazione dell’area è richiesta prima dell’effettiva impostazione. La patch consente di rilevare l’errore e non di interrompere il processo di aggiornamento.
+comando, viene visualizzato il seguente messaggio di errore: *&quot;Modulo &#39;Magento\_AdvancedSalesRule&#39;: Installazione dei dati...Codice area non impostato: è necessario impostare il codice area prima di avviare una sessione&quot;* e l&#39;esecuzione del comando viene interrotta. Il problema viene visualizzato perché la configurazione dell’area è richiesta prima dell’effettiva impostazione. La patch consente di rilevare l’errore e non di interrompere il processo di aggiornamento.
 
 ## Patch
 
@@ -51,6 +51,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

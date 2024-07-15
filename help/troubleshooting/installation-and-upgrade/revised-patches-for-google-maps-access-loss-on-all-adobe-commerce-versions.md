@@ -1,6 +1,6 @@
 ---
 title: 'Patch riviste per Google Maps: perdita di accesso su tutte le versioni di Adobe Commerce'
-description: "Questo articolo fornisce una correzione per i commercianti di Adobe Commerce che non sono compatibili con [!DNL Google Maps] versioni da 3.54+."
+description: 'Questo articolo fornisce una correzione per gli esercenti di Adobe Commerce che non sono compatibili con nessuna versione recente di [!DNL Google Maps] dalla versione 3.54+.'
 feature: Install, Upgrade
 role: Developer
 source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
@@ -10,40 +10,40 @@ ht-degree: 0%
 
 ---
 
-# Patch riviste per [!DNL Google Maps] perdita di accesso su tutte le versioni di Adobe Commerce
+# Patch riviste per la perdita dell&#39;accesso [!DNL Google Maps] su tutte le versioni di Adobe Commerce
 
-Questo articolo fornisce una correzione per i commercianti di Adobe Commerce che non sono compatibili con alcuna [!DNL Google Maps] versioni da 3.54+. Questa correzione consente di risolvere il problema a cui i commercianti di Adobe Commerce non hanno accesso [!DNL Google Maps] in qualsiasi versione di Adobe Commerce.
+Questo articolo fornisce una correzione per gli esercenti Adobe Commerce che non sono compatibili con nessuna versione [!DNL Google Maps] recente dalla versione 3.54+. Questa correzione consente di risolvere il problema per cui i commercianti di Adobe Commerce non hanno più accesso a [!DNL Google Maps] in alcuna versione di Adobe Commerce.
 
 ## Versioni e prodotti interessati
 
 * Versioni di Adobe Commerce e/o altre tecnologie utilizzate.
-* Adobe Commerce *2.4.4.* - *2.4.7.* nelle versioni Cloud e On-Premises.
+* Adobe Commerce *2.4.4* - *2.4.7* nelle versioni Cloud e On-Premise.
 
 ## Problema
 
-On *14 giugno 2024* [!DNL Google Maps] version *3,53* ha raggiunto la fine del ciclo di vita ed è stato disattivato da [!DNL Google].
+Il *14 giugno 2024* la versione [!DNL Google Maps] *3.53* ha raggiunto la fine del ciclo di vita ed è stata disattivata da [!DNL Google].
 
-Per ulteriori informazioni, consulta [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
+Per ulteriori informazioni, fare riferimento a [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
-Adobe Commerce non era compatibile con nessun recente [!DNL  Google Maps] versioni da 3.54+.
+Adobe Commerce non è compatibile con nessuna versione [!DNL  Google Maps] recente dalla versione 3.54+.
 
-L’incompatibilità è stata causata da precedenti `prototype.js script`, caricato tramite `lib/web/legacy-build.min.js` sostituisce la funzione nativa Array.from, che provoca un conflitto diretto con [!DNL  Google Maps] API.
+L&#39;incompatibilità è stata causata dalla versione legacy di `prototype.js script`, caricata tramite `lib/web/legacy-build.min.js`, che sostituisce la funzione nativa Array.from, causando un conflitto diretto con l&#39;API [!DNL  Google Maps].
 
-Fai riferimento a [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices).
+Fare riferimento a [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices).
 
-<u>Passaggi da riprodurre</u> :
+<u>Passaggi da riprodurre</u>:
 
-1. Fai clic su **[!UICONTROL Content]** > **[!UICONTROL Pages]** > e seleziona un’ **[!UICONTROL New Page]**.
-1. Espandi il blocco di contenuto e fai clic sulla modifica. **[!DNL PageBuilder]** pulsante.
-1. Trascina il blocco di contenuto della mappa da **[!DNL PageBuilder]** menu alla pagina.
+1. Fai clic su **[!UICONTROL Content]** > **[!UICONTROL Pages]** > e seleziona un **[!UICONTROL New Page]**.
+1. Espandere il blocco di contenuto e fare clic sul pulsante Modifica **[!DNL PageBuilder]**.
+1. Trascinare il Blocco di contenuto mappa dal menu **[!DNL PageBuilder]** nella pagina.
 
 <u>Risultato previsto:</u>
 
-[!DNL Google Maps] deve funzionare come previsto.
+[!DNL Google Maps] dovrebbe funzionare come previsto.
 
 <u> Risultato effettivo:</u>
 
-Quando si rilascia il blocco di contenuto della mappa da **[!DNL PageBuilder]** alla pagina, un messaggio di errore come *&quot;Scusa! Si è verificato un errore&quot;* viene visualizzato.
+Quando si rilascia il Blocco di contenuto della mappa dal menu **[!DNL PageBuilder]** alla pagina, viene visualizzato un messaggio di errore come *&quot;Spiacenti! Si è verificato un errore&quot;* visualizzato.
 
 ## Soluzione
 
@@ -67,8 +67,9 @@ Utilizza le seguenti patch allegate, a seconda della versione di Adobe Commerce:
 
 **Nota**
 
-Questo problema verrà risolto definitivamente nell’ambito delle versioni di agosto delle patch riservate alla sicurezza: 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10
+Questo problema verrà risolto definitivamente nell’ambito delle versioni di patch di sicurezza di agosto:
+2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10
 
 ## Lettura correlata
 
-[Come applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[Applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)

@@ -17,18 +17,18 @@ Le distribuzioni bloccate e non riuscite in Adobe Commerce possono essere risolt
 
 ## Passaggio 1: verificare che il servizio sia in esecuzione {#step-1}
 
-+++**Adobe Commerce su Cloud Infrastructure Service è attivo?**
++++**Il servizio Adobe Commerce sull&#39;infrastruttura cloud è attivo?**
 
-Distribuzione bloccata: Adobe Commerce su infrastruttura cloud è attivo? Verifica [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
+Distribuzione bloccata: Adobe Commerce su infrastruttura cloud è attivo? Controlla [Adobe Commerce Cloud](https://status.adobe.com/products/3350/).
 
-a. SÌ - Procedere come segue [Passaggio 2](#step-2).\
+a. SÌ - Procedere al [passaggio 2](#step-2).\
 b. NO - Manutenzione o interruzioni globali. Controlla la durata stimata e gli aggiornamenti.
 
 +++
 
 ## Passaggio 2: controllare le distribuzioni in altri ambienti {#step-2}
 
-+++**Esistono distribuzioni in altri ambienti che bloccano la distribuzione nell’ambiente esistente?**
++++**Esistono distribuzioni in altri ambienti che bloccano la distribuzione nell&#39;ambiente esistente?**
 
 Per ottenere un elenco delle attività in corso, esegui il seguente comando utilizzando magento-cloud CLI (se sei stato aggiunto a un solo progetto cloud):
 
@@ -42,16 +42,16 @@ Per ottenere un elenco delle attività in corso, esegui il seguente comando util
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Per trovare informazioni su un’attività di distribuzione esistente (consulta [Verifica del registro di distribuzione se nell’interfaccia utente di Cloud è presente l’errore &quot;log snipped&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+Per trovare informazioni su un&#39;attività di distribuzione esistente (fare riferimento a [Verifica del registro di distribuzione se l&#39;interfaccia utente di Cloud presenta un errore &quot;log snipped&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
 per ulteriori dettagli) puoi eseguire questo comando per ottenere un registro in esecuzione dell’attività:
 
 ```bash
 magento-cloud activity:log <activity-id> [OPTIONAL: <-p project-id or project-url>]
 ```
 
-a. YES - Risolvere i problemi relativi all’altro ambiente che blocca la distribuzione nell’ambiente esistente. Procedi a [Passaggio 3](#step-3).
+a. YES - Risolvere i problemi relativi all’altro ambiente che blocca la distribuzione nell’ambiente esistente. Procedi al [passaggio 3](#step-3).
 
-b. NO - Risolvere i problemi relativi all’ambiente corrente. Procedi a [Passaggio 3](#step-3).
+b. NO - Risolvere i problemi relativi all’ambiente corrente. Procedi al [passaggio 3](#step-3).
 
 +++
 
@@ -60,8 +60,8 @@ b. NO - Risolvere i problemi relativi all’ambiente corrente. Procedi a [Passag
 
 +++**SSH riuscito in tutti i nodi?**
 
-a. SÌ - Procedere come segue [Passaggio 4](#step-4).\
-b. N. - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. SÌ - Procedere al [passaggio 4](#step-4).\
+b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
@@ -69,17 +69,17 @@ b. N. - [Invia un ticket di supporto](/help/help-center-guide/help-center/magent
 
 +++**Tutti i servizi sono in esecuzione?**
 
-a. SÌ - Procedere come segue [Passaggio 5](#step-5).\
-b. N. - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. SÌ - Procedere al [passaggio 5](#step-5).\
+b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
 ## Passaggio 5: verificare l’esecuzione del bitbucket {#step-5}
 
-+++**Utilizzare Bitbucket?**
++++**Utilizzo di Bitbucket?**
 
-a. SÌ - Spunta [status.bitbucket.com](https://bitbucket.status.atlassian.com/).\
-b. NO - Controllare gli errori del registro di distribuzione in [Creare e distribuire i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Procedi a [Passaggio 6](#step-6).
+a. SÌ - Controllare [status.bitbucket.com](https://bitbucket.status.atlassian.com/).\
+b. NO - Controllare gli errori del registro di distribuzione nei [registri di compilazione e distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html). Procedi al [passaggio 6](#step-6).
 
 +++
 
@@ -87,8 +87,8 @@ b. NO - Controllare gli errori del registro di distribuzione in [Creare e distri
 
 +++**Codice di errore segnalato?**
 
-a. SÌ - Procedere come segue [Passaggio 7](#step-7).\
-b. NO - Procedi a [Passaggio 8](#step-8).
+a. SÌ - Procedere al [passaggio 7](#step-7).\
+b. NO - Procedi al [passaggio 8](#step-8).
 
 +++
 
@@ -96,17 +96,17 @@ b. NO - Procedi a [Passaggio 8](#step-8).
 
 +++**403 Non consentito?**
 
-a. SÌ - Procedere come segue [Passaggio 16](#step-16).
-b. NO - Procedi a [Passaggio 9](#step-9).
+a. SÌ - Procedere al [passaggio 16](#step-16).
+b. NO - Procedi al [passaggio 9](#step-9).
 
 +++
 
 ## Passaggio 8: verificare i processi cron in esecuzione {#step-8}
 
-+++**I processi cron sono attualmente in esecuzione?** Accedi tramite ssh sul ramo ed esegui `ps aufxx |grep cron`.
++++**I processi cron sono attualmente in esecuzione?** Accedi da ssh sul ramo ed esegui `ps aufxx |grep cron`.
 
-a. SÌ - Accesso tramite ssh sul ramo interessato (ad esempio primario). Uccidi e sblocca i lavori cron. In questo modo verranno terminati i processi cron e verrà reimpostato lo stato. Esegui `php vendor/bin/ece-tools cron:kill` e poi `php vendor/bin/ece-tools cron:unlock`. Se stavi unendo un ambiente in un altro, controlla entrambi gli ambienti per individuare eventuali nodi in esecuzione.\
-b. NO - Procedi a [Passaggio 17](#step-17).
+a. SÌ - Accesso tramite ssh sul ramo interessato (ad esempio primario). Uccidi e sblocca i lavori cron. In questo modo verranno terminati i processi cron e verrà reimpostato lo stato. Eseguire `php vendor/bin/ece-tools cron:kill` e quindi `php vendor/bin/ece-tools cron:unlock`. Se stavi unendo un ambiente in un altro, controlla entrambi gli ambienti per individuare eventuali nodi in esecuzione.\
+b. NO - Procedi al [passaggio 17](#step-17).
 
 +++
 
@@ -114,32 +114,32 @@ b. NO - Procedi a [Passaggio 17](#step-17).
 
 +++**Errore durante il caricamento dell&#39;applicazione nel cluster remoto?**
 
-a. SÌ - Procedere come segue [Passaggio 10](#step-10).\
-b. NO - Procedi a [Passaggio 11](#step-11).
+a. SÌ - Procedere al [passaggio 10](#step-10).\
+b. NO - Procedi al [passaggio 11](#step-11).
 
 +++
 
 ## Passaggio 10 - Controllare che la memoria sia sufficiente {#step-10}
 
-+++**Spazio di archiviazione disponibile.**
++++**Spazio di archiviazione disponibile valido?**
 
 a. SÌ - Procedere con [Passaggio 11](#step-11).\
-b. NO - Riesame [Gestione dello spazio su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
+b. NO - Rivedi [Gestione spazio su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html).
 
 +++
 
 ## Passaggio 11 - Verificare lo spazio su disco {#step-11}
 
-+++**_impossibile scrivere il file Avviso _?**
++++Impossibile scrivere il file **_Avviso _?**
 
-a. SÌ - Si prega di [aumentare il valore del disco in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) e la ridistribuzione. Se questo non funziona, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SÌ - [aumenta il valore del disco in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) e ridistribuiscilo. Se non funziona, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO - Procedere con [Passaggio 12](#step-12).
 
 +++
 
 ## Passaggio 12 - Errore di ridistribuzione dell’ambiente non riuscita {#step-12}
 
-+++**Errore di ridistribuzione dell’ambiente non riuscita?**
++++**Errore di ridistribuzione ambiente non riuscita?**
 
 a. SÌ - Procedere con [Passaggio 13](#step-13).\
 b. NO - Procedere con [Passaggio 8](#step-8).
@@ -150,8 +150,8 @@ b. NO - Procedere con [Passaggio 8](#step-8).
 
 +++**Elasticsearch in fase di aggiornamento o distribuzione?**
 
-a. YES - Elasticsearch di passaggi di aggiornamento non riusciti. Fai riferimento a [Elasticsearch compatibilità software](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Se l’aggiornamento Elasticsearch non funziona ancora, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: in Adobe Commerce su infrastruttura cloud, tieni presente che gli aggiornamenti del servizio non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico di supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi 48 ore prima di quando le modifiche devono essere in produzione, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) specificare l&#39;aggiornamento del servizio richiesto e indicare l&#39;ora in cui si desidera avviare il processo di aggiornamento.\
-b. NO - Procedi a [Passaggio 14](#step-14).
+a. YES - Elasticsearch di passaggi di aggiornamento non riusciti. Consulta [Compatibilità software Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html). Se l&#39;aggiornamento dell&#39;Elasticsearch non funziona ancora, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). **Nota**: in Adobe Commerce su infrastruttura cloud, tieni presente che gli aggiornamenti del servizio non possono essere inviati all&#39;ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico di supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi, 48 ore prima del momento in cui le modifiche devono essere in produzione, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) specificando l&#39;aggiornamento del servizio richiesto e indicando l&#39;ora in cui desideri avviare il processo di aggiornamento.\
+b. NO - Procedi al [passaggio 14](#step-14).
 
 +++
 
@@ -159,8 +159,8 @@ b. NO - Procedi a [Passaggio 14](#step-14).
 
 +++**Il file system è esaurito negli inodi o nello spazio?**
 
-a. SÌ - Si veda [Gestione dello spazio su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).\
-b. NO - Procedi a [Passaggio 15](#step-15).
+a. SÌ - Vedere [Gestione spazio su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).\
+b. NO - Procedi al [passaggio 15](#step-15).
 
 +++
 
@@ -168,50 +168,50 @@ b. NO - Procedi a [Passaggio 15](#step-15).
 
 +++**Errore nelle versioni di Elasticseach?**
 
-a. SÌ - Procedere come segue [Passaggio 16](#step-16).\
-b. NO - Procedi a [Passaggio 21](#step-21).
+a. SÌ - Procedere al [passaggio 16](#step-16).\
+b. NO - Procedi al [passaggio 21](#step-21).
 
 +++
 
 ## Passaggio 16: verificare la configurazione del Compositore {#step-16}
 
-+++**La configurazione del compositore è corretta?**
++++**Configurazione del compositore corretta?**
 
-a. SÌ - Procedere come segue [Passaggio 10](#step-10).\
-b. NO - Riesame [Pagina Web Risoluzione problemi compositore](https://getcomposer.org/doc/articles/troubleshooting.md).
+a. SÌ - Procedere al [passaggio 10](#step-10).\
+b. NO - Rivedi [pagina Web Risoluzione problemi compositore](https://getcomposer.org/doc/articles/troubleshooting.md).
 
 +++
 
 ## Passaggio 17: verificare la presenza di processi con tempi di esecuzione lunghi {#step-17}
 
-+++**Processi con tempi di esecuzione lunghi?**
++++**Processi con esecuzione prolungata?**
 
 a. SÌ - Identificare i processi a esecuzione prolungata e quindi terminare i processi:
-1. Esegui il comando seguente nel terminale: `ps aufx`.
+1. Eseguire il comando seguente nel terminale: `ps aufx`.
 1. Individuare il PID del processo a esecuzione prolungata.
-1. Termina il processo utilizzando `kill -9 <PID>`.
+1. Terminare il processo utilizzando `kill -9 <PID>`.
 
 Monitora le distribuzioni per verificare la ricorrenza.
 
-b. NO - Procedi a [Passaggio 18](#step-18).
+b. NO - Procedi al [passaggio 18](#step-18).
 
 +++
 
 ## Passaggio 18 - Controllare la presenza di eventuali guasti al gancio posteriore {#step-18}
 
-+++**Errore/blocco post-hook?**
++++**Errore/blocco dell&#39;hook di Post?**
 
-a. SÌ - Banca dati: [Spazio libero su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), danneggiamento, tabelle incomplete/danneggiate.\
-b. NO - Procedi a [Passaggio 19](#step-19).
+a. SÌ - Database: [Spazio libero su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), tabelle danneggiate o incomplete.\
+b. NO - Procedi al [passaggio 19](#step-19).
 
 +++
 
 ## Passaggio 19: verificare se le estensioni di terze parti bloccano la distribuzione {#step-19}
 
-+++**Utilizzare estensioni di terze parti?**
++++**Utilizzo di estensioni di terze parti?**
 
-a. SÌ - Provare [Disabilitazione delle estensioni di terze parti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) ed eseguendo la distribuzione (per vedere se sono la causa del problema), soprattutto se sono presenti nomi di estensione in eventuali errori.\
-b. NO - Procedi a [Passaggio 20](#step-20).
+a. SÌ - Provare a [Disabilitare le estensioni di terze parti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html) ed eseguire la distribuzione (per verificare se sono la causa del problema), soprattutto se sono presenti nomi di estensione in errori.\
+b. NO - Procedi al [passaggio 20](#step-20).
 
 +++
 
@@ -219,19 +219,19 @@ b. NO - Procedi a [Passaggio 20](#step-20).
 
 +++**Query con esecuzione prolungata?**
 
-[Controllare il log delle query lente e l&#39;elenco di processi MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md).
+[Controllare il log delle query lente e MySQL show processlist](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md).
 
-a. YES - Elimina le query con tempi di esecuzione lunghi. Revisione [Sintassi di terminazione MySQL.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)\
-b. N. - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+a. YES - Elimina le query con tempi di esecuzione lunghi. Rivedi [Sintassi di terminazione MySQL.](https://dev.mysql.com/doc/refman/8.0/en/kill.html)\
+b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 
 ## Passaggio 21 - Downgrade della versione dell’Elasticsearch {#step-21}
 
-+++**Effettuare il downgrade delle versioni di Elasticsearch?**
++++**Downgrade delle versioni di Elasticsearch?**
 
 a. SÌ - Non è possibile eseguire la configurazione. [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. N. - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++
 

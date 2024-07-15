@@ -29,4 +29,4 @@ Nel controllo di idoneità viene visualizzato il seguente messaggio:
 
 ## Soluzione
 
-Per risolvere questo problema, verifica se è presente `<magento_root>/update` directory che contiene file e sottodirectory. In caso contrario, vedere [Configurare l’aggiornamento](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) nella documentazione per gli sviluppatori.
+Per risolvere il problema, verificare se è presente una directory `<magento_root>/update` contenente file e sottodirectory. In caso contrario, consulta [Configurare l&#39;aggiornamento](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) nella documentazione per gli sviluppatori.

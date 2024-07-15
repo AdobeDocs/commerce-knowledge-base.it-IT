@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-46869: i prodotti configurabili non vengono aggiornati utilizzando l’API REST al momento del pagamento
 
-La patch ACSD-46869 risolve il problema che impedisce l’aggiornamento dei prodotti configurabili tramite l’API REST al momento del pagamento. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.20. L’ID della patch è ACSD-46869. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
+La patch ACSD-46869 risolve il problema che impedisce l’aggiornamento dei prodotti configurabili tramite l’API REST al momento del pagamento. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.20. L’ID della patch è ACSD-46869. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.4
 
@@ -27,7 +27,7 @@ La patch ACSD-46869 risolve il problema che impedisce l’aggiornamento dei prod
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL QPT] pagina di destinazione](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL QPT] pagina di destinazione](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -36,8 +36,8 @@ I prodotti configurabili non vengono aggiornati utilizzando l’API REST durante
 <u>Passaggi da riprodurre</u>:
 
 1. Crea un prodotto configurabile con attributi di colore e dimensioni.
-1. Seleziona **[!UICONTROL Options]** e aggiungi il prodotto al carrello.
-1. Vai a **[!UICONTROL Checkout]**, aggiorna la dimensione più volte ad eccezione di qtà e controlla la richiesta e la risposta.
+1. Selezionare **[!UICONTROL Options]** e aggiungere il prodotto al carrello.
+1. Vai a **[!UICONTROL Checkout]**, aggiorna le dimensioni più volte tranne che per la quantità, quindi controlla la richiesta e la risposta.
 1. Quando si aggiornano le dimensioni, viene visualizzata la seguente risposta.
 
 ```REST API
@@ -53,20 +53,20 @@ Il valore viene aggiornato in base alle modifiche.
 
 <u>Risultati effettivi</u>:
 
-`option_value` non viene aggiornato, pertanto quando l’ordine viene effettuato, presenta il valore di dimensione precedente.
+`option_value` non è aggiornato, quindi quando l&#39;ordine viene effettuato, ha il valore di dimensione precedente.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tools] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida allo strumento Patch di qualità.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [[!DNL Quality Patches Tools] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida dello strumento Patch di qualità.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html) nella nostra Knowledge Base di supporto.
 
-Per informazioni sulle altre patch disponibili in [!DNL QPT], fare riferimento a [Patch disponibili in [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida allo strumento Patch di qualità.
+Per informazioni sulle altre patch disponibili in [!DNL QPT], fare riferimento a [Patch disponibili in [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida dello strumento Patch di qualità.

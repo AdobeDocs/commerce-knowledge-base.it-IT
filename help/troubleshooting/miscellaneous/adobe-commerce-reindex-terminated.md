@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce cloud: reindicizzazione terminata con `Killed` messaggio
+# Adobe Commerce cloud: reindicizzazione terminata con il messaggio `Killed`
 
 ## Prodotti e versioni interessati
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## Problema
 
-Stai tentando di eseguire una reindicizzazione nel ramo di integrazione (o nella gestione temporanea del progetto di architettura Starter) e il processo viene terminato con `Killed` messaggio.
+Si sta tentando di eseguire una reindicizzazione nel ramo di integrazione (o nella gestione temporanea del progetto di architettura Starter) e il processo viene terminato con il messaggio `Killed`.
 
 ## Causa
 
@@ -31,11 +31,11 @@ Il motivo più comune è l’esistenza di un numero elevato di prodotti, store e
 1. Riduci il numero di prodotti (nonché i gruppi di clienti e i negozi, se applicabile).
 1. Limita l’utilizzo a uno o due utenti simultanei.
 1. Disabilita i processi cron ed esegui manualmente in base alle esigenze.
-1. Se non è già stato fatto in precedenza, richiedi un aggiornamento agli ambienti di integrazione avanzata . Tieni presente la restrizione sul numero di ambienti a cui verrai limitato una volta eseguito l’aggiornamento. Consulta la sezione [Richiesta di miglioramento dell’ambiente di integrazione - Pro e Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) articolo nella knowledge base di supporto per i dettagli.
+1. Se non è già stato fatto in precedenza, richiedi un aggiornamento agli ambienti di integrazione avanzata . Tieni presente la restrizione sul numero di ambienti a cui verrai limitato una volta eseguito l’aggiornamento. Per ulteriori informazioni, consulta l&#39;articolo [Richiesta di miglioramento dell&#39;ambiente di integrazione - Pro e Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) nella knowledge base di supporto.
 
 ## Lettura correlata:
 
 Nella documentazione per gli sviluppatori:
 
 * [Architettura Pro > Ambiente di integrazione](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
-* [Architettura iniziale > Ambiente di staging](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)
+* [Architettura Starter > Ambiente di staging](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)

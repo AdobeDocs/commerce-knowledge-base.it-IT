@@ -16,7 +16,7 @@ ht-degree: 0%
 ## Prodotti e versioni interessati
 
 * Adobe Commerce sull’infrastruttura cloud 2.4.2 - 2.4.7
-* Questo è specifico per i cluster Pro dedicati. Gli ambienti Starter e Integration sono a nodo singolo e non dispongono del `/data/exports` directory.
+* Questo è specifico per i cluster Pro dedicati. Gli ambienti Starter e Integration sono a nodo singolo e non dispongono della directory `/data/exports`.
 
 ## Segni di spazio su disco insufficiente
 
@@ -28,13 +28,13 @@ Per visualizzare la quantità di spazio su disco utilizzata dal file system, ese
 
 ## Come eliminare in modo sicuro i file per aumentare lo spazio su disco
 
-È possibile eliminare i file dai punti di montaggio dell&#39;applicazione, dal `/app` percorso o attraverso `/mnt/shared`. Sono due modi diversi per accedere agli stessi file.
+È possibile eliminare i file dai punti di montaggio dell&#39;applicazione, dal percorso `/app` o tramite `/mnt/shared`. Sono due modi diversi per accedere agli stessi file.
 
 >[!WARNING]
 >
->**Non modificare né eliminare mai il contenuto di`/data/exports`**.
+>**Non modificare o eliminare mai il contenuto di`/data/exports`**.
 >
->`/data/exports` è lo storage sottostante il file system condiviso ed è gestito da GlusterFS.
+>`/data/exports` è l&#39;archiviazione sottostante il file system condiviso ed è gestito da GlusterFS.
 >
 >Il file system contiene non solo il contenuto del file, ma anche metadati sullo stato del file system per consentire la sincronizzazione >tra i nodi del cluster. **La modifica o l&#39;eliminazione diretta dei file all&#39;interno di questo file system danneggerà il file system condiviso, richiedendo riparazioni estese o il ripristino dei dati.**
 
@@ -59,4 +59,4 @@ Nella nostra knowledge base di supporto:
 
 Nella documentazione per gli sviluppatori:
 
-* [Gestione dello spazio su disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+* [Gestione spazio su disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html)

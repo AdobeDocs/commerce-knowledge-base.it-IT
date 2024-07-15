@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Errore Advanced Reporting 404 nella soluzione di database suddiviso
 
-Questo articolo fornisce una patch per gli utenti di Adobe Commerce 2.3.x con il [soluzione di database suddiviso](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) che genera un errore 404 quando si tenta di utilizzare la funzione di reporting avanzata.
+In questo articolo viene fornita una patch per gli utenti di Adobe Commerce 2.3.x con la [soluzione di database split](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) che genera un errore 404 quando si tenta di utilizzare la funzione di reporting avanzato.
 
 ## Prodotti e versioni interessati
 
@@ -25,7 +25,7 @@ La patch risolve il problema relativo all&#39;utilizzo di un nome di connessione
 
 ## Soluzione
 
-Applica [patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) fornite nel presente articolo.
+Applica la [patch](assets/MDVA-26831_EE_2.3.4_v1.composer.patch.zip) fornita in questo articolo.
 
 ## Patch
 
@@ -35,4 +35,4 @@ La patch è allegata a questo articolo. Per scaricarlo, fai clic sul seguente co
 
 ## Come applicare il cerotto
 
-Decomprimi il file e segui le istruzioni riportate in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Decomprimere il file e seguire le istruzioni in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

@@ -18,7 +18,7 @@ Questo articolo spiega perché una carta di credito di test non riesce in un amb
 ## Prodotti e versioni interessati
 
 
-* Adobe Commerce 2.4.0 - 2.4.4 , tutte le opzioni di implementazione, con [Servizi di pagamento](https://marketplace.magento.com/magento-payment-services.html)
+* Adobe Commerce 2.4.0 - 2.4.4 , tutte le opzioni di distribuzione, con [Servizi di pagamento](https://marketplace.magento.com/magento-payment-services.html)
 
 ## Problema
 
@@ -36,6 +36,6 @@ Questo errore viene visualizzato quando PayPal contrassegna un numero di carta d
 
 Utilizza un&#39;altra carta di credito di prova. Per generare carte di credito fittizie è possibile utilizzare per il test:
 
-1. Vai al portale per sviluppatori PayPal [Generatore carta di credito](https://developer.paypal.com/developer/creditCardGenerator/) pagina.
+1. Vai alla pagina PayPal Developer Portal [Generatore di carte di credito](https://developer.paypal.com/developer/creditCardGenerator/).
 1. Accedi al dashboard di PayPal Developer Portal.
 1. Genera una carta di credito di prova.

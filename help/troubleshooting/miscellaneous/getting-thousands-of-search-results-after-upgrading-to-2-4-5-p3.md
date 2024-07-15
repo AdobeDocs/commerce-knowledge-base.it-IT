@@ -21,10 +21,10 @@ Questo articolo fornisce una soluzione al problema che comporta la visualizzazio
 
 ## Problemi
 
-Stai cercando un prodotto particolare (ad esempio, *WSH12-32-rosso*) ma la ricerca restituisce molti prodotti simili.
+Stai cercando un prodotto particolare (ad esempio, *WSH12-32-Red*) ma la ricerca restituisce molti prodotti simili.
 
 ## Soluzioni
 
-Natura di una ricerca full-text in [!DNL ElasticSearch] si basa sulla rilevanza, non sulla corrispondenza esatta. Pertanto, le corrispondenze più rilevanti (come lo SKU corrispondente esatto) vengono ordinate per prime.
+La natura di una ricerca full-text in [!DNL ElasticSearch] si basa sulla rilevanza, non sulla corrispondenza esatta. Pertanto, le corrispondenze più rilevanti (come lo SKU corrispondente esatto) vengono ordinate per prime.
 
-Tuttavia, se è necessario un risultato di ricerca che corrisponda esattamente al termine di ricerca (corrispondenza esatta), è necessario utilizzare le virgolette per la query di ricerca. Ad esempio, query per *WSH12-32-rosso* senza virgolette restituirà diversi risultati con la corrispondenza esatta (prodotto con *SKU WSH12-32-rosso*) visualizzato per primo nel risultato. Query citata *&quot;WSH12-32-Rosso&quot;* restituirà un solo risultato di corrispondenza esatto.
+Tuttavia, se è necessario un risultato di ricerca che corrisponda esattamente al termine di ricerca (corrispondenza esatta), è necessario utilizzare le virgolette per la query di ricerca. Ad esempio, la query per *WSH12-32-Red* senza virgolette restituirà diversi risultati con la corrispondenza esatta (prodotto con *SKU WSH12-32-Red*) visualizzata per prima nel risultato. Ma la query tra virgolette *&quot;WSH12-32-Red&quot;* restituirà solo un risultato di corrispondenza esatto.

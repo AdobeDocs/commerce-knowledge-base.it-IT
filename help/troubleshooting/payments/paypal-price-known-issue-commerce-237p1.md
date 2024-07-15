@@ -29,12 +29,12 @@ Quando si effettua un ordine utilizzando il metodo di pagamento PayPal Express C
 
 1. Sulla vetrina, aggiungi qualsiasi prodotto al carrello (prodotto A, prezzo 50 $).
 1. Fai clic sul collegamento del carrello per aprire il carrello.
-1. Fai clic su **Pagamento PayPal** pulsante.
+1. Fai clic sul pulsante **Pagamento PayPal**.
 1. Utilizza le credenziali PayPal per accedere a PayPal e inviare il pagamento.
 1. Terminare il posizionamento dell&#39;ordine sul lato del negozio.
 1. Torna al catalogo e aggiungi un prodotto diverso (prodotto B, prezzo $ 100) al carrello.
 1. Fai clic sul collegamento del carrello per aprire il carrello.
-1. Fai clic su **Pagamento PayPal** pulsante.
+1. Fai clic sul pulsante **Pagamento PayPal**.
 
 <u>Risultato effettivo:</u>
 
@@ -51,7 +51,7 @@ Applichi la patch fornita in questo articolo.
 
 ## Patch
 
-Utilizza il seguente collegamento per scaricare un file .zip contenente la patch: [MC42674-compositore.patch.zip](assets/MC42674-composer.patch.zip).
+Utilizzare il seguente collegamento per scaricare un file .zip contenente la patch: [MC42674-compositore.patch.zip](assets/MC42674-composer.patch.zip).
 
 ### Versioni compatibili di Adobe Commerce
 
@@ -60,4 +60,4 @@ Utilizza il seguente collegamento per scaricare un file .zip contenente la patch
 ## Come applicare i cerotti
 
 1. Decomprimi il file .zip scaricato.
-1. Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per ulteriori istruzioni.
+1. Per ulteriori istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

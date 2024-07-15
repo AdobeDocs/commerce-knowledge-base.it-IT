@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Questo articolo fornisce istruzioni su come ridistribuire Adobe Commerce su un’infrastruttura cloud con diverse chiavi di autenticazione. Ad esempio, potresti aver utilizzato le chiavi per un altro account o potresti aver utilizzato le chiavi di Magento Open Source invece delle chiavi di Adobe Commerce.
 
-Se sono state utilizzate chiavi non corrette, la distribuzione non riesce. Per ripristinare, devi clonare il progetto, aggiungere le chiavi corrette a `auth.json`, e invia la modifica al ramo principale.
+Se sono state utilizzate chiavi non corrette, la distribuzione non riesce. Per ripristinare, è necessario clonare il progetto, aggiungere le chiavi corrette a `auth.json` e inviare la modifica al ramo principale.
 
-In questo articolo, supponiamo che il tuo progetto abbia un `master` solo filiale (`master` è il ramo predefinito al momento della creazione di un progetto).
+In questo articolo, si presuppone che il progetto abbia solo un ramo `master` (`master` è il ramo predefinito al momento della creazione di un progetto).
 
 Per ridistribuire con le chiavi di autenticazione corrette:
 
@@ -27,7 +27,7 @@ Per ridistribuire con le chiavi di autenticazione corrette:
    magento-cloud login
    ```
 
-1. Crea un ramo per aggiornare il codice con il nome `auth`:
+1. Creare un ramo per aggiornare il codice con il nome `auth`:
 
    ```
    magento-cloud environment:branch auth master
@@ -65,4 +65,4 @@ Per ridistribuire con le chiavi di autenticazione corrette:
 
 1. Attendere il completamento della distribuzione.
 
-I messaggi indicano se la distribuzione è stata eseguita correttamente. Per confermare la corretta distribuzione, accedi a uno dei **Percorsi ambiente** visualizzato sullo schermo.
+I messaggi indicano se la distribuzione è stata eseguita correttamente. Puoi confermare la corretta distribuzione visitando una delle **route di ambiente** visualizzate sullo schermo.

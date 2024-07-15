@@ -43,9 +43,9 @@ L&#39;Impostazione guidata Web è stata disabilitata per tutte le istanze di Ado
 
 Questa funzione è disabilitata in Adobe Commerce sull’infrastruttura cloud.
 
-Consulta [Installare, gestire e aggiornare le estensioni](https://devdocs.magento.com/cloud/howtos/install-components.html) nella documentazione per gli sviluppatori di per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce sull’infrastruttura cloud.
-Consulta [Installazione rapida](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) nella documentazione per gli sviluppatori di per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce on-premise.
+Consulta [Installare, gestire e aggiornare le estensioni](https://devdocs.magento.com/cloud/howtos/install-components.html) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce nell&#39;infrastruttura cloud.
+Consulta [Installazione rapida](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce on-premise.
 
 ## Lettura correlata
 
-* Consulta [Installare un’estensione](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) nella documentazione per gli sviluppatori.
+* Consulta [Installare un&#39;estensione](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) nella documentazione per gli sviluppatori.

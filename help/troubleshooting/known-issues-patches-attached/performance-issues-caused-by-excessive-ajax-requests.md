@@ -17,7 +17,7 @@ Questo articolo fornisce una patch per il problema noto relativo alle prestazion
 
 ## Problema
 
-Adobe Commerce potrebbe inviare dati ridondanti [Richieste Ajax](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) dalla vetrina al server per ottenere informazioni sul banner e sul cliente. Queste richieste Ajax hanno un impatto sulle prestazioni, soprattutto in condizioni di carico elevato (volume elevato e traffico elevato). Pertanto, se non si utilizza la funzionalità Banner, si consiglia di [disattivare l&#39;output del modulo Banner di Adobe Commerce](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md) e applicare la patch per migliorare il recupero delle informazioni del cliente.
+Adobe Commerce potrebbe inviare [richieste Ajax](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) ridondanti dalla vetrina al server per ottenere le informazioni sul banner e sul cliente. Queste richieste Ajax hanno un impatto sulle prestazioni, soprattutto in condizioni di carico elevato (volume elevato e traffico elevato). Pertanto, se non si utilizza la funzionalità Banner, si consiglia di [disattivare completamente l&#39;output del modulo Banner di Adobe Commerce](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md) e applicare la patch per migliorare il recupero delle informazioni del cliente.
 
 ## Patch
 
@@ -32,10 +32,10 @@ La patch è valida per i seguenti prodotti e versioni:
 * Adobe Commerce sull’infrastruttura cloud 2.2.9
 * Adobe Commerce on-premise 2.2.9
 
-Se disponi di una versione diversa di Adobe Commerce, valuta l’aggiornamento alla versione 2.3.x più recente. Se questa non è attualmente un&#39;opzione, [contatta il supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e richiedere una patch per la propria versione.
+Se disponi di una versione diversa di Adobe Commerce, valuta l’aggiornamento alla versione 2.3.x più recente. Se al momento questa non è un&#39;opzione, [contatta il supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e richiedi una patch per la tua versione.
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## File allegati

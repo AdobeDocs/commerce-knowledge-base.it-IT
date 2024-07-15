@@ -28,13 +28,13 @@ Questo articolo fornisce risorse per la risoluzione dei problemi di New Relic su
 <tr>
 <td>
 <p><u>Impossibile visualizzare i progetti in New Relic.</u></p>
-<p>Accedi a <em>New Relic</em> ma non può vedere i progetti a cui dovresti avere diritto per visualizzazione o accesso.</p>
+<p>Accedi a <em>New Relic</em> ma non riesci a visualizzare i progetti a cui dovresti essere autorizzato a visualizzare/accedere.</p>
 </td>
 <td>
 <p>In questi casi, un utente amministratore deve aggiungerti al progetto.</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Accesso ai servizi New Relic</a> nella nostra knowledge base di supporto.</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">Accesso ai servizi New Relic</a> nella Knowledge Base di supporto.</p>
 </td>
 </tr>
 <tr>
@@ -43,7 +43,7 @@ Questo articolo fornisce risorse per la risoluzione dei problemi di New Relic su
 <tr>
 <td>
 <p><u>Dati mancanti dopo l'installazione.</u></p>
-<p>Utilizza il <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">Utilità di diagnostica New Relic</a> per cercare di identificare la causa. Se questo non aiuta, consulta le soluzioni specifiche per l’agente. I collegamenti agli articoli contenenti queste soluzioni si trovano nella colonna di destra.</p>
+<p>Utilizzare l'utilità di diagnostica <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic</a> per cercare di identificare la causa. Se questo non aiuta, consulta le soluzioni specifiche per l’agente. I collegamenti agli articoli contenenti queste soluzioni si trovano nella colonna di destra.</p>
 </td>
 <td>
 <p>I dati mancanti possono avere cause diverse. Potrebbe essere necessario:</p>
@@ -66,7 +66,7 @@ Questo articolo fornisce risorse per la risoluzione dei problemi di New Relic su
 </tr>
 <tr>
 <td>
-<p><u>Discrepanza timestamp delle transazioni.</u> Potrebbe essere difficile trovare transazioni lunghe (più di 5 minuti) utilizzando l’interfaccia utente di New Relic. È inoltre possibile trovare transazioni visualizzate al di fuori dell'intervallo di tempo previsto.</p>
+<p><u>Discrepanza timestamp transazioni.</u> Potrebbe essere difficile trovare transazioni lunghe (più di 5 minuti) utilizzando l'interfaccia utente di New Relic. È inoltre possibile trovare transazioni visualizzate al di fuori dell'intervallo di tempo previsto.</p>
 </td>
 <td>
 <p>Nell’interfaccia utente di New Relic viene visualizzata l’ora di fine della transazione, non l’ora di inizio.</p>
@@ -77,13 +77,13 @@ Questo articolo fornisce risorse per la risoluzione dei problemi di New Relic su
 </tr>
 <tr>
 <td>
-<p><u>GraphQL NerdGraph <code>curl</code> query che utilizzano caratteri speciali come <code>|</code> e <code>%</code> non funziona</u>.</p>
+<p><u>Le query NerdGraph GraphQL <code>curl</code> che utilizzano caratteri speciali come <code>|</code> e <code>%</code> non funzionano</u>.</p>
 </td>
 <td>
-<p>La funzione "copia a ricciolo" di New Relic in NerdGraph attualmente non fornisce un modo per gestire caratteri speciali come <code>|</code> e <code>%</code>.</p>
+<p>La funzionalità "copia in curl" di New Relic in NerdGraph non consente attualmente di gestire caratteri speciali come <code>|</code> e <code>%</code>.</p>
 </td>
 <td>
-<p>Utilizza una libreria API diversa per risolvere il problema con caratteri speciali. Ad esempio, GraphQLClient Library per l’API Graphql su Python o Apache.commons per chiamate al linguaggio Java. Rivedi librerie client su <a href="https://graphql.org/code/">GraphQL</a>.</p>
+<p>Utilizza una libreria API diversa per risolvere il problema con caratteri speciali. Ad esempio, GraphQLClient Library per l’API Graphql su Python o Apache.commons per chiamate al linguaggio Java. Esaminare le librerie client in <a href="https://graphql.org/code/">GraphQL</a>.</p>
 </td>
 </tr>
 <tr>
@@ -108,7 +108,7 @@ Questo articolo fornisce risorse per la risoluzione dei problemi di New Relic su
 <p>Il numero di istanze può aumentare a seconda dei processi back-end e della velocità effettiva. Le differenze tra i valori del server possono essere dovute ai processi in esecuzione su un server, ma non sull'altro.</p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">Documentazione di New Relic &gt; Risoluzione dei problemi relativi al conteggio delle istanze dell’agente PHP</a> </p>
+<p><a href="https://docs.newrelic.com/docs/agents/php-agent/troubleshooting/troubleshoot-php-agent-instance-count">Documentazione di New Relic &gt; Risoluzione dei problemi relativi al numero di istanze dell'agente PHP</a> </p>
 </td>
 </tr>
 </tbody>

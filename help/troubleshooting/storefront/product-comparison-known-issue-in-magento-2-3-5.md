@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Problema noto relativo al confronto dei prodotti in Adobe Commerce 2.3.5
 
-Questo articolo fornisce raccomandazioni su come evitare un [confronto dei prodotti](https://docs.magento.com/user-guide/marketing/product-compare.html) problema in Adobe Commerce on-premise 2.3.5 e Adobe Commerce on cloud infrastructure 2.3.5.
+Questo articolo fornisce consigli su come evitare un problema noto di [confronto dei prodotti](https://docs.magento.com/user-guide/marketing/product-compare.html) in Adobe Commerce on-premise 2.3.5 e Adobe Commerce on cloud infrastructure 2.3.5.
 
 ## Prodotti e versioni interessati
 
@@ -30,11 +30,11 @@ Specifica valori non vuoti per attributi di prodotto comparabili o utilizza il v
 
 >[!NOTE]
 >
->Gli attributi del prodotto sono impostati per essere utilizzati per il confronto utilizzando **Comparabile su Storefront** di configurazione. Per ulteriori informazioni, consulta [Creazione di attributi di prodotto](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) nella guida utente.
+>Gli attributi del prodotto sono impostati per essere utilizzati per il confronto utilizzando l&#39;impostazione di configurazione **Comparabile su Storefront**. Per ulteriori informazioni, consulta [Creazione di attributi del prodotto](https://docs.magento.com/user-guide/stores/attribute-product-create.html#step-4-describe-the-storefront-properties) nella nostra guida utente.
 
 Una correzione sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pianificato per il quarto trimestre del 2020.
 
-Puoi visualizzare la correzione in GitHub (tieni presente che non è stata sottoposta a test di regressione e non è un hotfix ufficiale): <https://github.com/magento/magento2/pull/27662>
+È possibile visualizzare la correzione in GitHub (si prega di considerare che la correzione non è stata sottoposta a test di regressione e non è un hotfix ufficiale): <https://github.com/magento/magento2/pull/27662>
 
 ## Lettura correlata
 

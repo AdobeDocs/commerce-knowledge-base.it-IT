@@ -1,6 +1,6 @@
 ---
-title: '"Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.34'''
-description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in [!DNL Quality Patches Tool] (QPT) v1.1.34.
+title: 'Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.34'
+description: Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti dalle patch disponibili in  [!DNL Quality Patches Tool] (QPT) v1.1.34.
 feature: Tools and External Services
 role: Admin
 exl-id: 79998832-26cb-4c11-a505-08c3382f86d4
@@ -17,15 +17,15 @@ Questa sottosezione fornisce una descrizione dettagliata dei problemi risolti da
 
 QPT v1.1.34 include le seguenti patch:
 
-1. **ACSD-52277**: risolve il problema relativo a un utente amministratore che non viene reindirizzato correttamente dopo aver selezionato la vista store durante la creazione di un nuovo ordine nell’amministratore.
-1. **ACSD-50813**: risolve il problema che impediva a un amministratore di aggiungere prodotti in bundle contenenti una barra nello SKU con [!UICONTROL Add Products by SKU] all&#39;ordine di amministrazione.
+1. **ACSD-52277**: è stato risolto il problema che impediva il reindirizzamento corretto di un utente amministratore dopo aver selezionato la visualizzazione archivio durante la creazione di un nuovo ordine nell&#39;amministratore.
+1. **ACSD-50813**: è stato risolto il problema che impediva a un amministratore di aggiungere all&#39;ordine di amministrazione prodotti in bundle contenenti una barra nello SKU con la funzionalità [!UICONTROL Add Products by SKU].
 1. **ACSD-51630**: è stato risolto il problema che rallentava il download delle pagine di amministrazione a causa di una grande quantità di messaggi di sistema.
-1. **ACSD-51853**: risolve il problema relativo alla mancata applicazione degli stili di testo copiati durante l’utilizzo di [!DNL Page Builder].
-1. **ACSD-52160**: risolve il problema per cui un risultato di convalida del prodotto rispetto alla regola del prezzo del carrello non veniva valutato correttamente, in base alla condizione della regola *Se un articolo viene TROVATO/NON TROVATO nel carrello con Tutte/Qualsiasi di queste condizioni true*.
-1. **ACSD-51636**: risolve il problema che impediva a un amministratore di aggiungere nuovi utenti dalla sezione account cliente nonostante disponesse di tutti i ruoli e le autorizzazioni necessari.
-1. **ACSD-51739**: risolve il problema relativo alla restituzione di un errore quando il `structure_id` è richiesto in un `CompanyTeam` richiesta GraphQL.
-1. **ACSD-51857**: risolve il problema relativo a prestazioni lente di `aggregate_sales_report_bestsellers_data` il report cron ha effetti di grandi dimensioni `sales_order` e `sales_order_item` tabelle di database.
-1. **ACSD-48448**: risolve il problema relativo a una situazione di tipo &quot;race condition&quot; che si verifica durante l’annullamento di un ordine e causa la duplicazione delle voci nella *inventory_booking* tabella.
-1. **ACSD-52689**: risolve il problema che impediva il caricamento delle immagini in [!DNL Amazon S3] archiviazione tramite API REST.
+1. **ACSD-51853**: è stato corretto il problema per cui gli stili di testo copiati non vengono applicati quando si utilizza [!DNL Page Builder].
+1. **ACSD-52160**: è stato risolto il problema che impediva la corretta valutazione di un risultato di convalida del prodotto in base alla regola del prezzo del carrello, in base alla condizione della regola *Se un elemento viene trovato/NON trovato nel carrello con tutte/tutte queste condizioni true*.
+1. **ACSD-51636**: è stato risolto il problema che impediva a un amministratore di aggiungere nuovi utenti dalla sezione account cliente nonostante disponesse di tutti i ruoli e le autorizzazioni necessari.
+1. **ACSD-51739**: è stato risolto il problema che si verificava quando veniva restituito un errore quando `structure_id` veniva richiesto in una richiesta GraphQL `CompanyTeam`.
+1. **ACSD-51857**: è stato risolto il problema relativo alle prestazioni lente del report cron `aggregate_sales_report_bestsellers_data` che influisce sulle tabelle di database `sales_order` e `sales_order_item` di grandi dimensioni.
+1. **ACSD-48448**: è stato risolto il problema relativo a una situazione di tipo &quot;race condition&quot; che si verificava durante l&#39;annullamento dell&#39;ordine e che causava la duplicazione delle voci nella tabella *inventory_booking*.
+1. **ACSD-52689**: è stato risolto il problema che impediva il caricamento delle immagini nell&#39;archiviazione [!DNL Amazon S3] tramite l&#39;API REST.
 
 Utilizza il menu a sinistra per passare a una pagina patch specifica.

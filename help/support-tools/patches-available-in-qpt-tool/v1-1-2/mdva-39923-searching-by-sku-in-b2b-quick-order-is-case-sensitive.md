@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-39923: la funzionalità di ricerca per SKU nella gestione degli ordini rapidi B2B distingue tra maiuscole e minuscole
 
-La patch MDVA-39923 risolve il problema relativo all&#39;errore che si verifica quando i clienti cercano l&#39;ordine in base allo SKU nella funzionalità di ordinamento rapido B2B utilizzando un caso diverso da quello con cui viene salvato il nome. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L&#39;ID della patch è MDVA-39923. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch MDVA-39923 risolve il problema relativo all&#39;errore che si verifica quando i clienti cercano l&#39;ordine in base allo SKU nella funzionalità di ordinamento rapido B2B utilizzando un caso diverso da quello con cui viene salvato il nome. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L&#39;ID della patch è MDVA-39923. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 Adobe Commerce (tutti i metodi di implementazione) 2.4.1-p1
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.4.1 - 2.4.2-p2
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -39,10 +39,10 @@ I moduli B2B sono installati.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Accedi all’amministratore e vai su **Negozi** > **Configurazione** > **B2B**.
+1. Accedi all&#39;amministratore e vai a **Archivi** > **Configurazione** > **B2B**.
 1. Abilita **Catalogo condiviso** e **Ordine rapido**.
 1. Crea un prodotto con SKU maiuscola, ad esempio TEST20-1234
-1. Assegna il prodotto creato a **Catalogo condiviso**.
+1. Assegna il prodotto creato al **catalogo condiviso**.
 1. Accedi come cliente e fai clic su **Ordine rapido**.
 1. Immetti lo SKU in minuscolo, ad esempio test20-1234.
 
@@ -52,20 +52,20 @@ Il prodotto deve essere disponibile indipendentemente dal caso utilizzato.
 
 <u>Risultati effettivi</u>:
 
-Viene ricevuto il seguente messaggio di errore: *1 prodotto/i richiede/richiedono la tua attenzione*.
+Ricevuto il seguente messaggio di errore: *1 prodotto/i richiede/richiedono attenzione*.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

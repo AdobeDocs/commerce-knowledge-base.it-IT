@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Query SQL: SPIEGARE GLI ERRORI RELATIVI AI COSTI
 
-Questo articolo fornisce soluzioni per gli errori EXPLAIN cost durante l&#39;esecuzione di query SQL non riuscite. PostgreSQL utilizza un elemento denominato [il comando EXPLAIN](https://www.postgresql.org/docs/9.5/static/using-explain.html) per determinare il costo delle query SQL. Abbiamo creato il Report Builder SQL per utilizzare anche questo comando, il che significa che se il costo viene ritenuto troppo elevato, ovvero la quantità di risorse necessarie per eseguire la query supera le soglie, la query non verrà eseguita e verrà visualizzato un messaggio EXPLAIN.
+Questo articolo fornisce soluzioni per gli errori EXPLAIN cost durante l&#39;esecuzione di query SQL non riuscite. PostgreSQL utilizza il comando [EXPLAIN](https://www.postgresql.org/docs/9.5/static/using-explain.html) per determinare il costo delle query SQL. Abbiamo creato il Report Builder SQL per utilizzare anche questo comando, il che significa che se il costo viene ritenuto troppo elevato, ovvero la quantità di risorse necessarie per eseguire la query supera le soglie, la query non verrà eseguita e verrà visualizzato un messaggio EXPLAIN.
 
 Ci sono alcuni motivi per cui questo potrebbe accadere. Di seguito sono riportati i messaggi che potresti ricevere, il loro significato e come risolverli.
 
 ## Impossibile eseguire la query. Il valore di costo EXPLAIN \[xxx\] è troppo alto per eseguire questa query.
 
-Se viene visualizzato questo messaggio, significa che l&#39;esecuzione della query è stata ritenuta troppo costosa. Abbiamo due raccomandazioni per questa situazione: una è quella di eliminare qualsiasi clausola ORDER BY dalla query, in quanto si tratta di operazioni costose. Il secondo è seguire i suggerimenti nel nostro [articolo di ottimizzazione](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) per modificare la query.
+Se viene visualizzato questo messaggio, significa che l&#39;esecuzione della query è stata ritenuta troppo costosa. Abbiamo due raccomandazioni per questa situazione: una è quella di eliminare qualsiasi clausola ORDER BY dalla query, in quanto si tratta di operazioni costose. La seconda consiste nel seguire i suggerimenti contenuti nell&#39;[articolo sull&#39;ottimizzazione](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) per modificare la query.
 
 ## Impossibile eseguire la query. Questa query restituisce \[xxx\] righe, superando il limite di 10.000
 

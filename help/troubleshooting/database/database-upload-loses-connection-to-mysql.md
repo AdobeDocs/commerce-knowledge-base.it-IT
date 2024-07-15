@@ -35,14 +35,14 @@ Ciò è in genere dovuto alla mancanza di spazio su disco per l&#39;importazione
 
 ## Soluzione
 
-Verificare se lo spazio su disco è insufficiente. A tale scopo, eseguire il comando `netcat` comando nella CLI rispetto alla porta del database 3306. Se il disco è pieno, verrà visualizzato un messaggio di errore:
+Verificare se lo spazio su disco è insufficiente. Per eseguire questa operazione, eseguire il comando `netcat` in CLI sulla porta di database 3306. Se il disco è pieno, verrà visualizzato un messaggio completo:
 
 ```
 web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-Sarà necessario allocare più spazio per il database nel `services.yaml` e distribuire se lo spazio disponibile è inutilizzato. Per i passaggi, consulta [Spazio su disco del servizio](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+Sarà necessario allocare più spazio per il database in `services.yaml` e distribuire se si dispone di spazio inutilizzato. Per i passaggi, vedere [Spazio su disco di servizio](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
 
 Nota: nel piano dell&#39;architettura Pro, è possibile controllare lo spazio allocato nella partizione eseguendo il comando seguente: `df -h`
 

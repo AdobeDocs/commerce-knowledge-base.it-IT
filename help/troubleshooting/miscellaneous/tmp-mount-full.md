@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Risolvere i problemi relativi al montaggio /tmp pieno per Adobe Commerce
 
-Questo articolo fornisce una soluzione per quando `/tmp` Il mount è pieno, il sito potrebbe essere inattivo e non è possibile eseguire SSH in un nodo.
+Questo articolo fornisce una soluzione per quando il mount `/tmp` è pieno, il sito potrebbe essere inattivo e non è possibile eseguire SSH in un nodo.
 
 ## Prodotti e versioni interessati
 
@@ -21,29 +21,29 @@ Questo articolo fornisce una soluzione per quando `/tmp` Il mount è pieno, il s
 
 ## Problema
 
-Il `/tmp` il montaggio pieno potrebbe causare una serie di possibili sintomi, inclusi i seguenti errori:
+Il montaggio `/tmp` pieno potrebbe causare una serie di possibili sintomi, inclusi i seguenti errori:
 
-* *SQLSTATE[HY000]: errore generale: 3 errore durante la scrittura del file*
+* *SQLSTATE[HY000]: errore generale: 3 Errore durante la scrittura del file*
 * *Codice errore: 28*
 * *Spazio insufficiente sul dispositivo (28)*
-* *errore session_start(): failed: non è rimasto spazio sul dispositivo*
+* *errore session_start(): non riuscito: non è rimasto spazio sul dispositivo*
 * *ERRORE 1 (HY000): impossibile creare/scrivere nel file &#39;/tmp/*
-* *Errore SQL: 3, stato SQL: HY000*
+* *Errore SQL: 3, SQLState: HY000*
 * *Errore generale: disco 1021 pieno (/tmp)*
 * *Impossibile accedere al nodo tramite SSH:*
-  *bash: impossibile creare un file temporaneo per here-document: non è rimasto spazio sul dispositivo*
+  *bash: impossibile creare il file temporaneo per here-document: Spazio non disponibile sul dispositivo*
 * *errno: 28 &quot;Spazio insufficiente sul dispositivo&quot;*
 * *mysqld: il disco sta scrivendo completamente &#39;/tmp&#39;*
-* *[ERRORE] mysqld: Disco pieno (/tmp)*
-* *SQLSTATE[HY000]: errore generale: 1 impossibile creare/scrivere nel file &#39;/tmp/&#39;*
-* *SQLSTATE[HY000]: errore generale: 23 risorse esaurite all’apertura del file &#39;/tmp/&#39;*
+* *[ERRORE] mysqld: disco pieno (/tmp)*
+* *SQLSTATE[HY000]: errore generale: 1 Impossibile creare/scrivere nel file &#39;/tmp/&#39;*
+* *SQLSTATE[HY000]: errore generale: 23 risorse esaurite all&#39;apertura del file &#39;/tmp/&#39;*
 * *Codice di errore: 24 &quot;Troppi file aperti&quot;*
-* *Errore ricevuto: 23: risorse esaurite all&#39;apertura del file*
+* *Errore: 23: risorse esaurite all&#39;apertura del file*
 
 
 <u>Passaggi da riprodurre:</u>
 
-Per verificare il livello di riempimento `/tmp` mount è, nello switch CLI a `/tmp` ed esegui il comando seguente:
+Per verificare il livello di riempimento del mount `/tmp`, nell&#39;interfaccia CLI passare a `/tmp` ed eseguire il comando seguente:
 
 ```bash
  df -h
@@ -59,15 +59,15 @@ Circa il 100%.
 
 ## Causa
 
-Il `/tmp` Il montaggio contiene troppi file, che potrebbero essere causati da:
+Il mount `/tmp` contiene troppi file, che potrebbero essere causati da:
 
 * Query SQL non valide che generano tabelle temporanee di grandi dimensioni e/o troppo grandi.
-* Servizi che scrivono in `/tmp` directory.
-* Backup/dump del database rimasti nel `/tmp` directory.
+* Servizi che scrivono nella directory `/tmp`.
+* Backup/dump del database rimasti nella directory `/tmp`.
 
 ## Soluzione
 
-Per liberare spazio una sola volta, è possibile eseguire alcune operazioni e sono disponibili best practice che impediscono `\tmp` dal pieno.
+Per liberare spazio una sola volta, è possibile eseguire alcune operazioni. Sono inoltre disponibili procedure consigliate che impediscono a `\tmp` di raggiungere il pieno.
 
 ### Controllare e liberare gli interni
 
@@ -88,11 +88,11 @@ Verificare che Use% sia &lt;70%. Gli nodi sono correlati con i file. Se si rimuo
 
 ### Controllare e liberare spazio di archiviazione
 
-Esistono diversi servizi in cui è possibile salvare i file `/tmp`.
+Alcuni servizi potrebbero salvare i file in `/tmp`.
 
 #### Verifica e libera spazio MySQL
 
-Segui le istruzioni in [Spazio su disco MySQL insufficiente in Adobe Commerce su infrastruttura cloud > Verifica e libera spazio di archiviazione](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) nella nostra knowledge base di supporto.
+Segui le istruzioni in [Spazio su disco MySQL insufficiente in Adobe Commerce su infrastruttura cloud > Controlla e libera spazio di archiviazione](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md#check_and_free) nella nostra knowledge base di supporto.
 
 #### Controlla le heapdum di Elasticsearch
 
@@ -100,13 +100,13 @@ Segui le istruzioni in [Spazio su disco MySQL insufficiente in Adobe Commerce su
 >
 >Le immagini heap contengono informazioni di registrazione che potrebbero essere utili per l’analisi dei problemi. Valuta di conservarli in una posizione separata per almeno 10 giorni.
 
-Rimuovi le immagini heap (`*.hprof`) utilizzando la shell di sistema:
+Rimuovi le heapdump (`*.hprof`) tramite la shell di sistema:
 
 ```bash
 find /tmp/*.hprof -type f -delete
 ```
 
-Se non disponi delle autorizzazioni necessarie per eliminare i file creati da un altro utente (in questo caso, ad Elasticsearch), ma noti che i file sono di grandi dimensioni, [creare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per occuparsene.
+Se non disponi delle autorizzazioni necessarie per eliminare i file creati da un altro utente (in questo caso, ad Elasticsearch), ma noti che i file sono di grandi dimensioni, [crea un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per gestirli.
 
 #### Controllare le immagini/i backup del database
 
@@ -114,15 +114,15 @@ Se non disponi delle autorizzazioni necessarie per eliminare i file creati da un
 >
 >I backup del database vengono in genere creati per uno scopo specifico. Se non sai se il file è ancora necessario, puoi spostarlo in una posizione diversa invece di eliminarlo.
 
-Verifica `/tmp` per `.sql` o `.sql.gz` e pulirli. Potrebbero essere state create da strumenti ece durante il backup o durante la creazione manuale di immagini di database utilizzando `mysqldump` strumento.
+Controllare `/tmp` per `.sql` o `.sql.gz` file e pulirli. Questi potrebbero essere stati creati da strumenti ece durante il backup o durante la creazione manuale di immagini di database con lo strumento `mysqldump`.
 
 ### Best practice
 
-Per evitare problemi con `/tmp` per essere complete, segui queste raccomandazioni:
+Per evitare problemi con `/tmp` pieno, seguire queste raccomandazioni:
 
-* Non utilizzare MySQL per la ricerca. L&#39;Elasticsearch per la ricerca in genere elimina la necessità della maggior parte delle creazioni di tabelle temporanee pesanti. Consulta [Configurare Adobe Commerce per l’utilizzo di Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) nella documentazione per gli sviluppatori.
-* Evita di eseguire `SELECT` eseguire query su colonne senza indici, poiché in questo modo viene utilizzata una grande quantità di spazio su disco temporaneo. Puoi anche aggiungere gli indici.
-* Creare un cron per la pulizia `/tmp` eseguendo il comando seguente nella CLI:
+* Non utilizzare MySQL per la ricerca. L&#39;Elasticsearch per la ricerca in genere elimina la necessità della maggior parte delle creazioni di tabelle temporanee pesanti. Consulta [Configurare Adobe Commerce per utilizzare Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) nella documentazione per gli sviluppatori.
+* Evitare di eseguire la query `SELECT` su colonne senza indici, in quanto questa operazione occupa una grande quantità di spazio su disco temporaneo. Puoi anche aggiungere gli indici.
+* Creare un cron per pulire `/tmp` eseguendo il comando seguente in CLI:
 
   ```bash
   sudo find /tmp -type f -atime +10 -delete
@@ -130,4 +130,4 @@ Per evitare problemi con `/tmp` per essere complete, segui queste raccomandazion
 
 ## Lettura correlata
 
-[Spazio su disco MySQL insufficiente in Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) nella nostra knowledge base di supporto.
+[Lo spazio su disco di MySQL nell&#39;infrastruttura cloud di Adobe Commerce](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md) è insufficiente nella Knowledge Base di supporto.

@@ -52,7 +52,7 @@ Prova a utilizzare un browser diverso e aumenta la durata della sessione di ammi
 Per aumentare la durata della sessione di amministrazione, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizzare uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), oppure accedere manualmente al database dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Per aumentare la durata della sessione di amministrazione, effettua le seguenti 
 Per verificare e cancellare i valori delle impostazioni dei cookie, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizzare uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin), oppure accedere manualmente al database dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -89,5 +89,5 @@ Per verificare e cancellare i valori delle impostazioni dei cookie, effettua le 
 
 ## Articoli correlati
 
-* [Reindirizza al modulo di accesso amministratore con l’errore &quot;L’account è temporaneamente disabilitato&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) nella nostra knowledge base di supporto.
-* [Reindirizza al modulo di accesso amministratore con l’errore &quot;La sessione corrente è scaduta&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) nella nostra knowledge base di supporto.
+* [Errore &quot;Il tuo account è temporaneamente disabilitato&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) nella Knowledge Base di supporto per reindirizzare nuovamente al modulo di accesso dell&#39;amministratore.
+* [Errore &quot;La sessione corrente è scaduta&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) nella Knowledge Base di supporto per il reindirizzamento al modulo di accesso dell&#39;amministratore.

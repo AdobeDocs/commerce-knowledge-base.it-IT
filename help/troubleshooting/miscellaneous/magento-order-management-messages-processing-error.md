@@ -1,6 +1,6 @@
 ---
 title: Errore di elaborazione di OMS (Magenti Order Management System) per Adobe Commerce
-description: Questo articolo fornisce una soluzione al problema quando si verifica un errore "getMode()" nella CLI che esegue "bin/magento oms":messages:process" nel sistema di Magento Order Management (OMS) per Adobe Commerce.
+description: Questo articolo fornisce una soluzione al problema quando si riceve un errore "getMode()" nella CLI che esegue "bin/magento oms:messages:process" nel sistema di Magento Order Management (OMS) per Adobe Commerce.
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Errore di elaborazione di OMS (Magenti Order Management System) per Adobe Commerce
 
-Questo articolo fornisce una soluzione al problema quando si riceve un `getMode()` errore nella CLI in esecuzione `bin/magento oms:messages:process` nel sistema di Magento Order Management (OMS) per Adobe Commerce.
+Questo articolo fornisce una soluzione al problema quando si riceve un errore `getMode()` nell&#39;interfaccia CLI che esegue `bin/magento oms:messages:process` nel Magento Order Management (OMS) per Adobe Commerce.
 
 ## Prodotti e versioni interessati
 
@@ -56,14 +56,15 @@ Stack trace:
 
 ## Causa
 
-Ciò si verifica quando il connettore tenta di elaborare `magento.inventory.source_management` messaggi. Il connettore tenta di elaborare questi messaggi come se fossero `magento.inventory.source_stock_management.update` che richiede un valore di modalità. Perché non è presente alcuna modalità in `magento.inventory.source_mangement` messaggi, si verifica l’errore.
+Â
+Ciò si verifica quando il connettore tenta di elaborare `magento.inventory.source_management` messaggi. Il connettore tenta di elaborare questi messaggi come se fossero un messaggio `magento.inventory.source_stock_management.update` che richiede un valore di modalità. Poiché nei messaggi `magento.inventory.source_mangement` non è presente alcuna modalità, l&#39;errore si verifica.
 
 ## Soluzione
 
-Per risolvere il problema, eseguire l&#39;istruzione SQL seguente nella CLI che elimina tutti i record nella `mcom_api_messages` tabella:
+Per risolvere il problema, eseguire l&#39;istruzione SQL seguente nella CLI che elimina tutti i record nella tabella `mcom_api_messages`:
 
 `delete from mcom_api_messages;`
 
 ## Lettura correlata
 
-Vedere i documenti OMS [Esercitazione sulla configurazione del connettore OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+Vedere l&#39;esercitazione sull&#39;installazione del connettore OMS [OMS Docs](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).

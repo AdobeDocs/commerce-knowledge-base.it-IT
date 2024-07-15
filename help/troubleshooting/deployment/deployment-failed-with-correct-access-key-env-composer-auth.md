@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # La distribuzione non riesce con le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json
 
-Questo articolo fornisce una soluzione al problema che si verifica quando l’implementazione non riesce e viene visualizzato un errore simile a quello riportato di seguito, nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log):
+Questo articolo fornisce una soluzione al problema che si verifica quando la distribuzione non riesce e nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) viene visualizzato un errore simile a quello riportato di seguito:
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,20 +40,20 @@ Distribuzione completata.
 >
 >Questo è un errore di esempio. Potresti visualizzare un errore che indica un file diverso (a seconda della versione di Adobe Commerce implementata).
 
-La distribuzione non è riuscita. Viene visualizzato un errore simile a *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+La distribuzione non è riuscita. Errore: *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Causa
 
 Le chiavi di accesso del compositore specificate presenti in una di queste posizioni potrebbero non avere accesso al codice:
 
-* nel `env:COMPOSER_AUTH` variabile a livello di progetto
-* nel `auth.json file`, che ha la precedenza rispetto al `env:COMPOSER_AUTH` variabile.
+* nella variabile `env:COMPOSER_AUTH` a livello di progetto
+* in `auth.json file`, che ha la precedenza sulla variabile `env:COMPOSER_AUTH`.
 
 ### Soluzione
 
-Aggiornare il `env:COMPOSER_AUTH` a livello di progetto e assicurati che sia configurato con chiavi che hanno accesso al codice.
+Aggiorna la variabile `env:COMPOSER_AUTH` a livello di progetto e assicurati che sia configurata con chiavi che hanno accesso al codice.
 
-Per i passaggi, consulta [Livelli variabili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) nella Guida all’infrastruttura cloud di Commerce.
+Per i passaggi, consulta [Livelli delle variabili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) nella Guida di Commerce on Cloud Infrastructure.
 
 ## Lettura correlata
 

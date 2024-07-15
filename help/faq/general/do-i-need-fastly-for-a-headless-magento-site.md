@@ -25,7 +25,7 @@ Sto sviluppando un’implementazione headless di Adobe Commerce. Devo ancora uti
 No, non è vero. In questa situazione, puoi saltare utilizzando Fastly - almeno, all’inizio dello sviluppo.
 
 L’unica situazione che potresti non abilitare è una distribuzione headless.
-Consulta [Cloud per Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) nella documentazione per gli sviluppatori.
+Consulta [Cloud for Adobe Commerce > Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) nella documentazione per gli sviluppatori.
 
 Tuttavia, molto probabilmente, per utilizzare il certificato SSL dovrai usare Fastly.
 
@@ -33,5 +33,5 @@ Tutti i clienti di Adobe Commerce su infrastruttura cloud ottengono un certifica
 
 ## Ulteriori informazioni
 
-* [Siti Web headless: qual è il problema con l&#39;architettura disaccoppiata?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) da [Josh Koenig](https://pantheon.io/team/josh-koenig).
+* [Siti Web headless: qual è il problema con l&#39;architettura disaccoppiata?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) di [Josh Koenig](https://pantheon.io/team/josh-koenig).
 * [Fastly](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html) nella documentazione per gli sviluppatori.

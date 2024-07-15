@@ -17,11 +17,11 @@ Questo articolo fornisce una patch per il problema noto dell’Adobe СCommerce 
 
 ## Problema
 
-In Amministratore, se selezioni i record cliente o client da eliminare, filtra la griglia, quindi seleziona la **Elimina** azione, tutti i record vengono eliminati.
+Nell&#39;amministratore, se si selezionano i record cliente o client da eliminare, filtrare la griglia e quindi selezionare l&#39;azione **Elimina**, tutti i record verranno eliminati.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Accedi a **Catalogo** > **Prodotti** in Admin.
+1. Passa a **Catalogo** > **Prodotti** nell&#39;amministratore.
 1. Seleziona uno o più prodotti.
 1. Selezionare Elimina dal menu a discesa Azioni.
 
@@ -52,4 +52,4 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Consulta [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

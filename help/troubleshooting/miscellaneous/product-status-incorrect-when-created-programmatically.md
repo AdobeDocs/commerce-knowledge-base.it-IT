@@ -26,11 +26,11 @@ Quando i prodotti del catalogo vengono creati o aggiornati a livello di programm
 
 ## Causa
 
-Il problema potrebbe essere dovuto alle restrizioni ACL impostate per i ruoli di amministratore dell’istanza di Adobe Commerce. In caso di applicazione avviata, non vi saranno sessioni di amministrazione inizializzate con le impostazioni ACL appropriate. In questo caso, le convalide nel `Magento_AdminGws` modulo, responsabile del controllo delle autorizzazioni per tali azioni.
+Il problema potrebbe essere dovuto alle restrizioni ACL impostate per i ruoli di amministratore dell’istanza di Adobe Commerce. In caso di applicazione avviata, non vi saranno sessioni di amministrazione inizializzate con le impostazioni ACL appropriate. In questo caso, le convalide non riusciranno nel modulo `Magento_AdminGws`, che è responsabile del controllo delle autorizzazioni per tali azioni.
 
 ## Soluzione per uno stato del prodotto errato
 
-Impostare una preferenza ID dinamica per `Magento\Framework\Authorization\PolicyInterface`, come descritto nella [ObjectManager>Aggiornamenti programmatici dei prodotti](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) nella documentazione per gli sviluppatori.
+Impostare una preferenza ID dinamica per `Magento\Framework\Authorization\PolicyInterface`, come descritto nell&#39;argomento [ObjectManager>Aggiornamenti del prodotto a livello di programmazione](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

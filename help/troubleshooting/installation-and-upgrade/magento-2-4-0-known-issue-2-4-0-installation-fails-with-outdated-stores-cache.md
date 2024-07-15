@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # L’installazione di Adobe Commerce 2.4.0 non riesce se la cache degli archivi è obsoleta
 
-Questo articolo fornisce una soluzione al problema relativo al mancato funzionamento dell’installazione di Adobe Commerce 2.4.0 con il messaggio di errore: *Il sito Web predefinito non è definito. Imposta il sito web e riprova.* nella console.
+In questo articolo viene fornita una soluzione al problema che causa l&#39;errore dell&#39;installazione di Adobe Commerce 2.4.0 con il messaggio di errore: *Il sito Web predefinito non è definito. Imposta il sito web e riprova.* visualizzati nella console.
 
 ## Prodotti e versioni interessati
 
@@ -23,7 +23,7 @@ Questo articolo fornisce una soluzione al problema relativo al mancato funzionam
 ## Problema
 
 <u>Prerequisiti:</u>
-Un’estensione di terze parti con dipendenze dalle API per il modulo Store nei comandi CLI è configurata come richiesto in `composer.json`. In questo modo, l’installazione di Adobe Commerce 2.4.0 non riesce e viene visualizzato un messaggio di errore: *Il sito Web predefinito non è definito. Imposta il sito web e riprova.* nella console.
+Un&#39;estensione di terze parti con dipendenze dalle API per il modulo Store nei comandi CLI è configurata come richiesto in `composer.json`. In questo modo l&#39;installazione di Adobe Commerce 2.4.0 non riesce e viene visualizzato un messaggio di errore: *Il sito Web predefinito non è definito. Imposta il sito web e riprova.* visualizzati nella console.
 
 ## Causa
 

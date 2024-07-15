@@ -21,7 +21,7 @@ Questo articolo fornisce informazioni sul plug-in del compositore rilasciato per
 
 ## Problema
 
-Un potenziale caso di attacco di dipendenza attiva confusa viene rilevato attraverso almeno una delle dipendenze dirette o indirette definite in `composer.json` dal plug-in compositore `magento/composer-dependency-version-audit-plugin` durante l&#39;installazione/aggiornamento del compositore.
+È stato rilevato un possibile caso di attacco di tipo Confusione dipendenze attivo tramite almeno una delle dipendenze dirette o indirette definite in `composer.json` dal plug-in del compositore `magento/composer-dependency-version-audit-plugin` durante l&#39;installazione o l&#39;aggiornamento del compositore.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -47,5 +47,5 @@ Gli aggressori possono sfruttare questa vulnerabilità se un pacchetto è dispon
 
 ### Aspettative degli sviluppatori di estensioni
 
-* Non c’è modo di sapere con certezza se il pacchetto di un plug-in, se proveniente da un archivio pubblico, sia stato compromesso o meno. Il plug-in rileva quando una versione pubblica di un pacchetto in packagist.org ha una versione più alta di quella disponibile da un archivio privato come [repo.magento.com](https://repo.magento.com). Consigliamo vivamente agli sviluppatori di estensioni di evitare tali situazioni e di non pubblicare versioni più recenti pubblicamente di quelle disponibili tramite [repo.magento.com](https://repo.magento.com).
+* Non c’è modo di sapere con certezza se il pacchetto di un plug-in, se proveniente da un archivio pubblico, sia stato compromesso o meno. Il plug-in rileverà quando una versione pubblica di un pacchetto in packagist.org ha una versione più alta di quella disponibile da un repository privato come [repo.magento.com](https://repo.magento.com). È consigliabile che gli sviluppatori di estensioni evitino tali situazioni e non pubblichino versioni più recenti di quelle disponibili tramite [repo.magento.com](https://repo.magento.com).
 * Adobe Commerce è consapevole del fatto che il processo di revisione del Marketplace può ritardare la disponibilità del rilascio delle estensioni, ma il processo serve a mantenere i commercianti al sicuro e ad aiutare gli sviluppatori di estensioni a trovare errori accidentali che potrebbero aver saltato.

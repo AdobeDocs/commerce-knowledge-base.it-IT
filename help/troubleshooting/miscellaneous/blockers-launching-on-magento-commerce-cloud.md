@@ -23,26 +23,26 @@ Questo articolo fornisce una correzione per i blocchi da avviare sull’infrastr
 >
 >Con la cache a pagina intera abilitata (FPC), le prestazioni del sito web sono diverse; assicurati di verificarle prima di andare &quot;live&quot;.
 
-Il processo di configurazione Fastly è documentato in dettaglio nella sezione [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella guida utente. Di seguito sono riportati i passaggi importanti.
+Il processo di configurazione Fastly è documentato in dettaglio nell&#39;argomento [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella nostra guida utente. Di seguito sono riportati i passaggi importanti.
 
 ### 1 bis. Verificare di avere installato la versione più recente del modulo Fastly
 
-Per ottenere le funzioni e i miglioramenti più recenti, accertati di aver installato la versione più recente del modulo Fastly. Per verificare se si dispone della versione più recente di Fastly, esaminare [Aggiornare il modulo Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) nella guida utente. Per ulteriori dettagli, consulta [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella guida utente.
+Per ottenere le funzioni e i miglioramenti più recenti, accertati di aver installato la versione più recente del modulo Fastly. Per verificare se disponi della versione più recente di Fastly, controlla [Aggiorna il modulo Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) nella nostra guida utente. Per ulteriori dettagli, consulta [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella nostra guida utente.
 
 ### 1 ter. Abilitare e configurare Fastly tramite l’amministratore di Commerce
 
-Per ulteriori dettagli, consulta [Ottieni le tue credenziali Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials) nella guida utente.
+Per ulteriori dettagli, consulta [Ottieni le tue credenziali Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials) nella nostra guida utente.
 
 ### 1 quater. Carica snippet VCL Fastly
 
-Per ulteriori dettagli, consulta [Carica VCL in Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella guida utente.
+Per ulteriori dettagli, consulta [Caricare VCL in Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella nostra guida utente.
 
 È inoltre possibile [creare e aggiungere snippet VCL personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html).
 
 ### 1 quinquies. Configurare DNS per Fastly
 
 
-Consulta questo articolo per i passaggi dettagliati: [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) nella guida utente.
+Consulta questo articolo per i passaggi dettagliati: [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) nella nostra guida utente.
 
 ### Articoli correlati nella knowledge base di supporto
 
@@ -53,15 +53,15 @@ Consulta questo articolo per i passaggi dettagliati: [Configura Fastly](https://
 
 Problema: senza un certificato SSL valido e funzionante, non è possibile verificare i metodi di pagamento esterno nella pagina Pagamento nell&#39;ambiente di staging.
 
-Consiglio **:** Richiedi il certificato SSL condiviso per i nomi di dominio in staging o live.
+Consiglio **:** Richiedi il certificato SSL condiviso per i nomi di dominio di gestione temporanea o Live.
 
-Leggi le informazioni sui certificati SSL in questo articolo [Domande frequenti](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) articolo della knowledge base di supporto.
+Leggi le informazioni sui certificati SSL in questo articolo [Domande frequenti](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) nella knowledge base sul supporto.
 
 ## 3. Configurare e testare i reindirizzamenti 301
 
 Problema: i reindirizzamenti 301 non sono forniti o sono configurati in modo errato, causando il calo delle classificazioni SEO (Search Engine Optimization) e delle inserzioni di ricerca.
 
-Consiglio **:** Configura e verifica con attenzione i reindirizzamenti 301.
+Consiglio **:** Configurare e testare con attenzione i reindirizzamenti 301.
 
 Nel caso in cui stai eseguendo la migrazione da un vecchio sito Web a uno nuovo, i reindirizzamenti 301 conducono i clienti dalle vecchie pagine precedentemente indicizzate alle pagine corrette del nuovo store, come segue:
 
@@ -70,22 +70,22 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 **Articoli correlati:**
 
 * [Reindirizza tramite route.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) nella guida utente.
-* [Reindirizzamenti tramite la console cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) nella guida utente.
-* [Riscritture URL](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) nella guida utente.
+* [Reindirizzamenti tramite Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) nella guida utente.
+* [L&#39;URL riscrive](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) nella nostra guida utente.
 
 ## 4. Rendimento degli attivi
 
 Problema: le risorse statiche vengono distribuite lentamente, pertanto le prestazioni del sito sono scarse (tempi di caricamento lunghi, contenuti multimediali non visualizzati, ecc.). Le risorse statiche del sito web sono risorse CSS, immagini, video, documenti allegati e molto altro. Il modo in cui vengono organizzati e serviti è un fattore chiave nelle prestazioni del sito.
 
-Consiglio: per identificare le possibili cause di prestazioni scadenti, considera l’utilizzo di [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) per il test delle prestazioni. Puoi inoltre considerare questi strumenti di terze parti:
+Consiglio: per identificare le possibili cause di prestazioni scadenti, utilizzare [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) per il test delle prestazioni. Puoi inoltre considerare questi strumenti di terze parti:
 
-* [Assedio](https://www.joedog.org/siege-home/): utility di test di carico e benchmark HTTP; supporta l’autenticazione di base, i cookie, i protocolli HTTP, HTTPS e FTP.
+* [Assedio](https://www.joedog.org/siege-home/): utilità di benchmark e test di carico HTTP; supporta l&#39;autenticazione di base, i cookie, i protocolli HTTP, HTTPS e FTP.
 * [Jmeter](https://jmeter.apache.org/): uno strumento affidabile per il test di carico e la misurazione delle prestazioni. Consente di misurare le prestazioni per il traffico con picchi di traffico, ad esempio per le vendite flash.
-* [New Relic](https://support.newrelic.com/): individua i processi e le aree del sito che causano prestazioni lente con il tempo trascorso per azione tracciato, come la trasmissione di dati, query, Redis e così via.
-* [WebPageTest](https://www.webpagetest.org/) (gratuito) e [Vernice](https://www.pingdom.com/) (a pagamento): l’analisi in tempo reale delle pagine del sito carica il tempo con posizioni di origine diverse.
+* [New Relic](https://support.newrelic.com/): individua i processi e le aree del sito causando un rallentamento delle prestazioni con tempo di rilevamento trascorso per azione, come la trasmissione di dati, query, Redis e così via.
+* [WebPageTest](https://www.webpagetest.org/) (gratuito) e [PKingdom](https://www.pingdom.com/) (a pagamento): l&#39;analisi in tempo reale delle pagine del sito viene caricata con percorsi di origine diversi.
 
 Puoi anche prendere in considerazione [minimizzazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) per CSS, JavaScript e HTML.
 
 **Articoli correlati:**
 
-* [Distribuzione dei test](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) nella documentazione per gli sviluppatori.
+* [Verifica distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) nella documentazione per gli sviluppatori.

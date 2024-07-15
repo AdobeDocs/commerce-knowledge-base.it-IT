@@ -26,16 +26,16 @@ Viene visualizzato un errore non specifico quando il pagamento del cliente ospit
 
 <u>Prerequisiti</u>:
 
-1. Nell’amministratore di Commerce, sotto **Negozi** > **Configurazione** > **Vendite** > **Pagamento**, impostato **Consenti estrazione come ospite** = *No*.
-1. Abilita PayPal tramite Braintree come descritto nella sezione [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) nella guida utente.
+1. In Amministrazione Commerce, in **Archivi** > **Configurazione** > **Vendite** > **Pagamento**, impostare **Consenti pagamento ospite** = *No*.
+1. Abilita PayPal tramite Braintree come descritto nella [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) nella nostra guida utente.
 
 <u>Passaggi da riprodurre</u>:
 
 1. Aggiungi prodotto al carrello come ospite.
 1. Seleziona **Mini-carrello** e fai clic su **Paga con PayPal**.
 1. Completa l&#39;estrazione di Paypal, quindi arriverai alla pagina di revisione dell&#39;ordine.
-1. Seleziona **Metodo di spedizione**.
-1. Clic **Inserisci ordine**.
+1. Selezionare **Metodo di spedizione**.
+1. Fai clic su **Inserisci ordine**.
 
 <u>Risultati previsti</u>:
 
@@ -59,6 +59,6 @@ La soluzione a questo problema consiste nel fatto che il cliente può effettuare
 
 ## Lettura correlata
 
-* [Procedure consigliate per il numero di prodotti nel carrello in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) nella nostra knowledge base di supporto.
-* [Tutorial sull’elaborazione dell’ordine: passaggio 1. Aggiungi articoli al carrello](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) nella documentazione per gli sviluppatori
-* [Tutorial sull’estrazione di GraphQL: passaggio 1. Aggiungi prodotti al carrello](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) nella documentazione per gli sviluppatori
+* [Procedure consigliate per il numero di prodotti nel carrello in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) nella Knowledge Base di supporto.
+* [Tutorial sull&#39;elaborazione dell&#39;ordine: passaggio 1. Aggiungi elementi al carrello](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) nella documentazione per gli sviluppatori
+* [Tutorial sull&#39;estrazione di GraphQL: passaggio 1. Aggiungi prodotti al carrello](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) nella documentazione per gli sviluppatori

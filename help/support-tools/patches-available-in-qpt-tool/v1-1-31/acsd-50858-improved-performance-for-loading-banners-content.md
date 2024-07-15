@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-50858: prestazioni migliorate per il caricamento del contenuto dei banner
 
-La patch ACSD-50858 risolve un problema di prestazioni del banner nella pagina carrello/pagamento: *query DB eccessive e aumento del tempo di caricamento delle pagine*. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.31. L’ID della patch è ACSD-50858. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
+La patch ACSD-50858 risolve un problema di prestazioni del banner nella pagina carrello/pagamento: *query database eccessive e aumento del tempo di caricamento della pagina*. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.31. L’ID della patch è ACSD-50858. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.5-p1
 
@@ -27,11 +27,11 @@ La patch ACSD-50858 risolve un problema di prestazioni del banner nella pagina c
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-Le prestazioni del banner sono influenzate nella pagina carrello/pagamento a causa di *query DB eccessive e aumento del tempo di caricamento delle pagine*.
+Le prestazioni del banner sono influenzate nella pagina carrello/pagamento a causa di *query sul database eccessive e aumento del tempo di caricamento delle pagine*.
 
 Questo problema è stato risolto refactoring del modo in cui vengono caricati i contenuti dei banner, che ha ridotto il numero di query DB del 99,99% e il tempo di caricamento della pagina di circa il 99%.
 
@@ -39,12 +39,12 @@ Questo problema è stato risolto refactoring del modo in cui vengono caricati i 
 
 1. Accedi ad Admin e crea un prodotto semplice.
 1. Crea un cliente, dall’amministratore o dal front-end, e aggiungi un indirizzo di spedizione.
-1. Spostare banners.php in `magento_root/pub/` cartella.
-1. Generare i banner utilizzando  `php pub/banners.php` comando. Verranno generati 10.000 banner semplici e 1.000 banner con regole di vendita.
+1. Spostare banners.php nella cartella `magento_root/pub/`.
+1. Generare i banner utilizzando il comando `php pub/banners.php`. Verranno generati 10.000 banner semplici e 1.000 banner con regole di vendita.
 1. Accedi al cliente creato in precedenza sul front-end.
 1. Aggiungi al carrello il prodotto creato in precedenza.
 1. Vai alla pagina di pagamento (pagamento/carrello).
-1. Monitorare `banner/ajax/load` tempo di caricamento della richiesta:
+1. Monitorare il tempo di caricamento della richiesta `banner/ajax/load`:
 
    * Senza `bin/magento dev:query-log:enable`
    * Con `bin/magento dev:query-log:enable`
@@ -55,18 +55,18 @@ Questo problema è stato risolto refactoring del modo in cui vengono caricati i 
 
 <u>Risultati previsti</u>:
 
-Diminuzione del numero di query DB per `magento_banner_content` e il tempo di caricamento del carrello/pagina di pagamento.
+Diminuzione del numero di query DB per `magento_banner_content` e del tempo di caricamento del carrello/pagina di pagamento.
 
 <u>Risultati effettivi</u>:
 
-Aumento del numero di query DB per `magento_banner_content` e il tempo di caricamento del carrello/pagina di pagamento.
+Aumento del numero di query DB per `magento_banner_content` e del tempo di caricamento del carrello/pagina di pagamento.
 
 ## Applicare la patch
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Informazioni aggiuntive
 
@@ -132,9 +132,9 @@ for ($i = 0; $i < 1000; $i++) {
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].

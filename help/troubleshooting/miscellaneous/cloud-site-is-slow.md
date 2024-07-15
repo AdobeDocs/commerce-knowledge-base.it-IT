@@ -49,7 +49,7 @@ I paragrafi seguenti forniscono ulteriori dettagli per ciascun passaggio.
 
 Il primo passo per risolvere un sito bloccato da un traffico pesante è garantire che le pagine con il traffico più pesante, come la pagina principale del negozio e le pagine delle categorie principali, siano memorizzate correttamente nella cache.
 
-Puoi scoprire le percentuali di hit della cache per queste pagine esaminando il `X-Cache` Intestazioni HTTP che utilizzano cURL, come descritto in [Verifica della cache tramite cURL](https://docs.fastly.com/guides/debugging/checking-cache#using-curl) nella documentazione di Fastly. Oppure controlla le stesse intestazioni utilizzando la scheda rete nella barra degli strumenti per sviluppatori del browser web preferito.
+Per individuare le percentuali di hit della cache per queste pagine, controlla le intestazioni HTTP `X-Cache` tramite cURL, come descritto in [Verifica della cache tramite cURL](https://docs.fastly.com/guides/debugging/checking-cache#using-curl) nella documentazione Fastly. Oppure controlla le stesse intestazioni utilizzando la scheda rete nella barra degli strumenti per sviluppatori del browser web preferito.
 
 In Fastly rispetta generalmente le intestazioni di risposta provenienti dall’applicazione; tuttavia, se le intestazioni sono tutte impostate su &quot;do not cache&quot; e per la pagina &quot;to expire in the previous&quot; (Scadenza passata), Fastly non può memorizzare la pagina nella cache.
 
@@ -65,14 +65,14 @@ Se la pagina indice ha un tasso di hit basso, puoi correggerlo riducendo la quan
 
 Per verificare la frequenza di accessi alla cache complessiva:
 
-1. [Ottieni credenziali rapide](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) per il tuo ambiente Adobe Commerce su infrastruttura cloud.
+1. [Ottieni credenziali veloci](http://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#cloud-fastly-creds) per l&#39;ambiente Adobe Commerce nell&#39;infrastruttura cloud.
 1. Esegui il seguente comando cURL Linux/macOS per controllare la percentuale di hit per il sito negli ultimi 30 minuti, sostituendo e con i valori delle credenziali Fastly:
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
 
-   Puoi anche verificare i tassi di hit storici nell’ultimo giorno o mese modificando l’opzione di query relativa all’intervallo di tempo da `?by=minute` a `?by=hour` o `?by=day`. Per ulteriori informazioni su come ottenere le statistiche Fastly della cache, consulta [Opzioni query](https://docs.fastly.com/api/stats#Query) nella documentazione di Fastly.
+   È inoltre possibile controllare i tassi di hit storici nell&#39;ultimo giorno o mese modificando l&#39;opzione di query relativa all&#39;intervallo di tempo da `?by=minute` a `?by=hour` o `?by=day`. Per ulteriori informazioni su come ottenere le statistiche della cache Fastly, consulta [Opzioni query](https://docs.fastly.com/api/stats#Query) nella documentazione di Fastly.
 
-   Il `| json_pp` L’opzione stampa l’output di risposta JSON utilizzando `json_pp` utilità. Se ricevi un errore_&#39;json\_pp not found&#39;_, installa il `json_pp` o utilizzare un altro strumento della riga di comando per la stampa JSON. In alternativa, elimina il `| json_pp` ed eseguire di nuovo il comando. L’output della risposta JSON non è formattato, ma puoi eseguirlo tramite un’utilità di pulizia JSON per rimuoverlo.
+   L&#39;opzione `| json_pp` stampa piuttosto l&#39;output di risposta JSON utilizzando l&#39;utilità `json_pp`. Se viene visualizzato un errore di tipo_&#39;json\_pp non trovato&#39;_, installare l&#39;utilità `json_pp` o utilizzare un altro strumento della riga di comando per la stampa JSON. In alternativa, eliminare il parametro `| json_pp` ed eseguire di nuovo il comando. L’output della risposta JSON non è formattato, ma puoi eseguirlo tramite un’utilità di pulizia JSON per rimuoverlo.
 
 Una frequenza di hit superiore a 0,90 o al 90% indica che la cache di pagina intera funziona.
 
@@ -81,8 +81,8 @@ Una percentuale di hit inferiore allo 0,85 o all’85% potrebbe indicare un prob
 #### Risoluzione dei problemi relativi alla frequenza di accessi alla cache complessiva
 
 1. Utilizzando le statistiche della hit rate oraria e giornaliera, identifica quando la hit rate ha iniziato a diminuire. Se la frequenza di hit si riduce improvvisamente nello stesso momento in cui hai distribuito una modifica al sito, puoi provare a ripristinarla finché il carico del sito non si abbassa.
-1. Controlla la configurazione in Admin di Commerce, in **Negozi** > **Configurazione** > Avanzate > **Sistema** > **Cache a pagina intera**. Assicurati che **TTL per contenuto pubblico** non è impostato su un valore troppo basso.
-1. Assicurati di aver [ha caricato i snippet VCL](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. Controlla la configurazione nell&#39;amministratore di Commerce, in **Archivi** > **Configurazione** > Avanzate > **Sistema** > **Cache a pagina intera**. Verificare che il valore **TTL per il contenuto pubblico** non sia impostato su un valore troppo basso.
+1. Assicurati di aver [caricato i frammenti VCL](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
 1. Se utilizzi snippet VCL personalizzati, esegui il debug per l’utilizzo corretto delle azioni &quot;pass&quot; o &quot;pipe&quot;: devono essere utilizzati con attenzione e almeno con una condizione di qualche tipo. Per ulteriori suggerimenti, consulta [Snippet VCL Fastly personalizzati](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-vcl-custom-snippets.html) nella documentazione per gli sviluppatori.
 
 ### Passaggio 3: identificare i siti Web che causano il carico elevato del server
@@ -112,7 +112,7 @@ Visualizza altre righe con il
 magento-cloud log access --lines=500
 ```
 
-Puoi visualizzare questo registro e verificare se una grande parte delle richieste proviene da un indirizzo IP specifico. Un altro modo consiste nell’utilizzare `awk` , `sort` e `uniq` per contare automaticamente gli indirizzi IP più frequenti nel registro, come indicato di seguito:
+Puoi visualizzare questo registro e verificare se una grande parte delle richieste proviene da un indirizzo IP specifico. Un altro modo consiste nell&#39;utilizzare `awk`, `sort` e `uniq` per contare automaticamente gli indirizzi IP che si verificano più frequentemente nel registro, come indicato di seguito:
 
 ```bash
 magento-cloud log access --lines 2000 | awk '{print $1}' | sort | uniq -c | sort
@@ -125,14 +125,14 @@ Se il
 magento-cloud log
 ```
 
-non funziona, è possibile connettersi al server remoto con SSH e controllare il file di registro in `/var/log/access.log`
+Il comando non funziona. È possibile connettersi al server remoto con SSH e controllare il file di registro in `/var/log/access.log`
 
-Dopo aver identificato gli indirizzi IP che causano un carico eccessivo del server, puoi bloccarli configurando un elenco Bloccati IP da nel pannello di amministrazione di Commerce, in **Negozi** > **Configurazione** > AVANZATE > **Sistema** > **Cache a pagina intera** > **Configurazione rapida** > **Blocco**.
+Dopo aver identificato gli indirizzi IP che causano un carico eccessivo del server, puoi bloccarli configurando un elenco Bloccati IP dal pannello di amministrazione di Commerce, in **Archivi** > **Configurazione** > AVANZATE > **Sistema** > **Cache a pagina intera** > **Configurazione rapida** > **Blocco**.
 
 Se non riesci ad accedere all’amministratore a causa di un carico pesante, puoi utilizzare l’API Fastly per impostare le regole di blocco:
 
-1. Creare l’ACL come descritto in [Utilizzo delle ACL tramite l’API](https://docs.fastly.com/guides/access-control-lists/working-with-acls-using-the-api) Documento Fastly.
-1. In `recv` crea uno snippet VCL con il seguente contenuto, avendo sostituito ACL\_NAME\_GOES\_HERE con il nome dell’ACL creato nel passaggio precedente:
+1. Creare l&#39;ACL come descritto in [Utilizzo degli ACL tramite il documento Fastly API](https://docs.fastly.com/guides/access-control-lists/working-with-acls-using-the-api).
+1. Nella sezione `recv` creare uno snippet VCL con il contenuto seguente, avendo sostituito ACL\_NAME\_GOES\_HERE con il nome dell&#39;ACL creato nel passaggio precedente:
 
    ```
    if( req.http.Fastly-Client-IP ~ ACL_NAME_GOES_HERE ) {
@@ -140,4 +140,4 @@ Se non riesci ad accedere all’amministratore a causa di un carico pesante, puo
    }
    ```
 
-Per ulteriori informazioni sul blocco degli indirizzi IP, vedi [Guida rapida al modulo Adobe Commerce](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) in GitHub.
+Per ulteriori informazioni sul blocco degli indirizzi IP, consulta la [Guida rapida al modulo Adobe Commerce](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/BLOCKING.md) in GitHub.

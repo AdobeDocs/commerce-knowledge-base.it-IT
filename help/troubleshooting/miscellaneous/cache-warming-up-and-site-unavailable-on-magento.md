@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione per quando la cache delle pagine si sta r
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud, tutto [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce sull&#39;infrastruttura cloud, tutte le [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
@@ -37,7 +37,7 @@ Il sito non è disponibile o il tempo di risposta è troppo alto.
 
 ## Soluzione
 
-Limita il numero di connessioni simultanee durante il riscaldamento della cache. È necessario aggiungere `WARM_UP_CONCURRENCY` variabile post-distribuzione per specificare il numero di richieste di riscaldamento che lo script di riscaldamento della cache può inviare contemporaneamente. Impostando questa opzione è possibile gestire il carico sull’infrastruttura cloud di Adobe Commerce. Per i passaggi, consulta [Variabili post-distribuzione > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) nella documentazione per gli sviluppatori.
+Limita il numero di connessioni simultanee durante il riscaldamento della cache. È necessario aggiungere la variabile post-distribuzione `WARM_UP_CONCURRENCY` per specificare il numero di richieste di riscaldamento che lo script di riscaldamento della cache può inviare contemporaneamente. Impostando questa opzione è possibile gestire il carico sull’infrastruttura cloud di Adobe Commerce. Per i passaggi, consulta [Variabili di distribuzione di Post > WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

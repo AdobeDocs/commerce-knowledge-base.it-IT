@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questo articolo fornisce una patch come soluzione alternativa, ma il problema è stato risolto definitivamente in Adobe Commerce on cloud infrastructure v2.3.3 ed è consigliabile effettuare l’aggiornamento alla versione v2.3.3. Segui i passaggi descritti in [Aggiorna versione Adobe Commerce](https://devdocs.magento.com/cloud/project/project-upgrade.html) nella documentazione per gli sviluppatori.
+>Questo articolo fornisce una patch come soluzione alternativa, ma il problema è stato risolto definitivamente in Adobe Commerce on cloud infrastructure v2.3.3 ed è consigliabile effettuare l’aggiornamento alla versione v2.3.3. Segui i passaggi descritti in [Aggiornare Adobe Commerce versione](https://devdocs.magento.com/cloud/project/project-upgrade.html) nella documentazione per gli sviluppatori.
 
-Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.0 relativo all’inaccessibilità delle pagine del catalogo principale dell’archivio, con un messaggio di errore simile al seguente nel registro: *Violazione vincolo di integrità: voce duplicata 1062 &#39;%entry%&#39; per la chiave &#39;PRIMARY&#39;, query: INSERT INTO \`search\_tmp\_%number%*.
+Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.0 relativo all&#39;archiviazione delle pagine del catalogo principale che non è accessibile. Il messaggio di errore nel registro è simile al seguente: *Violazione del vincolo di integrità: 1062 Voce duplicata &#39;%entry%&#39; per la chiave &#39;PRIMARY&#39;. Query: INSERT INTO \`search\_tmp\_%number%*.
 
 ## Problema
 
-Le pagine del catalogo principale del negozio diventano inaccessibili in modo imprevisto. La descrizione del registro errori è simile alla seguente: *Violazione vincolo di integrità: voce duplicata 1062 &#39;%entry%&#39; per la chiave &#39;PRIMARY&#39;, query: INSERT INTO \`search\_tmp\_%number%*.
+Le pagine del catalogo principale del negozio diventano inaccessibili in modo imprevisto. Il log degli errori presenta una descrizione simile alla seguente: *Violazione del vincolo di integrità: 1062 Voce duplicata &#39;%entry%&#39; per la chiave &#39;PRIMARY&#39;, query: INSERT INTO \`search\_tmp\_%number%*.
 
 Il problema è correlato alla ricerca e causato dall’esistenza dell’indice obsoleto insieme a quello nuovo dopo la reindicizzazione.
 
@@ -57,27 +57,27 @@ Le patch sono allegate a questo articolo. Per scaricare una patch, scorri verso 
 
 Le patch sono state create per le edizioni e le versioni seguenti:
 
-* Adobe Commerce sull’infrastruttura cloud 2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)
-* Adobe Commerce sull’infrastruttura cloud 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
+* Adobe Commerce sull&#39;infrastruttura cloud 2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)
+* Adobe Commerce sull&#39;infrastruttura cloud 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
 
-Il `MDVA-9590_EE_2.2.0_COMPOSER_v2` La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
+La patch `MDVA-9590_EE_2.2.0_COMPOSER_v2` è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
 
 * Adobe Commerce su infrastruttura cloud 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 * Adobe Commerce on-premise 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 
-Il `MDVA-13203_EE_2.2.4_V1_COMPOSER` La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
+La patch `MDVA-13203_EE_2.2.4_V1_COMPOSER` è compatibile (ma potrebbe non risolvere il problema) anche con le seguenti versioni ed edizioni di Adobe Commerce:
 
 * Adobe Commerce su infrastruttura cloud 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 * Adobe Commerce on-premise 2.0.X, 2.1.X, 2.2.X e 2.3.0 - 2.3.3
 
 ## Come applicare il cerotto
 
-Per istruzioni, consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## Collegamenti utili
 
-* [Percorso dei file di registro per Adobe Commerce sull’infrastruttura cloud Architettura del piano iniziale](/help/how-to/general/log-locations-directories-for-starter-plan.md) nella nostra knowledge base di supporto.
-* [Percorso dei file di registro per l&#39;infrastruttura Adobe Commerce su cloud Architettura del piano Pro](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) nella nostra knowledge base di supporto.
+* [Percorso dei file di registro per Adobe Commerce sull&#39;infrastruttura cloud Architettura del piano iniziale](/help/how-to/general/log-locations-directories-for-starter-plan.md) nella knowledge base di supporto.
+* [Percorso dei file di registro per Adobe Commerce sull&#39;infrastruttura cloud Architettura del piano Pro](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) nella knowledge base di supporto.
 * [Percorso dei file di registro per Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) nella documentazione per gli sviluppatori.
 
 ## File allegati

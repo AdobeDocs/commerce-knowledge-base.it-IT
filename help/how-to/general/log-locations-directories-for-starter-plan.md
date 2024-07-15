@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Registra le posizioni (directory) per il piano iniziale
 
-Consulta [Visualizzare e gestire i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) nel *Guida di Commerce sull’infrastruttura cloud* per scoprire dove trovare i registri di build e distribuzione, applicazioni e servizi per i progetti Adobe Commerce implementati nell’infrastruttura cloud.
+Consulta [Visualizzare e gestire i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) nella *Guida di Commerce sull&#39;infrastruttura cloud* per scoprire dove trovare i registri di compilazione e distribuzione, applicazione e servizio per i progetti Adobe Commerce distribuiti nell&#39;infrastruttura cloud.

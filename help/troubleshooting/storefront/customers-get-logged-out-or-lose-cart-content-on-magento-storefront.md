@@ -17,8 +17,8 @@ Questo articolo fornisce una soluzione al problema, in cui i clienti si disconne
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce on-premise [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* Adobe Commerce sull’infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce on-premise, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## Problema
 
@@ -38,7 +38,7 @@ Cliente reindirizzato a una pagina di pagamento riuscita (o altra pagina di succ
 
 ## Causa
 
-L’attributo per cookie SameSite è impostato su *Lax* o non specificato (considerato impostato su *Lax* ). Avendo `SameSite` = *Lax* disabilita il trasferimento di un cookie a URL esterni tramite `POST` richieste.
+L&#39;attributo per cookie SameSite è impostato su *Lax* o non è specificato (considerato impostato su *Lax* ). Se `SameSite` = *Lax* disattiva il trasferimento di un cookie agli URL esterni tramite `POST` richieste.
 
 ## Soluzione
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0 problema noto: etichetta &quot;Refund&quot; mancante in Klarna
 
-Questo articolo fornisce una soluzione alternativa per un problema noto in Admin per un problema mancante **Rimborso** etichetta in Klarna VBE (estensione in bundle fornitore). Quando nel portale Klarna effettuando un rimborso, il **Rimborso** L&#39;etichetta non viene visualizzata accanto al prodotto nel pacchetto rimborsato.
+Questo articolo fornisce una soluzione alternativa per un problema noto in Admin relativo a un&#39;etichetta **Rimborso** mancante in Klarna VBE (Vendor Bundled Extension). Quando nel portale Klarna si esegue un rimborso, l&#39;etichetta **Rimborso** non viene visualizzata accanto al prodotto nel pacchetto rimborsato.
 
 ## Prodotti e versioni interessati
 
@@ -29,29 +29,29 @@ Questo articolo fornisce una soluzione alternativa per un problema noto in Admin
 
 <u>Passaggi da riprodurre</u>
 
-1. Vai a Adobe Commerce frontend e aggiungi un prodotto in bundle a **carrello**.
+1. Vai a Adobe Commerce frontend e aggiungi un prodotto in bundle al **carrello**.
 1. Passa a pagamento.
-1. Inserisci le informazioni del consumatore nel pagamento e fai clic su **Successivo**.
-1. Seleziona **Opzione KP** e fai clic su **Inserisci ordine**.
+1. Immettere le informazioni del consumatore nell&#39;estrazione e fare clic su **Avanti**.
+1. Seleziona **opzione KP** e fai clic su **Inserisci ordine**.
 1. Vai a **Amministratore** > **Vendite** > **Ordini**.
 1. Apri l’ordine.
 1. Crea fattura per prodotto.
-1. Vai a **Fatture** > **Seleziona fattura** > Fai clic su **Nota di credito** > Fai clic su **Rimborso** (Non **Rimborso offline**).
+1. Vai a **Fatture** > **Seleziona fattura** > Fai clic su **Nota di credito** > Fai clic su **Rimborso** (non su **Rimborso offline**).
 1. Vai al portale Klarna.
 1. Apri l’ordine.
-1. Il **Rimborso** etichetta presente.
+1. L&#39;etichetta **Rimborso** è presente.
 
 <u>Risultato previsto</u>
 
-Sul portale Klarna, il **Rimborso** l&#39;etichetta viene visualizzata accanto al prodotto rimborsato.
+Sul portale Klarna, l&#39;etichetta **Rimborso** viene visualizzata accanto al prodotto rimborsato.
 
 <u>Risultato effettivo</u>
 
-Sul portale Klarna, il **Rimborso** l&#39;etichetta non viene visualizzata accanto al prodotto rimborsato.
+Sul portale Klarna, l&#39;etichetta **Rimborso** non viene visualizzata accanto al prodotto rimborsato.
 
 ## Soluzione alternativa
 
-La soluzione a questo problema consiste nell’ignorare i dati mancanti **Rimborso** etichetta nel portale Klarna per i prodotti in bundle rimborsati. Il rimborso è stato effettuato anche se **Rimborso** etichetta non visualizzata. Il problema dovrebbe essere risolto in Adobe Commerce 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
+La soluzione per questo problema consiste nell&#39;ignorare l&#39;etichetta **Rimborso** mancante nel portale Klarna per i prodotti in bundle rimborsati. Il rimborso è stato effettuato anche se l&#39;etichetta **Rimborso** non è stata visualizzata. Il problema dovrebbe essere risolto in Adobe Commerce 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
 
 ## Letture correlate nella knowledge base di supporto:
 

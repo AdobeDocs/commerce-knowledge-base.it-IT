@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>Passaggi da riprodurre</u>
 
-(Prerequisiti: verificare che l&#39;archivio non si trovi in [modalità di manutenzione](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
+(Prerequisiti: verificare che l&#39;archivio non sia in [modalità di manutenzione](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
 
 Passa all’amministratore di Commerce o alla vetrina in un browser web.
 
@@ -39,11 +39,11 @@ Viene visualizzato l&#39;errore HTTP 503 (Servizio non disponibile). Apache `err
 
 ## Causa {#details}
 
-Modulo di compatibilità Apache 2.4 `mod_access_compat` è disattivato, causando il malfunzionamento delle riscritture URL di Adobe Commerce.
+Il modulo di compatibilità Apache 2.4 `mod_access_compat` è disabilitato. Di conseguenza, le riscritture dell&#39;URL di Adobe Commerce non funzionano correttamente.
 
 ## Soluzione {#suggested-solution}
 
-Abilita `mod_access_compat` Il modulo Apache e riavvia Apache, eseguendo quanto segue come utente con privilegi di root:
+Abilitare il modulo Apache `mod_access_compat` e riavviare Apache eseguendo il comando seguente come utente con privilegi di radice:
 
 ```bash
 a2enmod access_compat
@@ -80,5 +80,5 @@ apache2
 
 * [Documentazione di Apache su mod\_access\_compat](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)
 * [Documentazione di Apache su mod\_authz\_host](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)
-* [Ordine, consenti, nega nella Guida definitiva di Apache](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
+* [Ordine, Consenti, Nega dalla Guida definitiva di Apache](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
 * [askubuntu.com](https://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)

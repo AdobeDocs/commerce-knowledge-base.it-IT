@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0: errore 404 durante la rimozione dei punti premio durante il pagamento con più spedizioni
 
-Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce 2.4.0 per un’&quot;*404 Non trovato*&quot;errore di pagina web durante la rimozione dei punti premio in una pagina di pagamento con più spedizioni. Attualmente, nella pagina di pagamento multi-shipping, quando si tenta di rimuovere i punti premio utilizzati per pagare un ordine, viene visualizzato un messaggio di tipo &quot;*404 Non trovato* Viene visualizzata la pagina &quot; invece dell’annullamento dei punti premio. Questo problema verrà risolto in con una versione patch di Adobe Commerce 2.4.1.
+Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce 2.4.0 relativo a un errore di pagina Web &quot;*404 Non trovato*&quot; durante la rimozione dei punti premio in una pagina di pagamento con spedizione multipla. Attualmente, nella pagina di pagamento per più spedizioni, quando si tenta di rimuovere i punti premio utilizzati per pagare un ordine, viene visualizzata una pagina &quot;*404 Non trovato*&quot; invece dell&#39;annullamento dei punti premio. Questo problema verrà risolto in con una versione patch di Adobe Commerce 2.4.1.
 
 ## Prodotti e versioni interessati
 
@@ -24,30 +24,30 @@ Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe
 <u>Passaggi da riprodurre</u>
 
 1. Passa alla vetrina e accedi come cliente.
-1. Aggiungi almeno due prodotti al **Carrello**.
-1. Apri **Mini-carrello**.
-1. Fai clic su **Visualizza e modifica carrello** collegamento.
-1. Fai clic su **Check-Out con più indirizzi** collegamento.
-1. Seleziona gli indirizzi di spedizione nella **Spedisci a più indirizzi** pagina.
-1. Fai clic su **Vai a Informazioni spedizione** pulsante.
-1. Seleziona la **Tariffa fissa - Metodo di spedizione fisso** per ogni indirizzo.
-1. Fai clic su **Continua con le informazioni di fatturazione** pulsante.
-1. Controlla la **Utilizzare i punti premio** casella di controllo sulla **Informazioni fatturazione** pagina.
-1. Fai clic su **Vai a rivedere l&#39;ordine** pulsante.
-1. Fai clic su **Rimuovi** collegamento per qualsiasi indirizzo per rimuovere i punti premio.
+1. Aggiungi almeno due prodotti al **carrello**.
+1. Apri il **Mini-carrello**.
+1. Fare clic sul collegamento **Visualizza e modifica carrello**.
+1. Fare clic sul collegamento **Estrai con più indirizzi**.
+1. Selezionare gli indirizzi di spedizione nella pagina **Spedisci a più indirizzi**.
+1. Fare clic sul pulsante **Vai alle informazioni sulla spedizione**.
+1. Selezionare **Tariffa fissa - Metodo di spedizione fisso** per ogni indirizzo.
+1. Fai clic sul pulsante **Continua con informazioni fatturazione**.
+1. Seleziona la casella di controllo **Utilizza i tuoi punti premio** nella pagina **Informazioni di fatturazione**.
+1. Fai clic sul pulsante **Vai a controllare l&#39;ordine**.
+1. Fare clic sul collegamento **Rimuovi** per qualsiasi indirizzo per rimuovere i punti premio.
 
 <u>Risultati previsti</u>
 
-* Il **Carrello** dovrebbe essere visualizzata.
-* La &quot;*Hai rimosso i punti premio da questo ordine.* Dovrebbe apparire il messaggio &quot;.
+* Viene visualizzata la pagina **Carrello acquisti**.
+* &quot;*Hai rimosso i punti premio da questo ordine.Il messaggio*&quot; dovrebbe essere visualizzato.
 
 <u>Risultato effettivo</u>
 
-A &quot;*404 Non trovato* Viene visualizzata la pagina di errore &quot;.
+Viene visualizzata una pagina di errore &quot;*404 Non trovato*&quot;.
 
 ## Soluzione alternativa
 
-La soluzione consiste nel far sì che l&#39;acquirente torni al **Carrello** e rimuovere i punti premio dal **Carrello** pagina web. Il problema dovrebbe essere risolto con la patch di Adobe Commerce versione 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
+La soluzione consiste nel far tornare l&#39;acquirente al **carrello** e rimuovere i punti premio dalla pagina Web **carrello**. Il problema dovrebbe essere risolto con la patch di Adobe Commerce versione 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
 
 ## Lettura correlata
 

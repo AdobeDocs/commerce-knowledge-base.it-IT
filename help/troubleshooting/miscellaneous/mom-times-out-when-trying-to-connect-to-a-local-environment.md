@@ -23,7 +23,7 @@ Questo articolo fornisce una soluzione per il problema in cui il Magento Order M
 
 >[!WARNING]
 >
->Esclusione di responsabilità: Adobe Commerce non consiglia o non approva alcuno strumento particolare per la creazione di tunnel. I precedenti sono solo suggerimenti. Per ulteriori informazioni, consultare [documentazione ngrok](https://ngrok.com/docs).
+>Esclusione di responsabilità: Adobe Commerce non consiglia o non approva alcuno strumento particolare per la creazione di tunnel. I precedenti sono solo suggerimenti. Per ulteriori informazioni, consulta la [documentazione ngrok](https://ngrok.com/docs).
 
 ## Problema
 
@@ -31,7 +31,7 @@ Questo articolo fornisce una soluzione per il problema in cui il Magento Order M
 
 1. Installa Adobe Commerce nell’ambiente locale.
 1. Imposta ngrok per creare un tunnel per esporre il server locale.
-1. Prova [connessione a OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. Provare a [connettersi a OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
 
 <u>Risultato previsto</u>
 
@@ -53,4 +53,4 @@ Aggiungi un parametro che specifica la tua regione all’avvio di ngrok. Come se
 ./ngrok http 80 -region eu
 ```
 
-L&#39;area predefinita è Stati Uniti. Consulta [tutti i valori possibili](https://ngrok.com/docs#config_region).
+L&#39;area predefinita è Stati Uniti. Vedi [tutti i valori possibili](https://ngrok.com/docs#config_region).

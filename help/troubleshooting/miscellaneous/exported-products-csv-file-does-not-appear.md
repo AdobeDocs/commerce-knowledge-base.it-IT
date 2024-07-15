@@ -17,24 +17,24 @@ Questo articolo corregge il problema relativo al tentativo di esportazione di pr
 
 ## Prodotti e versioni interessati
 
-* Adobe Commerce su infrastruttura cloud, tutto [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* Adobe Commerce sull&#39;infrastruttura cloud, tutte le [versioni supportate](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
 
 ## Problema
 
 <u>Passaggi da riprodurre</u>
 
-Prerequisiti: **Aggiungi chiave segreta agli URL** è impostata su *Sì*. L’opzione è configurata in Amministrazione Commerce in **Negozi** > **Configurazione** > **Avanzate** > **Amministratore** > **Sicurezza**.
+Prerequisiti: l&#39;opzione **Aggiungi chiave segreta agli URL** è impostata su *Sì*. L&#39;opzione è configurata in Amministrazione Commerce in **Archivi** > **Configurazione** > **Avanzate** > **Amministrazione** > **Sicurezza**.
 
-1. In Admin, passa a **Sistema** > **Trasferimento dati** > **Esporta**.
+1. In Amministrazione, passa a **Sistema** > **Trasferimento dati** > **Esporta**.
 
    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. Seleziona
    * **Tipo di entità**: *Prodotti*
-   * **Esporta formato file**: *CSV*
-   * **Enclosure per campi**: lascia deselezionato.
-1. Clic **Continua**.
-1. Viene visualizzato il seguente messaggio: *&quot;Il messaggio viene aggiunto alla coda, attendi di ottenere il file a breve&quot;*.
+   * **Formato file esportazione**: *CSV*
+   * **Enclosure campo**: lasciare deselezionata.
+1. Fai clic su **Continua**.
+1. Viene visualizzato il seguente messaggio: *&quot;Il messaggio è stato aggiunto alla coda, attendi di ottenere il file a breve&quot;*.
 
 <u>Risultato previsto</u>
 
@@ -53,29 +53,29 @@ Si è verificato un problema noto con la funzionalità di esportazione nella ver
 Esistono due possibili soluzioni per il problema:
 
 * Disattiva l’opzione Aggiungi chiave segreta all’URL.
-* Esegui il `bin/magento queue:consumers:start exportProcessor` e configurarlo per essere eseguito da cron.
+* Eseguire il comando `bin/magento queue:consumers:start exportProcessor` manualmente e configurarlo per l&#39;esecuzione da parte di cron.
 
 I dettagli di entrambe le opzioni sono riportati nei paragrafi seguenti.
 
 ### Disattiva l’opzione Aggiungi chiave segreta all’URL
 
-1. In Admin, passa a **Negozi** > **Configurazione** > **Avanzate** > **Amministratore** > **Sicurezza**.
-1. Imposta il **Aggiungi chiave segreta agli URL** opzione per *No.*
-1. Clic **Salva configurazione**.
-1. Pulisci cache in **Sistema** > **Strumenti** > **Gestione cache** o eseguendo    ```bash    bin/magento cache:clean``` o nell’Amministratore.
+1. In Amministrazione, passa a **Archivi** > **Configurazione** > **Avanzate** > **Amministrazione** > **Sicurezza**.
+1. Imposta l&#39;opzione **Aggiungi chiave segreta agli URL** su *No.*
+1. Fai clic su **Salva configurazione**.
+1. Pulisci cache in **Sistema** > **Strumenti** > **Gestione cache** o eseguendo    ```bash    bin/magento cache:clean``` o nell&#39;amministratore.
 
 ### Esegui il comando di esportazione manualmente e, facoltativamente, aggiungilo come processo cron
 
-Per ottenere il file di esportazione, eseguire la `bin/magento queue:consumers:start exportProcessor` comando. Dopo aver eseguito questa operazione, il file deve essere visualizzato nella griglia.
+Per ottenere il file di esportazione, eseguire il comando `bin/magento queue:consumers:start exportProcessor`. Dopo aver eseguito questa operazione, il file deve essere visualizzato nella griglia.
 
 
-Per aggiungere il processo come processo cron, è necessario aggiungere `CRON_CONSUMERS` variabile a `.magento.env.yaml` file.
+Per aggiungere il processo come processo cron, è necessario aggiungere la variabile `CRON_CONSUMERS` al file `.magento.env.yaml`.
 
 #### Aggiungi processo come processo cron (facoltativo)
 
-1. Assicurati che il cron sia configurato e configurato. Consulta [Imposta processi cron](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html) per i dettagli.
+1. Assicurati che il cron sia configurato e configurato. Per ulteriori informazioni, vedere [Configurare i processi cron](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 1. Esegui il comando seguente per restituire un elenco di consumer della coda di messaggi:     `./bin/magento queue:consumers:list`
-1. Aggiungi quanto segue al tuo `.magento.env.yaml` nella directory principale dell&#39;applicazione e includere i consumer che si desidera aggiungere. Ad esempio, ecco il consumatore necessario per l’elaborazione dell’esportazione:
+1. Aggiungere quanto segue al file `.magento.env.yaml` nella directory dell&#39;applicazione radice e includere i consumer che si desidera aggiungere. Ad esempio, ecco il consumatore necessario per l’elaborazione dell’esportazione:
 
    ```yaml
    stage:
@@ -87,16 +87,16 @@ Per aggiungere il processo come processo cron, è necessario aggiungere `CRON_CO
                    - exportProcessor
    ```
 
-   Quindi invia questo file aggiornato e ridistribuisci l’ambiente. Riferimento anche [Aggiungi processi cron personalizzati al progetto](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project) nella documentazione per gli sviluppatori.
+   Quindi invia questo file aggiornato e ridistribuisci l’ambiente. Vedi anche [Aggiungere processi cron personalizzati al progetto](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >
->Se non riesci a trovare `.magento.env.yaml` per il tuo ambiente e pensi che sia stato eliminato, devi creare un nuovo `.magento.env.yaml`. Inizialmente potrebbe essere vuoto, puoi aggiungere le informazioni in base alle esigenze. Fai riferimento ai seguenti articoli: [Configurare le variabili di ambiente per la distribuzione](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) e [Variabili di ambiente](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) nella documentazione per gli sviluppatori.
+>Se non riesci a trovare il file `.magento.env.yaml` per il tuo ambiente e pensi che sia stato eliminato, devi creare un nuovo `.magento.env.yaml`. Inizialmente potrebbe essere vuoto, puoi aggiungere le informazioni in base alle esigenze. Consulta i seguenti articoli: [Configurare le variabili di ambiente per la distribuzione](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) e [Variabili di ambiente](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) nella documentazione per gli sviluppatori.
 
 >[!TIP]
 >
->[File YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) fanno distinzione tra maiuscole e minuscole e non consentono l’uso di tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
+>[I file YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) fanno distinzione tra maiuscole e minuscole e non consentono tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
 
 >[!NOTE]
 >
->Nei progetti Adobe Commerce su infrastruttura cloud Pro, il [funzione auto-crons](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve essere abilitato nell’infrastruttura cloud di Adobe Commerce per poter aggiungere processi cron personalizzati agli ambienti di staging e produzione tramite `.magento.app.yaml`. Se questa funzione non è abilitata, [creare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), per aggiungere il lavoro.
+>Nei progetti Pro di Adobe Commerce su infrastrutture cloud, la funzione [auto-crons](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve essere abilitata nell&#39;infrastruttura Adobe Commerce su cloud prima di poter aggiungere processi cron personalizzati agli ambienti di staging e produzione utilizzando `.magento.app.yaml`. Se questa funzionalità non è abilitata, [crea un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per aggiungere il processo.

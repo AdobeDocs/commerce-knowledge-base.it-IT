@@ -21,13 +21,13 @@ L’articolo fornisce un collegamento alla patch per un problema noto di Adobe C
 
 ## Problema
 
-Adobe Commerce richiede ai clienti di effettuare l’accesso visualizzando questo messaggio: *&quot;Questo account non è confermato. Fai clic qui per inviare di nuovo l’e-mail di conferma&quot;*. Il **Fai clic qui** Il collegamento deve aprire la pagina di collegamento Invia conferma, ma è inattivo.
+Adobe Commerce richiede ai clienti di effettuare l&#39;accesso visualizzando questo messaggio: *&quot;L&#39;account non è confermato. Fare clic qui per inviare di nuovo l&#39;e-mail di conferma&quot;*. Il collegamento **Fai clic qui** dovrebbe aprire la pagina di collegamento Invia conferma, ma non è attivo.
 
 ## Soluzione
 
-Una patch per questo problema è disponibile in Risorse tecniche di Adobe Commerce: [Inviare nuovamente la patch del problema del collegamento e-mail di conferma dell’account per Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). Una correzione permanente sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pianificato per il quarto trimestre del 2020.
+Una patch per questo problema è disponibile nelle Risorse tecniche di Adobe Commerce: [Inviare nuovamente la patch del problema del collegamento e-mail di conferma dell&#39;account per Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). Una correzione permanente sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pianificato per il quarto trimestre del 2020.
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) per istruzioni su come applicare una patch del compositore.
+Per istruzioni su come applicare una patch del compositore, vedere [Applicazione di una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## Lettura correlata
 

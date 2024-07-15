@@ -18,4 +18,4 @@ Un commerciante (o chiunque sia interessato alla salute del sito) può identific
 * i passaggi generali per individuare un problema che potrebbe essere un’interruzione
 * come identificare se il problema è effettivamente un’interruzione, un’interruzione su piccola scala o un impedimento temporaneo
 
-Per scaricare l’articolo, fai clic su [Outages_how_to_identifier_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+Per scaricare l&#39;articolo, fare clic su [Outages_how_to_identifier_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)

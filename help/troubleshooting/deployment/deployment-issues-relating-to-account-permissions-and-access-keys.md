@@ -28,7 +28,7 @@ La licenza Cloud è associata al contatto A (indirizzo e-mail: *<u>first@e.mail<
 <u>Passaggi da riprodurre</u>:
 
 1. Contatta Le chiavi di accesso di Adobe Commerce create sul loro account (chiave X) e installatele sul cloud.
-1. Contatto B (indirizzo e-mail: *<u>second@e.mail</u>*) ha acquistato un’estensione utilizzando il suo account e creato i tasti di accesso per installarla (chiave Y).
+1. Il contatto B (indirizzo di posta elettronica: *<u>second@e.mail</u>*) ha acquistato un&#39;estensione utilizzando il proprio account e ha creato le chiavi di accesso per l&#39;installazione dell&#39;estensione (chiave Y).
 1. Il contatto A ha quindi lasciato la società e la licenza (proprietà) è stata trasferita al contatto B.
 1. System Integrator tenta di installare l’estensione nell’ambiente cloud utilizzando la chiave X.
 
@@ -50,17 +50,17 @@ Se una distribuzione non è riuscita dopo che è stata apportata una modifica al
 
 ### Come disattivare il tasto di scelta
 
-Se non hai accesso a [Commerce Marketplace](https://marketplace.magento.com/) account associato alla chiave precedente, [contatta il supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per disabilitare la chiave.
+Se non hai accesso all&#39;account [Commerce Marketplace](https://marketplace.magento.com/) associato alla chiave precedente, [contatta il supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per disabilitare la chiave.
 
 Se hai accesso all’account Marketplace associato alla vecchia chiave, procedi come segue per disabilitare la chiave:
 
-1. Accedi a [Commerce Marketplace](https://marketplace.magento.com/) utilizzando le credenziali del vecchio account.
-1. Fai clic sul nome dell’account in alto a destra della pagina e seleziona **Il mio profilo**.
-1. Clic **Chiavi di accesso** nella scheda Marketplace.
+1. Accedi alla [Commerce Marketplace](https://marketplace.magento.com/) utilizzando le credenziali dell&#39;account precedente.
+1. Fai clic sul nome dell&#39;account in alto a destra della pagina e seleziona **Il mio profilo**.
+1. Fare clic su **Chiavi di accesso** nella scheda Marketplace.
 
    ![magento_products_access_keys_2.4.1.png](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
 
-1. Clic **Disattiva** accanto alla chiave di accesso.
+1. Fai clic su **Disattiva** accanto alla chiave di accesso.
 
 ## Lettura correlata
 

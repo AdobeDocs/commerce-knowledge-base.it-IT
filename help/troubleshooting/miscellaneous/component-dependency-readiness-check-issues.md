@@ -25,7 +25,7 @@ Si consiglia di provare le soluzioni seguenti nell&#39;ordine indicato:
 
 ### Dipendenze in conflitto {#trouble-depend-conflict}
 
-Il messaggio *Sono state trovate dipendenze dei componenti in conflitto* viene visualizzato se Composer non è in grado di determinare quali componenti installare o aggiornare. Per risolvere i problemi di dipendenza dei componenti, devi essere una persona tecnica che capisca a fondo come funziona Compositore.
+Viene visualizzato il messaggio *Sono state trovate dipendenze dei componenti in conflitto* se Composer non è in grado di determinare quali componenti installare o aggiornare. Per risolvere i problemi di dipendenza dei componenti, devi essere una persona tecnica che capisca a fondo come funziona Compositore.
 
 Di seguito è riportato un esempio di messaggio di errore:
 
@@ -40,7 +40,7 @@ We found conflicting component dependencies.
 >
 >Il messaggio visualizzato sarà probabilmente diverso.
 
-Fai riferimento a [Dipendenze dei componenti in conflitto per una soluzione](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) nella nostra knowledge base di supporto.
+Consulta [Dipendenze dei componenti in conflitto per una soluzione](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) nella Knowledge Base di supporto.
 
 ## Problemi relativi alle autorizzazioni del file system {#trouble-depend-permission}
 
@@ -51,10 +51,10 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Accertati di impostare le autorizzazioni del file system come descritto nell’articolo [Panoramica sulla proprietà e sulle autorizzazioni](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) nella documentazione per gli sviluppatori.
+Assicurati di impostare le autorizzazioni del file system come descritto nell&#39;articolo [Panoramica sulla proprietà e sulle autorizzazioni](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) nella documentazione per gli sviluppatori.
 
 ## Lo stato di Verifica dipendenza componente non cambia mai {#trouble-depend-state}
 
-In alcuni casi, lo stato del controllo di dipendenza dei componenti non cambia, anche dopo aver tentato di correggere i problemi. In tal caso, è possibile eliminare o rinominare i file denominati `<magento_root>/var/.update_cronjob_status` e `<magento_root>/var/.setup_cronjob_status` e riprovare a eseguire Gestione componenti.
+In alcuni casi, lo stato del controllo di dipendenza dei componenti non cambia, anche dopo aver tentato di correggere i problemi. In tal caso, è possibile eliminare o rinominare i file denominati `<magento_root>/var/.update_cronjob_status` e `<magento_root>/var/.setup_cronjob_status` e provare a eseguire nuovamente Gestione componenti.
 
 La ridenominazione o la rimozione di questi file costringe Component Manager a eseguire nuovamente i controlli.

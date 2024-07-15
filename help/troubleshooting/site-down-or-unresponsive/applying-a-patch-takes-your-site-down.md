@@ -36,7 +36,7 @@ Rimuovere la patch. Il metodo di rimozione delle patch è diverso per l’infras
 
 Per le versioni di Magento Open Source 1.X,
 
-* Esegui il seguente comando SSH: `h SUPEE_patch --revert `
+* Esegui il comando SSH seguente: `h SUPEE_patch --revert `
 
 ### Adobe Commerce on-premise, Magento Open Source, tutte le versioni 2.x
 
@@ -48,15 +48,15 @@ Per le versioni on-premise e Magento Open Source 2.x di Adobe Commerce,
    patch -p1 -R %patch_name%.composer.patch
    ```
 
-   Se il comando precedente non funziona, provare a utilizzare `-p2` invece di `-p1`)
+   Se il comando precedente non funziona, provare a utilizzare `-p2` anziché `-p1`
 
-1. Affinché le modifiche vengano applicate, aggiorna la cache in Admin in **Sistema** > **Gestione cache**.
+1. Affinché le modifiche vengano applicate, aggiorna la cache nell&#39;amministratore in **Sistema** > **Gestione cache**.
 
 ### Adobe Commerce su infrastruttura cloud, tutte le versioni
 
 Per Adobe Commerce su infrastruttura cloud, tutte le versioni,
 
-1. Rimuovi il `%patch_name%.composer.patch` file da `m2-hotfixes` directory.
+1. Rimuovere i file `%patch_name%.composer.patch` dalla directory `m2-hotfixes`.
 1. Effettua il commit e invia le modifiche al codice:
 
    ```
@@ -65,4 +65,4 @@ Per Adobe Commerce su infrastruttura cloud, tutte le versioni,
 
 ## Lettura correlata
 
-* [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella nostra knowledge base di supporto.
+* [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.

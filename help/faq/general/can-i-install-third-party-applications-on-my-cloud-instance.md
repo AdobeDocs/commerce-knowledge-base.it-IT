@@ -18,7 +18,7 @@ No. L’installazione di app di terze parti (come WordPress o Drupal) su Adobe C
 
 ### Condizioni del contratto di assistenza
 
-Adobe Commerce sull’infrastruttura cloud Edition [Condizioni del contratto di assistenza](https://magento.com/legal/terms/cloud-terms) all&#39;articolo 18, stabilisce quanto segue:
+L&#39;edizione [dei termini del contratto di servizio](https://magento.com/legal/terms/cloud-terms) di Adobe Commerce on cloud infrastructure indica all&#39;articolo 18 quanto segue:
 
 > Il Cliente accetta che Adobe Commerce e il Servizio non verranno utilizzati per ospitare altre applicazioni software di terze parti che non dipendono direttamente dal Software.
 
@@ -29,10 +29,10 @@ Essendo una soluzione cloud, Adobe si assume la piena responsabilità della sicu
 In qualità di provider di soluzioni di livello 1 con certificazione PCI, Adobe Commerce sull’infrastruttura cloud deve seguire lo standard PCI Data Security e assicurarsi di:
 
 >... Sviluppo e manutenzione di sistemi e applicazioni sicuri
-> ([Approccio di Adobe alla conformità PCI](https://magento.com/pci-compliance) Requisito 6, mantenere un programma di gestione delle vulnerabilità)
+> ([Approccio di Adobe alla conformità PCI](https://magento.com/pci-compliance) Requisito 6, Mantenere un programma di gestione delle vulnerabilità)
 
 Poiché Adobe non può garantire la conformità PCI delle applicazioni di terze parti, l’installazione di tali app sui server cloud non è consentita.
 
-## Suggerimento: utilizzare estensioni Commerci Marketplace per integrazioni migliori
+## Suggerimento: utilizzare estensioni Commerce Marketplace per integrazioni migliori
 
-Per migliorare l’integrazione dell’applicazione Adobe Commerce sull’infrastruttura cloud con le soluzioni di terze parti ospitate su server esterni, ti invitiamo a utilizzare [Commerce Marketplace](https://marketplace.magento.com) estensioni adatte al tuo scopo.
+Per migliorare l&#39;integrazione dell&#39;applicazione Adobe Commerce sull&#39;infrastruttura cloud con le soluzioni di terze parti ospitate su server esterni, ti invitiamo a utilizzare le estensioni [Commerce Marketplace](https://marketplace.magento.com) che potrebbero soddisfare le tue esigenze.

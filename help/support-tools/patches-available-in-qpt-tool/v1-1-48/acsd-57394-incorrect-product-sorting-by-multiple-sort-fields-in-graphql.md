@@ -1,6 +1,6 @@
 ---
-title: '"ACSD-57394: ordinamento del prodotto errato in base a più attributi di ordinamento [!DNL GraphQL]'''
-description: Applicare la patch ACSD-57394 per risolvere il problema di Adobe Commerce, in cui i prodotti vengono ordinati in modo errato quando si utilizzano più attributi di ordinamento in [!DNL GraphQL].
+title: "ACSD-57394: ordinamento del prodotto non corretto in base a più attributi di ordinamento in [!DNL GraphQL]"
+description: Applicare la patch ACSD-57394 per risolvere il problema di Adobe Commerce in cui i prodotti vengono ordinati in modo errato quando si utilizzano più attributi di ordinamento in [!DNL GraphQL].
 feature: GraphQL, Products
 role: Admin, Developer
 exl-id: f2e24daa-43a0-46b2-80b2-4e0ee116b776
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-57394: ordinamento del prodotto errato in base a più attributi di ordinamento [!DNL GraphQL]
+# ACSD-57394: ordinamento del prodotto non corretto per più attributi di ordinamento in [!DNL GraphQL]
 
-La patch ACSD-57394 risolve il problema relativo all’ordinamento errato dei prodotti quando si utilizzano più attributi di ordinamento in [!DNL GraphQL]. Questa patch è disponibile quando [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48. L’ID della patch è ACSD-57394. Il problema è pianificato per essere risolto in Adobe Commerce 2.5.0.
+La patch ACSD-57394 risolve il problema relativo all&#39;ordinamento errato dei prodotti quando si utilizzano più attributi di ordinamento in [!DNL GraphQL]. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48. L’ID della patch è ACSD-57394. Il problema è pianificato per essere risolto in Adobe Commerce 2.5.0.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.6-p3
 
@@ -27,7 +27,7 @@ La patch ACSD-57394 risolve il problema relativo all’ordinamento errato dei pr
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con nuove [!DNL Quality Patches Tool] versioni. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -37,7 +37,7 @@ I prodotti non vengono ordinati correttamente quando si utilizzano più attribut
 
 1. Crea alcuni prodotti con nomi e prezzi diversi.
 1. Crea una categoria e assegna i prodotti creati.
-1. Invia un [!DNL GraphQL] prodotti per la categoria creata con alcuni *sort* attributi. Ad esempio:
+1. Invia una query di [!DNL GraphQL] prodotti per la categoria creata con alcuni attributi *sort*. Ad esempio:
 
    ```
    {
@@ -78,7 +78,7 @@ I prodotti non vengono ordinati correttamente quando si utilizzano più attribut
     }
    ```
 
-1. Controlla la risposta dopo la creazione *sort* attributi.
+1. Controlla la risposta dopo aver creato gli attributi *sort*.
 
 <u>Risultati previsti</u>:
 
@@ -92,15 +92,15 @@ I prodotti non vengono restituiti nell&#39;ordine corretto. Non è possibile ord
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nel [!DNL Quality Patches Tool] guida.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida di Commerce su infrastruttura cloud.
+* Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) nella guida di [!DNL Quality Patches Tool].
+* Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
 
 ## Lettura correlata
 
-Per ulteriori informazioni su [!DNL Quality Patches Tool], consulta:
+Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 
-* [[!DNL Quality Patches Tool] rilasciato: un nuovo strumento per applicare patch di qualità self-service](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [[!DNL Quality Patches Tool] rilasciato: nuovo strumento per l&#39;esecuzione automatica di patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella Knowledge Base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: cerca le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nel [!DNL Quality Patches Tool] guida.
+Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].
 

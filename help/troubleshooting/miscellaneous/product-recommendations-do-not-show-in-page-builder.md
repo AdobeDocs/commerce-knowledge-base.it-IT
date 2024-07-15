@@ -29,13 +29,13 @@ In Page Builder non è disponibile alcuna opzione per aggiungere Product Recomme
 
 ## Soluzione
 
-1. Verifica di aver installato il modulo separatamente eseguendo il comando: `composer show magento/module-page-builder-product-recommendations`
-1. Se restituisce il seguente messaggio: *Pacchetto magento/module-page-builder-product-recommendations non trovato*, sarà necessario installarlo eseguendo il comando: `composer require magento/module-page-builder-product-recommendations`
+1. Verificare di aver installato il modulo separatamente eseguendo il comando: `composer show magento/module-page-builder-product-recommendations`
+1. Se restituisce il seguente messaggio: *Impossibile trovare il pacchetto magento/module-page-builder-recommendations*, installarlo eseguendo il comando: `composer require magento/module-page-builder-product-recommendations`
 
-Attivando Product Recommendations in Page Builder, è possibile: [aggiungi un’unità di consigli](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) a qualsiasi contenuto creato in Page Builder.
+Attivando Product Recommendations in Page Builder, potrai [aggiungere un&#39;unità di consigli](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) a qualsiasi contenuto creato in Page Builder.
 
 ## Lettura correlata
 
-* [Aggiungi contenuto - Product Recommendations](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) nella guida utente.
-* [Installare e configurare Product Recommendations](https://devdocs.magento.com/recommendations/install-configure.html) nella documentazione per gli sviluppatori.
+* [Aggiungi contenuto - Recommendations del prodotto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) nella guida utente.
+* [Installa e configura il prodotto Recommendations](https://devdocs.magento.com/recommendations/install-configure.html) nella documentazione per gli sviluppatori.
 * [Guida utente di Adobe Commerce](https://docs.magento.com/user-guide/)

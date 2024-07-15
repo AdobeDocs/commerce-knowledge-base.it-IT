@@ -1,6 +1,6 @@
 ---
-title: Configurare NPM per l'utilizzo di PWA Studi
-description: '''[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studi, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nella sezione "hooks:build" del file di configurazione `.magento.app.yaml`.’'
+title: Configurare NPM per l'utilizzo di PWA Studio
+description: '''[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studio, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nella sezione "hooks:build" del file di configurazione `.magento.app.yaml`.’'
 exl-id: 3854fc94-e8ad-45d8-bf3e-73462364220d
 source-git-commit: 37ac9cca1f876a48092467aa38f2f2f013c83dd9
 workflow-type: tm+mt
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ---
 
-# Configurare NPM per l&#39;utilizzo di PWA Studi
+# Configurare NPM per l&#39;utilizzo di PWA Studio
 
-[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studi, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nel `hooks:build` sezione del `.magento.app.yaml` file di configurazione.
+[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studio, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Operazione eseguita nella sezione `hooks:build` del file di configurazione `.magento.app.yaml`.
 
 ## Ambiente e tecnologie
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 ## Imposta versione NPM: passaggi
 
-Per impostare la versione NPM necessaria, specificarla nella `.magento.app.yaml` file di configurazione. Segui questi passaggi:
+Per impostare la versione NPM necessaria, specificarla nel file di configurazione `.magento.app.yaml`. Segui questi passaggi:
 
-1. Nell’ambiente di sviluppo locale, individua il `.magento.app.yaml` file di configurazione.
+1. Nell&#39;ambiente di sviluppo locale individuare il file di configurazione `.magento.app.yaml`.
 1. Apri il file per la modifica utilizzando l’editor di testo normale o l’IDE.
-1. Imposta la versione richiesta in `hooks:build` sezione. Nell’esempio seguente, la configurazione è impostata per installare NPM v9.5.0, la versione più recente attualmente disponibile (4 febbraio 2019):
+1. Impostare la versione richiesta nella sezione `hooks:build`. Nell’esempio seguente, la configurazione è impostata per installare NPM v9.5.0, la versione più recente attualmente disponibile (4 febbraio 2019):
 
    ```yaml
    hooks:
@@ -48,10 +48,10 @@ Per impostare la versione NPM necessaria, specificarla nella `.magento.app.yaml`
    > ```
 
 1. Salva le modifiche nel file.
-1. Git invia il file modificato al tuo [ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+1. Git invia il file modificato all&#39;[ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
 
 Le modifiche diventano effettive dopo che Git ha inviato il file YAML aggiornato all’ambiente.
 
 ## Documentazione correlata
 
-* [Configurazione dell’applicazione: hook](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) nella Guida all’infrastruttura cloud di Adobe Commerce.
+* [Configurazione dell&#39;applicazione: hook](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) nella Guida all&#39;infrastruttura di Adobe Commerce su Cloud.

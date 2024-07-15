@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Errore &quot;Versione corrente di RDBMS non supportata&quot; durante la distribuzione
 
-Questo articolo fornisce una soluzione per i casi in cui una distribuzione non riesce e nel registro di distribuzione viene visualizzato il seguente errore: *versione corrente di RDBMS non supportata*.
+Questo articolo fornisce una soluzione per i casi in cui una distribuzione non riesce e si verifica il seguente errore nel registro di distribuzione: *la versione corrente di RDBMS non è supportata*.
 
 ## Prodotti e versioni interessati
 
@@ -34,7 +34,7 @@ Distribuzione riuscita.
 
 <u>Risultato effettivo</u>:
 
-La distribuzione non riesce e viene visualizzato un messaggio di errore: *versione corrente di RDBMS non supportata*.
+Distribuzione non riuscita con messaggio di errore: *la versione corrente di RDBMS non è supportata*.
 
 ## Causa
 
@@ -45,12 +45,12 @@ La versione di MariaDB in uso non è compatibile con la versione di Adobe Commer
 Prima di aggiornare l&#39;applicazione, è necessario aggiornare il servizio MariaDB a una versione compatibile.
 
 
-Per il ramo di integrazione su Adobe Commerce su infrastruttura cloud Architettura del piano Pro (e tutti i rami in architettura Starter), seguire [Configura servizio](https://devdocs.magento.com/cloud/project/services.html) nella documentazione per gli sviluppatori.
+Per il ramo di integrazione su Adobe Commerce su infrastruttura cloud Architettura del piano Pro (e tutti i rami nell&#39;architettura Starter), segui [Configurazione del servizio](https://devdocs.magento.com/cloud/project/services.html) nella documentazione per gli sviluppatori.
 
-Per l&#39;architettura di staging e produzione su Adobe Commerce su infrastruttura cloud Pro plan, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per richiedere l’aggiornamento dei servizi prima di distribuire l’aggiornamento della versione di Adobe Commerce.
+Per l&#39;architettura di staging e produzione su Adobe Commerce su infrastruttura cloud Pro, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per richiedere l&#39;aggiornamento dei servizi prima di distribuire l&#39;aggiornamento della versione di Adobe Commerce.
 
 
 ## Lettura correlata
 
 * [Best practice per le build e la distribuzione](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) nella documentazione per gli sviluppatori.
-* [Aggiornamento Adobe Commerce 2.3.5: tabelle compatte e dinamiche](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) nella nostra knowledge base di supporto.
+* [Aggiornamento Adobe Commerce 2.3.5: compatta in tabelle dinamiche](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) nella knowledge base di supporto.

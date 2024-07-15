@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-39163: metodi di spedizione non disponibili per gli utenti appena registrati con i prodotti della sessione ospite
 
-La patch MDVA-39163 risolve il problema se i metodi di spedizione non sono disponibili quando viene registrato un nuovo utente e i prodotti nel carrello provengono dalla sessione ospite. Questa patch è disponibile quando [Strumento Patch di qualità (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9. L&#39;ID della patch è MDVA-39163. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
+La patch MDVA-39163 risolve il problema se i metodi di spedizione non sono disponibili quando viene registrato un nuovo utente e i prodotti nel carrello provengono dalla sessione ospite. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9. L&#39;ID della patch è MDVA-39163. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 
 ## Prodotti e versioni interessati
 
-**La patch viene creata per la versione Adobe Commerce:**
+**La patch è stata creata per la versione di Adobe Commerce:**
 
 * Adobe Commerce (tutti i metodi di implementazione) 2.4.2-p1
 
@@ -27,7 +27,7 @@ La patch MDVA-39163 risolve il problema se i metodi di spedizione non sono dispo
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiorna la `magento/quality-patches` alla versione più recente e verificare la compatibilità nella [[!DNL Quality Patches Tool]: pagina Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -35,16 +35,16 @@ I metodi di spedizione non sono disponibili quando il nuovo utente è registrato
 
 <u>Passaggi da riprodurre</u>:
 
-1. Vai a **Amministratore** > **Negozi** > **Configurazione** > **Vendite** > **Metodi di consegna**. Abilita solo **Tariffa fissa** metodo di spedizione e disabilita tutto il resto.
-1. In **Tariffa fissa** metodo di spedizione, seleziona la **Specifico** opzione paese disponibile nella **Spedisci a paesi applicabili** impostazione e selezione di un paese dall&#39;elenco (ad esempio, Stati Uniti).
-1. Vai a **Amministratore** > **Negozi** > **Configurazione** > **Cliente** > **Configurazione cliente** e imposta **Richiedi conferma e-mail** a _Sì_.
-1. Creare un nuovo modello e-mail in **Amministratore** > **Marketing** > **Modelli e-mail** e caricare `Footer (magento/luma)` e sostituire il contenuto del modello con un blocco CMS.
+1. Vai a **Amministratore** > **Archivi** > **Configurazione** > **Vendite** > **Metodi di consegna**. Abilita solo il metodo di spedizione **Tariffa fissa** e disabilita tutto il resto.
+1. Nel metodo di spedizione **Tariffa fissa**, seleziona l&#39;opzione di paese **Specifico** disponibile nell&#39;impostazione **Spedisci a paesi applicabili** e seleziona un paese dall&#39;elenco (ad esempio, Stati Uniti).
+1. Vai a **Amministratore** > **Archivi** > **Configurazione** > **Cliente** > **Configurazione cliente** e imposta **Richiedi conferma e-mail** su _Sì_.
+1. Crea un nuovo Modello e-mail in **Amministratore** > **Marketing** > **Modelli e-mail** e carica il modello `Footer (magento/luma)` e sostituisci il contenuto del modello con un blocco CMS.
 
    ```CMS
    {{block class="Magento\Cms\Block\Block" block_id="footer_links_block"}}
    ```
 
-1. Vai a **Amministratore** > **Contenuto** > **Progettazione** > **Configurazione** e seleziona il tema relativo al sito web front-end. Imposta il &quot;Modello piè di pagina&quot; sul nuovo modello e-mail creato.
+1. Vai a **Amministratore** > **Contenuto** > **Progettazione** > **Configurazione** e seleziona il tema relativo al tuo sito Web front-end. Imposta il &quot;Modello piè di pagina&quot; sul nuovo modello e-mail creato.
 1. Vai al front-end e aggiungi un prodotto al carrello.
 1. Crea un cliente; riceverai un’e-mail per confermare l’indirizzo e-mail. Fai clic sul collegamento di verifica. Verrà effettuato l&#39;accesso al sito Web.
 1. Vai a **Il mio account** e aggiungi un indirizzo. Impostare il paese dell&#39;indirizzo sul paese di spedizione impostato in precedenza nella configurazione amministratore.
@@ -62,14 +62,14 @@ Metodo di spedizione non disponibile.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise [Guida all&#39;aggiornamento del software > Applicazione delle patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull’infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
 Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 
-* [Rilasciato lo strumento Quality Patches: un nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella nostra knowledge base di supporto.
-* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Patch di qualità](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
+* [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
+* [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) nella documentazione per gli sviluppatori.

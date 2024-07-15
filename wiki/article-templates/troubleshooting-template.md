@@ -14,7 +14,7 @@ ht-degree: 0%
 Il titolo deve descrivere brevemente il problema; si preferisce un massimo di 70 caratteri.<br/>
 (Esempio: &quot;Errore di memoria insufficiente durante l&#39;installazione o l&#39;aggiornamento&quot;).
 
-Consulta [Contribuzione > Metadati](../../CONTRIBUTING.md#metadata) per ulteriori informazioni sui metadati.
+Per ulteriori informazioni sui metadati, consulta [Contribuzione > Metadati](../../CONTRIBUTING.md#metadata).
 
 Paragrafo introduttivo o due paragrafi: una breve panoramica del problema. I primi 140 caratteri sono importanti ai fini SEO (Search Engine Optimization).
 
@@ -23,7 +23,7 @@ Paragrafo introduttivo o due paragrafi: una breve panoramica del problema. I pri
 * Adobe Commerce on-premise x.x.x
 * Adobe Commerce su infrastruttura cloud x.x.x
 
-(*In alternativa, se sono interessate le stesse versioni sul cloud o on-premise, puoi dire:*)
+(*In alternativa, se sono interessate le stesse versioni nel cloud o on-premise, si può dire:*)
 
 Adobe Commerce (tutti i metodi di distribuzione) x.x.x
 
@@ -67,7 +67,7 @@ Se esiste una soluzione alternativa temporanea, specificala come sezione separat
 
 ## Lettura correlata
 
-* [Argomento articolo](https://docs.magento.com/user-guide/) nella guida utente.
-* [Argomento articolo](https://devdocs.magento.com) nella documentazione per gli sviluppatori. Puoi anche dire di distinguere tra le istruzioni nei devdocs per gli utenti cloud e quelle per gli utenti on-premise: &quot;[Argomento articolo](https://devdocs.magento.com) nella nostra documentazione per gli sviluppatori di Adobe Commerce sull’infrastruttura cloud&quot;. vs&quot;[Argomento articolo](https://devdocs.magento.com) nella documentazione per gli sviluppatori di Adobe Commerce on-premise.&quot;
-* [Argomento articolo](https://support.magento.com/hc/en-us) nella nostra knowledge base di supporto.
+* [Argomento dell&#39;articolo](https://docs.magento.com/user-guide/) nella guida utente.
+* [Argomento dell&#39;articolo](https://devdocs.magento.com) nella documentazione per gli sviluppatori. Puoi anche dire di distinguere tra le istruzioni contenute nei devdocs per gli utenti cloud e quelle per gli utenti on-premise: &quot;[Argomento dell&#39;articolo](https://devdocs.magento.com) nella nostra documentazione per sviluppatori per Adobe Commerce sull&#39;infrastruttura cloud.&quot; vs &quot;[Argomento dell&#39;articolo](https://devdocs.magento.com) nella documentazione per gli sviluppatori di Adobe Commerce on-premise.&quot;
+* [Argomento dell&#39;articolo](https://support.magento.com/hc/en-us) nella Knowledge Base di supporto.
 * Qualsiasi risorsa correlata (blog, forum, StackOverflow, ecc.)
