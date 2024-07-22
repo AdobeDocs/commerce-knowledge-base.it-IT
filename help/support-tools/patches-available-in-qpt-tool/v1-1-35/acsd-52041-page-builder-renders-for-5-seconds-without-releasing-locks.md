@@ -4,9 +4,9 @@ description: Applica la patch ACSD-52041 per risolvere il problema di Adobe Comm
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
+source-git-commit: b5c253a5c0651c6027c0795edb2f230bd65f734a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,22 @@ La patch ACSD-52041 risolve il problema relativo al rendering del Page Builder p
 
 **Compatibile con le versioni di Adobe Commerce:**
 
-* Adobe Commerce (tutti i metodi di implementazione) 2.4.4 - 2.4.4-p8, 2.4.5 - 2.4.5-p7, 2.4.6 - 2.4.6-p6
+* Adobe Commerce (tutti i metodi di implementazione) 2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4 e 2.4.6 - 2.4.6-p2.
+
+
 
 >[!NOTE]
 >
 >La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
+
 ## Problema
 
-Il Page Builder esegue il rendering per cinque secondi senza rilasciare blocchi.
+**[!DNL Page Builder]** esegue il rendering per *5* secondi senza rilasciare i blocchi.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Modificare una pagina CMS, una pagina di prodotto o qualsiasi altro elemento con Page Builder.
+1. Modificare una pagina CMS, una pagina di prodotto o qualsiasi elemento con **[!DNL Page Builder]**.
 1. Salva le modifiche.
 1. Osserva il tempo di salvataggio della pagina.
 
@@ -50,7 +53,7 @@ Errore nella console: ``Page Builder was rendering for 5 seconds without releasi
 
 ## Applicare la patch
 
-Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
+Per applicare singole patch per le versioni **2.4.4 - 2.4.4-p5, 2.4.5 - 2.4.5-p4 e 2.4.6 - 2.4.6-p2**, utilizzare i collegamenti seguenti a seconda del metodo di distribuzione:
 
 * Adobe Commerce o Magento Open Source locale: [[!DNL Quality Patches Tool] > Utilizzo](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>) nella guida di [!DNL Quality Patches Tool].
 * Adobe Commerce su infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) nella guida Commerce su infrastruttura cloud.
