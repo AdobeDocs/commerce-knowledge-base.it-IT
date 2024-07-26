@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per i conflitti di dipendenza de
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Viene visualizzato il messaggio *Sono state trovate dipendenze dei componenti in
 
 Di seguito è riportato un esempio di messaggio di errore:
 
-```terminal
+```bash
 We found conflicting component dependencies.
  You are trying to update package(s) magento/module-sample-data to 1.0.0-beta
  We've detected conflicts with the following packages:
@@ -46,7 +46,7 @@ Consulta [Dipendenze dei componenti in conflitto per una soluzione](/help/troubl
 
 Se il proprietario del file system di Adobe Commerce non dispone delle autorizzazioni necessarie per scrivere nelle directory del file system di Adobe Commerce, viene visualizzato un messaggio simile al seguente:
 
-```terminal
+```bash
 file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```

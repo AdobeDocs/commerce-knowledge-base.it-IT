@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione alternativa per il problema 
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
@@ -30,13 +30,13 @@ Questo articolo fornisce una soluzione alternativa per il problema on-premise di
 
 1. Installa Adobe Commerce 2.4.6-p1.
 
-   ```terminal
+   ```bash
    m2install.sh -s composer --ee -v 2.4.6-p1
    ```
 
 1. Provare a installare [!DNL B2B] versione 1.4.0.
 
-   ```terminal
+   ```bash
    composer require magento/extension-b2b:1.4.0
    ```
 
@@ -48,7 +48,7 @@ Installazione di [!DNL B2B] versione 1.4.0 in Adobe Commerce 2.4.6-p1 completata
 
 L’installazione non riesce e viene visualizzato il seguente errore:
 
-```terminal
+```bash
 Your requirements could not be resolved to an installable set of packages.
 
   Problem 1
@@ -65,13 +65,13 @@ Installazione o aggiornamento a [!DNL B2B] versione 1.4.0 in Adobe Commerce 2.4.
 
 1. Dalla directory di installazione di Adobe Commerce, aggiornare `composer.json` con le dipendenze richieste:
 
-   ```terminal
+   ```bash
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
    ```
 
    **Output comando:**
 
-   ```terminal
+   ```bash
    Running composer update magento/module-re-captcha-company magento/security-package-b2b
    Loading composer repositories with package information
    Updating dependencies
@@ -94,13 +94,13 @@ Installazione o aggiornamento a [!DNL B2B] versione 1.4.0 in Adobe Commerce 2.4.
 
 1. Aggiorna `composer.json` per aggiungere [!DNL B2B] versione 1.4.0.
 
-   ```terminal
+   ```bash
    composer require magento/extension-b2b=1.4.0
    ```
 
    **Output comando:**
 
-   ```terminal
+   ```bash
    ./composer.json has been updated
    Running composer update magento/extension-b2b
    Loading composer repositories with package information

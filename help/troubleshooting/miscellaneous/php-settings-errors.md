@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per gli errori delle impostazion
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Per aumentare il limite di memoria PHP:
 
 Configurazioni con un numero elevato di visualizzazioni, prodotti, attributi o opzioni possono generare moduli che superano il limite PHP preimpostato. Se il numero di valori inviati supera il limite di `max-input-vars` impostato entro `php.ini` (il valore predefinito è 1000), i dati rimanenti non vengono trasferiti e i valori del database non vengono aggiornati. In questo caso, nel registro PHP viene visualizzato un avviso:
 
-```terminal
+```bash
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
@@ -58,7 +58,7 @@ Vedere [Errore del livello massimo di nidificazione delle funzioni xdebug durant
 
 Il testo di errore è in genere:
 
-```terminal
+```bash
 Parse error: syntax error, unexpected 'data' (T_STRING)
 ```
 
