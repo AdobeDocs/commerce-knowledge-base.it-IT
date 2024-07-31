@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
+source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
 workflow-type: tm+mt
-source-wordcount: '11073'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
@@ -1054,6 +1054,7 @@ ht-degree: 0%
       * [ERRORE: riscaldamento non riuscito in Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
       * [Impossibile clonare l’archivio GitHub del Magento](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [Catalogo Live Search non sincronizzato](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
+      * [La classificazione del dashboard e dei risultati di ricerca [!DNL Live Search] non è corretta](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
       * [I profili cliente non vengono visualizzati in Experience Platform](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: il browser non è in grado di risolvere il sito .local.pwadev](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [Recommendations del prodotto non visualizzato in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
