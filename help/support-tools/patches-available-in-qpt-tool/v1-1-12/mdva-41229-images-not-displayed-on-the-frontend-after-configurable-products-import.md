@@ -4,7 +4,7 @@ description: La patch MDVA-41229 risolve il problema per cui le immagini disponi
 exl-id: 69d7374f-9f8b-4ec4-8a7f-135ee06135a3
 feature: Data Import/Export, Configuration, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 143a694fd573aeb2a52f47d194359e98f74f8033
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 2%
@@ -37,12 +37,15 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
 
 1. Installa un Adobe Commerce pulito.
 1. Aggiungi un attributo personalizzato andando in **Archivi** > **Attributi** > **Prodotto** > **Aggiungi nuovo attributo** con le impostazioni seguenti:
+
    * Proprietà:
       * Proprietà attributo:
+
          * Etichetta predefinita: Imposta dimensione
          * Tipo di input del catalogo per il proprietario del negozio: campione di testo
          * Valori richiesti: no
          * Aggiorna immagine anteprima prodotto: sì
+
       * Gestisci campione (valori dell&#39;attributo):
 
         | È predefinito | Campione amministratore | Descrizione amministratore | Campione visualizzazione store predefinito | Descrizione predefinita vista store |
@@ -52,17 +55,24 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
         | no | 30 | 30 | 30 | 30 |
         | no | 60 | 60 | 60 | 60 |
         | no | 68 | 68 | 68 | 68 |
+
       * Proprietà attributi avanzate:
+
          * Codice attributo: set_size
          * Ambito: globale
          * Valore univoco: No
          * Convalida input per proprietario archivio: nessuna
          * Opzioni Aggiungi a colonna: No
          * Usa in opzioni filtro: No
+
    * Gestisci etichette:
+
       * Gestione titoli (dimensioni, colore, ecc.)
+
          * Visualizzazione store predefinita: Imposta dimensione
+
    * Proprietà vetrina:
+
       * Usa nella ricerca: Sì
       * Peso ricerca: 1
       * Visibile in Ricerca avanzata: no
@@ -73,12 +83,17 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
       * Visibile sulle pagine del catalogo in Storefront: sì
       * Utilizzato nell’elenco dei prodotti: sì
       * Utilizzato per l’ordinamento nell’elenco dei prodotti: no
+
 1. Aggiungi questo attributo al set di attributi predefinito nel gruppo Dettagli prodotto (**Archivi** > **Attributi** > **Set di attributi**).
 1. Scarica le immagini impostate nella cartella var all’interno della directory principale di Adobe Commerce.
 1. Vai a **Sistema** > **Trasferimento dati** > e importa il file utilizzando le opzioni seguenti:
+
    * Importa impostazioni:
+
       * Tipo di entità: prodotti
+
    * Comportamento importazione:
+
       * Comportamento di importazione: Aggiungi/Aggiorna
       * Strategia di convalida: arresto in caso di errore
       * Conteggio errori consentiti: 1
@@ -86,9 +101,12 @@ Le immagini disponibili sul backend non vengono visualizzate sul front-end dopo 
       * Separatore di più valori: `,`
       * Costante valore attributo: EMPTYVALUE
       * Campi allegati: deselezionato
+
    * File da importare:
+
       * Selezionate il file da importare
       * Directory file immagini: lasciate vuoto
+
 1. Vai alla vetrina per `/product-set.html` pagina e passa tra diverse dimensioni di set. Per Set Size 24, non ci sarà alcuna galleria.
 
 <u>Risultati previsti</u>:
