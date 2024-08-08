@@ -4,9 +4,9 @@ description: I problemi di Reporting avanzato su Adobe Commerce possono essere r
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 84b4ca4c4144381f0b404d2eae6684e7b21755df
+source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ b. NO - Procedi al [passaggio 4](#step-4).
 
 +++**La generazione di rapporti avanzata è abilitata?**
 
-Controlla **Amministratore** > **Archivi** > **Impostazioni** > **Configurazione** > **Generale** > **Avanzate**. Per i passaggi dettagliati, controlla [Reporting avanzato: abilita reporting avanzato](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
+Controlla **Amministratore** > **Archivi** > **Impostazioni** > **Configurazione** > **Generale** > **Generazione avanzata dei rapporti**. Per i passaggi dettagliati, controlla [Reporting avanzato: abilita reporting avanzato](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
 
 a. SÌ - Procedere al [passaggio 5](#step-5).\
 b. NO - [Abilita la generazione di rapporti avanzati](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) e salva e attendi 24 ore la sincronizzazione di Adobe Commerce e Advanced Reporting. Verifica se i dati ora vengono caricati. Se è così, hai risolto il problema. Se non si procede al [passaggio 5](#step-5).
