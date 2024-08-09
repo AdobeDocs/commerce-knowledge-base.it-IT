@@ -4,9 +4,9 @@ description: Tutto ciò che è necessario sapere per risolvere i problemi e gest
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 738a5455267647d294d222d5bb6149254dcb93dd
+source-git-commit: cfbe281941fbdc3e6fe7ee36385dc6732b46da26
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Le informazioni contenute in questa Knowledge Base sono complementari a [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) e ad altre pubblicazioni Adobe Commerce. Descrive la risoluzione dei problemi e le best practice, gli annunci host, le risposte alle domande frequenti ed evidenzia scenari specifici che non sono stati menzionati (per qualsiasi motivo) nella documentazione ufficiale.
 
-## Cosa c&#39;è nella Knowledge Base?
+## Cosa contiene la Knowledge Base?
 
 | CATEGORIA | DESCRIZIONE |
 | --- | --- |
