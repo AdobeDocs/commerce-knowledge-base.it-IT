@@ -4,21 +4,21 @@ promoted: true
 description: Applica una patch isolata per correggere [!DNL CVE-2024-39397] le istanze di Adobe Commerce 2.4.7-p2, 2.4.6-p7, 2.4.5-p9, 2.4.4-p10 e versioni precedenti che eseguono solo [!DNL Apache].
 feature: Compliance, Security
 role: Developer
-source-git-commit: 2038e766d65c81172391091a0cdff4abb04e84d5
+source-git-commit: 76ff7669a0a57925a176e08031e0789ced0a7f0e
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB24-61]
 
-Il 13 agosto 2024 Adobe ha rilasciato un aggiornamento sulla sicurezza del plug-in Adobe Commerce, Magento Open Source e Adobe Commerce Webhooks.
+Il 13 agosto 2024 Adobe ha rilasciato un aggiornamento della sicurezza regolarmente pianificato per il plug-in Adobe Commerce, Magento Open Source e Adobe Commerce Webhooks.
 Questo aggiornamento risolve [[!DNL critical, important] e  [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilità. Un corretto sfruttamento potrebbe causare l’esecuzione arbitraria del codice, la lettura arbitraria del file system, il bypass delle funzionalità di sicurezza e l’escalation dei privilegi. Il bollettino è [Adobe Security Bulletin ([!DNL APSB24-61])](https://helpx.adobe.com/security/products/magento/apsb24-61.html).
 
 >[!NOTE]
 >
->**[!DNL CVE-2024-39397]è applicabile solo quando si utilizza il server Web [!DNL Apache].** Per garantire che la correzione per questa vulnerabilità possa essere applicata il più rapidamente possibile, Adobe ha anche rilasciato una patch isolata che risolve [!DNL CVE-2024-39397].
+>**[!DNL CVE-2024-39397], elencato nel bollettino sulla sicurezza riportato sopra, è applicabile solo quando si utilizza il server web [!DNL Apache].** Per garantire che la correzione per questa vulnerabilità possa essere applicata il più rapidamente possibile, Adobe ha anche rilasciato una patch isolata che risolve [!DNL CVE-2024-39397].
 
 **Applica gli ultimi aggiornamenti di sicurezza il prima possibile. In caso contrario, si sarà vulnerabili a questi problemi di sicurezza e gli Adobi disporranno di mezzi limitati per contribuire a risolvere il problema.**
 
