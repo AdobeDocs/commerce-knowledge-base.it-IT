@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 23f19c3b8fff3b31bb42625d210c5330292b79b3
+source-git-commit: 38e67144f337c8359a5602e49d8a0ee91cd20b53
 workflow-type: tm+mt
-source-wordcount: '2088'
+source-wordcount: '2117'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,11 @@ Per inviare un nuovo caso di supporto utilizzando la pagina iniziale di Adobe Ex
 
    ![open-support-page](assets/click_support.png)
 
-1. Per avviare il processo di assegnazione del supporto, fare clic su **[!UICONTROL Open Ticket]** nel menu a sinistra oppure su **[!UICONTROL Get Started]** nella scheda *[!UICONTROL Open a support ticket]*.
+1. Per iniziare il processo di assegnazione del supporto, accertarsi di aver selezionato l&#39;organizzazione appropriata dall&#39;elenco a discesa (se disponibile), poiché è possibile che più organizzazioni con nomi simili, ciascuna con i propri diritti.
+
+   ![immagine](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
+
+1. Fare clic su **[!UICONTROL Open Ticket]** nel menu a sinistra o su **[!UICONTROL Get Started]** nella scheda *[!UICONTROL Open a support ticket]*.
 
    ![open-support-case](assets/open_support_case.png)
 
