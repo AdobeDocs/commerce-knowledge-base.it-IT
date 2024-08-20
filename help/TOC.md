@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: abfd1e3a042f2756c27471b81004a3dcea0914ac
+source-git-commit: 01d815edd76b749df036021d75d4456d9d7b5550
 workflow-type: tm+mt
-source-wordcount: '11090'
+source-wordcount: '11096'
 ht-degree: 0%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 0%
          * [MDVA-37748: la query GraphQL restituisce prodotti non assegnati a un catalogo condiviso](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-37748-graphql-query-returns-products-not-assigned-to-shared-catalog.md)
          * [MDVA-39229: errore dopo l&#39;aggiornamento dell&#39;ora di inizio dell&#39;aggiornamento della gestione temporanea della regola del catalogo](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-39229-error-updating-catalog-rule-staging-update-start-time.md)
          * [MDVA-40545: viene recuperato solo il primo nodo di una pagina](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-40545-only-the-first-node-for-a-page-retrieved.md)
-         * [MDVA-40619: le modifiche della gerarchia interrompono la pagina CMS durante la modifica in linea e generano l&#39;errore 500](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-40619-hierarchy-changes-break-cms-page-inline-edit-and-throw-500-error.md)
+         * [MDVA-40619: le modifiche della gerarchia interrompono la modifica in linea della pagina CMS e generano l&#39;errore 500](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-40619-hierarchy-changes-break-cms-page-inline-edit-and-throw-500-error.md)
          * [MDVA-41046: prodotti semplici con opzioni personalizzate non disponibili per l&#39;assegnazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41046-simple-products-with-custom-options-not-available-for-assigning.md)
          * [MDVA-41061: lo stato del magazzino viene reimpostato su vendibile quando il prodotto viene salvato dall&#39;amministratore](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41061-stock-status-resets-saleable-when-saved-from-admin.md)
          * [MDVA-41164: impossibile salvare o modificare la società con attributi cliente personalizzati](/help/support-tools/patches-available-in-qpt-tool/v1-1-5/mdva-41164-admin-user-cannot-save-or-edit-company-with-custom-customer-attributes.md)
@@ -613,7 +613,7 @@ ht-degree: 0%
          * [ACSD-50512: errore durante l’aggiornamento della data di inizio per un aggiornamento scaricabile della gestione temporanea del prodotto](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
          * [ACSD-50895: i tag GTM Google Analytics 3 non vengono attivati se Google Analytics 4 GTM non è configurato](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
          * [ACSD-51471: l’utente amministratore non può salvare l’aggiornamento pianificato per il prodotto in bundle](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51471-admin-user-cannot-save-scheduled-update-for-bundled-product.md)
-         * [ACSD-51120: cache delle richieste di GET di GraphQL non cancellata per le pagine CMS che contengono blocchi CMS](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
+         * [ACSD-51120: cache delle richieste di GraphQL GET non cancellata per le pagine CMS che contengono blocchi di CMS](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
          * [ACSD-51700: errore nel cambiare le visualizzazioni dello store nella pagina di modifica del prodotto scaricabile](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
          * [ACSD-51735: lo stato dell&#39;articolo dell&#39;ordine non è impostato correttamente su [!UICONTROL Ordered] quando lo stock di prodotto è 0](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51735-order-item-status-incorrectly-set.md)
          * [ACSD-51497: impossibile ordinare la pagina del catalogo per attributo personalizzato di tipo A discesa](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51497-cannot-sort-catalog-page-by-custom-attribute-of-dropdown-type.md)
@@ -705,7 +705,7 @@ ht-degree: 0%
          * [ACSD-54472: i clienti di una società rifiutata possono ancora autenticare e fare ordini](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54472-customers-of-rejected-company-can-still-authenticate-and-place-orders.md)
          * [ACSD-54680: impossibile elaborare il preventivo B2B per un prodotto con più origini assegnate](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54680-b2b-quote-submitted-for-a-product-with-multiple-assigneda-sources.md)
          * [ACSD-55004: la convalida si blocca durante il caricamento di un file di importazione di dimensioni superiori al valore](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-55004-validator-crashes-while-uploading-an-import-file-larger-than-the-value.md)
-         * [ACSD-53414: gli utenti amministratori con restrizioni possono visualizzare le pagine CMS al di fuori del loro ambito di autorizzazioni](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
+         * [ACSD-53414: gli utenti amministratori con restrizioni possono visualizzare le pagine CMS al di fuori del proprio ambito di autorizzazioni](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-53414-restricted-admin-user-can-see-cms-pages-outside-permissions.md)
          * [ACSD-52657: Minicart non aggiornato nel secondo storeview che utilizza il sottodominio](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-52657-minicart-not-updated-on-second-storeview.md)
          * [ACSD-54007: errore di _ambito chiave di array non definito durante l’importazione dei dati del cliente](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54007-undefined-array-key-scope-error-importing-customer-data.md)
          * [ASCD-54040: il campo [!UICONTROL Created] è vuoto nei dettagli dell&#39;ordine quando i moduli B2B sono abilitati](/help/support-tools/patches-available-in-qpt-tool/v1-1-40/acsd-54040-created-field-is-blank-in-order-details-page.md)
@@ -754,7 +754,7 @@ ht-degree: 0%
          * [ACSD-53309: applicazione fiscale incompleta per opzioni personalizzabili ed etichetta &#39;[!UICONTROL Regular Price]&#39;](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
          * [ACSD-53790: è possibile creare più RMA per un singolo prodotto tramite l’API Rest](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
          * [ACSD-54739: stato [!UICONTROL Product Stock] non applicato per [!UICONTROL Related Product Rules]](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
-         * [ACSD-54983: UID utente società con GraphQL non disponibile con utente inattivo](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+         * [ACSD-54983: Utente aziendale UID con GraphQL non disponibile con utente inattivo](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
       * v1.1.44 {#v1-1-44}
          * [Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
          * [ACSD-55231: errore SKU non trovato durante l’utilizzo della funzionalità di ordine rapido](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
@@ -823,6 +823,7 @@ ht-degree: 0%
       * [Pianificazione della versione 2024](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Supporto Adobe Commerce per la migrazione dei processi di acquisizione ad Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * Notizie del Centro assistenza {#news}
+      * [Disattivazione di Adobe Commerce Help Center](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
       * [La Knowledge Base di supporto Adobe Commerce inizia ad accettare contributi](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * Risoluzione dei problemi di {#troubleshooting}
    * [Panoramica sulla risoluzione dei problemi](/help/troubleshooting/overview.md)
@@ -1261,11 +1262,11 @@ ht-degree: 0%
    * [Come modificare l’indirizzo e-mail sull’account magento.com quando il campo è disattivato](/help/how-to/general/change-email-address-on-magento-account.md)
    * [Come rimuovere il Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
    * [Suggerimenti tecnici per prepararsi alle feste con Commerce](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
-   * [Come evitare WAF per le richieste GraphQL](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
+   * [Come evitare le richieste di WAF per GraphQL](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
    * [Aggiornamento da MariaDB 10.4 a 10.5 per Adobe Commerce su cloud](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * Domande frequenti {#faq}
    * [Panoramica sulle domande frequenti](/help/faq/overview.md)
-   * [WAF (Web Application Firewall) basato su Fastly: le domande frequenti](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
+   * [Web Application Firewall (WAF) basato su Fastly: le domande frequenti](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [Ammortamento delle integrazioni di pagamento Adobe Commerce di base](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [Posso installare applicazioni di terze parti nella mia istanza cloud?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Collegamento Magento.com e accessi account accounts.magento.cloud](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
