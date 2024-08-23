@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per i casi in cui non è pos
 exl-id: 59940916-bf92-4e89-a6f9-bca87c54125c
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: af74d944553c34da2ac8343695bca49f971bc4e5
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Questo è il comportamento previsto. Per poter essere aggiunto come utente al pr
 ## Soluzione
 
 1. Chiedere all&#39;utente di accedere al proprio account all&#39;indirizzo https://accounts.magento.cloud (deve essersi già registrato per un account all&#39;indirizzo adobe.com con tale indirizzo e-mail. La creazione o l&#39;utilizzo di un account in https://account.adobe.com non implica automaticamente che l&#39;utente disponga di un account in https://accounts.magento.cloud)
-Nota: se l’utente ha avuto un account su account.magento.com o accounts.magento.cloud prima di agosto 2022, potrebbe non avere un account con/su adobe.com a meno che non l’abbia creato ad agosto 2022 o successivamente. Se l&#39;utente non dispone di un account Adobe e non è in grado di accedere, invia un&#39;e-mail a [Grp-Magento-HelpCenterLoginIssues@adobe.com](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com) con i dettagli.
+Nota: se l’utente ha avuto un account su account.magento.com o accounts.magento.cloud prima di agosto 2022, potrebbe non avere un account con/su adobe.com a meno che non l’abbia creato ad agosto 2022 o successivamente. Se l&#39;utente non dispone di un account Adobe e non è in grado di accedere, [invia una richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) all&#39;indirizzo https://experienceleague.adobe.com/home#support e fornisci i dettagli (Motivo del problema = Gestione utente).
 1. L’utente deve quindi passare a https://accounts.magento.cloud.
 1. Dopo averlo fatto, dovresti essere in grado di aggiungere l’utente al progetto. Per i passaggi, consulta [Aggiungere utenti e gestire l&#39;accesso](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access) nella guida Commerce on Cloud Infrastructure.
 
