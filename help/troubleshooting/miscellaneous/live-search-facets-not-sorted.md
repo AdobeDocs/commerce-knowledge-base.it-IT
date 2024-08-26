@@ -3,9 +3,9 @@ title: '[!DNL Live Search] facet non sono in ordine alfabetico'
 description: Questo articolo fornisce informazioni sulla risoluzione dei problemi se i facet  [!DNL Live Search]  non sono ordinati alfabeticamente.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: 5387edb46281fc536402f8ce0a5e2a77c1bd4193
+source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 Adobe Commerce versioni 2.4.x e successive
 
+## Problema
+
 Tutti i facet della vetrina Adobe Commerce sono ordinati alfabeticamente con opzioni di selezione singola, indipendentemente dal tipo di input assegnato all’attributo corrispondente.
 
-Tuttavia, in alcuni casi edge, i facet potrebbero non essere ordinati alfabeticamente come impostato nell&#39;[[!DNL Live Search] area di lavoro Faceting](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace). Come soluzione alternativa, è possibile ordinare gli attributi del prodotto nella sezione degli attributi [!UICONTROL Admin].
+## Soluzione alternativa
+
+Tuttavia, in alcuni casi edge, i facet potrebbero non essere ordinati alfabeticamente come impostato nell&#39;[[!DNL Live Search] area di lavoro Faceting](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace).
+
+Come soluzione alternativa, è possibile ordinare gli attributi del prodotto nella sezione degli attributi [!UICONTROL Admin].
 
 1. Nella barra laterale **[!UICONTROL Admin]**, vai a **Archivi** > *Attributi* > **Prodotto**.
 1. Selezionare un attributo dalla tabella.
