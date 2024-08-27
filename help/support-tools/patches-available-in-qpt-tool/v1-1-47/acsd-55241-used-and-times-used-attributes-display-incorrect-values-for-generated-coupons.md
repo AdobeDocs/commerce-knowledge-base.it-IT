@@ -4,7 +4,7 @@ description: Applica la patch ACSD-55241 per risolvere il problema di Adobe Comm
 feature: Price Rules
 role: Admin, Developer
 exl-id: cfe0f8af-423a-4e12-a332-053392cbabed
-source-git-commit: 5d0b4743fe49d22c099102490f93dc4065ab4413
+source-git-commit: f830486ab3b00fca92dda897bbf0bfbae41543c1
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -37,10 +37,10 @@ Gli attributi **Usato** e **Usato** visualizzano valori errati per i coupon gene
 
 1. Crea **[!UICONTROL Cart Price Rules]** da **[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]** e aggiungi eventuali condizioni corrispondenti durante l&#39;ordine (esempio: subtotale maggiore di *5$*)
 
-* Applica uno sconto.
-* Selezionare **[!UICONTROL Auto Coupon]**.
-* Genera alcuni codici coupon da **Gestione codici coupon**.
-* Reindicizza e pulisci la cache.
+   * Applica uno sconto.
+   * Selezionare **[!UICONTROL Auto Coupon]**.
+   * Genera alcuni codici coupon da **Gestione codici coupon**.
+   * Reindicizza e pulisci la cache.
 
 1. Crea un **[!UICONTROL customer account]** e accedi al front-end.
 1. Aggiungi un prodotto con più di *2* quantità nel carrello e applica un coupon.
