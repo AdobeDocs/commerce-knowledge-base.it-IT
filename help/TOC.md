@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: eb7f8bbb53cf96033c67ae077268351078fa786c
+source-git-commit: fdfd0b94de831572267dd333216453e7be7b6ea2
 workflow-type: tm+mt
-source-wordcount: '11200'
+source-wordcount: '11212'
 ht-degree: 0%
 
 ---
@@ -811,6 +811,7 @@ ht-degree: 0%
          * [Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
          * [ACSD-59378: Store-level [!DNL URL] riscrive in modo errato durante l&#39;importazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: problemi di prestazioni con i trigger del database durante la configurazione:aggiornamento](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-59229: allocazione errata dei dati del gruppo di clienti a causa di un valore X-Magento-Vary obsoleto](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: errore generato dall&#39;aggiornamento dei clienti tramite l&#39;endpoint API V1/customers [!DNL REST] ](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
       * [Verifica la patch per il problema Adobe Commerce con lo strumento Quality Patches](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * Annunci {#announcements}
