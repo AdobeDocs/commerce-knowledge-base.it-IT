@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: fdfd0b94de831572267dd333216453e7be7b6ea2
+source-git-commit: 951816a272836b7d6673af9d576b6b89d741de44
 workflow-type: tm+mt
-source-wordcount: '11212'
+source-wordcount: '11225'
 ht-degree: 0%
 
 ---
@@ -809,6 +809,7 @@ ht-degree: 0%
          * [ACSD-58054: generazione di token API per clienti inattivi](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
       * v1.1.50 {#v1-1-50}
          * [Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
+         * [ACSD-45049: l&#39;impostazione dell&#39;attributo del cliente [!UICONTROL Is required] non funziona in base all&#39;ambito del sito Web in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378: Store-level [!DNL URL] riscrive in modo errato durante l&#39;importazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: problemi di prestazioni con i trigger del database durante la configurazione:aggiornamento](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
          * [ACSD-59229: allocazione errata dei dati del gruppo di clienti a causa di un valore X-Magento-Vary obsoleto](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
