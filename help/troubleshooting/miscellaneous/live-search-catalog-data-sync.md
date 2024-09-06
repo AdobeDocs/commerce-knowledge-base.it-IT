@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per il problema di Adobe Commerc
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
+source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Questo articolo fornisce soluzioni per il problema di Adobe Commerce in cui i da
 ## Problema
 
 I dati del catalogo non vengono sincronizzati correttamente oppure è stato aggiunto un nuovo prodotto che non viene visualizzato nei risultati di ricerca.
+
+>[!NOTE]
+>
+>I nomi di tabella `catalog_data_exporter_products` e `catalog_data_exporter_product_attributes` sono ora denominati `cde_products_feed` e `cde_product_attributes_feed` a partire dalla versione 4.2.1 di [!DNL Live Search]. Per i commercianti con versioni precedenti alla 4.2.1, cerca i dati nei vecchi nomi di tabella, `catalog_data_exporter_products` e `catalog_data_exporter_product_attributes`.
 
 <u>Passaggi da riprodurre</u>
 
@@ -59,20 +63,20 @@ Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specif
 1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
-   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. Se non vengono visualizzati i dati corretti, provare a reindicizzare utilizzando il comando seguente ed eseguire nuovamente la query SQL al passaggio 1 per verificare i dati:
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_products
+   bin/magento indexer:reindex cde_products_feed
    ```
 
 1. Se i dati corretti non vengono ancora visualizzati, [creare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Controlla la marca temporale dell’ultima esportazione del prodotto
 
-1. Se vengono visualizzati i dati corretti in `catalog_data_exporter_products`, utilizzare la query SQL seguente per verificare la marca temporale dell&#39;ultima esportazione. Deve essere dopo la marca temporale `modified_at`:
+1. Se vengono visualizzati i dati corretti in `cde_products_feed`, utilizzare la query SQL seguente per verificare la marca temporale dell&#39;ultima esportazione. Deve essere dopo la marca temporale `modified_at`:
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -93,20 +97,20 @@ Se i dati dell’attributo del prodotto non vengono sincronizzati correttamente 
 1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
-   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. Se i dati corretti non vengono visualizzati, utilizzare il comando seguente per reindicizzare ed eseguire nuovamente la query SQL nel passaggio 1 per verificare i dati.
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
 1. Se i dati corretti non vengono ancora visualizzati, [creare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ### Verifica la marca temporale dell’ultima esportazione dell’attributo del prodotto
 
-Se vengono visualizzati i dati corretti in `catalog_data_exporter_product_attributes`:
+Se vengono visualizzati i dati corretti in `cde_product_attributes_feed`:
 
 1. Utilizza la seguente query SQL per verificare la marca temporale dell’ultima esportazione. Deve essere dopo la marca temporale `modified_at`.
 
