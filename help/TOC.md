@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: f309e4cde788475ae624520a76abaca1cc784f93
+source-git-commit: 605a45ed14faed7f3283a7146e4193bf2d26b251
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '11329'
 ht-degree: 0%
 
 ---
@@ -811,12 +811,14 @@ ht-degree: 0%
          * [ACSD-58739: la reindicizzazione parziale genera un errore](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
          * [ACSD-57846: GraphQL prodotti ricerca con filtro per zero prezzi non restituisce risultati](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054: generazione di token API per clienti inattivi](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
+         * [ACSD-58375: la chiave API YouTube non configurata correttamente causa un errore durante l’aggiunta di video a livello di visualizzazione archivio](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level.md)
       * v1.1.50 {#v1-1-50}
          * [Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
          * [ACSD-59036: eccezione durante il caricamento dei prezzi dei prodotti](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59036-exception-occurs-when-loading-product-prices.md)
          * [ACSD-45049: l&#39;impostazione dell&#39;attributo del cliente [!UICONTROL Is required] non funziona in base all&#39;ambito del sito Web in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378: Store-level [!DNL URL] riscrive in modo errato durante l&#39;importazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: problemi di prestazioni con i trigger del database durante la configurazione:aggiornamento](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-58141: PHPSESSID viene rigenerato nelle richieste POST per i clienti connessi se la cache L2 Redis è abilitata](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229: allocazione errata dei dati del gruppo di clienti a causa di un valore X-Magento-Vary obsoleto](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: errore generato dall&#39;aggiornamento dei clienti tramite l&#39;endpoint API V1/customers [!DNL REST] ](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
          * [ACSD-59280: Errore ReflectionUnionType::getName() nelle installazioni 2.4.4-pX](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
