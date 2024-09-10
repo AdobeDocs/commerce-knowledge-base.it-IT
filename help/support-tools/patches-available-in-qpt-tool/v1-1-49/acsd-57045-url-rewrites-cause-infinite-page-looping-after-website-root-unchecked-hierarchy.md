@@ -3,7 +3,7 @@ title: "ACSD-57045: le riscritture URL causano un ciclo di pagina infinito dopo 
 description: Applicare la patch ACSD-57045 per risolvere il problema di Adobe Commerce, per cui le riscritture URL causano un ciclo di pagine infinito dopo la deselezione di [!UICONTROL Website Root] da [!UICONTROL Hierarchy].
 feature: CMS
 role: Admin, Developer
-source-git-commit: df6cfc392f6afa4639a1ab9da52a85b8b15878d2
+source-git-commit: a39e5c857aae398a0b0ba44308ea417525a410d3
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -31,7 +31,7 @@ La patch ACSD-57045 risolve il problema per cui le riscritture URL causano un ci
 
 ## Problema
 
-Le riscritture URL causano un ciclo di pagine infinito dopo la rimozione di **[!UICONTROL Website Root]** da **[!UICONTROL Hierarchy]**.
+Le riscritture URL causano un ciclo di pagine infinito dopo la deselezione di **[!UICONTROL Website Root]** da **[!UICONTROL Hierarchy]**.
 
 <u>Passaggi da riprodurre</u>:
 
