@@ -3,9 +3,9 @@ title: Ripristinare l’ambiente su Adobe Commerce nell’infrastruttura cloud
 description: Questo articolo mostra diversi scenari di ripristino dello stato precedente di un ambiente su Adobe Commerce su un’infrastruttura cloud.
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
+source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,9 @@ Con una distribuzione o un aggiornamento pianificato, il [!UICONTROL Rollback] p
 
 <u>Il giorno delle modifiche</u>:
 
-1. Inserisci il sito Web in [!UICONTROL Maintenance Mode].<br>
+1. Inserisci il sito Web in [!UICONTROL Maintenance Mode].
 Ulteriori informazioni su [Abilitare o disabilitare [!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html) nella guida utente e [[!UICONTROL Maintenance Mode] opzioni per l&#39;aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html) nella guida all&#39;aggiornamento.
+1. Disattiva processi cron. Ulteriori informazioni sulla disabilitazione dei processi cron nella [guida alle proprietà crons](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>).
 1. Prendi un [[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html) locale.
 
 <u>Se è necessario [!UICONTROL Rollback]</u>:
@@ -123,7 +124,7 @@ Con il ripristino di [!DNL git], il codice verrà ripristinato allo stato deside
 1. Clona l’ambiente nell’ambiente di sviluppo locale. Puoi copiare il comando nella console Cloud:    ![copia_git_clone.png](assets/copy_git_clone.png)
 1. Accedi alla cronologia dei commit. Utilizza `--reverse` per visualizzare la cronologia in ordine inverso per maggiore comodità: `git log --reverse`
 1. Seleziona l’hash di commit su cui sei stato bravo. Per ripristinare il codice al suo stato autentico (Vanilla), individua il primo commit che ha creato il ramo (ambiente).
-   ![Selezione di un hash di commit nella console Git](assets/select_commit_hash.png)
+   ![testo alternativo](image.png)
 1. Applica ripristino rigido [!DNL git]: `git reset --h <commit_hash>`
 1. Invia modifiche al server: `git push --force <origin> <branch>`
 
