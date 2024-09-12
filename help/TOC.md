@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: ed15e986088286c075953049dbadf329edccca51
+source-git-commit: 65af60f53789fdaac7aa2d1ea3ebddd82f2126d5
 workflow-type: tm+mt
-source-wordcount: '11408'
+source-wordcount: '11420'
 ht-degree: 0%
 
 ---
@@ -820,6 +820,7 @@ ht-degree: 0%
          * [ACSD-45049: l&#39;impostazione dell&#39;attributo del cliente [!UICONTROL Is required] non funziona in base all&#39;ambito del sito Web in Admin](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378: Store-level [!DNL URL] riscrive in modo errato durante l&#39;importazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938: problemi di prestazioni con i trigger del database durante la configurazione:aggiornamento](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-54887: il carrello acquisti del cliente viene cancellato dopo la scadenza della sessione del cliente](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry.md)
          * [ACSD-58141: PHPSESSID viene rigenerato nelle richieste POST per i clienti connessi se la cache L2 Redis è abilitata](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229: allocazione errata dei dati del gruppo di clienti a causa di un valore X-Magento-Vary obsoleto](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441: errore generato dall&#39;aggiornamento dei clienti tramite l&#39;endpoint API V1/customers [!DNL REST] ](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
