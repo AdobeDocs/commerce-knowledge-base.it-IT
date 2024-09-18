@@ -4,9 +4,9 @@ description: Questo articolo fornisce informazioni per la risoluzione dei proble
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ Se l&#39;e-mail del mittente non è stata configurata correttamente o il dominio
    ```
 
    * Se non restituisce alcun risultato, significa che l’indirizzo del mittente non è stato configurato.
+Poiché non hai accesso all’amministratore, dovrai inserire la configurazione nel database. Inserire l&#39;indirizzo e-mail appropriato ed eseguire l&#39;istruzione MySQL:
+
+   ```
+   insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+   ```
+
    * Se restituisce un risultato, passare al **passaggio 2**.
 
 1. Se l’e-mail è apparsa nella cartella Spam, fai clic sul collegamento nell’e-mail. Se il collegamento è scaduto, prova ad accedere di nuovo per ripetere la procedura.
