@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7c6cc2fc3cd76fc4c156d7cdb15bfbc3a24f39cb
+source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
 workflow-type: tm+mt
-source-wordcount: '2500'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ In questa guida, scopri come inviare un ticket di supporto a [Experience League 
 >[!NOTE]
 >
 >Il supporto Adobe Commerce è migrato dal Centro assistenza Adobe Commerce ad Experience League. Utilizza il flusso del modulo per casi di Experience League descritto [qui](#what-is-experience-support) per inviare casi di supporto.
+
+>[!NOTE]
+>
+>Al momento, per visualizzare i casi inviati in precedenza su Adobe Commerce Help Center, dovrai passare a https://support.magento.com/hc/en-us/requests poiché non è stata effettuata la migrazione al nuovo sistema di ticket di supporto. Il Centro assistenza è ora di sola lettura. Per continuare a ricevere supporto per il problema originale, è necessario inviare un ticket di follow-up a [Supporto Experience League](https://experienceleague.adobe.com/home#support).
 
 >[!NOTE]
 >
