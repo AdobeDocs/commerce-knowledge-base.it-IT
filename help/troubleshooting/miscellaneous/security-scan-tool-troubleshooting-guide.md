@@ -4,9 +4,9 @@ description: Scopri come risolvere i vari problemi con lo strumento Security Sca
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Si ottengono report di analisi vuoti dallo strumento Security Scan o report cont
 
 1. Verificare che gli IP 52.87.98.44, 34.196.167.176 e 3.218.25.102 non siano bloccati alle porte 80 e 443.
 1. Controllare l&#39;URL inviato per i reindirizzamenti (ad esempio, `https://mystore.com` reindirizzamenti a `https://www.mystore.com` o viceversa o reindirizzamenti ad altri nomi di dominio).
-1. Esaminare i registri di accesso WAF/server Web per le richieste rifiutate/non soddisfatte. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` sono le risposte comuni del server che causano la generazione di rapporti vuoti. Di seguito è riportato un esempio di codice di conferma che blocca le richieste da parte degli agenti utente:
+1. Esaminare i registri di accesso a WAF e server Web per le richieste rifiutate o non soddisfatte. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` sono le risposte comuni del server che causano la generazione di rapporti vuoti. Di seguito è riportato un esempio di codice di conferma che blocca le richieste da parte degli agenti utente:
 
 ```code block
 if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent_allowlist)
@@ -100,8 +100,12 @@ No. Security Scan effettua tutte le richieste una alla volta come un singolo ute
 
 ### Per quanto tempo Adobe Commerce conserva i rapporti Security Scan?
 
-Puoi generare i 10 rapporti precedenti dalla tua fine. Se sono necessari rapporti precedenti, contatta il supporto Adobe Commerce. È possibile ottenere fino a un anno di rapporti Security Scan precedenti.
+Puoi generare i 10 rapporti precedenti dalla tua fine. Se sono necessari rapporti precedenti, contatta il supporto Adobe Commerce.
 
 ### Quali informazioni sono necessarie per inviare un ticket di supporto?
 
 Assicurarsi di specificare il nome di dominio.
+
+### Cosa succede se rimuovo lo store dalla scansione dello strumento di scansione?
+
+Se elimini l’invio dell’archivio, tutti i dati correlati, inclusi i rapporti di scansione, verranno eliminati. Questa operazione è irreversibile. L’invio del dominio archivio dopo la sua eliminazione crea un NUOVO invio.
