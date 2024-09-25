@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 82313d2444230de7f4ea426a255bf0462a136334
+source-git-commit: f3d662d8843eded65eade4732d2016bf34ccd6a5
 workflow-type: tm+mt
-source-wordcount: '11456'
+source-wordcount: '11462'
 ht-degree: 0%
 
 ---
@@ -1166,6 +1166,7 @@ ht-degree: 0%
       * [Prestazioni API e del sito ridotte](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
       * [Sostituisci i grafici immagine Google obsoleti con i grafici immagine](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [La ricerca avanzata non mostra i risultati più rilevanti](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
+      * [Errore durante il filtraggio degli ordini in Amministratore](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Gli utenti non possono aggiungere un prodotto al carrello se non è selezionato nulla in Paesi consentiti](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [Ordini non visualizzati nella griglia Ordini dell&#39;amministratore](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
       * [Impossibile convalidare il numero di partita IVA - Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
