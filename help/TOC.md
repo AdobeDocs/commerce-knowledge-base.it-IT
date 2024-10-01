@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: f3d662d8843eded65eade4732d2016bf34ccd6a5
+source-git-commit: 25bc401506f81d83b1e00fe682fa477d708414dc
 workflow-type: tm+mt
-source-wordcount: '11462'
+source-wordcount: '11237'
 ht-degree: 0%
 
 ---
@@ -34,32 +34,6 @@ ht-degree: 0%
       * [Avvisi gestiti per Adobe Commerce: avviso CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * Patch disponibili nello strumento QPT {#patches}
       * [Panoramica delle patch disponibili nello strumento QPT](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
-      * v1.0.5 {#v1-0-5}
-         * [Panoramica: QPT (Quality Patches Tool) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
-         * [MDVA-28191: nessun metodo di pagamento per un sito Web in Amministrazione - Crea nuovo ordine](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
-         * [Patch MDVA-28409: arresto anomalo del server web Adobe Commerce - Memoria insufficiente](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
-         * [MDVA-28661: problema con la gestione degli utenti aziendali durante la modifica dell&#39;e-mail di amministrazione](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
-         * [MDVA-28763: problemi relativi alla gestione delle immagini dei prodotti tramite API REST](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.md)
-         * [MDVA-29042: autorizzazioni categoria globali invariate](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-29042-magento-patch-global-category-permissions-unchanged.md)
-         * [Patch MDVA-29959: l&#39;amministratore con autorizzazioni &quot;Clienti&quot; non può gestire l&#39;account aziendale](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-29959-magento-patch-admin-with-customers-permissions-cannot-manage-company-account.md)
-         * [MDVA-30107: il commutatore dell&#39;archivio non funziona come previsto](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30107-magento-patch-store-switcher-does-not-work-as-expected.md)
-         * [MDVA-30265: il collegamento di tracciamento nell&#39;e-mail restituisce la pagina 404 non trovata](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30265-magento-patch-tracking-link-in-email-returns-404-page-not-found.md)
-         * [Patch MDVA-30284: Elasticsearch 7 - È stato superato il limite dei campi totali [XXXXX] nell&#39;indice](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30284-magento-patch-elasticsearch-7-limit-of-total-fields-xxxxx-in-index-has-been-exceeded.md)
-         * [MDVA-30428: lista dei desideri non funzionante con Inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30428-magento-patch-wishlist-not-working-with-the-msi.md)
-         * [Patch MDVA-30593: le virgolette scadute non vengono pulite](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30593-magento-patch-expired-quotes-are-not-cleaned-up.md)
-      * v1.0.6 {#v1-0-6}
-         * [Panoramica: QPT (Quality Patches Tool) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
-         * [Patch MDVA-28202: i prodotti esauriti non filtrano correttamente](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28202-magento-patch-out-of-stock-products-don-t-filter-properly.md)
-         * [MDVA-28300: problema di calcolo del prezzo con la regola del prezzo di catalogo in GraphQL](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28300-magento-patch-price-calculation-issue-with-catalog-price-rule-in-graphql.md)
-         * [MDVA-28993: Elasticsearch di ricerca parziale, &quot;minimum should match&quot; (il valore minimo deve corrispondere) e correzione per il problema &quot;searches with hyphen&quot; (ricerche con trattino)](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28993-magento-patch-elasticsearch-partial-search-minimum-should-match-and-fix-for-searches-with-hyphen-issue.md)
-         * [MDVA-29446: metodo di spedizione non pertinente disponibile per il pagamento](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-29446-magento-patch-non-relevant-shipping-method-available-for-checkout.md)
-         * [MDVA-29787: i prodotti correlati non vengono visualizzati](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-29787-magento-patch-related-products-are-not-displayed.md)
-         * [MDVA-30102: cache Redis piena](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30102-magento-patch-redis-cache-getting-full.md)
-         * [MDVA-30357: l&#39;URL dell&#39;immagine della mappa del sito generata da cron non è corretto](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30357-magento-patch-sitemap-generated-by-cron-has-wrong-image-url.md)
-         * [MDVA-30565: problema relativo all&#39;archiviazione locale e all&#39;estrazione della cache di sessione](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30565-magento-patch-session-cache-local-storage-and-checkout-issue.md)
-         * [MDVA-30599: Customer_is_guest non è impostato correttamente](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30599-magento-patch-customer-is-guest-is-set-incorrectly.md)
-         * [MDVA-30977: prodotti mancanti dalle categorie, indicizzazione correlata](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.md)
-         * [MDVA-31006: errore 10415 ordini duplicati di Paypal](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.md)
       * v1.0.7 {#v1-0-7}
          * [Panoramica: QPT (Quality Patches Tool) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
          * [MDVA-29148: ArrayBackend non assegna il valore predefinito al salvataggio](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29148-patch-arraybackend-does-not-assign-default-value-on-save.md)
