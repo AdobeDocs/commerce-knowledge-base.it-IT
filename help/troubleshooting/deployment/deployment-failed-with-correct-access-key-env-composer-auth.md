@@ -4,16 +4,16 @@ description: 'Questo articolo fornisce una soluzione al problema che si verifica
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
+source-git-commit: 2a1c97c65282d03010bffabbcd2d1be7fb9ff9a6
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
 
 # La distribuzione non riesce con le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json
 
-Questo articolo fornisce una soluzione al problema che si verifica quando la distribuzione non riesce e nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) viene visualizzato un errore simile a quello riportato di seguito:
+Questo articolo fornisce una soluzione al problema che si verifica quando la distribuzione non riesce e nel [registro di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log) viene visualizzato un errore simile a quello riportato di seguito:
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,7 +40,7 @@ Distribuzione completata.
 >
 >Questo è un errore di esempio. Potresti visualizzare un errore che indica un file diverso (a seconda della versione di Adobe Commerce implementata).
 
-La distribuzione non è riuscita. Errore: *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+La distribuzione non è riuscita. Errore: *Impossibile scaricare il file &quot;https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip&quot; (HTTP/1.1 404 - Non trovato)* nel [registro di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### Causa
 
