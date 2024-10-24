@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
+source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,10 @@ I casi di assistenza sono quelli che:
 Puoi visualizzare i casi che hai inviato personalmente facendo clic su **[!UICONTROL My Cases]** nel menu a sinistra.
 
 ![view-support-CASES](assets/view_support_cases.png)
+
+#### Visualizza i tuoi casi storici da Adobe Commerce Help Center
+
+Ulteriori informazioni su come **visualizzare i casi storici** dal Centro assistenza Adobe Commerce in [Disattivazione del Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center) nella Knowledge Base di Adobe Commerce.
 
 #### Visualizza i tuoi casi esaminati
 
