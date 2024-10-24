@@ -4,7 +4,7 @@ description: I problemi di Reporting avanzato su Adobe Commerce possono essere r
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: dfe9b9cf4751e28bd151fce36df168e48fb914ed
+source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 0%
@@ -94,7 +94,7 @@ b. NO - Se la query non restituisce alcun risultato, effettuare le seguenti oper
 
 Verificare che il processo `analytics_collect_data` sia stato eseguito eseguendo questa query: `SELECT * FROM cron_schedule WHERE job_code LIKE 'analytics_collect_data' \G`
 
-a. SÌ - Se sono presenti record e la colonna **stato** riporta _mancati_, utilizza la patch nell&#39;articolo KB [Aggiorna report avanzati per eseguire il proprio gruppo cron](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md).\
+a. SÌ - Se sono presenti record e la colonna **status** riporta _missing_, utilizzare la patch in questo articolo KB Aggiorna report avanzati per eseguire il proprio gruppo cron.\
 b. SÌ - Se sono presenti record e la colonna **status** riporta _success_, passare al [passaggio 9](#step-9).\
 c. YES - Se sono presenti record e la colonna **status** riporta _error_, passare al [passaggio 8.](#step-8)\
 d. NO - Se non sono presenti record, passare al [passaggio 8](#step-8).
@@ -140,7 +140,7 @@ b. NO - Procedi al [passaggio 10](#step-10).
 
 Esempio: nella tabella `core_config_data` viene visualizzato l&#39;errore *Impossibile eliminare il file &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0*. Avviso!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): file o directory non esistente*
 
-a. SÌ - Utilizzare la patch ACSD-50165 in [Impossibile eliminare il file. Avviso!unlink: errore di file o directory non presente dall&#39;amministratore](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md). Attendere 24 ore per la riesecuzione del processo, quindi riprovare.\
+a. SÌ - Usa la patch ACSD-50165 in [Impossibile eliminare il file. Avviso!unlink: errore di file o directory non presente dall&#39;amministratore](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md). Attendere 24 ore per la riesecuzione del processo, quindi riprovare.\
 b. NO - Procedi al [passaggio 11](#step-11).
 
 +++
@@ -151,7 +151,7 @@ b. NO - Procedi al [passaggio 11](#step-11).
 
 Esempio: `report.ERROR: Cron Job analytics_collect_data has an error: substr_count() expects parameter 1 to be string, null given. Statistics: {"sum":0,"count":1,"realmem":0,"emalloc":0,"realmem_start":224919552,"emalloc_start":216398384} [] []`
 
-a. SÌ - Utilizzare la patch MDVA-19391 in [Errori comuni del processo cron di Advanced Reporting in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md). Attendere 24 ore per la riesecuzione del processo e riprovare.\
+a. SÌ - Utilizzare la patch MDVA-19391 in Errori comuni del job cron di Advanced Reporting su Adobe Commerce, attendere 24 ore per l&#39;esecuzione del job e riprovare.\
 b. NO - [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++

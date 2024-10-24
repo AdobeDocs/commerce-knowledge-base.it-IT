@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 9a93f596b5196a9da61e9698a7e6456c650c2b42
+source-git-commit: a2f113e6d9123fd9058cce34a199a90484523862
 workflow-type: tm+mt
-source-wordcount: '9723'
+source-wordcount: '9692'
 ht-degree: 0%
 
 ---
@@ -951,9 +951,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.3-p2 - 2.4.5 hotfix di sicurezza per CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
       * [Adobe Commerce 2.4.4: impossibile creare fatture parziali](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [I nuovi ordini vengono inviati all&#39;archivio](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [Adobe Commerce per errori di processi cron di Reporting avanzato](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
-      * [Rimuovi dal database i tentativi di accesso non riusciti](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md)
-      * [Aggiornare il reporting avanzato in modo che venga eseguito sul proprio gruppo cron](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)
       * [Prestazioni API e del sito ridotte](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
       * [Sostituisci i grafici immagine Google obsoleti con i grafici immagine](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [La ricerca avanzata non mostra i risultati più rilevanti](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
@@ -969,7 +966,6 @@ ht-degree: 0%
       * [Sono stati eliminati più prodotti di quelli avviati durante l’eliminazione di massa in Amministratore](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
       * [Annullamento della validità della memorizzazione nella cache di Adobe Commerce su infrastruttura cloud v2.3.5 GraphQL non funziona](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [L&#39;amministratore non può creare un ordine o riordinarlo quando è abilitato il pagamento Braintree](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [Errore 404 di Advanced Reporting sul Magento Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-magento-commerce.md)
       * [Adobe Commerce 2.4.0 B2B: logica dell’ordine di acquisto errata alla scadenza dello sconto](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-b2b-wrong-purchase-order-logic-when-discount-expired.md)
       * [Voci duplicate nella tabella catalogrule dopo la modifica della data di fine di un aggiornamento della pianificazione](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5, 2.3.5-p1 patch: problema di pagamento paese](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
