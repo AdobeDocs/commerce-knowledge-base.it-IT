@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: a2f113e6d9123fd9058cce34a199a90484523862
+source-git-commit: fdca2b0345bbd259007f5eeef10dd63455395d4f
 workflow-type: tm+mt
-source-wordcount: '9692'
+source-wordcount: '9662'
 ht-degree: 0%
 
 ---
@@ -950,9 +950,6 @@ ht-degree: 0%
       * [[!DNL USPS] hotfix di supporto per il metodo di spedizione Ground Advantage per AC-9182](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - 2.4.5 hotfix di sicurezza per CVE-2022-35698](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
       * [Adobe Commerce 2.4.4: impossibile creare fatture parziali](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
-      * [I nuovi ordini vengono inviati all&#39;archivio](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [Prestazioni API e del sito ridotte](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
-      * [Sostituisci i grafici immagine Google obsoleti con i grafici immagine](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [La ricerca avanzata non mostra i risultati più rilevanti](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Errore durante il filtraggio degli ordini in Amministratore](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Gli utenti non possono aggiungere un prodotto al carrello se non è selezionato nulla in Paesi consentiti](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
@@ -966,7 +963,6 @@ ht-degree: 0%
       * [Sono stati eliminati più prodotti di quelli avviati durante l’eliminazione di massa in Amministratore](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
       * [Annullamento della validità della memorizzazione nella cache di Adobe Commerce su infrastruttura cloud v2.3.5 GraphQL non funziona](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [L&#39;amministratore non può creare un ordine o riordinarlo quando è abilitato il pagamento Braintree](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [Adobe Commerce 2.4.0 B2B: logica dell’ordine di acquisto errata alla scadenza dello sconto](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-b2b-wrong-purchase-order-logic-when-discount-expired.md)
       * [Voci duplicate nella tabella catalogrule dopo la modifica della data di fine di un aggiornamento della pianificazione](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5, 2.3.5-p1 patch: problema di pagamento paese](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
       * [patch di Adobe Commerce 2.4.0: restituisce il problema di creazione dell’etichetta di spedizione](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
