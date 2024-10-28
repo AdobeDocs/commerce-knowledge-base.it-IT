@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
+source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Per accedere al supporto Adobe Experience League, eseguire la procedura seguente
 
 Dopo aver effettuato l&#39;accesso come proprietario dell&#39;account o come utente di Accesso condiviso, è possibile inviare un caso di supporto utilizzando la home page di Adobe Experience League, la pagina dell&#39;account Adobe Commerce e la pagina dell&#39;account Adobe Commerce Cloud.
 
-* Se si è il proprietario dell&#39;account o un utente di ritorno di Shared Access, effettuare le operazioni riportate di seguito.
-* Se sei un utente di Accesso condiviso e il proprietario dell&#39;account ha appena [fornito l&#39;accesso condiviso](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access), devi prima cambiare account prima di procedere ai passaggi seguenti. Per ulteriori dettagli, vedere [Accedere all&#39;account condiviso (cambiare account)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts).
-
 #### Pagina iniziale di Adobe Experience League {#experience-league-start-page}
 
 Per inviare un nuovo caso di supporto utilizzando la pagina iniziale di Adobe Experience League, eseguire la procedura seguente:
@@ -106,7 +103,7 @@ Per inviare un nuovo caso di supporto utilizzando la pagina iniziale di Adobe Ex
 
    ![open-support-page](assets/click_support.png)
 
-1. Per avviare il processo di assegnazione del supporto, verificare di aver selezionato l&#39;organizzazione appropriata dall&#39;elenco a discesa Organizzazione (se visibile).
+1. Per avviare il processo di assegnazione del supporto, verificare di aver selezionato l&#39;organizzazione appropriata dall&#39;elenco a discesa Organizzazione (se visibile). Per inviare un caso per Adobe Commerce, selezionare il nome dell&#39;organizzazione che termina con *[!DNL Commerce]*.
 
    ![select_appropriate_org](assets/select_appropriate_org.png)
 
