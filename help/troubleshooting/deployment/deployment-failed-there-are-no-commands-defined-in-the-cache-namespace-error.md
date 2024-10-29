@@ -1,17 +1,17 @@
 ---
-title: "Distribuzione non riuscita: nessun comando definito nell'errore dello spazio dei nomi 'cache'"
+title: "Distribuzione non riuscita durante lo svuotamento della cache: nessun comando definito nell'errore dello spazio dei nomi 'cache'"
 description: Questo articolo fornisce una soluzione al problema quando la distribuzione non riesce con il seguente errore **Non sono stati definiti comandi nello spazio dei nomi della cache**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 1a8a4e1eada859a6712a43536d7bad26d1ce1244
+source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Distribuzione non riuscita: nessun comando definito nell&#39;errore dello spazio dei nomi &#39;cache&#39;
+# Distribuzione non riuscita durante lo svuotamento della cache: &quot;Errore &#39;cache&#39; spazio dei nomi non definito&quot;
 
 >[!WARNING]
 >

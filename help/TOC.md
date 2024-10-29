@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 7a4d6ab8a96cd739bc692ae6b91fc2613d3b115f
+source-git-commit: 61b3cc2fc40b320c3c657a7dd0c6ea2b9db71c75
 workflow-type: tm+mt
-source-wordcount: '9623'
+source-wordcount: '9626'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ ht-degree: 0%
          * [ACSD-50234: nome cliente errato nell&#39;e-mail di conferma per gli ordini effettuati utilizzando  [!DNL PayPal]](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-50234-incorrect-customer-name-in-confirmation-email-for-orders-placed-with-paypal.md)
          * [ACSD-48813: la ricerca non mostra risultati rilevanti in base al peso degli attributi della ricerca](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48813-search-not-showing-relevant-results-based-on-search-weight-of-attributes.md)
          * [ACSD-49464: Fatture, spedizioni e note di accredito non spostate dall&#39;archivio](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49464-invoices-shipments-credit-memos-not-moved-back-from-archive.md)
-         * [ACSD-48771: l’editor WYSIWYG esegue il rendering del contenuto in modo diverso](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48771-wyswigy-editor-rendering-content-differently.md)
+         * [ACSD-48771: l’editor di WYSIWYG esegue il rendering del contenuto in modo diverso](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-48771-wyswigy-editor-rendering-content-differently.md)
          * [ACSD-49527: i ruoli aziendali di GraphQL non visualizzano correttamente la paginazione](/help/support-tools/patches-available-in-qpt-tool/v1-1-29/acsd-49527-graphql-company-roles-dont-display-pagination-correctly.md)
       * v1.1.30 {#v1-1-30}
          * [Panoramica: [!DNL Quality Patches Tool] (QPT) v1.1.30](/help/support-tools/patches-available-in-qpt-tool/v1-1-30/overview.md)
@@ -631,7 +631,7 @@ ht-degree: 0%
       * [Richiesta di miglioramento dell’ambiente di integrazione - Pro e Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [Richieste di capacità di crescita in vacanza per Adobe Commerce sulla nostra infrastruttura cloud](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Upgrade Compatibility Tool 1.1.0 per Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
-      * [Adobe dei requisiti del certificato SSL/TLS e pulizia](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
+      * [Requisiti del certificato SSL/TLS Adobe e pulizia](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
       * [Domande frequenti sui criteri del ciclo di vita aggiornati per le versioni di Adobe Commerce](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [Passaggio a OpenSearch per Adobe Commerce su Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [Migrazione degli ambienti di integrazione per la regione UE legacy](/help/announcements/adobe-commerce-announcements/integration-environments-migration-to-new-regions-for-eu-and-us.md)
@@ -641,7 +641,7 @@ ht-degree: 0%
       * [Rilascio dello strumento Quality Patches: nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
       * [2.4 Workshop sull’aggiornamento ad Adobe Commerce del 26 gennaio 2022](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
       * [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
-      * [Supporto Adobe accesso ai dati dei clienti e privacy](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
+      * [Accesso ai dati dei clienti e privacy del servizio di assistenza Adobe](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [API UPS obsolete](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
       * [Pianificazione della versione 2024](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Supporto Adobe Commerce per la migrazione dei processi di acquisizione ad Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
@@ -938,7 +938,7 @@ ht-degree: 0%
       * [Errore di distribuzione: &quot;errore 7 durante il download della porta 443. Connessione rifiutata&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Errori di distribuzione durante il commit di file non corretti](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Errori di distribuzione in cui non sono state trovate patch](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [Distribuzione non riuscita: nessun comando definito nell&#39;errore dello spazio dei nomi &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [Distribuzione non riuscita durante lo svuotamento della cache: nessun comando definito nell&#39;errore dello spazio dei nomi &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [La distribuzione non riesce con le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemi noti {#known-issues-patches-attached}
       * [Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
@@ -1001,7 +1001,7 @@ ht-degree: 0%
    * [Elenco di controllo per la configurazione di un nuovo [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Ripristinare uno snapshot del database da Gestione temporanea o Produzione](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: aggiorna metodo di pagamento o annulla abbonamento](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
-   * [Adobe di video di formazione su Commerce Intelligence: Report Builder SQL](/help/how-to/general/mbi-training-video-sql-report-builder.md)
+   * [Video di formazione Adobe Commerce Intelligence: Report Builder SQL](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [Impostare il TTL della cache per immagini e altri contenuti statici](/help/how-to/general/set-cache-ttl-for-images-and-other-static-content.md)
    * [Fornisci lo sconto solo per il primo acquisto (nessun coupon)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [Ripristino dello stato precedente dell’ambiente senza snapshot cloud](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
@@ -1056,7 +1056,7 @@ ht-degree: 0%
    * [Come accedere all’account Fastly fornito con Adobe Commerce sull’infrastruttura cloud](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [Visualizza il numero della segnalazione errori di Adobe Commerce invece dell’errore Fastly 503](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [Reimpostare un tema sui valori predefiniti](/help/how-to/general/reset-a-theme-to-defaults.md)
-   * [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
+   * [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
    * [Consultate i registri per risolvere i problemi relativi agli errori 500 e 503 in Adobe Commerce](/help/how-to/general/check-logs-to-troubleshoot-500-and-503-errors-on-magento.md)
    * [Creazione di un dump del database sull’infrastruttura cloud di Adobe Commerce](/help/how-to/general/create-database-dump-on-cloud.md)
    * [Suggerimenti per i test di terze parti per Adobe Commerce sull’infrastruttura cloud](/help/how-to/general/share-access-third-party.md)
