@@ -1,17 +1,18 @@
 ---
-title: "Distribuzione non riuscita durante lo svuotamento della cache: nessun comando definito nell'errore dello spazio dei nomi 'cache'"
+title: "Distribuzione non riuscita durante lo svuotamento della cache: errore 'Nessun comando definito nello spazio dei nomi 'cache'"
 description: Questo articolo fornisce una soluzione al problema quando la distribuzione non riesce con il seguente errore **Non sono stati definiti comandi nello spazio dei nomi della cache**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
+source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# Distribuzione non riuscita durante lo svuotamento della cache: &quot;Errore &#39;cache&#39; spazio dei nomi non definito&quot;
+
+# Distribuzione non riuscita durante lo svuotamento della cache: errore &quot;Nessun comando definito nello spazio dei nomi &#39;cache&#39;&quot;
 
 >[!WARNING]
 >
@@ -30,11 +31,11 @@ Questo articolo fornisce una soluzione al problema che si verifica in caso di er
 
 Adobe Commerce sull’infrastruttura cloud 2.4.x
 
-## Problema  
+## Problema
 
 <u>Passaggi da riprodurre</u>:
 
-Tentativo di distribuzione. 
+Tentativo di distribuzione.
 
 <u>Risultati previsti</u>:
 
@@ -66,16 +67,16 @@ Per risolvere questo problema, identifica le righe non valide rimaste da tali co
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. Eseguire questa query MySql per verificare che non sia possibile trovare l&#39;archivio, indicato dal messaggio di errore nel passaggio 2. 
+1. Eseguire questa query MySql per verificare che non sia possibile trovare l&#39;archivio, indicato dal messaggio di errore nel passaggio 2.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Eseguire la seguente istruzione MySql per eliminare le righe non valide: 
+1. Eseguire la seguente istruzione MySql per eliminare le righe non valide:
 
    ```sql
-   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
 1. Esegui di nuovo questo comando:
