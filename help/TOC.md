@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 61b3cc2fc40b320c3c657a7dd0c6ea2b9db71c75
+source-git-commit: a0b8fdf0e04cad2260a04af7c1049c6831d2921b
 workflow-type: tm+mt
-source-wordcount: '9626'
+source-wordcount: '9617'
 ht-degree: 0%
 
 ---
@@ -639,7 +639,6 @@ ht-degree: 0%
       * [Vulnerabilità di Apache log4j2 in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
       * [Blackfire rimozione dell’accesso per Adobe Commerce sull’infrastruttura cloud](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
       * [Rilascio dello strumento Quality Patches: nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
-      * [2.4 Workshop sull’aggiornamento ad Adobe Commerce del 26 gennaio 2022](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
       * [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Accesso ai dati dei clienti e privacy del servizio di assistenza Adobe](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [API UPS obsolete](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
@@ -938,7 +937,7 @@ ht-degree: 0%
       * [Errore di distribuzione: &quot;errore 7 durante il download della porta 443. Connessione rifiutata&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Errori di distribuzione durante il commit di file non corretti](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Errori di distribuzione in cui non sono state trovate patch](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [Distribuzione non riuscita durante lo svuotamento della cache: nessun comando definito nell&#39;errore dello spazio dei nomi &#39;cache&#39;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [Distribuzione non riuscita durante lo svuotamento della cache: errore &quot;Nessun comando definito nello spazio dei nomi &#39;cache&#39;&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [La distribuzione non riesce con le chiavi di accesso corrette in env:COMPOSER_AUTH o auth.json](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * Problemi noti {#known-issues-patches-attached}
       * [Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
