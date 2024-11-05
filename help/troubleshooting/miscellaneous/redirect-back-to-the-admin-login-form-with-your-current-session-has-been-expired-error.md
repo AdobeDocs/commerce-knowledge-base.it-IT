@@ -1,19 +1,19 @@
 ---
-title: Reindirizza al modulo di accesso dell’amministratore di Commerce con l’errore "La sessione corrente è scaduta"
-description: '"Questo articolo illustra le possibili soluzioni per il problema di accesso dell’amministratore di Commerce, in cui si viene reindirizzati al modulo di accesso con il seguente messaggio di errore: *"La sessione corrente è scaduta"*. Le soluzioni includono la verifica dei problemi di impostazione dell''ora del server e la modifica delle impostazioni di archiviazione della sessione.'
+title: '''Reindirizza al modulo di accesso di [!UICONTROL Commerce Admin] con l''errore "La sessione corrente è scaduta"'
+description: '''Questo articolo fornisce le possibili soluzioni per il problema di accesso [!UICONTROL Commerce Admin], in cui si viene reindirizzati al modulo di accesso con il seguente messaggio di errore: *"La sessione corrente è scaduta"*. Le soluzioni includono la verifica dei problemi di impostazione dell''ora del server e la modifica delle impostazioni di archiviazione della sessione.'
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 3f205b1d755bda7056f47bf1e1d036feb47ebadd
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# Reindirizza al modulo di accesso dell’amministratore di Commerce con l’errore &quot;La sessione corrente è scaduta&quot;
+# Reindirizza al modulo di accesso [!UICONTROL Commerce Admin] con l&#39;errore &quot;La sessione corrente è scaduta&quot;
 
-In questo articolo vengono fornite le possibili soluzioni per il problema di accesso dell&#39;amministratore di Commerce, in cui si viene reindirizzati al modulo di accesso con il seguente messaggio di errore: *&quot;La sessione corrente è scaduta&quot;*. Le soluzioni includono la verifica dei problemi di impostazione dell&#39;ora del server e la modifica delle impostazioni di archiviazione della sessione.
+Questo articolo fornisce le possibili soluzioni per il problema di accesso [!UICONTROL Commerce Admin], in cui si viene reindirizzati al modulo di accesso con il seguente messaggio di errore: *&quot;La sessione corrente è scaduta&quot;*. Le soluzioni includono la verifica dei problemi di impostazione dell&#39;ora del server e la modifica delle impostazioni di archiviazione della sessione.
 
 ## Edizioni e versioni interessate:
 
@@ -23,12 +23,12 @@ Tutte le versioni e le edizioni di Adobe Commerce
 
 <u>Passaggi da riprodurre</u>:
 
-1. Vai alla pagina di amministrazione di Commerce.
-1. Immetti le credenziali e fai clic su Accedi.
+1. Passare alla pagina **[!UICONTROL Commerce Admin]**.
+1. Immetti le tue credenziali e fai clic su **Accedi**.
 
 <u>Risultato previsto</u>:
 
-Hai effettuato l’accesso a Commerce Admin.
+Si è connessi a [!UICONTROL Commerce Admin].
 
 <u>Risultato effettivo</u>:
 
@@ -70,6 +70,8 @@ Eseguire il comando `bin/magento app:config:import` per importare i dati di conf
 ## Lettura correlata
 
 * [Importa dati dai file di configurazione](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html) nella documentazione per gli sviluppatori
-* [Configurare Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html) nella documentazione per gli sviluppatori
-* [Errore &quot;L&#39;account è temporaneamente disabilitato&quot; durante il reindirizzamento al modulo di accesso dell&#39;amministratore di Commerce](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) nella Knowledge Base del supporto tecnico
-* [Reindirizza al modulo di accesso senza errori quando tenti di accedere all&#39;amministratore di Commerce](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md) nella nostra knowledge base di supporto
+* [Configura [!DNL Redis]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) nella documentazione per gli sviluppatori
+* [Reindirizzamento al modulo di accesso di [!UICONTROL Commerce Admin] con l&#39;errore &quot;L&#39;account è temporaneamente disabilitato&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error) nella Knowledge Base di supporto
+* [Reindirizzare al modulo di accesso senza errori quando si tenta di accedere a [!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) nella Knowledge Base di supporto
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+

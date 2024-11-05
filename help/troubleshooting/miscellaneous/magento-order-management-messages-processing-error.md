@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione al problema quando si riceve
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,11 @@ Ciò si verifica quando il connettore tenta di elaborare `magento.inventory.sour
 
 ## Soluzione
 
-Per risolvere il problema, eseguire l&#39;istruzione SQL seguente nella CLI che elimina tutti i record nella tabella `mcom_api_messages`:
+Per risolvere il problema, eseguire l&#39;istruzione [!DNL SQL] seguente nella CLI che elimina tutti i record nella tabella `mcom_api_messages`:
 
 `delete from mcom_api_messages;`
 
 ## Lettura correlata
 
-Vedere l&#39;esercitazione sull&#39;installazione del connettore OMS [OMS Docs](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+* Esercitazione di configurazione del connettore OMS [OMS Docs](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

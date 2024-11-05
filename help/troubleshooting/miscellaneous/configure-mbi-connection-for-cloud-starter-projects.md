@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per quando desideri configur
 feature: Commerce Intelligence
 role: Developer
 exl-id: 56f6ad64-729d-4e3a-93a9-da1b91bc5c1d
-source-git-commit: b75328202952bf4c8f57ddc538b5c9e4318b2001
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Segui questi passaggi:
 
    ![Aggiungi chiave pubblica SSH](/help/troubleshooting/miscellaneous/assets/add_ssh_key_mbi.png)
 
-1. Fornisci credenziali MySQL di Business Intelligence Essentials.
+1. Fornire le credenziali [!DNL MySQL] di Business Intelligence Essentials.
 
    * Aggiorna `.magento/services.yaml`.
 
@@ -197,3 +197,7 @@ Segui questi passaggi:
 1. Fare clic su **[!UICONTROL Save Integration]**.
 1. Connessione all&#39;account Commerce Intelligence Essentials completata.
 1. Se sei un cliente Adobe Commerce Intelligence Pro, contatta il tuo Customer Success Manager o il tuo consulente tecnico per coordinare i passaggi successivi.
+
+## Lettura correlata
+
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

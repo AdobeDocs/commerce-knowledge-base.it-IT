@@ -1,18 +1,18 @@
 ---
-title: Modifica ID incremento per un'entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare negozio
-description: Questo articolo illustra come modificare l'ID incremento per un'entità database di Adobe Commerce (DB) (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l’istruzione SQL "ALTER TABLE".
+title: Modifica l'ID incremento per un'entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare archivio
+description: Questo articolo illustra come modificare l’ID incremento di un’entità database (DB) di Adobe Commerce (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l’istruzione SQL "ALTER TABLE".
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# Modifica ID incremento per un&#39;entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare negozio
+# Modifica l&#39;ID incremento per un&#39;entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare archivio
 
-Questo articolo illustra come modificare l&#39;ID incremento per un&#39;entità database di Adobe Commerce (DB) (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l&#39;istruzione SQL `ALTER TABLE`.
+In questo articolo viene illustrato come modificare l&#39;ID incremento per un&#39;entità database (DB) di Adobe Commerce (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l&#39;istruzione SQL `ALTER TABLE`.
 
 ## Versioni interessate
 
@@ -86,5 +86,6 @@ Prima di eseguire la query `ALTER TABLE` nell&#39;ambiente di produzione di Adob
 
 ## Documentazione correlata
 
-* [Crea un dump del database nel cloud](/help/how-to/general/create-database-dump-on-cloud.md) nella knowledge base di supporto.
-* [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) nella documentazione per gli sviluppatori.
+* [Crea un dump del database nel cloud](/help/how-to/general/create-database-dump-on-cloud.md) nella knowledge base di supporto
+* [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) nella documentazione per gli sviluppatori
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

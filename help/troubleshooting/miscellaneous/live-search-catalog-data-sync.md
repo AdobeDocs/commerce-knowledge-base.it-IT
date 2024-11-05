@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per il problema di Adobe Commerc
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ Una volta effettuata la configurazione e la connessione, possono essere necessar
 
 Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specifica, effettua le seguenti operazioni:
 
-1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
+1. Utilizzare la seguente query [!DNL SQL] e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. Se non vengono visualizzati i dati corretti, provare a reindicizzare utilizzando il comando seguente ed eseguire nuovamente la query SQL al passaggio 1 per verificare i dati:
+1. Se non vengono visualizzati i dati corretti, provare a reindicizzare utilizzando il comando seguente ed eseguire nuovamente la query [!DNL SQL] nel passaggio 1 per verificare i dati:
 
    ```bash
    bin/magento indexer:reindex cde_products_feed
@@ -76,7 +76,7 @@ Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specif
 
 ### Controlla la marca temporale dell’ultima esportazione del prodotto
 
-1. Se vengono visualizzati i dati corretti in `cde_products_feed`, utilizzare la query SQL seguente per verificare la marca temporale dell&#39;ultima esportazione. Deve essere dopo la marca temporale `modified_at`:
+1. Se vengono visualizzati i dati corretti in `cde_products_feed`, utilizzare la seguente query [!DNL SQL] per verificare la marca temporale dell&#39;ultima esportazione. Deve essere dopo la marca temporale `modified_at`:
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -94,13 +94,13 @@ Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specif
 
 Se i dati dell’attributo del prodotto non vengono sincronizzati correttamente per un codice di attributo specifico, effettua le seguenti operazioni:
 
-1. Utilizzare la seguente query SQL e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
+1. Utilizzare la seguente query [!DNL SQL] e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
    select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. Se i dati corretti non vengono visualizzati, utilizzare il comando seguente per reindicizzare ed eseguire nuovamente la query SQL nel passaggio 1 per verificare i dati.
+1. Se non vengono visualizzati i dati corretti, utilizzare il comando seguente per reindicizzare ed eseguire nuovamente la query [!DNL SQL] nel passaggio 1 per verificare i dati.
 
    ```bash
    bin/magento indexer:reindex cde_product_attributes_feed
@@ -112,7 +112,7 @@ Se i dati dell’attributo del prodotto non vengono sincronizzati correttamente 
 
 Se vengono visualizzati i dati corretti in `cde_product_attributes_feed`:
 
-1. Utilizza la seguente query SQL per verificare la marca temporale dell’ultima esportazione. Deve essere dopo la marca temporale `modified_at`.
+1. Utilizzare la seguente query [!DNL SQL] per verificare la marca temporale dell&#39;ultima esportazione. Deve essere dopo la marca temporale `modified_at`.
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -137,5 +137,6 @@ bin/magento saas:resync --feed productattributes
 
 ## Lettura correlata
 
-* Consulta [Onboard Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) nella documentazione utente.
-* Consulta [Esaminare i registri e risolvere i problemi relativi all&#39;esportazione e alla sincronizzazione dei dati Adobe Commerce SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) nella Guida all&#39;esportazione dei dati Adobe Commerce SaaS.
+* [Onboarding Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) nella documentazione utente
+* [Esaminare i registri e risolvere i problemi relativi all&#39;esportazione e alla sincronizzazione dei dati Adobe Commerce SaaS](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) nella Guida all&#39;esportazione dei dati Adobe Commerce SaaS
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

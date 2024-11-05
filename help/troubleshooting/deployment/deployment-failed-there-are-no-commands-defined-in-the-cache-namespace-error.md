@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione al problema quando la distri
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ La distribuzione non è riuscita. Nei registri viene visualizzato un errore di d
 
 ### Causa
 
-La tabella **core_config_data** contiene le configurazioni per un ID archivio o un ID sito Web che non esiste più nel database. Ciò si verifica quando si importa un backup del database da un&#39;altra istanza o da un altro ambiente e le configurazioni per tali ambiti rimangono nel database anche se gli store o i siti Web associati sono stati eliminati.
+La tabella **`core_config_data`** contiene configurazioni per un ID archivio o un ID sito Web che non esiste più nel database. Ciò si verifica quando si importa un backup del database da un&#39;altra istanza o da un altro ambiente e le configurazioni per tali ambiti rimangono nel database anche se gli store o i siti Web associati sono stati eliminati.
 
 ### Soluzione
 
@@ -67,13 +67,13 @@ Per risolvere questo problema, identifica le righe non valide rimaste da tali co
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. Eseguire questa query MySql per verificare che non sia possibile trovare l&#39;archivio, indicato dal messaggio di errore nel passaggio 2.
+1. Eseguire questa query [!DNL MySQL] per verificare che non sia possibile trovare l&#39;archivio, indicato dal messaggio di errore nel passaggio 2.
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Eseguire la seguente istruzione MySql per eliminare le righe non valide:
+1. Eseguire l&#39;istruzione [!DNL MySQL] seguente per eliminare le righe non valide:
 
    ```sql
    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
@@ -91,13 +91,13 @@ Per risolvere questo problema, identifica le righe non valide rimaste da tali co
    The website with id X that was requested wasn't found. Verify the website and try again.
    ```
 
-   Eseguire questa query MySQL e verificare che il sito Web non sia stato trovato:
+   Eseguire questa query [!DNL MySQL] e verificare che il sito Web non sia stato trovato:
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. Eseguire questa istruzione MySql per eliminare le righe non valide dalla configurazione del sito Web:
+1. Eseguire questa istruzione [!DNL MySQL] per eliminare le righe non valide dalla configurazione del sito Web:
 
    ```sql
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
@@ -107,5 +107,6 @@ Per verificare che la soluzione funzioni, eseguire di nuovo il comando `bin/mage
 
 ## Lettura correlata
 
-* [Risoluzione dei problemi di distribuzione di Adobe Commerce](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [Verifica del registro di distribuzione se nell’interfaccia utente di Cloud è presente l’errore &quot;log snipped&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [Controllo del registro di distribuzione se nell&#39;interfaccia utente di Cloud è presente l&#39;errore &quot;log snipped&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

@@ -4,9 +4,9 @@ description: Questo articolo fornisce una correzione per quando un amministrator
 exl-id: 0e91198e-66b9-456a-9b75-5986369ed8e6
 feature: Admin Workspace, Logs
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,6 @@ Dopo aver installato l&#39;aggiornamento della sicurezza, la password viene crit
 
 ## Ulteriori informazioni {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
-[Adobe Commerce 2.0.16 e 2.1.9 Pagina di aggiornamento sulla sicurezza](https://magento.com/security/patches/magento-2016-and-219-security-update) nel nostro centro sicurezza.
-
-[Aggiorna l&#39;applicazione Adobe Commerce e i relativi componenti](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) nella documentazione per gli sviluppatori.
+* [Pagina di aggiornamento sulla sicurezza di Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) nel nostro centro sicurezza
+* [Aggiorna l&#39;applicazione Adobe Commerce e i relativi componenti](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) nella documentazione per gli sviluppatori
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

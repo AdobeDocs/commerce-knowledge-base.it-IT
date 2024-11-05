@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per gli errori che possono verif
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -162,3 +162,7 @@ Uno dei motivi dell&#39;errore potrebbe essere che si sta tentando di eseguire l
 ### Soluzione possibile
 
 Per risolvere i problemi di migrazione, è consigliabile eseguire il test del processo di migrazione da una copia del database Adobe Commerce 1. Dopo aver risolto i problemi sulla copia, riavvia il processo di migrazione dal database live Adobe Commerce 1. Ciò contribuirà a garantire un processo di migrazione agevole.
+
+## Lettura correlata
+
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

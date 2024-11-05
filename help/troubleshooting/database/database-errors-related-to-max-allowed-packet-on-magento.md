@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per gli errori di connession
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Questo articolo fornisce una soluzione per gli errori di connessione al database
 
 ## Problema
 
-Quando un client MySQL o il server [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) riceve un pacchetto maggiore di [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) byte, viene generato un errore [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) (visibile in `exception.log`) e la connessione viene chiusa. Con alcuni client, è inoltre possibile che si ottenga una connessione *interrotta al server MySQL durante l&#39;errore di query* se il pacchetto di comunicazione è troppo grande.
+Quando un client [!DNL MySQL] o il server [mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html) riceve un pacchetto maggiore di [max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet) byte, viene generato un errore [ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large) (visibile in `exception.log`) e la connessione viene chiusa. Con alcuni client, è inoltre possibile che si ottenga una connessione *interrotta al server [!DNL MySQL] durante l&#39;errore di query* se il pacchetto di comunicazione è troppo grande.
 
 <u>Passaggi da riprodurre</u>
 
@@ -29,7 +29,7 @@ Questo problema può essere generato da diverse attività. Ad esempio, puoi tent
 
 ## Causa
 
-Il valore predefinito di 16 MB per l&#39;impostazione MySQL `max_allowed_packets` non è sufficiente per le proprie esigenze.
+Il valore predefinito di 16 MB per l&#39;impostazione [!DNL MySQL] `max_allowed_packets` non è sufficientemente grande per le tue esigenze.
 
 ## Soluzione
 
@@ -45,7 +45,8 @@ Il valore predefinito di 16 MB per l&#39;impostazione MySQL `max_allowed_packets
 
 ## Lettura correlata
 
-* [Guida all&#39;installazione > MySQL](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/mysql.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=max%20allowed%2016%20MB) nella documentazione per gli sviluppatori.
-* [Il caricamento del database perde la connessione a MySQL](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md) nella Knowledge Base di supporto.
+* [Panoramica sull&#39;installazione locale](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) nella documentazione per gli sviluppatori.
+* [Il caricamento del database perde la connessione a  [!DNL MySQL]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql) nella Knowledge Base di supporto.
 * [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) nella knowledge base di supporto.
 * [Best practice per risolvere i problemi di prestazioni del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) nella knowledge base di supporto.
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

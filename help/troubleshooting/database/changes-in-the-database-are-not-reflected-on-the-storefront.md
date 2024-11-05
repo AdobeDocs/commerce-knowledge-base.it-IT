@@ -1,19 +1,19 @@
 ---
 title: Le modifiche nel database non si riflettono nella vetrina
-description: Questo articolo fornisce soluzioni per evitare ritardi o interruzioni nell’applicazione degli aggiornamenti delle entità. Ciò include come evitare che le tabelle di registro delle modifiche vengano sovradimensionate e come impostare i trigger di tabella MySQL.
+description: Questo articolo fornisce soluzioni per evitare ritardi o interruzioni nell’applicazione degli aggiornamenti delle entità. Questo include come evitare che le tabelle di registro delle modifiche vengano sovradimensionate e come impostare  [!DNL MySQL]  trigger di tabella.
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
 # Le modifiche nel database non si riflettono nella vetrina
 
-Questo articolo fornisce soluzioni per evitare ritardi o interruzioni nell’applicazione degli aggiornamenti delle entità. Ciò include come evitare che le tabelle di registro delle modifiche vengano sovradimensionate e come impostare i trigger di tabella MySQL.
+Questo articolo fornisce soluzioni per evitare ritardi o interruzioni nell’applicazione degli aggiornamenti delle entità. Ciò include come evitare che le tabelle di registro delle modifiche vengano sovradimensionate e come impostare [!DNL MySQL] trigger di tabella.
 
 Prodotti e versioni interessati:
 
@@ -32,9 +32,9 @@ Se gli indicizzatori sono [configurati per l&#39;aggiornamento in base alla pian
 
 Le dimensioni delle tabelle del registro delle modifiche aumentano se il processo cron `indexer_update_all_views` non viene completato più volte.
 
-Le tabelle di log delle modifiche sono le tabelle di database in cui vengono tracciate le modifiche apportate alle entità. Un record viene archiviato in una tabella del registro delle modifiche finché la modifica non viene applicata, operazione eseguita dal processo cron `indexer_update_all_views`. In un database Adobe Commerce sono presenti più tabelle di log delle modifiche denominate in base al seguente pattern: INDEXER\_TABLE\_NAME + ‘\_cl’, ad esempio `catalog_category_product_cl`, `catalog_product_category_cl`. Per ulteriori dettagli sul tracciamento delle modifiche nel database, consulta l&#39;articolo [Panoramica sull&#39;indicizzazione > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) nella documentazione per gli sviluppatori.
+Le tabelle di log delle modifiche sono le tabelle di database in cui vengono tracciate le modifiche apportate alle entità. Un record viene archiviato in una tabella del registro delle modifiche finché la modifica non viene applicata, operazione eseguita dal processo cron `indexer_update_all_views`. In un database Adobe Commerce sono presenti più tabelle di log delle modifiche denominate in base al seguente pattern: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, ad esempio `catalog_category_product_cl`, `catalog_product_category_cl`. Per ulteriori dettagli sul tracciamento delle modifiche nel database, consulta l&#39;articolo [Panoramica sull&#39;indicizzazione > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) nella documentazione per gli sviluppatori.
 
-### I trigger del database MySQL non sono configurati
+### [!DNL MySQL] trigger del database non configurati
 
 Si può sospettare che i trigger del database non siano configurati, se dopo l&#39;aggiunta o la modifica di un&#39;entità (prodotto, categoria, regola di destinazione e così via) - non vengono aggiunti record alla tabella del log delle modifiche corrispondente.
 
@@ -60,9 +60,9 @@ Oppure puoi controllarne lo stato nei registri cercando le `indexer_update_all_v
 * `<install_directory>/var/log/cron.log` - per le versioni 2.3.1+ e 2.2.8+
 * `<install_directory>/var/log/system.log` - per versioni precedenti
 
-### Reimposta trigger tabella MySQL
+### Reimposta [!DNL MySQL] trigger tabella
 
-Per impostare i trigger della tabella MySQL mancanti, è necessario reimpostare la modalità di indicizzazione:
+Per impostare i trigger di tabella mancanti [!DNL MySQL], è necessario reimpostare la modalità dell&#39;indicizzatore:
 
 1. Passa a &quot;Al salvataggio&quot;.
 1. Torna a &quot;In programma&quot;.
@@ -83,5 +83,6 @@ php bin/magento indexer:set-mode {realtime|schedule} [indexerName]
 
 ## Lettura correlata
 
-<ul><li title="Le tabelle MySQL sono troppo grandi"><a href="/help/troubleshooting/database/mysql-tables-are-too-large.md">Le tabelle MySQL sono troppo grandi</a> nella Knowledge Base di supporto.</li>
-<li title="Le tabelle MySQL sono troppo grandi"><a href="https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview">Panoramica dell'indicizzatore &gt; Mview</a> nella documentazione per gli sviluppatori.</li></ul>
+* [[!DNL MySQL] le tabelle sono troppo grandi](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/mysql-tables-are-too-large) nella Knowledge Base di supporto
+* [Indicizzazione: [!DNL Mview]](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) nella documentazione per gli sviluppatori
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

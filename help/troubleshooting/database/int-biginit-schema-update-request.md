@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per i casi in cui non è possibi
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * Adobe Commerce (tutti i metodi di distribuzione) tutte le [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 Questo articolo fornisce soluzioni per i casi in cui non è possibile salvare un aggiornamento del prodotto, ad esempio una modifica del prezzo o l’eliminazione e la duplicazione di un prodotto.
-È possibile che venga visualizzato il messaggio di errore *Impossibile salvare l&#39;elemento azionario. Riprova.* È possibile che la distribuzione non riesca dopo un aggiornamento del prodotto. È inoltre possibile che venga visualizzato il seguente messaggio di errore MySQL quando si esegue `php bin/magento setup:upgrade` (in Adobe Commerce sull&#39;infrastruttura cloud questo errore viene visualizzato nei registri di distribuzione):
+È possibile che venga visualizzato il messaggio di errore *Impossibile salvare l&#39;elemento azionario. Riprova.* È possibile che la distribuzione non riesca dopo un aggiornamento del prodotto. È inoltre possibile che venga visualizzato il seguente messaggio di errore [!DNL MySQL] quando si esegue `php bin/magento setup:upgrade` (in Adobe Commerce sull&#39;infrastruttura cloud questo errore viene visualizzato nei registri di distribuzione):
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -56,7 +56,7 @@ Se `max(value_id)` è inferiore a `max int(11) [ 4294967296 ]` e `[ AUTO_INCREME
 
 >[!WARNING]
 >
->Eseguire un backup del database prima di modificare le tabelle. Impostare inoltre il sito in [modalità di manutenzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). Si consiglia inoltre di eseguire il comando di ottimizzazione MYSQL sulle tabelle del database (solo per le tabelle in cui sono state apportate modifiche) dopo aver apportato le modifiche.
+>Eseguire un backup del database prima di modificare le tabelle. Impostare inoltre il sito in [modalità di manutenzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode). È inoltre consigliabile eseguire il comando di ottimizzazione [!DNL MySQL] sulle tabelle del database (solo nelle tabelle in cui sono state apportate modifiche) dopo aver apportato le modifiche.
 
 >[!NOTE]
 >
@@ -111,7 +111,8 @@ Per eseguire questa operazione:
 
 ## Lettura correlata
 
-* [Linee guida generali di MySQL](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) nella Guida all&#39;installazione di Commerce.
-* [Il caricamento del database perde la connessione a MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) nella Knowledge Base di supporto.
-* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) nella knowledge base di supporto.
-* [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) nella knowledge base di supporto.
+* [Indicazioni generali [!DNL MySQL] ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) nella Guida all&#39;installazione di Commerce
+* [Il caricamento del database perde la connessione a  [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html) nella Knowledge Base di supporto
+* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) nella knowledge base per il supporto
+* [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) nella knowledge base di supporto
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

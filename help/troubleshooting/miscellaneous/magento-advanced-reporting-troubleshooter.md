@@ -4,9 +4,9 @@ description: I problemi di Reporting avanzato su Adobe Commerce possono essere r
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ b. NO - Completa i requisiti di reporting avanzato per il tuo sito seguendo i pa
 
 +++**Sono utilizzate più valute di base?**
 
-Vengono utilizzate più valute di base (negli ordini e nella configurazione)? Eseguire questo comando SQL per ottenere la configurazione corrente: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';`.
+Vengono utilizzate più valute di base (negli ordini e nella configurazione)? Eseguire il comando [!DNL SQL] per ottenere la configurazione corrente: `SELECT value FROM core_config_data WHERE path = 'currency/options/base';`.
 
 a. SÌ: se la query restituisce più righe, non è possibile utilizzare la funzione di reporting avanzato, in quanto è supportata una sola valuta.\
-b. NO - Il risultato mostra una sola valuta. Esempio: `USD`. Sono state utilizzate più valute di base (negli ordini)? Esegui questo comando SQL per ottenere i dati cronologici degli ordini:\
+b. NO - Il risultato mostra una sola valuta. Esempio: `USD`. Sono state utilizzate più valute di base (negli ordini)? Esegui questo comando [!DNL SQL] per ottenere i dati degli ordini cronologici:\
 `SELECT DISTINCT base_currency_code FROM sales_order;`.
 **NOTA: questo comando richiede un&#39;analisi completa della tabella. Per le tabelle con un numero elevato di record, ciò potrebbe avere un impatto sulle prestazioni durante l&#39;esecuzione della query** per ottenere i dati cronologici degli ordini.
 Se sono state utilizzate più valute di base, non è possibile utilizzare la funzione di reporting avanzato, in quanto è supportata una sola valuta. Se nell&#39;output viene visualizzata una sola valuta, passare al [passaggio 3](#step-3).
@@ -157,3 +157,7 @@ b. NO - [invia un ticket di supporto](/help/help-center-guide/help-center/magent
 +++
 
 [Torna al passaggio 1](#step-1)
+
+## Lettura correlata
+
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

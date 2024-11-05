@@ -4,9 +4,9 @@ description: In questo articolo vengono forniti suggerimenti per la risoluzione 
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: af9ee28c5819a9d1b97411210816bfe8a9522614
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Se hai configurato il
 magento/product-recommendations
 ```
 
-modulo correttamente, (controllare [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) nella documentazione per gli sviluppatori.) ma non ricevi alcun consiglio, prova quanto segue:
+modulo corretto (controllare [[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) nella documentazione per gli sviluppatori). ma non si visualizzano consigli, provare a eseguire le operazioni seguenti:
 
 * È possibile che il modulo non abbia avuto abbastanza tempo per raccogliere i dati comportamentali. Consenti al sistema di funzionare per 24 ore in modo che possa iniziare a raccogliere dati. Valuta la possibilità di distribuire un tipo di consiglio che non richiede dati comportamentali, ad esempio &quot;*Altri tipi simili*&quot;.
 
@@ -83,3 +83,5 @@ saas-export
 * [Creazione di Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create) nella Guida di Product Recommendations
 * [Esaminare i registri e risolvere i problemi](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging) nella Guida all&#39;esportazione dei dati di [!DNL SaaS]
 * [[!DNL SaaS] Note sulla versione dell&#39;estensione per l&#39;esportazione dei dati](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) nella Guida all&#39;esportazione dei dati di Adobe Commerce per i servizi [!DNL SaaS]
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+

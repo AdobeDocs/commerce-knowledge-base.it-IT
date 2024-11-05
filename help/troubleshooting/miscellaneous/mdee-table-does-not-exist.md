@@ -3,9 +3,10 @@ title: Correggi i dati non aggiornati in [!DNL Commerce Data Exporter] feed e [!
 description: Questo articolo fornisce una soluzione per risolvere i problemi di sincronizzazione dei dati causati dall'utilizzo di un ID di visualizzazione errato nella sottoscrizione  [!DNL Commerce Data Exporter mview] .
 feature: Data Import/Export, Saas, Logs
 role: Developer
-source-git-commit: 3581e39e7054cf765403fd963e22a051457c1097
+exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -48,4 +49,5 @@ Nell&#39;esempio seguente viene illustrato il codice che specifica le tabelle tr
 
 ## Lettura correlata
 
-[[!DNL SaaS] Note sulla versione dell&#39;estensione per l&#39;esportazione dei dati](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) nella Guida all&#39;esportazione dei dati di Adobe Commerce per i servizi [!DNL SaaS]
+* [[!DNL SaaS] Note sulla versione dell&#39;estensione per l&#39;esportazione dei dati](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) nella Guida all&#39;esportazione dei dati di Adobe Commerce per i servizi [!DNL SaaS]
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

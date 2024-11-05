@@ -4,9 +4,9 @@ description: 'Questo articolo corregge alcuni problemi che si verificavano duran
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,8 @@ Segui questi passaggi:
 1. Trovare i record di categoria con lo stesso valore `entity_id` e lo stesso valore `created_in`.
 1. Selezionare il record in cui `row_id` = `entity_id` e copiare il valore `updated_in`.
 1. Selezionare il record in cui `row_id` non è uguale a `entity_id` e incollare il valore `updated_in` copiato come valore `created_in`. Vedi la schermata seguente come illustrazione.    ![Copia del valore created_in.png](assets/copy_created-in_value.png)
-1. Verificare che il record di aggiornamento categoria, il cui valore `created_in` è stato aggiornato (nel passaggio 3), esista nella tabella `staging_update`. *Ad esempio:* SE il valore `created_in` copiato è 1509281953, ALLORA l&#39;entità con `row_id` = 1509281953 deve esistere nella tabella `staging_update`
+1. Verificare che il record di aggiornamento categoria, il cui valore `created_in` è stato aggiornato (nel passaggio 3), esista nella tabella `staging_update`. *Ad esempio:* SE il valore `created_in` copiato è 1509281953, ALLORA l&#39;entità con `row_id` = 1509281953 deve esistere nella tabella `staging_update`.
+
+## Lettura correlata
+
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

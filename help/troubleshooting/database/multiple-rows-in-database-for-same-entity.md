@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione al problema relativo alla pr
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 exl-id: 09d5c321-9c45-4041-b6f6-831efca0977e
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -67,5 +67,6 @@ Questo è il comportamento previsto e darà luogo a problemi solo in presenza di
 
 ## Lettura correlata
 
-* [Le modifiche alle categorie non vengono salvate](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) nella Knowledge Base di supporto.
-* [Voci duplicate nella tabella catalogrule dopo la modifica della data di fine di un aggiornamento della pianificazione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) nella Knowledge Base di supporto.
+* [Le modifiche alle categorie non vengono salvate](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html) nella Knowledge Base di supporto
+* [Voci duplicate nella tabella catalogrule dopo la modifica della data di fine di un aggiornamento della pianificazione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html) nella Knowledge Base di supporto
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
