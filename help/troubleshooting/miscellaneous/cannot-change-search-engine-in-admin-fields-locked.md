@@ -2,9 +2,9 @@
 title: Impossibile cambiare il motore di ricerca in "app/etc/env.php"
 description: Questo articolo fornisce una soluzione al problema per cui si tenta di modificare il motore di ricerca nell’amministratore di Commerce, ma i campi sono bloccati.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ La configurazione del motore di ricerca è bloccata nel file `app/etc/env.php` o
 
 ## Lettura correlata
 
-* [Campi bloccati in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) nella Guida di Commerce su Cloud Infrastructure.
+* [Campi bloccati (disattivati) in Commerce Admin](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) nella Guida di Commerce on Cloud Infrastructure.

@@ -1,19 +1,19 @@
 ---
-title: Campi bloccati in Amministrazione Commerce
+title: Campi bloccati (disattivati) nell’amministrazione di Commerce
 description: Questo articolo fornisce una soluzione per i casi in cui non è possibile modificare i campi in Commerce Admin.
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Campi bloccati in Amministrazione Commerce
+# Campi bloccati (disattivati) nell’amministrazione di Commerce
 
-Questo articolo fornisce una soluzione per i casi in cui non è possibile modificare i campi in Commerce Admin.
+Questo articolo fornisce una soluzione per i casi in cui non è possibile modificare i campi bloccati (disattivati) in Commerce Admin.
 
 ## Prodotti e versioni interessati
 
