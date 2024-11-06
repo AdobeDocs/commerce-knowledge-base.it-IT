@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per evitare ritardi o interruzio
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Le modifiche apportate nel database non vengono applicate nella vetrina, oppure 
 
 ## Causa
 
-Se gli indicizzatori sono [configurati per l&#39;aggiornamento in base alla pianificazione](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers), il problema potrebbe essere causato da una o più tabelle con log delle modifiche troppo grandi o da trigger MySQL non configurati.
+Se gli indicizzatori sono [configurati per l&#39;aggiornamento in base alla pianificazione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers), il problema potrebbe essere causato da una o più tabelle con log delle modifiche troppo grandi o da trigger MySQL non configurati.
 
 ### Tabelle di log delle modifiche sovradimensionate
 
 Le dimensioni delle tabelle del registro delle modifiche aumentano se il processo cron `indexer_update_all_views` non viene completato più volte.
 
-Le tabelle di log delle modifiche sono le tabelle di database in cui vengono tracciate le modifiche apportate alle entità. Un record viene archiviato in una tabella del registro delle modifiche finché la modifica non viene applicata, operazione eseguita dal processo cron `indexer_update_all_views`. In un database Adobe Commerce sono presenti più tabelle di log delle modifiche denominate in base al seguente pattern: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, ad esempio `catalog_category_product_cl`, `catalog_product_category_cl`. Per ulteriori dettagli sul tracciamento delle modifiche nel database, consulta l&#39;articolo [Panoramica sull&#39;indicizzazione > Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) nella documentazione per gli sviluppatori.
+Le tabelle di log delle modifiche sono le tabelle di database in cui vengono tracciate le modifiche apportate alle entità. Un record viene archiviato in una tabella del registro delle modifiche finché la modifica non viene applicata, operazione eseguita dal processo cron `indexer_update_all_views`. In un database Adobe Commerce sono presenti più tabelle di log delle modifiche denominate in base al seguente pattern: INDEXER\_TABLE\_NAME + &#39;\_cl&#39;, ad esempio `catalog_category_product_cl`, `catalog_product_category_cl`. Per ulteriori dettagli sul tracciamento delle modifiche nel database, consulta l&#39;articolo [Panoramica sull&#39;indicizzazione > Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) nella documentazione per gli sviluppatori.
 
 ### [!DNL MySQL] trigger del database non configurati
 

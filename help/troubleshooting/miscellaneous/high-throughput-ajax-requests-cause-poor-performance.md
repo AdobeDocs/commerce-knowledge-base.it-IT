@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per i problemi di prestazion
 exl-id: 68dfca8a-826c-4476-acaf-a139052b5dcc
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -36,22 +36,22 @@ Le richieste AJAX a throughput elevato includono quelle relative ai contenuti pr
 
 Sono disponibili tre soluzioni:
 
-* [Eseguire l&#39;aggiornamento alla versione 2.3.4](https://devdocs.magento.com/cloud/project/project-upgrade.html). Se non è attualmente possibile, [installare la patch che risolve il problema](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md).
+* [Eseguire l&#39;aggiornamento alla versione 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version). Se non è attualmente possibile, [installare la patch che risolve il problema](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md).
 * Assicurati richieste più leggere (memorizza nella cache le richieste o passa al contenuto privato dei clienti).
 * Riduci il numero di richieste.
 
 <u>Garantire richieste più leggere (memorizzare in cache le richieste o passare al contenuto privato dei clienti)</u>
 
-Se in ogni pagina sono presenti richieste AJAX di terze parti attivate, prova a memorizzarle nella cache o a spostarle nel contenuto privato dei clienti. Il commerciante può eseguire questa operazione assicurandosi che le richieste AJAX personalizzate vengano chiamate utilizzando i metodi HTTP GET. Renderà queste richieste memorizzabili nella cache da Fastly. Se ci sono richieste AJAX personalizzate che non devono essere memorizzate in cache, è necessario eseguirne il refactoring in base alla funzionalità di contenuto privato. Per i passaggi, consulta [Contenuto privato](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html) nella documentazione per gli sviluppatori.
+Se in ogni pagina sono presenti richieste AJAX di terze parti attivate, prova a memorizzarle nella cache o a spostarle nel contenuto privato dei clienti. Il commerciante può eseguire questa operazione assicurandosi che le richieste AJAX personalizzate vengano chiamate utilizzando i metodi HTTP GET. Renderà queste richieste memorizzabili nella cache da Fastly. Se ci sono richieste AJAX personalizzate che non devono essere memorizzate in cache, è necessario eseguirne il refactoring in base alla funzionalità di contenuto privato. Per i passaggi, consulta [Contenuto privato](https://developer.adobe.com/commerce/php/development/cache/page/private-content/) nella documentazione per gli sviluppatori.
 
 <u>Riduci il numero di richieste</u>
 
-* Disattiva il carrello acquisti permanente, in quanto può aumentare il numero di `customer/section/load` richieste. Segui i passaggi descritti in [Percorsi persistenti del carrello](https://devdocs.magento.com/guides/v2.3/config-guide/prod/config-reference-most.html#persistent-shopping-cart-paths) nella documentazione per gli sviluppatori per verificare se il carrello permanente è abilitato.
-* Se devi ricaricare o annullare la validità del contenuto in `sections.xml`, segui i passaggi descritti in [Contenuto privato: annulla la validità del contenuto privato](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html#invalidate-private-content) nella documentazione per sviluppatori. Assicurarsi di non utilizzare il metodo `customerData.reload()` direttamente nelle personalizzazioni.
+* Disattiva il carrello acquisti permanente, in quanto può aumentare il numero di `customer/section/load` richieste. Segui i passaggi descritti in [Percorsi persistenti del carrello](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/config-reference-general) nella documentazione per gli sviluppatori per verificare se il carrello permanente è abilitato.
+* Se devi ricaricare o annullare la validità del contenuto in `sections.xml`, segui i passaggi descritti in [Contenuto privato: annulla la validità del contenuto privato](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content) nella documentazione per sviluppatori. Assicurarsi di non utilizzare il metodo `customerData.reload()` direttamente nelle personalizzazioni.
 * Controlla le altre richieste AJAX di POST sulla stessa pagina. Apri Google Chrome Developer Tool nel browser Google Chrome. Fare clic sulla scheda **Rete** e quindi sulla scheda **XHR**. Verrà visualizzato l&#39;elenco di tutte le richieste AJAX dalla pagina specifica. Quindi fai clic su ciascuna richiesta e nel campo Request Method (Metodo di richiesta) dovrebbero essere le richieste GET. Nota: Google Chrome viene utilizzato come esempio ed è possibile farlo anche in altri browser.
 * Verifica la funzionalità Google Tag Manager (GTM) che è una richiesta AJAX specifica. L’utente può rimuovere questo AJAX e rieseguire il factoring della personalizzazione con funzionalità private per ridurre il numero totale di richieste al server.
 * Controlla se il banner di Adobe Commerce è abilitato ma non utilizzato. Potrebbe essere necessario [Disattivare l&#39;output del banner Adobe Commerce per migliorare le prestazioni del sito](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md).
 
 ### Lettura correlata
 
-Per ulteriori informazioni sui contenuti privati dei clienti, consulta [Contenuto privato](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=ajax%20requests) nella documentazione per gli sviluppatori.
+Per ulteriori informazioni sui contenuti privati dei clienti, consulta [Contenuto privato](https://developer.adobe.com/commerce/php/development/cache/page/private-content/) nella documentazione per gli sviluppatori.

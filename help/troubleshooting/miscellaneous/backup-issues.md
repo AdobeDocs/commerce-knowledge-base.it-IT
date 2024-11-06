@@ -4,7 +4,7 @@ description: Questo articolo elenca le possibili soluzioni per i problemi di cre
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
 feature: Storage, Data Import/Export
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Immettere il seguente comando CLI:
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-Per ulteriori informazioni sui backup, vedere [Eseguire il backup e il rollback del file system, del supporto e del database.](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+Per ulteriori informazioni sui backup, vedere [Eseguire il backup e il rollback del file system, del supporto e del database.](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## Spazio su disco insufficiente {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ Sfortunatamente, non possiamo consigliare nulla di specifico a causa della varie
 
 ## Backup non riuscito {#backup-fails-trouble-backup-all-}
 
-Se il backup non riesce o se tutti i test di backup non riescono, è possibile che il [proprietario del file system Adobe Commerce](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) non disponga di privilegi e proprietà sufficienti per il file system Adobe Commerce. Ad esempio, un altro utente potrebbe essere il proprietario dei file o i file potrebbero essere di sola lettura.
+Se il backup non riesce o se tutti i test di backup non riescono, è possibile che il [proprietario del file system Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) non disponga di privilegi e proprietà sufficienti per il file system Adobe Commerce. Ad esempio, un altro utente potrebbe essere il proprietario dei file o i file potrebbero essere di sola lettura.
 
-Prestare particolare attenzione alle autorizzazioni del file system e alla proprietà della directory e delle sottodirectory `<magento_root>/var`. Per ulteriori informazioni, vedere [Impostare le autorizzazioni e la proprietà del file system](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+Prestare particolare attenzione alle autorizzazioni del file system e alla proprietà della directory e delle sottodirectory `<magento_root>/var`. Per ulteriori informazioni, vedere [Impostare le autorizzazioni e la proprietà del file system](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions).

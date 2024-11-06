@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per i conflitti di dipendenza de
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -51,7 +51,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-Assicurati di impostare le autorizzazioni del file system come descritto nell&#39;articolo [Panoramica sulla proprietà e sulle autorizzazioni](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) nella documentazione per gli sviluppatori.
+Assicurati di impostare le autorizzazioni del file system come descritto nell&#39;articolo [Panoramica sulla proprietà e sulle autorizzazioni](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) nella documentazione per gli sviluppatori.
 
 ## Lo stato di Verifica dipendenza componente non cambia mai {#trouble-depend-state}
 

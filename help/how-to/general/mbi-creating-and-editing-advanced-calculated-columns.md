@@ -1,9 +1,9 @@
 ---
 title: "MBI: creazione e modifica di colonne calcolate avanzate"
-description: '''[Utenti amministratori](https://docs.magento.com/mbi/administrator/user-management/user-management.html) hanno la possibilità di creare e modificare alcune colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.'
+description: '''[Utenti amministratori](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hanno la possibilità di creare e modificare alcune colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 0%
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 # MBI: creazione e modifica di colonne calcolate avanzate
 
-[Gli utenti amministratori](https://docs.magento.com/mbi/administrator/user-management/user-management.html) possono creare e modificare determinate colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.
+[Gli utenti amministratori](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) possono creare e modificare determinate colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.
 
 Per l’elenco delle colonne calcolate che è possibile creare in Gestione Date Warehouse e per istruzioni su come configurarle correttamente, consulta i seguenti articoli nella guida utente:
 
-* [Creazione di colonne calcolate](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/creating-calculated-columns.html)
-* [Tipi di colonna calcolati](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/calc-column-types.html)
-* [Informazioni e valutazione delle relazioni tra tabelle](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/table-relationships.html)
-* [Creazione di percorsi per le colonne calcolate](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/create-paths-calc-columns.html)
+* [Creazione di colonne calcolate](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/creating-calculated-columns)
+* [Tipi di colonna calcolati](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/calc-column-types)
+* [Informazioni e valutazione delle relazioni tra tabelle](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/table-relationships)
+* [Creazione di percorsi per le colonne calcolate](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/create-paths-calc-columns)
 
 ## Ho ancora bisogno di aiuto!
 
@@ -35,7 +35,7 @@ Se non sei sicuro di come rispondere a queste domande, non preoccuparti! Fai del
 
 ## Lettura correlata
 
-* [Guida utente di MBI](https://docs.magento.com/mbi)
+* [Guida utente di MBI](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)
 * [MBI: discrepanze di dati](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
-* [MBI: analista dati](https://docs.magento.com/mbi/data-analyst.html)
-* [MBI: informazioni della Guida su BI di Magento](https://docs.magento.com/mbi/getting-started/support.html)
+* [MBI: analista dati](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/data-analyst)
+* [MBI: informazioni della Guida su BI di Magento](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/start/sign-in)

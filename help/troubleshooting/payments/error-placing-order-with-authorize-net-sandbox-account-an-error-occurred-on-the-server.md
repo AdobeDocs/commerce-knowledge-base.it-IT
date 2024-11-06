@@ -1,10 +1,10 @@
 ---
 title: Errore durante l'ordine con l'account Sandbox Authorize.net (si è verificato un errore sul server)
-description: In questo articolo viene fornita una correzione per il messaggio di errore "*Si è verificato un errore sul server*" durante l'ordine tramite Authorize.Net Direct Post.
+description: In questo articolo viene fornita una correzione per il messaggio di errore "*Un errore si è verificato sul server*" durante l'ordine tramite Authorize.Net Direct Post.
 exl-id: 764a550a-3373-483c-843d-d8c848dcee35
 feature: Compliance, Console, Customer Service, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -19,7 +19,7 @@ In questo articolo viene fornita una correzione per il messaggio di errore &quot
 >
 >**Avviso di rimozione**
 >
->A causa della direttiva sui servizi di pagamento [PSD2](https://docs.magento.com/user-guide/v2.3/stores/compliance-payment-services-directive.html) e della continua evoluzione di molte API, Authorize.Net rischia di diventare obsoleto e non più conforme alla sicurezza in futuro. Per questo motivo, è ora obsoleto. Ti consigliamo di disabilitarlo nella configurazione di Adobe Commerce e di passare alla corrispondente [estensione Commerce Marketplace](https://marketplace.magento.com/extensions.html).
+>A causa della direttiva sui servizi di pagamento [PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) e della continua evoluzione di molte API, Authorize.Net rischia di diventare obsoleto e non più conforme alla sicurezza in futuro. Per questo motivo, è ora obsoleto. Ti consigliamo di disabilitarlo nella configurazione di Adobe Commerce e di passare alla corrispondente [estensione Commerce Marketplace](https://marketplace.magento.com/extensions.html).
 >
 >**Questa integrazione è stata rimossa da Adobe Commerce 2.4.0 ed è stata rimossa dalle versioni correnti di 2.3.**
 >
@@ -27,7 +27,7 @@ In questo articolo viene fornita una correzione per il messaggio di errore &quot
 
 ## Problema
 
-Se si effettua un ordine utilizzando l&#39;account sandbox [Authorize.Net Direct Post](https://docs.magento.com/user-guide/v2.3/payment/authorize-net-direct-post.html), viene visualizzato un messaggio di errore:
+Se si effettua un ordine utilizzando l&#39;account sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server), viene visualizzato un messaggio di errore:
 
 >>
 &quot;Si è verificato un errore sul server. Provare a riordinare&quot;

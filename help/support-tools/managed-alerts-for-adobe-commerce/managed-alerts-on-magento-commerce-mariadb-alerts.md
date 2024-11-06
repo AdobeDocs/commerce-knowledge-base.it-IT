@@ -4,7 +4,7 @@ description: "In questo articolo vengono illustrati i passaggi per la risoluzion
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
 feature: Cache, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -29,7 +29,7 @@ In New Relic riceverai un avviso gestito se hai effettuato la registrazione a [A
 **Esegui!**
 
 * Interrompi qualsiasi distribuzione pianificata fino a quando l&#39;avviso non viene cancellato.
-* Attiva immediatamente la modalità di manutenzione se il sito non risponde o se non risponde completamente. Per i passaggi, fare riferimento alla [Guida all&#39;installazione > Abilitare o disabilitare la modalità di manutenzione](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten) nella documentazione per gli sviluppatori. Assicurarsi di aggiungere l&#39;IP all&#39;elenco degli indirizzi IP esenti per assicurarsi di poter accedere al sito per la risoluzione dei problemi. Per ulteriori informazioni, vedere [Gestire l&#39;elenco degli indirizzi IP esenti](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt).
+* Attiva immediatamente la modalità di manutenzione se il sito non risponde o se non risponde completamente. Per i passaggi, fare riferimento alla [Guida all&#39;installazione > Abilitare o disabilitare la modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) nella documentazione per gli sviluppatori. Assicurarsi di aggiungere l&#39;IP all&#39;elenco degli indirizzi IP esenti per assicurarsi di poter accedere al sito per la risoluzione dei problemi. Per ulteriori informazioni, vedere [Gestire l&#39;elenco degli indirizzi IP esenti](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt).
 * Termina gli script, ad esempio le importazioni, che potrebbero essere la causa dell’avviso se le prestazioni del sito sono interessate.
 
 **Non fare!**
@@ -56,7 +56,7 @@ Se si riceve un avviso Critico query DML, iniziare dal primo passaggio. Se viene
 1. Cerca ottimizzazioni del codice o ottimizzazioni operative:
 1. Ottimizzazioni del codice: cerca di ottimizzare le query con inserimenti/aggiornamenti in blocco, riducendo al minimo l’utilizzo dell’indice o limitando il codice.
 1. Ottimizzazioni operative: consente di effettuare l’offload delle modifiche dei dati che richiedono un utilizzo intensivo delle risorse per ridurre i tempi di traffico.
-1. Ulteriori ottimizzazioni: accertati di aver utilizzato l’ultima versione di ECE-Tools. Per i passaggi, consulta [Cloud for Adobe Commerce > Update ece-tools version](https://devdocs.magento.com/cloud/project/ece-tools-update.html) nella nostra documentazione per sviluppatori.
+1. Ulteriori ottimizzazioni: accertati di aver utilizzato l’ultima versione di ECE-Tools. Per i passaggi, consulta [Cloud for Adobe Commerce > Update ece-tools version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) nella nostra documentazione per sviluppatori.
 
 ## Lettura correlata
 

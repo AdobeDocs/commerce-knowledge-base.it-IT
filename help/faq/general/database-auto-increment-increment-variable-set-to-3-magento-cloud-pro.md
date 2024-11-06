@@ -3,7 +3,7 @@ title: Variabile di incremento auto_increment del database impostata su "3" Adob
 description: Questo è il comportamento previsto per le soluzioni di architettura Pro di Adobe Commerce su infrastruttura cloud a causa dell'architettura a 3 nodi e non può essere modificato.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -31,5 +31,5 @@ Ad esempio, se l&#39;elemento principale selezionato è il nodo 1 in cui `auto_i
 
 Consulta nella documentazione per gli sviluppatori:
 
-* [Cloud per Adobe Commerce > Architettura Pro > Backup e disaster recovery](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [Cloud per Adobe Commerce > Installa prerequisiti: database](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [Cloud per Adobe Commerce > Architettura Pro > Backup e disaster recovery](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Cloud per Adobe Commerce > Installa prerequisiti: database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)

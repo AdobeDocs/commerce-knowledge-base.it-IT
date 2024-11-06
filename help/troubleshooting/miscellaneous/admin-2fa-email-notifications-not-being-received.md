@@ -4,7 +4,7 @@ description: Questo articolo fornisce informazioni per la risoluzione dei proble
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 0%
@@ -58,4 +58,4 @@ Controlla la cartella Spam per l’e-mail. Se l&#39;e-mail viene visualizzata, [
 
 ## Lettura correlata
 
-* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) nella documentazione per gli sviluppatori.
+* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) nella documentazione per gli sviluppatori.

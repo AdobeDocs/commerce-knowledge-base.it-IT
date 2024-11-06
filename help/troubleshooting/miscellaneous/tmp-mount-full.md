@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per quando il mount "/tmp" �
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Controllare `/tmp` per `.sql` o `.sql.gz` file e pulirli. Questi potrebbero esse
 
 Per evitare problemi con `/tmp` pieno, seguire queste raccomandazioni:
 
-* Non utilizzare MySQL per la ricerca. L&#39;Elasticsearch per la ricerca in genere elimina la necessità della maggior parte delle creazioni di tabelle temporanee pesanti. Consulta [Configurare Adobe Commerce per utilizzare Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html) nella documentazione per gli sviluppatori.
+* Non utilizzare MySQL per la ricerca. L&#39;Elasticsearch per la ricerca in genere elimina la necessità della maggior parte delle creazioni di tabelle temporanee pesanti. Consulta [Configurare Adobe Commerce per utilizzare Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine) nella documentazione per gli sviluppatori.
 * Evitare di eseguire la query `SELECT` su colonne senza indici, in quanto questa operazione occupa una grande quantità di spazio su disco temporaneo. Puoi anche aggiungere gli indici.
 * Creare un cron per pulire `/tmp` eseguendo il comando seguente in CLI:
 

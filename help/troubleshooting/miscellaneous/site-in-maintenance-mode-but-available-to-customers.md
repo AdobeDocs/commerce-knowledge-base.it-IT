@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione per quando è abilitata la 
 exl-id: 61b81fbd-a382-44b5-94e9-5b6d72f11349
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -45,4 +45,4 @@ Le pagine vengono ancora memorizzate nella cache, pertanto la pagina di manutenz
 
 ## Lettura correlata
 
-[Attiva o disattiva la modalità di manutenzione](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) nella documentazione per gli sviluppatori.
+[Attiva o disattiva la modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) nella documentazione per gli sviluppatori.

@@ -4,7 +4,7 @@ description: Questo articolo corregge i problemi di prestazioni dovuti alla rein
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -53,9 +53,9 @@ Le azioni che possono produrre la reindicizzazione completa sono state eseguite 
 
 ### Soluzione
 
-Esegui la reindicizzazione solo quando necessario. Per i passaggi, consulta [Configurare gli indicizzatori](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) nella documentazione per gli sviluppatori. Una raccomandazione generale e una best practice è quella di consentire al meccanismo di reindicizzazione parziale di occuparsi della reindicizzazione dei dati senza che sia necessaria alcuna azione manuale da parte di un commerciante. Tutte le reindicizzazioni devono essere eseguite utilizzando la funzionalità nativa di Adobe Commerce (Mview). Mview esegue la reindicizzazione parziale, che è il modo più efficiente per reindicizzare i dati. Per informazioni su Mview, consulta [Panoramica sull&#39;indicizzazione: Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview) nella documentazione per gli sviluppatori.
+Esegui la reindicizzazione solo quando necessario. Per i passaggi, consulta [Configurare gli indicizzatori](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) nella documentazione per gli sviluppatori. Una raccomandazione generale e una best practice è quella di consentire al meccanismo di reindicizzazione parziale di occuparsi della reindicizzazione dei dati senza che sia necessaria alcuna azione manuale da parte di un commerciante. Tutte le reindicizzazioni devono essere eseguite utilizzando la funzionalità nativa di Adobe Commerce (Mview). Mview esegue la reindicizzazione parziale, che è il modo più efficiente per reindicizzare i dati. Per informazioni su Mview, consulta [Panoramica sull&#39;indicizzazione: Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-* [Panoramica sull&#39;indicizzazione: come reindicizzare](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#how-to-reindex) nella documentazione per gli sviluppatori.
+* [Panoramica sull&#39;indicizzazione: come reindicizzare](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) nella documentazione per gli sviluppatori.
 * [La cache invalidata causa il degrado del tempo di risposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) nella knowledge base del supporto.

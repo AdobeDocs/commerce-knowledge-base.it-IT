@@ -4,7 +4,7 @@ description: Questo argomento descrive una soluzione quando un carico elevato da
 exl-id: c1f9d282-41d8-4850-8a24-336d55aa3140
 feature: Cloud, Observability, Paas, Services
 role: Developer
-source-git-commit: 075f55b94202f75839abd25bd47824eeb5226485
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Questo argomento descrive una soluzione quando un carico elevato da MySQL causa 
 * ECE Tools versione 2002.0.16 e successive
 * Servizio New Relic APM (**L&#39;account Adobe Commerce sull&#39;infrastruttura cloud include il software per il servizio New Relic APM** insieme a una chiave di licenza.)
 
-Per ulteriori informazioni sul servizio New Relic APM e sulla relativa configurazione con l&#39;account Adobe Commerce sull&#39;infrastruttura cloud, vedere [Servizi New Relic](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html) e [Introduzione a New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
+Per ulteriori informazioni sul servizio New Relic APM e sulla relativa configurazione con l&#39;account Adobe Commerce sull&#39;infrastruttura cloud, vedere [Servizi New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) e [Introduzione a New Relic APM](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/).
 
 ## Problema
 
@@ -61,7 +61,7 @@ Adobe Commerce può leggere più database o Redis in modo asincrono. Aggiornamen
 
    ![KB-372_image004.png](assets/KB-372_image004.png)
 
-   Ulteriori dettagli sono disponibili in [Distribuire variabili in DevDocs](https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection).
+   Ulteriori dettagli sono disponibili in [Distribuire variabili in DevDocs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection).
 
 1. Apporta le modifiche e le invia in push.
 1. Il push delle modifiche avvierà un nuovo processo di distribuzione. Una volta completata la distribuzione, l’istanza di Adobe Commerce sull’infrastruttura cloud ora deve essere configurata per l’utilizzo di connessioni slave.
@@ -70,7 +70,7 @@ Adobe Commerce può leggere più database o Redis in modo asincrono. Aggiornamen
 
 Di seguito sono riportate le domande comuni che potresti porre quando prendi in considerazione l’utilizzo della funzionalità Connessioni slave per l’archivio dell’infrastruttura cloud di Adobe Commerce.
 
-* Esistono problemi noti o limitazioni all’utilizzo delle connessioni slave? **Non sono stati rilevati problemi durante l&#39;utilizzo delle connessioni slave. Assicurati di utilizzare il pacchetto di strumenti ece aggiornato più di recente. Le istruzioni sono disponibili qui in [come aggiornare il pacchetto ece-tools](https://devdocs.magento.com/cloud/project/ece-tools-update.html).**
+* Esistono problemi noti o limitazioni all’utilizzo delle connessioni slave? **Non sono stati rilevati problemi durante l&#39;utilizzo delle connessioni slave. Assicurati di utilizzare il pacchetto di strumenti ece aggiornato più di recente. Le istruzioni sono disponibili qui in [come aggiornare il pacchetto ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package).**
 * Esiste una latenza aggiuntiva con l’utilizzo delle connessioni slave? *Sì, la latenza cross-AZ (cross-Availability Zones) è più elevata e riduce le prestazioni di un&#39;istanza Adobe Commerce sull&#39;infrastruttura cloud nel caso in cui l&#39;istanza non sia sovraccarica e possa sopportare l&#39;intero carico. Tuttavia, se l&#39;istanza è sovraccarica, master-slave contribuirà alle prestazioni distribuendo il carico sul database MySQL o Redis tra nodi diversi.*
 
   **Nei cluster non sovraccaricati** - **Le connessioni slave rallenteranno le prestazioni del 10-15%**, che è uno dei motivi per cui non è predefinito.
@@ -82,9 +82,9 @@ Di seguito sono riportate le domande comuni che potresti porre quando prendi in 
 
 Nella documentazione per gli sviluppatori:
 
-* [Distribuisci variabili](https://devdocs.magento.com/cloud/env/variables-deploy.html).
-* [Imposta replica database facoltativa](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html).
-* [pacchetto ece-tools](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html).
+* [Distribuisci variabili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy).
+* [Imposta replica database facoltativa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication).
+* [pacchetto ece-tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview).
 
 >[!NOTE]
 >

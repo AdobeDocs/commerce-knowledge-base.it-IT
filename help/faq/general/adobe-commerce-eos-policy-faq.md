@@ -3,7 +3,7 @@ title: Domande frequenti sulla fine del supporto del software Adobe Commerce
 description: La seguente domanda frequente ha lo scopo di aiutare commercianti, sviluppatori e partner a comprendere le implicazioni della data di fine del supporto (EOS) pubblicata da Adobe Commerce per le versioni interessate di Adobe Commerce.
 exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 feature: Best Practices, Compliance, Console
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -18,11 +18,11 @@ La seguente domanda frequente ha lo scopo di aiutare commercianti, sviluppatori 
 
 ### Dove posso trovare le date di supporto software per tutte le versioni di Adobe Commerce?
 
-I criteri del ciclo di vita del software Adobe Commerce e le date del supporto software sono disponibili in [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). Le date di fine del supporto (EOS) vengono inoltre pubblicate nella [pagina della documentazione per gli sviluppatori](https://devdocs.magento.com/release/released-versions.html).
+I criteri del ciclo di vita del software Adobe Commerce e le date del supporto software sono disponibili in [Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). Le date di fine del supporto (EOS) vengono inoltre pubblicate nella [pagina della documentazione per gli sviluppatori](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions).
 
 ### Cosa significa quando Adobe termina il supporto per una versione del software Adobe Commerce?
 
-Quando Adobe termina il supporto di una versione del software Adobe Commerce, è possibile che si verifichino le seguenti condizioni:
+Quando Adobe termina il supporto di una versione del software Adobe Commerce, è possibile che si verifichi quanto segue:
 
 * Adobe Commerce non apporterà più ulteriori modifiche al prodotto per quella versione (incluse modifiche funzionali, di qualità, di sicurezza e di conformità PCI).
 * Le richieste pull della community non verranno più accettate o unite per la versione EOS. Le estensioni nella Commerce Marketplace compatibili solo con versioni di Adobe Commerce non supportate verranno rimosse.
@@ -70,13 +70,13 @@ La piattaforma commerce è un sistema aziendale importante per la tua azienda e 
 
 Il passaggio alla versione più recente del software Adobe Commerce può richiedere tempo e risorse per essere eseguito correttamente. È consigliabile pianificare la data di fine del supporto con il maggior anticipo possibile, in modo da disporre del tempo e delle risorse necessari per raggiungere gli obiettivi strategici nei tempi previsti e nel rispetto del budget. Per aiutarti con il tuo prossimo aggiornamento, Adobe ha pubblicato la [Guida all&#39;aggiornamento 2.4](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) che include le best practice e i passaggi tecnici da seguire, nonché gli strumenti e le risorse da utilizzare durante l&#39;esecuzione dell&#39;aggiornamento.
 
-Un&#39;altra considerazione importante è quella di riservare le risorse per sviluppatori e partner il prima possibile. Il tempo e le risorse dei partner vengono spesso prenotati con largo anticipo rispetto alla data di fine del supporto, con conseguente riduzione significativa delle risorse da destinare ai progetti di migrazione. Si consiglia di disporre di un piano di rotazione triennale da discutere almeno ogni anno e assicurarsi che l&#39;anno successivo sia pianificato e preventivato per. Utilizza il calendario delle versioni di [Adobe](https://devdocs.magento.com/release/) per tenere traccia delle date di rilascio.
+Un&#39;altra considerazione importante è quella di riservare le risorse per sviluppatori e partner il prima possibile. Il tempo e le risorse dei partner vengono spesso prenotati con largo anticipo rispetto alla data di fine del supporto, con conseguente riduzione significativa delle risorse da destinare ai progetti di migrazione. Si consiglia di disporre di un piano di rotazione triennale da discutere almeno ogni anno e assicurarsi che l&#39;anno successivo sia pianificato e preventivato per. Utilizza il calendario delle versioni di [Adobe](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule) per tenere traccia delle date di rilascio.
 
 ### È possibile utilizzare un provider di servizi di terze parti per il supporto software quando cessa il supporto Adobe Commerce?
 
 Sì, puoi cercare società di sicurezza, sviluppatori o partner che forniranno supporto per versioni non supportate di Adobe Commerce. Sarà tua responsabilità valutare questi provider, certificare nuovamente la conformità in base alle esigenze, e identificare e risolvere le minacce alla sicurezza in corso che possono avere un impatto sulla tua azienda e sui tuoi clienti.
 
-### Ho una licenza per Adobe Commerce che si estende oltre la data di fine del supporto indicata per tale versione. Adobe continuerà a fornire supporto software per la versione non supportata per tutta la durata della mia licenza se scegli di non passare a una versione supportata?
+### Ho una licenza per Adobe Commerce che si estende oltre la data di fine del supporto indicata per tale versione. Se si sceglie di non passare a una versione supportata, Adobe continuerà a fornire supporto software per la versione non supportata per tutta la durata della licenza?
 
 La licenza di Adobe Commerce consente di accedere e utilizzare le versioni di Adobe Commerce generalmente disponibili, incluso l’accesso e l’utilizzo di versioni non supportate. Indipendentemente dal fatto che la versione del software sia supportata o meno, per continuare ad accedere e utilizzare il software Adobe Commerce è necessario essere sempre aggiornati con i costi di licenza correnti. Questo termina quando termina il contratto con Adobe Commerce.
 
@@ -94,7 +94,7 @@ Una volta scaduta la licenza di Adobe Commerce, è necessario interrompere l’u
 
 ### I ticket di supporto aperti PRIMA della data di fine del supporto di una versione del software continueranno a essere utilizzati per la risoluzione anche dopo la data di fine del supporto?
 
-Sì, i ticket di supporto aperti prima della data di fine del supporto di una versione software continueranno a essere utilizzati e risolti anche dopo la data di fine del supporto per tale versione software. Tuttavia, i ticket di supporto per la risoluzione possono dipendere dal fatto che la risoluzione si basi su componenti che non rientrano nel controllo di Adobe Commerce (ad esempio PHP, jQuery, ecc.) scaduti o raggiunti alla fine del supporto. In questi casi, il ticket di supporto può essere risolto richiedendo di eseguire l’aggiornamento alla versione più recente.
+Sì, i ticket di supporto aperti prima della data di fine del supporto di una versione software continueranno a essere utilizzati e risolti anche dopo la data di fine del supporto per tale versione software. Tuttavia, la risoluzione dei ticket di supporto può dipendere dal fatto che la risoluzione si basi su componenti al di fuori del controllo di Adobe Commerce (ad esempio PHP, jQuery, ecc.) che sono scaduti o hanno raggiunto la fine del supporto. In questi casi, il ticket di supporto può essere risolto richiedendo di eseguire l’aggiornamento alla versione più recente.
 
 ### Se apro un ticket per una versione del software in cui il supporto software termina presto, Adobe assegnerà la priorità a tali ticket in modo che vengano risolti prima della data di fine del supporto?
 

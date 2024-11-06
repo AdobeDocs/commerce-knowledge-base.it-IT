@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni di configurazione per i problemi
 exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
 feature: Categories, Site Navigation, Storefront, Variables
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -51,7 +51,7 @@ I possibili motivi del problema sono i seguenti:
 
 Per risolvere i problemi, è necessario eseguire una configurazione aggiuntiva di Vernice e riavviare Vernice.
 
-1. In qualità di utente con privilegi di `root`, apri il file di configurazione Vanish in un editor di testo. Per informazioni sulla posizione del file per sistemi operativi diversi, vedere [Modificare la configurazione del sistema di Microsoft ](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) nella documentazione per gli sviluppatori.
+1. In qualità di utente con privilegi di `root`, apri il file di configurazione Vanish in un editor di testo. Per informazioni sulla posizione del file per sistemi operativi diversi, vedere [Modificare la configurazione del sistema di Microsoft ](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) nella documentazione per gli sviluppatori.
 1. In `DAEMON_OPTS variable`, aggiungere `-p feature=+esi_ignore_https`, `-p  feature=+esi_ignore_other_elements`, `-p  feature=+esi_disable_xml_check`. Questo dovrebbe essere:
 
    ```bash
@@ -64,5 +64,5 @@ Per risolvere i problemi, è necessario eseguire una configurazione aggiuntiva d
 
 ## Lettura correlata
 
-* [Configura Microsoft e il tuo server Web](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) nella documentazione per gli sviluppatori.
+* [Configura Microsoft e il tuo server Web](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server) nella documentazione per gli sviluppatori.
 * [Documentazione vernice](https://varnish-cache.org/docs/5.1/reference/index.html)

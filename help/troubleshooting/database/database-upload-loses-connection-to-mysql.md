@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per i casi in cui il caricam
 exl-id: 6051cea1-8292-4a81-8908-eb516cb4a32b
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-Sarà necessario allocare più spazio per il database in `services.yaml` e distribuire se si dispone di spazio inutilizzato. Per i passaggi, vedere [Spazio su disco di servizio](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+Sarà necessario allocare più spazio per il database in `services.yaml` e distribuire se si dispone di spazio inutilizzato. Per i passaggi, vedere [Spazio su disco di servizio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space).
 
 Nota: nel piano dell&#39;architettura Pro, è possibile controllare lo spazio allocato nella partizione eseguendo il comando seguente: `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## Lettura correlata
 
-[Gestione spazio su disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html) nella documentazione per gli sviluppatori
+[Gestione spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) nella documentazione per gli sviluppatori

@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per gli errori che possono verif
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Causa
 
-Impossibile trovare una classe da Adobe Commerce 1 codebase nella base di codice di Adobe Commerce 2 durante il [passaggio di migrazione EAV](https://devdocs.magento.com/guides/v2.3/migration/migration-tool-internal-spec.html#eav) nella documentazione per gli sviluppatori. Nella maggior parte dei casi, la classe mancante appartiene a un&#39;estensione [extension](https://glossary.magento.com/extension).
+Impossibile trovare una classe da Adobe Commerce 1 codebase nella base di codice di Adobe Commerce 2 durante il [passaggio di migrazione EAV](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) nella documentazione per gli sviluppatori. Nella maggior parte dei casi, la classe mancante appartiene a un&#39;estensione [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension).
 
 ### Soluzioni possibili
 
@@ -125,7 +125,7 @@ Request path: towel.html Store ID: 2 Target path: catalog/product/view/id/12
 
 Abilita l&#39;opzione `auto_resolve_urlrewrite_duplicates` nel file `config.xml`.
 
-Questa configurazione aggiunge una stringa hash ai record in conflitto di [URL](https://glossary.magento.com/url) riscrive e mostra il risultato della risoluzione nell&#39;interfaccia della riga di comando.
+Questa configurazione aggiunge una stringa hash ai record in conflitto di riscritture URL e mostra il risultato della risoluzione nell’interfaccia della riga di comando.
 
 ## Mancata corrispondenza di entità {#mismatch-of-entities}
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Causa
 
-Questo errore si verifica durante la [migrazione incrementale](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-delta.html) (nella documentazione per gli sviluppatori) delle modifiche ai dati. Ciò significa che non sono state trovate le tabelle di deltalog (con prefisso `m2_cl_*`) nel database di Adobe Commerce 1. Lo strumento installa queste tabelle durante la [migrazione dei dati](https://devdocs.magento.com/guides/v2.3/migration/migration-migrate-data.html) (nella documentazione per gli sviluppatori), nonché i trigger del database che tengono traccia delle modifiche e riempiono le tabelle del catalogo.
+Questo errore si verifica durante la [migrazione incrementale](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (nella documentazione per gli sviluppatori) delle modifiche ai dati. Ciò significa che non sono state trovate le tabelle di deltalog (con prefisso `m2_cl_*`) nel database di Adobe Commerce 1. Lo strumento installa queste tabelle durante la [migrazione dei dati](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (nella documentazione per gli sviluppatori), nonché i trigger del database che tengono traccia delle modifiche e riempiono le tabelle del catalogo.
 
 Uno dei motivi dell&#39;errore potrebbe essere che si sta tentando di eseguire la migrazione da una *copia* dell&#39;archivio Adobe Commerce 1 live, non dall&#39;archivio live stesso. Quando crei una copia da un archivio Adobe Commerce 1 live che non è mai stata migrata, la copia non contiene i trigger e le tabelle di dialogo aggiuntive necessarie per completare una migrazione delta, pertanto la migrazione non riesce. Lo strumento di migrazione dei dati NON effettua confronti tra il database di AC1 e AC2 per migrare le differenze. Per eseguire le migrazioni delta successive, lo strumento utilizza invece le tabelle triggers e deltalog installate durante la prima migrazione. In questo caso, la tua copia del database live di Adobe Commerce 1 non conterrà i trigger e le tabelle di deltalog utilizzati dallo strumento di migrazione dei dati per eseguire una migrazione.
 

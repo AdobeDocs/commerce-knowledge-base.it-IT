@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione per le basse prestazioni de
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -38,7 +38,7 @@ Per Adobe Commerce su infrastruttura cloud 2.2.x:
 
 Se non trovi l&#39;opzione **Banner** in **Contenuto** > *Elementi*, non è così e non puoi applicare i consigli di questo articolo.
 
-Per Adobe Commerce su infrastruttura cloud 2.3.x (la funzionalità era [rinominata nella versione 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
+Per Adobe Commerce su infrastruttura cloud 2.3.x (la funzionalità era [rinominata nella versione 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)):
 
 1. Accedi all’amministratore di Commerce.
 1. Passa a **Contenuto** > *Elementi >* **Blocchi dinamici**.
@@ -56,5 +56,5 @@ Quando il modulo `Magento_Banner` è abilitato, Adobe Commerce invia richieste A
 >
 >È consigliabile testare le modifiche nell&#39;ambiente di [staging/integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) prima di applicarle all&#39;ambiente di produzione. Consigliamo inoltre di avere un backup recente prima di qualsiasi manipolazione.
 
-1. Disattivare l&#39;output del modulo `Magento_Banner`, come descritto in [Disattivare l&#39;output del modulo](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html) nella documentazione per gli sviluppatori. Il nome del modulo da utilizzare è `Magento_Banner`.
-1. Distribuisci il codice. Per Adobe Commerce su infrastruttura cloud, esegui la distribuzione come descritto nell&#39;articolo [Distribuisci il tuo archivio](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html) nella documentazione per gli sviluppatori.
+1. Disattivare l&#39;output del modulo `Magento_Banner`, come descritto in [Disattivare l&#39;output del modulo](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output) nella documentazione per gli sviluppatori. Il nome del modulo da utilizzare è `Magento_Banner`.
+1. Distribuisci il codice. Per Adobe Commerce su infrastruttura cloud, esegui la distribuzione come descritto nell&#39;articolo [Distribuisci il tuo archivio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production) nella documentazione per gli sviluppatori.

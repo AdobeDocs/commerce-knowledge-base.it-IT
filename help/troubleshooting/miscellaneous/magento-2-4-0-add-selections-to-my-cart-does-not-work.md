@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione alternativa per un problema 
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Il pulsante **Aggiungi selezioni al carrello** nella parte superiore della pagin
 
 ## Lettura correlata
 
-* [MerchDocs&#39; Gestione di un carrello](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html) nella guida utente.
+* [MerchDocs&#39; Gestione di un carrello](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) nella guida utente.
 * [Problema noto di Adobe Commerce 2.4.0: visualizzazione dei dati dei messaggi non elaborati nella vetrina](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) nella knowledge base di supporto.
 * [Problema noto di Adobe Commerce 2.4.0: l&#39;esportazione delle aliquote fiscali non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) nella Knowledge Base di supporto.
 * [Problema noto di Adobe Commerce 2.4.0: i metodi di pagamento Braintree non vengono visualizzati nel checkout di più indirizzi](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) nella Knowledge Base del supporto tecnico.

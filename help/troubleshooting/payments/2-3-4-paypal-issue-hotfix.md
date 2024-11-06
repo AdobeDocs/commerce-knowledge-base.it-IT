@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione per gli errori ricevuti dur
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -49,12 +49,12 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Per gli esercenti locali di Adobe Commerce: applica l&#39;[hotfix,](https://magento.com/tech-resources/download#download2353) disponibile nella sezione Download del portale [magento.com](https://magento.com) nel mio account.
 
-Per i commercianti di infrastrutture cloud di Adobe Commerce: Adobe ha incluso la correzione nella versione 1.0.2 delle patch cloud per Commerce. Per istruzioni sull&#39;applicazione del pacchetto più recente, consulta le [note sulla versione delle patch cloud per Commerce](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) nella documentazione per gli sviluppatori.
+Per i commercianti di infrastrutture cloud di Adobe Commerce: Adobe ha incluso la correzione nella versione 1.0.2 delle patch cloud per Commerce. Per istruzioni sull&#39;applicazione del pacchetto più recente, consulta le [note sulla versione delle patch cloud per Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) nella documentazione per gli sviluppatori.
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## Lettura correlata
 
-* [Informazioni sulla versione > Note sulla versione di Adobe Commerce 2.3.4 > Applica il problema PayPal Express Checkout con la patch dell&#39;area geografica per Adobe Commerce 2.3.4 per risolvere un problema critico di Checkout PayPal Express](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) nella documentazione per gli sviluppatori.
+* [Informazioni sulla versione > Note sulla versione di Adobe Commerce 2.3.4 > Applica il problema PayPal Express Checkout con la patch dell&#39;area geografica per Adobe Commerce 2.3.4 per risolvere un problema critico di Checkout PayPal Express](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) nella documentazione per gli sviluppatori.

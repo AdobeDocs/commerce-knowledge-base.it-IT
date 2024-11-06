@@ -3,7 +3,7 @@ title: Come trovare la documentazione del prodotto Adobe Commerce
 description: La knowledge base di supporto di Adobe Commerce fornisce soluzioni per la risoluzione dei problemi e la prevenzione di problemi noti relativi ai prodotti Adobe Commerce, fornite dal team di supporto di Adobe Commerce.
 exl-id: 03c5ec4a-ca1a-4c8e-b896-a13e08229531
 feature: B2B, Commerce Intelligence
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Adobe Commerce sull’infrastruttura cloud</td>
 <td>[!DNL Order Management System (OMS)] per Adobe Commerce</td>
 <td>
 <p>Documentazione (tecnica) per esercenti (utenti finali) e sviluppatori:</p>
-<p><a href="https://omsdocs.magento.com/">https://omsdocs.magento.com/</a></p>
+<p><a href="https://commerce-docs.github.io/oms-documentation-archive/">https://commerce-docs.github.io/oms-documentation-archive/</a></p>
 </td>
 </tr>
 <tr>
@@ -101,6 +101,6 @@ Adobe Commerce sull’infrastruttura cloud</td>
 
 ## Blog e comunicazioni
 
-* Centro protezione Adobe (aggiornamenti e patch di sicurezza): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
+* Centro protezione di Adobe (aggiornamenti e patch di protezione): [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
 * Blog per sviluppatori della community Adobe Commerce (procedure, best practice e notizie tecniche dalla community): [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
 * Blog Adobe Commerce (e-commerce di alto livello):[https://business.adobe.com/blog/](https://business.adobe.com/blog/)

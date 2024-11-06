@@ -2,7 +2,7 @@
 title: Ripristinare uno snapshot del database da Gestione temporanea o Produzione
 description: Questo articolo mostra come ripristinare un’istantanea del database da Staging o Produzione su Adobe Commerce su un’infrastruttura cloud.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: b99d78845128ca3d995cbbb5df0799449ca954e3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%
@@ -62,7 +62,7 @@ I passaggi sono i seguenti:
    ```
 
 1. Copiare il database [!DNL dump file] (ad esempio: `<cluster ID>.sql.gz` per [!DNL Production] o `<cluster ID_stg>.sql.gz` per [!DNL Staging]) nel computer locale.
-1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://devdocs.magento.com/cloud/env/environments-ssh.html#env-start-tunn) nella documentazione per gli sviluppatori.
+1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) nella documentazione per gli sviluppatori.
 1. Connettersi al database.
 
    ```sql
@@ -152,5 +152,5 @@ I passaggi sono i seguenti:
 
 Nella documentazione per gli sviluppatori:
 
-* [Codice importazione: importare il database](https://devdocs.magento.com/cloud/setup/first-time-setup-import-import.html#cloud-import-db)
-* [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://devdocs.magento.com/cloud/project/project-webint-snap.html#db-dump)
+* [Codice importazione: importare il database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)

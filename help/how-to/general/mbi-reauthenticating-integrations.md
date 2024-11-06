@@ -3,7 +3,7 @@ title: "MBI: nuova autenticazione delle integrazioni"
 description: Questo articolo fornisce soluzioni per autorizzare nuovamente un’integrazione al fine di concedere al Magento Business Intelligence (MBI) i privilegi necessari per estrarre dati da un servizio di terze parti. Quando questi privilegi vengono revocati, è necessaria una nuova autorizzazione.
 exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 feature: Commerce Intelligence, Integration
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Questo articolo fornisce soluzioni per autorizzare nuovamente un’integrazione 
 
 ## Integrazioni di database e SaaS
 
-Per gli elenchi delle integrazioni di Database e SaaS, consulta [Connessione di dati esterni tramite un&#39;integrazione](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) nella documentazione per gli sviluppatori. All’apertura della pagina, utilizza il sommario a sinistra per la navigazione.
+Per gli elenchi delle integrazioni di Database e SaaS, consulta [Connessione di dati esterni tramite un&#39;integrazione](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) nella documentazione per gli sviluppatori. All’apertura della pagina, utilizza il sommario a sinistra per la navigazione.
 
 ## Problemi di connessione?
 

@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione per lo stato delle scorte e
 exl-id: ae32fbe3-deab-4f31-b427-95f8b54a476f
 feature: Install, Inventory, Orders
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -33,4 +33,4 @@ Quando si esegue la prima installazione o aggiornamento, tutti i prodotti vengon
 
 Se disponi di più siti web, devi aggiungerli come Sales Channel al Magazzino predefinito o ad altri titoli personalizzati.
 
-Per informazioni dettagliate su come eseguire questa operazione, consulta la sezione [Stock del wiki/guida utente](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) nella guida utente.
+Per informazioni dettagliate su come eseguire questa operazione, consulta la sezione [Stock del wiki/guida utente](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) nella guida utente.

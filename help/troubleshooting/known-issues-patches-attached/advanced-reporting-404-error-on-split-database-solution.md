@@ -1,10 +1,10 @@
 ---
 title: Errore Advanced Reporting 404 nella soluzione di database suddiviso
-description: Questo articolo fornisce una patch per gli utenti di Adobe Commerce 2.3.x con [split database solution](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) che presentano un errore 404 quando tentano di utilizzare la funzione di reporting avanzato.
+description: Questo articolo fornisce una patch per gli utenti di Adobe Commerce 2.3.x con [split database solution](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master) che presentano un errore 404 quando tentano di utilizzare la funzione di reporting avanzato.
 exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Errore Advanced Reporting 404 nella soluzione di database suddiviso
 
-In questo articolo viene fornita una patch per gli utenti di Adobe Commerce 2.3.x con la [soluzione di database split](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html) che genera un errore 404 quando si tenta di utilizzare la funzione di reporting avanzato.
+In questo articolo viene fornita una patch per gli utenti di Adobe Commerce 2.3.x con la [soluzione di database split](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master) che genera un errore 404 quando si tenta di utilizzare la funzione di reporting avanzato.
 
 ## Prodotti e versioni interessati
 
@@ -35,4 +35,4 @@ La patch è allegata a questo articolo. Per scaricarlo, fai clic sul seguente co
 
 ## Come applicare il cerotto
 
-Decomprimere il file e seguire le istruzioni in [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Decomprimere il file e seguire le istruzioni in [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

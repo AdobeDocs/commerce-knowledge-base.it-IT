@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per i casi in cui non è pos
 exl-id: e45dc88a-2da0-4524-bd61-6634cfebb169
 feature: Admin Workspace, Marketing Tools
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione per i casi in cui non è possibile salvar
 
 ## Prodotti e versioni interessati
 
-Questo problema può interessare tutte le versioni di Adobe Commerce in cui è configurata la dimensione massima della sessione. È stato aggiunto a partire dal Magento Open Source 2.3.7-p1 e dal Commercio Adobe (tutti i metodi di distribuzione) 2.4.3.
+Questo problema può interessare tutte le versioni di Adobe Commerce in cui è configurata la dimensione massima della sessione. È stato aggiunto a partire dal Magento Open Source 2.3.7-p1 e da Adobe commerce (tutti i metodi di distribuzione) 2.4.3.
 
 
 ## Problema
@@ -44,7 +44,7 @@ La regola è impostata su inattiva.
 
 ## Causa
 
-Questo problema è relativo alle nuove funzionalità introdotte di recente che hanno interessato la dimensione massima della sessione. Consulta [Gestione delle sessioni](https://docs.magento.com/user-guide/stores/security-session-management.html) nella documentazione per gli sviluppatori.
+Questo problema è relativo alle nuove funzionalità introdotte di recente che hanno interessato la dimensione massima della sessione. Consulta [Gestione delle sessioni](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management) nella documentazione per gli sviluppatori.
 
 ## Soluzione
 
@@ -52,4 +52,4 @@ Aumentare il valore &quot;Dimensione massima sessione&quot; in (**Archivi** > **
 
 ## Lettura correlata
 
-* [Menu Marketing](https://docs.magento.com/user-guide/marketing/marketing-menu.html) nella guida utente.
+* [Menu Marketing](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu) nella guida utente.

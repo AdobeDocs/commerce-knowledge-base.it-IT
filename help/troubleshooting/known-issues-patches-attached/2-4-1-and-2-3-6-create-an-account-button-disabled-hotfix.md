@@ -4,7 +4,7 @@ description: Questo articolo fornisce un hotfix per il problema quando si ha dif
 exl-id: e6e65ede-8156-4e2b-b369-b18395bb3dbf
 feature: Customer Service
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -52,9 +52,9 @@ La patch non è compatibile con altre versioni ed edizioni di Adobe Commerce.
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
 
 ## Lettura correlata
 
 * [Adobe Commerce GitHub > Con l&#39;invio di un modulo account di creazione non valido il pulsante di invio rimane disattivato](https://github.com/magento/magento2/issues/30513)
-* [Guida utente di Adobe Commerce > Guida introduttiva > Creazione di un account](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [Guida utente di Adobe Commerce > Guida introduttiva > Creazione di un account](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)

@@ -4,7 +4,7 @@ description: "I numeri di un determinato rapporto sembrano imprecisi? Vengono vi
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -18,7 +18,7 @@ I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati val
 * [Elenco di controllo diagnostico delle discrepanze di dati](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Utilizzo delle esportazioni per evidenziare le discrepanze di dati](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-È inoltre consigliabile verificare che siano stati impostati i [metodi di replica](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) e i [nuovi controlli](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) corretti per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
+È inoltre consigliabile verificare che siano stati impostati i [metodi di replica](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e i [nuovi controlli](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretti per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
 
 ## Ho ancora bisogno di aiuto!
 

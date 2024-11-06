@@ -2,7 +2,7 @@
 title: Lo stato dell'indice Elasticsearch è 'giallo' o 'rosso'
 description: L’articolo corregge quando lo stato dell’indice Elasticsearch non è "*green*". '*giallo*' indica normale e '*rosso*' indica cattivo. Lo stato "giallo" o "rosso" può comparire insieme a prodotti mancanti o alla visualizzazione di informazioni sul prodotto obsolete.
 exl-id: 27689511-6a41-41a9-8dda-a627d2f65263
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Consulta [Installare e configurare Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html).
+> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Consulta [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 L&#39;articolo fornisce una correzione quando lo stato dell&#39;indice Elasticsearch non è &#39;*green*&#39;. &#39;*giallo*&#39; indica normale e &#39;*rosso*&#39; indica non valido. Lo stato &quot;giallo&quot; o &quot;rosso&quot; può comparire insieme a prodotti mancanti o alla visualizzazione di informazioni sul prodotto obsolete.
 

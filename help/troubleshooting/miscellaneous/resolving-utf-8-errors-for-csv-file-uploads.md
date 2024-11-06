@@ -4,7 +4,7 @@ description: Questo articolo corregge il messaggio di errore "I file CSV devono 
 exl-id: 88d8e0b8-152e-4a6d-bc44-3b285e0eb0c3
 feature: Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
@@ -23,4 +23,4 @@ Per risolvere il problema, è necessario modificare la codifica del file. Il sal
 1. Fai clic su &#x200B;&#x200B; **File** > **Salva con nome** &#x200B;&#x200B; e scegli il formato &#x200B;&#x200B; **Valori separati da virgole (.csv)** per salvare il file.
 1. Apri il file CSV in Testo sublime.
 1. In Testo sublime passare a &#x200B;&#x200B; **File** > **Salva con codifica** > **UTF-8\*&#x200B;**. Il file CSV verrà salvato con codifica UTF-8.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [Carica i dati](https://docs.magento.com/mbi/data-analyst/importing-data/connecting-data/using-file-uploader.html) (nella guida utente) in una nuova tabella in Magento BI.
+1. [Carica i dati](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (nella guida utente) in una nuova tabella in Magento BI.

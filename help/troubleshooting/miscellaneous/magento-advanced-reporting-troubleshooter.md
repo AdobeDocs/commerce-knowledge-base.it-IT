@@ -4,7 +4,7 @@ description: I problemi di Reporting avanzato su Adobe Commerce possono essere r
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -19,10 +19,10 @@ I problemi di Reporting avanzato su Adobe Commerce possono essere risolti utiliz
 
 +++**Il tuo sito Web soddisfa i requisiti di reporting avanzati?**
 
-Quando si utilizza la funzione di reporting avanzato, viene visualizzata la pagina di errore 404. Il tuo sito Web soddisfa i [requisiti di reporting avanzati](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)?
+Quando si utilizza la funzione di reporting avanzato, viene visualizzata la pagina di errore 404. Il tuo sito Web soddisfa i [requisiti di reporting avanzati](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)?
 
 a. SÌ - Procedere al [passaggio 2](#step-2).\
-b. NO - Completa i requisiti di reporting avanzato per il tuo sito seguendo i passaggi descritti in [Requisiti di reporting avanzati](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements). Quindi, procedere al [passaggio 2](#step-2).
+b. NO - Completa i requisiti di reporting avanzato per il tuo sito seguendo i passaggi descritti in [Requisiti di reporting avanzati](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements). Quindi, procedere al [passaggio 2](#step-2).
 
 +++
 
@@ -44,7 +44,7 @@ Se sono state utilizzate più valute di base, non è possibile utilizzare la fun
 
 +++**Si sta utilizzando una soluzione di database diviso?**
 
-Stai utilizzando [soluzione di database divisa](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)?
+Stai utilizzando [soluzione di database divisa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)?
 
 a. SÌ - Utilizzare la patch **MDVA-26831** in [Errore di Advanced Reporting 404 nella soluzione ](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md) di database diviso e cancellare la cache. Attendere 24 ore per la riesecuzione del processo e riprovare.\
 b. NO - Procedi al [passaggio 4](#step-4).
@@ -55,10 +55,10 @@ b. NO - Procedi al [passaggio 4](#step-4).
 
 +++**La generazione di rapporti avanzata è abilitata?**
 
-Controlla **Amministratore** > **Archivi** > **Impostazioni** > **Configurazione** > **Generale** > **Generazione avanzata dei rapporti**. Per i passaggi dettagliati, controlla [Reporting avanzato: abilita reporting avanzato](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting).
+Controlla **Amministratore** > **Archivi** > **Impostazioni** > **Configurazione** > **Generale** > **Generazione avanzata dei rapporti**. Per i passaggi dettagliati, controlla [Reporting avanzato: abilita reporting avanzato](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting).
 
 a. SÌ - Procedere al [passaggio 5](#step-5).\
-b. NO - [Abilita la generazione di rapporti avanzati](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) e salva e attendi 24 ore la sincronizzazione di Adobe Commerce e Advanced Reporting. Verifica se i dati ora vengono caricati. Se è così, hai risolto il problema. Se non si procede al [passaggio 5](#step-5).
+b. NO - [Abilita la generazione di rapporti avanzati](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) e salva e attendi 24 ore la sincronizzazione di Adobe Commerce e Advanced Reporting. Verifica se i dati ora vengono caricati. Se è così, hai risolto il problema. Se non si procede al [passaggio 5](#step-5).
 
 +++
 
@@ -81,9 +81,9 @@ Controllare il valore del contatore nella tabella dei flag eseguendo questa quer
 
 a. SÌ - Procedere come segue: 1. Esegui la query seguente:\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. [Disattivare e abilitare il modulo di reportistica avanzata](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) nelle impostazioni e [autorizzare nuovamente il token](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).\
+2\. [Disattivare e abilitare il modulo di reportistica avanzata](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) nelle impostazioni e [autorizzare nuovamente il token](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active).\
 3\. Attendi 24 ore per la sincronizzazione di Adobe Commerce e Advanced Reporting. Se non riesci ancora a visualizzare i dati in Reporting avanzato, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
-b. NO - Se la query non restituisce alcun risultato, effettuare le seguenti operazioni: 1. [Disattivare e abilitare il modulo di reportistica avanzata](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting) nelle impostazioni e [autorizzare nuovamente il token](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active).\
+b. NO - Se la query non restituisce alcun risultato, effettuare le seguenti operazioni: 1. [Disattivare e abilitare il modulo di reportistica avanzata](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting) nelle impostazioni e [autorizzare nuovamente il token](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active).\
 2\. Attendi 24 ore per la sincronizzazione di Adobe Commerce e Advanced Reporting. Se non riesci ancora a visualizzare i dati in Reporting avanzato, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 +++

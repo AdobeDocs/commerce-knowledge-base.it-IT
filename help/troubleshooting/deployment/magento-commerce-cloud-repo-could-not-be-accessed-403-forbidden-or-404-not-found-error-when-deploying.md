@@ -4,7 +4,7 @@ description: "Questo articolo illustra come risolvere l’errore di distribuzion
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Alcuni motivi per cui le chiavi non sono valide sono:
 
 >[!NOTE]
 >
->Se noti che è dovuto a un problema di fatturazione o di contratto scaduto, contatta il team dell’account di Adobe per ricevere assistenza per risolvere il problema. Dopo la riattivazione della licenza, verranno ripristinati i diritti relativi a supporto e distribuzione.
+>Se riscontri che è dovuto a un problema di fatturazione o a un contratto scaduto, contatta il team dell’account Adobe per ricevere assistenza e risolvere il problema. Dopo la riattivazione della licenza, verranno ripristinati i diritti relativi a supporto e distribuzione.
 
 ## Soluzione
 
@@ -70,7 +70,7 @@ Se la licenza è stata revocata in precedenza a causa di problemi di pagamento e
 
 ### 2. Aggiungi il valore delle chiavi nella variabile env:COMPOSER\_AUTH e controlla se le stesse chiavi sono specificate in auth.json
 
-Consulta le istruzioni e le informazioni correlate in [Prepara il sistema esistente](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json) e [Aggiungi chiavi di autenticazione](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys) nella documentazione per gli sviluppatori.
+Consulta le istruzioni e le informazioni correlate in [Prepara il sistema esistente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) e [Aggiungi chiavi di autenticazione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview) nella documentazione per gli sviluppatori.
 
 ### 3. Aggiornare o eliminare auth.json
 

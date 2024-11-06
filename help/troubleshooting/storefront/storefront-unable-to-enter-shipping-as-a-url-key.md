@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione al problema quando non è po
 exl-id: df19b597-f615-4b19-82c1-59cc179fa720
 feature: Marketing Tools, Shipping/Delivery, Storefront
 role: Admin
-source-git-commit: 1ce963142a261a17e2b42f79dd567c8484ec5b3e
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Adobe Commerce (tutti i metodi di distribuzione) 2.4.x
 
 ## Problema
 
-Impossibile salvare una pagina CMS con il termine _shipping_ nella chiave URL.
+Non puoi salvare una pagina CMS con il termine _shipping_ nella chiave URL.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -122,5 +122,5 @@ Inoltre, evita di usare queste parole chiave etichettate come *parole chiave ris
 
 ## Lettura correlata
 
-* [URL riscrive](https://docs.magento.com/user-guide/marketing/url-rewrite.html) nella guida utente per merchandising e promozioni.
-* [Best practice per l&#39;ottimizzazione SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) nella guida utente per merchandising e promozioni.
+* [URL riscrive](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) nella guida utente per merchandising e promozioni.
+* [Best practice per l&#39;ottimizzazione SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) nella guida utente per merchandising e promozioni.

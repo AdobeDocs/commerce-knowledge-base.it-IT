@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione alternativa per un problema 
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -44,7 +44,7 @@ La soluzione consiste nell’utilizzare un browser alternativo a Safari. Il prob
 
 ## Lettura correlata
 
-* [Cos&#39;è Page Builder?](https://devdocs.magento.com/page-builder/docs/) nella documentazione per gli sviluppatori.
+* [Cos&#39;è Page Builder?](https://developer.adobe.com/commerce/frontend-core/page-builder/) nella documentazione per gli sviluppatori.
 * [Configurazione di Page Builder](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) nella documentazione per gli sviluppatori.
-* [Page Builder](https://docs.magento.com/user-guide/cms/page-builder.html) nella guida utente.
-* [Page Builder - Elementi](https://docs.magento.com/user-guide/cms/page-builder-elements.html) nella guida utente.
+* [Page Builder](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction) nella guida utente.
+* [Page Builder - Elementi](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements) nella guida utente.

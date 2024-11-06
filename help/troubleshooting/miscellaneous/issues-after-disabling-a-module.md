@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per i problemi di funzionali
 exl-id: 517f6993-f09e-4a94-8c57-175ecf9a98a8
 feature: Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
@@ -30,6 +30,6 @@ Se si disabilita l&#39;output di un modulo in **Archivi** > **Impostazioni** > *
 
 ## Soluzione
 
-Se devi disabilitare la funzionalità del modulo, disabilita il modulo come descritto in [Abilita o disabilita i moduli](https://devdocs.magento.com/guides/v2.1/install-gde/install/cli/install-cli-subcommands-enable.html) nella documentazione per gli sviluppatori.
+Se devi disabilitare la funzionalità del modulo, disabilita il modulo come descritto in [Abilita o disabilita i moduli](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) nella documentazione per gli sviluppatori.
 
 La funzionalità di disabilitazione dell’output del modulo è stata rimossa a partire dalla versione 2.2.0.

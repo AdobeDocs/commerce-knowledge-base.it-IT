@@ -4,7 +4,7 @@ description: "Questo articolo fornisce una soluzione per quando la cache delle p
 exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 feature: Cache, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -47,5 +47,5 @@ Verificare che il controllo degli accessi non sia abilitato: accedere al ramo/am
 
 ## Lettura correlata
 
-* [Guida utente di Adobe Commerce > Cache a pagina intera](https://docs.magento.com/user-guide/system/cache-full-page.html) nella guida utente.
+* [Guida utente di Adobe Commerce > Cache a pagina intera](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) nella guida utente.
 * [Riscaldamento della cache e sito non disponibile in Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) nella Knowledge Base di supporto.

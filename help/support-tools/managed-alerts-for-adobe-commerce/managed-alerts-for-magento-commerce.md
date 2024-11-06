@@ -4,7 +4,7 @@ description: Se sei un cliente Adobe Commerce su infrastruttura cloud Pro plan a
 exl-id: 4d08eaad-a3ce-4f6c-9c32-58e44e1d6534
 feature: Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '543'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 # Avvisi gestiti per Adobe Commerce
 
 
-Abbiamo creato dashboard e avvisi chiave per aiutarti a capire quando il tuo sito sta raggiungendo i livelli critici di storage e Apdex (soddisfazione degli utenti per i tempi di risposta di applicazioni e servizi). Questo può aiutarti a intraprendere azioni prima di notare tempi di risposta lenti o un’interruzione. Potrai risolvere i problemi relativi agli avvisi con gli articoli elencati di seguito. Prima di poter utilizzare gli avvisi, imposta i canali di notifica. Consulta [New Relic Configure Notification Channels](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) nella documentazione per gli sviluppatori.
+Abbiamo creato dashboard e avvisi chiave per aiutarti a capire quando il tuo sito sta raggiungendo i livelli critici di storage e Apdex (soddisfazione degli utenti per i tempi di risposta di applicazioni e servizi). Questo può aiutarti a intraprendere azioni prima di notare tempi di risposta lenti o un’interruzione. Potrai risolvere i problemi relativi agli avvisi con gli articoli elencati di seguito. Prima di poter utilizzare gli avvisi, imposta i canali di notifica. Consulta [New Relic Configure Notification Channels](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >

@@ -4,7 +4,7 @@ description: '"Questo articolo illustra le possibili soluzioni per il problema d
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: f87263cde5aa001f78abc368c949ce150feecb91
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Sei stato reindirizzato al modulo di accesso, con il seguente messaggio di error
 ## Soluzione
 
 1. Creare un backup del database.
-1. Utilizzare uno strumento di database come [[!DNL phpMyAdmin]](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) oppure accedere manualmente al database dalla riga di comando. Nella tabella del database `admin_user`, per il record utente amministratore, verificare se `is_active` è impostato su &quot;`1`&quot; e `lock_expires` è `NULL`. Se necessario, reimpostare questi valori.
+1. Utilizzare uno strumento di database come [[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedere manualmente al database dalla riga di comando. Nella tabella del database `admin_user`, per il record utente amministratore, verificare se `is_active` è impostato su &quot;`1`&quot; e `lock_expires` è `NULL`. Se necessario, reimpostare questi valori.
 
 ## Lettura correlata
 

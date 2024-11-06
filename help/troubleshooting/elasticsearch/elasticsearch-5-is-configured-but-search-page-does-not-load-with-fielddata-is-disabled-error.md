@@ -3,7 +3,7 @@ title: L'Elasticsearch 5 è configurato, ma la pagina di ricerca non viene caric
 description: "Questo argomento descrive come risolvere il problema con l'Elasticsearch 5, in cui la pagina di ricerca non viene caricata e viene generata l'eccezione simile alla seguente:"
 exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 feature: Cache
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -56,7 +56,7 @@ Il risultato conterrà un elenco di attributi utilizzati per la navigazione a li
 Per risolvere il problema, è necessario impostare `is_filterable` (ovvero, utilizzato in Navigazione a livelli) e `filterable_in_search` (ovvero, utilizzato nei risultati della ricerca Navigazione a livelli) su &quot;0&quot; (non utilizzato). A questo scopo, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizza uno strumento di database come [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

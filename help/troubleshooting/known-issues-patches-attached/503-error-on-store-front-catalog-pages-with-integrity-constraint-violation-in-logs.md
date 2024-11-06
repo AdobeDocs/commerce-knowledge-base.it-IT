@@ -4,7 +4,7 @@ description: Questo articolo fornisce una patch per il problema noto di Adobe Co
 exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
 feature: Catalog Management, Logs
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Questo articolo fornisce una patch come soluzione alternativa, ma il problema è stato risolto definitivamente in Adobe Commerce on cloud infrastructure v2.3.3 ed è consigliabile effettuare l’aggiornamento alla versione v2.3.3. Segui i passaggi descritti in [Aggiornare Adobe Commerce versione](https://devdocs.magento.com/cloud/project/project-upgrade.html) nella documentazione per gli sviluppatori.
+>Questo articolo fornisce una patch come soluzione alternativa, ma il problema è stato risolto definitivamente in Adobe Commerce on cloud infrastructure v2.3.3 ed è consigliabile effettuare l’aggiornamento alla versione v2.3.3. Segui i passaggi descritti in [Aggiornare Adobe Commerce versione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) nella documentazione per gli sviluppatori.
 
 Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.0 relativo all&#39;archiviazione delle pagine del catalogo principale che non è accessibile. Il messaggio di errore nel registro è simile al seguente: *Violazione del vincolo di integrità: 1062 Voce duplicata &#39;%entry%&#39; per la chiave &#39;PRIMARY&#39;. Query: INSERT INTO \`search\_tmp\_%number%*.
 
@@ -72,12 +72,12 @@ La patch `MDVA-13203_EE_2.2.4_V1_COMPOSER` è compatibile (ma potrebbe non risol
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## Collegamenti utili
 
 * [Percorso dei file di registro per Adobe Commerce sull&#39;infrastruttura cloud Architettura del piano iniziale](/help/how-to/general/log-locations-directories-for-starter-plan.md) nella knowledge base di supporto.
 * [Percorso dei file di registro per Adobe Commerce sull&#39;infrastruttura cloud Architettura del piano Pro](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) nella knowledge base di supporto.
-* [Percorso dei file di registro per Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) nella documentazione per gli sviluppatori.
+* [Percorso dei file di registro per Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) nella documentazione per gli sviluppatori.
 
 ## File allegati

@@ -4,7 +4,7 @@ description: Questo articolo fornisce una patch per il problema in cui la funzio
 exl-id: 46ab7f4d-ee0a-4cc1-96cc-6eb408319e9c
 feature: Checkout, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -19,13 +19,13 @@ Questo problema noto è menzionato nella documentazione per gli sviluppatori:
 
 <u>Per Adobe Commerce 2.3.6</u>:
 
-* [Note sulla versione di Adobe Commerce 2.3.6: problemi noti](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
-* [Note sulla versione del Magento Open Source 2.3.6: problemi noti](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
+* [Note sulla versione di Adobe Commerce 2.3.6: problemi noti](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/commerce-2-3-6.html)
+* [Note sulla versione del Magento Open Source 2.3.6: problemi noti](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
 <u>Per Adobe Commerce 2.4.1</u>:
 
-* [Note sulla versione di Adobe Commerce 2.4.1: problemi noti](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
-* [Note sulla versione del Magento Open Source 2.4.1: problemi noti](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
+* [Note sulla versione di Adobe Commerce 2.4.1: problemi noti](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1#known-issues)
+* [Note sulla versione del Magento Open Source 2.4.1: problemi noti](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/magento-open-source/2-4-1#known-issues)
 
 ## Prodotti e versioni interessati
 
@@ -79,8 +79,8 @@ Queste patch non sono compatibili con altre versioni ed edizioni di Adobe Commer
 
 <u>Correzione compositore</u>
 
-Consulta [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto per istruzioni sulla patch del compositore.
+Consulta [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto per istruzioni sulla patch del compositore.
 
 <u>Patch Git</u>
 
-Consulta la documentazione per gli sviluppatori [Applicazione delle patch: patch personalizzate](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) per le istruzioni sulle patch Git per Adobe Commerce/Magento Open Source.
+Consulta la documentazione per gli sviluppatori [Applicazione delle patch: patch personalizzate](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) per le istruzioni sulle patch Git per Adobe Commerce/Magento Open Source.

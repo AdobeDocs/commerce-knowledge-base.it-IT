@@ -1,10 +1,10 @@
 ---
 title: Accesso amministratore limitato che causa problemi di prestazioni
-description: Questo articolo fornisce soluzioni per i casi in cui le prestazioni sono influenzate negativamente dall’utilizzo di [Ruoli amministratore con ambito ruolo limitato dal sito web](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) nella nostra guida utente.
+description: Questo articolo fornisce soluzioni per i casi in cui le prestazioni sono influenzate negativamente dall’utilizzo di [Ruoli amministratore con ambito ruolo limitato dal sito web](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources) nella nostra guida utente.
 exl-id: da168d6b-9cda-41e2-aa3c-f3f0dccc803d
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Accesso amministratore limitato che causa problemi di prestazioni
 
-Questo articolo fornisce soluzioni per i casi in cui le prestazioni sono influenzate negativamente dall&#39;utilizzo di [Ruoli amministratore con ambito ruolo limitato dal sito Web](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) nella guida utente.
+Questo articolo fornisce soluzioni per i casi in cui le prestazioni sono influenzate negativamente dall&#39;utilizzo di [Ruoli amministratore con ambito ruolo limitato dal sito Web](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources) nella guida utente.
 
 ## Prodotti e versioni interessati
 
@@ -30,10 +30,10 @@ Il problema è risolto in Adobe Commerce 2.2.10 e 2.3.3.
 
 Di seguito sono riportate le opzioni per evitare il problema:
 
-* Aggiorna l’applicazione Adobe Commerce alla versione 2.2.10 o 2.3.3. (per le istruzioni, consulta la [versione dell&#39;aggiornamento di Adobe Commerce sull&#39;infrastruttura cloud](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) nella documentazione per gli sviluppatori).
+* Aggiorna l’applicazione Adobe Commerce alla versione 2.2.10 o 2.3.3. (per le istruzioni, consulta la [versione dell&#39;aggiornamento di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) nella documentazione per gli sviluppatori).
 * Se possibile, evita di limitare l’ambito del ruolo utente amministratore in base al sito web.
 * [Inviare un ticket di supporto di Magento](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), per richiedere una patch, se disponibile.
 
 ## Lettura correlata
 
-* [Ruoli utente](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) nella guida utente.
+* [Ruoli utente](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles) nella guida utente.

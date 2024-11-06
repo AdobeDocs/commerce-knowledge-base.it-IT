@@ -3,7 +3,7 @@ title: Certificati SSL (TLS) per Adobe Commerce sull’infrastruttura cloud
 description: Questo articolo fornisce risposte rapide alle domande su come ottenere certificati SSL (TLS) per il tuo sito Adobe Commerce nell’infrastruttura cloud.
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 43c3e5f95c4b54e235140cd5b3978d3887af5ee1
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -16,7 +16,7 @@ Questo articolo fornisce risposte rapide alle domande su come ottenere certifica
 
 ## Quale certificato SSL/TLS fornisce Adobe?
 
-L&#39;Adobe fornisce un [certificato SSL/TLS ](https://letsencrypt.org/) convalidato dal dominio per il traffico HTTPS protetto da [!DNL Fastly]. Adobe fornisce un certificato per ogni ambiente Adobe Commerce su infrastruttura cloud Architettura del piano Pro, Staging e Adobe Commerce su infrastruttura cloud Ambiente di pianificazione iniziale per proteggere tutti i domini in tale ambiente.
+Adobe fornisce un [Crittografiamo il certificato SSL/TLS](https://letsencrypt.org/) convalidato dal dominio per gestire il traffico HTTPS protetto da [!DNL Fastly]. Adobe fornisce un certificato per ogni ambiente Adobe Commerce su infrastruttura cloud Architettura del piano Pro, Staging e Adobe Commerce su infrastruttura cloud Ambiente di pianificazione iniziale per proteggere tutti i domini in tale ambiente.
 
 ## Che cosa comprende un certificato?
 
@@ -43,7 +43,7 @@ Se il sito è già attivo e/o puoi puntare immediatamente agli URL che verranno 
 
 ## Posso usare un mio certificato SSL/TLS?
 
-È possibile fornire un proprio certificato SSL/TLS invece di utilizzare il [Crittografiamo il certificato](https://letsencrypt.org/) fornito dall&#39;Adobe.
+È possibile fornire un proprio certificato SSL/TLS invece di utilizzare il [Crittografiamo il certificato](https://letsencrypt.org/) fornito da Adobe.
 
 Tuttavia, questo processo richiede un lavoro aggiuntivo per l&#39;impostazione e la manutenzione. Devi innanzitutto generare una richiesta di firma del certificato (CSR, Certificate Signing Request) per il nome di dominio (o nome comune) del sito web e fornirla al fornitore SSL per fornire un certificato SSL.
 
@@ -67,7 +67,7 @@ Il dominio visualizzato nel certificato è solo il primo dominio aggiunto al cer
 
 ## Posso utilizzare certificati TLS con caratteri jolly?
 
-I certificati TLS con caratteri jolly possono essere utilizzati solo con il certificato personalizzato e non con i certificati Adobe Commerce Let&#39;s Encrypt. Come parte dell’ottimizzazione TLS, Adobe sta cessando il supporto dei certificati TLS con caratteri jolly. Stiamo identificando e contattando i commercianti che utilizzano un certificato con caratteri jolly con i certificati Let&#39;s Encrypt di Adobe e che sono configurati nella console [!DNL Fastly] per Adobe Commerce. Stiamo chiedendo che questi certificati con caratteri jolly vengano sostituiti con domini esatti per garantire la copertura TLS. Per sostituire un certificato TLS con caratteri jolly, visita la [sezione dominio](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains) del plug-in [!DNL Fastly]. Da qui è possibile aggiungere domini esatti e rimuovere il carattere jolly. Nota che il DNS dovrà puntare a [!DNL Fastly] affinché questi nuovi domini vengano instradati attraverso la rete CDN. Una volta aggiunti i domini e aggiornato il DNS, verrà eseguito il provisioning di un certificato [Crittografiamo](https://letsencrypt.org/) corrispondente. Se non si rimuove un dominio che punta a [!DNL Fastly] utilizzando un carattere jolly, Adobe eliminerà il certificato condiviso. Questo può causare un’interruzione del sito se non hai configurato l’FQDN dell’URL e lo stesso FQDN dell’URL nel DNS. È quindi necessario confermare che anche gli URL configurati hanno una corrispondenza uno-a-uno nel DNS che punta a [!DNL Fastly].
+I certificati TLS con caratteri jolly possono essere utilizzati solo con il certificato personalizzato e non con i certificati Adobe Commerce Let&#39;s Encrypt. Come parte dell’ottimizzazione di TLS, Adobe sta cessando il supporto per i certificati TLS con caratteri jolly. Stiamo identificando e contattando i commercianti che utilizzano un certificato con caratteri jolly con i certificati Let&#39;s Encrypt di Adobe e che sono configurati nella console [!DNL Fastly] per Adobe Commerce. Stiamo chiedendo che questi certificati con caratteri jolly vengano sostituiti con domini esatti per garantire la copertura TLS. Per sostituire un certificato TLS con caratteri jolly, visita la [sezione dominio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) del plug-in [!DNL Fastly]. Da qui è possibile aggiungere domini esatti e rimuovere il carattere jolly. Nota che il DNS dovrà puntare a [!DNL Fastly] affinché questi nuovi domini vengano instradati attraverso la rete CDN. Una volta aggiunti i domini e aggiornato il DNS, verrà eseguito il provisioning di un certificato [Crittografiamo](https://letsencrypt.org/) corrispondente. Se non rimuovi un dominio che punta a [!DNL Fastly] utilizzando un carattere jolly, Adobe eliminerà il certificato condiviso. Questo può causare un’interruzione del sito se non hai configurato l’FQDN dell’URL e lo stesso FQDN dell’URL nel DNS. È quindi necessario confermare che anche gli URL configurati hanno una corrispondenza uno-a-uno nel DNS che punta a [!DNL Fastly].
 
 ## Cosa devo fare se il mio dominio non punta più ad Adobe Commerce?
 
@@ -75,4 +75,4 @@ Se il dominio non fa più riferimento a Adobe Commerce, rimuoverlo dal sistema d
 
 ## Lettura correlata
 
-[Fornire certificati SSL/TLS](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) nella documentazione per gli sviluppatori
+[Fornire certificati SSL/TLS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) nella documentazione per gli sviluppatori

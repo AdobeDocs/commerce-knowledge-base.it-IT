@@ -3,7 +3,7 @@ title: Modifica l'ID incremento per un'entità DB (ordine, fattura, nota di accr
 description: Questo articolo illustra come modificare l’ID incremento di un’entità database (DB) di Adobe Commerce (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l’istruzione SQL "ALTER TABLE".
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -18,7 +18,7 @@ In questo articolo viene illustrato come modificare l&#39;ID incremento per un&#
 
 * Adobe Commerce on-premise: 2.x.x
 * Adobe Commerce sull’infrastruttura cloud: 2.x.x
-* MySQL: qualsiasi [versione supportata](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL: qualsiasi [versione supportata](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## Quando è necessario modificare l’ID incremento (casi)
 
@@ -34,7 +34,7 @@ Potrebbe essere necessario modificare l&#39;ID incremento per le nuove entità D
 ## Passaggi preliminari
 
 1. Trova archivi ed entità per i quali modificare il nuovo ID incremento.
-1. [Connetti](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) al database MySQL. Per Adobe Commerce su infrastruttura cloud, devi prima [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [Connetti](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) al database MySQL. Per Adobe Commerce su infrastruttura cloud, devi prima [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Controllare il valore corrente di auto\_increment per la tabella di sequenza entità utilizzando la seguente query:
 
 ```sql
@@ -53,7 +53,7 @@ Se il valore della colonna `auto_increment` è *1234*, il *ID \#100001234* verr�
 
 ### Documentazione correlata
 
-* [Configurare una connessione remota al database MySQL](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) nella documentazione per gli sviluppatori.
+* [Configurare una connessione remota al database MySQL](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) nella documentazione per gli sviluppatori.
 
 ## Aggiorna entità per modificare l&#39;ID incremento
 

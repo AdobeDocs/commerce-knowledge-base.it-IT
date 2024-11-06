@@ -4,7 +4,7 @@ description: '"Questo articolo fornisce una soluzione per il problema dell’inf
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -80,7 +80,7 @@ Per risolvere la distribuzione bloccata, aggiornare il file `routes.yaml` per co
 
 1. Сometti e invia le modifiche per ridistribuire il progetto.
 
-Per istruzioni dettagliate sull&#39;aggiornamento della configurazione della route, vedere [Cloud for Adobe Commerce > Configurare le route](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html) nella documentazione per gli sviluppatori.
+Per istruzioni dettagliate sull&#39;aggiornamento della configurazione della route, vedere [Cloud for Adobe Commerce > Configurare le route](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >

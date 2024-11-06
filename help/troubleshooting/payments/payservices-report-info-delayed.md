@@ -4,7 +4,7 @@ description: Questo articolo spiega perché la segnalazione dei dati in Payment 
 exl-id: 2f3249d1-be12-45bc-aa73-bef9766509ae
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Dopo aver fatturato (acquisito) un ordine o emesso una nota di accredito per un 
 
 Prerequisiti: un ordine viene effettuato utilizzando la funzionalità di Payment Services.
 
-1. Un ordine è [fatturato](https://docs.magento.com/user-guide/sales/invoice-create.html) (o [annullato](https://docs.magento.com/user-guide/sales/order-update.html#cancel-a-pending-order) o [rimborsato tramite nota di credito](https://docs.magento.com/user-guide/sales/credit-memos.html)) in [Amministratore](https://docs.magento.com/user-guide/stores/admin.html).
+1. Un ordine è [fatturato](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (o [annullato](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) o [rimborsato tramite nota di credito](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) in [Amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
 1. Passare al rapporto Stato pagamento ordine per visualizzare informazioni sull&#39;ordine.
 1. Lo stato viene visualizzato come `AUTHORIZED`, che è lo stato dell&#39;ordine prima della fatturazione o di un&#39;altra azione dell&#39;ordine.
 
@@ -37,7 +37,7 @@ Prerequisiti: un ordine viene effettuato utilizzando la funzionalità di Payment
 
 >[!NOTE]
 >
->Questo è solo un caso d’uso comune. Potrebbero esserci altri casi d&#39;uso in cui si verifica un&#39;azione [order](https://docs.magento.com/user-guide/sales/order-actions.html) e i dati non sono immediatamente disponibili nel report applicabile.
+>Questo è solo un caso d’uso comune. Potrebbero esserci altri casi d&#39;uso in cui si verifica un&#39;azione [order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) e i dati non sono immediatamente disponibili nel report applicabile.
 
 <u>Risultato previsto</u>:
 I dati del rapporto vengono popolati immediatamente dopo un’azione su un ordine.

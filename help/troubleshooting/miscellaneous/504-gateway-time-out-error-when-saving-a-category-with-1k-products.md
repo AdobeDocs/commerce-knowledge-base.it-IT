@@ -4,7 +4,7 @@ description: Questo articolo suggerisce una soluzione per il problema di timeout
 exl-id: 1f4b0385-215d-4d3d-8704-986c090824aa
 feature: Cache, Categories, Marketing Tools, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Ora è possibile aggiungere prodotti alle categorie o spostare le categorie con 
 
 ## Lettura correlata
 
-[Reindirizzamenti automatici ai prodotti](https://docs.magento.com/user-guide/v2.3/marketing/url-redirect-product-automatic.html) nella guida utente.
+[Reindirizzamenti automatici ai prodotti](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) nella guida utente.

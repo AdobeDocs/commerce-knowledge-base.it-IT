@@ -4,7 +4,7 @@ description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 i
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Viene visualizzato un errore non specifico quando il pagamento del cliente ospit
 <u>Prerequisiti</u>:
 
 1. In Amministrazione Commerce, in **Archivi** > **Configurazione** > **Vendite** > **Pagamento**, impostare **Consenti pagamento ospite** = *No*.
-1. Abilita PayPal tramite Braintree come descritto nella [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) nella nostra guida utente.
+1. Abilita PayPal tramite Braintree come descritto nella [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -55,10 +55,10 @@ Il cliente viene reindirizzato alla pagina Carrello acquisti e viene visualizzat
 
 ## Soluzione alternativa
 
-La soluzione a questo problema consiste nel fatto che il cliente può effettuare l’accesso in uno store (gli utenti connessi non utilizzano il pagamento come ospite). in cui l&#39;estrazione guest è disabilitata. Questo problema è stato risolto nella versione 2.4.2 di Adobe Commerce.
+La soluzione a questo problema consiste nel fatto che il cliente può effettuare l&#39;accesso in uno store (gli utenti connessi non utilizzano l&#39;estrazione guest) in cui l&#39;estrazione guest è disabilitata. Questo problema è stato risolto nella versione 2.4.2 di Adobe Commerce.
 
 ## Lettura correlata
 
 * [Procedure consigliate per il numero di prodotti nel carrello in Adobe Commerce](https://support.magento.com/hc/en-us/articles/360048550332) nella Knowledge Base di supporto.
-* [Tutorial sull&#39;elaborazione dell&#39;ordine: passaggio 1. Aggiungi elementi al carrello](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) nella documentazione per gli sviluppatori
-* [Tutorial sull&#39;estrazione di GraphQL: passaggio 1. Aggiungi prodotti al carrello](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) nella documentazione per gli sviluppatori
+* [Tutorial sull&#39;elaborazione dell&#39;ordine: passaggio 1. Aggiungi elementi al carrello](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/) nella documentazione per gli sviluppatori
+* [Tutorial sull&#39;estrazione di GraphQL: passaggio 1. Aggiungi prodotti al carrello](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html) nella documentazione per gli sviluppatori

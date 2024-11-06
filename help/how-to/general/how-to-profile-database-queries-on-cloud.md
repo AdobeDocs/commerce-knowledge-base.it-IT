@@ -1,9 +1,9 @@
 ---
 title: Profilo delle query di database in Adobe Commerce su infrastruttura cloud
-description: Consulta [Profile database queries](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) nella documentazione per gli sviluppatori.
+description: Consulta [Profile database queries](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/profile-database-queries) nella documentazione per gli sviluppatori.
 exl-id: 264b0436-da00-41d9-b057-d1453956f849
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 0%
@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # Profilo delle query di database in Adobe Commerce su infrastruttura cloud
 
-Consulta le [query sul database dei profili](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) nella documentazione per gli sviluppatori.
+Consulta le [query sul database dei profili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/profile-database-queries) nella documentazione per gli sviluppatori.

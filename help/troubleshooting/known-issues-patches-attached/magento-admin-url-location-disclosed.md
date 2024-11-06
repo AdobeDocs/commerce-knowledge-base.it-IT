@@ -4,9 +4,9 @@ description: Questo articolo fornisce una patch per il problema di sicurezza di 
 exl-id: fe147ad5-6019-46c1-b48c-6b957b6e1582
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Per risolvere il problema, applica la patch allegata a questo articolo. Per scar
 
 Se non viene visualizzata una patch per il prodotto o la versione, eseguire l&#39;aggiornamento all&#39;ultima versione di sicurezza, quindi applicare la patch.
 
-L’Adobe raccomanda vivamente di applicare il cerotto il prima possibile, anche se non ha manifestato alcun sintomo di attacco.
+Adobe consiglia vivamente di applicare il cerotto il prima possibile, anche se non ha manifestato alcun sintomo di attacco.
 
 ## Come applicare il cerotto
 
@@ -43,9 +43,9 @@ Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adob
 
 ## Altre raccomandazioni per la sicurezza
 
-Adobe consiglia inoltre vivamente ai commercianti di implementare strumenti per proteggere il pannello di amministrazione, tra cui autenticazione a due fattori, VPN, Inserire nell&#39;elenco Consentiti IP e altro ancora. Per informazioni dettagliate, consulta i seguenti blog e documentazione:
+Adobe consiglia inoltre vivamente ai commercianti di implementare strumenti per proteggere il pannello di amministrazione, tra cui autenticazione a due fattori, VPN, Inserisce nell&#39;elenco Consentiti di IP e altro ancora. Per informazioni dettagliate, consulta i seguenti blog e documentazione:
 
 * [5 Azioni immediate per Protect contro attacchi di forza bruta](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [Protect La Password Di Installazione Del Magento Sta Cercando Un Nuovo Aggiornamento](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [Best practice per la sicurezza](https://magento.com/security/best-practices/security-best-practices)
-* Aggiunta e configurazione dell&#39;autenticazione a due fattori in Adobe Commerce per [2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html) e [2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)
+* Aggiunta e configurazione dell&#39;autenticazione a due fattori in Adobe Commerce per [2.4.x](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)

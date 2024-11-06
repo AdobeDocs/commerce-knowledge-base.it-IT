@@ -4,7 +4,7 @@ description: Questo articolo corregge il problema relativo alla visualizzazione 
 exl-id: e5f7f8c6-2dd3-44e3-8d19-f1f38d06dd6c
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Questo articolo corregge il problema relativo alla visualizzazione di una pagina
 
 <u>Passaggi da riprodurre</u>:
 
-1. Configurare lo strumento Security Scan per controllare il sito Web, come descritto in [Security Scan](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) nella guida utente.
+1. Configurare lo strumento Security Scan per controllare il sito Web, come descritto in [Security Scan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) nella guida utente.
 1. Nella colonna Azioni selezionare **Esegui analisi**.
 
 <u>Risultati previsti</u>:
@@ -47,5 +47,5 @@ Prova ad aprire il tuo sito web.
 
 ## Lettura correlata
 
-* [Pubblica e avvia](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) nella documentazione per gli sviluppatori.
-* [Analisi protezione](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) nella guida utente.
+* [Pubblica e avvia](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) nella documentazione per gli sviluppatori.
+* [Analisi protezione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) nella guida utente.

@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione al problema quando non è po
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -50,5 +50,5 @@ L’attributo di stato del prodotto è stato rinominato nel file CSV. Ora è la 
 
 ## Lettura correlata
 
-* [Utilizzo dei file CSV](https://docs.magento.com/user-guide/system/data-csv.html) nella guida utente.
-* [Riferimento per gli attributi di esportazione del prodotto](https://docs.magento.com/user-guide/system/data-attributes-product.html) nella guida utente.
+* [Utilizzo dei file CSV](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv) nella guida utente.
+* [Riferimento per gli attributi di esportazione del prodotto](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product) nella guida utente.

@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per gli errori delle impostazion
 exl-id: 51fb3c95-2e25-4d86-a6cf-e08e90d097ca
 feature: Configuration
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Configurazioni con un numero elevato di visualizzazioni, prodotti, attributi o o
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Nessun valore &quot;corretto&quot; per `max-input-vars`. Dipende dalle dimensioni e dalla complessità della configurazione. Modificare il valore nel file `php.ini` in base alle esigenze. Vedere [Impostazioni PHP richieste](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Nessun valore &quot;corretto&quot; per `max-input-vars`. Dipende dalle dimensioni e dalla complessità della configurazione. Modificare il valore nel file `php.ini` in base alle esigenze. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## errore del livello massimo di nidificazione delle funzioni xdebug
 
@@ -76,4 +76,4 @@ Più modelli hanno una sintassi per il livello astratto di supporto nei modelli 
 
 Ulteriori informazioni su [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Modifica `php.ini` e imposta `asp_tags = off`. Per ulteriori informazioni, vedere [Impostazioni PHP richieste](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html).
+Modifica `php.ini` e imposta `asp_tags = off`. Per ulteriori informazioni, vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).

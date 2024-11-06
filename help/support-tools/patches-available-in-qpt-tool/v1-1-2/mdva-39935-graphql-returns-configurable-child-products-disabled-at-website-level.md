@@ -1,10 +1,10 @@
 ---
 title: "MDVA-39935: GraphQL restituisce prodotti secondari configurabili disabilitati a livello di sito Web"
-description: La patch di MDVA-39935 Adobe Commerce risolve il problema relativo alla restituzione da parte di GraphQL di prodotti secondari configurabili disattivati a livello di sito Web. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.2. L'ID della patch è MDVA-39935. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+description: La patch di MDVA-39935 Adobe Commerce risolve il problema relativo alla restituzione da parte di GraphQL di prodotti secondari configurabili disattivati a livello di sito Web. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.2. L'ID della patch è MDVA-39935. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 45bd6bd9-3572-4477-a689-d6b952a3290a
 feature: GraphQL, Configuration, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-39935: GraphQL restituisce prodotti secondari configurabili disabilitati a livello di sito Web
 
-La patch di MDVA-39935 Adobe Commerce risolve il problema relativo alla restituzione da parte di GraphQL di prodotti secondari configurabili disattivati a livello di sito Web. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.2. L&#39;ID della patch è MDVA-39935. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch di MDVA-39935 Adobe Commerce risolve il problema relativo alla restituzione da parte di GraphQL di prodotti secondari configurabili disattivati a livello di sito Web. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.2. L&#39;ID della patch è MDVA-39935. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.4.1 - 2.4.3
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -77,8 +77,8 @@ I dati dei prodotti disattivati vengono recuperati nei risultati delle varianti.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti a seconda del tipo di distribuzione:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

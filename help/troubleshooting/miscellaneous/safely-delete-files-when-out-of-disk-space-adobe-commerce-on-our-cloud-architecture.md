@@ -1,10 +1,10 @@
 ---
 title: Eliminazione sicura dei file quando lo spazio su disco in Adobe Commerce sull’infrastruttura cloud è esaurito
-description: Questo articolo fornisce una soluzione per i casi in cui si esaurisce lo spazio su disco ed è necessario rimuovere i file in modo sicuro. Prima di considerare questa azione, consulta [Gestire lo spazio su disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html#no-space-left) nella documentazione per gli sviluppatori. Se i passaggi descritti in tale articolo non sono appropriati per te o non risolvono il problema, rivedi i passaggi descritti in questo articolo.
+description: Questo articolo fornisce una soluzione per i casi in cui si esaurisce lo spazio su disco ed è necessario rimuovere i file in modo sicuro. Prima di considerare questa azione, consulta [Gestire lo spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left) nella documentazione per gli sviluppatori. Se i passaggi descritti in tale articolo non sono appropriati per te o non risolvono il problema, rivedi i passaggi descritti in questo articolo.
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 86515936f72bbd0a5778cb81f665993ed91e4707
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -59,4 +59,4 @@ Nella nostra knowledge base di supporto:
 
 Nella documentazione per gli sviluppatori:
 
-* [Gestione spazio su disco](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+* [Gestione spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

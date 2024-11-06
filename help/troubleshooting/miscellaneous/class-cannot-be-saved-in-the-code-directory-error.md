@@ -4,7 +4,7 @@ description: Questo articolo descrive come risolvere il problema in cui il modo 
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -170,4 +170,4 @@ class YourClass
 
 ## Lettura correlata
 
-* [Generazione del codice](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) nella documentazione per gli sviluppatori.
+* [Generazione del codice](https://developer.adobe.com/commerce/php/development/components/code-generation/) nella documentazione per gli sviluppatori.

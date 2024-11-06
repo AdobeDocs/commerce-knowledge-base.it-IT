@@ -3,7 +3,7 @@ title: Riorganizzare i rami cloud in Adobe Commerce
 description: Questo articolo descrive i passaggi da seguire per riorganizzare i rami cloud su Adobe Commerce, se non sono organizzati secondo la gerarchia corretta. Se i rami non sono organizzati nella gerarchia corretta, non sarà possibile eseguire l'unione nel ramo padre corretto, ma passerà al ramo padre esistente.
 exl-id: 4fc0de96-da66-4634-a38a-6a1536855f8f
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Per riorganizzare i rami cloud:
 1. Esegui il seguente comando per i rami da spostare:
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-Nota: è possibile specificare il ramo padre quando si crea un nuovo ramo. Per i passaggi, consulta [Guida introduttiva alla creazione di rami](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) nella documentazione per gli sviluppatori.
+Nota: è possibile specificare il ramo padre quando si crea un nuovo ramo. Per i passaggi, consulta [Guida introduttiva alla creazione di rami](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) nella documentazione per gli sviluppatori.
 
 È possibile creare un nuovo ramo dell&#39;ambiente utilizzando il comando dell&#39;ambiente magento-cloud `branch <environment-name> <parent-environment-ID>`.
 
@@ -42,4 +42,4 @@ La creazione e l’attivazione di un nuovo ramo dell’ambiente potrebbe richied
 
 ## Lettura correlata
 
-[Gestisci i rami con  [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) nella documentazione per gli sviluppatori.
+[Gestisci i rami con  [!DNL CLI]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches) nella documentazione per gli sviluppatori.

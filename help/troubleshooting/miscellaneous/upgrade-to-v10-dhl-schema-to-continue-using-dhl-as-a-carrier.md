@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per consentire ai commercian
 exl-id: eed83713-2d6a-4360-bfa1-bebd4d604f2f
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -36,7 +36,7 @@ L&#39;ID patch è AC-3023 ed è disponibile nella versione 1.1.21 di [!DNL Quali
 Fare riferimento ai seguenti collegamenti per informazioni su come utilizzare [!DNL Quality Patches Tool] e installare le patch in base ai metodi di distribuzione utilizzati:
 
 * Adobe Commerce on-premise e Magento Open Source: [Strumenti per le patch di qualità > Utilizzo](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 **La patch è applicabile alle seguenti versioni di Adobe Commerce (tutti i metodi di distribuzione):**
 

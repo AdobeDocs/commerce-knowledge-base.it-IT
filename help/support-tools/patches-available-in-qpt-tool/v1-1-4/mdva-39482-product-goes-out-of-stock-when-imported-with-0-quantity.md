@@ -1,10 +1,10 @@
 ---
 title: "MDVA-39482: il prodotto esaurisce le scorte se viene importato con la quantità '0' con ordini inevasi abilitati"
-description: MDVA-39482 risolve il problema relativo all'esaurimento delle scorte del prodotto importato con quantità pari a "0" quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4. L'ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+description: MDVA-39482 risolve il problema relativo all'esaurimento delle scorte del prodotto importato con quantità pari a "0" quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L'ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 2caf461c-993d-48b3-bc47-3fa1d014deaf
 feature: Data Import/Export, Orders, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-39482: il prodotto esaurisce le scorte se viene importato con la quantità &#39;0&#39; con ordini inevasi abilitati
 
-MDVA-39482 risolve il problema relativo all&#39;esaurimento delle scorte del prodotto importato con quantità pari a &quot;0&quot; quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.1.4. L&#39;ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+MDVA-39482 risolve il problema relativo all&#39;esaurimento delle scorte del prodotto importato con quantità pari a &quot;0&quot; quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L&#39;ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.3.6 - 2.3.7-p2, 2.4.1 - 2.4
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -64,8 +64,8 @@ Se viene importata con una quantità pari a &quot;0&quot;, il prodotto esaurisce
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

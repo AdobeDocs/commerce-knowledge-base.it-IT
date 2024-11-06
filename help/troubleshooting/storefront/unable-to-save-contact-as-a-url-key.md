@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione al problema quando non è po
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Impossibile salvare *contatto* come chiave URL
 
-Questo articolo fornisce una soluzione al problema quando non sei in grado di salvare *contact* come chiave URL (ad esempio, &quot;/contact&quot;) per prodotti o pagine CMS.
+Questo articolo fornisce una soluzione al problema quando non è possibile salvare *contact* come chiave URL (ad esempio, &quot;/contact&quot;) per prodotti o pagine CMS.
 
 ## Prodotti e versioni interessati
 
@@ -21,7 +21,7 @@ Adobe Commerce (tutti i metodi di distribuzione) 2.4.x
 
 ## Problema
 
-Non puoi salvare un prodotto o una pagina CMS usando il termine *contatto* come chiave URL. Quando tenti di salvare la chiave URL, ricevi un errore che indica che la chiave URL è un URL duplicato.
+Impossibile salvare un prodotto o una pagina CMS utilizzando il termine *contatto* come chiave URL. Quando tenti di salvare la chiave URL, ricevi un errore che indica che la chiave URL è un URL duplicato.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -63,5 +63,5 @@ Effettua le seguenti operazioni:
 
 ## Lettura correlata
 
-* [L&#39;URL riscrive](https://docs.magento.com/user-guide/marketing/url-rewrite.html) nella nostra guida utente.
-* [Best practice per l&#39;ottimizzazione SEO](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) nella guida utente.
+* [L&#39;URL riscrive](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) nella nostra guida utente.
+* [Best practice per l&#39;ottimizzazione SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) nella guida utente.

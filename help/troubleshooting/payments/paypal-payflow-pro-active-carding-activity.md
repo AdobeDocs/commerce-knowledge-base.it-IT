@@ -4,7 +4,7 @@ description: AGGIORNATO IL 2 APRILE 2019
 exl-id: 9fe73788-5b67-445a-9b0d-86489125d271
 feature: Cache, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Per proteggere da questi attacchi, consigliamo di aggiungere Google reCAPTCHA (c
 
 ### Pacchetti installazione
 
-L’Adobe ha creato due opzioni di pacchetto per aggiungere Google reCAPTCHA e/o CAPTCHA al modulo di pagamento Payflow Pro. L&#39;installazione di uno di questi pacchetti aggiornerà le installazioni correnti e aggiungerà un&#39;opzione che può aiutare a migliorare questa sicurezza al modulo di pagamento Payflow Pro.
+Adobe ha creato due opzioni di pacchetto per aggiungere Google reCAPTCHA e/o CAPTCHA al modulo di pagamento Payflow Pro. L&#39;installazione di uno di questi pacchetti aggiornerà le installazioni correnti e aggiungerà un&#39;opzione che può aiutare a migliorare questa sicurezza al modulo di pagamento Payflow Pro.
 
 Questi pacchetti sono compatibili con le seguenti distribuzioni e versioni di Adobe Commerce:
 
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 Dopo aver installato il pacchetto, configura Google reCAPTCHA (consigliato) o CAPTCHA come descritto nei seguenti documenti:
 
-* [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) nella guida utente.
-* [CAPTCHA](https://docs.magento.com/user-guide/stores/security-captcha.html) nella guida utente.
+* [Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) nella guida utente.
+* [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) nella guida utente.
 
 La nuova opzione del modulo di pagamento è:
 

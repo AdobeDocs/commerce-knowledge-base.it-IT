@@ -4,7 +4,7 @@ description: Questo articolo descrive come risolvere i problemi di prestazioni d
 exl-id: a78ca3c3-85b4-40a1-a693-4703dd3ef4b5
 feature: Best Practices, Cache, Categories, Catalog Management
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Su qualsiasi versione di Adobe Commerce, poiché alcune estensioni funzionano solo con le tabelle a comparsa, esiste un rischio se si disattivano le tabelle a comparsa. Se si è certi di disporre di alcune estensioni che utilizzano indici Flat Catalog, potrebbe essere necessario tenerne conto quando si impostano tali valori su &quot; *No* &quot;.
 
-In questo articolo viene descritto come risolvere i problemi di prestazioni del sito e rallentare l&#39;esecuzione e il blocco di nodi causati dall&#39;attivazione di [tabelle flat e indicizzatori](https://docs.magento.com/m2/ce/user_guide/catalog/catalog-flat.html).
+In questo articolo viene descritto come risolvere i problemi di prestazioni del sito e rallentare l&#39;esecuzione e il blocco di nodi causati dall&#39;attivazione di [tabelle flat e indicizzatori](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat).
 
 PRODOTTI E VERSIONI INTERESSATI
 

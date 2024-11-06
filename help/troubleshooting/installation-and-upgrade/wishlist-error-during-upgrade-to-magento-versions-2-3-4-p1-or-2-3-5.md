@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione del problema noto durante l
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -57,8 +57,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 Nella documentazione per gli sviluppatori:
 
-* [Guida di Adobe Commerce sull&#39;infrastruttura cloud](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [Adobe Commerce sull&#39;infrastruttura cloud - Aggiornamento della versione di Adobe Commerce](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [Adobe Commerce on-premise e Magento Open Source - Aggiornamento dell&#39;applicazione Adobe Commerce e dei moduli](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
-* [Pagina di configurazione elemento lista dei desideri](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
-* [Moduli che forniscono funzioni di reporting avanzate](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)
+* [Guida di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
+* [Adobe Commerce sull&#39;infrastruttura cloud - Aggiornamento della versione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [Adobe Commerce on-premise e Magento Open Source - Aggiornamento dell&#39;applicazione Adobe Commerce e dei moduli](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* [Pagina di configurazione elemento lista dei desideri](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts/#wishlist-item-configure-page)
+* [Moduli che forniscono funzioni di reporting avanzate](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

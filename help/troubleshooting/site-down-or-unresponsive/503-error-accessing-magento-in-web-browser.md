@@ -4,7 +4,7 @@ description: Questo articolo fornisce una possibile soluzione al problema relati
 exl-id: 4232aa21-40c2-41b0-9fb0-fc8cd4db8e39
 feature: Storefront
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>Passaggi da riprodurre</u>
 
-(Prerequisiti: verificare che l&#39;archivio non sia in [modalità di manutenzione](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)).
+(Prerequisiti: verificare che l&#39;archivio non sia in [modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
 
 Passa all’amministratore di Commerce o alla vetrina in un browser web.
 

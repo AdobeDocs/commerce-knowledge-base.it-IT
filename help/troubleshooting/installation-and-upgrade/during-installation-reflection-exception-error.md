@@ -4,7 +4,7 @@ description: In questo articolo viene fornita una soluzione per l'errore Eccezio
 exl-id: aed5f297-1339-4171-9392-04b3f93277ee
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Durante l’installazione viene visualizzato un messaggio simile al seguente:
 
 Cancellare tutte le directory e i file nella sottodirectory `var` di Adobe Commerce e installare nuovamente il software Adobe Commerce.
 
-Come [proprietario del file system di Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) o come utente con privilegi `root`, immetti i seguenti comandi:
+Come [proprietario del file system di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview) o come utente con privilegi `root`, immetti i seguenti comandi:
 
 ```bash
 $ cd <your Magento install directory>/var

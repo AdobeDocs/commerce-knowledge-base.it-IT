@@ -4,7 +4,7 @@ description: "AGGIORNATO IL 29 FEBBRAIO 2019"
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -54,7 +54,7 @@ La distribuzione potrebbe non riuscire e presentare i seguenti messaggi di error
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-Se utilizzi la soluzione Adobe Commerce su infrastruttura cloud, visualizzerai questo messaggio di errore nel [registro di distribuzione](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html#log-deploy-log). Per Adobe Commerce on-premise, l’errore verrà visualizzato nella riga di comando.
+Se utilizzi la soluzione Adobe Commerce su infrastruttura cloud, visualizzerai questo messaggio di errore nel [registro di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations). Per Adobe Commerce on-premise, l’errore verrà visualizzato nella riga di comando.
 
 ## Causa
 
@@ -70,4 +70,4 @@ A questo scopo, effettua le seguenti operazioni:
    * se il modulo Fastly è incluso in magento-cloud-metapackage:    <pre>aggiornamento compositore magento/magento-cloud-metapackage</pre>
    * se il modulo Fastly è stato installato separatamente (ad esempio, nel caso di utilizzo di Adobe Commerce on-premise, non dell’edizione cloud) <pre>aggiornamento rapido compositore/magento2</pre>
 1. Esegui il commit e l’invio delle modifiche, quindi attiva il processo di distribuzione se non viene eseguito automaticamente.
-1. In Admin, [carica il nuovo VCL in Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html#upload-vcl-snippets).
+1. In Admin, [carica il nuovo VCL in Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).

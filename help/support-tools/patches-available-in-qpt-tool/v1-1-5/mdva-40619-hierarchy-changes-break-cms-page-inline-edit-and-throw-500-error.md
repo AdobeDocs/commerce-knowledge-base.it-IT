@@ -1,19 +1,19 @@
 ---
-title: "MDVA-40619: le modifiche della gerarchia interrompono la pagina CMS durante la modifica in linea e generano l’errore 500"
-description: La patch di MDVA-40619 risolve il problema relativo alle modifiche apportate alla gerarchia delle pagine CMS che causano l'interruzione della modifica in linea della pagina CMS e la generazione di "errore 500". Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5. L'ID della patch è MDVA-40619. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+title: "MDVA-40619: le modifiche della gerarchia interrompono la modifica in linea della pagina CMS e generano l’errore 500"
+description: La patch MDVA-40619 risolve il problema relativo alle modifiche apportate alla gerarchia delle pagine di CMS che causano l'interruzione della modifica in linea della pagina di CMS e la generazione di "errore 500". Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5. L'ID della patch è MDVA-40619. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: c003d845-1ba0-49c0-9f1a-a4b0ec00f30c
 feature: CMS
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
 
 ---
 
-# MDVA-40619: le modifiche della gerarchia interrompono la pagina CMS durante la modifica in linea e generano l&#39;errore 500
+# MDVA-40619: le modifiche della gerarchia interrompono la modifica in linea della pagina CMS e generano l&#39;errore 500
 
-La patch di MDVA-40619 risolve il problema relativo alle modifiche apportate alla gerarchia delle pagine CMS che causano l&#39;interruzione della modifica in linea della pagina CMS e la generazione di &quot;errore 500&quot;. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5. L&#39;ID della patch è MDVA-40619. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch MDVA-40619 risolve il problema relativo alle modifiche apportate alla gerarchia delle pagine di CMS che causano l&#39;interruzione della modifica in linea della pagina di CMS e la generazione di &quot;errore 500&quot;. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5. L&#39;ID della patch è MDVA-40619. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -27,11 +27,11 @@ La patch di MDVA-40619 risolve il problema relativo alle modifiche apportate all
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
-Le modifiche alla gerarchia delle pagine CMS interrompono la modifica in linea della pagina CMS e generano &quot;errore 500&quot;.
+Le modifiche della gerarchia di pagine CMS interrompono la modifica in linea della pagina CMS e generano &quot;errore 500&quot;.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -40,7 +40,7 @@ Le modifiche alla gerarchia delle pagine CMS interrompono la modifica in linea d
 1. Deselezionare &quot;Use the parent node hierarchy&quot; (Utilizza la gerarchia dei nodi padre).
 1. Seleziona la pagina manualmente e fai clic su **Salva**.
 1. Quindi Vai a **Contenuto** > **Pagine**.
-1. Prova a modificare qualsiasi pagina CMS dalla griglia.
+1. Prova a modificare qualsiasi pagina di CMS dalla griglia.
 1. Fai clic su **Salva**.
 
 <u>Risultati previsti</u>:
@@ -59,8 +59,8 @@ Viene visualizzato il seguente errore:
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://devdocs.magento.com/cloud/project/project-patch.html) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

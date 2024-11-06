@@ -4,7 +4,7 @@ description: Se sei un cliente Adobe Commerce su infrastruttura cloud con archit
 exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 feature: Integration
 role: Admin
-source-git-commit: fb26b71316e04de31fa6a895b87230bed5c1ca6a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Se sei un cliente Adobe Commerce su infrastruttura cloud con architettura Pro e 
 1. Il commerciante deve [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aggiornamento agli ambienti di integrazione avanzata, utilizzando il motivo del contatto &quot;*Richiedere una modifica alla configurazione cloud*&quot;.
 1. Il team di progettazione clienti di Adobe conferma il numero di ambienti di integrazione e avvia la modifica.
 1. Il commerciante verrà informato nel ticket quando l’aggiornamento sarà completato.
-1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://devdocs.magento.com/cloud/env/environments-start.html#merge) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push <branch-name></pre>
+1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push <branch-name></pre>
 
 Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di integrazione avanzata.
 
@@ -43,7 +43,7 @@ Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di i
 1. Il commerciante deve [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aggiornamento agli ambienti di integrazione avanzata, utilizzando il motivo di contatto *&quot;Richiedere una modifica alla configurazione cloud&quot;* - **l&#39;ambiente di staging è un ambiente di integrazione denominato**.
 1. Il team di progettazione clienti di Adobe conferma il numero di ambienti di integrazione e avvia la modifica.
 1. Il commerciante verrà informato nel ticket quando l’aggiornamento sarà completato.
-1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://devdocs.magento.com/cloud/env/environments-start.html#merge) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push <branch-name></pre>
+1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push <branch-name></pre>
 
 Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di integrazione avanzata.
 
@@ -51,5 +51,5 @@ Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di i
 
 * Le dimensioni standard e le dimensioni migliorate sono le uniche due dimensioni disponibili.
 * Tutti gli ambienti di integrazione per un determinato archivio hanno le stesse dimensioni; non possono essere dimensionati in modo indipendente.
-* Se hai bisogno di ambienti di integrazione diversi da quelli di staging, consulta il team del tuo account di Adobe.
+* Se hai bisogno di ambienti di integrazione diversi da quelli di staging, consulta il team del tuo account Adobe.
 * Se l’acquisto viene effettuato dopo il 17 settembre 2020, questo miglioramento non sarà applicabile a causa dell’ampliamento degli ambienti di integrazione.

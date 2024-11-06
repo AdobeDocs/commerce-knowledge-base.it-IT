@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per i casi in cui le immagin
 exl-id: 7e6bcebd-edff-437a-9103-2743443d2ed9
 feature: Cache, Categories, Deploy, Storefront
 role: Admin
-source-git-commit: c4d586ca3980acbe4f33c5f2616ef7f3051bc7d3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -33,7 +33,7 @@ In questo caso, potete utilizzare il comando di Magento per rigenerare la cache 
 
 Per eseguire questa operazione, è necessario disporre delle informazioni SSH e dell&#39;URL dell&#39;archivio disponibili tramite [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
 
-1. SSH al progetto che era un&#39;origine per il [dump del database](/help/how-to/general/create-database-dump-on-cloud.md), come descritto in [SSH all&#39;ambiente](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) nella documentazione per gli sviluppatori.
+1. SSH al progetto che era un&#39;origine per il [dump del database](/help/how-to/general/create-database-dump-on-cloud.md), come descritto in [SSH all&#39;ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) nella documentazione per gli sviluppatori.
 1. Rigenera la cache delle immagini eseguendo:
 
    ```bash

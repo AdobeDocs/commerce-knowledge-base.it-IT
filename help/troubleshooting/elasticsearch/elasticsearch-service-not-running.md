@@ -2,7 +2,7 @@
 title: Il servizio Elasticsearch non è in esecuzione
 description: Questo articolo fornisce soluzioni per gli errori che possono verificarsi quando il servizio Elasticsearch (ES) non è in esecuzione (in genere a causa di un arresto anomalo). I sintomi possono includere errori durante l’esecuzione di controlli di integrità utilizzando curl, reindicizzazione utilizzando la riga di comando, errori di Eccezione e PHP ed errori nelle pagine dei prodotti. Nella tabella sono elencati gli errori e i collegamenti alle risorse per tentare di risolverli. Un sintomo può avere una serie di cause diverse.
 exl-id: 2c2230de-cb30-4a03-8c3e-d9f44783dbae
-source-git-commit: 3ff881f1c799201ed25ba9737864b1226d283c22
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Questo articolo fornisce soluzioni per gli errori che possono verificarsi quando
 
    * v2.2.3+ supporta ES 5.x
    * v2.2.8+ e v2.3.1+ supportano ES 6.x
-   * ES v2.x e v5.x non sono consigliati a causa di [fine del ciclo di vita](https://www.elastic.co/support/eol). Tuttavia, se si dispone di Adobe Commerce v2.3.1 e si desidera utilizzare ES 2.x o ES 5.x, è necessario [Modificare il client php Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * ES v2.x e v5.x non sono consigliati a causa di [fine del ciclo di vita](https://www.elastic.co/support/eol). Tuttavia, se si dispone di Adobe Commerce v2.3.1 e si desidera utilizzare ES 2.x o ES 5.x, è necessario [Modificare il client php Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
 
 * Il Magento Open Source v2.3.0+ supporta ES 5.x e 6.x (ma si consiglia 6.x).
 
@@ -59,8 +59,8 @@ Gli indici Elasticsuite non vengono eliminati.  Vedi <a href="https://experience
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">8 Suggerimenti per risolvere i problemi relativi al disco rigido dei sistemi Linux e Unix, ad esempio Disco pieno o Impossibile scrivere sul disco</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault: df indica che il disco è pieno, ma non</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com: Individuazione dello spazio su disco disponibile su Linux</a></li>
-<li>I file di registro non vengono archiviati con sufficiente regolarità. Consulta <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">Configurare l'archivio dei registri</a> nella documentazione per gli sviluppatori.</li>
-<li>Le directory di sistema dei file non sono ottimizzate. Consulta <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">Ottimizzazione file</a> nella documentazione per gli sviluppatori.</li>
+<li>I file di registro non vengono archiviati con sufficiente regolarità. Consulta <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">Configurare l'archivio dei registri</a> nella documentazione per gli sviluppatori.</li>
+<li>Le directory di sistema dei file non sono ottimizzate. Consulta <a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">Ottimizzazione file</a> nella documentazione per gli sviluppatori.</li>
 <li>Se le soluzioni descritte nella documentazione precedente non risolvono il problema, contatta il team dell’account Adobe per richiedere ulteriore spazio di archiviazione.</li>
 </ul>
 </li>

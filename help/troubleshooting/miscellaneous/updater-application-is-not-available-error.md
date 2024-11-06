@@ -4,7 +4,7 @@ description: In questo articolo viene illustrata la soluzione per il problema "L
 exl-id: 85e55ed8-0bc9-4378-b722-46be98ce2638
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -29,4 +29,4 @@ Nel controllo di idoneità viene visualizzato il seguente messaggio:
 
 ## Soluzione
 
-Per risolvere il problema, verificare se è presente una directory `<magento_root>/update` contenente file e sottodirectory. In caso contrario, consulta [Configurare l&#39;aggiornamento](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html) nella documentazione per gli sviluppatori.
+Per risolvere il problema, verificare se è presente una directory `<magento_root>/update` contenente file e sottodirectory. In caso contrario, consulta [Configurare l&#39;aggiornamento](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) nella documentazione per gli sviluppatori.

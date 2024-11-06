@@ -4,7 +4,7 @@ description: L’articolo fornisce una soluzione per quando hai configurato corr
 exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -42,8 +42,8 @@ L&#39;indicizzazione da parte dei motori di ricerca è disattivata.
 
 ## Soluzione
 
-Abilita l’indicizzazione tramite i motori di ricerca. Consulta [Configurare l&#39;indicizzazione tramite il motore di ricerca](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) nella documentazione per gli sviluppatori.
+Abilita l’indicizzazione tramite i motori di ricerca. Consulta [Configurare l&#39;indicizzazione tramite il motore di ricerca](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-* [Aggiungi mappa del sito e robot motore di ricerca](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) nella documentazione per gli sviluppatori.
+* [Aggiungi mappa del sito e robot motore di ricerca](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) nella documentazione per gli sviluppatori.

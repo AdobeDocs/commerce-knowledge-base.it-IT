@@ -1,10 +1,10 @@
 ---
 title: Immagini d'archivio non visualizzate, Adobe Commerce e Magento Open Source 2.3.7-p2
-description: Questo articolo fornisce una soluzione per il problema in cui le immagini stock di Adobi caricate nelle directory del file system "pub/media" o "pub/media/catalog" non vengono visualizzate nell’interfaccia utente di Media Gallery. Le immagini non rientrano nelle directory della raccolta multimediale consentite. Affinché queste immagini possano essere visualizzate, i commercianti devono eliminare le immagini nel file system e ricaricarle in una directory Media Gallery consentita.
+description: Questo articolo fornisce una soluzione al problema per cui le immagini Adobe caricate nelle directory del file system "pub/media" o "pub/media/catalog" non vengono visualizzate nell’interfaccia utente di Media Gallery. Le immagini non rientrano nelle directory della raccolta multimediale consentite. Affinché queste immagini possano essere visualizzate, i commercianti devono eliminare le immagini nel file system e ricaricarle in una directory Media Gallery consentita.
 exl-id: 84488d87-095f-4739-858f-19a52d6e5822
 feature: Categories, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Immagini d&#39;archivio non visualizzate, Adobe Commerce e Magento Open Source 2.3.7-p2
 
-In questo articolo viene fornita una soluzione al problema che impedisce la visualizzazione delle immagini Adobi caricate nelle directory del file system `pub/media` o `pub/media/catalog` nell&#39;interfaccia utente di Media Gallery. Le immagini non rientrano nelle directory della raccolta multimediale consentite. Affinché queste immagini possano essere visualizzate, i commercianti devono eliminare le immagini nel file system e ricaricarle in una directory Media Gallery consentita.
+Questo articolo fornisce una soluzione al problema che impedisce la visualizzazione delle immagini Adobe caricate nelle directory del file system `pub/media` o `pub/media/catalog` nell&#39;interfaccia utente di Media Gallery. Le immagini non rientrano nelle directory della raccolta multimediale consentite. Affinché queste immagini possano essere visualizzate, i commercianti devono eliminare le immagini nel file system e ricaricarle in una directory Media Gallery consentita.
 
 ## Prodotti e versioni interessati
 
@@ -50,4 +50,4 @@ Elimina le immagini Adobe Stock caricate dalle cartelle `pub/media` e `pub/media
 
 ## Lettura correlata
 
-* [Archiviazione multimediale](https://docs.magento.com/user-guide/v2.3/cms/media-storage.html) nella guida utente.
+* [Archiviazione multimediale](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) nella guida utente.

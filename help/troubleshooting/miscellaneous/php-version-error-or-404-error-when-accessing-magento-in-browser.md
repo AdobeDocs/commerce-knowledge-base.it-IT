@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per i problemi in cui non è pos
 exl-id: 6cfdeaae-5e52-411c-9006-5af8a467873a
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Il seguente messaggio viene visualizzato quando tenti di accedere ad Adobe Comme
 
 Provare a eseguire le operazioni seguenti:
 
-* Aggiornare PHP alla versione 7.3. Per ulteriori informazioni, consulta [Requisiti dello stack di tecnologia Adobe Commerce 2.3](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html#php) nella documentazione per gli sviluppatori.
+* Aggiornare PHP alla versione 7.3. Per ulteriori informazioni, consulta [Requisiti dello stack di tecnologia Adobe Commerce 2.3](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) nella documentazione per gli sviluppatori.
 * Riavvia Apache, poiché potrebbe non utilizzare la stessa versione PHP presente nel file system. Per riavviare Apache, usa i seguenti comandi:
    * Ubuntu: `service apache2 restart`
    * CentOS: `service httpd restart`
@@ -42,5 +42,5 @@ Quando tenti di accedere alla vetrina Adobe Commerce o all’amministrazione di 
 
 Provare a eseguire le operazioni seguenti:
 
-* Assicurarsi che [Le riscritture del server Apache](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html) siano abilitate. Se le riscritture del server Apache non sono impostate correttamente, i file statici non vengono serviti dalla posizione corretta.
+* Assicurarsi che [Le riscritture del server Apache](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/apache) siano abilitate. Se le riscritture del server Apache non sono impostate correttamente, i file statici non vengono serviti dalla posizione corretta.
 * Potrebbe essersi verificato un problema con l&#39;URL di base immesso durante l&#39;installazione. L&#39;URL di base viene specificato come valore di `--base-url=` durante l&#39;installazione di Adobe Commerce dalla riga di comando o come valore del campo **Indirizzo archivio** nella pagina Configurazione Web del programma di installazione Web. L&#39;URL di base *must* inizia con lo schema (ad esempio `http://` ) e termina con una barra finale (/). Esegui di nuovo il programma di installazione con un valore valido e prova ad accedere in seguito ad Adobe Commerce.

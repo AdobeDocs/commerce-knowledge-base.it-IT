@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per evitare il problema rela
 exl-id: 7502ca9e-c307-4e8a-aa1d-4886e7be25da
 feature: Upgrade
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Dopo luglio 2022 Composer modifica il valore predefinito dell&#39;opzione [`allo
 
 Aggiungi quanto segue al file `composer.json`, a seconda di come hai installato Adobe Commerce:
 
-* Se il progetto è stato creato [utilizzando il comando `composer create-project`](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage):
+* Se il progetto è stato creato [utilizzando il comando `composer create-project`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage):
 
   ```json
   "config": {

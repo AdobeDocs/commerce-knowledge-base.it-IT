@@ -1,10 +1,10 @@
 ---
 title: Informazioni sulla scadenza del certificato SSL personalizzato
-description: Questo articolo fornisce una soluzione per i casi in cui un certificato SSL personalizzato è stato aggiornato con un Adobe di certificato SSL fornito.
+description: Questo articolo fornisce una soluzione per i casi in cui un certificato SSL personalizzato è stato aggiornato con un certificato SSL fornito dall’Adobe.
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Informazioni sulla scadenza del certificato SSL personalizzato
 
-Questo articolo fornisce una soluzione per i casi in cui un certificato SSL personalizzato è stato aggiornato con un Adobe di certificato SSL fornito.
+Questo articolo fornisce una soluzione per i casi in cui un certificato SSL personalizzato è stato aggiornato con un certificato SSL fornito dall’Adobe.
 
 ## Prodotti e versioni interessati
 
@@ -46,6 +46,6 @@ Se ti trovi in una situazione in cui il tuo SSL personalizzato è stato sostitui
 ## Lettura correlata
 
 * [Certificati SSL (TLS) per il Magento Commerce Cloud: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) nella Knowledge Base di supporto.
-* [Riferimento agli strumenti della riga di comando: magento-cloud certiified:add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) nella documentazione per gli sviluppatori.
-* [Elenco di controllo di Launch](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)nella documentazione per gli sviluppatori.
-* [Accedere allo strumento di analisi per l&#39;intero sito](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) nella guida utente.
+* [Riferimento agli strumenti della riga di comando: magento-cloud certiified:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) nella documentazione per gli sviluppatori.
+* [Elenco di controllo di Launch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)nella documentazione per gli sviluppatori.
+* [Accedere allo strumento di analisi per l&#39;intero sito](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) nella guida utente.

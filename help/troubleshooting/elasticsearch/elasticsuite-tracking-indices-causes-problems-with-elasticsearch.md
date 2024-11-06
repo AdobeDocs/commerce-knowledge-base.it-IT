@@ -2,7 +2,7 @@
 title: Gli indici di tracciamento ElasticSuite causano problemi con gli Elasticsearch
 description: Questo articolo parla del problema dei problemi di memoria Elasticsearch causati dagli indici di tracciamento prodotti dal plug-in ElasticSuite.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -68,5 +68,5 @@ Crea un processo cron per eliminare gli indici di tracciamento. Questo comando e
 
 Se desideri eliminare gli indici con una frequenza temporale impostata, crea un processo cron facendo riferimento ai seguenti articoli nella documentazione per sviluppatori:
 
-* [Configurare un processo cron personalizzato e un gruppo cron (tutorial)](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
-* [Configura processi cron](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
+* [Configurare un processo cron personalizzato e un gruppo cron (tutorial)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [Configura processi cron](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

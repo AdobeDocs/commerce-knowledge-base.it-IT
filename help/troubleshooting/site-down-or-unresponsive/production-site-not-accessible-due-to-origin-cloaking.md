@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per i casi in cui l’ammini
 exl-id: 4412d744-3066-4f78-bc45-8149614ce455
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '216'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Il cloaking dell’origine è una funzione di sicurezza che consente ad Adobe Co
 ## Soluzione
 
 * Se il sito cloud è attivo, passa a https://mydomain.com/.
-* Se disponi di un sito attivo (non cloud) che utilizza il dominio https://mydomain.com/, configura un sottodominio `mcprod.mydomain.com` e aggiorna **URL di base** in *https://mcprod.mydomain.com*, quindi [punta il DNS a Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* Se disponi di un sito attivo (non cloud) che utilizza il dominio https://mydomain.com/, configura un sottodominio `mcprod.mydomain.com` e aggiorna **URL di base** in *https://mcprod.mydomain.com*, quindi [punta il DNS a Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings).
 
 ## Lettura correlata
 

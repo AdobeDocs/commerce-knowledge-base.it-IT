@@ -4,7 +4,7 @@ description: Questo articolo corregge i casi in cui lo stato del prodotto è Dis
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Il problema potrebbe essere dovuto alle restrizioni ACL impostate per i ruoli di
 
 ## Soluzione per uno stato del prodotto errato
 
-Impostare una preferenza ID dinamica per `Magento\Framework\Authorization\PolicyInterface`, come descritto nell&#39;argomento [ObjectManager>Aggiornamenti del prodotto a livello di programmazione](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) nella documentazione per gli sviluppatori.
+Impostare una preferenza ID dinamica per `Magento\Framework\Authorization\PolicyInterface`, come descritto nell&#39;argomento [ObjectManager>Aggiornamenti del prodotto a livello di programmazione](https://developer.adobe.com/commerce/php/development/components/object-manager/) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

@@ -3,7 +3,7 @@ title: Alloca più spazio per MySQL in Adobe Commerce sul cloud
 description: Questo articolo fornisce istruzioni su come allocare più spazio per MySQL in Adobe Commerce sull’infrastruttura cloud.
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-Per ulteriori informazioni, vedere l&#39;articolo [Configurazione del servizio MySQL](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-mysql.html).
+Per ulteriori informazioni, vedere l&#39;articolo [Configurazione del servizio MySQL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql).
 
 Dopo aver modificato il file `.magento/services.yaml`, è necessario eseguire il commit e inviare le modifiche in push per applicarle. Il push attiverà il processo di distribuzione.
 
@@ -33,7 +33,7 @@ Dopo aver modificato il file `.magento/services.yaml`, è necessario eseguire il
 
 ## Allocazione di spazio su produzione o staging piano Pro
 
-Per apportare queste modifiche all&#39;ambiente di gestione temporanea o di produzione del piano Pro, è necessario creare un [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Quando si invia un ticket di supporto per aumentare lo spazio di archiviazione, il supporto dovrà sapere la quantità e la partizione a cui applicare lo spazio di archiviazione (`/mysql` o `/exports`). Una richiesta di aumento dello storage richiede l&#39;approvazione del team dell&#39;account Adobe, che esaminerà la quantità di storage autorizzata (come indicato nel modulo d&#39;ordine) prima dell&#39;approvazione.
+Per apportare queste modifiche all&#39;ambiente di gestione temporanea o di produzione del piano Pro, è necessario creare un [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#merchant-not-displayed). Quando si invia un ticket di supporto per aumentare lo spazio di archiviazione, il supporto dovrà sapere la quantità e la partizione a cui applicare lo spazio di archiviazione (`/mysql` o `/exports`). Una richiesta di aumento dello spazio di archiviazione richiede l’approvazione del team dell’account Adobe, che esaminerà la quantità di archiviazione consentita (come indicato nel modulo d’ordine) prima dell’approvazione.
 
 ## Riduzione dello spazio allocato non disponibile (piano Pro e Starter)
 

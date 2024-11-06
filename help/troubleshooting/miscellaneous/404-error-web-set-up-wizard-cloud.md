@@ -4,7 +4,7 @@ description: Questo articolo fornisce una soluzione per l'errore 404 non trovato
 exl-id: 1b89da58-c872-481b-b2a0-aa48db8223db
 feature: Admin Workspace, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -43,9 +43,9 @@ L&#39;Impostazione guidata Web è stata disabilitata per tutte le istanze di Ado
 
 Questa funzione è disabilitata in Adobe Commerce sull’infrastruttura cloud.
 
-Consulta [Installare, gestire e aggiornare le estensioni](https://devdocs.magento.com/cloud/howtos/install-components.html) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce nell&#39;infrastruttura cloud.
-Consulta [Installazione rapida](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce on-premise.
+Consulta [Installare, gestire e aggiornare le estensioni](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce nell&#39;infrastruttura cloud.
+Consulta [Installazione rapida](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce on-premise.
 
 ## Lettura correlata
 
-* Consulta [Installare un&#39;estensione](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) nella documentazione per gli sviluppatori.
+* Consulta [Installare un&#39;estensione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) nella documentazione per gli sviluppatori.

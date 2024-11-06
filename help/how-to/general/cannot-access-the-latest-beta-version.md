@@ -1,8 +1,8 @@
 ---
 title: Impossibile accedere alla versione più recente di Beta
-description: Questo articolo fornisce soluzioni ai problemi che si verificano quando si tenta di utilizzare le versioni più recenti del codice Beta per Adobe Commerce. Il codice Beta è disponibile solo per i partner Adobi ufficiali che hanno seguito la procedura descritta in [Programma Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
+description: Questo articolo fornisce soluzioni ai problemi che si verificano quando si tenta di utilizzare le versioni più recenti del codice Beta per Adobe Commerce. Il codice Beta è disponibile solo per i partner Adobe ufficiali che hanno seguito il processo descritto in [Programma Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Impossibile accedere alla versione più recente di Beta
 
-Questo articolo fornisce soluzioni ai problemi che si verificano quando si tenta di utilizzare le versioni più recenti del codice Beta per Adobe Commerce. Il codice Beta è disponibile solo per i partner Adobi ufficiali che hanno seguito la procedura descritta in [Programma Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
+Questo articolo fornisce soluzioni ai problemi che si verificano quando si tenta di utilizzare le versioni più recenti del codice Beta per Adobe Commerce. Il codice Beta è disponibile solo per i partner ufficiali di Adobe che hanno seguito la procedura descritta in [Programma Adobe Commerce Beta](https://github.com/magento/magento2/wiki/Magento-Beta-Program).
 
 ## Problema
 
@@ -33,7 +33,7 @@ Queste sono le cause più comuni dei problemi:
 
 ### Posizione codice di accesso anticipato
 
-Durante i periodi di accesso beta, i pacchetti di rilascio sono disponibili solo tramite Composer su [repo.magento.com](https://repo.magento.com/). I pacchetti di rilascio non sono disponibili sui portali GitHub e Adobe Commerce in questo periodo e verranno pubblicati in queste posizioni nella data GA. Per ulteriori dettagli su come utilizzare Composer, fare clic [qui](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html).
+Durante i periodi di accesso beta, i pacchetti di rilascio sono disponibili solo tramite Composer su [repo.magento.com](https://repo.magento.com/). I pacchetti di rilascio non sono disponibili sui portali GitHub e Adobe Commerce in questo periodo e verranno pubblicati in queste posizioni nella data GA. Per ulteriori dettagli su come utilizzare Composer, fare clic [qui](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
 
 ### MageID da utilizzare
 
@@ -60,4 +60,4 @@ Se sei il proprietario MageID principale e devi concedere l’accesso a uno svil
 
 ### Non fa parte del programma di accesso anticipato
 
-Il nostro programma Beta Access è disponibile solo per i nostri partner tecnici e di soluzioni, in modo che possano valutare il nostro codice di preproduzione. Per essere inclusa nel programma Beta Access, la tua organizzazione deve disporre di un account Adobe Partner attivo che sia in buono stato e abbia firmato il NDA di Beta [qui](https://github.com/magento/magento2/wiki/Magento-Beta-Program). Se ritieni di soddisfare questi criteri e di non poter accedere al codice beta, contatta [commercebeta@adobe.com](mailto:commercebeta@adobe.com).
+Il nostro programma Beta Access è disponibile solo per i nostri partner tecnici e di soluzioni, in modo che possano valutare il nostro codice di preproduzione. Per essere inclusa nel programma Beta Access, la tua organizzazione deve disporre di un account partner Adobe attivo che sia in buono stato e abbia firmato il NDA di Beta [qui](https://github.com/magento/magento2/wiki/Magento-Beta-Program). Se ritieni di soddisfare questi criteri e di non poter accedere al codice beta, contatta [commercebeta@adobe.com](mailto:commercebeta@adobe.com).
