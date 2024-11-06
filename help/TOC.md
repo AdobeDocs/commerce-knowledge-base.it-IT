@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 5110233220a6db734be2802b792869759f46b8c0
+source-git-commit: d197baf1644dd734880e6e36d6cf477bad3b1170
 workflow-type: tm+mt
-source-wordcount: '9627'
+source-wordcount: '9597'
 ht-degree: 0%
 
 ---
@@ -631,13 +631,9 @@ ht-degree: 0%
       * [Richiesta di miglioramento dell’ambiente di integrazione - Pro e Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [Richieste di capacità di crescita in vacanza per Adobe Commerce sulla nostra infrastruttura cloud](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Upgrade Compatibility Tool 1.1.0 per Adobe Commerce](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
-      * [Requisiti del certificato SSL/TLS Adobe e pulizia](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)
       * [Domande frequenti sui criteri del ciclo di vita aggiornati per le versioni di Adobe Commerce](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [Passaggio a OpenSearch per Adobe Commerce su Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
-      * [Migrazione degli ambienti di integrazione per la regione UE legacy](/help/announcements/adobe-commerce-announcements/integration-environments-migration-to-new-regions-for-eu-and-us.md)
       * [Adobe Commerce Recommendations per le vulnerabilità PHP](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
-      * [Vulnerabilità di Apache log4j2 in Adobe Commerce](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
-      * [Blackfire rimozione dell’accesso per Adobe Commerce sull’infrastruttura cloud](/help/announcements/adobe-commerce-announcements/blackfire-access-removal-for-magento-commerce-cloud.md)
       * [Rilascio dello strumento Quality Patches: nuovo strumento per rendere autonome le patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
       * [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Accesso ai dati dei clienti e privacy del servizio di assistenza Adobe](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)

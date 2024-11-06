@@ -4,9 +4,9 @@ description: Questo articolo fornisce una correzione per i blocchi da avviare su
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 3dd44b72bc9f02fe808b70355c4331fc28aa3606
+source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,6 @@ Problema: senza un certificato SSL valido e funzionante, non è possibile verifi
 
 Consiglio **:** Richiedi il certificato SSL condiviso per i nomi di dominio di gestione temporanea o Live.
 
-Leggi le informazioni sui certificati SSL in questo articolo [Domande frequenti](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md) nella knowledge base sul supporto.
 
 ## 3. Configurare e testare i reindirizzamenti 301
 
