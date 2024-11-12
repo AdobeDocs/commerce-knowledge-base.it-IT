@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 03dfb2423e5cdb4e7f87e1e1f05a8261f3b4e602
+source-git-commit: 692e665558205301f3b7915ce7eb9f3cf0288aff
 workflow-type: tm+mt
-source-wordcount: '9587'
+source-wordcount: '9579'
 ht-degree: 0%
 
 ---
@@ -965,7 +965,6 @@ ht-degree: 0%
       * [Pacchetti declassati dopo l’aggiornamento da 2.4.4 a 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Il CAPTCHA di Adobe Commerce 2.3.6 e 2.4.1 nel checkout non funziona](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [E-mail ordine inviata dall’indirizzo e-mail del server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Errore Advanced Reporting 404 nella soluzione di database suddiviso](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
       * [Problemi di prestazioni causati da richieste Ajax eccessive](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
       * [Se si rimuove l’entità correlata dall’aggiornamento dello staging, viene eliminata](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
       * [Google Analytics non tiene traccia dei dati di conversione](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
