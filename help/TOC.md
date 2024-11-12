@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: d197baf1644dd734880e6e36d6cf477bad3b1170
+source-git-commit: 03dfb2423e5cdb4e7f87e1e1f05a8261f3b4e602
 workflow-type: tm+mt
-source-wordcount: '9597'
+source-wordcount: '9587'
 ht-degree: 0%
 
 ---
@@ -961,7 +961,6 @@ ht-degree: 0%
       * [L&#39;amministratore non può creare un ordine o riordinarlo quando è abilitato il pagamento Braintree](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [Voci duplicate nella tabella catalogrule dopo la modifica della data di fine di un aggiornamento della pianificazione](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5, 2.3.5-p1 patch: problema di pagamento paese](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-      * [patch di Adobe Commerce 2.4.0: restituisce il problema di creazione dell’etichetta di spedizione](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
       * [&quot;Errore 500&quot; dopo aver fatto doppio clic su Rimuovi collegamento nel carrello](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [Pacchetti declassati dopo l’aggiornamento da 2.4.4 a 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Il CAPTCHA di Adobe Commerce 2.3.6 e 2.4.1 nel checkout non funziona](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
