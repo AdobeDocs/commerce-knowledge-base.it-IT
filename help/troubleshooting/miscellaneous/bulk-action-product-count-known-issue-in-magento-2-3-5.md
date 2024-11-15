@@ -4,9 +4,9 @@ description: Questo articolo descrive un problema noto di Adobe Commerce 2.3.5, 
 exl-id: 3ede15d4-4c39-442a-8784-2d5e6650fe67
 feature: Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,5 @@ Una correzione sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pia
 * Articoli della Knowledge Base di supporto Adobe Commerce per i problemi noti di Adobe Commerce 2.3.5:
    * [Ordini con spedizione multipla con un prodotto virtuale non elaborati correttamente in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
    * [Problema noto relativo al confronto dei prodotti in Adobe Commerce 2.3.5](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
-   * [Problema del metodo di pagamento nazionale in Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.5 e 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
    * [Patch per il problema di pagamento Amazon in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
    * [Problemi noti di Adobe Commerce 2.3.5 nella documentazione per gli sviluppatori](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-5-commerce.html#known-issues)

@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione alternativa per il problema 
 exl-id: a0cca226-4d95-40b3-bd37-f13d28591366
 feature: Checkout, Orders, Storefront
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,6 @@ I clienti possono aggiornare la pagina Ordine e le informazioni contenute nel Ri
 Articoli per problemi noti di Adobe Commerce 2.3.5 nella knowledge base di supporto:
 
 * [Ordini con spedizione multipla con un prodotto virtuale non elaborati correttamente in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
-
-* [Problema del metodo di pagamento nazionale in Adobe Commerce sull’infrastruttura cloud e Adobe Commerce on-premise 2.3.5 e 2.3.5-p1](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-
 
 * [Problema noto relativo al conteggio dei prodotti per azioni in blocco in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 
