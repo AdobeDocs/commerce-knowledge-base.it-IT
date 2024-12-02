@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.2 B2B: lo sconto rimane modifica del metodo di pagamento"
+title: 'Adobe Commerce 2.4.2 B2B: lo sconto rimane la modifica del metodo di pagamento'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 B2B in cui uno sconto legato al metodo di pagamento persiste dopo una modifica del metodo di pagamento al momento del pagamento. Al momento non è disponibile alcuna risoluzione.
 exl-id: cd863852-403b-404f-8717-c78c238f5f33
 feature: B2B, Orders, Payments, Personalization

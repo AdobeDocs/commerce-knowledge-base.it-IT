@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51408: lo stato dell'elemento dell'ordine non è impostato correttamente su [!UICONTROL backordered]"
+title: 'ACSD-51408: lo stato dell''elemento dell''ordine non è impostato correttamente su [!UICONTROL backordered]'
 description: Applicare la patch ACSD-51408 per risolvere il problema Adobe Commerce in cui lo stato dell'elemento dell'ordine non è impostato correttamente su [!UICONTROL backordered].
 feature: B2B, Orders
 role: Admin

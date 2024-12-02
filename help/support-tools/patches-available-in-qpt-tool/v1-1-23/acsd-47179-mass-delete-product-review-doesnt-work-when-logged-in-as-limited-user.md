@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47179: l’eliminazione di massa delle recensioni dei prodotti non funziona se si accede come ruolo utente limitato"
+title: 'ACSD-47179: l’eliminazione di massa delle recensioni dei prodotti non funziona se si accede come ruolo utente limitato'
 description: Applica la patch ACSD-47179 per risolvere il problema di Adobe Commerce, in cui l’eliminazione di massa delle revisioni dei prodotti non funziona quando si accede come ruolo utente limitato.
 exl-id: 85d7ce63-7dd6-4df4-b314-278d18e69fbb
 feature: Marketing Tools, Products, Roles/Permissions

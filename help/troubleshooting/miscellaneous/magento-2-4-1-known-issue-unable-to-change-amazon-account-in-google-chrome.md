@@ -1,5 +1,5 @@
 ---
-title: "Problema Adobe Commerce 2.4.1: impossibile modificare l’account Amazon in Chrome"
+title: 'Problema Adobe Commerce 2.4.1: impossibile modificare l’account Amazon in Chrome'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 in cui i clienti accedono agli account Amazon utilizzati in precedenza invece di essere suggeriti per l’accesso, quando utilizzano Amazon Pay durante il pagamento.
 exl-id: 8acffe99-b3ec-4b45-9434-61b66e963838
 feature: Customer Service

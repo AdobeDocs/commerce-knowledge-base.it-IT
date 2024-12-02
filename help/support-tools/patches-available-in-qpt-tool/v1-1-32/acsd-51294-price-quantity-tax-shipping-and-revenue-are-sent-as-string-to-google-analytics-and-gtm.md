@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51294: prezzo, quantità, imposta, spedizione, ricavi inviati come stringa a [!DNL Google Analytics]  e GTM"
+title: 'ACSD-51294: prezzo, quantità, imposta, spedizione, ricavi inviati come stringa a  [!DNL Google Analytics]  e GTM'
 description: Applica la patch ACSD-51294 per risolvere il problema di Adobe Commerce in cui prezzo, quantità, imposta, spedizione e ricavi vengono inviati come stringa a  [!DNL Google Analytics]  e GTM.
 feature: Orders, Shipping/Delivery, Variables
 role: Admin

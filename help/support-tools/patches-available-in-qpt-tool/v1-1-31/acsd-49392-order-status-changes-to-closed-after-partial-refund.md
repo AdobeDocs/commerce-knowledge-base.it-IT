@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49392: lo stato dell’ordine diventa chiuso dopo un rimborso parziale"
+title: 'ACSD-49392: lo stato dell''ordine viene modificato in chiuso dopo il rimborso parziale'
 description: Applica la patch ACSD-49392 per risolvere il problema Adobe Commerce, in cui lo stato dell’ordine diventa chiuso dopo un rimborso parziale per un prodotto in bundle.
 exl-id: fca6f502-e224-4444-b0d0-f823853c9458
 feature: Orders

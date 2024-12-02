@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Live Search] visualizza i prodotti esauriti indipendentemente dalle impostazioni dello stato delle scorte in admin'
+title: '[!DNL Live Search] mostra i prodotti esauriti indipendentemente dalle impostazioni dello stato delle scorte in admin'
 description: Questo articolo fornisce informazioni sul problema noto in cui la pagina di elenco dei prodotti (PLP) mostra l’errore *Non è possibile trovare prodotti che corrispondono alla selezione* mentre il popover di ricerca restituisce alcuni elementi.
 exl-id: 2a351b83-407c-444a-a761-4932b5b88843
 feature: Admin Workspace, Categories, Orders, Products, Search

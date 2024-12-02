@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53845: problema di timeout della connessione MySQL quando consumer max_messages = 0"
+title: 'ACSD-53845: problema di timeout della connessione MySQL quando consumer max_messages = 0'
 description: Applica la patch ACSD-53845 per risolvere il problema di Adobe Commerce in cui la connessione MySQL scade quando il consumatore "max_messages = 0".
 feature: REST, Configuration
 role: Admin, Developer

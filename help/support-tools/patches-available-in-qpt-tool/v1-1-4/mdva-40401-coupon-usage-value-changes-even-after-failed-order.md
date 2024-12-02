@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40401: il valore di utilizzo del coupon cambia dopo un ordine non riuscito"
+title: 'MDVA-40401: il valore di utilizzo del coupon cambia dopo un ordine non riuscito'
 description: La patch MDVA-40401 risolve il problema relativo alla modifica del valore di utilizzo dei coupon anche dopo un ordine non riuscito. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L'ID della patch è MDVA-40401. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: c497ee84-9c20-4c75-ad3a-3b71f699acbf
 feature: Orders

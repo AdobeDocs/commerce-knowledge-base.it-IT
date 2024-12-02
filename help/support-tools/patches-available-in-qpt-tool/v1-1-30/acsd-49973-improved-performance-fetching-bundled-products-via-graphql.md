@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49973: prestazioni migliorate nel recupero dei prodotti in bundle tramite [!DNL GraphQL]"
+title: 'ACSD-49973: prestazioni migliorate nel recupero dei prodotti in bundle tramite [!DNL GraphQL]'
 description: Applica la patch ACSD-49973 per risolvere il problema di Adobe Commerce in cui si verifica il deterioramento delle prestazioni durante il recupero dei prodotti in bundle tramite [!DNL GraphQL].
 exl-id: 7d7fce0f-40f9-4dec-aee7-1014690ccd7c
 feature: GraphQL, Products

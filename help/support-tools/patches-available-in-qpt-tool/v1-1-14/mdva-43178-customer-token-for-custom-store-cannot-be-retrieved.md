@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43178: impossibile recuperare in GraphQL il token cliente per l'archivio personalizzato"
+title: 'MDVA-43178: impossibile recuperare in GraphQL il token cliente per l''archivio personalizzato'
 description: La patch MDVA-43178 risolve il problema che impediva il recupero in GraphQL del token cliente per un archivio personalizzato. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14. L'ID della patch è MDVA-43178. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: b2a8bf96-7534-41d2-b83b-58d8e0b6d076
 feature: GraphQL

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53658: **[!UICONTROL Recently Viewed Product]** dati non aggiornati correttamente nella visualizzazione archivio"
+title: 'ACSD-53658: **[!UICONTROL Recently Viewed Product]** dati non aggiornati correttamente nella visualizzazione archivio'
 description: Applicare la patch ACSD-53658 per risolvere il problema di Adobe Commerce per cui i dati **[!UICONTROL Recently Viewed Product]** non vengono aggiornati correttamente nella visualizzazione archivio.
 feature: CMS, Personalization
 role: Admin, Developer

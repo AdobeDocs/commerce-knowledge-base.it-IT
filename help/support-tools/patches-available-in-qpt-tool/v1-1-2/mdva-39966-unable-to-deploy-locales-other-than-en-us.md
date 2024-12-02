@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39966: impossibile distribuire impostazioni internazionali diverse da en_US"
+title: 'MDVA-39966: impossibile distribuire impostazioni locali diverse da en_US'
 description: La patch MDVA-39966 risolve il problema se l'utente non è in grado di distribuire impostazioni internazionali diverse da en_US. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-39966. Il problema è stato risolto nella versione 2.4.1 di Adobe Commerce.
 exl-id: fc0f5ef4-f6be-4f0d-af8d-803b411510a9
 feature: Deploy

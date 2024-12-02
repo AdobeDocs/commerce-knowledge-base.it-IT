@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-37115: sulla pagina del prodotto viene visualizzato un avviso di "solo 0"'
+title: 'MDVA-37115: sulla pagina del prodotto viene visualizzato un avviso di "solo 0"'
 description: La patch MDVA-37115 risolve il problema se nella pagina del prodotto configurabile viene visualizzato l'avviso non necessario *Solo 0 sinistra*. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-37115. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: 08aa6ac7-13ae-44c1-9db4-d449c3d8c985
 feature: Configuration, Products, Orders

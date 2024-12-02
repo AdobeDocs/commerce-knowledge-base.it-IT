@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51471: l’utente amministratore non può salvare l’aggiornamento pianificato per il prodotto in bundle"
+title: 'ACSD-51471: l’utente amministratore non può salvare l’aggiornamento pianificato per il prodotto in bundle'
 description: Applica la patch ACSD-51471 per risolvere il problema di Adobe Commerce, a causa del quale un utente amministratore non può salvare un aggiornamento pianificato per un prodotto in bundle che utilizza un prodotto semplice con un aggiornamento pianificato.
 exl-id: 7d80aef0-8505-4491-bde3-5b1a30b840f6
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

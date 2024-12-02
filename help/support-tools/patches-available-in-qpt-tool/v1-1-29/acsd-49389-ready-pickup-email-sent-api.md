@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49389: messaggio e-mail pronto per il prelievo inviato dall’API quando non è pronto per il prelievo"
+title: 'ACSD-49389: e-mail pronta per il prelievo inviata dall’API quando non è pronta per il prelievo'
 description: Applica la patch ACSD-49389 per risolvere il problema di Adobe Commerce, a causa del quale l’API invia un’e-mail pronta per il prelievo quando l’ordine non è pronto per il prelievo.
 exl-id: a1baae06-cf36-448b-bda4-aff1e5ca68db
 feature: REST, Communications
@@ -43,7 +43,7 @@ Quando l’ordine non è pronto per il prelievo, l’API invia un’e-mail pront
 1. Controllare il prodotto creato al passaggio 4 utilizzando il metodo *[!UICONTROL In-Store Delivery]* dalla vetrina.
 1. Creare una fattura per l&#39;ordine.
 1. Impostare la quantità del prodotto su *0* e renderlo esaurito.
-1. Post la seguente richiesta API:
+1. Pubblica la seguente richiesta API:
 
 ```
 {

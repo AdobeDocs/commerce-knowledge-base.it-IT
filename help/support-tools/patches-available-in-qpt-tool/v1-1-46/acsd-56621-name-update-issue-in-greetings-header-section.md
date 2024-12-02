@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56621: i nomi aggiornati non vengono visualizzati nell’intestazione dei saluti per l’utente amministratore della società"
+title: 'ACSD-56621: i nomi aggiornati non vengono visualizzati nell’intestazione dei saluti per l’utente amministratore della società'
 description: Applica la patch ACSD-56621 per risolvere il problema di Adobe Commerce, per cui il nome e il cognome aggiornati dell’utente amministratore della società non vengono riportati nella sezione dell’intestazione dei saluti.
 feature: Companies, B2B, User Account
 role: Admin, Developer

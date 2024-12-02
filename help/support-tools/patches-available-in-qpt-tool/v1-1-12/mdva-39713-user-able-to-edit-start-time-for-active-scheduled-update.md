@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39713: l'utente può modificare l'ora di inizio dell'aggiornamento pianificato attivo"
+title: 'MDVA-39713: l''utente può modificare l''ora di inizio dell''aggiornamento pianificato attivo'
 description: La patch MDVA-39713 risolve il problema che consente all'utente di modificare l'ora di inizio di un aggiornamento pianificato attivo. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-39713. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: c7221fdb-5fc0-4179-8d4c-c9e1f0d00692
 feature: CMS

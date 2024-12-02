@@ -1,6 +1,6 @@
 ---
 title: La distribuzione non riesce La versione di Adobe Commerce non compatibile con il modulo Fastly
-description: "AGGIORNATO IL 29 FEBBRAIO 2019"
+description: AGGIORNATO IL 29 FEBBRAIO 2019
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer

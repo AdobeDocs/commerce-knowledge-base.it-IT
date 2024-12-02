@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema noto: accesso dotdigital"
+title: 'Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema noto: accesso dotdigital'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.3.6, 2.4.0-p1 e 2.4.1 per il quale è impossibile accedere a [dotdigital](https://dotdigital.com/) tramite il pannello di amministrazione quando l’account dotdigital è abilitato.
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration

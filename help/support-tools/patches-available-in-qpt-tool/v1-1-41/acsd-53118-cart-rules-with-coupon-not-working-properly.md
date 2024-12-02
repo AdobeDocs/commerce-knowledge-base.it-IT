@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53118: le regole del carrello con il coupon non funzionano correttamente"
+title: 'ACSD-53118: le regole del carrello con il coupon non funzionano correttamente'
 description: Applica la patch ACSD-53118 per risolvere il problema Adobe Commerce in cui la regola del prezzo del carrello viene applicata utilizzando un codice coupon mentre il prodotto nel carrello ha un attributo corrispondente vuoto.
 feature: Shopping Cart, Price Rules
 role: Admin, Developer

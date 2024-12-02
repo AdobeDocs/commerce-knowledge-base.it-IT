@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51305: prodotti secondari compositi esauriti non disponibili nella risposta GraphQL"
+title: 'ACSD-51305: prodotti secondari compositi esauriti non disponibili nella risposta GraphQL'
 description: Applica la patch ACSD-51305 per risolvere il problema di Adobe Commerce per cui i prodotti secondari compositi esauriti non sono disponibili nella risposta di GraphQL.
 exl-id: 0f33eb62-dfd3-4d07-b095-9ee6e9983c4d
 feature: Categories, GraphQL, Orders, Products

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48293: prodotti compositi esauriti quando i prodotti per bambini sono esauriti dopo il ripopolamento"
+title: 'ACSD-48293: prodotti compositi esauriti quando sono esauriti i prodotti per bambini riassortiti'
 description: Applicare la patch ACSD-48293 per risolvere il problema Adobe Commerce relativo all'esaurimento delle scorte dei prodotti compositi quando i prodotti secondari esauriti vengono restituiti alle scorte.
 exl-id: 74ca34fe-e015-4daf-a608-4756c8ab3558
 feature: Admin Workspace, Orders, Products

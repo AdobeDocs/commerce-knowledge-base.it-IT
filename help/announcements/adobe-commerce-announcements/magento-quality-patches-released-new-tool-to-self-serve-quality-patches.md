@@ -1,5 +1,5 @@
 ---
-title: "Rilascio dello strumento Quality Patches: nuovo strumento per rendere autonome le patch di qualità"
+title: 'Rilascio dello strumento Quality Patches: nuovo strumento per rendere autonome le patch di qualità'
 description: Adobe ha rilasciato lo strumento Quality Patches (Patch di qualità) per la disponibilità generale, uno strumento che consente di applicare, ripristinare e visualizzare informazioni generali sulle patch di qualità disponibili per la versione installata di Adobe Commerce (sia on-premise che sull’infrastruttura cloud) o per il Magento Open Source.
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services

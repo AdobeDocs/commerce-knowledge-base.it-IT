@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51528: diversi comportamenti nella formattazione snake_case"
+title: 'ACSD-51528: diversi comportamenti nella formattazione di snake_case'
 description: Applica la patch ACSD-51528 per risolvere il problema Adobe Commerce, in presenza di comportamenti diversi nella formattazione di snake_case.
 exl-id: dd878321-8032-41f3-8dcd-acb0cc023b44
 feature: Variables

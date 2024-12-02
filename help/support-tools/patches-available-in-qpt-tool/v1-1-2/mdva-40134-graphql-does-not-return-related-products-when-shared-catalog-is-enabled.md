@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40134: GraphQL non restituisce prodotti correlati quando è abilitato il catalogo condiviso"
+title: 'MDVA-40134: GraphQL non restituisce prodotti correlati quando è abilitato il catalogo condiviso'
 description: La patch MDVA-40134 risolve il problema per cui GraphQL non restituisce prodotti correlati quando il catalogo condiviso è abilitato. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-40134. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: 7b14355a-1c14-4c80-9426-6c40505d638b
 feature: B2B, Catalog Management, GraphQL, Products

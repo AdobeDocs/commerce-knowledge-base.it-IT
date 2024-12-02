@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49748: impossibile inviare gli inviti e-mail"
+title: 'ACSD-49748: impossibile inviare gli inviti e-mail'
 description: Applica la patch ACSD-49748 per risolvere il problema di Adobe Commerce che impedisce agli utenti di inviare inviti e-mail.
 exl-id: 65de8ea9-e65c-463b-8cba-d35767d4343d
 feature: Admin Workspace, Communications, Marketing Tools

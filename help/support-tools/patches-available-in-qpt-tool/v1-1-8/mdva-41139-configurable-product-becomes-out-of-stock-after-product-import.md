@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41139: prodotto configurabile esaurito dopo l’importazione del prodotto"
+title: 'MDVA-41139: prodotto configurabile esaurito dopo l''importazione del prodotto'
 description: La patch MDVA-41139 risolve il problema che causa l'esaurimento delle scorte del prodotto configurabile dopo l'importazione quando la quantità del prodotto semplice = 0 per una delle sue origini. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8. L'ID della patch è MDVA-41139. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: e90ab578-50b9-4bc4-baf9-de4182e700ae
 feature: Data Import/Export, Configuration, Orders, Products

@@ -1,6 +1,6 @@
 ---
 title: Impossibile caricare il sito a causa della modalità di manutenzione rimasta abilitata
-description: "Questo articolo corregge il mancato caricamento del sito a causa della mancata attivazione o disattivazione automatica della modalità di manutenzione. Potresti ricevere un messaggio di errore: *Servizio temporaneamente non disponibile Il server non è al momento in grado di soddisfare la richiesta a causa di tempi di inattività della manutenzione o problemi di capacità.*"
+description: 'Questo articolo corregge i casi in cui il sito non viene caricato a causa di una modalità di manutenzione che viene lasciata attivata o non disabilitata automaticamente. Potresti ricevere un messaggio di errore: *Servizio temporaneamente non disponibile Il server non è al momento in grado di soddisfare la richiesta a causa di tempi di inattività della manutenzione o problemi di capacità.*'
 exl-id: 77e01588-e135-4d24-a0c4-1a6ee123f4a8
 feature: Support
 role: Developer

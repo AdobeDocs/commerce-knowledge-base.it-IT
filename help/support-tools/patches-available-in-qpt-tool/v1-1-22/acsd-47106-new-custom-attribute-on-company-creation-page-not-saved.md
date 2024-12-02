@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47106: impossibile salvare il nuovo attributo personalizzato nella pagina di creazione della società"
+title: 'ACSD-47106: nuovo attributo personalizzato non salvato nella pagina di creazione della società'
 description: Applica la patch ACSD-47106 per risolvere il problema di Adobe Commerce, per cui un valore non può essere salvato in un nuovo attributo personalizzato nella pagina di creazione di una società.
 exl-id: 941d6d8f-36eb-4b50-980f-e4afe6bf33df
 feature: Attributes, B2B, Companies

@@ -1,6 +1,6 @@
 ---
 title: Configurare NPM per l'utilizzo di PWA Studio
-description: '''[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studio, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nella sezione "hooks:build" del file di configurazione `.magento.app.yaml`.’'
+description: '[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studio, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nella sezione "hooks:build" del file di configurazione `.magento.app.yaml`.'
 exl-id: 3854fc94-e8ad-45d8-bf3e-73462364220d
 source-git-commit: 37ac9cca1f876a48092467aa38f2f2f013c83dd9
 workflow-type: tm+mt

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56616: visualizzazione in vetrina dei prodotti in bundle durante una semplice carenza di scorte"
+title: 'ACSD-56616: visualizzazione in vetrina dei prodotti in bundle durante una semplice carenza di scorte'
 description: Applica la patch ACSD-56616 per risolvere il problema di Adobe Commerce, in cui i prodotti in bundle vengono visualizzati in modo imprevisto sulla vetrina quando tutti i prodotti semplici associati sono esauriti.
 feature: Products
 role: Admin, Developer

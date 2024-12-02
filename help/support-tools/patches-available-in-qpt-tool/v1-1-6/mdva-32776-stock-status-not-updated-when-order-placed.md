@@ -1,5 +1,5 @@
 ---
-title: "MDVA-32776: stato del magazzino non aggiornato con il posizionamento dell'ordine"
+title: 'MDVA-32776: lo stato del magazzino non viene aggiornato con l''inserimento dell''ordine'
 description: La patch MDVA-32776 risolve il problema che causa l'aggiornamento dello stato delle scorte quando un ordine viene effettuato ma non spedito. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L'ID della patch è MDVA-32776. Il problema è stato risolto in Adobe Commerce 2.4.2.
 exl-id: 10e9458f-562a-480b-b813-104a93db4308
 feature: Orders

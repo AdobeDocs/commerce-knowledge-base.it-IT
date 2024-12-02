@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39153: l'importo dello sconto non viene calcolato correttamente durante il riordino in Admin"
+title: 'MDVA-39153: l''importo dello sconto non viene calcolato correttamente durante il riordino in Admin'
 description: La patch MDVA-39153 risolve il problema relativo al calcolo errato dell'importo dello sconto durante il riordino in Admin. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8. L'ID della patch è MDVA-39153. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: d4d11bea-a528-4eb5-8a57-8a7330975e4a
 feature: Admin Workspace, Orders, Personalization, Payments

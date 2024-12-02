@@ -1,5 +1,5 @@
 ---
-title: "Avvisi gestiti per Adobe Commerce: avviso CPU"
+title: 'Avvisi gestiti per Adobe Commerce: avviso CPU'
 description: Questo articolo fornisce i passaggi per la risoluzione dei problemi quando si riceve un avviso di avviso della CPU per Adobe Commerce in New Relic. È necessaria un'azione immediata per risolvere il problema. L’avviso avrà un aspetto simile al seguente, a seconda del canale di notifica dell’avviso selezionato.
 exl-id: 03686684-3b7e-430a-a05a-a96f38345322
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

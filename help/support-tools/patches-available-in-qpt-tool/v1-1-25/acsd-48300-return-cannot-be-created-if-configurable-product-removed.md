@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48300: impossibile creare il reso se il prodotto configurabile viene rimosso"
+title: 'ACSD-48300: impossibile creare la restituzione se il prodotto configurabile viene rimosso'
 description: Applica la patch ACSD-48300 per risolvere il problema di Adobe Commerce, per il quale non è possibile creare una restituzione se il prodotto configurabile viene rimosso.
 exl-id: 4abbc398-b341-4ff6-9483-9cf8f3dbbfbb
 feature: Admin Workspace, Configuration, Orders, Products, Returns

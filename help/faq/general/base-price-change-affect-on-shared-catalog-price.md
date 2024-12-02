@@ -1,6 +1,6 @@
 ---
 title: Modifica del prezzo di base influisce sul prezzo di catalogo condiviso
-description: "Questo articolo risponde alla domanda: se un prodotto in un catalogo condiviso ha un prezzo personalizzato e il prezzo di base del prodotto cambia (ad esempio dopo un aggiornamento pianificato), quale prezzo si applica nel catalogo condiviso?"
+description: 'Questo articolo risponde alla domanda: se un prodotto in un catalogo condiviso ha un prezzo personalizzato e il prezzo di base del prodotto cambia (ad esempio dopo un aggiornamento pianificato), quale prezzo si applica nel catalogo condiviso?'
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
 source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0

@@ -1,5 +1,5 @@
 ---
-title: '"PWA Studi: nel browser viene visualizzato l’errore "Impossibile eseguire il proxy su"'
+title: 'PWA Studio: nel browser viene visualizzato l’errore "Impossibile eseguire il proxy su"'
 description: Questo argomento descrive una soluzione quando il browser Web visualizza un "*Impossibile eseguire il proxy a*" e la console visualizza un
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console

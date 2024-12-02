@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48362: viene utilizzato l’indirizzo di spedizione predefinito anziché uno nuovo."
+title: 'ACSD-48362: viene utilizzato l’indirizzo di spedizione predefinito anziché uno nuovo.'
 description: Applicare la patch ACSD-48362 per risolvere il problema Adobe Commerce in cui viene utilizzato l'indirizzo di spedizione predefinito anziché uno nuovo quando si effettua un ordine utilizzando un preventivo negoziabile.
 exl-id: 52f518b6-6f73-42cc-ac1b-c893cd5007fa
 feature: Admin Workspace, B2B, Orders, Shipping/Delivery

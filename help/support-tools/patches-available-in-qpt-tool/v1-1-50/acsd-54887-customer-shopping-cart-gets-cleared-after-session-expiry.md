@@ -1,15 +1,15 @@
 ---
-title: "ACSD-54887: il carrello acquisti del cliente viene cancellato dopo la scadenza della sessione del cliente"
+title: 'ACSD-54887: il carrello acquisti del cliente viene cancellato dopo la scadenza della sessione del cliente'
 description: Applica la patch ACSD-54887 per risolvere il problema di Adobe Commerce per cui il carrello acquisti cliente viene cancellato dopo la scadenza della sessione cliente con [!UICONTROL Persistent Shopping Cart] abilitato.
 feature: Shopping Cart
 role: Admin, Developer
-source-git-commit: fd73d89e8d60f6a4ab2ff5ba08df385adbd3faaa
+exl-id: 81e0a20e-0c68-420e-b14e-3f331249c8d9
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-54887: il carrello acquisti del cliente viene cancellato dopo la scadenza della sessione del cliente
 
@@ -70,4 +70,3 @@ Per ulteriori informazioni su [!DNL Quality Patches Tool], vedere:
 * [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando  [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
 Per informazioni sulle altre patch disponibili in QPT, fare riferimento a [[!DNL Quality Patches Tool]: Cercare le patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella guida di [!DNL Quality Patches Tool].
-

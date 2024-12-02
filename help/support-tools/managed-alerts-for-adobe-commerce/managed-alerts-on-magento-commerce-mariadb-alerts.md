@@ -1,6 +1,6 @@
 ---
-title: "Avvisi gestiti su Adobe Commerce: avvisi MariaDB"
-description: "In questo articolo vengono illustrati i passaggi per la risoluzione dei problemi quando si ricevono gli avvisi MariaDB per Adobe Commerce in New Relic. Gli avvisi MariaDB monitorano il caricamento elevato delle query e le query DML (Data Manipulation Language) eccessive. Entrambe possono comportare una riduzione dell’esperienza utente o addirittura tempi di inattività. Puoi ricevere quattro tipi di avvisi:"
+title: 'Avvisi gestiti su Adobe Commerce: avvisi MariaDB'
+description: 'Questo articolo fornisce i passaggi per la risoluzione dei problemi quando si ricevono gli avvisi MariaDB per Adobe Commerce in New Relic. Gli avvisi MariaDB monitorano il caricamento elevato delle query e le query DML (Data Manipulation Language) eccessive. Entrambe possono comportare una riduzione dell’esperienza utente o addirittura tempi di inattività. Puoi ricevere quattro tipi di avvisi:'
 exl-id: 707e20e0-faba-4bcd-884c-b54568787442
 feature: Cache, Observability, Support, Tools and External Services
 role: Admin

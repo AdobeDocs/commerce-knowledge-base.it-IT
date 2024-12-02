@@ -1,5 +1,5 @@
 ---
-title: "49843 ACSD: collegamento di download del prodotto non disponibile dopo la fatturazione automatica con [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]"
+title: '49843 ACSD: collegamento per il download del prodotto non disponibile dopo la fatturazione automatica con [!UICONTROL Payment Action] = [!UICONTROL Intent Sale]'
 description: Applicare la patch ACSD-49843 per risolvere il problema di Adobe Commerce in cui il collegamento di download del prodotto non è disponibile dopo la fatturazione automatica dell'articolo ordinato tramite un metodo di pagamento online quando [!UICONTROL Payment Action] è impostato su [!UICONTROL Intent Sale].
 feature: Catalog Management, Configuration, Invoices, Orders, Storefront
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: '[!DNL ACSD-47280]: la disattivazione del catalogo condiviso genera risultati di ricerca prodotti errati'
+title: '[!DNL ACSD-47280]: la disabilitazione del catalogo condiviso fornisce risultati di ricerca del prodotto errati'
 description: Applica la patch  [!DNL ACSD-47280]  per correggere la visualizzazione dei risultati di ricerca corretti quando la funzionalità di catalogo condiviso è disabilitata.
 exl-id: 98bbae42-fd68-4b54-823d-189d742cc35f
 source-git-commit: 975f5b5c95ad488128a5dbb3488b8d54f7b73b59

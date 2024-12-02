@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40175: pulsanti di scelta non visualizzati durante il riordino"
+title: 'MDVA-40175: pulsanti di scelta non visualizzati durante il riordino'
 description: La patch di MDVA-40175 risolve il problema relativo alla mancata visualizzazione dei pulsanti di scelta quando gli utenti tentano di riordinare il sistema. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10. L'ID della patch è MDVA-40175. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: 307c450d-9f53-40b7-b2f5-d867850c043a
 feature: Admin Workspace, Orders

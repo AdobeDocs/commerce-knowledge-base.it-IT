@@ -1,5 +1,5 @@
 ---
-title: "MDVA-31763: le regole dei prezzi del catalogo vengono ripristinate fino alla reindicizzazione manuale"
+title: 'MDVA-31763: le regole dei prezzi del catalogo vengono ripristinate fino alla reindicizzazione manuale'
 description: La patch di MDVA-31763 risolve il problema del ripristino delle regole dei prezzi di catalogo fino alla reindicizzazione manuale. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5. L'ID della patch è MDVA-31763. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: eb2dfd1a-6d12-4676-82c1-bf92c6fa9fda
 feature: Catalog Management, Orders, Price Rules

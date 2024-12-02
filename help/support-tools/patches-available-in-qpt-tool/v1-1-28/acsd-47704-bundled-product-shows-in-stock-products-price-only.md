@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47704: il pacchetto di prodotti mostra il prezzo dei soli prodotti in magazzino"
+title: 'ACSD-47704: il pacchetto di prodotti mostra il prezzo dei soli prodotti in magazzino'
 description: Applica la patch ACSD-47704 per risolvere il problema Adobe Commerce, in cui un prodotto in bundle mostra il prezzo dei soli prodotti in stock.
 exl-id: 91fbeaf7-4bc2-49b1-a561-c3e63f193eaa
 feature: Admin Workspace, Customer Service, Orders, Products

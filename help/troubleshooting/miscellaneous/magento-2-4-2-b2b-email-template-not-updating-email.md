@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.2 B2B: il modello e-mail non aggiorna l’e-mail"
+title: 'Adobe Commerce 2.4.2 B2B: il modello e-mail non aggiorna l’e-mail'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 B2B in cui l’aggiornamento di alcune informazioni in un modello e-mail non viene aggiornato nelle e-mail. Questo problema influisce sui contenuti e-mail come informazioni sul cliente, tassi di valuta, simbolo di valuta, modifica del modello e-mail, ecc. Al momento non è disponibile una soluzione, ma nella parte inferiore di questo articolo è disponibile una soluzione alternativa.
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications

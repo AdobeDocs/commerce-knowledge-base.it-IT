@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55004: la convalida si blocca durante il caricamento di un file di importazione di dimensioni superiori al valore"
+title: 'ACSD-55004: la convalida si blocca durante il caricamento di un file di importazione di dimensioni superiori al valore'
 description: Applica la patch ACSD-55004 per risolvere il problema di Adobe Commerce in cui si verifica un arresto anomalo della convalida durante il caricamento di un file di importazione più grande del valore configurato in "php.ini".
 feature: Data Import/Export
 role: Admin, Developer

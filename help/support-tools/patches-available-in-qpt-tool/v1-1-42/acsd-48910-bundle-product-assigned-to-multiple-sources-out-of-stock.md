@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48910: il prodotto in bundle assegnato a più origini esaurirà le scorte dopo la fatturazione e la spedizione"
+title: 'ACSD-48910: il prodotto in bundle assegnato a più origini esaurisce dopo la fatturazione e la spedizione'
 description: Applicare la patch ACSD-48910 per risolvere il problema di Adobe Commerce, in cui il prodotto in bundle assegnato a più origini esaurisce le scorte dopo che un ordine è stato fatturato e spedito, anche se presenta ancora una quantità diversa da zero.
 feature: Products, Inventory
 role: Admin, Developer

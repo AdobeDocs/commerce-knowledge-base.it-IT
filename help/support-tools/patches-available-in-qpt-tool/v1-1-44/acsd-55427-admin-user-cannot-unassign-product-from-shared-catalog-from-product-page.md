@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55427: un amministratore non può annullare l'assegnazione di un prodotto da **[!UICONTROL Product in Shared Catalogs]** nella pagina del prodotto"
+title: 'ACSD-55427: un amministratore non può annullare l''assegnazione di un prodotto da **[!UICONTROL Product in Shared Catalogs]** nella pagina del prodotto'
 description: Applicare la patch ACSD-55427 per risolvere il problema di Adobe Commerce che impedisce l'annullamento dell'assegnazione di un prodotto da **[!UICONTROL Product in Shared Catalogs]**.
 feature: Products, B2B
 role: Admin, Developer

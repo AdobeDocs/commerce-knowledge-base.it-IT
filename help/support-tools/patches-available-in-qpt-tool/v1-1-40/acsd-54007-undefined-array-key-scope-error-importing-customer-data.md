@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54007: errore di _ambito chiave di array non definito durante l’importazione dei dati del cliente"
+title: 'ACSD-54007: errore di _ambito chiave di array non definito durante l’importazione dei dati del cliente'
 description: Applica la patch ACSD-54007 per risolvere il problema di Adobe Commerce, se durante l’importazione dei dati dei clienti viene visualizzato un errore di _ambito chiave array non definita.
 feature: Data Import/Export
 role: Admin, Developer

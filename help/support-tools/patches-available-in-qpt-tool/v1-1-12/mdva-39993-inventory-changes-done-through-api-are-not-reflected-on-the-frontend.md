@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39993: le modifiche dell’inventario eseguite tramite API non vengono riportate nella vetrina"
+title: 'MDVA-39993: le modifiche dell''inventario eseguite tramite API non vengono riportate nella vetrina'
 description: La patch MDVA-39993 risolve il problema che impedisce che le modifiche di inventario eseguite tramite API vengano riportate nella vetrina. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-39993. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 2d49b9b7-8a70-44f3-80bf-4460bb2e61d5
 feature: REST, Inventory, Orders, Storefront

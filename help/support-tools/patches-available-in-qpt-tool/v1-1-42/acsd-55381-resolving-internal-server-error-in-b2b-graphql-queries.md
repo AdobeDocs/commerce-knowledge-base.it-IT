@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55381: errore di risoluzione durante la richiesta di UID di opzioni di prodotto configurabili dall’elenco delle richieste B2B"
+title: 'ACSD-55381: errore risolutivo durante la richiesta di UID di opzioni di prodotto configurabili dall’elenco di richieste B2B'
 description: Applica la patch ACSD-55381 per risolvere il problema di Adobe Commerce in cui si verifica un errore interno del server durante le query GraphQL per i campi "configurable_product_option_uid" e "configurable_product_option_value_uid" da un elenco di richieste B2B.
 feature: GraphQL, B2B, Products
 role: Admin, Developer

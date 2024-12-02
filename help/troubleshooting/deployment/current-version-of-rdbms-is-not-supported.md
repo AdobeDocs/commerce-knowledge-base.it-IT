@@ -1,6 +1,6 @@
 ---
 title: Errore "Versione corrente di RDBMS non supportata" durante la distribuzione
-description: "Questo articolo fornisce una soluzione per i casi in cui una distribuzione non riesce e si verifica il seguente errore nel registro di distribuzione: *la versione corrente di RDBMS non è supportata*."
+description: 'Questo articolo fornisce una soluzione per i casi in cui una distribuzione non riesce e si verifica il seguente errore nel registro di distribuzione: *la versione corrente di RDBMS non è supportata*.'
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer

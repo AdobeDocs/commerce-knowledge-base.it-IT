@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50478: problema JS per l’azione di rollback nella griglia dei backup e nel comando di rollback del database"
+title: 'ACSD-50478: problema JS per l’azione di rollback nella griglia dei backup e nel comando di rollback del database'
 description: Applica la patch ACSD-50478 per risolvere il problema JS per l’azione di rollback nella griglia dei backup e il comando di rollback del database per un caso in cui il dump del database contiene trigger e un comando SQL *delimiter*.
 exl-id: 8b516705-29be-462e-b3ec-3a339b6e8006
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

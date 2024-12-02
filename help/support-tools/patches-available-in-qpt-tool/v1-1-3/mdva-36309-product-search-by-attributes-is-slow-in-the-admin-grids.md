@@ -1,5 +1,5 @@
 ---
-title: "MDVA-36309: la ricerca di prodotti per attributi nelle griglie di amministrazione è lenta"
+title: 'MDVA-36309: la ricerca di prodotti per attributi è lenta nelle griglie di amministrazione'
 description: La patch MDVA-36309 risolve il problema relativo al rallentamento della ricerca di prodotti per attributi nelle griglie di amministrazione. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3. L'ID della patch è MDVA-36309. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: 5e6b426b-201d-44a2-8c03-8ed5de8ed203
 feature: Admin Workspace, Attributes, Products, Search

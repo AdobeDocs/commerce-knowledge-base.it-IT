@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43491: l'etichetta dell'immagine di base non viene aggiornata quando viene importata tramite CSV"
+title: 'MDVA-43491: l''etichetta dell''immagine di base non viene aggiornata se importata tramite CSV'
 description: La patch MDVA-43491 risolve il problema per cui la "base_image_label" non viene aggiornata quando viene importata tramite un file CSV per un sito web multi-store. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L'ID della patch è MDVA-43491. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: d744423a-f582-4410-8d66-861229cce1b5
 feature: Data Import/Export

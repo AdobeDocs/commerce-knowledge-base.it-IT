@@ -1,6 +1,6 @@
 ---
 title: Bootstrap Adobe Commerce 2 in uno script sandbox
-description: "Per inizializzare un’applicazione Adobe Commerce 2 in uno script sandbox di esempio, esegui lo script seguente dalla directory principale di Adobe Commerce:"
+description: 'Per inizializzare un’applicazione Adobe Commerce 2 in uno script sandbox di esempio, esegui lo script seguente dalla directory principale di Adobe Commerce:'
 exl-id: a6acb30a-5175-42c6-8de3-e80c9ae8dac1
 source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
 workflow-type: tm+mt

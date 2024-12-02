@@ -1,5 +1,5 @@
 ---
-title: "Posizioni di registro (directory) per il piano Pro: integrazione, gestione temporanea, produzione"
+title: 'Posizioni di registro (directory) per il piano Pro: integrazione, gestione temporanea, produzione'
 description: Consulta [Visualizzare e gestire i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) nella *Commerce on Cloud Infrastructure Guide* per scoprire dove trovare i registri di build, implementazione, applicazione e servizio per il progetto.
 exl-id: daa79b73-68c2-4c89-bf5e-51c105762774
 feature: Integration, Logs

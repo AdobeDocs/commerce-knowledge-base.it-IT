@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48164: l’amministratore con restrizioni non può salvare il valore a livello di sito web"
+title: 'ACSD-48164: l’amministratore con restrizioni non può salvare un valore a livello di sito web'
 description: Applica la patch ACSD-48164 per risolvere il problema di Adobe Commerce, a causa del quale un amministratore con restrizioni non può salvare un valore a livello di sito web.
 exl-id: 6ec15163-ad30-4566-a46c-5756bfd9f8d4
 feature: Admin Workspace

@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.4: impossibile creare fatture parziali"
+title: 'Adobe Commerce 2.4.4: impossibile creare fatture parziali'
 description: Questo articolo fornisce un hotfix per il problema che impedisce agli utenti di creare fatture parziali quando si utilizzano Apple Pay o Google Pay tramite Braintree come metodi di pagamento.
 exl-id: bf78cc07-9dc7-4eb8-bfdf-57ea5131effb
 feature: Invoices, Orders, Payments
@@ -53,4 +53,4 @@ Per risolvere il problema, applica la seguente patch:
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

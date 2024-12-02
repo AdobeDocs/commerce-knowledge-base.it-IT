@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce sull’infrastruttura cloud: calcolo dell’allocazione della CPU"
+title: 'Adobe Commerce sull’infrastruttura cloud: calcolo dell’allocazione della CPU'
 promoted: true
 description: L'articolo allegato fornisce linee guida dettagliate sulle metriche da utilizzare quando si prendono decisioni sull'allocazione della CPU e su come calcolarle.
 exl-id: 2fe93b96-f975-4ac6-81d2-e24002ce69db

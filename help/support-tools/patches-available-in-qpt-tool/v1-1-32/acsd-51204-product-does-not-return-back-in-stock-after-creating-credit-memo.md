@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51204: il prodotto non torna in magazzino dopo la creazione della nota di credito"
+title: 'ACSD-51204: il prodotto non torna in magazzino dopo la creazione della nota di credito'
 description: Applicare la patch ACSD-51204 per risolvere il problema di Adobe Commerce, in cui il prodotto non ritorna in magazzino dopo la creazione della nota di credito.
 feature: Orders, Products, Returns
 role: Admin

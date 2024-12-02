@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41136: la data di scadenza di mage-cache-sessid non è estesa"
+title: 'MDVA-41136: la data di scadenza di mage-cache-sessid non è estesa'
 description: La patch MDVA-41136 risolve il problema per cui la data di scadenza del cookie "mage-cache-sessid" non viene estesa, causando la pulizia dei dati del cliente. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-41136. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 7673d084-1ed2-4f1d-8525-e665b971baf2
 feature: Cache

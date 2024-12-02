@@ -1,6 +1,6 @@
 ---
 title: Errore durante l’eliminazione della cache Fastly nel cloud (richiesta di eliminazione non elaborata correttamente)
-description: "Questo articolo corregge il problema che si verifica quando si utilizza un’opzione di eliminazione Fastly e viene visualizzato il messaggio di errore: *La richiesta di eliminazione non è stata elaborata correttamente*. Fastly è un servizio CDN e di caching incluso con Adobe Commerce sui piani e le implementazioni dell’infrastruttura cloud. Se tenti di utilizzare un’opzione di eliminazione Fastly e questa non viene elaborata, è possibile che nell’ambiente siano presenti credenziali Fastly errate o che si sia verificato un problema."
+description: 'Questo articolo corregge l’errore che si verifica quando si utilizza l’opzione Fastly Purge: *La richiesta di eliminazione non è stata elaborata correttamente*. Fastly è un servizio CDN e di caching incluso con Adobe Commerce sui piani e le implementazioni dell’infrastruttura cloud. Se si tenta di utilizzare un’opzione di eliminazione Fastly e questa non viene elaborata, è possibile che nell’ambiente siano presenti credenziali Fastly errate o che si sia verificato un problema.'
 exl-id: 568b1f4c-2ccb-4740-a6e4-d227a55fcfe6
 feature: Cache, Cloud, Paas
 role: Developer

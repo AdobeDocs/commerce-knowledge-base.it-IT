@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-42520: aliquota applicata due volte quando si utilizza "Abilita commercio transfrontaliero""'
+title: 'MDVA-42520: aliquota applicata due volte quando si utilizza "Abilita commercio transfrontaliero"'
 description: La patch MDVA-42520 risolve il problema dell'applicazione dell'aliquota due volte quando si utilizza **Abilita commercio transfrontaliero**. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11. L'ID della patch è MDVA-42520. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: c1ca44eb-fe92-4f28-807a-3a4563433386
 feature: Catalog Management, Orders, Taxes

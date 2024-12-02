@@ -1,5 +1,5 @@
 ---
-title: "Avvisi gestiti per Adobe Commerce: avviso critico Apdex"
+title: 'Avvisi gestiti per Adobe Commerce: avviso critico di circa'
 description: Questo articolo fornisce i passaggi per la risoluzione dei problemi quando ricevi un avviso critico Apdex per Adobe Commerce in New Relic. Il punteggio Apdex misura la soddisfazione degli utenti in relazione al tempo di risposta delle applicazioni e dei servizi web. È necessaria un'azione immediata per risolvere il problema. L’avviso avrà un aspetto simile al seguente, a seconda del canale di notifica dell’avviso selezionato.
 exl-id: b6d3d4f3-4abb-4285-8071-2b9fb06bfa3c
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39546: la data di inizio dell'aggiornamento di staging può essere impostata su una data precedente alla data corrente"
+title: 'MDVA-39546: la data di inizio dell''aggiornamento di staging può essere impostata su una data precedente alla data corrente'
 description: La patch di MDVA-39546 risolve il problema che consente di impostare la data di inizio dell'aggiornamento di staging su una data precedente alla data corrente. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-39546. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: a66b5d83-2eba-45a6-9eb9-4ba39ef20e16
 feature: Staging

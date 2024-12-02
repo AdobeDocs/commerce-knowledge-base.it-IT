@@ -1,5 +1,5 @@
 ---
-title: "MDVA-33606: errore durante il salvataggio della pagina CMS assegnata alla gerarchia"
+title: 'MDVA-33606: errore durante il salvataggio della pagina CMS assegnata alla gerarchia'
 description: La patch di MDVA-33606 risolve il problema relativo all'errore *Unique constraint viola found* (Violazione di vincolo univoca trovata) durante il salvataggio di una pagina CMS assegnata alla struttura gerarchica. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3. L'ID della patch è MDVA-33606. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: cdefece5-6d13-4003-87e9-810c665e940c
 feature: CMS

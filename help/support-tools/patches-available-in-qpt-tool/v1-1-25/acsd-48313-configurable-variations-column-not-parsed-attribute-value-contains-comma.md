@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-48313: colonna [!UICONTROL configurable_variations] non analizzata se il valore dell''attributo contiene la virgola'''
+title: 'ACSD-48313: colonna [!UICONTROL configurable_variations] non analizzata se il valore dell''attributo contiene la virgola'
 description: Applica la patch ACSD-48313 per risolvere il problema Adobe Commerce, in cui la colonna [!UICONTROL configurable_variations] non viene analizzata se il valore dell’attributo contiene una virgola.
 exl-id: 0ac3f8da-4da3-4308-bea4-98a5b6926b0d
 feature: Attributes, Configuration

@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-57074: l’attributo personalizzato *Yes/No* con il prefisso "price_*" nell’attributo "attribute_code" non funziona con l’indicizzazione"'
+title: 'ACSD-57074: *Yes/No* l’attributo personalizzato con il prefisso "price_*" nell’attributo "attribute_code" non funziona con l’indicizzazione'
 description: Applica la patch ACSD-57074 per risolvere il problema di Adobe Commerce per cui l’attributo personalizzato *Yes/No* con prefisso "price_*" nell’attributo "attribute_code" non funziona con l’indicizzazione.
 feature: Products, Categories, Catalog Management
 role: Admin, Developer

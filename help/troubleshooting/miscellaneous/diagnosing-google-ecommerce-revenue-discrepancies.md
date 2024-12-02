@@ -1,6 +1,6 @@
 ---
 title: Diagnosi delle discrepanze nei ricavi di Google eCommerce
-description: '"Questo articolo fornisce soluzioni per le discrepanze tra Google e Magenti Business Intelligence (MBI). Il tracciamento eCommerce di Google porta potenza sia al tuo account Google Analytics che ai dashboard di MBI, ma si traduce in molti clienti che ci chiedono: dovrebbero entrambi gli strumenti segnalare la stessa quantità di **ordini** e **ricavi"**?'
+description: 'Questo articolo fornisce soluzioni per le discrepanze tra Google e Magenti Business Intelligence (MBI). Il tracciamento eCommerce di Google porta potenza sia al tuo account Google Analytics che ai dashboard di MBI, ma si traduce in molti clienti che ci chiedono: Dovrebbero entrambi gli strumenti segnalare la stessa quantità di **ordini** e **ricavi**?'
 exl-id: b2e43e70-d234-4338-ae81-fa401416be5a
 feature: Commerce Intelligence
 role: Developer

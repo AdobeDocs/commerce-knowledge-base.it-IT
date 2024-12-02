@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50345: problemi reCAPTCHA durante il pagamento"
+title: 'ACSD-50345: problemi di reCAPTCHA durante il pagamento'
 description: Applica la patch ACSD-50345 per risolvere il problema Adobe Commerce in cui le convalide reCAPTCHA v2 e v3 non sono riuscite durante il posizionamento degli ordini e durante il pagamento.
 exl-id: ac8c8130-0e4d-4610-9a55-afa779cce7a0
 feature: Checkout, Orders

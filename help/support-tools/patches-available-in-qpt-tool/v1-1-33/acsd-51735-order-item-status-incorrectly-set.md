@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51735: lo stato dell'articolo dell'ordine non è impostato correttamente su *[!UICONTROL Ordered]* quando lo stock di prodotto è 0"
+title: 'ACSD-51735: lo stato dell''articolo dell''ordine non è impostato correttamente su *[!UICONTROL Ordered]* quando lo stock del prodotto è 0'
 description: Applicare la patch ACSD-51735 per risolvere il problema Adobe Commerce in cui lo stato dell'articolo dell'ordine non è impostato correttamente su *[!UICONTROL Ordered]* quando la scorta prodotto è 0.
 feature: Orders, Products
 role: Admin

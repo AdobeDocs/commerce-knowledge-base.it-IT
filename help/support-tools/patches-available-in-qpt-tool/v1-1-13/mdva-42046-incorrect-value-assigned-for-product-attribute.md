@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42046: valore non corretto assegnato per l'attributo product"
+title: 'MDVA-42046: valore non corretto assegnato per l''attributo di prodotto'
 description: La patch di MDVA-42046 risolve il problema relativo all'assegnazione di un valore non corretto per l'attributo product durante l'aggiornamento di un prodotto con un campo di immissione data. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L'ID della patch è MDVA-42046. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 837f5582-849c-43a3-ae02-87f71fb96061
 feature: Attributes, Products

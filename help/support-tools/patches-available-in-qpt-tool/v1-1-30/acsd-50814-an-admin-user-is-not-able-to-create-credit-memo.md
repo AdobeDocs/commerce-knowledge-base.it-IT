@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50814: l’utente amministratore non è in grado di creare la nota di credito"
+title: 'ACSD-50814: l''utente amministratore non è in grado di creare una nota di credito'
 description: Applica la patch ACSD-50814 per risolvere il problema di Adobe Commerce che impedisce a un utente amministratore di creare una nota di credito.
 exl-id: bda374cf-6fb7-479f-8130-213ce3cc553e
 feature: Admin Workspace, Orders, Returns

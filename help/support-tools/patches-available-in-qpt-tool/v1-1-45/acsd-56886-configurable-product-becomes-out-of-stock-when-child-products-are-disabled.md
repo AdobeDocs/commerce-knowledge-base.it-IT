@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56886: il prodotto configurabile esaurisce le scorte quando i prodotti secondari sono disabilitati"
+title: 'ACSD-56886: il prodotto configurabile esaurisce quando i prodotti secondari sono disabilitati'
 description: Applica la patch ACSD-56886 per risolvere il problema di Adobe Commerce, in cui il prodotto configurabile diventa un elemento figlio esaurito quando i prodotti sono disabilitati.
 feature: Products
 role: Admin, Developer

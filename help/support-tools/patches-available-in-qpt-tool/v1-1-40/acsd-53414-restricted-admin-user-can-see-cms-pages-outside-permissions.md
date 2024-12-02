@@ -1,6 +1,6 @@
 ---
-title: "ACSD-53414: gli utenti amministratori con restrizioni possono visualizzare le pagine CMS al di fuori del loro ambito di autorizzazioni"
-description: Applica la patch ACSD-53414 per risolvere il problema di Adobe Commerce, a causa del quale un utente amministratore con restrizioni può visualizzare le pagine CMS al di fuori del proprio ambito di autorizzazioni.
+title: 'ACSD-53414: gli utenti amministratori con restrizioni possono visualizzare le pagine CMS al di fuori del proprio ambito di autorizzazioni'
+description: Applica la patch ACSD-53414 per risolvere il problema di Adobe Commerce, per cui un utente amministratore con restrizioni può visualizzare le pagine CMS al di fuori del proprio ambito di autorizzazioni.
 feature: CMS
 role: Admin, Developer
 exl-id: f8540d52-a3bb-49bb-8868-7b1db03e571b
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# ACSD-53414: gli utenti amministratori con restrizioni possono visualizzare le pagine CMS al di fuori del loro ambito di autorizzazioni
+# ACSD-53414: gli utenti amministratori con restrizioni possono visualizzare le pagine CMS al di fuori del proprio ambito di autorizzazioni
 
 La patch ACSD-53414 risolve il problema per cui un utente amministratore con restrizioni può visualizzare le pagine CMS al di fuori del proprio ambito di autorizzazioni. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.40. L’ID della patch è ACSD-53414. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
 
@@ -44,7 +44,7 @@ Gli utenti amministratori con restrizioni possono visualizzare le pagine CMS olt
    * [!UICONTROL 503 Service Unavailable] > Visualizzazione archivio predefinita
 
 1. Accedi all’amministratore utilizzando l’utente amministratore creato nel passaggio 3.
-1. Controlla la griglia della pagina del CMS.
+1. Controlla la griglia della pagina di CMS.
 
 <u>Risultati previsti</u>:
 

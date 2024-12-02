@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52399: prodotto con qtà vendibile 0 mostra in magazzino"
+title: 'ACSD-52399: Prodotto con qtà vendibile 0 mostra in magazzino'
 description: Applicare la patch ACSD-52399 per risolvere il problema di Adobe Commerce, in cui l'opzione del prodotto configurabile con qtà vendibile pari a 0 mostra *In magazzino* sulla pagina del prodotto.
 feature: Products, Configuration
 role: Admin, Developer

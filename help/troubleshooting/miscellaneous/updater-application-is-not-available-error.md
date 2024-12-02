@@ -1,5 +1,5 @@
 ---
-title: Errore "Applicazione di aggiornamento non disponibile"
+title: Errore "L’applicazione di aggiornamento non è disponibile"
 description: In questo articolo viene illustrata la soluzione per il problema "L'applicazione di aggiornamento non è disponibile" che potrebbe verificarsi quando si tenta di aggiornare/installare Adobe Commerce on-premise utilizzando l'Installazione guidata Web.
 exl-id: 85e55ed8-0bc9-4378-b722-46be98ce2638
 feature: Configuration

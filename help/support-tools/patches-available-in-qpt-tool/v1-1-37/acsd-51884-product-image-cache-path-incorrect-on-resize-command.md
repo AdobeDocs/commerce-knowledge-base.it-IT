@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51884: percorso della cache dell’immagine del prodotto non corretto nel comando di ridimensionamento"
+title: 'ACSD-51884: percorso della cache dell’immagine del prodotto non corretto nel comando di ridimensionamento'
 description: Applica la patch ACSD-51884 per risolvere il problema Adobe Commerce, se il percorso della cache delle immagini del prodotto diventa errato dopo l’esecuzione del comando di ridimensionamento.
 feature: Products
 role: Admin
@@ -37,7 +37,7 @@ Il percorso della cache delle immagini del prodotto non è più corretto con il 
 
 1. Crea nuovo sito Web/store/storeview.
 1. Crea un prodotto e assegnalo a entrambi i siti web e carica l’immagine del prodotto.
-1. Crea un nuovo tema (vedi Adobe.zip in allegato).
+1. Crea un nuovo tema (vedi allegato Adobe.zip).
 1. In `app/design/Adobe/theme/etc/view.xml` modifica:
 
 ```

@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: Braintree non nel checkout di più indirizzi"
+title: 'Adobe Commerce 2.4.0: Braintree non nel checkout di più indirizzi'
 description: Questo articolo fornisce una soluzione alternativa per un problema noto di Adobe Commerce 2.4.0 in cui i metodi di pagamento Braintree non sono inclusi nell’utilizzo dell’estrazione di più indirizzi. Il problema è stato risolto in Adobe Commerce 2.4.1.
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery

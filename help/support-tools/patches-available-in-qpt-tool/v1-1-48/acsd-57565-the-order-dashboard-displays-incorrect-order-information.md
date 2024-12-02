@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57565: il dashboard dell’ordine visualizza informazioni sull’ordine non corrette"
+title: 'ACSD-57565: il dashboard degli ordini visualizza informazioni sugli ordini errate'
 description: Applica la patch ACSD-57565 per risolvere il problema di Adobe Commerce, a causa del quale il dashboard degli ordini visualizza informazioni di ordine errate fino all’aggiornamento del periodo di tempo.
 feature: Roles/Permissions
 role: Admin, Developer

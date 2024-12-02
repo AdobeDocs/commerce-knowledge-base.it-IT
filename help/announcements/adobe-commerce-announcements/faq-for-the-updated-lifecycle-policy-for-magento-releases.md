@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti sui criteri del ciclo di vita aggiornati per le versioni di Adobe Commerce
-description: "Adobe Commerce fornisce correzioni di qualità per una versione secondaria per un minimo di 12 mesi dalla data di disponibilità generale della successiva versione software secondaria. Il modo in cui forniamo correzioni di qualità durante questo periodo sta cambiando:"
+description: 'Adobe Commerce fornisce correzioni di qualità per una versione secondaria per un minimo di 12 mesi dalla data di disponibilità generale della successiva versione software secondaria. Il modo in cui forniamo correzioni di qualità durante questo periodo sta cambiando:'
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin
@@ -34,7 +34,7 @@ Le versioni con solo protezione contengono solo correzioni di protezione e non �
 
 ## Sarà ancora disponibile una versione con sola protezione per l’ultima riga (dalla pubblicazione, versione 2.4)?
 
-Adobe continuerà a disporre di versioni di sola sicurezza per la riga dell’ultima versione. Il processo per questi eventi è descritto in [Introduzione al nuovo post DevBlog sulla versione della patch per sola sicurezza](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287).
+Adobe continuerà a disporre anche di versioni con sola protezione per la versione più recente. Il processo per questi eventi è descritto in [Introduzione al nuovo post DevBlog sulla versione della patch per sola sicurezza](https://community.magento.com/t5/Magento-DevBlog/Introducing-the-New-Security-only-Patch-Release/ba-p/141287).
 
 ## Che cos&#39;è lo strumento Patch di qualità?
 
@@ -62,7 +62,7 @@ Solo i principali problemi di qualità che interrompono i flussi core verranno r
 
 ## Eventuali correzioni di qualità faranno parte della versione trimestrale per le versioni secondarie supportate che non sono l’ultima riga?
 
-Sì, come parte della riga dedicata esclusivamente alla sicurezza, vengono rilasciati gli Adobi che chiamano &quot;hotfix&quot; a tale riga; si tratta di problemi altamente critici che interessano l’applicazione Adobe Commerce.
+Sì, come parte della riga dedicata esclusivamente alla sicurezza, vengono rilasciati gli &quot;hotfix&quot; di Adobe a tale riga; si tratta di problemi altamente critici che interessano l’applicazione Adobe Commerce.
 
 ## I miglioramenti della sicurezza e i QPT verranno consegnati contemporaneamente?
 

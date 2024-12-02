@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42855: il nuovo indirizzo del cliente non viene salvato nella rubrica durante l'estrazione"
+title: 'MDVA-42855: il nuovo indirizzo del cliente non viene salvato nella rubrica durante il pagamento '
 description: La patch di MDVA-42855 risolve il problema che impedisce il salvataggio del nuovo indirizzo del cliente nella rubrica durante il pagamento. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-42855. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 37fc51f4-773e-4bef-9fb1-e6629562b94a
 feature: Checkout, Orders, Shipping/Delivery

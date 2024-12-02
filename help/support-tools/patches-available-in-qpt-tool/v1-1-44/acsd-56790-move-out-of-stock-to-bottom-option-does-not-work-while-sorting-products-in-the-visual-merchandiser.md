@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56790: l'opzione **[!UICONTROL move out of stock to bottom]** non funziona durante l'ordinamento dei prodotti in  [!DNL Visual Merchandiser]"
+title: 'ACSD-56790: l''opzione **[!UICONTROL move out of stock to bottom]** non funziona durante l''ordinamento dei prodotti in  [!DNL Visual Merchandiser]'
 description: Applica la patch ACSD-56790 per risolvere il problema di Adobe Commerce, in cui l’opzione ESAURIMENTO SCORTE non funziona durante l’ordinamento dei prodotti in Visual Merchandiser.
 feature: Products, Categories
 role: Admin, Developer

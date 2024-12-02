@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55610: l’ordine parzialmente annullato presenta un importo di sconto errato"
+title: 'ACSD-55610: l''importo dello sconto dell''ordine parzialmente annullato non è corretto'
 description: Applicare la patch ACSD-55610 per risolvere il problema Adobe Commerce in cui un ordine parzialmente annullato presenta un importo di sconto errato.
 feature: Invoices, Orders, Price Rules, Shopping Cart
 role: Admin, Developer

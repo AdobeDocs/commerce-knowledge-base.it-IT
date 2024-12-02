@@ -1,9 +1,10 @@
 ---
-title: La classificazione del dashboard e dei risultati di ricerca '[!DNL Live Search]' non è corretta
+title: La classificazione del dashboard e dei risultati di ricerca [!DNL Live Search] non è corretta
 description: In questo articolo vengono fornite informazioni sulla risoluzione dei problemi se i dati nel dashboard  [!DNL Live Search]  non sono corretti o se la classificazione dei risultati della ricerca non è quella prevista.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
+exl-id: d4aea1f1-c2c4-45e5-87c8-73069f7c9ffd
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39711: impossibile accedere alla griglia clienti dopo l'eliminazione del sito Web"
+title: 'MDVA-39711: impossibile accedere alla griglia clienti dopo l''eliminazione del sito Web'
 description: La patch MDVA-39711 risolve il problema che impediva all'utente amministratore di accedere alla griglia dei clienti dopo l'eliminazione del sito Web. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7. L'ID della patch è MDVA-39711. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: 46bef304-9360-4b69-b064-631725de381c
 feature: Configuration

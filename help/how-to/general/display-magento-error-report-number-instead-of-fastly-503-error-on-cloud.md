@@ -1,6 +1,6 @@
 ---
 title: Visualizza il numero della segnalazione errori di Adobe Commerce invece dell’errore Fastly 503
-description: Per impostazione predefinita, Fastly nasconde tutti gli errori Adobe Commerce dietro l’errore **503 Service Unavailable** (Servizio non disponibile). Per visualizzare il numero del rapporto del registro errori di Adobe Commerce (per trovarlo nei registri e visualizzare i dettagli dell’errore), apri il sito web omettendo Fastly seguendo la procedura riportata di seguito:’
+description: 'Per impostazione predefinita, Fastly nasconde tutti gli errori Adobe Commerce dietro l’errore **503 Service Unavailable**. Per visualizzare il numero del rapporto del registro errori di Adobe Commerce (per trovarlo nei registri e visualizzare i dettagli dell’errore), apri il sito web omettendo Fastly seguendo la procedura riportata di seguito:'
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
 feature: Cache, Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

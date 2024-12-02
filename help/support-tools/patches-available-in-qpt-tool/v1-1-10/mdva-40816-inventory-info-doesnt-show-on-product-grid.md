@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40816: dati di inventario non visualizzati nella griglia prodotti"
+title: 'MDVA-40816: dati di inventario non visualizzati nella griglia prodotti'
 description: La patch MDVA-40816 risolve il problema che impedisce la visualizzazione delle informazioni di inventario nella griglia del prodotto se uno SKU del prodotto contiene caratteri speciali. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10. L'ID della patch è MDVA-40816. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 88c05c88-33be-4d72-a302-23a1510c401c
 feature: Admin Workspace, Inventory, Orders, Products

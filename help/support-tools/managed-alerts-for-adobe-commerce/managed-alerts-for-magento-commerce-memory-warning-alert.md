@@ -1,5 +1,5 @@
 ---
-title: "Avvisi gestiti per Adobe Commerce: avviso di avvertenza sulla memoria"
+title: 'Avvisi gestiti per Adobe Commerce: avviso di avvertenza memoria'
 description: Questo articolo descrive i passaggi per la risoluzione dei problemi relativi a quando ricevi un avviso di avvertenza sulla memoria per Adobe Commerce in New Relic. È necessaria un'azione immediata per risolvere il problema. L’avviso avrà un aspetto simile al seguente, a seconda del canale di notifica dell’avviso selezionato.
 exl-id: bb5eb3f4-b162-4737-93d5-4037f2844bb1
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

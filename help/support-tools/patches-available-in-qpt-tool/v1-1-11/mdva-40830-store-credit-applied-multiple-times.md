@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40830: credito di archiviazione applicato più volte durante l'ordine"
+title: 'MDVA-40830: credito del punto vendita applicato più volte durante l''ordine'
 description: La patch di MDVA-40830 risolve il problema che causa l'applicazione ripetuta del credito all'archivio durante il posizionamento dell'ordine. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.11. L'ID della patch è MDVA-40830. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 218a100a-4500-4ef5-bbdb-fbbd12f2fa26
 feature: Orders, Returns

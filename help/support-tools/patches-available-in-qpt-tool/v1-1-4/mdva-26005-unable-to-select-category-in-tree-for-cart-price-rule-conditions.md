@@ -1,5 +1,5 @@
 ---
-title: "MDVA-26005: impossibile selezionare una categoria nella struttura per le condizioni della regola Prezzo carrello"
+title: 'MDVA-26005: impossibile selezionare una categoria nella struttura per le condizioni della regola Prezzo carrello'
 description: La patch MDVA-26005 risolve il problema che impediva agli utenti di selezionare una categoria nella struttura ad albero delle categorie per le condizioni della regola Prezzo carrello. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4. L'ID della patch è MDVA-26005. Il problema è stato risolto in Adobe Commerce 2.3.6.
 exl-id: d3b8efc3-fd0a-4706-8851-4cecb7d3126a
 feature: Categories, Orders, Price Rules, Shopping Cart

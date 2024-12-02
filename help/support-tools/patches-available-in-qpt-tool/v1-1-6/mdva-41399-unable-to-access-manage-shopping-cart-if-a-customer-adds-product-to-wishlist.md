@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41399: impossibile accedere a Gestisci carrello se un cliente aggiunge un prodotto alla lista dei desideri"
+title: 'MDVA-41399: impossibile accedere a Gestisci carrello se un cliente aggiunge un prodotto alla lista dei desideri'
 description: La patch MDVA-41399 risolve il problema che impedisce agli utenti amministratori di accedere alla pagina Gestisci carrello se un cliente aggiunge un prodotto alla lista dei desideri. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6. L'ID della patch è MDVA-41399. Il problema è stato risolto in Adobe Commerce 2.4.2.
 exl-id: 227653c6-2d20-4475-b973-b9fa58db815b
 feature: Orders, Products, Shopping Cart

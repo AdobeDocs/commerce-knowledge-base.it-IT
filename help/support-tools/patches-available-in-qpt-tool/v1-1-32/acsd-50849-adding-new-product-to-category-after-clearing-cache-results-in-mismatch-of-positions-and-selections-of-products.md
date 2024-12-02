@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50849: l’aggiunta di un nuovo prodotto dopo la cancellazione della cache causa una mancata corrispondenza"
+title: 'ACSD-50849: l’aggiunta di un nuovo prodotto dopo aver cancellato la cache causa una mancata corrispondenza'
 description: Applica la patch ACSD-50849 per risolvere il problema di Adobe Commerce, in cui l’aggiunta di un nuovo prodotto alla categoria dopo la cancellazione della cache determina una mancata corrispondenza tra le posizioni e le selezioni dei prodotti esistenti.
 feature: Cache, Categories, Products
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-43731: i sinonimi di ricerca non funzionano quando il valore viene aggiunto in "Termini minimi da trovare""'
+title: 'MDVA-43731: i sinonimi di ricerca non funzionano quando il valore viene aggiunto in "Termini minimi da abbinare"'
 description: La patch MDVA-43731 risolve il problema che causa il funzionamento dei sinonimi di ricerca quando viene aggiunto un valore in "Minimum Terms to Match" (Termini minimi da abbinare). Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-43731. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: b795989c-d10b-443e-aebe-f3859930396a
 feature: Cache, Marketing Tools, Search

@@ -1,5 +1,5 @@
 ---
-title: '"Adobe Commerce cloud: la reindicizzazione termina con il messaggio "Killed"'
+title: 'Adobe Commerce cloud: la reindicizzazione termina con il messaggio "Killed"'
 description: '* Adobe Commerce su infrastruttura cloud (tutte le versioni)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas

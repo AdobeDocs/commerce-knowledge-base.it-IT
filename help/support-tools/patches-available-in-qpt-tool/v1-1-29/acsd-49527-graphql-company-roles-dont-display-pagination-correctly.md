@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49527: i ruoli aziendali di GraphQL non visualizzano correttamente l’impaginazione"
+title: 'ACSD-49527: i ruoli aziendali di GraphQL non visualizzano correttamente la paginazione'
 description: Applica la patch ACSD-49527 per risolvere il problema di Adobe Commerce per cui i ruoli aziendali di GraphQL non visualizzano correttamente l’impaginazione.
 exl-id: e2d50081-8002-490e-9476-a19ba6623bda
 feature: B2B, GraphQL, Companies, Roles/Permissions

@@ -30,7 +30,7 @@ QPT v1.1.33 include le seguenti patch:
 1. **ACSD-51792**: è stato corretto il problema per cui una pagina non presenta l&#39;evento di impression quando [!DNL Google Tag Manager] 4 è abilitato.
 1. **ACSD-51471**: è stato risolto il problema che impediva a un utente amministratore di salvare un aggiornamento pianificato per un prodotto in bundle che utilizza un prodotto semplice con un aggiornamento pianificato.
 1. **ACSD-51700**: è stato corretto l&#39;errore che si verificava quando si cambiavano le visualizzazioni dello store in una pagina di modifica del prodotto scaricabile nell&#39;amministratore.
-1. **ACSD-51120**: è stato corretto il problema per cui la cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi CMS aggiornati tramite un aggiornamento di staging.
+1. **ACSD-51120**: è stato corretto il problema per cui la cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi di CMS aggiornati tramite un aggiornamento di staging.
 1. **ACSD-51240**: è stato corretto il problema di mancanza del file caricato se la registrazione viene effettuata tramite il modulo di registrazione della società.
 1. **ACSD-51907**: è stato risolto il problema che impediva a un utente amministratore con restrizioni di creare una nota di credito con rimborso offline.
 1. **ACSD-52148**: è stato risolto il problema che causava errori occasionali nell&#39;accesso a [!UICONTROL Google V3 reCAPTCHA Admin].

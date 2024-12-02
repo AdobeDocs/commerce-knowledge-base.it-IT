@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51240: file caricato mancante durante la registrazione tramite il modulo di registrazione della società"
+title: 'ACSD-51240: file caricato mancante durante la registrazione tramite il modulo di registrazione della società'
 description: Applica la patch ACSD-51240 per risolvere il problema di Adobe Commerce relativo alla mancanza del file caricato durante la registrazione tramite il modulo di registrazione della società.
 exl-id: e5822c54-4e77-46b0-84b6-5e25c3845974
 source-git-commit: e1fe8936c56f422ae591c6424d8a72621093db81

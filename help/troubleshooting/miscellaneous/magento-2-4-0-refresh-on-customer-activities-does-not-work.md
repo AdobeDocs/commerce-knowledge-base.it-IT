@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce 2.4.0: l’aggiornamento delle attività del cliente non funziona"
+title: 'Adobe Commerce 2.4.0: l’aggiornamento delle attività del cliente non funziona'
 description: Questo articolo fornisce una soluzione per il problema noto di Adobe Commerce 2.4.0 quando un utente amministratore crea un ordine per un cliente e i pulsanti di aggiornamento nel pannello laterale Attività del cliente non funzionano.
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration

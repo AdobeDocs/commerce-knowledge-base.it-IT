@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42410: nei rapporti coupon viene visualizzata solo la valuta di base predefinita"
+title: 'MDVA-42410: nei report coupon viene visualizzata solo la valuta di base predefinita'
 description: La patch MDVA-42410 risolve il problema relativo alla visualizzazione della sola valuta di base nei rapporti coupon. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-42410. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: b442a2ce-1bd4-4f09-95fd-2c626e32f509
 feature: Orders

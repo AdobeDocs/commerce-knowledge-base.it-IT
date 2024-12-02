@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41628: gli utenti amministratori con restrizioni possono accedere a nuove risorse"
+title: 'MDVA-41628: gli utenti amministratori con restrizioni hanno accesso a nuove risorse'
 description: La patch MDVA-41628 risolve il problema che consente agli utenti amministratori con restrizioni di accedere alle nuove risorse quando vengono aggiunti nuovi moduli. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-41628. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 8f63ce9d-07b6-4d9d-a51b-b85b783b2adf
 feature: Admin Workspace

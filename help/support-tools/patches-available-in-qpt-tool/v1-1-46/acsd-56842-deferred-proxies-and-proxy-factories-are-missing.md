@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-56842: proxy differiti e factory proxy mancanti dopo l’esecuzione di "setup:di:compile"'
+title: 'ACSD-56842: proxy differiti e factory proxy mancanti dopo l’esecuzione di "setup:di:compile"'
 description: Applica la patch ACSD-56842 per risolvere il problema di Adobe Commerce in cui mancano i proxy e le factory proxy differiti dopo l’esecuzione di "setup:di:compile".
 feature: Deploy, Catalog Management
 role: Admin, Developer

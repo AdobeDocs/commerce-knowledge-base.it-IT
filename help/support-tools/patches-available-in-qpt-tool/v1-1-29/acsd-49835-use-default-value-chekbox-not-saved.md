@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49835: la casella di controllo [!UICONTROL Use Default Value] non è salvata'
+title: 'ACSD-49835: la casella di controllo [!UICONTROL Use Default Value] non è stata salvata'
 description: Applicare la patch ACSD-49835 per risolvere il problema di Adobe Commerce in cui la casella di controllo [!UICONTROL Use Default Value] non viene salvata correttamente a livello di archivio per un attributo a selezione multipla.
 exl-id: 84270551-c8a9-4b08-a055-ffdcc538c33d
 feature: Storefront

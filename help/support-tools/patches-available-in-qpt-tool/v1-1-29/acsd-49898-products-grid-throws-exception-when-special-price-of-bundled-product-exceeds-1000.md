@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49898: eccezione generata dalla griglia Prodotti"
+title: 'ACSD-49898: la griglia Prodotti genera un''eccezione'
 description: Applica la patch ACSD-49898 per risolvere il problema di Adobe Commerce, a causa del quale la griglia prodotti genera un’eccezione quando un prodotto in bundle ha un prezzo speciale che supera i 1000.
 exl-id: 16a0ec90-7577-46ef-aeb3-a7e9658cf64b
 feature: Admin Workspace, Orders, Products

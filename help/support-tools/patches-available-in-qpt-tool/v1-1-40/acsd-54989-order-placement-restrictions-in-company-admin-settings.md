@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54989: l'amministratore della società non può ordinare se [!UICONTROL Enable Purchase Orders] è impostato su Sì e [!UICONTROL Purchase Order] su No"
+title: 'ACSD-54989: l''amministratore della società non può ordinare se [!UICONTROL Enable Purchase Orders] è impostato su Sì e [!UICONTROL Purchase Order] su No'
 description: Applicare la patch ACSD-54989 per risolvere il problema Adobe Commerce che impedisce all'amministratore della società di effettuare ordini se [!UICONTROL Enable Purchase Orders] è impostato su Sì e [!UICONTROL Purchase Order] su No.
 feature: Orders, Companies, Purchase Orders
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57854: la risposta *GraphQL* contiene categorie disabilitate che non devono essere elencate nelle aggregazioni di categorie"
+title: 'ACSD-57854: la risposta *GraphQL* contiene categorie disabilitate che non devono essere elencate nelle aggregazioni di categorie'
 description: Applica la patch ACSD-57854 per risolvere il problema Adobe Commerce, se la risposta *GraphQL* contiene categorie disabilitate che non dovrebbero essere elencate nelle aggregazioni di categorie.
 feature: GraphQL
 role: Admin, Developer

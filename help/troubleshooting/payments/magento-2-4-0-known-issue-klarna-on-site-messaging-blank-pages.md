@@ -1,5 +1,5 @@
 ---
-title: "Problema noto di Adobe Commerce 2.4.0: pagine vuote della messaggistica in sito di Klarna"
+title: 'Problema noto di Adobe Commerce 2.4.0: pagine vuote della messaggistica in sito di Klarna'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.0 con il metodo di pagamento Klarna, in cui l’abilitazione della messaggistica in sito di Klarna senza specificare un tema di progettazione comporta la mancata visualizzazione corretta delle pagine dei prodotti nella vetrina (le pagine dei prodotti vengono visualizzate vuote).
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments

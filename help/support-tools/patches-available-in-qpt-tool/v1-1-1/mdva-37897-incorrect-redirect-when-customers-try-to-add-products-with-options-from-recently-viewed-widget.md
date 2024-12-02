@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37897: reindirizzamento non corretto quando si aggiungono prodotti visualizzati di recente"
+title: 'MDVA-37897: reindirizzamento non corretto quando si aggiungono prodotti visualizzati di recente'
 description: La patch MDVA-37897 risolve il problema del reindirizzamento errato quando gli utenti tentano di aggiungere prodotti con opzioni del widget Visualizzato di recente. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1. L'ID della patch è MDVA-37897. Il problema è pianificato per la risoluzione in Adobe Commerce versione 2.4.4.
 exl-id: f0a86e02-b357-4d2d-8386-e9cc045bcf06
 feature: Products

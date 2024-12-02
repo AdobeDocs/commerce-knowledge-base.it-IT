@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47920: un utente guest può effettuare ordini tramite API REST anche quando [!UICONTROL Allow Guest Checkout] è disattivato"
+title: 'ACSD-47920: un utente guest può effettuare ordini tramite API REST anche quando [!UICONTROL Allow Guest Checkout] è disattivato'
 description: Applicare la patch ACSD-47920 per risolvere il problema di Adobe Commerce, in cui è possibile effettuare ordini tramite API REST come utente guest anche quando [!UICONTROL Allow Guest Checkout] è disattivato.
 exl-id: 8726eac4-ab19-4232-8e15-270d09bdc0a5
 feature: REST, Checkout, Orders

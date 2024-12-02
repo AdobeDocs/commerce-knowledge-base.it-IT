@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55238: salvataggio della metadescrizione del prodotto vuota"
+title: 'ACSD-55238: salvataggio della metadescrizione del prodotto vuota'
 description: Applica la patch ACSD-55238 per risolvere il problema di Adobe Commerce per cui nella meta description viene sempre visualizzata una descrizione del prodotto contenente codice HTML generato da [!DNL Page Builder] o da un altro editor HTML e non è possibile impostarla su vuota.
 feature: Products, Page Builder, Page Content
 role: Admin, Developer

@@ -1,6 +1,6 @@
 ---
-title: "ACSD-51120: impossibile cancellare la cache delle richieste di GET di GraphQL per le pagine CMS che contengono blocchi CMS"
-description: Applica la patch ACSD-51120 per risolvere il problema di Adobe Commerce per cui la cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi CMS.
+title: 'ACSD-51120: impossibile cancellare la cache delle richieste di GET di GraphQL per le pagine CMS che contengono blocchi di CMS'
+description: Applica la patch ACSD-51120 per risolvere il problema di Adobe Commerce, per cui la cache delle richieste GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi CMS.
 exl-id: 22abba89-b697-45d7-972e-bf3233e5e9ec
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-51120: impossibile cancellare la cache delle richieste di GET di GraphQL per le pagine CMS che contengono blocchi CMS
+# ACSD-51120: impossibile cancellare la cache delle richieste di GET di GraphQL per le pagine CMS che contengono blocchi di CMS
 
-La patch ACSD-51120 risolve il problema per cui la cache delle richieste di GET di GraphQL non viene cancellata per le pagine CMS che contengono blocchi CMS aggiornati tramite un aggiornamento di staging. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33. L’ID della patch è ACSD-51120. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
+La patch ACSD-51120 risolve il problema per cui la cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi di CMS aggiornati tramite un aggiornamento di staging. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.33. L’ID della patch è ACSD-51120. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.7.
 
 ## Prodotti e versioni interessati
 
@@ -29,11 +29,11 @@ La patch ACSD-51120 risolve il problema per cui la cache delle richieste di GET 
 
 ## Problema
 
-La cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi CMS aggiornati tramite un aggiornamento di staging.
+La cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS che contengono blocchi di CMS aggiornati tramite un aggiornamento di staging.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Crea un blocco CMS.
+1. Creare un blocco CMS.
 1. Includere il blocco CMS in una pagina CMS utilizzando [!DNL Page Builder].
 1. Recupera la pagina CMS utilizzando la query GraphQL specificata utilizzando una richiesta GET:
 
@@ -56,7 +56,7 @@ La cache delle richieste di GraphQL GET non viene cancellata per le pagine CMS c
 1. Assicurarsi che la risposta di GraphQL sia memorizzata nella cache in [!DNL Varnish].
 1. Crea un aggiornamento pianificato per il blocco.
 1. Attendi l’applicazione dell’aggiornamento pianificato ed esegui il processo cron per applicare l’aggiornamento pianificato.
-1. Recupera nuovamente la pagina CMS utilizzando la query GraphQL specificata e una richiesta GET.
+1. Recupera nuovamente la pagina CMS utilizzando la query GraphQL specificata utilizzando una richiesta GET.
 
 <u>Risultati previsti</u>:
 

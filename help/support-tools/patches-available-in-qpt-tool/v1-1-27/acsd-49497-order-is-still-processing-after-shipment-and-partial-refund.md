@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49497: ordine ancora in elaborazione dopo la spedizione e rimborso parziale"
+title: 'ACSD-49497: elaborazione dell''ordine ancora in corso dopo la spedizione e rimborso parziale'
 description: Applicare la patch ACSD-49497 per risolvere il problema Adobe Commerce, in cui lo stato dell'ordine rimane elaborazione dopo la spedizione e viene applicato un rimborso parziale.
 exl-id: d195bcf4-bb8b-4373-8aad-a5b953b07443
 feature: Admin Workspace, Orders, Shipping/Delivery

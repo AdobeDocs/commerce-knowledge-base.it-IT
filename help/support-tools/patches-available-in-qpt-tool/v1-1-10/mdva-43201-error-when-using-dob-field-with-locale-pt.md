@@ -1,5 +1,5 @@
 ---
-title: "MDVA-43201: errore durante l'utilizzo del campo DOB con PT delle impostazioni internazionali"
+title: 'MDVA-43201: errore durante l''utilizzo di un campo DOB con PT delle impostazioni internazionali'
 description: La patch MDVA-43201 risolve il problema relativo all'errore che si verifica quando si utilizza l'attributo DOB del cliente nel modulo di registrazione per le impostazioni locali portoghesi. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10. L'ID della patch è MDVA-43201. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 02979378-adc1-4a1a-93bf-a35ad50e6b80
 feature: B2B, Cache

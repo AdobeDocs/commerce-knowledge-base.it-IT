@@ -1,15 +1,15 @@
 ---
-title: "ACSD-59378: il livello di archivio [!DNL URL] riscrive non correttamente aggiornato durante l'importazione"
+title: 'ACSD-59378: riscritture a livello di archivio [!DNL URL] non corrette durante l''importazione'
 description: Applica la patch ACSD-59378 per risolvere il problema di Adobe Commerce per cui le riscritture a livello di archivio [!DNL URL] non vengono aggiornate correttamente durante l'importazione.
 feature: Data Import/Export
 role: Admin, Developer
-source-git-commit: 3f400c3e325c3f377a5e12170b08615ebeadbcd1
+exl-id: 4ba567e3-323d-4068-90cc-50aacd45d397
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-59378: riscritture a livello di archivio [!DNL URL] non correttamente aggiornate durante l&#39;importazione
 

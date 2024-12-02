@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51853: gli stili di testo copiati non vengono applicati utilizzando il generatore di pagine"
+title: 'ACSD-51853: gli stili di testo copiati non vengono applicati utilizzando il generatore di pagine'
 description: Applica la patch ACSD-51853 per risolvere il problema di Adobe Commerce, per cui gli stili di testo copiati non vengono applicati quando si utilizza il generatore di pagine.
 feature: Page Builder
 role: Admin

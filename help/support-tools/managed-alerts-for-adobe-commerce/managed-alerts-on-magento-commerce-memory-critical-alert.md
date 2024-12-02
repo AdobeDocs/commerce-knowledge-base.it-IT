@@ -1,5 +1,5 @@
 ---
-title: "Avvisi gestiti su Adobe Commerce: avviso di memoria critica"
+title: 'Avvisi gestiti su Adobe Commerce: avvisi critici per la memoria'
 description: Questo articolo fornisce i passaggi per la risoluzione dei problemi quando si riceve un avviso di memoria critica per Adobe Commerce in New Relic. È necessaria un'azione immediata per risolvere il problema. L’avviso avrà un aspetto simile al seguente, a seconda del canale di notifica dell’avviso selezionato.
 exl-id: feed7998-c50b-4cbf-a92d-cbfc65745a1c
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

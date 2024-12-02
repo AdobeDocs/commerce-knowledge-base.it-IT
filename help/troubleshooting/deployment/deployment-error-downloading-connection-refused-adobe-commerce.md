@@ -1,6 +1,6 @@
 ---
-title: "Errore di distribuzione: *errore 7 durante il download della porta 443. Connessione rifiutata*"
-description: '''Questo articolo fornisce una soluzione per l''errore di distribuzione: *"errore 7 durante il download di ... porta 443: connessione rifiutata"*.'''
+title: 'Errore di distribuzione: *errore 7 durante il download ... porta 443: connessione rifiutata*'
+description: 'Questo articolo fornisce una soluzione per l’errore di distribuzione: *"errore 7 durante il download di ... porta 443: connessione rifiutata"*.'
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer

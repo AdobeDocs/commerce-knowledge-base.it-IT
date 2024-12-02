@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48044: l’applicazione di più gift card impedisce l’invio di ordini"
+title: 'ACSD-48044: l''applicazione di più gift card impedisce l''effettuazione di ordini'
 description: Applica la patch ACSD-48044 per risolvere il problema Adobe Commerce, in cui l’applicazione di più carte regalo a un singolo ordine con spedizione multipla impedisce l’inserimento di ordini.
 exl-id: fe57063c-d69c-4b80-a59c-912c2603f6af
 feature: Admin Workspace, Gift, Orders

@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: Webpack si blocca prima di iniziare la compilazione"
+title: 'PWA Studio: Webpack si blocca prima di iniziare la compilazione'
 description: In questo articolo viene illustrata una soluzione consigliata per l'interruzione prolungata di un codice JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration

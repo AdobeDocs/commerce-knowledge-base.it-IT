@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46815: la distribuzione di contenuti statici non riesce con una strategia compatta"
+title: 'ACSD-46815: l’implementazione di contenuti statici non riesce con una strategia compatta'
 description: Applica la patch ACSD-46815 per risolvere il problema Adobe Commerce in cui la distribuzione di contenuto statico non riesce quando si utilizza una strategia compatta.
 exl-id: e94a0911-5cd9-4866-a027-7ea3239555d3
 feature: Deploy, Page Content, SCD

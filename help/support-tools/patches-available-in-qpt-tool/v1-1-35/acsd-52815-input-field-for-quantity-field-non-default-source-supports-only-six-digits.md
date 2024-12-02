@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52815: il campo di input per il campo della quantità dell’origine non predefinita supporta solo un massimo di 6 cifre"
+title: 'ACSD-52815: il campo di input per il campo della quantità di origine non predefinita supporta solo un massimo di 6 cifre'
 description: Applicare la patch ACSD-52815 per risolvere il problema di prestazioni di Adobe Commerce, in cui il campo di input per il campo quantità di una sorgente non predefinita supporta solo fino a 6 cifre, a differenza di 8 per una scorta predefinita.
 feature: Inventory, Products
 role: Admin

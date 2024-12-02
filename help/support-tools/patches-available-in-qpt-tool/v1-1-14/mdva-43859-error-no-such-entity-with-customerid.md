@@ -1,5 +1,5 @@
 ---
-title: '"MDVA-43859: errore "Nessuna entità di questo tipo con customerId =" registrato quando il cliente eliminato effettua l’accesso"'
+title: 'MDVA-43859: errore "Nessuna entità di questo tipo con customerId =" registrato al momento dell''accesso del cliente eliminato'
 description: La patch di MDVA-43859 risolve il problema relativo all'errore *Nessuna entità con customerId =* viene registrata quando un cliente eliminato tenta di accedere. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14. L'ID della patch è MDVA-43859. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 62c4b6ee-88a0-40b8-9eb2-37b6cefa0b83
 feature: Variables

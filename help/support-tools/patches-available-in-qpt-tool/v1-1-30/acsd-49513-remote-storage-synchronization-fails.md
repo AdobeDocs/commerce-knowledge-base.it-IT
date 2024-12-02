@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49513: sincronizzazione dell'archiviazione remota non riuscita"
+title: 'ACSD-49513: sincronizzazione dell''archiviazione remota non riuscita'
 description: Applicare la patch ACSD-49513 per risolvere il problema Adobe Commerce in cui la sincronizzazione dello storage remoto non riesce a causa di file a 0 byte.
 exl-id: fce5f60f-d21f-40cd-8d8a-a1a26e0fbe75
 feature: Iaas, Storage

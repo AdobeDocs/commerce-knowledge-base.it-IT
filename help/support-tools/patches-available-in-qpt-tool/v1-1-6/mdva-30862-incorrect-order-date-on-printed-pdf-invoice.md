@@ -1,5 +1,5 @@
 ---
-title: "MDVA-30862: data ordine errata nella fattura PDF stampata"
+title: 'MDVA-30862: data ordine errata nella fattura PDF stampata'
 description: La patch MDVA-30862 risolve il problema relativo alla stampa di una data di ordine errata nella fattura PDF. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L'ID della patch è MDVA-30862. Il problema è stato risolto in Adobe Commerce 2.4.0.
 exl-id: 695f530e-6abf-4883-972d-5d9c379493a2
 feature: Invoices, Orders

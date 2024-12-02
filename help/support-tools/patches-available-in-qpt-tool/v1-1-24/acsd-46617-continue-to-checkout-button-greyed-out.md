@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46617: pulsante **[!UICONTROL Continue to Checkout]** disattivato quando il subtotale è maggiore dell'importo minimo dell'ordine configurato"
+title: 'ACSD-46617: pulsante **[!UICONTROL Continue to Checkout]** disattivato quando il subtotale è maggiore dell''importo minimo dell''ordine configurato'
 description: Applicare la patch ACSD-46617 per risolvere il problema di Adobe Commerce in cui il pulsante **[!UICONTROL Continue to Checkout]** è disattivato anche se il subtotale è maggiore dell'importo dell'ordine minimo configurato.
 exl-id: 42fe02bd-f48b-4c6d-8643-ea2c1aa98c94
 feature: Checkout, Orders

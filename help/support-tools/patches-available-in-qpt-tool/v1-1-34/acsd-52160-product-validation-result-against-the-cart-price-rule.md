@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52160: risultato della convalida del prodotto in base alla regola del prezzo del carrello"
+title: 'ACSD-52160: risultato della convalida del prodotto rispetto alla regola del prezzo del carrello'
 description: Applicare la patch ACSD-52160 per risolvere il problema di Adobe Commerce in cui il risultato della convalida del prodotto rispetto alla regola prezzo carrello non viene valutato correttamente in base alla condizione regola *[!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]*.
 exl-id: a371c539-4440-4c84-baa4-774c32f66e41
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

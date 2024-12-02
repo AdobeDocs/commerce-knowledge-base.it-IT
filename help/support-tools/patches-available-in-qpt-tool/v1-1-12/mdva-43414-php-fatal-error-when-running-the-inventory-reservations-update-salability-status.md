@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-43414: errore irreversibile PHP durante l''esecuzione di "inventory.Reservation.updateSalabilityStatus"'''
+title: 'MDVA-43414: errore irreversibile PHP durante l''esecuzione di "inventory.Reservation.updateSalabilityStatus"'
 description: La patch MDVA-43414 risolve l’errore irreversibile PHP che si verifica durante l’esecuzione del consumer di coda "inventory.Reservation.updateSalabilityStatus" sugli SKU numerici. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12. L'ID della patch è MDVA-43414. Il problema è stato risolto in Adobe Commerce 2.4.2.
 exl-id: 197c5db1-36bc-41a7-a5ca-f026600da786
 feature: Inventory, Orders

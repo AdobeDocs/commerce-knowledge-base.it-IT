@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39305: problema di accesso con Google reCAPTCHA abilitato"
+title: 'MDVA-39305: problema di accesso con Google reCAPTCHA abilitato'
 description: La patch MDVA-39305 risolve il problema che impediva ai clienti registrati di accedere con Google reCAPTCHA abilitato. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1. L'ID della patch è MDVA-39305. Il problema è pianificato per essere risolto nelle versioni 2.4.4 e 2.4.7 di Adobe Commerce.
 exl-id: 1e8e7dc7-f8f1-4432-90f4-dc73d85f353a
 feature: Console

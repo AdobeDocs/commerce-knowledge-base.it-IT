@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51907: l’utente amministratore con restrizioni non può creare una nota di credito per il rimborso offline"
+title: 'ACSD-51907: l''utente amministratore con restrizioni non può creare una nota di credito per il rimborso offline'
 description: Applica la patch ACSD-51907 per risolvere il problema di Adobe Commerce, per cui l’utente amministratore con restrizioni non può creare una nota di credito con rimborso offline.
 exl-id: 564e8524-f2dc-453c-be78-a920fbd47d71
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

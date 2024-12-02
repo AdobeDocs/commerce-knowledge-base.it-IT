@@ -1,5 +1,5 @@
 ---
-title: "Query SQL: SPIEGARE GLI ERRORI RELATIVI AI COSTI"
+title: 'Query SQL: SPIEGARE GLI ERRORI RELATIVI AI COSTI'
 description: Questo articolo fornisce soluzioni per gli errori EXPLAIN cost durante l'esecuzione di query SQL non riuscite. PostgreSQL utilizza una funzione denominata [il comando EXPLAIN](https://www.postgresql.org/docs/9.5/static/using-explain.html) per determinare il costo delle query SQL. Abbiamo creato il Report Builder SQL per utilizzare anche questo comando, il che significa che se il costo viene ritenuto troppo elevato, ovvero la quantità di risorse necessarie per eseguire la query supera le soglie, la query non verrà eseguita e verrà visualizzato un messaggio EXPLAIN.
 exl-id: 6f6df66a-665e-46a8-ad4c-842a0270c4eb
 feature: Commerce Intelligence

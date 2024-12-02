@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45488: prodotto configurabile con più origini non restituito automaticamente in magazzino"
+title: 'ACSD-45488: prodotto configurabile con più origini non restituito automaticamente in magazzino'
 description: La patch ACSD-45488 risolve il problema se un prodotto configurabile con più sorgenti non viene restituito automaticamente in magazzino. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18. L’ID della patch è ACSD-45488. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 exl-id: 83332226-b14e-4d36-bf65-170f55fff270
 feature: Configuration, Orders, Products, Returns

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48773: modello e-mail per punti premio prelevato da un archivio errato"
+title: 'ACSD-48773: modello e-mail punti premio ottenuto da un archivio errato'
 description: Applica la patch ACSD-48773 per risolvere il problema di Adobe Commerce per cui il modello e-mail dei punti premio viene prelevato dallo store errato.
 exl-id: 96dda97c-5177-4883-ad2b-709928cb5f4d
 feature: Admin Workspace, Communications, Marketing Tools, Orders, Personalization, Rewards

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51700: errore nel cambiare le visualizzazioni dell’archivio nella pagina di modifica del prodotto scaricabile"
+title: 'ACSD-51700: errore nel cambiare le visualizzazioni dello store nella pagina di modifica del prodotto scaricabile'
 description: Applica la patch ACSD-51700 per risolvere il problema di Adobe Commerce in cui si verifica un errore quando si passa da una visualizzazione store a una pagina di modifica del prodotto scaricabile nell’amministratore.
 feature: Products
 role: Admin

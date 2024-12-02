@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46703: il trascinamento della personalizzazione del prodotto non funziona"
+title: 'ACSD-46703: il trascinamento della personalizzazione del prodotto non funziona'
 description: Questo articolo fornisce una soluzione per il problema in cui il trascinamento e il rilascio delle opzioni personalizzabili del prodotto non funzionano come previsto.
 exl-id: 49b29495-d225-4f34-ac76-b7294a86aea6
 feature: Products

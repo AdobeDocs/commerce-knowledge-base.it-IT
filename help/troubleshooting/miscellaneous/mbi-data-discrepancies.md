@@ -1,6 +1,6 @@
 ---
-title: "MBI: discrepanze di dati"
-description: "I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati valori NULL imprevisti? Se noti qualcosa che non va bene, ti consigliamo di utilizzare queste risorse per risolvere eventuali problemi:"
+title: 'MBI: discrepanze di dati'
+description: 'I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati valori NULL imprevisti? Se noti qualcosa che non va bene, ti consigliamo di utilizzare queste risorse per aiutarti a risolvere i problemi:'
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer

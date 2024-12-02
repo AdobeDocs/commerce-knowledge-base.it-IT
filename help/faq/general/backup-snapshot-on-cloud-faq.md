@@ -1,5 +1,5 @@
 ---
-title: "Backup (snapshot) su cloud: domande frequenti"
+title: 'Backup (snapshot) su Cloud: domande frequenti'
 description: Questo articolo illustra le nozioni di base per il backup degli ambienti con istantanee su Adobe Commerce su infrastrutture cloud.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas

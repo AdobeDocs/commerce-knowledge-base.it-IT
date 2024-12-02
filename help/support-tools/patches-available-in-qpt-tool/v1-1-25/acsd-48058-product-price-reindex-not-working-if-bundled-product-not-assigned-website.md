@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48058: la reindicizzazione del prezzo del prodotto non funziona se il prodotto in bundle non è stato assegnato al sito web"
+title: 'ACSD-48058: la reindicizzazione del prezzo del prodotto non funziona se il prodotto in bundle non è stato assegnato al sito web'
 description: Applica la patch ACSD-48058 per risolvere il problema di Adobe Commerce in cui la reindicizzazione del prezzo del prodotto non funziona se il prodotto incluso non è assegnato ad alcun sito Web.
 exl-id: 691371f1-7f10-4be6-80e4-821e7cf664a6
 feature: Admin Workspace, Orders, Products

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50336: e-mail di avviso sul prodotto non inviate"
+title: 'ACSD-50336: e-mail di avviso sul prodotto non inviate'
 description: Applica la patch ACSD-50336 per risolvere il problema di Adobe Commerce, in cui le e-mail di avviso sul prodotto non vengono inviate quando un prodotto è di nuovo disponibile o il prezzo viene modificato.
 exl-id: 0fc51603-e74d-4ce7-9e67-42826ffbfab2
 feature: Communications, Personalization, Products

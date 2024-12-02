@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46520: stato ordine errato quando rimborsato utilizzando i crediti del negozio"
+title: 'ACSD-46520: stato ordine errato quando rimborsato utilizzando i crediti del negozio'
 description: Questo articolo fornisce una soluzione per il problema in cui gli utenti ottengono uno stato dell'ordine errato quando rimborsati utilizzando i crediti del negozio.
 exl-id: 8464df22-0223-4ded-a15f-ce06eacdf77c
 feature: Orders, Returns

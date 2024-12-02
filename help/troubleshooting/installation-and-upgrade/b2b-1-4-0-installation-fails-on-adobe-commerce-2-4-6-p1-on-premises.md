@@ -1,5 +1,5 @@
 ---
-title: Installazione di '[!DNL B2B] 1.4.0 non riuscita in Adobe Commerce 2.4.6-p1 on-premise'
+title: L'installazione di [!DNL B2B] 1.4.0 non riesce in Adobe Commerce 2.4.6-p1 locale
 description: Questo articolo fornisce una soluzione alternativa per il problema on-premise di Adobe Commerce 2.4.6-p1 in cui l'installazione della versione 1.4.0 di  [!DNL B2B]  non riesce.
 feature: Install, Upgrade, B2B
 role: Developer

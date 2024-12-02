@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55100: [!DNL GraphQL] non restituisce prodotti oltre i 10.000 nei risultati di ricerca"
+title: 'ACSD-55100: [!DNL GraphQL] non restituisce prodotti oltre i 10k nei risultati di ricerca'
 description: Applica la patch ACSD-55100 per risolvere il problema di Adobe Commerce, in cui GraphQL non restituisce prodotti oltre *10k* nei risultati della ricerca.
 feature: GraphQL, Products, Search
 role: Admin, Developer

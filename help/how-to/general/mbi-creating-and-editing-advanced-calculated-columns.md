@@ -1,6 +1,6 @@
 ---
-title: "MBI: creazione e modifica di colonne calcolate avanzate"
-description: '''[Utenti amministratori](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) hanno la possibilità di creare e modificare alcune colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.'
+title: 'MBI: creazione e modifica di colonne calcolate avanzate'
+description: '[Gli utenti amministratori](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management) possono creare e modificare determinate colonne calcolate in Gestione Date Warehouse. Queste colonne calcolate consentono di impostare il reporting che si desidera ottenere per rispondere a domande aziendali chiave.'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

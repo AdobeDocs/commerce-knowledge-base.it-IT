@@ -1,5 +1,5 @@
 ---
-title: "Pulizia degli indirizzi verticali: indirizzi diversi non consentiti"
+title: 'Pulizia degli indirizzi verticali: indirizzi diversi non consentiti'
 description: Questo articolo descrive la soluzione del problema per cui, quando l’utente tenta di inserire un indirizzo di fatturazione e spedizione **diverso** con la convalida degli indirizzi verticali abilitata, la vetrina non consente all’utente di inserirlo.
 exl-id: a481b044-3b74-4792-abc6-249a182c49e1
 feature: B2B, Orders, Shipping/Delivery, Checkout

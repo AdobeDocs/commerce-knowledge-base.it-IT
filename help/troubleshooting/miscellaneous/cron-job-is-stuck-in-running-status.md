@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Cron] processo bloccato nello stato **in esecuzione**"
+title: Il processo [!DNL Cron] è bloccato nello stato **in esecuzione**
 description: Questo articolo fornisce soluzioni per i casi in cui Adobe Commerce [!DNL cron] processi non vengono completati e rimangono nello stato "in esecuzione", impedendo l'esecuzione di altri [!DNL cron] processi. Ciò può verificarsi per diversi motivi, ad esempio problemi di rete, arresti anomali dell’applicazione e problemi di ridistribuzione.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration

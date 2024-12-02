@@ -1,7 +1,7 @@
 ---
-title: '[!DNL USPS] hotfix di supporto del metodo di spedizione di Ground Advantage per AC-9182'
+title: '[!DNL USPS] hotfix di supporto per il metodo di spedizione Ground Advantage per AC-9182'
 promoted: true
-description: Applicare una patch per risolvere il problema AC-9182 del metodo di spedizione Ground Advantage per Adobe Commerce 2.4.4 - 2.4.6-p2. [!DNL USPS]
+description: 'Applicare una patch per risolvere il problema AC-9182 del metodo di spedizione Ground Advantage per Adobe Commerce 2.4.4 - 2.4.6-p2. [!DNL USPS] '
 feature: Shipping/Delivery
 role: Developer
 exl-id: b6871d19-3d02-4026-82e6-3545f4ab7159
@@ -65,7 +65,7 @@ La patch è allegata a questo articolo. Per scaricarlo, fai clic sul seguente co
 
 ## Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
 
 ## Come stabilire se i cerotti sono stati applicati
 

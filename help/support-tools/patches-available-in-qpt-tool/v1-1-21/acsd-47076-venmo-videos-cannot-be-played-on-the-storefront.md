@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47076: [!DNL Vimeo] impossibile riprodurre i video nella vetrina"
+title: 'ACSD-47076: [!DNL Vimeo] impossibile riprodurre i video nella vetrina'
 description: Applica la patch ACSD-47076 per risolvere il problema di Adobe Commerce che impedisce la riproduzione di  [!DNL Vimeo]  video nella vetrina.
 exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 feature: Storefront

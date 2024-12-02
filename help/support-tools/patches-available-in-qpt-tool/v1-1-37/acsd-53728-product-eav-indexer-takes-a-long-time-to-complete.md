@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53728: il completamento dell'indicizzatore EAV del prodotto richiede molto tempo"
+title: 'ACSD-53728: il completamento dell''indicizzatore EAV del prodotto richiede molto tempo'
 description: Applicare la patch ACSD-53728 per risolvere il problema Adobe Commerce, in cui il completamento dell'indicizzatore EAV del prodotto richiede molto tempo.
 feature: Products, Attributes
 role: Admin, Developer

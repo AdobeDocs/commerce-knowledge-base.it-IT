@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49065: gli elementi del preventivo non sono visibili in admin"
+title: 'ACSD-49065: gli elementi del preventivo non sono visibili in admin'
 description: Applica la patch ACSD-49065 per risolvere il problema Adobe Commerce, se gli elementi del preventivo non sono visibili nell’amministratore se sono assegnati solo al titolo personalizzato.
 exl-id: 3a5ceb4c-4c94-4938-98d9-9171f2633056
 feature: Admin Workspace, B2B, Orders, Quotes

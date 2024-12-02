@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54966: correzione per il riutilizzo dei codici coupon dopo gli ordini non riusciti"
+title: 'ACSD-54966: Correzione per il riutilizzo dei codici coupon dopo ordini non riusciti'
 description: Applica la patch ACSD-54966 per risolvere il problema di Adobe Commerce che impedisce il riutilizzo dei codici coupon limitati per promozioni e carrello a seguito di un ordine precedentemente non riuscito.
 feature: Promotions/Events, Shopping Cart, Orders
 role: Admin, Developer

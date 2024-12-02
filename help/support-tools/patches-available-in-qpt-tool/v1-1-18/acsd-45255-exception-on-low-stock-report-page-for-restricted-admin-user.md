@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45255: pagina del rapporto Eccezione per un utente amministratore con restrizioni in Stock ridotti"
+title: 'ACSD-45255: pagina del report Eccezione per l''utente amministratore con restrizioni scorte limitate'
 description: La patch ACSD-45255 risolve il problema che causa un’eccezione nella pagina Report scorte ridotte per un utente amministratore con restrizioni. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18. L’ID della patch è ACSD-45255. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 exl-id: 4b08500a-384e-4d5b-9563-3f9d1b984349
 feature: Admin Workspace, Orders

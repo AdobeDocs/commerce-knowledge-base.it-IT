@@ -1,5 +1,5 @@
 ---
-title: "MDVA-37364: l'attributo cliente personalizzato del tipo di data interrompe l'interfaccia utente della griglia"
+title: 'MDVA-37364: l''attributo cliente personalizzato del tipo di data interrompe l''interfaccia utente della griglia'
 description: La patch MDVA-37364 risolve il problema relativo all'interruzione dell'interfaccia utente di Customer Grid da parte dell'attributo cliente personalizzato del tipo di data. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-37364. Il problema è pianificato per la risoluzione in Adobe Commerce versione 2.4.4.
 exl-id: d25baabf-45eb-403c-9f88-9c2448cc7b49
 feature: Attributes, Cache

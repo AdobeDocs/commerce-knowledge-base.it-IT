@@ -1,9 +1,10 @@
 ---
-title: "ACSD-58446: l’eliminazione di un team con utenti o team secondari tramite GraphQL genera un messaggio di errore non informativo"
+title: 'ACSD-58446: l’eliminazione di un team con utenti o team secondari tramite GraphQL genera un messaggio di errore non informativo'
 description: Applica la patch ACSD-58446 per risolvere il problema di Adobe Commerce, in cui l’eliminazione di un team con utenti o team secondari tramite GraphQL restituisce un messaggio di errore non informativo non coerente con l’interfaccia utente.
 feature: GraphQL
 role: Admin, Developer
-source-git-commit: d64689d83943691883fc853af22631288d4999a8
+exl-id: df9eca9d-4d7a-4d4c-b6aa-59ac538b1aa0
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%

@@ -1,6 +1,6 @@
 ---
-title: '"MDVA-44887: errore "SyntaxError non rilevato: const di token imprevisto" nel pannello di amministrazione"'
-description: '"La patch di MDVA-44887 risolve il problema che impediva all''utente amministratore di fare clic su un''opzione di menu. Nel pannello di amministrazione viene visualizzato l’errore *Uncatch SyntaxError: Unexpected token const* (Sintassi non rilevata: costo token imprevisto*). Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15. L''ID della patch è MDVA-44887. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5".'
+title: 'MDVA-44887: errore "SyntaxError non rilevato: const di token imprevisto" nel pannello di amministrazione'
+description: 'La patch di MDVA-44887 risolve il problema che impediva all''utente amministratore di fare clic su un''opzione di menu. Nel pannello di amministrazione viene visualizzato l’errore *Uncatch SyntaxError: Unexpected token const* (Sintassi non rilevata: costo token imprevisto*). Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15. L''ID della patch è MDVA-44887. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.'
 exl-id: 66555e66-49d0-4f80-8f77-84ee107ab12e
 feature: Admin Workspace, Orders
 role: Admin

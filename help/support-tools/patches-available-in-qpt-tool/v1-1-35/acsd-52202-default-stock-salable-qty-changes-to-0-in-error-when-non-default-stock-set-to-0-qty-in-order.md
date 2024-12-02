@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52202: la quantità di magazzino vendibile predefinita viene impostata su 0 per errore quando le scorte non predefinite vengono impostate su 0 per ordine"
+title: 'ACSD-52202: la quantità di magazzino vendibile predefinita viene impostata su 0 per errore quando le scorte non predefinite vengono impostate su 0 per ordine'
 description: Applicare la patch ACSD-52202 per risolvere il problema di Adobe Commerce in cui una quantità di magazzino predefinita vendibile cambia a 0 per errore quando le scorte non predefinite sono impostate su 0 quantità in un ordine.
 feature: Inventory, Products
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: "Problema noto di Adobe Commerce 2.4.1: errore durante il pagamento con PayPal Braintree"
+title: 'Problema noto di Adobe Commerce 2.4.1: errore durante il pagamento con PayPal Braintree'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.1, in cui un messaggio di errore compare e scompare nella fase di fatturazione di Pagamento se si utilizza il pagamento di Braintree PayPal e si seleziona la spedizione di più indirizzi.
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
 feature: Checkout, Orders, Payments

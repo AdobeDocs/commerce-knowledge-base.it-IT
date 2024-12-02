@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39229: errore dopo l'aggiornamento dell'ora di inizio dell'aggiornamento della gestione temporanea della regola del catalogo"
+title: 'MDVA-39229: errore dopo l''aggiornamento dell''ora di inizio dell''aggiornamento della gestione temporanea della regola del catalogo'
 description: La patch di MDVA-39229 risolve il problema relativo all'errore restituito dagli utenti dopo l'aggiornamento dell'ora di inizio dell'aggiornamento della gestione temporanea delle regole del catalogo. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5. L'ID della patch è MDVA-39229. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: b9a203af-693d-4253-877b-591ae5f388d3
 feature: Catalog Management, Staging

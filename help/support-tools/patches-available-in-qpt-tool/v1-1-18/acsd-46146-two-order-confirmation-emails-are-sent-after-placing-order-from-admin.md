@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46146: due e-mail di conferma dell’ordine inviate dopo aver effettuato l’ordine dall’amministratore"
+title: 'ACSD-46146: due e-mail di conferma dell’ordine inviate dopo l’ordine dall’amministratore'
 description: La patch ACSD-46146 risolve il problema relativo all’invio di due e-mail di conferma dell’ordine dopo aver effettuato un ordine dall’amministratore. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18. L’ID della patch è ACSD-46146. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 exl-id: 3bf2cccf-7a40-48ca-ab51-ffb5939f8802
 feature: Admin Workspace, Communications, Orders

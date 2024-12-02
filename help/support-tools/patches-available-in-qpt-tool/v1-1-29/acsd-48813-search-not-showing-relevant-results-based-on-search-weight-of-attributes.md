@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48813: la ricerca non mostra risultati rilevanti in base al peso degli attributi di ricerca"
+title: 'ACSD-48813: la ricerca non mostra risultati rilevanti in base al peso degli attributi della ricerca'
 description: Applica la patch ACSD-48813 per risolvere il problema di Adobe Commerce, in cui la ricerca non mostra risultati rilevanti in base al peso della ricerca degli attributi.
 exl-id: 089e3ab3-0dfa-4f81-85c7-f6060f326d97
 feature: Admin Workspace, Attributes, Search

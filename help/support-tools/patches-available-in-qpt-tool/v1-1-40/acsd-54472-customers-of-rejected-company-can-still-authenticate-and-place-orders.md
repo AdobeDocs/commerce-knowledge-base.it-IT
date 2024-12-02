@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54472: i clienti di un’azienda rifiutata possono ancora eseguire l’autenticazione"
+title: 'ACSD-54472: i clienti di un’azienda rifiutata possono ancora eseguire l’autenticazione'
 description: Applicare la patch ACSD-54472 per risolvere il problema di Adobe Commerce, in cui i clienti di una società rifiutata possono ancora autenticarsi e i clienti di una società bloccata e rifiutata possono ancora effettuare ordini.
 feature: B2B
 role: Admin, Developer

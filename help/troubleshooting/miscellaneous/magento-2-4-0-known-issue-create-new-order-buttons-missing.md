@@ -1,5 +1,5 @@
 ---
-title: "Problema noto di Adobe Commerce 2.4.0: pulsanti Crea nuovo ordine mancanti"
+title: 'Problema noto di Adobe Commerce 2.4.0: pulsanti Crea nuovo ordine mancanti'
 description: Questo articolo fornisce una soluzione alternativa a un problema noto in Commerce Admin per due pulsanti mancanti nella pagina di creazione dell’ordine. Durante la creazione di un nuovo ordine per un cliente nuovo o esistente, non è possibile aggiungere prodotti all’ordine dal catalogo perché mancano i pulsanti **Aggiungi prodotti per SKU** e **Aggiungi prodotti**. La causa è l’attivazione del bundling JS. Una correzione sarà disponibile in Adobe Commerce 2.4.1.
 exl-id: 24ae880e-6d74-4444-9165-2744b12af81a
 feature: B2B

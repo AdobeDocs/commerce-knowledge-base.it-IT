@@ -1,5 +1,5 @@
 ---
-title: '''[!DNL MySQL] spazio su disco insufficiente in Adobe Commerce sull''infrastruttura cloud'''
+title: Spazio su disco [!DNL MySQL] insufficiente in Adobe Commerce sull'infrastruttura cloud
 description: In questo articolo vengono fornite soluzioni per i casi in cui lo spazio su Adobe Commerce nell'infrastruttura cloud è molto limitato o assente.  [!DNL MySQL]  I sintomi possono includere interruzioni del sito, impossibilità per i clienti di aggiungere prodotti al carrello, impossibilità di connettersi al database, accesso al database in remoto e impossibilità di SSH nel nodo. I sintomi includono anche Galera, sincronizzazione dell’ambiente, PHP, database ed errori di distribuzione come elencato di seguito. Fare clic su [Soluzione](https://support.magento.com/hc/en-us/articles/360058472572#solution) per passare direttamente alla sezione della soluzione.
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services

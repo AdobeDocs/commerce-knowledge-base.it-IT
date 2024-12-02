@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56246: la pianificazione degli aggiornamenti dei prodotti cancella i valori degli attributi a selezione multipla"
+title: 'ACSD-56246: la pianificazione degli aggiornamenti dei prodotti cancella i valori degli attributi a selezione multipla'
 description: Applica la patch ACSD-56246 per risolvere il problema di Adobe Commerce per cui la pianificazione degli aggiornamenti dei prodotti cancella i valori degli attributi a selezione multipla.
 feature: Products, Attributes, Staging
 role: Admin, Developer

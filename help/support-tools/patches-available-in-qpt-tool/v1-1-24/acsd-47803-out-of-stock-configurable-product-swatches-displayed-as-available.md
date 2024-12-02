@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47803: campioni di prodotto configurabili esauriti visualizzati come disponibili"
+title: 'ACSD-47803: campioni di prodotto configurabili esauriti visualizzati come disponibili'
 description: Applica la patch ACSD-47803 per risolvere il problema di Adobe Commerce, se i campioni di prodotto configurabili esauriti vengono visualizzati come disponibili.
 exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
 feature: Configuration, Orders, Products

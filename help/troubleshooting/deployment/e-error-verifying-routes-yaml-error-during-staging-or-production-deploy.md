@@ -1,6 +1,6 @@
 ---
-title: "E: Errore durante la verifica dell’errore route.yaml durante la distribuzione di staging o produzione"
-description: '"Questo articolo fornisce una soluzione per il problema dell’infrastruttura cloud di Adobe Commerce, in cui viene visualizzato il messaggio di errore *"E: Error while verifying route.yaml"* (Errore durante la verifica delle route.yaml) durante il tentativo di distribuire il progetto nell''ambiente di staging o di produzione."'
+title: 'E: Errore durante la verifica dell’errore route.yaml durante la distribuzione di staging o produzione'
+description: 'Questo articolo fornisce una soluzione per il problema dell’infrastruttura cloud di Adobe Commerce, in cui viene visualizzato il messaggio di errore *"E: Error while verifying route.yaml"* (Errore durante la verifica delle route.yaml) durante il tentativo di distribuire il progetto nell''ambiente di staging o di produzione.'
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer

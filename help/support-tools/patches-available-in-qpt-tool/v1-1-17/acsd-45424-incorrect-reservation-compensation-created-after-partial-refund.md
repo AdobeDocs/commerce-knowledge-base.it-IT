@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45424: Compensazione prenotazione errata creata dopo rimborso parziale"
+title: 'ACSD-45424: Compensazione prenotazione errata creata dopo rimborso parziale'
 description: La patch ACSD-45424 risolve il problema che comporta la creazione di una compensazione della prenotazione non corretta dopo un rimborso parziale. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17. L’ID della patch è ACSD-45424. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 exl-id: 0676cfda-a28e-4a66-a75b-8a3fc5e22566
 feature: Orders

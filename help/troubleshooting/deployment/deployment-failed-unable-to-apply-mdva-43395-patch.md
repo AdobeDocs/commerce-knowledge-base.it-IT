@@ -1,5 +1,5 @@
 ---
-title: "Distribuzione non riuscita: impossibile applicare la patch MDVA-43395"
+title: 'Distribuzione non riuscita: impossibile applicare la patch MDVA-43395'
 description: Questo articolo fornisce una soluzione al problema, in cui il tentativo di applicare la patch MDVA-43395 genera una distribuzione non riuscita.
 exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
 feature: Deploy

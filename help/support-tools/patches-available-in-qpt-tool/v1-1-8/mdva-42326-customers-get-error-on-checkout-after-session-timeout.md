@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42326: i clienti ricevono un errore al momento dell'estrazione dopo il timeout della sessione"
+title: 'MDVA-42326: i clienti ricevono un errore al momento dell''estrazione dopo il timeout della sessione'
 description: La patch di MDVA-42326 risolve il problema relativo all'errore che i clienti ricevono al momento del pagamento dopo il timeout della sessione, anche se il carrello acquisti persistente è abilitato. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8. L'ID della patch è MDVA-42326. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: bc9b71de-510d-4c4e-8b0d-9abf9a3e447f
 feature: Checkout, Orders

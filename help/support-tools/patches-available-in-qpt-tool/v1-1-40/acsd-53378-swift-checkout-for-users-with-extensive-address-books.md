@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53378: esperienza di pagamento migliorata per i clienti con rubriche estese"
+title: 'ACSD-53378: esperienza di pagamento migliorata per i clienti con rubriche estese'
 description: Applica la patch ACSD-53378 per risolvere il problema Adobe Commerce in presenza di problemi di prestazioni causati da grandi volumi di indirizzi dei clienti.
 feature: Customers, Checkout
 role: Admin

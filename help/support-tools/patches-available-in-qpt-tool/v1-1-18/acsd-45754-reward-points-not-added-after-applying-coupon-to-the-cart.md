@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45754: punti premio non aggiunti dopo l’applicazione del coupon al carrello"
+title: 'ACSD-45754: punti premio non aggiunti dopo l’applicazione del coupon al carrello'
 description: La patch ACSD-45754 risolve il problema in cui i punti premio non vengono aggiunti dopo l’applicazione di un coupon al carrello. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18. L’ID della patch è ACSD-45754. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 exl-id: 957713c0-3e2e-4dc9-8924-2ae84c817e47
 feature: Orders, Rewards, Shopping Cart

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-46767: le cache di pagina [!UICONTROL Category] annullano la validità quando cambia la quantità di scorte"
+title: 'ACSD-46767: [!UICONTROL Category] le cache di pagina invalidano quando cambia la quantità di azioni'
 description: Applicare la patch ACSD-46767 per risolvere il problema di Adobe Commerce, in cui le cache di pagina [!UICONTROL Category] annullano la validità quando cambia la quantità di magazzino, anche se il prodotto è ancora in magazzino.
 feature: Cache, Products, Inventory
 role: Admin, Developer

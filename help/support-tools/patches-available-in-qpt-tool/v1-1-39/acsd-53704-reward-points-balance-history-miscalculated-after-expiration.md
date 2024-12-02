@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53704: cronologia del saldo dei punti premio non calcolata correttamente dopo la scadenza"
+title: 'ACSD-53704: storico saldo punti premio non calcolato correttamente dopo la scadenza'
 description: Applica la patch ACSD-53704 per risolvere il problema Adobe Commerce per cui la cronologia dei saldi dei punti premio viene calcolata in modo errato dopo la data di scadenza dei punti premio.
 feature: Rewards
 role: Admin, Developer

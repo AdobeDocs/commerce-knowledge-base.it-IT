@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-51666: errore "La sessione è scaduta, effettua di nuovo l’accesso." dopo l’accesso'
+title: 'ACSD-51666: errore "La sessione è scaduta, effettua di nuovo l’accesso." dopo l’accesso'
 description: Applica la patch ACSD-51666 per risolvere il problema Adobe Commerce in cui l’errore *La sessione è scaduta. Accedi di nuovo.* si verifica dopo il tentativo di accesso.
 feature: Customers
 role: Admin, Developer

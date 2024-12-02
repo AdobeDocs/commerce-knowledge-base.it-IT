@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39384: impossibile salvare l'attributo cliente personalizzato per l'utente della società"
+title: 'MDVA-39384: impossibile salvare l''attributo cliente personalizzato per l''utente della società'
 description: La patch MDVA-39384 risolve il problema che impedisce il salvataggio dell'attributo cliente personalizzato per un utente aziendale. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-39384. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: b9864ca6-307b-4649-b764-4512abc503d3
 feature: Attributes, B2B, Companies

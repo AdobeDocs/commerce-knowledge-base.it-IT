@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52287: lo stato degli ordini archiviati non cambia"
+title: 'ACSD-52287: lo stato degli ordini archiviati non cambia'
 description: Applicare la patch ACSD-52287 per risolvere il problema Adobe Commerce, in cui lo stato degli ordini archiviati non cambia da *completato* a *chiuso* sulla griglia dopo l'invio della nota di credito.
 feature: Orders, Checkout
 role: Admin, Developer

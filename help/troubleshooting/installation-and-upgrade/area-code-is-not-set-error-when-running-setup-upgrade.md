@@ -1,5 +1,5 @@
 ---
-title: '"Errore "Indicativo di località non impostato" durante l''esecuzione di setup:upgrade"'
+title: Errore "Indicativo località non impostato" durante l'esecuzione di setup:upgrade
 description: Questo articolo fornisce una patch per il problema noto di Adobe Commerce on cloud infrastructure 2.2.3 relativo all’errore *Area code is not set* (Il codice di area non è impostato) durante l’esecuzione del comando setup:upgrade.
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade
@@ -51,6 +51,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
 
 ## File allegati

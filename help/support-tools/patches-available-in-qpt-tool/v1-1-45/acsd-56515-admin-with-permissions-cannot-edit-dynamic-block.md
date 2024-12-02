@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56515: l'amministratore con autorizzazioni a livello di sito Web non può modificare [!UICONTROL Dynamic Block]"
+title: 'ACSD-56515: l''amministratore con autorizzazioni a livello di sito Web non può modificare [!UICONTROL Dynamic Block]'
 description: Applicare la patch ACSD-56515 per risolvere il problema di Adobe Commerce che impedisce all'amministratore con autorizzazioni a livello di sito Web di aggiungere o modificare [!UICONTROL Dynamic Block].
 feature: Roles/Permissions, Admin Workspace
 role: Admin, Developer

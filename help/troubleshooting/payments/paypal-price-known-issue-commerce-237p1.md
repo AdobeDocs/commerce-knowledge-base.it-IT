@@ -1,6 +1,6 @@
 ---
-title: "Adobe Commerce 2.3.7-p1 problema noto: totale ordini obsoleti per PayPal"
-description: "Questo articolo fornisce una patch per un problema noto in Adobe Commerce 2.3.7-p1: quando si utilizza PayPal Checkout più di una volta i clienti ottengono il prodotto ordinato in precedenza nel carrello, invece di quello nuovo che stanno cercando di ordinare."
+title: 'Adobe Commerce 2.3.7-p1 problema noto: totale ordini obsoleti per PayPal'
+description: 'Questo articolo fornisce una patch per un problema noto in Adobe Commerce 2.3.7-p1: quando si utilizza PayPal Checkout più di una volta i clienti ottengono il prodotto ordinato in precedenza nel carrello, invece di quello nuovo che stanno cercando di ordinare.'
 exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
 feature: Orders, Payments
 role: Developer
@@ -60,4 +60,4 @@ Utilizzare il seguente collegamento per scaricare un file .zip contenente la pat
 ## Come applicare i cerotti
 
 1. Decomprimi il file .zip scaricato.
-1. Per ulteriori istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+1. Per ulteriori istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).

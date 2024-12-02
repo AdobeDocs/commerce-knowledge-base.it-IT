@@ -1,5 +1,5 @@
 ---
-title: "Aggiornamento del compositore non riuscito in Adobe Commerce: tipo di argomento non compatibile"
+title: 'Aggiornamento del compositore non riuscito in Adobe Commerce: tipo di argomento non compatibile'
 description: Questo articolo fornisce una soluzione per i casi in cui la distribuzione è bloccata a causa di un problema con la compilazione del codice. Questo problema è causato da una nuova versione della dipendenza di symfony/console (4.4.27, 4.4.28).
 exl-id: ba2dd229-29f6-43e2-9467-8bd1bf59e6ef
 feature: Console

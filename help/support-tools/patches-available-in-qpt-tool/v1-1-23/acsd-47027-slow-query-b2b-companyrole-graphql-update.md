@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47027: query lenta B2B [!UICONTROL CompanyRole] [!DNL GraphQL] aggiornamento"
+title: 'ACSD-47027: aggiornamento B2B [!UICONTROL CompanyRole] [!DNL GraphQL]  con query lenta'
 description: Applica la patch ACSD-47027 per risolvere il problema di Adobe Commerce in presenza di un aggiornamento B2B [!UICONTROL CompanyRole] [!DNL GraphQL]  lento per la query.
 exl-id: 478ae16b-7722-4469-8f8a-a38820e61ae4
 feature: B2B, Companies, GraphQL, Roles/Permissions

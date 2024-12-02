@@ -1,6 +1,6 @@
 ---
 title: Risolvere i problemi relativi alle prestazioni con New Relic su Adobe Commerce
-description: '"Questo articolo descrive i passaggi per la risoluzione dei problemi relativi alle prestazioni dell’infrastruttura cloud di Adobe Commerce tramite New Relic. Fornisce inoltre risorse per ulteriori informazioni. Elenco dei problemi. Fai clic per visualizzare i passaggi di risoluzione dei problemi nella knowledge base di supporto:'''
+description: 'Questo articolo descrive i passaggi per la risoluzione dei problemi relativi alle prestazioni dell’infrastruttura cloud di Adobe Commerce tramite New Relic. Fornisce inoltre risorse per ulteriori informazioni. Elenco dei problemi. Fai clic per visualizzare i passaggi di risoluzione dei problemi nella knowledge base di supporto:'
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-54965: nella griglia [!UICONTROL Visual Merchandising] non viene visualizzato lo stock corretto"
+title: 'ACSD-54965: nella griglia [!UICONTROL Visual Merchandising] non viene visualizzato il titolo corretto'
 description: Applicare la patch ACSD-54965 per risolvere il problema di Adobe Commerce per cui nella griglia [!UICONTROL Visual Merchandising] non viene visualizzato il titolo corretto quando un prodotto viene assegnato a un titolo personalizzato.
 feature: Merchandising, Categories
 role: Admin, Developer

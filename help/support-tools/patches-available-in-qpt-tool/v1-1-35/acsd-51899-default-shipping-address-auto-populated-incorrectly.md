@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51899: l’indirizzo di spedizione predefinito non è stato popolato correttamente"
+title: 'ACSD-51899: l''indirizzo di spedizione predefinito non viene compilato correttamente automaticamente'
 description: Applica la patch ACSD-51899 per risolvere il problema di Adobe Commerce, in cui l’indirizzo di spedizione predefinito viene popolato automaticamente con un indirizzo errato.
 feature: Checkout
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49960: il filtro per data non funziona per la griglia dell’ordine del cliente"
+title: 'ACSD-49960: il filtro per data non funziona per la griglia dell''ordine cliente'
 description: Applica la patch ACSD-49960 per risolvere il problema di Adobe Commerce per il quale il filtro per data non funziona per la griglia degli ordini del cliente.
 exl-id: 483479f4-2688-4ff5-bbf3-bfd577a0c641
 feature: Admin Workspace, Orders

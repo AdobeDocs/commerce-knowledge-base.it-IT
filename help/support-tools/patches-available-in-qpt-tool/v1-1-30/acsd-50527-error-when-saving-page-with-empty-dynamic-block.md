@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50527: errore durante il salvataggio di una pagina con blocco dinamico vuoto"
+title: 'ACSD-50527: errore durante il salvataggio di una pagina con blocco dinamico vuoto'
 description: Applica la patch ACSD-50527 per risolvere il problema di Adobe Commerce in cui si verifica un errore durante il salvataggio di una pagina con un blocco dinamico vuoto.
 exl-id: 419201f4-7721-47ee-9692-127145f85496
 feature: Page Content

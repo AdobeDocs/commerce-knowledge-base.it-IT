@@ -1,5 +1,5 @@
 ---
-title: "Problema noto di Adobe Commerce 2.3.5: ordini di prodotti virtuali con più spedizioni"
+title: 'Problema noto di Adobe Commerce 2.3.5: ordini di prodotti virtuali con più spedizioni'
 description: Questo articolo spiega un problema noto in Adobe Commerce 2.3.5 in cui un ordine di spedizione multipla contenente un prodotto virtuale non viene elaborato correttamente.
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery

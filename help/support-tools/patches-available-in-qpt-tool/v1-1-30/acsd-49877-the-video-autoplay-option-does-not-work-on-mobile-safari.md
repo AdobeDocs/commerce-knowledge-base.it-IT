@@ -1,5 +1,5 @@
 ---
-title: "ACSD-49877: la riproduzione automatica video non funziona su dispositivi mobili [!DNL Safari]"
+title: 'ACSD-49877: la riproduzione automatica video non funziona su dispositivi mobili [!DNL Safari]'
 description: Applica la patch ACSD-49877 per risolvere il problema di Adobe Commerce per cui l'opzione di riproduzione automatica video non funziona su dispositivi mobili [!DNL Safari] quando il video è collegato direttamente a un file video remoto.
 exl-id: 454f7cec-29b9-485b-93be-2a4f2eb77da7
 feature: CMS

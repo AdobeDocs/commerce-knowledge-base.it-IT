@@ -1,6 +1,6 @@
 ---
-title: "Errore cURL 60: certificato SSL scaduto"
-description: "Questo articolo mostra come verificare quando è stata distribuita l’ultima volta un ramo dopo aver ricevuto un errore cURL 60: certificato SSL scaduto nei rami Principale o Integrazione in Adobe Commerce sull’infrastruttura cloud."
+title: 'Errore cURL 60: certificato SSL scaduto'
+description: 'Questo articolo mostra come verificare quando è stata distribuita l’ultima volta un ramo dopo aver ricevuto un errore cURL 60: certificato SSL scaduto nei rami Principale o Integrazione su Adobe Commerce nell’infrastruttura cloud.'
 exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 feature: Configuration
 role: Developer

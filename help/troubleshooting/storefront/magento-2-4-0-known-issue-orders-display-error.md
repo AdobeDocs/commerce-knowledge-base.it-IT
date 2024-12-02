@@ -1,6 +1,6 @@
 ---
-title: "Problema noto di Adobe Commerce 2.4.0: errore di visualizzazione degli ordini"
-description: '"Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce per un errore di visualizzazione degli ordini. Quando i clienti connessi esaminano i propri ordini nel menu **My Account** (**My Account &gt; My Orders**), la griglia degli ordini non è in grado di portare il numero di ordini per pagina a 20 dalla pagina 2 quando sono presenti 11 ordini. Inoltre, se ci sono più ordini di quelli configurati per la visualizzazione per pagina, quando si passa all’ultima pagina con gli ordini, la modifica del numero di ordini mostrati per pagina genera il messaggio di errore: *Non hai effettuato alcun ordine*. Questo problema verrà risolto in Adobe Commerce 2.4.1.'''
+title: 'Problema noto di Adobe Commerce 2.4.0: errore di visualizzazione degli ordini'
+description: 'Questo articolo fornisce una soluzione alternativa per un problema noto in Adobe Commerce per un errore di visualizzazione degli ordini. Quando i clienti connessi esaminano i propri ordini nel menu **My Account** (**My Account &gt; My Orders**), la griglia degli ordini non è in grado di portare il numero di ordini per pagina a 20 dalla pagina 2 quando sono presenti 11 ordini. Inoltre, se ci sono più ordini di quelli configurati per la visualizzazione per pagina, quando si passa all’ultima pagina con gli ordini, la modifica del numero di ordini mostrati per pagina genera il messaggio di errore: *Non hai effettuato alcun ordine*. Questo problema verrà risolto in Adobe Commerce 2.4.1.'
 exl-id: a6d300e1-1cbc-42b9-997d-d72f8765517b
 feature: B2B, Categories, Storefront
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: "MDVA-27456: gli utenti ricevono un errore durante il caricamento di Swagger"
+title: 'MDVA-27456: errore durante il caricamento di Swagger'
 description: La patch di MDVA-27456 risolve il problema relativo all'errore che si verifica quando si tenta di caricare Swagger. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L'ID della patch è MDVA-27456. Il problema è stato risolto in Adobe Commerce 2.3.7.
 exl-id: e331595f-a94b-4070-803a-60f559735b29
 feature: Tools and External Services

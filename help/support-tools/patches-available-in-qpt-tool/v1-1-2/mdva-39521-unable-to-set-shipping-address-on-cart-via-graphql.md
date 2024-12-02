@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39521: impossibile impostare l'indirizzo di spedizione nei carrelli tramite GraphQL"
+title: 'MDVA-39521: impossibile impostare l''indirizzo di spedizione nei carrelli tramite GraphQL'
 description: La patch MDVA-39521 risolve il problema che impediva all'utente di impostare l'indirizzo di spedizione sui carrelli con un numero di telefono vuoto tramite GraphQL. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-39521. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: b6bb4e83-ba65-4f15-82be-1252d9beb2fb
 feature: GraphQL, Orders, Shipping/Delivery, Shopping Cart

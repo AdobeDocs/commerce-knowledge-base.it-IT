@@ -1,6 +1,6 @@
 ---
 title: Problemi relativi al controllo di preparazione al problema
-description: '"Questo articolo fornisce soluzioni per i problemi di preparazione alla cron. I seguenti sono sintomi di problemi di cron:'''
+description: 'Questo articolo fornisce soluzioni per i problemi di preparazione alla cron. Di seguito sono riportati i sintomi di problemi di cron:'
 exl-id: 1f2cee2c-98ad-4cf5-af16-d736fced2a15
 feature: Configuration
 role: Developer

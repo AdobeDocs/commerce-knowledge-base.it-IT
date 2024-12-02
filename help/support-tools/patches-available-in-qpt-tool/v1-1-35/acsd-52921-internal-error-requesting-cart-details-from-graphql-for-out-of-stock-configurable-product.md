@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52921: errore durante la richiesta dei dettagli del carrello a GraphQL per un prodotto configurabile esaurito"
+title: 'ACSD-52921: errore nella richiesta dei dettagli del carrello a GraphQL per un prodotto configurabile esaurito'
 description: Applica la patch ACSD-52921 per risolvere il problema di Adobe Commerce in cui si verifica un errore interno nel richiedere i dettagli del carrello a GraphQL per un prodotto configurabile esaurito.
 feature: GraphQL, Configuration, Products, Shopping Cart
 role: Admin

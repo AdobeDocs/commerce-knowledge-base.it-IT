@@ -1,5 +1,5 @@
 ---
-title: "MDVA-42969: la regola di prodotto correlata funziona solo quando il segmento del cliente è impostato su tutti"
+title: 'MDVA-42969: la regola di prodotto correlata funziona solo quando il segmento del cliente è impostato su tutti'
 description: La patch MDVA-42969 risolve il problema relativo al funzionamento della regola prodotto correlata solo quando il segmento cliente è impostato su all. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L'ID della patch è MDVA-42969. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 2877ba7a-2681-4de2-9c37-228de232424f
 feature: Customer Service, Marketing Tools, Products

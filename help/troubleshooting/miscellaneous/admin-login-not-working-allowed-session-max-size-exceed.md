@@ -1,5 +1,5 @@
 ---
-title: Accesso '[!DNL Admin]' non funzionante. Dimensione massima sessione consentita superata
+title: Accesso [!DNL Admin] non funzionante - dimensione massima sessione consentita superata
 description: Risolvi il problema quando tenti di accedere al tuo pannello  [!DNL Admin]  e il modulo viene aggiornato e non riesci ad accedere.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
 source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1

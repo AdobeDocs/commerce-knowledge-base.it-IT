@@ -1,5 +1,5 @@
 ---
-title: "ACSD-51845: impossibile aggiornare i prodotti successivi con prezzi di livello e set di attributi diversi tramite massa asincrona [!DNL API]"
+title: 'ACSD-51845: impossibile aggiornare i prodotti successivi con prezzi di livello e set di attributi diversi tramite massa asincrona [!DNL API]'
 description: Applicare la patch ACSD-51845 per risolvere il problema di Adobe Commerce che impedisce l'aggiornamento dei prodotti successivi con prezzi di livello e set di attributi diversi tramite massa asincrona [!DNL REST API].
 feature: REST, Products
 role: Admin

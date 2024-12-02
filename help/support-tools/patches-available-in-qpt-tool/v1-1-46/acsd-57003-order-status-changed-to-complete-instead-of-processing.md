@@ -1,5 +1,5 @@
 ---
-title: "ACSD-57003: lo stato dell’ordine viene modificato in *Complete* invece di essere modificato in *Processing*"
+title: 'ACSD-57003: lo stato dell’ordine viene modificato in *Complete* anziché in *Processing*'
 description: Applica la patch ACSD-57003 per risolvere il problema Adobe Commerce, se lo stato dell’ordine cambia in *Complete* (Completato) invece di cambiare in *Processing* (Elaborazione).
 feature: Orders, Invoices, Shipping/Delivery
 role: Admin, Developer

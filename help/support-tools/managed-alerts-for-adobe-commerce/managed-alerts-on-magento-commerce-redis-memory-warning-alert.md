@@ -1,6 +1,6 @@
 ---
-title: "Avvisi gestiti su Adobe Commerce: avviso di memoria Redis"
-description: '"Questo articolo descrive i passaggi per la risoluzione dei problemi relativi a quando ricevi un avviso di Redis per Adobe Commerce in New Relic. Per risolvere il problema è necessaria un''azione immediata. L’avviso avrà un aspetto simile al seguente, a seconda del canale di notifica dell’avviso selezionato:’'
+title: 'Avvisi gestiti su Adobe Commerce: avviso di memoria Redis'
+description: 'Questo articolo descrive i passaggi per la risoluzione dei problemi relativi a quando ricevi un avviso di Redis per Adobe Commerce in New Relic. Per risolvere il problema è necessaria un''azione immediata. L’avviso avrà un aspetto simile al seguente, a seconda del canale di notifica dell’avviso selezionato:'
 exl-id: b7867a42-3817-4cb4-93cf-d69acee33a41
 feature: Categories, Marketing Tools, Observability, Services, Support, Tools and External Services, Variables
 role: Admin

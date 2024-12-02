@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52095: errore durante l’esportazione del file CSV durante la gestione del valore delle azioni"
+title: 'ACSD-52095: errore nella gestione del valore delle azioni durante l’esportazione del file CSV'
 description: Applica la patch ACSD-52095 per risolvere il problema Adobe Commerce in cui il valore delle azioni di gestione del prodotto non è corretto durante l’esportazione del file CSV.
 feature: Inventory, Products
 role: Admin, Developer

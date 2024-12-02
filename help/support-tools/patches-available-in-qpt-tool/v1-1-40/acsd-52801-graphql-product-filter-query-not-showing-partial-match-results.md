@@ -1,5 +1,5 @@
 ---
-title: "ACSD-52801: la query del filtro prodotti GraphQL non mostra risultati di corrispondenza parziali"
+title: 'ACSD-52801: la query del filtro prodotti GraphQL non mostra risultati di corrispondenza parziali'
 description: Applica la patch ACSD-52801 per risolvere il problema di Adobe Commerce, a causa del quale la query del filtro prodotti GraphQL non mostra risultati con corrispondenza parziale.
 feature: Products
 role: Admin, Developer

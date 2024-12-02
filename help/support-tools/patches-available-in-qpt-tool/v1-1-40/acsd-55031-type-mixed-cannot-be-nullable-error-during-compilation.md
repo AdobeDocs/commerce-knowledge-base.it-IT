@@ -1,5 +1,5 @@
 ---
-title: '"ACSD-55031: errore "Type "mixed" non può essere nullable" durante la compilazione"'
+title: 'ACSD-55031: errore "Type "mixed" non può essere nullable" durante la compilazione'
 description: Applica la patch ACSD-55031 per risolvere il problema di Adobe Commerce, in cui l’errore *Type "mixed" non può essere nullable* durante la compilazione dopo l’installazione di un’estensione personalizzata.
 feature: Extensions
 role: Admin, Developer

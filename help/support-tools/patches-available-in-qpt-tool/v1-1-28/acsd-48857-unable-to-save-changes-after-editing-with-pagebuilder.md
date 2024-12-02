@@ -36,7 +36,7 @@ L&#39;utente non è in grado di salvare le modifiche dopo averle modificate con 
 <u>Passaggi da riprodurre</u>
 
 1. Accedi al sito web dell’amministratore.
-1. Passa a **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** per creare una pagina CMS vuota.
+1. Passare a **[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Pages]** per creare una pagina CMS vuota.
 1. Eseguire questo script SQL per impostare il seguente valore di campo **[!UICONTROL Content]**:
 
    ```SQL

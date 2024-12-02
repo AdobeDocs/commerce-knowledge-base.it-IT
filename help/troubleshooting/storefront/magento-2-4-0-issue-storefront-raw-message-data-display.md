@@ -1,5 +1,5 @@
 ---
-title: "Problema Adobe Commerce 2.4.0: visualizzazione dei dati dei messaggi non elaborati in vetrina"
+title: 'problema Adobe Commerce 2.4.0: visualizzazione dei dati dei messaggi non elaborati in vetrina'
 description: Questo articolo fornisce una soluzione al problema quando tutti i messaggi di errore nella vetrina vengono visualizzati con un segno "+" invece di uno spazio. Questa soluzione consente ai messaggi di errore di rimanere leggibili.
 exl-id: f44fe434-a320-4e7e-a876-9575921749f3
 feature: Storefront

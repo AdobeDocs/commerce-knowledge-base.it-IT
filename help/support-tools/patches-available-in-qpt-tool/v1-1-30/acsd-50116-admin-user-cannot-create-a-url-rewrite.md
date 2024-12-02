@@ -1,5 +1,5 @@
 ---
-title: "ACSD-50116: un utente amministratore non può creare una riscrittura URL per le sottocategorie di livello tre o inferiore"
+title: 'ACSD-50116: un utente amministratore non può creare una riscrittura URL per le sottocategorie di livello tre o inferiore'
 description: Applica la patch ACSD-50116 per risolvere il problema di Adobe Commerce, a causa del quale un utente amministratore non può creare una riscrittura URL per le sottocategorie di livello 3 o inferiore.
 exl-id: 3fa8ebc1-b55d-437e-9dc7-bf6c300b9bbe
 feature: Admin Workspace, Categories

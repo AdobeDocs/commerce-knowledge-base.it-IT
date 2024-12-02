@@ -1,5 +1,5 @@
 ---
-title: "PWA Studio: le query Venia GraphQL in Adobe Commerce generano errori di convalida"
+title: 'PWA Studio: le query di Venia GraphQL su Adobe Commerce generano errori di convalida'
 description: Questo articolo fornisce consigli su come risolvere il problema in cui le query Venia storefront GraphQL nell’istanza Adobe Commerce producono errori di convalida.
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL

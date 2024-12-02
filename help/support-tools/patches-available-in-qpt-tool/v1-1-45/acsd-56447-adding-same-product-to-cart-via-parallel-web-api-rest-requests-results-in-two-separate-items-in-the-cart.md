@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56447: l’aggiunta dello stesso prodotto al carrello tramite web parallelo API REST risulta in due elementi separati nel carrello"
+title: 'ACSD-56447: l’aggiunta dello stesso prodotto al carrello tramite API REST web parallelo determina due elementi separati nel carrello'
 description: Applica la patch ACSD-56447 per risolvere il problema di Adobe Commerce, in cui l’aggiunta dello stesso prodotto al carrello tramite richieste API REST web parallele genera due elementi separati nel carrello.
 feature: Shopping Cart, REST
 role: Admin, Developer

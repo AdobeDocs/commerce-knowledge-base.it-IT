@@ -1,6 +1,6 @@
 ---
 title: Errori di distribuzione in cui non sono state trovate patch
-description: "Questo articolo fornisce una soluzione al problema relativo a un errore *Le patch successive non sono state trovate: MDVA-XXXXX, ACSD-XXXXX. Verificare con il comando 'status' la disponibilità di queste patch per la versione corrente del Magento*."
+description: 'Questo articolo fornisce una soluzione al problema relativo a un errore *Le patch successive non sono state trovate: MDVA-XXXXX, ACSD-XXXXX. Verificare con il comando ''stato'' la disponibilità di queste patch per la versione corrente del Magento*.'
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
 source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt

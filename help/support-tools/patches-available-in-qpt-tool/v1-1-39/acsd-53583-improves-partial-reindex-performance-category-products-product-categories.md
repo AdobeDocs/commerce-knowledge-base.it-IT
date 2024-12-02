@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53583: migliorare le prestazioni di reindicizzazione parziale per [!UICONTROL Category Products] e [!UICONTROL Product Categories] indicizzatori"
+title: 'ACSD-53583: miglioramento delle prestazioni di reindicizzazione parziale per gli indicizzatori [!UICONTROL Category Products] e [!UICONTROL Product Categories]'
 description: Applicare la patch ACSD-53585 per migliorare le prestazioni di reindicizzazione parziale per gli indici Categoria prodotti e Categoria prodotti.
 feature: Products, Categories
 role: Admin, Developer

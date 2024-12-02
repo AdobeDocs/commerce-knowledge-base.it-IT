@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39605: valore TTL della cache Redis (data di scadenza) errato"
+title: 'MDVA-39605: valore TTL della cache Redis (data di scadenza) errato'
 description: La patch MDVA-39605 risolve il problema in cui il valore TTL (data di scadenza) della cache Redis è errato. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13. L'ID della patch è MDVA-39605. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: 7283838b-702d-4ddc-aa03-829dbf5aa91f
 feature: Cache, Console, Services

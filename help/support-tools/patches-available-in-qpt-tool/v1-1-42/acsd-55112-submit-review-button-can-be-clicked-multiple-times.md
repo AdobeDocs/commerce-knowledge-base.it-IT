@@ -1,5 +1,5 @@
 ---
-title: "ACSD-55112: è possibile fare clic più volte sul pulsante [!UICONTROL Sumbit Review]"
+title: 'ACSD-55112: è possibile fare clic più volte sul pulsante [!UICONTROL Sumbit Review]'
 description: Applica la patch ACSD-55112 per risolvere il problema Adobe Commerce, in cui è possibile fare clic più volte sul pulsante [!UICONTROL Submit Review] senza [!DNL Google reCAPTCHA v3] convalida.
 feature: Products
 role: Admin, Developer

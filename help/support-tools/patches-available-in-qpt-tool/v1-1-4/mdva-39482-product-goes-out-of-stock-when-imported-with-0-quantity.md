@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39482: il prodotto esaurisce le scorte se viene importato con la quantità '0' con ordini inevasi abilitati"
+title: 'MDVA-39482: il prodotto esaurisce le scorte se viene importato con la quantità ''0'' con ordini inevasi abilitati'
 description: MDVA-39482 risolve il problema relativo all'esaurimento delle scorte del prodotto importato con quantità pari a "0" quando MSI e gli ordini inevasi sono attivati e la soglia delle scorte esaurite è impostata su un valore meno. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L'ID della patch è MDVA-39482. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 2caf461c-993d-48b3-bc47-3fa1d014deaf
 feature: Data Import/Export, Orders, Products

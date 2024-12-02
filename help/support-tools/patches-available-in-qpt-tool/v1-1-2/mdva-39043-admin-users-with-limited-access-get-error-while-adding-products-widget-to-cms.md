@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39043: errore restituito dagli utenti amministratori durante l'aggiunta del widget alla pagina CMS"
+title: 'MDVA-39043: errore restituito dagli utenti amministratori durante l''aggiunta del widget alla pagina CMS'
 description: La patch MDVA-39043 risolve il problema che causava un errore agli utenti amministratori con accesso limitato durante l'aggiunta del widget "Prodotti" alla pagina CMS. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.2. L'ID della patch è MDVA-39043. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 63057351-e972-4575-9bf0-e818f590b40a
 feature: Admin Workspace, CMS, Products

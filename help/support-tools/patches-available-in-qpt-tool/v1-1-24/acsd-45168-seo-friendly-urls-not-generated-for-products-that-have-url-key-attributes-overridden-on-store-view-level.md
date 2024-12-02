@@ -1,5 +1,5 @@
 ---
-title: "ACSD-45168: URL descrittivi SEO non generati per prodotti con attributi url_key sostituiti"
+title: 'ACSD-45168: URL descrittivi SEO non generati per prodotti con attributi url_key sostituiti'
 description: Applica la patch ACSD-45168 per risolvere il problema di Adobe Commerce, in cui gli URL compatibili con SEO non vengono generati per i prodotti con attributi url_key sostituiti a livello di visualizzazione dello store.
 exl-id: cdba42ac-3c96-439b-befa-f0a13587b5d9
 feature: Attributes, Cache, Categories, Marketing Tools, Products

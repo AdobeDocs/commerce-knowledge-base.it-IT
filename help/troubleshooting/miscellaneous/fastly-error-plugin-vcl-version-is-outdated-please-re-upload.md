@@ -1,5 +1,5 @@
 ---
-title: "Errore rapido: la versione VCL del plug-in è obsoleta. Ricarica"
+title: 'Errore rapido: versione VCL del plug-in obsoleta. Ricarica'
 description: Questo articolo fornisce una soluzione per quando viene visualizzato il messaggio "*La versione VCL del plug-in è obsoleta! Ricarica.*" in Fastly Configuration, nell’amministratore di Commerce, a causa della mancata installazione dell’ultimo modulo Fastly.
 exl-id: d7870e9e-ba6b-49c2-a80c-26fb464cbae3
 feature: Best Practices, Cache

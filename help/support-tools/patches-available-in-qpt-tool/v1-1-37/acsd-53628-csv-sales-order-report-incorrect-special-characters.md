@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53628: il rapporto ordine cliente CSV mostra caratteri speciali non corretti"
+title: 'ACSD-53628: il rapporto ordine cliente CSV mostra caratteri speciali non corretti'
 description: Applicare la patch ACSD-53628 per risolvere il problema Adobe Commerce relativo alla visualizzazione di caratteri speciali non corretti nel rapporto ordine cliente CSV.
 feature: Orders, Data Import/Export
 role: Admin, Developer

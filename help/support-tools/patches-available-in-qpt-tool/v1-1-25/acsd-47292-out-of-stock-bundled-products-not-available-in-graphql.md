@@ -1,5 +1,5 @@
 ---
-title: "ACSD-47292: i prodotti in bundle esauriti non sono disponibili nella risposta GraphQL"
+title: 'ACSD-47292: i prodotti in bundle esauriti non sono disponibili nella risposta di GraphQL'
 description: Applica la patch ACSD-47292 per risolvere il problema di Adobe Commerce per cui i prodotti in bundle esauriti non sono disponibili nella risposta di GraphQL anche se "show out-of-stock products" (Mostra prodotti esauriti) è impostato su Sì.
 exl-id: 377dc62f-d1cd-4292-b25d-53c498b772a9
 feature: Admin Workspace, Categories, GraphQL, Orders, Products

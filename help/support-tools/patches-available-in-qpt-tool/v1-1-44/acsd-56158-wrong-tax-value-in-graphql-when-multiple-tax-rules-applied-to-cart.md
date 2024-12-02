@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56158: valore fiscale errato nella risposta GraphQL quando al carrello sono applicate più regole fiscali"
+title: 'ACSD-56158: valore fiscale errato nella risposta GraphQL quando al carrello vengono applicate più regole fiscali'
 description: Applica la patch ACSD-56158 per risolvere il problema di Adobe Commerce per cui il rendering del valore dell’imposta nella risposta di GraphQL non è corretto quando al carrello vengono applicate più regole fiscali.
 feature: GraphQL, Taxes
 role: Admin, Developer

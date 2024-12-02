@@ -1,11 +1,12 @@
 ---
-title: "ACSD-60303: problema di posizionamento dell’ordine amministratore risolto con la minimizzazione dei HTML abilitata"
+title: 'ACSD-60303: problema di posizionamento dell’ordine amministratore risolto con la minimizzazione dei HTML abilitata'
 description: Applica la patch ACSD-60303 per risolvere il problema di Adobe Commerce, per il quale non è possibile effettuare un ordine dall’amministratore se è abilitata la minimizzazione HTML.
 feature: Orders
 role: Admin, Developer
-source-git-commit: d087c7428307fa2c362986b0569db30618c5233a
+exl-id: 06f7fc4f-8cdc-47c6-a706-52b8e70d66e0
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

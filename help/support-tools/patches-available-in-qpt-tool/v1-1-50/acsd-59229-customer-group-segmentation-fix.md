@@ -1,11 +1,12 @@
 ---
-title: "ACSD-59229: allocazione errata dei dati del gruppo di clienti a causa di un valore X-Magento-Vary obsoleto"
+title: 'ACSD-59229: allocazione errata dei dati del gruppo di clienti a causa di un valore X-Magento-Vary obsoleto'
 description: Applica la patch ACSD-59229 per risolvere il problema di Adobe Commerce, a causa del quale le informazioni relative al Magento del cliente vengono salvate nel segmento errato a causa di un valore X-Group-Vary obsoleto nella richiesta.
 feature: Customers, Personalization, Marketing Tools
 role: Admin, Developer
-source-git-commit: 41d502a85a0cbb4eb8d186e4c1e1256aec3f8740
+exl-id: 090b674a-5103-48cd-9426-41166bf9272c
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---

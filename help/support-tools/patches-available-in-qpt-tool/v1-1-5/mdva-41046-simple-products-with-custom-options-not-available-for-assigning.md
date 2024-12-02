@@ -1,5 +1,5 @@
 ---
-title: "MDVA-41046: prodotti semplici con opzioni personalizzate non disponibili per l’assegnazione"
+title: 'MDVA-41046: prodotti semplici con opzioni personalizzate non disponibili per l''assegnazione'
 description: La patch MDVA-41046 risolve il problema, in cui non sono disponibili prodotti semplici con opzioni personalizzate da assegnare a un prodotto configurabile o raggruppato. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5. L'ID della patch è MDVA-41046. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 01229a69-c72a-4189-9be5-1761073b74ee
 feature: Products

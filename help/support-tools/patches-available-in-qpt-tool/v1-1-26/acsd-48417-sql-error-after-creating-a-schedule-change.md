@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48417: errore SQL dopo la creazione di una modifica della pianificazione"
+title: 'ACSD-48417: errore SQL dopo la creazione di una modifica della pianificazione'
 description: Applicare la patch ACSD-48417 per risolvere il problema di Adobe Commerce che causa un errore SQL dopo la creazione di una modifica della pianificazione per un prodotto e il salvataggio di un altro prodotto.
 exl-id: 2bbf3bb5-dec8-43b3-81f1-be0dc53d1f46
 feature: Storage

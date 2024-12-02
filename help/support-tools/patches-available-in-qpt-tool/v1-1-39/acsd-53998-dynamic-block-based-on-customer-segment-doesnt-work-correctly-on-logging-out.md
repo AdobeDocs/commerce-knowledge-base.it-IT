@@ -1,5 +1,5 @@
 ---
-title: "ACSD-53998: il blocco dinamico basato sul segmento del cliente funziona in modo errato dopo la disconnessione"
+title: 'ACSD-53998: il blocco dinamico basato sul segmento del cliente funziona in modo errato dopo la disconnessione'
 description: Applica la patch ACSD-53998 per risolvere il problema di Adobe Commerce, in cui un blocco dinamico basato su un segmento del cliente non funziona correttamente dopo la disconnessione da un account del cliente.
 feature: Customers, Page Builder, Personalization
 role: Admin, Developer

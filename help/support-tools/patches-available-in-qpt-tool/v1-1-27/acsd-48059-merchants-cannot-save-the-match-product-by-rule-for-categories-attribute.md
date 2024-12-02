@@ -1,5 +1,5 @@
 ---
-title: "ACSD-48059: i commercianti non possono salvare [!UICONTROL Match product by rule] per l'attributo Categories."
+title: 'ACSD-48059: i commercianti non possono salvare [!UICONTROL Match product by rule] per l''attributo Categories.'
 description: Applicare la patch ACSD-48059 per risolvere il problema Adobe Commerce che impedisce ai commercianti di salvare [!UICONTROL Match product by rule] per l'attributo Categories.
 exl-id: 97213157-1b54-4634-9c76-c9ab8fa96e17
 feature: Admin Workspace, Attributes, Categories, Products

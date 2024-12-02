@@ -1,5 +1,5 @@
 ---
-title: "ACSD-58008: la modifica della data di fine come *empty* fa scomparire l’aggiornamento della pianificazione"
+title: 'ACSD-58008: la modifica della data di fine come *empty* fa scomparire l’aggiornamento della pianificazione'
 description: Applica la patch ACSD-58008 per risolvere il problema di Adobe Commerce, per cui la modifica della data di fine come *empty* fa scomparire l’aggiornamento della pianificazione.
 feature: Staging, Page Content
 role: Admin, Developer

@@ -1,6 +1,6 @@
 ---
-title: "ACSD-46213: richiesta di struttura ad albero della categoria limitata a 20 categorie"
-description: '"La patch ACSD-46213 risolve il problema se la richiesta della struttura delle categorie è limitata a 20 categorie. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19. L’ID della patch è ACSD-46213. '''
+title: 'ACSD-46213: richiesta di struttura della categoria limitata a 20 categorie'
+description: 'La patch ACSD-46213 risolve il problema se la richiesta della struttura delle categorie è limitata a 20 categorie. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19. L’ID della patch è ACSD-46213. '
 exl-id: 27a18871-8552-4ecd-9e03-0dc38d037ea0
 feature: Categories
 role: Admin

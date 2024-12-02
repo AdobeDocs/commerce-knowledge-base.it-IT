@@ -1,5 +1,5 @@
 ---
-title: "MDVA-40101: gli oggetti rimangono mini-cart dopo il posizionamento dell'ordine PayPal Express Checkout"
+title: 'MDVA-40101: Gli oggetti rimangono mini-cart dopo il posizionamento dell''ordine PayPal Express Checkout'
 description: La patch MDVA-40101 risolve il problema che impedisce la rimozione degli articoli dal mini-carrello dopo il corretto inserimento dell'ordine tramite PayPal Express Checkout. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L'ID della patch è MDVA-40101. Il problema è stato risolto in Adobe Commerce 2.4.0.
 exl-id: d640dfcd-6fb6-4cc6-8817-3ae19aa59bed
 feature: Checkout, Orders, Payments, Shopping Cart

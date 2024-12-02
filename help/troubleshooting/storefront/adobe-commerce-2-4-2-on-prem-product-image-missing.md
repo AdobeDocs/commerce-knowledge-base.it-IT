@@ -1,5 +1,5 @@
 ---
-title: "Adobe Commerce on-premise 2.4.2: immagine del prodotto mancante"
+title: 'Adobe Commerce on-premise 2.4.2: immagine del prodotto mancante'
 description: Questo articolo descrive un problema noto di Adobe Commerce on-premise 2.4.2 in cui l’immagine del prodotto non viene caricata nella pagina del prodotto. Questo problema è pianificato per essere risolto in una versione futura dopo la versione 2.4.3. Al momento non è disponibile una soluzione, ma come soluzione alternativa puoi disabilitare Nginx per ridimensionare le immagini.
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront

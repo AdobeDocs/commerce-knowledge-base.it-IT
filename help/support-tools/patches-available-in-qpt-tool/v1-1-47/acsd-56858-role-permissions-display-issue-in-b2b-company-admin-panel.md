@@ -1,5 +1,5 @@
 ---
-title: "ACSD-56858: discrepanza nelle autorizzazioni del ruolo nell’amministratore dell’azienda B2B"
+title: 'ACSD-56858: discrepanza nelle autorizzazioni dei ruoli nell’amministratore dell’azienda B2B'
 description: Applica la patch ACSD-56858 per risolvere il problema di Adobe Commerce, in cui le autorizzazioni dei ruoli non vengono visualizzate correttamente per un amministratore aziendale con restrizioni nell’ambiente B2B.
 feature: Companies, B2B, Roles/Permissions
 role: Admin, Developer

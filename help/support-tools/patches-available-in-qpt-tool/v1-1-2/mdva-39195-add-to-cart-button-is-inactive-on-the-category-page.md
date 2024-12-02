@@ -1,5 +1,5 @@
 ---
-title: "MDVA-39195: aggiunta al carrello inattiva nella pagina delle categorie"
+title: 'MDVA-39195: l''opzione Aggiungi al carrello non è attiva nella pagina Categoria'
 description: La patch MDVA-39195 risolve il problema relativo all'inattività del pulsante **Aggiungi al carrello** nella pagina Categoria quando è abilitato il reindirizzamento al carrello. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2. L'ID della patch è MDVA-39195. Il problema è stato risolto in Adobe Commerce 2.4.3.
 exl-id: de434908-e13a-4ab5-abb1-570bcc59c83d
 feature: Categories, Orders, Shopping Cart
