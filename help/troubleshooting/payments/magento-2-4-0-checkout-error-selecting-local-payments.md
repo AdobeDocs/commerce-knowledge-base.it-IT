@@ -1,10 +1,10 @@
 ---
-title: "Adobe Commerce 2.4.0: Errore di estrazione durante la selezione dei pagamenti locali"
-description: "In questo articolo viene illustrata la soluzione di un problema noto in Adobe Commerce durante il pagamento, che si verifica quando viene visualizzato un messaggio di errore durante la selezione di un metodo di pagamento locale per alcuni paesi. Questo accade per i paesi: Belgio, Italia, Paesi Bassi, Polonia e Spagna."
+title: 'Adobe Commerce 2.4.0: Errore di estrazione durante la selezione dei pagamenti locali'
+description: 'Questo articolo descrive una soluzione per un problema noto in Adobe Commerce durante il pagamento, che si verifica quando viene visualizzato un messaggio di errore durante la selezione di un metodo di pagamento locale per alcuni paesi. Ciò si verifica per i paesi: Belgio, Italia, Paesi Bassi, Polonia e Spagna.'
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: a8cc7ad0cb9cb111f5b9636ff18aef3b6ed44329
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Il messaggio di errore &quot;*Non sono attualmente disponibili metodi di pagamen
 
 * Adobe Commerce 2.4.0 è installato.
 * Crea un prodotto e una categoria.
-* Configura [Braintree metodo di pagamento](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html).
+* Configura [Braintree metodo di pagamento](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
 
 <u>Passaggi da riprodurre</u>:
 

@@ -1,10 +1,10 @@
 ---
-title: "MDVA-44147: la richiesta di GraphQL non restituisce gli elenchi di richieste di acquisto"
+title: 'MDVA-44147: la richiesta GraphQL non restituisce gli elenchi di richieste di acquisto'
 description: La patch di MDVA-44147 risolve il problema per cui la richiesta di GraphQL non restituisce gli elenchi delle richieste di acquisto. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14. L'ID della patch è MDVA-44147. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.5.
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -52,7 +52,7 @@ La richiesta di GraphQL non restituisce gli elenchi di richieste.
       </code>
       </pre>
 
-1. Utilizzare la query seguente per recuperare tutti gli elenchi di richieste dal cliente. Utilizza l&#39;intestazione **Authorization** con il valore `Bearer <customer_token>`. Per ulteriori informazioni, consulta l&#39;articolo [Customer Query](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html) nella documentazione per gli sviluppatori.
+1. Utilizzare la query seguente per recuperare tutti gli elenchi di richieste dal cliente. Utilizza l&#39;intestazione **Authorization** con il valore `Bearer <customer_token>`. Per ulteriori informazioni, consulta l&#39;articolo [Customer Query](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/) nella documentazione per gli sviluppatori.
 
    Richiesta:
 

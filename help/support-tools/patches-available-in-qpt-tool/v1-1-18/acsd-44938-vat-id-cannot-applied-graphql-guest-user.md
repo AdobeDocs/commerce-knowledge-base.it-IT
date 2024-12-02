@@ -1,10 +1,10 @@
 ---
-title: "ACSD-44938: VAT_ID non può essere applicato nella richiesta GraphQL per l’utente ospite"
+title: 'ACSD-44938: VAT_ID non può essere applicato nella richiesta GraphQL per l’utente ospite'
 description: La patch ACSD-44938 risolve il problema che impediva l'applicazione del VAT_ID in una richiesta GraphQL per un utente guest. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18. L’ID della patch è ACSD-44938. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 exl-id: 18b3dfa5-b666-491e-a067-526a53294f39
 feature: Admin Workspace, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -35,12 +35,12 @@ VAT_ID non può essere applicato in una richiesta GraphQL per un utente ospite.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Segui i passaggi indicati nell&#39;[esercitazione su GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-shopping-cart.html) nella documentazione per sviluppatori per creare un carrello guest.
+1. Segui i passaggi indicati nell&#39;[esercitazione su GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/) nella documentazione per sviluppatori per creare un carrello guest.
 1. Provare ad applicare VAT_ID per l&#39;utente ospite che utilizza GraphQL.
 
 <u>Risultati previsti</u>:
 
-VAT_ID può essere applicato nello stesso modo di un cliente registrato. Consulta l&#39;articolo [createCustomerAddress mutation](https://developer.adobe.com/commerce/webapi/graphql/mutations/create-customer-address.html) nella documentazione per gli sviluppatori.
+VAT_ID può essere applicato nello stesso modo di un cliente registrato. Consulta l&#39;articolo [createCustomerAddress mutation](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/create-address/) nella documentazione per gli sviluppatori.
 
 <u>Risultati effettivi</u>:
 

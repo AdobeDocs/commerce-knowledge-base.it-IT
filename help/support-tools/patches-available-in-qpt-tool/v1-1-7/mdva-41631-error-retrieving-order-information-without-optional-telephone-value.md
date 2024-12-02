@@ -1,10 +1,10 @@
 ---
-title: '''MDVA-41631: errore durante il recupero delle informazioni sull''ordine senza valore "phone" opzionale'''
+title: 'MDVA-41631: errore durante il recupero delle informazioni sull''ordine senza il valore "phone" opzionale'
 description: La patch MDVA-41631 risolve il problema che causa un errore nel recupero delle informazioni sull'ordine senza il valore "phone" opzionale tramite GraphQL. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 94b0b918-c1f9-4f5d-8fcd-8b92a9ca8c59
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -37,8 +37,8 @@ Gli utenti ricevono un errore durante il recupero delle informazioni dell’ordi
 
 1. Vai a **Store** > **Configurazione** > **Clienti** > **Configurazione cliente** > **Opzioni nome e indirizzo** > **Mostra telefono** e imposta il numero di telefono come facoltativo.
 1. Effettua un ordine utilizzando l’API di GraphQL come cliente connesso.
-   * Non impostare il numero di telefono quando si impostano gli indirizzi di fatturazione e spedizione. Segui le istruzioni fornite nell&#39;[Esercitazione estrazione GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-customer.html) nella documentazione per sviluppatori.
-1. Recupera l&#39;ordine utilizzando la query [customerOrders](https://developer.adobe.com/commerce/webapi/graphql/queries/customer-orders.html) di GraphQL.
+   * Non impostare il numero di telefono quando si impostano gli indirizzi di fatturazione e spedizione. Segui le istruzioni fornite nell&#39;[Esercitazione estrazione GraphQL](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/) nella documentazione per sviluppatori.
+1. Recupera l&#39;ordine utilizzando la query [customerOrders](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/orders/) di GraphQL.
 
 <pre>
 <code class="language-graphql">
