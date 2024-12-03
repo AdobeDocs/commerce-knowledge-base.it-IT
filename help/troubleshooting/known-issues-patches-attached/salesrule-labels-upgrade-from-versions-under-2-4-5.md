@@ -1,7 +1,7 @@
 ---
 title: '**[!UICONTROL salesRules]** problemi di etichette durante l''aggiornamento dalle versioni < 2.4.5'
 description: Applica una patch per risolvere i problemi **[!UICONTROL salesRules]** durante l'aggiornamento da Adobe Commerce versioni < 2.4.5.
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
