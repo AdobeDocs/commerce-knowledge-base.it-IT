@@ -1,19 +1,19 @@
 ---
 title: Il file .csv dei prodotti esportati non viene visualizzato
-description: Questo articolo corregge il problema relativo al tentativo di esportazione di prodotti in un file .csv in Commerce Admin, ma il file non viene visualizzato.
+description: Questo articolo corregge il problema relativo al tentativo di esportare il tipo di entità desiderato in un file .csv in Commerce Admin, ma il file non viene visualizzato.
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
+source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # Il file .csv dei prodotti esportati non viene visualizzato
 
-Questo articolo corregge il problema relativo al tentativo di esportazione di prodotti in un file .csv in Commerce Admin, ma il file non viene visualizzato.
+Questo articolo fornisce una soluzione per il problema relativo all’esportazione del tipo di entità desiderato in un file .csv in Commerce Admin, causando la mancata visualizzazione del file.
 
 ## Prodotti e versioni interessati
 
@@ -30,7 +30,7 @@ Prerequisiti: l&#39;opzione **Aggiungi chiave segreta agli URL** è impostata su
    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. Seleziona
-   * **Tipo di entità**: *Prodotti*
+   * **Tipo di entità**: l&#39;entità da esportare
    * **Formato file esportazione**: *CSV*
    * **Enclosure campo**: lasciare deselezionata.
 1. Fai clic su **Continua**.
@@ -38,11 +38,11 @@ Prerequisiti: l&#39;opzione **Aggiungi chiave segreta agli URL** è impostata su
 
 <u>Risultato previsto</u>
 
-Il file .csv con i prodotti esportati viene visualizzato nella griglia in pochi minuti.
+Il file .csv contenente il tipo di entità desiderato esportato viene visualizzato nella griglia entro un paio di minuti.
 
 <u>Risultato effettivo</u>
 
-Il file .csv con i prodotti esportati non viene visualizzato nella griglia in 10 minuti o più.
+Il file .csv contenente il tipo di entità desiderato esportato non viene visualizzato nella griglia in 10 minuti o più.
 
 ## Causa
 
