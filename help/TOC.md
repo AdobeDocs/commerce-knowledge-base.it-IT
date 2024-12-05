@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 63664230a110a4ebf37c058e3bde71f6a359ac13
+source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
 workflow-type: tm+mt
-source-wordcount: '9478'
+source-wordcount: '9469'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
    * Strumento di analisi a livello di sito {#site-wide-analysis-tool}
       * [Strumento di analisi a livello di sito per Adobe: panoramica](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
       * [Domande frequenti sui report di Adobe Commerce Site-Wide Analysis Tool](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
-   * Osservazione per Adobe Commerce {#observation}
-      * [Panoramica di Observation for Adobe Commerce](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
    * Avvisi gestiti su Adobe Commerce {#managed-alerts}
       * [Avvisi gestiti su Adobe Commerce: Avvisi critici per la memoria Redis](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Avvisi gestiti per Adobe Commerce: avviso di disco](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
