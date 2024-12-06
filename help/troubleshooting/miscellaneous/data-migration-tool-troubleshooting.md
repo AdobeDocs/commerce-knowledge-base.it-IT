@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per gli errori che possono verif
 exl-id: 9beb31ae-ed3c-42e1-b0bf-33fb1c91e0ea
 feature: Data Import/Export
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 0%
@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Causa
 
-Impossibile trovare una classe da Adobe Commerce 1 codebase nella base di codice di Adobe Commerce 2 durante il [passaggio di migrazione EAV](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) nella documentazione per gli sviluppatori. Nella maggior parte dei casi, la classe mancante appartiene a un&#39;estensione [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension).
+Impossibile trovare una classe da Adobe Commerce 1 codebase nella base di codice di Adobe Commerce 2 durante il [passaggio di migrazione EAV](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) nella documentazione per gli sviluppatori. Nella maggior parte dei casi, la classe mancante appartiene a un&#39;estensione [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension).
 
 ### Soluzioni possibili
 

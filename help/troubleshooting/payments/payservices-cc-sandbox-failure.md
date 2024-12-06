@@ -4,7 +4,7 @@ description: Questo articolo spiega perché una carta di credito di test non rie
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -36,6 +36,6 @@ Questo errore viene visualizzato quando PayPal contrassegna un numero di carta d
 
 Utilizza un&#39;altra carta di credito di prova. Per generare carte di credito fittizie è possibile utilizzare per il test:
 
-1. Vai alla pagina PayPal Developer Portal [Generatore di carte di credito](https://developer.paypal.com/developer/creditCardGenerator/).
+1. Vai alla pagina PayPal Developer Portal [Generatore di carte di credito](https://developer.paypal.com/api/rest/sandbox/card-testing/#link-creditcardgenerator).
 1. Accedi al dashboard di PayPal Developer Portal.
 1. Genera una carta di credito di prova.
