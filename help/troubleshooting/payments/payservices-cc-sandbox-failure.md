@@ -4,7 +4,7 @@ description: Questo articolo spiega perché una carta di credito di test non rie
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
+source-git-commit: 958067830d32b1f10ffa669307ec76d1e14b82a4
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 Questo articolo spiega perché una carta di credito di test non riesce in un ambiente Sandbox con API PayPal.
 
 ## Prodotti e versioni interessati
-
 
 * Adobe Commerce 2.4.0 - 2.4.4 , tutte le opzioni di distribuzione, con [Servizi di pagamento](https://marketplace.magento.com/magento-payment-services.html)
 
