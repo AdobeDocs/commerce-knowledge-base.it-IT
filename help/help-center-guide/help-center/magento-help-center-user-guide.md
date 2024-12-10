@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
+source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,18 @@ Per accedere al supporto Adobe Experience League, eseguire la procedura seguente
 ### Inviare un caso di supporto {#support-case}
 
 Dopo aver effettuato l&#39;accesso come proprietario dell&#39;account o come utente di Accesso condiviso, è possibile inviare un caso di supporto utilizzando la home page di Adobe Experience League, la pagina dell&#39;account Adobe Commerce e la pagina dell&#39;account Adobe Commerce Cloud.
+
+>[!NOTE]
+>
+>Le richieste di supporto per il team di Adobe Commerce Marketplace non possono essere inviate tramite Experience League, in quanto il sistema di supporto opera su una piattaforma separata non integrata con Experience League.
+>
+>Puoi inoltrare il tuo caso di supporto se le seguenti affermazioni sono vere:
+>
+>* L&#39;organizzazione in questione è denominata nella colonna sinistra e termina in ([!DNL Commerce]). Il problema è relativo all’organizzazione o a un account ad essa associato.
+>* Il problema è che non puoi accedere all’account Marketplace o hai domande sulla distribuzione di un’estensione.
+>* Il problema non riguarda solo la richiesta di un rimborso per gli acquisti sul Marketplace.
+>
+>Per problemi relativi alla pubblicazione dell&#39;estensione, a problemi durante l&#39;acquisto o alla richiesta di un rimborso su [Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/), è necessario contattare direttamente il team [!DNL Commerce Marketplace] visitando il sito https://commercemarketplace.adobe.com/. Passare alla parte inferiore della pagina e fare clic su **[!UICONTROL Contact Us]**, che aprirà un modulo per inviare un ticket di supporto per Marketplace.
 
 #### Pagina iniziale di Adobe Experience League {#experience-league-start-page}
 
