@@ -4,9 +4,9 @@ description: Le distribuzioni bloccate e non riuscite in Adobe Commerce possono 
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 6177863da268f43cc30119cef6f718a04c46b3e6
+source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b. NO - Manutenzione o interruzioni globali. Controlla la durata stimata e gli a
 
 +++**Esistono distribuzioni in altri ambienti che bloccano la distribuzione nell&#39;ambiente esistente?**
 
-Per ottenere un elenco delle attività in corso, esegui il seguente comando utilizzando magento-cloud CLI (se sei stato aggiunto a un solo progetto cloud):
+Per ottenere un elenco delle attività in corso, esegui il seguente comando utilizzando magento-cloud CLI (se sei stato aggiunto a un solo progetto cloud). **Nota**: verifica di essere nella versione più recente di CLI di Magento-Cloud. Per i passaggi, fare riferimento a [Aggiornare CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli) nella guida Commerce su Cloud Infrastructure.
 
 ```bash
 magento-cloud --state=in_progress
@@ -199,7 +199,7 @@ b. NO - Procedi al [passaggio 18](#step-18).
 
 ## Passaggio 18 - Controllare la presenza di eventuali guasti al gancio posteriore {#step-18}
 
-+++**Errore/blocco dell&#39;hook di Post?**
++++**Errore/blocco post hook?**
 
 a. SÌ - Database: [Spazio libero su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), tabelle danneggiate o incomplete.\
 b. NO - Procedi al [passaggio 19](#step-19).
