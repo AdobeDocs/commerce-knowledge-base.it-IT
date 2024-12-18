@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
+source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
 workflow-type: tm+mt
-source-wordcount: '9469'
+source-wordcount: '9409'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
       * [Avvisi gestiti per Adobe Commerce: avviso critico di circa](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md)
       * [Avvisi gestiti su Adobe Commerce: avvisi MariaDB](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Avvisi gestiti per Adobe Commerce: avviso di avviso di circa](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
-      * [Avvisi gestiti per Adobe Commerce: avviso CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
+      * [Avvisi gestiti per Adobe Commerce: avviso di CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * Patch disponibili nello strumento QPT {#patches}
       * [Panoramica delle patch disponibili nello strumento QPT](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
       * v1.1.0 {#v1-1-0}
@@ -947,15 +947,9 @@ ht-degree: 0%
       * [La ricerca avanzata non mostra i risultati più rilevanti](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [Errore durante il filtraggio degli ordini in Amministratore](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [Gli utenti non possono aggiungere un prodotto al carrello se non è selezionato nulla in Paesi consentiti](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [Ordini non visualizzati nella griglia Ordini dell&#39;amministratore](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
-      * [Impossibile convalidare il numero di partita IVA - Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
-      * [Le pagine di estrazione non vengono caricate quando ad blocker è abilitato](/help/troubleshooting/known-issues-patches-attached/checkout-pages-not-loading-when-ad-blocker-is-enabled.md)
       * [È stata comunicata la posizione dell’URL dell’amministratore Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [Più processi cron pianificati per lo stesso periodo di tempo](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
-      * [Campioni di prodotto configurabili non visualizzati barrati quando esauriti](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
       * [L&#39;amministratore non può creare un ordine o riordinarlo quando è abilitato il pagamento Braintree](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [Pacchetti declassati dopo l’aggiornamento da 2.4.4 a 2.4.4-p1](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [Il CAPTCHA di Adobe Commerce 2.3.6 e 2.4.1 nel checkout non funziona](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [E-mail ordine inviata dall’indirizzo e-mail del server](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Errore Adobe Commerce 2.4.6 nell’effettuare l’ordine dal pannello di amministrazione](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [[!UICONTROL salesRule] problemi di etichetta quando si esegue l’aggiornamento dalle versioni &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
@@ -992,7 +986,7 @@ ht-degree: 0%
    * [Come aggiungere un nuovo paese ad Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Personalizzare la configurazione del progetto in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [Aumento dello spazio su disco per l&#39;ambiente di integrazione nel cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
-   * [Adobe Commerce sull’infrastruttura cloud: calcolo dell’allocazione della CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
+   * [Adobe Commerce su infrastruttura cloud: calcolo dell’allocazione CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Aggiornamento dei prezzi del catalogo condiviso tramite API REST](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Trova tabelle MySQL di grandi dimensioni](/help/how-to/general/find-large-mysql-tables.md)
    * [Sincronizza dati e file di produzione con staging o staging con l&#39;integrazione](/help/how-to/general/sync-data-and-files-from-production-to-staging-or-staging-to-integration.md)
@@ -1026,7 +1020,7 @@ ht-degree: 0%
    * [Modifica della password amministratore su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [Come richiedere l’upsize temporaneo dell’infrastruttura cloud per Adobe Commerce](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [Visualizzazione del livello vCPU dell’ambiente nel cluster in Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
-   * [Adobe Commerce su infrastruttura cloud: verifica la configurazione della CPU dell’host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
+   * [Adobe Commerce su infrastruttura cloud: verifica la configurazione CPU dell’host](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [Modifica il proprietario dell’account (accedere alle credenziali tramite token API) per Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)
    * [Adobe Commerce su cloud: modifica le chiavi di autenticazione e ridistribuisci](/help/how-to/general/redeploy-with-another-key.md)
    * [Come creare un’immagine &quot;eliminata&quot; quando richiesto dall’agente di supporto](/help/how-to/general/create-dump-for-support.md)
