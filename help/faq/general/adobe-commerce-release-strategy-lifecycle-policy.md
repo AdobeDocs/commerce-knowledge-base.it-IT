@@ -3,9 +3,9 @@ title: Domande frequenti per la strategia di rilascio e le politiche sul ciclo d
 description: Per soddisfare le esigenze mission-critical dei clienti Adobe Commerce, stiamo espandendo la finestra di supporto per Adobe Commerce 2.4.4 e versioni successive a **3 anni dalla data  [!DNL GA] **. Il supporto include **patch di sicurezza e di qualità**. Per informazioni dettagliate sulla tempistica, consulta il nuovo [calendario delle versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html).
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
-source-git-commit: 81dd81ecbb0a208dbac5d3cbdc4c994556661fb0
+source-git-commit: 216e3c6c7f4db605b39ef365356bc18c76ea034e
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ La finestra di supporto più lunga riconosce la complessità che i nostri client
 
 L&#39;[Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf) è disponibile online.
 
-### Quando i clienti delle versioni 2.4.4, 2.4.5 e 2.4.6 cesseranno il supporto nell’ambito di questa nuova policy?
+### Quando i clienti di 2.4.4, 2.4.5, 2.4.6 e 2.4.7 raggiungeranno la fine del supporto nell’ambito di questa nuova policy?
 
 I clienti di Adobe Commerce 2.4.4+ riceveranno correzioni di sicurezza e qualità per 3 anni dalla data della versione [!DNL GA], come indicato nella timeline seguente. Visita la pagina [Versioni rilasciate](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html) il [!DNL Experience League] per le date specifiche di fine del supporto.
 
@@ -34,11 +34,11 @@ I clienti di Adobe Commerce 2.4.4+ riceveranno correzioni di sicurezza e qualit�
 
 ### Come cambia la pianificazione della versione di Adobe Commerce?
 
-Per accelerare l&#39;innovazione e ridurre il costo totale di proprietà, verrà rilasciata una patch dell&#39;applicazione di base all&#39;anno, con nuove funzionalità distribuite come servizi [!DNL SaaS] componibili che possono essere aggiunti in qualsiasi momento. Anche il numero di versioni delle patch di sicurezza pianificate per quest&#39;anno sta aumentando da tre a quattro per aiutare i clienti a rimanere più sicuri. Quest&#39;anno saranno inoltre disponibili [!DNL beta] versioni aggiuntive per la versione 2024 della patch dell&#39;applicazione principale (2.4.7) per aiutare partner e clienti a prepararsi per la prossima versione.
+Per accelerare l&#39;innovazione e ridurre il costo totale di proprietà, verrà rilasciata una patch dell&#39;applicazione di base all&#39;anno, con nuove funzionalità distribuite come servizi [!DNL SaaS] componibili che possono essere aggiunti in qualsiasi momento.
 
 ### Quali vantaggi offre ai clienti la nuova pianificazione delle versioni?
 
-L&#39;offerta di nuove funzionalità come servizi [!DNL SaaS] componibili consente ai clienti di accedere più rapidamente a nuovi strumenti che possono contribuire ad aumentare le vendite. Le funzionalità possono essere adottate in qualsiasi momento senza dover aggiornare l’applicazione Adobe Commerce di base. Questi servizi, inoltre, possono essere continuamente aggiornati da Adobi per offrire i più recenti progressi in termini di funzionalità e prestazioni. La release annuale di una patch dell&#39;applicazione di base consente di ridurre i costi di aggiornamento, semplifica la pianificazione degli aggiornamenti e fornisce più tempo per personalizzare e ottimizzare l&#39;esperienza di e-commerce. Le patch di sicurezza più leggere consentono ai clienti di rimanere più sicuri.
+L&#39;offerta di nuove funzionalità come servizi [!DNL SaaS] componibili consente ai clienti di accedere più rapidamente a nuovi strumenti che possono contribuire ad aumentare le vendite. Le funzionalità possono essere adottate in qualsiasi momento senza dover aggiornare l’applicazione Adobe Commerce di base. Adobe può aggiornare continuamente questi servizi per offrire i più recenti progressi in termini di funzionalità e prestazioni. La release annuale di una patch dell&#39;applicazione di base consente di ridurre i costi di aggiornamento, semplifica la pianificazione degli aggiornamenti e fornisce più tempo per personalizzare e ottimizzare l&#39;esperienza di e-commerce. Le patch di sicurezza più leggere consentono ai clienti di rimanere più sicuri.
 
 ### Cos’è l’accesso pre-release?
 
@@ -62,7 +62,7 @@ Per ulteriori dettagli, consulta la [pianificazione della versione di Adobe Comm
 
 ### Dove vanno i clienti per ottenere patch di qualità?
 
-Le patch di qualità consentono di distribuire correzioni per singoli problemi di qualità. I clienti possono contattare il Supporto Adobe o utilizzare [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) per trovare patch di qualità.
+Le patch di qualità consentono di distribuire correzioni per singoli problemi di qualità. I clienti possono contattare il supporto Adobe o utilizzare [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) per trovare le patch di qualità.
 
 ### Quali risorse sono disponibili per supportare la pianificazione, la definizione del budget e gli aggiornamenti in generale?
 
@@ -72,16 +72,160 @@ Le risorse disponibili includono una guida all&#39;aggiornamento 2.4 completa, r
 
 I clienti Managed Services possono collaborare con il team di progettazione clienti per ricevere assistenza su diversi componenti del processo di aggiornamento, tra cui analisi, aggiornamento dei servizi cloud, test di qualità e accettazione da parte degli utenti ([!DNL QA] e [!DNL UAT]) e avvio della produzione.
 
+<table style="table-layout:auto">
+<thead>
+  <tr>
+    <th colspan="1"></th>
+    <th colspan="4">2022</th>
+    <th colspan="4">2023</th>
+    <th colspan="4">2024</th>
+    <th colspan="4">2025</th>
+    <th colspan="4">2026</th>
+    <th colspan="4">2027</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Commerce</td>
+    <td>Q1</td>
+    <td>Q2</td>
+    <td>Q3</td>
+    <td>Q4</td>
+    <td>Q1</td>
+    <td>Q2</td>
+    <td>Q3</td>
+    <td>Q4</td>
+    <td>Q1</td>
+    <td>Q2</td>
+    <td>Q3</td>
+    <td>Q4</td>
+    <td>Q1</td>
+    <td>Q2</td>
+    <td>Q3</td>
+    <td>Q4</td>
+    <td>Q1</td>
+    <td>Q2</td>
+    <td>Q3</td>
+    <td>Q4</td>
+    <td>Q1</td>
+    <td>Q2</td>
+    <td>Q3</td>
+    <td>Q4</td>
+  </tr>
+  <tr>
+    <td>2.4.4.</td>
+    <td></td>
+    <td colspan="13" style="background-color:#67ac68;"></td>
+    <td colspan="4" style="background-color:#ffd700;"></td>
+    <td colspan="6"></td>
+  </tr>
+  <tr>
+    <td>2.4.5.</td>
+    <td colspan="2"></td>
+    <td colspan="13" style="background-color:#67ac68;"></td>
+    <td colspan="4" style="background-color:#ffd700;"></td>
+    <td colspan="6"></td>
+  </tr>
+  <tr>
+    <td>2.4.6.</td>
+    <td colspan="4"></td>
+    <td colspan="15" style="background-color:#67ac68;"></td>
+    <td colspan="8"></td>
+  </tr>
+  <tr>
+    <td>2.4.7.</td>
+    <td colspan="9"></td>
+    <td colspan="13" style="background-color:#67ac68;"></td>
+    <td colspan="2"></td>
+  </tr>
+</tbody>
+</table>
+
+**Chiave**
+
+<table style="table-layout:auto">
+ <tbody>
+  <tr>
+   <td style="background-color:#67ac68;"></td>
+   <td>Supporto regolare</td>
+  </tr>
+  <tr>
+   <td style="background-color:#ffd700;"></td>
+   <td>Supporto esteso</td>
+  </tr>
+ </tbody>
+</table>
+
 ## Opzioni di supporto estese
 
-### Sono disponibili opzioni di supporto estese per i clienti nelle versioni 2.3.7 e 2.4.0-2.4.3?
+### Sono disponibili opzioni di supporto estese per i clienti nelle versioni 2.4.4 e 2.4.5?
 
-Mentre i clienti sono invitati ad effettuare l&#39;aggiornamento il prima possibile, sono disponibili piani di supporto estesi a pagamento per le versioni basate su [!DNL PHP] 7.4 (clienti nelle versioni 2.3.7 e 2.4.0-2.4.3). Questi piani includono patch di qualità e sicurezza per l&#39;applicazione di base e [!DNL PHP] per un massimo di un anno.
+Mentre i clienti sono invitati ad effettuare l’aggiornamento il prima possibile, a tutti i clienti Adobe Commerce nelle versioni 2.4.4 e 2.4.5 viene offerta un’estensione del supporto di un anno senza costi aggiuntivi per fornire maggiore flessibilità nell’allineare i piani di aggiornamento alle esigenze aziendali.
 
-* Il supporto esteso per 2.3.7 è iniziato l’8 settembre 2022 e può essere ricevuto fino all’8 settembre 2023.
-* Il supporto esteso per 2.4.0-2.4.3 è iniziato il 28 novembre 2022 e può essere ricevuto fino al 28 novembre 2023.
+Questi piani includono patch di qualità e sicurezza per l&#39;applicazione principale per un periodo fino a un anno.
+
+<table style="height: 144px; width: 632.2px;">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 132px;"><strong>Versione</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Data di rilascio</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 144px;"><strong>Fine del supporto normale e di Open Source</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 140.2px;"><strong>Fine del supporto esteso</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.4.</td>
+<td style="width: 96px;">12 aprile 2022</td>
+<td style="width: 144px;">8 aprile 2025</td>
+<td style="width: 140.2px;">14 aprile 2026</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.5.</td>
+<td style="width: 96px;">9 agosto 2022</td>
+<td style="width: 144px;">12 agosto 2025</td>
+<td style="width: 140.2px;">11 agosto 2026</td>
+</tr>
+</tbody>
+</table>
 
 ### Il supporto esteso garantisce la conformità di [!DNL PCI]?
 
-In base al supporto esteso, il nostro team di progettazione clienti continuerà a fornire le stesse patch di qualità e sicurezza normalmente fornite, senza alcun deterioramento dell’ambito. Tuttavia, i clienti dovranno adottare ulteriori misure per rimanere conformi a [!DNL PCI] se le tecnologie di terze parti sottostanti, come [!DNL MySQL], raggiungono la fine del supporto. L&#39;Adobe non fornisce supporto per le tecnologie di terze parti che hanno raggiunto la fine del supporto **, ad eccezione del supporto [!DNL PHP] per le versioni di [!DNL PHP] utilizzate da versioni di Adobe Commerce idonee per i servizi di supporto o per il supporto esteso**. L&#39;Adobe consiglia ai clienti di collaborare con il proprio [esaminatore PCI](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors) per garantire la conformità. Per un elenco completo delle tecnologie di terze parti testate e supportate, consultare [Requisiti di sistema di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html).
+In base al supporto esteso, il nostro team di progettazione clienti continuerà a fornire le stesse patch di qualità e sicurezza normalmente fornite, senza alcun deterioramento dell’ambito. Tuttavia, i clienti dovranno adottare ulteriori misure per rimanere conformi a [!DNL PCI] se le tecnologie di terze parti sottostanti, come [!DNL MariaDB], raggiungono la fine del supporto.
 
+Adobe non fornisce supporto per tecnologie di terze parti che hanno raggiunto la fine del supporto. Adobe consiglia ai clienti di collaborare con il proprio [[!DNL PCI] esaminatore](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/) per garantire la conformità. Per un elenco completo delle tecnologie di terze parti testate e supportate, consultare [Requisiti di sistema di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
+
+<table style="height: 444px; width: 632.2px;">
+<tbody>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>Versione</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 72px;"><strong>Versione [!DNL PHP] supportata, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Versione [!DNL MariaDB] supportata, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 108px;"><strong>Versione [!DNL Composer] supportata, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 126px;"><strong>Versione [!DNL OpenSearch] supportata, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 86.2px;"><strong>Versione [!DNL Redis] supportata, EOS</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Versione [!DNL RabbitMQ] supportata, EOS</strong></td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.4.</strong></td>
+<td style="width: 72px;">[!DNL PHP] 8.1, EOS - <strong>31 dicembre 2025<sup>1</sup></strong></td>
+<td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - Luglio 2026<sup>2</sup></td>
+<td style="width: 108px;">[!DNL Composer] 2.8, EOS - previsto nel 2026<sup>3</sup></td>
+<td style="width: 126px;">[!DNL OpenSearch] 1.3, EOS previsto nel 2025 - [!DNL OpenSearch] 2, EOS previsto nel 2026<sup>4</sup></td>
+<td style="width: 86.2px;">[!DNL Redis] 7.2, EOS - Atteso per il 2026</td>
+<td style="width: 96px;">[!DNL RabbitMQ] 3.9, FINE DEL CICLO DI VITA</td>
+</tr>
+<tr>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.5.</strong></td>
+<td style="width: 72px;">[!DNL PHP] 8.1, EOS - <strong>31 dicembre 2025<sup>1</sup></strong></td>
+<td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - Luglio 2026<sup>2</sup></td>
+<td style="width: 108px;">[!DNL Composer] 2.8, EOS - previsto nel 2026<sup>3</sup></td>
+<td style="width: 126px;">[!DNL OpenSearch] 1.3, EOS previsto nel 2025 - [!DNL OpenSearch] 2, EOS previsto nel 2026<sup>4</sup></td>
+<td style="width: 86.2px;">[!DNL Redis] 7.2, EOS - Atteso per il 2026</td>
+<td style="width: 96px;">[!DNL RabbitMQ] 3.13 EOS - 30 dicembre 2027</td>
+</tr>
+</tbody>
+</table>
+
+* <sup>1</sup> I clienti di Adobe Commerce 2.4.4 e 2.4.5 Cloud non saranno interessati dalla data di [!DNL PHP] 8.1 EOS durante il supporto esteso, poiché Adobe applicherà automaticamente il supporto a vita [!DNL PHP] 8.1 correzioni di sicurezza nell&#39;infrastruttura. I clienti Adobe Commerce 2.4.4 e 2.4.5 on-premise dovranno contattare il supporto Adobe per richiedere una patch di sicurezza del supporto a vita [!DNL PHP] 8.1, se necessario.
+* <sup>2</sup> La compatibilità con [!DNL MariaDB] 10.6 per Adobe Commerce 2.4.4 e 2.4.5 è pianificata per essere rilasciata nell&#39;ambito delle patch di sola sicurezza di aprile 2025.
+* <sup>3</sup> La compatibilità con [!DNL Composer] 2.8 per Adobe Commerce 2.4.4 e 2.4.5 è pianificata per essere rilasciata nell&#39;ambito delle patch di sola sicurezza di aprile 2025.
+* <sup>4</sup> La compatibilità con [!DNL OpenSearch] 2 per Adobe Commerce 2.4.4 e 2.4.5 è prevista per il rilascio nell&#39;ambito delle patch di sola sicurezza di aprile 2025.
