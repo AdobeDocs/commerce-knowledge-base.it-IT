@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
+source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -339,13 +339,15 @@ Dopo aver fornito l&#39;accesso condiviso a un nuovo utente, le informazioni cor
 
 <u>Causa</u>
 
-Se hai/hai avuto un progetto Adobe Commerce Cloud e hai aggiunto un utente al progetto, ti verrà automaticamente concesso l’accesso condiviso sull’ID immagine del proprietario del progetto. Questo sarebbe normalmente indicato nella colonna **[!UICONTROL Share Name]**, che mostra *Accesso condiviso cloud da MAG[XYZ]*.
+Se hai/hai avuto un progetto Adobe Commerce Cloud e hai aggiunto un utente al progetto, potresti aver ottenuto automaticamente l’accesso condiviso sull’ID immagine del proprietario del progetto. Questo sarebbe normalmente indicato nella colonna **[!UICONTROL Share Name]**, che mostra *Accesso condiviso cloud da MAG[XYZ]*.
 
-Se manca il collegamento DELETE, significa che Accesso condiviso è stato concesso automaticamente tramite Commerce Cloud.
+>[!NOTE]
+>
+>Se manca il collegamento DELETE, significa che Accesso condiviso è stato concesso automaticamente tramite Commerce Cloud.
 
 <u>Soluzione</u>
 
-Non è possibile eliminare l&#39;elenco di utenti di Accesso condiviso con il nome di condivisione di *Accesso condiviso cloud da MAG[XYZ]* se l&#39;accesso condiviso non è stato aggiunto o fornito in questa pagina. Questi vengono conservati a scopo informativo/di audit.
+Non è possibile eliminare l&#39;elenco di utenti di Accesso condiviso con il nome di condivisione di *Accesso condiviso cloud da MAG[XYZ]* se l&#39;accesso condiviso non è stato aggiunto/assegnato [in questa pagina](https://account.magento.com/grantor/manage/). Questi vengono conservati a scopo informativo/di audit.
 
 Tuttavia, una volta revocate le autorizzazioni per tali utenti di Accesso condiviso, questi non disporranno più di tale accesso.
 
