@@ -4,7 +4,7 @@ description: Questo articolo corregge i problemi di prestazioni dovuti alla rein
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 72ee49a8667f575a58e0cf1b3d5c9df936cc628b
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 0%
@@ -59,3 +59,4 @@ Esegui la reindicizzazione solo quando necessario. Per i passaggi, consulta [Con
 
 * [Panoramica sull&#39;indicizzazione: come reindicizzare](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex) nella documentazione per gli sviluppatori.
 * [La cache invalidata causa il degrado del tempo di risposta](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md) nella knowledge base del supporto.
+
