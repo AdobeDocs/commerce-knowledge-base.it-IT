@@ -4,7 +4,7 @@ description: La patch di MDVA-44147 risolve il problema per cui la richiesta di 
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -37,7 +37,7 @@ La richiesta di GraphQL non restituisce gli elenchi di richieste.
 
 1. Vai a **Store** > **Impostazioni** > **Configurazione** > **Generale** > **Caratteristiche B2B** e abilita elenco richieste di acquisto.
 1. Accedi come cliente e aggiungi un prodotto all&#39;[elenco richieste di acquisto](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/requisition-lists).
-1. Crea un [token cliente](https://developer.adobe.com/commerce/webapi/graphql/mutations/generate-customer-token.html).
+1. Crea un [token cliente](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/).
 
    <pre>
     <code class="language-graphql">

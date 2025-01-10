@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione per i blocchi da avviare su
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
+source-git-commit: df966df6a85057b26d53a870d038269ebdcc2b32
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Problema: le risorse statiche vengono distribuite lentamente, pertanto le presta
 
 Consiglio: per identificare le possibili cause di prestazioni scadenti, utilizzare [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) per il test delle prestazioni. Puoi inoltre considerare questi strumenti di terze parti:
 
-* [Assedio](https://www.joedog.org/siege-home/): utilità di benchmark e test di carico HTTP; supporta l&#39;autenticazione di base, i cookie, i protocolli HTTP, HTTPS e FTP.
+* [Assedio](https://www.joedog.org/siege-home): utilità di benchmark e test di carico HTTP; supporta l&#39;autenticazione di base, i cookie, i protocolli HTTP, HTTPS e FTP.
 * [Jmeter](https://jmeter.apache.org/): uno strumento affidabile per il test di carico e la misurazione delle prestazioni. Consente di misurare le prestazioni per il traffico con picchi di traffico, ad esempio per le vendite flash.
 * [New Relic](https://support.newrelic.com/): individua i processi e le aree del sito causando un rallentamento delle prestazioni con tempo di rilevamento trascorso per azione, come la trasmissione di dati, query, Redis e così via.
 * [WebPageTest](https://www.webpagetest.org/) (gratuito) e [PKingdom](https://www.pingdom.com/) (a pagamento): l&#39;analisi in tempo reale delle pagine del sito viene caricata con percorsi di origine diversi.
