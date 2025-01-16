@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per il problema relativo all
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
+source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -35,13 +35,17 @@ Tieni presente che il registro visualizzato nell’interfaccia utente non deve e
 ## Soluzione
 
 1. Verificare che nell&#39;ambiente locale sia installato [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html).
-1. Esegui il comando seguente:
+1. È possibile eseguire uno dei seguenti comandi:
 
    ```bash
-   magento-cloud activity -p <project id> -e <environment>
+   magento-cloud act -p <project id> -e <environment>
    ```
 
-1. Restituisce un output simile al seguente:
+   ```bash
+   magento-cloud activity:list -p <project id> -e <environment>
+   ```
+
+1. Restituiranno un output simile al seguente:
 
    ```bash
    Activities on the project <project name> (project id), environment <environment>:
