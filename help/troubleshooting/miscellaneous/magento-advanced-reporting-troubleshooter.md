@@ -4,7 +4,7 @@ description: I problemi di Reporting avanzato su Adobe Commerce possono essere r
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
+source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -138,7 +138,7 @@ b. NO - Procedi al [passaggio 10](#step-10).
 
 +++**Il processo cron genera un messaggio di errore?**
 
-Esempio: nella tabella `core_config_data` viene visualizzato l&#39;errore *Impossibile eliminare il file &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0*. Avviso!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): file o directory non esistente*
+Esempio: nella tabella `cron_schedule` viene visualizzato l&#39;errore *Impossibile eliminare il file &quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0*. Avviso!unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0?lang=en): file o directory non esistente*
 
 a. SÌ - Usa la patch ACSD-50165 in [Impossibile eliminare il file. Avviso!unlink: errore di file o directory non presente dall&#39;amministratore](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md). Attendere 24 ore per la riesecuzione del processo, quindi riprovare.\
 b. NO - Procedi al [passaggio 11](#step-11).
