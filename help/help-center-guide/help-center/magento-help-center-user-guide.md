@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 6321dfa57f694a53f4b9b1c1e93182d60fa63c7b
+source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '2963'
 ht-degree: 0%
 
 ---
@@ -309,6 +309,10 @@ Gli utenti a cui è stato fornito l’accesso condiviso non possono trasferire o
 ### Fornire accesso condiviso {#provide-shared-access}
 
 Consulta la sezione [Condividere un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) della Guida introduttiva di Adobe Commerce per i passaggi dettagliati sulla configurazione di un account condiviso.
+
+>[!NOTE]
+>
+>L&#39;utente deve disporre di un account esistente prima di poter ottenere l&#39;accesso condiviso. Per ulteriori informazioni, vedere [Creare un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
 
 Dopo aver fornito l&#39;accesso condiviso a un nuovo utente, le informazioni correlate sono disponibili in **Accesso condiviso** > **Gestione autorizzazioni** della pagina del tuo account Adobe Commerce.
 
