@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto ad Experience League Support, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
+source-git-commit: 6321dfa57f694a53f4b9b1c1e93182d60fa63c7b
 workflow-type: tm+mt
-source-wordcount: '2935'
+source-wordcount: '2939'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Per inviare un nuovo caso di supporto utilizzando la pagina iniziale di Adobe Ex
 >[!INFO]
 >
 >1. Per inviare un caso, devi avere diritto al supporto per il prodotto appropriato (ad esempio, Adobe Commerce, Adobe Commerce Intelligence, Experience Platform, ecc.). Se non hai i diritti per ricevere assistenza, nella parte superiore della pagina viene visualizzata una barra che ti informa che non sei un utente autorizzato al supporto all’interno dell’organizzazione.
->1. Se appartieni a più organizzazioni o se sono presenti più organizzazioni con nomi dall’aspetto simile (ognuna di esse rappresenta uno degli altri prodotti Adobe a cui l’organizzazione è abbonata), devi prima selezionare l’organizzazione appropriata dal menu a discesa che termina con &quot;(Commerce)&quot;.
+>1. Se appartieni a più organizzazioni o se sono presenti più organizzazioni con nomi dall’aspetto simile (ciascuna di esse rappresenta uno degli altri prodotti Adobe a cui l’organizzazione è abbonata), dovrai innanzitutto selezionare l’organizzazione appropriata dal menu a discesa nella colonna a sinistra che termina in &quot;(Commerce)&quot;.
 >1. Per inviare un caso, devi avere diritto al supporto per il prodotto appropriato (ad esempio, Adobe Commerce, Adobe Commerce Reporting, Adobe Commerce Payment Services, Experience Platform, ecc.). Se non hai i diritti per ricevere assistenza, nella parte superiore della pagina viene visualizzata una barra che ti informa che non sei un utente autorizzato al supporto all’interno dell’organizzazione. Per inviare una controversia per problemi relativi a Commerce, è necessario innanzitutto selezionare il nome dell&#39;organizzazione appropriato che termina con *[!DNL (Commerce)]*.
 >1. Se appartieni a più organizzazioni o se sono presenti più organizzazioni con nomi dall’aspetto simile (ognuna di esse rappresenta uno degli altri prodotti di Adobe a cui l’organizzazione è abbonata), devi prima selezionare l’organizzazione appropriata dal menu a discesa.
 >1. Se nel menu a discesa [!UICONTROL Select a product] non è visualizzato Adobe Commerce, è necessario ottenere [Accesso condiviso](#shared-access) dal proprietario dell&#39;account Commerce. Dopo aver ottenuto l&#39;accesso condiviso, sarà necessario [sincronizzare l&#39;account](#switch-accounts) per completare il processo prima di poter inviare un caso.
