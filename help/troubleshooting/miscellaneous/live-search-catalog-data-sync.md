@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per il problema di Adobe Commerc
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ Questo articolo fornisce soluzioni per il problema di Adobe Commerce in cui i da
 
 ## Problema
 
-I dati del catalogo non vengono sincronizzati correttamente oppure è stato aggiunto un nuovo prodotto che non viene visualizzato nei risultati di ricerca.
+I dati del catalogo non vengono sincronizzati correttamente oppure è stato aggiunto un nuovo prodotto che non viene visualizzato nei risultati di ricerca. In `var/log/exception.log` è inoltre possibile che venga visualizzato il seguente errore:
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -134,6 +136,22 @@ Se vengono visualizzati i dati corretti in `cde_product_attributes_feed`:
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+Esegui i seguenti comandi per risincronizzare i feed:
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+[Invia una richiesta di supporto](https://experienceleague.adobe.com/home?support-tab=home#support) per richiedere la reindicizzazione dell&#39;indice Live Search. Nella descrizione del problema, includi lo spazio dati/l&#39;ID ambiente trovato nel pannello di amministrazione in **[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**.
 
 ## Lettura correlata
 
