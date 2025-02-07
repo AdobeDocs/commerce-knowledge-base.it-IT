@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per il problema di Adobe Commerc
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
+source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,13 @@ Se i dati di prodotto non vengono sincronizzati correttamente per una SKU specif
 1. Utilizzare la seguente query [!DNL SQL] e verificare di disporre dei dati previsti nella colonna `feed_data`. Prendere inoltre nota del timestamp `modified_at`.
 
    ```sql
-   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '<your_sku>' AND json_extract(feed_data, '$.storeViewCode') = '<your_ store_view_code>';
+   ```
+
+   Ad esempio:
+
+   ```sql
+   SELECT * FROM cde_products_feed WHERE json_extract(feed_data, '$.sku') = '24-MB04' AND json_extract(feed_data, '$.storeViewCode') = 'default';
    ```
 
 1. Se non vengono visualizzati i dati corretti, provare a reindicizzare utilizzando il comando seguente ed eseguire nuovamente la query [!DNL SQL] nel passaggio 1 per verificare i dati:
