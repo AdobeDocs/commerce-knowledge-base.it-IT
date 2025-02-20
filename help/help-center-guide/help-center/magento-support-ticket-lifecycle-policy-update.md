@@ -2,16 +2,16 @@
 title: Aggiornamento dei criteri del ciclo di vita dei ticket di supporto Adobe Commerce
 description: Questo articolo fornisce informazioni sull’aggiornamento dei criteri per il ciclo di vita dei ticket di supporto Adobe Commerce.
 exl-id: c3fbcb4a-107f-48b3-afed-b9a0c5d0425c
-source-git-commit: 5d291a221509c35c8bc34fd0957534c24342c59c
+source-git-commit: b882fcc3a890fa0eb06c17f877d7d315be66e294
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Aggiornamento dei criteri del ciclo di vita dei ticket di supporto Adobe Commerce
 
-Questa documentazione illustra i miglioramenti apportati al ciclo di vita dei casi di supporto Adobe DX con l&#39;obiettivo di aumentare le comunicazioni e fornire ai clienti risoluzioni il più rapidamente possibile per garantire il successo dei clienti. Questo si trova anche in [Adobe di piani di successo Panoramica: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+Questa documentazione illustra i miglioramenti apportati al ciclo di vita dei casi di supporto Adobe DX con l&#39;obiettivo di aumentare le comunicazioni e fornire ai clienti risoluzioni il più rapidamente possibile per garantire il successo dei clienti. Questo problema è disponibile anche in [Panoramica dei piani di successo di Adobe: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
 Di seguito sono riportate le tempistiche e le notifiche per vari scenari riscontrati durante il processo di supporto:
 
 ## Promemoria di follow-up dei casi
@@ -33,7 +33,7 @@ In questo scenario, quando sono necessarie informazioni aggiuntive da parte di u
 * Il primo, il terzo e il quinto giorno successivo all’impostazione dello stato su &quot;In attesa di risposta&quot;, vengono inviate notifiche di follow-up al cliente che richiede le informazioni aggiuntive.
 * Se non viene ricevuta alcuna risposta dal cliente per 6 giorni dopo l’impostazione dello stato su &quot;In attesa di risposta&quot;, il caso viene impostato su chiuso e viene inviata una notifica di chiusura.
 
-I clienti possono riaprire un caso chiuso entro 14 giorni per continuare la comunicazione. Oltre 14 giorni, è possibile aprire un nuovo caso di supporto per continuare la comunicazione relativa a un caso precedentemente chiuso.
+I clienti possono riaprire un caso chiuso su Experience League entro 14 giorni per continuare la comunicazione. Oltre 14 giorni, è possibile aprire un nuovo caso di supporto per continuare la comunicazione relativa a un caso precedentemente chiuso. La risposta a un’e-mail relativa a un ticket chiuso non lo riaprirà.
 
 ### Quando un tecnico fornisce una soluzione
 
