@@ -1,11 +1,11 @@
 ---
-title: '''[!DNL Elasticsearch] è visualizzato come motore di ricerca nonostante [!DNL OpenSearch] l''installazione'''
+title: '[!DNL Elasticsearch] viene visualizzato come motore di ricerca nonostante [!DNL OpenSearch] l''installazione'
 description: Questo articolo fornisce una soluzione per il problema in cui [!DNL Elasticsearch] viene ancora visualizzato come motore di ricerca per Adobe Commerce sul cloud anche dopo l'installazione o l'aggiornamento a [!DNL OpenSearch].
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
-source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
+source-git-commit: b3f68e43ce3c4fdea001db1d8ba2774900db7dba
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Questo articolo fornisce una soluzione per il problema in cui [!DNL Elasticsearc
 
 ## Versioni interessate
 
-Adobe Commerce su cloud 2.4.3-p2 - 2.4.5-p6
+Adobe Commerce su cloud 2.4.4 - 2.4.5-p11
 
 >[!NOTE]
 >
@@ -33,9 +33,9 @@ Adobe Commerce su cloud 2.4.3-p2 - 2.4.5-p6
 
 ## Causa
 
-Adobe Commerce è hardcoded per specificare [!DNL Elasticsearch7] come motore di ricerca.
+[!DNL Elasticsearch7] è hardcoded in Adobe Commerce come motore di ricerca utilizzato in queste versioni.
 
-Questo non deve essere confuso con la versione installata del servizio. L&#39;applicazione riconosce solo [!DNL Elasticsearch7] come motore di ricerca ma non [!DNL OpenSearch], anche se utilizza il servizio [!DNL OpenSearch] sottostante come motore nel back-end.
+Questo non deve essere confuso con la versione installata del servizio. Anche se nel codice non è incluso un modulo [!DNL Opensearch], Adobe Commerce è in grado di utilizzare il servizio [!DNL Opensearch] sottostante.
 
 ## Soluzione
 
@@ -70,7 +70,7 @@ $ curl 127.0.0.1:9200
 
 **Metodo 2**:
 
-* Utilizzare il comando seguente sulla CLI del cloud di Magento: `magento-cloud relationships -p <project_id>`. Dopo aver utilizzato il comando, individuare [!DNL OpenSearch].
+* Utilizzare il comando seguente in Magento-cloud CLI: `magento-cloud relationships -p <project_id>`. Dopo aver utilizzato il comando, individuare [!DNL OpenSearch].
 
 ## Lettura correlata
 
