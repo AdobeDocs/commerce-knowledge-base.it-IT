@@ -4,9 +4,9 @@ description: 'Questo articolo descrive i passaggi per la risoluzione dei problem
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -60,22 +60,22 @@ Questo articolo descrive i passaggi per la risoluzione dei problemi relativi all
 </ol>
 </td>
 <td>
-<p>Per ulteriori informazioni sul punteggio Apdex New Relic, consulta <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentazione New Relic &gt; Apdex APM &gt; Misura la soddisfazione degli utenti</a>. È inoltre possibile fare riferimento a <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Avvisi gestiti per Adobe Commerce: avviso di avviso di tipo Apdex</a> nella Knowledge Base del supporto tecnico.</p>
+<p>Per ulteriori informazioni sul punteggio Apdex New Relic, consulta <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">Documentazione New Relic &gt; Apdex APM &gt; Misura la soddisfazione degli utenti</a>. È inoltre possibile fare riferimento a <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Avvisi gestiti per Adobe Commerce: avviso di avviso di tipo Apdex</a> nella Knowledge Base del supporto tecnico.</p>
 </td>
 </tr>
 <tr>
 <td>
-<p>Utilizzo CPU elevato:</p>
-<p>Un utilizzo elevato della CPU può indicare la presenza di un servizio particolarmente occupato, come MySQL, Redis e così via.</p>
+<p>Utilizzo elevato di CPU:</p>
+<p>Un utilizzo elevato di CPU può indicare che è presente un servizio particolarmente occupato, come MySQL, Redis e così via.</p>
 </td>
 <td>
 <ol>
 <li>Accedi a <a href="https://login.newrelic.com/login">New Relic</a> &gt; Infrastruttura &gt; Processi.</li>
-<li>Esaminare i grafici della CPU per verificare se è presente un processo bloccato o ad alto consumo che utilizza più del 100% del tempo della CPU e confrontare il numero di processori nell'istanza. Prestare attenzione ai picchi di utilizzo delle risorse. Si consiglia di non uccidere un processo a meno che non si tratti di un cron bloccato.</li>
+<li>Esaminare i grafici di CPU per verificare se è presente un processo bloccato o che richiede più del 100% del tempo di CPU e confrontare con il numero di processori dell'istanza. Prestare attenzione ai picchi di utilizzo delle risorse. Si consiglia di non uccidere un processo a meno che non si tratti di un cron bloccato.</li>
 </ol>
 </td>
 <td>
-<p>Per ulteriori informazioni sulle metriche delle prestazioni, in particolare la percentuale della CPU, i byte di I/O e l'utilizzo della memoria per singoli processi o gruppi di processi, fare riferimento alla <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">documentazione di New Relic &gt; pagina Interfaccia utente dell'infrastruttura &gt; pagina Host dell'infrastruttura &gt; scheda Processi</a>.</p>
+<p>Per ulteriori informazioni sulle metriche delle prestazioni, in particolare la percentuale di CPU, i byte I/O e l'utilizzo della memoria per singoli processi o gruppi di processi, fare riferimento alla <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">documentazione di New Relic &gt; pagina interfaccia utente infrastruttura &gt; pagina Host infrastruttura &gt; scheda Processi</a>.</p>
 </td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ Questo articolo descrive i passaggi per la risoluzione dei problemi relativi all
 <li>Ordina per la maggior parte delle operazioni che richiedono tempo.</li>
 <li>Rivedi le query TOP.
 
-Nota: <code>AGGIORNA</code> o <code>INSERISCI</code>Le query sono le query che utilizzano più la CPU.</li>
+Nota: <code>AGGIORNA</code> o <code>INSERISCI</code>le query sono le query che utilizzano più CPU.</li>
 <li>Passare a Throughput dal selettore Ordina per e cercare i processi che hanno causato l'abbandono della velocità effettiva del database.</li>
 <li>Se devi effettuare ulteriori indagini, prendi in considerazione la possibilità di esaminare i servizi di terze parti.</li>
 </ol>

@@ -4,9 +4,9 @@ description: Adobe Commerce offre una serie di strumenti di supporto che consent
 exl-id: 1f41c02b-5e5c-45c9-a68c-24787b69e193
 feature: Support, Tools and External Services
 role: Admin
-source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -17,24 +17,24 @@ Adobe Commerce offre una serie di strumenti di supporto che consentono di miglio
 
 * Strumento di analisi a livello di sito
 
-   * [Strumento di analisi a livello di sito per Adobe: panoramica](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
+   * [Strumento di analisi a livello di sito di Adobe: panoramica](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
 
 * Osservazione per Adobe Commerce
 
    * [Panoramica sull&#39;osservazione per Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
 
 * Avvisi gestiti su Adobe Commerce
-   * [Avvisi gestiti su Adobe Commerce: Avvisi critici per la memoria Redis](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
-   * [Avvisi gestiti per Adobe Commerce: avviso di disco](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
-   * [Avvisi gestiti per Adobe Commerce](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
-   * [Avvisi gestiti per Adobe Commerce: avviso disco critico](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md)
-   * [Avvisi gestiti su Adobe Commerce: avviso di memoria Redis](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert.md)
-   * [Avvisi gestiti per Adobe Commerce: avviso di avvertenza memoria](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md)
-   * [Avvisi gestiti su Adobe Commerce: avviso critico CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
-   * [Avvisi gestiti su Adobe Commerce: avvisi critici per la memoria](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md)
-   * [Avvisi gestiti per Adobe Commerce: avviso critico di circa](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md)
-   * [Avvisi gestiti su Adobe Commerce: avvisi MariaDB](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
-   * [Avvisi gestiti per Adobe Commerce: avviso di avviso di circa](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
-   * [Avvisi gestiti per Adobe Commerce: avviso CPU](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
+   * [Avvisi gestiti su Adobe Commerce: avviso critico memoria Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
+   * [Avvisi gestiti per Adobe Commerce: avviso disco](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
+   * [Avvisi gestiti per Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
+   * [Avvisi gestiti per Adobe Commerce: avviso disco critico](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
+   * [Avvisi gestiti su Adobe Commerce: avviso di memoria Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
+   * [Avvisi gestiti per Adobe Commerce: avviso di memoria](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
+   * [Avvisi gestiti su Adobe Commerce: avviso critico CPU](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
+   * [Avvisi gestiti su Adobe Commerce: avviso di memoria critica](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
+   * [Avvisi gestiti per Adobe Commerce: avviso critico Apdex](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
+   * [Avvisi gestiti su Adobe Commerce: avvisi MariaDB](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
+   * [Avvisi gestiti per Adobe Commerce: avviso di avviso di tipo Apdex](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
+   * [Avvisi gestiti per Adobe Commerce: avviso di CPU](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
 * Strumento di valutazione del sito Commerce
    * [Valutazione del sito Commerce](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html)
