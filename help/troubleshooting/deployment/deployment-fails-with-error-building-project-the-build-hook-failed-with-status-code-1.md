@@ -1,12 +1,12 @@
 ---
-title: '"Distribuzione non riuscita con "Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1""'
-description: '"Questo articolo illustra le cause e le soluzioni del problema di infrastruttura cloud di Adobe Commerce, in cui la fase di build del processo di distribuzione non riesce e il messaggio di errore è riassunto con: *"Errore durante la creazione del progetto: hook di build non riuscito con codice di stato 1"*."'
+title: 'La distribuzione non riesce e viene visualizzato il messaggio "Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1"'
+description: 'Questo articolo illustra le cause e le soluzioni del problema di infrastruttura cloud di Adobe Commerce, in cui la fase di build del processo di distribuzione non riesce e il messaggio di errore è riassunto con: *"Errore durante la creazione del progetto: hook di build non riuscito con codice di stato 1"*.'
 exl-id: add1cdac-dbcb-4c55-8bc2-c1f27e24aadb
 feature: Build, Deploy
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6a880a57c6cafb34fa51706f7bab1e23310bcef7
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,17 @@ Per informazioni dettagliate su come aumentare lo spazio su disco se si utilizza
 
    Utilizza l&#39;articolo [Aggiorna a strumenti ece](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) come riferimento.
 
-1. Verificare che il pacchetto ECE-tools sia presente nel file `composer.lock` eseguendo il comando seguente:    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;: &quot;magento/ece-tools&quot;</code>&#39; compositore.lock</code></pre>    Se sono specificati, la risposta sarà simile al seguente esempio:    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. Verificare che il pacchetto ECE-tools sia presente nel file `composer.lock` eseguendo il comando seguente:
+
+   ```bash
+   grep '"name": "magento/ece-tools"' composer.lock
+   ```
+
+   Se sono specificati, la risposta sarà simile al seguente esempio:
+
+   ```bash
+   "name": "magento/ece-tools", "version": "2002.0.20",
+   ```
 
 Consulta l&#39;articolo [Aggiornamento a strumenti ece](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/install-package) per maggiori informazioni.
 
