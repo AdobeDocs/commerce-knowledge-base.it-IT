@@ -1,17 +1,18 @@
 ---
-title: Accesso [!DNL Admin] non funzionante - dimensione massima sessione consentita superata
-description: Risolvi il problema quando tenti di accedere al tuo pannello  [!DNL Admin]  e il modulo viene aggiornato e non riesci ad accedere.
+title: Accesso [!UICONTROL Admin] non funzionante - dimensione massima sessione consentita superata
+description: Risolvere il problema quando si tenta di accedere al pannello [!UICONTROL Admin] e il modulo viene aggiornato, rendendo impossibile l'accesso.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
+source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# Accesso [!DNL Admin] non funzionante - dimensione massima sessione consentita superata
+# Accesso [!UICONTROL Admin] non funzionante - dimensione massima sessione consentita superata
 
-Questo articolo corregge il problema che si verifica quando si tenta di accedere al pannello [!DNL Admin], ma il modulo si aggiorna e non è possibile effettuare l&#39;accesso. La sessione [!DNL Admin] è stata superata.
+In questo articolo viene fornita una correzione per i casi in cui si tenta di accedere al pannello [!UICONTROL Admin], ma il modulo viene appena aggiornato e non è possibile effettuare l&#39;accesso oppure si eseguono alcune azioni nel pannello [!UICONTROL Admin] e si esce automaticamente.
+La causa è il superamento di [!UICONTROL Admin] [!UICONTROL Session Size].
 
 ## Versioni interessate
 
@@ -20,7 +21,10 @@ Questo articolo corregge il problema che si verifica quando si tenta di accedere
 
 ## Problema
 
-Impossibile accedere a [!DNL Admin] perché il modulo continua a essere ricaricato.
+Si verifica uno dei seguenti sintomi in [!UICONTROL Admin]:
+
+1. Impossibile accedere a [!UICONTROL Admin] perché il modulo continua a essere ricaricato.
+1. Ti disconnetti automaticamente quando tenti di eseguire un&#39;azione.
 
 ## Causa
 
@@ -41,7 +45,7 @@ Se si verificano questi errori, la soluzione sarà:
 
 <u>Adobe Commerce sull&#39;infrastruttura cloud</u>:
 
-Questa impostazione è accessibile solo in [!DNL Admin] quando la modalità di distribuzione/operazione è predefinita o sviluppatore. Tuttavia, nell’ambiente Cloud è consentita solo la modalità di distribuzione Produzione.)
+Questa impostazione è accessibile solo in [!UICONTROL Admin] quando la modalità di distribuzione/operazione è *default* o *developer*. Tuttavia, nell’ambiente cloud è consentita solo la modalità di distribuzione Produzione.)
 
 Per aumentare questo valore, esegui questo comando nel terminale (SSH):
 
@@ -53,6 +57,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## Lettura correlata
 
-* [Dimensione sessione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) nella Guida di Admin Systems.
-* [Modalità operativa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) nella Guida alla configurazione.
-* [Connessioni sicure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Dimensione sessione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) nella Guida di Admin Systems
+* [Modalità operativa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) nella Guida alla configurazione
+* [Connessioni sicure](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) nella Guida di Commerce on Cloud Infrastructure
