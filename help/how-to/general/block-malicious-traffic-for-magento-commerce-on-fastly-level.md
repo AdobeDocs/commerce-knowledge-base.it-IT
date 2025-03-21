@@ -3,9 +3,9 @@ title: Blocca il traffico dannoso per Adobe Commerce a livello Fastly
 description: Questo articolo descrive i passaggi da seguire per bloccare traffico dannoso se si sospetta che l’archivio Adobe Commerce su infrastruttura cloud stia avendo un attacco DDoS.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -85,4 +85,5 @@ Collabora con il tuo sviluppatore e/o esperto di SEO per determinare quali agent
 
 ## Lettura correlata
 
-[Condizioni di licenza specifiche per Adobe Commerce su Cloud](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [Condizioni di licenza specifiche per Adobe Commerce su Cloud](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [VCL personalizzato per il blocco delle richieste](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) nella Guida di Commerce su Cloud
