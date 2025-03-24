@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per l’invio di e-mail di n
 exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
 feature: Cloud, Communications, Paas
 role: Developer
-source-git-commit: 0017d43e221ef3023630f714c34aa65b368e214f
+source-git-commit: bd199fac6d8f33491b9fa0f508b2bb52d56b46a5
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # Gli ex membri del gruppo ricevono le e-mail di notifica cloud di Adobe Commerce
 
 Questo articolo fornisce una soluzione per rimuovere dall’elenco dei destinatari le e-mail di notifica che sono:
+
 * Ex membri del team non più associati al progetto.
 * Membri attuali del team che non dovrebbero ricevere le notifiche.
 
@@ -22,6 +23,10 @@ Questo articolo fornisce una soluzione per rimuovere dall’elenco dei destinata
 È stato inviato al team un avviso di interruzione rilevata o di un problema importante relativo al progetto/ambiente cloud. Ciò include i membri che potrebbero non essere più associati al progetto, ad esempio sviluppatori esterni/di agenzie o integratori di sistemi. Desideri che questi utenti non ricevano più le notifiche.
 
 ## Soluzione
+
+>[!NOTE]
+>
+>Se sei uno sviluppatore esterno/di agenzia o un integratore di sistemi e non sei più associato al progetto, devi contattare il Proprietario del progetto o l’Amministratore del progetto per assistenza.
 
 Esistono due modi per interrompere le notifiche rimuovendo gli utenti dal progetto:
 
@@ -32,5 +37,5 @@ Se questa operazione è già stata eseguita e le notifiche e-mail continuano a i
 
 ## Lettura correlata
 
-* [Visualizza il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user’s-project-role) nella guida Commerce su infrastruttura cloud.
+* [Visualizza il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user&#39;s-project-role) nella guida Commerce su infrastruttura cloud.
 * [Come includere un membro del team nelle notifiche di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) nella KB di Commerce.
