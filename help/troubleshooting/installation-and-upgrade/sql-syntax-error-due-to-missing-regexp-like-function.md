@@ -3,7 +3,8 @@ title: L’aggiornamento a B2B 1.5.2 non riesce e viene restituito un errore di 
 description: Questo articolo fornisce un hotfix per il problema in cui si verifica un errore di sintassi SQL dovuto alla funzione REGEXP_LIKE mancante durante il tentativo di aggiornamento della tabella company_structure.
 feature: B2B, Upgrade
 role: Admin, Developer
-source-git-commit: ec1f0e06c0f2a59d4b78eba69bf02798e6bf66f3
+exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
+source-git-commit: f83b82a95d4592252c8923720e90733115c52d87
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -68,7 +69,7 @@ Per l’infrastruttura Adobe Commerce on Cloud, segui i passaggi seguenti:
 
    ```
    composer require magento/magento-cloud-patches:1.1.5 --no-update
-   composer updatemagento/magento-cloud-patches
+   composer update magento/magento-cloud-patches
    ```
 
 1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
