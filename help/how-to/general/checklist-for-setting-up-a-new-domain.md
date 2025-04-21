@@ -3,16 +3,16 @@ title: Elenco di controllo per la configurazione di un nuovo [!DNL domain]
 description: Elenco di controllo per la configurazione di un nuovo [!DNL domain] in Adobe Commerce su un'infrastruttura cloud.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
+source-git-commit: f7b246088e3580922bd3389b2992e5dd8f97ff7a
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # Elenco di controllo per la configurazione di un nuovo [!DNL domain]
 
-Elenco di controllo per la configurazione di un nuovo [!DNL domain] in Adobe Commerce su infrastruttura cloud. Si applica indipendentemente dal fatto che si stia semplicemente aggiungendo un nuovo dominio o sostituendo il dominio corrente con uno nuovo.
+Questo elenco di controllo spiega come impostare un nuovo [!DNL domain] in Adobe Commerce sull&#39;infrastruttura cloud. Si applica sia quando si aggiunge un nuovo dominio che quando si sostituisce quello corrente. Si applica anche dopo aver ottenuto un nuovo ambiente di staging (vedi Passaggio 4).
 
 ## Prodotti e versioni interessati
 
@@ -65,3 +65,4 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 ## Lettura correlata
 
 * [Configura più siti Web o store: Aggiungi nuovo [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) nella nostra guida utente.
+* [Sito non accessibile a causa del cloaking dell&#39;origine](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
