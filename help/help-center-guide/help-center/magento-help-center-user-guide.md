@@ -3,9 +3,9 @@ title: Guida utente al supporto Experience League per Adobe Commerce
 description: Scopri come inviare un ticket di supporto al supporto Experience League, fornire accesso condiviso agli account e navigare nella Knowledge Base di Adobe Commerce.
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c9468428b9d230121fb1da354d138439a04d070d
+source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -321,6 +321,10 @@ Consulta la sezione [Condividere un account Commerce](https://experienceleague.a
 >L&#39;utente deve disporre di un account esistente prima di poter ottenere l&#39;accesso condiviso. Per ulteriori informazioni, vedere [Creare un account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account).
 
 Dopo aver fornito l&#39;accesso condiviso a un nuovo utente, le informazioni correlate sono disponibili in **Accesso condiviso** > **Gestione autorizzazioni** della pagina del tuo account Adobe Commerce.
+
+>[!NOTE]
+>
+>L&#39;accesso condiviso non concede automaticamente l&#39;accesso alla console Commerce Cloud. Devi [aggiungere l&#39;utente separatamente al progetto cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project).
 
 ![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
