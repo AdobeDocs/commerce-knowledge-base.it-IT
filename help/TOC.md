@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: dc9a64e1576f93d952b4ff4c24c3845f819e08bd
+source-git-commit: 41948c702d5c4e37847ab18ca2a93798e70a8e98
 workflow-type: tm+mt
-source-wordcount: '9304'
+source-wordcount: '9315'
 ht-degree: 0%
 
 ---
@@ -943,6 +943,7 @@ ht-degree: 0%
       * [[!UICONTROL salesRule] problemi di etichetta quando si esegue l’aggiornamento dalle versioni &lt; 2.4.5](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [[!DNL JQuery UI] vulnerabilità di sicurezza [!DNL CVE-2022-31160] correzione per le versioni 2.4.4, 2.4.5 e 2.4.6](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
       * [Migrazione dell&#39;integrazione del metodo di spedizione [!DNL FedEx] da SOAP all&#39;API RESTful](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
+      * [Il numero massimo di cookie verrebbe superato dall’errore in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
    * Elasticsearch {#elasticsearch}
       * [Fallback a  [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Problemi di Elasticsearch dopo l’aggiornamento all’infrastruttura cloud Adobe Commerce 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
