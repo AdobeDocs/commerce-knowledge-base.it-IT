@@ -3,9 +3,9 @@ title: 'Backup (snapshot) su Cloud: domande frequenti'
 description: Questo articolo illustra le nozioni di base per il backup degli ambienti con istantanee su Adobe Commerce su infrastrutture cloud.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
+source-git-commit: cfaa7043eed9cc5369f5317b10609d97a91d5861
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ Questo articolo descrive il backup degli ambienti con istantanee sull’infrastr
 ### Ambienti di staging e produzione
 
 * Le istantanee manuali non sono disponibili per gli ambienti di staging e produzione su piano Pro.
-* Gli snapshot automatici vengono creati **indipendentemente dallo stato attivo** del sito (gli snapshot vengono creati anche per i siti non ancora avviati). I backup automatici non sono accessibili pubblicamente perché sono archiviati in un sistema separato. Puoi [inviare un ticket di supporto Adobe Commerce](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) per richiedere un backup speciale o per eseguire il ripristino da un backup specifico, specificando la data, l&#39;ora e il fuso orario nel ticket. Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del database, poiché recupera lo snapshot, ma è necessario ripristinare il database manualmente.
+* Gli snapshot automatici vengono creati **indipendentemente dallo stato attivo** del sito (gli snapshot vengono creati anche per i siti non ancora avviati). I backup automatici non sono accessibili pubblicamente perché sono archiviati in un sistema separato.
+Puoi [inviare un ticket di supporto Adobe Commerce](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) per richiedere un backup speciale o per eseguire il ripristino da un backup specifico, specificando la data, l&#39;ora e il fuso orario nel ticket. Il supporto non genera snapshot manuali su richiesta.
+Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del database, poiché recupera lo snapshot, ma è necessario ripristinare il database manualmente.
 * I backup vengono creati utilizzando **snapshot crittografati di Amazon Web Services Elastic Block Store (AWS EBS)**.
 * Le istantanee dell’ambiente includono l’intero sistema (file system e database).
 * Il tempo di conservazione per gli snapshot automatici **è diverso** e segue [la pianificazione](/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery).
