@@ -2,9 +2,9 @@
 title: Descrizioni dei motivi del problema del ticket di supporto
 description: Questo articolo elenca le opzioni di campo **Issue Reason** per il ticket di supporto e fornisce le descrizioni dettagliate di ciascuna.
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
+source-git-commit: f502c913964103b88bcb00f942f70439394148f5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,7 @@ In questo articolo sono elencate le opzioni di campo **Motivo del problema** per
   </tr>  
 </tbody>
 </table>
+
+## Lettura correlata
+
+* [Invia un caso di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) nella Guida utente del supporto Experience League per Adobe Commerce.
