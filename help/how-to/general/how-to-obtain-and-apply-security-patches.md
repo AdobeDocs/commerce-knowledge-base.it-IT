@@ -2,7 +2,7 @@
 title: Ottenere e applicare [!UICONTROL security patch]
 description: Questo articolo fornisce istruzioni su come ottenere e applicare un [!UICONTROL security patch] rilasciato, ma le istruzioni non sono disponibili.
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
+source-git-commit: 3c7234b52e5e4465d95c95345e1c070c28600dfb
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # Come ottenere e applicare un [!UICONTROL security patch]
 
 >[!NOTE]
->Se si dispone di un&#39;installazione on-premise e non si utilizzano sistemi di controllo della versione come [!DNL CVS] o [!DNL GitHub] per gestire il codice, l&#39;host Web potrebbe essere in grado di fornire assistenza nell&#39;applicazione della patch. Puoi contattarli per ricevere supporto
+>Se si dispone di un&#39;installazione on-premise e non si utilizzano sistemi di controllo della versione come [!DNL CVS] o [!DNL GitHub] per gestire il codice, l&#39;host Web potrebbe essere in grado di fornire assistenza nell&#39;applicazione della patch. Sentiti libero di contattarli per il supporto.
 
 Questo articolo fornisce istruzioni su come ottenere e applicare un [!UICONTROL security patch] rilasciato, ma le istruzioni non sono disponibili.
 
