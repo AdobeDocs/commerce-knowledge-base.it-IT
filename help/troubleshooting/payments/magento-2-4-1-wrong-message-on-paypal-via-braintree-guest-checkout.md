@@ -27,7 +27,7 @@ Viene visualizzato un errore non specifico quando il pagamento del cliente ospit
 <u>Prerequisiti</u>:
 
 1. In Amministrazione Commerce, in **Archivi** > **Configurazione** > **Vendite** > **Pagamento**, impostare **Consenti pagamento ospite** = *No*.
-1. Abilita PayPal tramite Braintree come descritto nella [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
+1. Abilita PayPal tramite Braintree come descritto nella [Braintree](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
 
 <u>Passaggi da riprodurre</u>:
 

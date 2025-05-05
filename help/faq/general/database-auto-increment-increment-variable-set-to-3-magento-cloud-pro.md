@@ -31,5 +31,5 @@ Ad esempio, se l&#39;elemento principale selezionato è il nodo 1 in cui `auto_i
 
 Consulta nella documentazione per gli sviluppatori:
 
-* [Cloud per Adobe Commerce > Architettura Pro > Backup e disaster recovery](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Cloud per Adobe Commerce > Installa prerequisiti: database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Cloud per Adobe Commerce > Architettura Pro > Backup e disaster recovery](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Cloud per Adobe Commerce > Installa prerequisiti: database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/overview)

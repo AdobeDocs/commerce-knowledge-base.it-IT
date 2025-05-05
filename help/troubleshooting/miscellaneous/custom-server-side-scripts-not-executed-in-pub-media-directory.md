@@ -35,4 +35,4 @@ Archiviare gli script lato server in directory non scrivibili, ad esempio `./app
 
 ## Documentazione correlata
 
-* [Cloud for Adobe Commerce > Struttura del progetto > Directory scrivibili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) nella documentazione per gli sviluppatori.
+* [Cloud for Adobe Commerce > Struttura del progetto > Directory scrivibili](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories) nella documentazione per gli sviluppatori.

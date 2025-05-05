@@ -17,7 +17,7 @@ Questo articolo corregge i casi in cui gli archivi Adobe Commerce non visualizza
 
 ## Problema
 
-Aggiornamenti pianificati per una risorsa di contenuto del negozio (pagina, prodotto, blocco, ecc.) non vengono visualizzati nella vetrina subito dopo l&#39;ora di inizio dell&#39;aggiornamento. Ciò si verifica quando gli aggiornamenti sono stati pianificati utilizzando la funzionalità [Gestione temporanea dei contenuti](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html).
+Aggiornamenti pianificati per una risorsa di contenuto del negozio (pagina, prodotto, blocco, ecc.) non vengono visualizzati nella vetrina subito dopo l&#39;ora di inizio dell&#39;aggiornamento. Ciò si verifica quando gli aggiornamenti sono stati pianificati utilizzando la funzionalità [Gestione temporanea dei contenuti](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=it).
 
 ## Causa
 
@@ -45,6 +45,6 @@ Se anche per la prima richiesta non è consentito distribuire contenuto non aggi
 
 ## Documentazione correlata
 
-* [Configurare le opzioni di eliminazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella Guida all&#39;infrastruttura di Commerce su Cloud.
-* [Gestione temporanea del contenuto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) nella documentazione di contenuto e progettazione.
+* [Configurare le opzioni di eliminazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Gestione temporanea del contenuto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=it) nella documentazione di contenuto e progettazione.
 * [Distribuzione di contenuto non aggiornato](https://docs.fastly.com/guides/performance-tuning/serving-stale-content) nella documentazione Fastly.

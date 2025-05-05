@@ -45,4 +45,4 @@ Rimuovi JSON dalla sezione **Runtime** > **Estensioni** in `.magento.app.yaml` e
 
 ## Lettura correlata
 
-[applicazione PHP](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) nella documentazione per gli sviluppatori.
+[applicazione PHP](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/app/php-settings) nella documentazione per gli sviluppatori.

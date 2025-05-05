@@ -59,7 +59,7 @@ Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del 
 
 ## Ripristinare uno snapshot dell’ambiente
 
-Per ripristinare uno snapshot esistente (nell&#39;ambiente supportato: integrazione, gestione temporanea, produzione su piano Starter o integrazione su piano Pro), seguire i passaggi descritti in [Gestione backup: ripristino di un backup manuale](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) nella Guida all&#39;infrastruttura Commerce su Cloud.
+Per ripristinare uno snapshot esistente (nell&#39;ambiente supportato: integrazione, gestione temporanea, produzione su piano Starter o integrazione su piano Pro), seguire i passaggi descritti in [Gestione backup: ripristino di un backup manuale](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) nella Guida all&#39;infrastruttura Commerce su Cloud.
 
 ## Backup database (DB)
 

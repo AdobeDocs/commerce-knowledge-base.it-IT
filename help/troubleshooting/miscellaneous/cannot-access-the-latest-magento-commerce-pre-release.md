@@ -40,7 +40,7 @@ Queste sono le cause più comuni dei problemi:
 
 Durante la fase di pre-release, i pacchetti di rilascio sono disponibili in due posizioni:
 
-1. Tramite Composer su [magento.com](https://repo.magento.com/) utilizzando l&#39;ID immagine principale per l&#39;account. Per ulteriori dettagli su come utilizzare Composer, consulta [Installare Adobe Commerce utilizzando Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori.
+1. Tramite Composer su [magento.com](https://repo.magento.com/) utilizzando l&#39;ID immagine principale per l&#39;account. Per ulteriori dettagli su come utilizzare Composer, consulta [Installare Adobe Commerce utilizzando Composer](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori.
 1. **Il mio account** > **Download** su [account.magento.com](https://account.magento.com/customer/account/login).
 
 >[!NOTE]

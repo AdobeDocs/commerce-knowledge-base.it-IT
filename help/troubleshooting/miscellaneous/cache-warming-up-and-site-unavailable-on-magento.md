@@ -37,8 +37,8 @@ Il sito non è disponibile o il tempo di risposta è troppo alto.
 
 ## Soluzione
 
-Limita il numero di connessioni simultanee durante il riscaldamento della cache. È necessario aggiungere la variabile post-distribuzione `WARM_UP_CONCURRENCY` per specificare il numero di richieste di riscaldamento che lo script di riscaldamento della cache può inviare contemporaneamente. Impostando questa opzione è possibile gestire il carico sull’infrastruttura cloud di Adobe Commerce. Per i passaggi, consulta [Variabili post-distribuzione > WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency) nella documentazione per gli sviluppatori.
+Limita il numero di connessioni simultanee durante il riscaldamento della cache. È necessario aggiungere la variabile post-distribuzione `WARM_UP_CONCURRENCY` per specificare il numero di richieste di riscaldamento che lo script di riscaldamento della cache può inviare contemporaneamente. Impostando questa opzione è possibile gestire il carico sull’infrastruttura cloud di Adobe Commerce. Per i passaggi, consulta [Variabili post-distribuzione > WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-[Cache a pagina intera](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) nella guida utente
+[Cache a pagina intera](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/cache-management#full-page-caching) nella guida utente

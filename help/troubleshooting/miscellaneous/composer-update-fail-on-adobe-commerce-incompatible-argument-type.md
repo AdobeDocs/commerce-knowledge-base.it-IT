@@ -57,7 +57,7 @@ Tutti i commercianti on-premise Adobe Commerce versione 2.3.5 devono eseguire il
 
 **Correzione in Adobe Commerce sull&#39;infrastruttura cloud:**
 
-Esegui i comandi di cui sopra o effettua l’aggiornamento alla versione più recente degli strumenti ECE (strumenti ece: 2002.1.7), che sarà disponibile giovedì 29 luglio. Per i passaggi, consulta [Cloud for Adobe Commerce > Update ece-tools version](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) nella nostra documentazione per sviluppatori.
+Esegui i comandi di cui sopra o effettua l’aggiornamento alla versione più recente degli strumenti ECE (strumenti ece: 2002.1.7), che sarà disponibile giovedì 29 luglio. Per i passaggi, consulta [Cloud for Adobe Commerce > Update ece-tools version](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package) nella nostra documentazione per sviluppatori.
 
 La correzione completa verrà rilasciata in Adobe Commerce (tutti i metodi di distribuzione) 2.4.4.
 

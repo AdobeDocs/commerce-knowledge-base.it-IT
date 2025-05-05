@@ -29,4 +29,4 @@ Nel controllo di idoneità viene visualizzato il seguente messaggio:
 
 ## Soluzione
 
-Per risolvere il problema, verificare se è presente una directory `<magento_root>/update` contenente file e sottodirectory. In caso contrario, consulta [Configurare l&#39;aggiornamento](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) nella documentazione per gli sviluppatori.
+Per risolvere il problema, verificare se è presente una directory `<magento_root>/update` contenente file e sottodirectory. In caso contrario, consulta [Configurare l&#39;aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error) nella documentazione per gli sviluppatori.

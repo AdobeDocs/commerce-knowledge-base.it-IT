@@ -35,10 +35,10 @@ Ad esempio, è consigliabile evitare l&#39;importazione di un database MySQL blo
 ## Soluzione
 
 1. Verificare la presenza di errori di deadlock nei registri applicazioni, distribuzione o MySQL:
-   * [Percorsi di registro Adobe Commerce e Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [Percorsi dei registri dell&#39;infrastruttura cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+   * [Percorsi di registro Adobe Commerce e Magento Open Source](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html?lang=it)
+   * [Percorsi dei registri dell&#39;infrastruttura cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=it)
 1. Controllare l&#39;elenco dei processi MySQL per l&#39;esecuzione dei processi con il comando `mysql -e 'show full processlist';`
-1. Se utilizzi Adobe Commerce su infrastruttura cloud, verifica che MySQL slave sia abilitato. Consulta questo articolo: [Distribuire le variabili (MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
+1. Se utilizzi Adobe Commerce su infrastruttura cloud, verifica che MySQL slave sia abilitato. Consulta questo articolo: [Distribuire le variabili (MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=it#mysql_use_slave_connection).
 1. A seconda degli errori coinvolti, la soluzione potrebbe presentarsi da sola o potrebbe essere necessario includere le informazioni di registro utili per aprire un [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
 
 ## Lettura correlata

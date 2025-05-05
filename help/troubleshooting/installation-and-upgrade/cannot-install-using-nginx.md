@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### Soluzione alternativa
 
-Installare il software Adobe Commerce utilizzando la [riga di comando](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced).
+Installare il software Adobe Commerce utilizzando la [riga di comando](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/advanced).

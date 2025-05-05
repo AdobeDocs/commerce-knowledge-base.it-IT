@@ -53,21 +53,21 @@ Consulta una delle seguenti sezioni per una soluzione al problema.
 
 ### Soluzione per le impostazioni [!DNL OpCache] mancanti {#solution-missed-opcache-settings}
 
-Vedi [[!DNL Cron] arrestato a causa di configurazione errata o impostazioni mancanti [!DNL OpCache] nella Knowledge Base di Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings).
+Vedi [[!DNL Cron] arrestato a causa di configurazione errata o impostazioni mancanti [!DNL OpCache] nella Knowledge Base di Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings).
 
 ### Soluzione per utenti disabili dal team di infrastruttura {#solution-disabled-by-infrastructure-team}
 
 1. Controlla i ticket di supporto precedenti in cui il tuo sito non rispondeva o non rispondeva.
 1. Verificare quindi se il team Infrastruttura ha segnalato di averlo disabilitato.
 1. Verificare di aver risolto i problemi segnalati dal team Infrastruttura.
-1. Inviare una [richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se è necessaria ulteriore assistenza per richiedere la riattivazione di [!DNL cron] e spiegare come sono stati risolti i problemi indicati dal team Infrastruttura.
+1. Inviare una [richiesta di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se è necessaria ulteriore assistenza per richiedere la riattivazione di [!DNL cron] e spiegare come sono stati risolti i problemi indicati dal team Infrastruttura.
 
 ### Impossibile distribuire la soluzione {#solution-deployment-failed}
 
 Controlla i registri di distribuzione:
 
-* [Visualizza e gestisci i registri](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) nella Guida all&#39;infrastruttura di Commerce su Cloud.
-* [Verifica del registro di distribuzione se nell&#39;interfaccia utente di Cloud è presente *`log snipped`* errore](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) nella Knowledge Base di Commerce.
+* [Visualizza e gestisci i registri](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/test/log-locations) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Verifica del registro di distribuzione se nell&#39;interfaccia utente di Cloud è presente *`log snipped`* errore](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error) nella Knowledge Base di Commerce.
 
 1. Se la distribuzione non è riuscita durante il passaggio `setup:upgrade`, [!DNL cron] non sarà stato riabilitato.
 Ad esempio: vedi questa riga nel registro di distribuzione:
@@ -80,4 +80,4 @@ Ad esempio: vedi questa riga nel registro di distribuzione:
 ...<br>
    ```  [2024-02-07T10:50:09.579005+00:00] INFO: Enable cron```
 
-**Invia una [richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se hai bisogno di ulteriore assistenza.**
+**Invia una [richiesta di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-tickets) se hai bisogno di ulteriore assistenza.**

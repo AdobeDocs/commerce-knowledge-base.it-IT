@@ -50,5 +50,5 @@ L’attributo di stato del prodotto è stato rinominato nel file CSV. Ora è la 
 
 ## Lettura correlata
 
-* [Utilizzo dei file CSV](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv) nella guida utente.
-* [Riferimento per gli attributi di esportazione del prodotto](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product) nella guida utente.
+* [Utilizzo dei file CSV](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-csv) nella guida utente.
+* [Riferimento per gli attributi di esportazione del prodotto](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/data-attributes-product) nella guida utente.

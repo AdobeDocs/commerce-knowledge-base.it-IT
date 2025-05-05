@@ -46,6 +46,6 @@ La funzionalità di ricerca nativa di Adobe Commerce utilizzata nella versione 2
 
 ## Lettura correlata
 
-[Installa Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) nella guida utente.
+[Installa Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=it) nella guida utente.
 
-[Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview) nella documentazione per gli sviluppatori.
+[Live Search](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/live-search/overview) nella documentazione per gli sviluppatori.

@@ -45,6 +45,6 @@ Il problema è causato dal set di configurazione Nginx non corretto in `.magento
    * Integrazione: correggi il file autonomamente e invia le modifiche.
    * Gestione temporanea e produzione: correggi il file, invia le modifiche e crea un [ticket di supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per applicarlo.
 
-1. Abilitare l&#39;ottimizzazione immagine Fastly in Commerce Admin (Fastly deve essere configurato prima), come descritto in <https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>.
+1. Abilitare l&#39;ottimizzazione immagine Fastly in Commerce Admin (Fastly deve essere configurato prima), come descritto in <https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>.
 
 Se la configurazione è corretta, ma il problema persiste, continuare l&#39;indagine o contattare il [supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).

@@ -37,9 +37,9 @@ Sei stato reindirizzato al modulo di accesso, con il seguente messaggio di error
 ## Soluzione
 
 1. Creare un backup del database.
-1. Utilizzare uno strumento di database come [[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedere manualmente al database dalla riga di comando. Nella tabella del database `admin_user`, per il record utente amministratore, verificare se `is_active` è impostato su &quot;`1`&quot; e `lock_expires` è `NULL`. Se necessario, reimpostare questi valori.
+1. Utilizzare uno strumento di database come [[!DNL phpMyAdmin]](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedere manualmente al database dalla riga di comando. Nella tabella del database `admin_user`, per il record utente amministratore, verificare se `is_active` è impostato su &quot;`1`&quot; e `lock_expires` è `NULL`. Se necessario, reimpostare questi valori.
 
 ## Lettura correlata
 
-* [Reindirizza al modulo di accesso senza errori quando si tenta di accedere a [!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Reindirizza al modulo di accesso senza errori quando si tenta di accedere a [!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

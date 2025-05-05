@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Aggiornamento dei criteri del ciclo di vita dei ticket di supporto Adobe Commerce
 
-Questa documentazione illustra i miglioramenti apportati al ciclo di vita dei casi di supporto Adobe DX con l&#39;obiettivo di aumentare le comunicazioni e fornire ai clienti risoluzioni il più rapidamente possibile per garantire il successo dei clienti. Questo problema è disponibile anche in [Panoramica dei piani di successo di Adobe: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
+Questa documentazione illustra i miglioramenti apportati al ciclo di vita dei casi di supporto Adobe DX con l&#39;obiettivo di aumentare le comunicazioni e fornire ai clienti risoluzioni il più rapidamente possibile per garantire il successo dei clienti. Questo problema è disponibile anche in [Panoramica dei piani di successo di Adobe: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/it/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon).
 Di seguito sono riportate le tempistiche e le notifiche per vari scenari riscontrati durante il processo di supporto:
 
 ## Promemoria di follow-up dei casi
@@ -47,7 +47,7 @@ I clienti possono riaprire un caso chiuso entro 14 giorni per continuare la comu
 
 ## Lettura correlata
 
-* [Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [ Il collegamento &quot;Invia un ticket&quot; non è visualizzato nella pagina iniziale del Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
-* [Modulo di invio ticket: commerciante non visualizzato nel menu a discesa Organizzazione](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
-* [Panoramica dei piani di successo di Adobe: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
+* [Invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [ Il collegamento &quot;Invia un ticket&quot; non è visualizzato nella pagina iniziale del Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [Modulo di invio ticket: commerciante non visualizzato nel menu a discesa Organizzazione](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [Panoramica dei piani di successo di Adobe: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/it/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)

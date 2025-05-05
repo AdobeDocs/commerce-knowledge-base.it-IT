@@ -53,4 +53,4 @@ Se non riesci ancora ad aggiungere siti, completa i passaggi seguenti:
 
 ## Lettura correlata
 
-* [Analisi protezione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) nella guida utente.
+* [Analisi protezione](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan) nella guida utente.

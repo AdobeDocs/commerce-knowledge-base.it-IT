@@ -41,7 +41,7 @@ Il pulsante **Aggiungi selezioni al carrello** nella parte superiore della pagin
 
 ## Lettura correlata
 
-* [MerchDocs&#39; Gestione di un carrello](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) nella guida utente.
+* [MerchDocs&#39; Gestione di un carrello](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage) nella guida utente.
 * [Problema noto di Adobe Commerce 2.4.0: visualizzazione dei dati dei messaggi non elaborati nella vetrina](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) nella knowledge base di supporto.
 * [Problema noto di Adobe Commerce 2.4.0: l&#39;esportazione delle aliquote fiscali non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) nella Knowledge Base di supporto.
 * [Problema noto di Adobe Commerce 2.4.0: i metodi di pagamento Braintree non vengono visualizzati nel checkout di più indirizzi](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) nella Knowledge Base del supporto tecnico.

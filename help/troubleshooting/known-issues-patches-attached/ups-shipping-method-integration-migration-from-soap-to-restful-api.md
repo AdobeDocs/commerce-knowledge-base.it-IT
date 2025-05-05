@@ -74,7 +74,7 @@ Utilizza le seguenti patch allegate, a seconda della versione di Adobe Commerce/
 
 ## Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=it) nella Knowledge Base di supporto per le istruzioni.
 
 ## Come stabilire se i cerotti sono stati applicati
 
@@ -82,7 +82,7 @@ Considerando che non è possibile verificare facilmente se il problema è stato 
 
 <u>A tale scopo, procedere come segue</u>:
 
-1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=it).
 1. Esegui il comando:
 
    ```bash

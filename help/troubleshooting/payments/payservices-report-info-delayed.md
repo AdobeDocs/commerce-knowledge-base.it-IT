@@ -29,7 +29,7 @@ Dopo aver fatturato (acquisito) un ordine o emesso una nota di accredito per un 
 
 Prerequisiti: un ordine viene effettuato utilizzando la funzionalità di Payment Services.
 
-1. Un ordine è [fatturato](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (o [annullato](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) o [rimborsato tramite nota di credito](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) in [Amministratore](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin).
+1. Un ordine è [fatturato](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) (o [annullato](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order) o [rimborsato tramite nota di credito](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)) in [Amministratore](https://experienceleague.adobe.com/it/docs/commerce-admin/start/admin/admin).
 1. Passare al rapporto Stato pagamento ordine per visualizzare informazioni sull&#39;ordine.
 1. Lo stato viene visualizzato come `AUTHORIZED`, che è lo stato dell&#39;ordine prima della fatturazione o di un&#39;altra azione dell&#39;ordine.
 
@@ -37,7 +37,7 @@ Prerequisiti: un ordine viene effettuato utilizzando la funzionalità di Payment
 
 >[!NOTE]
 >
->Questo è solo un caso d’uso comune. Potrebbero esserci altri casi d&#39;uso in cui si verifica un&#39;azione [order](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) e i dati non sono immediatamente disponibili nel report applicabile.
+>Questo è solo un caso d’uso comune. Potrebbero esserci altri casi d&#39;uso in cui si verifica un&#39;azione [order](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/orders/orders#actions) e i dati non sono immediatamente disponibili nel report applicabile.
 
 <u>Risultato previsto</u>:
 I dati del rapporto vengono popolati immediatamente dopo un’azione su un ordine.
@@ -49,7 +49,7 @@ Potrebbe verificarsi un ritardo nei dati del rapporto visibili per le azioni del
 
 Esistono due fattori che influenzano questo ritardo nei dati visibili nell’amministratore:
 
-* Con quale frequenza scegli di sincronizzare (esportare e mantenere) i dati da Commerce tramite la configurazione [in Admin](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html).
+* Con quale frequenza scegli di sincronizzare (esportare e mantenere) i dati da Commerce tramite la configurazione [in Admin](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html?lang=it).
 * Periodo in cui PayPal pubblica i dati di reporting.
 
 ## Soluzione

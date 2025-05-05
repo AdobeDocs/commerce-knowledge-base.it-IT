@@ -17,7 +17,7 @@ In questo articolo vengono illustrati gli errori che possono verificarsi durante
 
 ## Prodotti e versioni interessati
 
-* [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html) è compatibile con le versioni di Adobe Commerce a partire dalla versione 2.3.0.
+* [Upgrade Compatibility Tool](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=it) è compatibile con le versioni di Adobe Commerce a partire dalla versione 2.3.0.
 
 ## Errore di segmentazione
 
@@ -82,4 +82,4 @@ Questa opzione di comando consente inoltre a Upgrade Compatibility Tool di anali
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-Per ulteriori informazioni sulle opzioni dell&#39;interfaccia della riga di comando, vedere [Eseguire lo strumento in un&#39;interfaccia della riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html).
+Per ulteriori informazioni sulle opzioni dell&#39;interfaccia della riga di comando, vedere [Eseguire lo strumento in un&#39;interfaccia della riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html?lang=it).

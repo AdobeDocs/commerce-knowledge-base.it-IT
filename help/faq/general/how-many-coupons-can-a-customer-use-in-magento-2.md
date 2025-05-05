@@ -16,8 +16,8 @@ Per le versioni di Adobe Commerce successive alla versione 2.4.7, è possibile c
 
 Per utilizzare contemporaneamente più codici coupon nel carrello, è possibile utilizzare un&#39;estensione corrispondente in [Commerce Marketplace](https://marketplace.magento.com/).
 
-Tuttavia, dalla versione 2.4.7 di Adobe Commerce, è possibile configurare e utilizzare **più di un codice coupon nel carrello contemporaneamente**. Per abilitarla, fare riferimento a [Impostazioni multicoupon](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/sales#multicoupon-settings).
+Tuttavia, dalla versione 2.4.7 di Adobe Commerce, è possibile configurare e utilizzare **più di un codice coupon nel carrello contemporaneamente**. Per abilitarla, fare riferimento a [Impostazioni multicoupon](https://experienceleague.adobe.com/it/docs/commerce-admin/config/sales/sales#multicoupon-settings).
 
 ## Ulteriori informazioni
 
-[Codici coupon](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html) nella guida utente.
+[Codici coupon](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-coupon.html?lang=it) nella guida utente.

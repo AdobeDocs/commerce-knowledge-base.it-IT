@@ -41,8 +41,8 @@ I percorsi tipici in cui è probabile che l&#39;archiviazione dei file venga rie
 
 `du -shc` */path/to/folder*
 
-Se l&#39;utilizzo del disco multimediale costituisce una percentuale elevata dello spazio totale su disco, è consigliabile abilitare [Fastly Deep Image Optimization](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), quindi eliminare manualmente i file nella cartella *pub/media/catalog/product/cache* sul server.
+Se l&#39;utilizzo del disco multimediale costituisce una percentuale elevata dello spazio totale su disco, è consigliabile abilitare [Fastly Deep Image Optimization](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), quindi eliminare manualmente i file nella cartella *pub/media/catalog/product/cache* sul server.
 
 ## Lettura correlata
 
-[Controlla i cluster dedicati](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) nella knowledge base di supporto.
+[Controlla i cluster dedicati](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) nella knowledge base di supporto.

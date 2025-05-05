@@ -42,9 +42,9 @@ Verrà visualizzato un rapporto di compatibilità. Se riscontri incompatibilità
 Per istruzioni su come effettuare l’aggiornamento, consulta la seguente documentazione:
 
 * Per gli aggiornamenti di PWA Studio, cercare la sezione &quot;Aggiornamento da una versione precedente&quot; delle [note sulla versione di PWA](https://github.com/magento/pwa-studio/releases/) per la versione da aggiornare.
-* [Aggiorna Adobe Commerce sulla versione infrastruttura cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) nella documentazione per gli sviluppatori
-* [Aggiorna Adobe Commerce on-premise (installato utilizzando &quot;compositore create-project&quot; o archivio)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) nella documentazione per gli sviluppatori
-* [Aggiorna Adobe Commerce on-premise (installato clonando l&#39;archivio Adobe Commerce)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs) nella documentazione per sviluppatori
+* [Aggiorna Adobe Commerce sulla versione infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) nella documentazione per gli sviluppatori
+* [Aggiorna Adobe Commerce on-premise (installato utilizzando &quot;compositore create-project&quot; o archivio)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) nella documentazione per gli sviluppatori
+* [Aggiorna Adobe Commerce on-premise (installato clonando l&#39;archivio Adobe Commerce)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/developer/git-installs) nella documentazione per sviluppatori
 
 ## Lettura correlata
 

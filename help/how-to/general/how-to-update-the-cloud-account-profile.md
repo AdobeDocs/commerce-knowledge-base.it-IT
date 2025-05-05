@@ -42,4 +42,4 @@ La modifica di questo campo dipende dalle circostanze individuali.
 
 Se devi trasferire la proprietà dell’account corrente a un nuovo proprietario o a un indirizzo e-mail diverso, dovrai aggiornare l’e-mail dell’utente principale associata all’account.
 
-Fai riferimento a: [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+Fai riferimento a: [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=it](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=it)

@@ -1,6 +1,6 @@
 ---
 title: "MDVA-38827: i clienti ricevono un errore di spedizione ordine tramite e-mail"
-description: "La patch di MDVA-38827 risolve il problema relativo alla ricezione da parte dei clienti di un'e-mail di spedizione dell'ordine contenente il seguente messaggio di errore: *Si è verificato un errore durante la generazione di questo contenuto*. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.0. L'ID della patch è MDVA-38827. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.4."
+description: "La patch di MDVA-38827 risolve il problema relativo alla ricezione da parte dei clienti di un'e-mail di spedizione dell'ordine contenente il seguente messaggio di errore: *Si è verificato un errore durante la generazione di questo contenuto*. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.0. L'ID della patch è MDVA-38827. Il problema è pianificato per la risoluzione in Adobe Commerce 2.4.4."
 exl-id: f2e5aeab-7d46-46be-9631-c3a863d9bf52
 feature: Communications, Marketing Tools, Orders, Shipping/Delivery
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-38827: i clienti ricevono un errore di spedizione ordine tramite e-mail
 
-La patch di MDVA-38827 risolve il problema relativo alla ricezione da parte dei clienti di un&#39;e-mail di spedizione dell&#39;ordine contenente il seguente messaggio di errore: *Si è verificato un errore durante la generazione del contenuto*. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.0. L&#39;ID della patch è MDVA-38827. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch di MDVA-38827 risolve il problema relativo alla ricezione da parte dei clienti di un&#39;e-mail di spedizione dell&#39;ordine contenente il seguente messaggio di errore: *Si è verificato un errore durante la generazione del contenuto*. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.0. L&#39;ID della patch è MDVA-38827. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.3.3-p1 - 2.4.2-p1
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=it). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -60,8 +60,8 @@ Nell&#39;e-mail è stato ricevuto il seguente messaggio di errore: *Si è verifi
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
@@ -70,4 +70,4 @@ Per ulteriori informazioni sullo strumento Patch di qualità, vedere:
 * [È stato rilasciato lo strumento di gestione delle patch di qualità: un nuovo strumento per la gestione automatica delle patch di qualità](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) nella knowledge base di supporto.
 * [Verifica se la patch è disponibile per il problema di Adobe Commerce utilizzando lo strumento Quality Patches ](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) nella nostra knowledge base di supporto.
 
-Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) nella documentazione per gli sviluppatori.
+Per informazioni sulle altre patch disponibili in QPT, consulta [Patch disponibili in QPT](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=it) nella documentazione per gli sviluppatori.

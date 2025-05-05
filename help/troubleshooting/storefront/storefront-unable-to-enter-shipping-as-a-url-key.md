@@ -122,5 +122,5 @@ Inoltre, evita di usare queste parole chiave etichettate come *parole chiave ris
 
 ## Lettura correlata
 
-* [URL riscrive](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) nella guida utente per merchandising e promozioni.
-* [Best practice per l&#39;ottimizzazione SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) nella guida utente per merchandising e promozioni.
+* [URL riscrive](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) nella guida utente per merchandising e promozioni.
+* [Best practice per l&#39;ottimizzazione SEO](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/seo-overview) nella guida utente per merchandising e promozioni.

@@ -64,4 +64,4 @@ Ora è possibile aggiungere prodotti alle categorie o spostare le categorie con 
 
 ## Lettura correlata
 
-[Reindirizzamenti automatici ai prodotti](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) nella guida utente.
+[Reindirizzamenti automatici ai prodotti](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic) nella guida utente.

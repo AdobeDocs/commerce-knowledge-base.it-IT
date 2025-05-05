@@ -30,7 +30,7 @@ Durante lo sviluppo di Adobe Commerce (tutte le implementazioni) e dei component
 
 Se devi reimpostare il tema dell’archivio, ma non puoi accedere al pannello Amministratore, puoi reimpostarlo nel database eseguendo le seguenti operazioni:
 
-1. Utilizzare uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) o accedere al database manualmente dalla riga di comando per eseguire la seguente query SQL: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. Utilizzare uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) o accedere al database manualmente dalla riga di comando per eseguire la seguente query SQL: `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. Cancella le directory seguenti:
    * `pub/static/frontend`
    * `var/view_preprocessing`

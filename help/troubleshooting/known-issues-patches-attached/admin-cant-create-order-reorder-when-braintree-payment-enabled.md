@@ -58,7 +58,7 @@ La patch è allegata a questo articolo. Per scaricarlo, fai clic sul seguente co
 
 >[!NOTE]
 >
->Inoltre, per Adobe Commerce sui commercianti di infrastrutture cloud: Adobe ha incluso la correzione nella versione 1.0.18 delle patch cloud per Commerce. Per istruzioni sull&#39;applicazione del pacchetto più recente, consulta le [note sulla versione delle patch cloud per Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches) nella documentazione per gli sviluppatori.
+>Inoltre, per Adobe Commerce sui commercianti di infrastrutture cloud: Adobe ha incluso la correzione nella versione 1.0.18 delle patch cloud per Commerce. Per istruzioni sull&#39;applicazione del pacchetto più recente, consulta le [note sulla versione delle patch cloud per Commerce](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches) nella documentazione per gli sviluppatori.
 
 ### Versioni compatibili di Adobe Commerce:
 

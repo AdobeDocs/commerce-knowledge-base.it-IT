@@ -30,13 +30,13 @@ La causa più probabile dei problemi è che lo spazio allocato nel database MySQ
 
 ### Verifica se lo spazio è sufficiente per MySQL
 
-Per tutti gli ambienti dell&#39;architettura del piano Starter di Adobe Commerce su infrastruttura cloud e l&#39;[ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) dell&#39;architettura del piano Pro di Adobe Commerce su infrastruttura cloud, [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) ed esegui il comando:
+Per tutti gli ambienti dell&#39;architettura del piano Starter di Adobe Commerce su infrastruttura cloud e l&#39;[ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) dell&#39;architettura del piano Pro di Adobe Commerce su infrastruttura cloud, [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it) ed esegui il comando:
 
 ```bash
 magento-cloud db:size
 ```
 
-Per l&#39;ambiente di staging o produzione dell&#39;architettura Pro, [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) ed eseguire `df -h`   Comando `| grep mysql`. Il risultato sarà simile al seguente:
+Per l&#39;ambiente di staging o produzione dell&#39;architettura Pro, [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it) ed eseguire `df -h`   Comando `| grep mysql`. Il risultato sarà simile al seguente:
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
@@ -55,7 +55,7 @@ mysql:
     disk: 2048
 ```
 
-Per ulteriori informazioni, vedere l&#39;articolo [Configurazione del servizio MySQL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html).
+Per ulteriori informazioni, vedere l&#39;articolo [Configurazione del servizio MySQL](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=it).
 
 Per apportare queste modifiche all&#39;ambiente di staging o produzione dell&#39;architettura Pro, è necessario creare un [ticket di supporto](https://support.magento.com). In genere, tuttavia, non è necessario occuparsi di questo problema in Staging/Produzione dell’architettura Pro, in quanto Adobe Commerce monitora questi parametri per te e ti avvisa e/o intraprende azioni in base al contratto.
 

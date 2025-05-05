@@ -24,9 +24,9 @@ Questo articolo fornisce una correzione per il problema di infrastruttura cloud 
 
 >[!NOTE]
 >
->Questo articolo non è applicabile alla situazione in cui si verifica un errore 404 quando si tenta di [visualizzare in anteprima l&#39;aggiornamento della gestione temporanea](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change). Se riscontri questo problema, apri un [ticket di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+>Questo articolo non è applicabile alla situazione in cui si verifica un errore 404 quando si tenta di [visualizzare in anteprima l&#39;aggiornamento della gestione temporanea](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change). Se riscontri questo problema, apri un [ticket di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
-L&#39;accesso a qualsiasi pagina della vetrina o all&#39;amministratore genera l&#39;errore 404 (la pagina &quot;Ops, le nostre cattive...&quot;) dopo aver eseguito operazioni con aggiornamenti pianificati per le risorse di contenuto del negozio utilizzando [Staging contenuto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (aggiornamenti per le risorse di contenuto del negozio pianificate utilizzando il modulo [Magento\_Staging](https://developer.adobe.com/commerce/php/module-reference/)). Ad esempio, potresti aver eliminato un prodotto con un aggiornamento pianificato o rimosso la data di fine per l’aggiornamento pianificato.
+L&#39;accesso a qualsiasi pagina della vetrina o all&#39;amministratore genera l&#39;errore 404 (la pagina &quot;Ops, le nostre cattive...&quot;) dopo aver eseguito operazioni con aggiornamenti pianificati per le risorse di contenuto del negozio utilizzando [Staging contenuto](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=it) (aggiornamenti per le risorse di contenuto del negozio pianificate utilizzando il modulo [Magento\_Staging](https://developer.adobe.com/commerce/php/module-reference/)). Ad esempio, potresti aver eliminato un prodotto con un aggiornamento pianificato o rimosso la data di fine per l’aggiornamento pianificato.
 
 Una risorsa di contenuto store include:
 
@@ -76,7 +76,7 @@ Se la query restituisce una tabella in cui il valore `update_exists` è &quot;1&
 
 ![aggiornamenti_exists_1.png](assets/updates_exist_1.png)
 
-In questo caso, è possibile fare riferimento a [Risoluzione dei problemi di inattività del sito](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) per informazioni sulla risoluzione dei problemi.
+In questo caso, è possibile fare riferimento a [Risoluzione dei problemi di inattività del sito](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter) per informazioni sulla risoluzione dei problemi.
 
 ## Soluzione
 
@@ -88,8 +88,8 @@ In questo caso, è possibile fare riferimento a [Risoluzione dei problemi di ina
 
 1. Attendere l&#39;esecuzione del processo [!DNL cron] (se configurato correttamente, può durare fino a cinque minuti) oppure eseguirlo manualmente se non è stato configurato [!DNL cron].
 
-Il problema deve essere risolto subito dopo aver risolto il collegamento non valido. Se il problema persiste, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
+Il problema deve essere risolto subito dopo aver risolto il collegamento non valido. Se il problema persiste, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case).
 
 ## Lettura correlata
 
-[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 > La patch MDVA-37725 è obsoleta.
 
-La patch MDVA-37725 risolve il problema dell&#39;invio asincrono delle e-mail di ordine tramite siti Web non predefiniti contenenti gli URL del logo del sito Web predefinito. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L&#39;ID della patch è MDVA-37725. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch MDVA-37725 risolve il problema dell&#39;invio asincrono delle e-mail di ordine tramite siti Web non predefiniti contenenti gli URL del logo del sito Web predefinito. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L&#39;ID della patch è MDVA-37725. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -31,7 +31,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.3.0 - 2.4.3
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=it). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -61,8 +61,8 @@ L’URL del logo dell’e-mail contiene l’URL predefinito del sito web.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

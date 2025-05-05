@@ -56,7 +56,7 @@ Il risultato conterrà un elenco di attributi utilizzati per la navigazione a li
 Per risolvere il problema, è necessario impostare `is_filterable` (ovvero, utilizzato in Navigazione a livelli) e `filterable_in_search` (ovvero, utilizzato nei risultati della ricerca Navigazione a livelli) su &quot;0&quot; (non utilizzato). A questo scopo, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

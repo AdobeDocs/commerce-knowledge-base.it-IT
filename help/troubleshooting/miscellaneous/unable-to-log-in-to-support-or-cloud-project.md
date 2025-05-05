@@ -51,7 +51,7 @@ Puoi accedere all’account con:
 - Un account aziendale/personale Adobe esistente.
 - Se non disponi di un account Adobe, creane uno con lo stesso indirizzo e-mail.
 
-Per i passaggi, fare riferimento a [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) in Adobe Experience League.
+Per i passaggi, fare riferimento a [Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=it) in Adobe Experience League.
 
 ## Lettura correlata
 

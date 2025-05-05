@@ -1,6 +1,6 @@
 ---
 title: Domande frequenti per la strategia di rilascio e le politiche sul ciclo di vita di Adobe Commerce 2024 e 2023
-description: Per soddisfare le esigenze mission-critical dei clienti Adobe Commerce, stiamo espandendo la finestra di supporto per Adobe Commerce 2.4.4 e versioni successive a **3 anni dalla data  [!DNL GA] **. Il supporto include **patch di sicurezza e di qualità**. Per informazioni dettagliate sulla tempistica, consulta il nuovo [calendario delle versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html).
+description: Per soddisfare le esigenze mission-critical dei clienti Adobe Commerce, stiamo espandendo la finestra di supporto per Adobe Commerce 2.4.4 e versioni successive a **3 anni dalla data  [!DNL GA] **. Il supporto include **patch di sicurezza e di qualità**. Per informazioni dettagliate sulla tempistica, consulta il nuovo [calendario delle versioni](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=it).
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
 source-git-commit: 216e3c6c7f4db605b39ef365356bc18c76ea034e
@@ -28,7 +28,7 @@ L&#39;[Adobe Commerce Software Lifecycle Policy](https://www.adobe.com/content/d
 
 ### Quando i clienti di 2.4.4, 2.4.5, 2.4.6 e 2.4.7 raggiungeranno la fine del supporto nell’ambito di questa nuova policy?
 
-I clienti di Adobe Commerce 2.4.4+ riceveranno correzioni di sicurezza e qualità per 3 anni dalla data della versione [!DNL GA], come indicato nella timeline seguente. Visita la pagina [Versioni rilasciate](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html) il [!DNL Experience League] per le date specifiche di fine del supporto.
+I clienti di Adobe Commerce 2.4.4+ riceveranno correzioni di sicurezza e qualità per 3 anni dalla data della versione [!DNL GA], come indicato nella timeline seguente. Visita la pagina [Versioni rilasciate](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=it) il [!DNL Experience League] per le date specifiche di fine del supporto.
 
 ![Grafico 1](assets/MSKB-1978-1.jpg)
 
@@ -44,14 +44,14 @@ L&#39;offerta di nuove funzionalità come servizi [!DNL SaaS] componibili consen
 
 Nel 2023, i clienti possono accedere alle versioni delle patch di Adobe Commerce circa due settimane prima della disponibilità generale.
 
-A partire dal 2024, Adobe non fornisce più l’accesso &quot;pre-release&quot; alle patch. Per la versione 2.4.7 e successive, invece, i clienti possono utilizzare [versioni beta](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) per accedere al codice di disponibilità pre-generale a scopo di test e sviluppo. L’accesso pre-release è ancora pianificato per le seguenti versioni del 2023:
+A partire dal 2024, Adobe non fornisce più l’accesso &quot;pre-release&quot; alle patch. Per la versione 2.4.7 e successive, invece, i clienti possono utilizzare [versioni beta](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html?lang=it) per accedere al codice di disponibilità pre-generale a scopo di test e sviluppo. L’accesso pre-release è ancora pianificato per le seguenti versioni del 2023:
 
 * 8 agosto 2023: l’accesso in anteprima al 25 luglio 2023
 * 10 ottobre 2023: accesso in anteprima il 26 settembre 2023
 
 ### Dove viene pubblicata la pianificazione delle versioni di Adobe Commerce?
 
-Per ulteriori dettagli, consulta la [pianificazione della versione di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) in data [!DNL Experience League].
+Per ulteriori dettagli, consulta la [pianificazione della versione di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=it) in data [!DNL Experience League].
 
 ### Quali sono i diversi tipi di versioni incluse nella pianificazione?
 
@@ -62,11 +62,11 @@ Per ulteriori dettagli, consulta la [pianificazione della versione di Adobe Comm
 
 ### Dove vanno i clienti per ottenere patch di qualità?
 
-Le patch di qualità consentono di distribuire correzioni per singoli problemi di qualità. I clienti possono contattare il supporto Adobe o utilizzare [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html) per trovare le patch di qualità.
+Le patch di qualità consentono di distribuire correzioni per singoli problemi di qualità. I clienti possono contattare il supporto Adobe o utilizzare [[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.html?lang=it) per trovare le patch di qualità.
 
 ### Quali risorse sono disponibili per supportare la pianificazione, la definizione del budget e gli aggiornamenti in generale?
 
-Le risorse disponibili includono una guida all&#39;aggiornamento 2.4 completa, registrazione del workshop di aggiornamento tecnico e [!DNL Upgrade Compatibility Tool]. Un elenco completo delle risorse è disponibile in [Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html).
+Le risorse disponibili includono una guida all&#39;aggiornamento 2.4 completa, registrazione del workshop di aggiornamento tecnico e [!DNL Upgrade Compatibility Tool]. Un elenco completo delle risorse è disponibile in [Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html?lang=it).
 
 ### In qualità di cliente di Managed Services, in che modo il team tecnico può aiutarmi nell’aggiornamento alla versione 2.4.4+?
 
@@ -191,7 +191,7 @@ Questi piani includono patch di qualità e sicurezza per l&#39;applicazione prin
 
 In base al supporto esteso, il nostro team di progettazione clienti continuerà a fornire le stesse patch di qualità e sicurezza normalmente fornite, senza alcun deterioramento dell’ambito. Tuttavia, i clienti dovranno adottare ulteriori misure per rimanere conformi a [!DNL PCI] se le tecnologie di terze parti sottostanti, come [!DNL MariaDB], raggiungono la fine del supporto.
 
-Adobe non fornisce supporto per tecnologie di terze parti che hanno raggiunto la fine del supporto. Adobe consiglia ai clienti di collaborare con il proprio [[!DNL PCI] esaminatore](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/) per garantire la conformità. Per un elenco completo delle tecnologie di terze parti testate e supportate, consultare [Requisiti di sistema di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
+Adobe non fornisce supporto per tecnologie di terze parti che hanno raggiunto la fine del supporto. Adobe consiglia ai clienti di collaborare con il proprio [[!DNL PCI] esaminatore](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/) per garantire la conformità. Per un elenco completo delle tecnologie di terze parti testate e supportate, consultare [Requisiti di sistema di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements).
 
 <table style="height: 444px; width: 632.2px;">
 <tbody>

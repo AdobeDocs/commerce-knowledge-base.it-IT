@@ -70,6 +70,6 @@ Non si preoccupi! Crea un nuovo ticket di supporto (assicurati di includere l’
 
 ## Argomenti correlati nella Knowledge Base di supporto:
 
-* [Aggiunta di un nuovo utente e impostazione delle autorizzazioni](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
-* [Come posso aggiornare il mio indirizzo e-mail o la mia password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
-* [Come si reimposta la password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
+* [Aggiunta di un nuovo utente e impostazione delle autorizzazioni](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=it)
+* [Come posso aggiornare il mio indirizzo e-mail o la mia password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=it)
+* [Come si reimposta la password?](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=it)

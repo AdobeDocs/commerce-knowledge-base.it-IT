@@ -34,7 +34,7 @@ Modifica dell&#39;indirizzo di posta elettronica di un utente con un proprio acc
 
 <u>Soluzione</u>
 
-1. [Invia una richiesta di supporto](https://experienceleague.adobe.com/home#support) all&#39;indirizzo https://experienceleague.adobe.com/home#support indicando quanto segue:
+1. [Invia una richiesta di supporto](https://experienceleague.adobe.com/home?lang=it#support) all&#39;indirizzo https://experienceleague.adobe.com/home?lang=it#support indicando quanto segue:
 
    * Indirizzo e-mail esistente da aggiornare
    * Nuovo indirizzo e-mail
@@ -48,7 +48,7 @@ Modifica dell&#39;indirizzo di posta elettronica di un utente che al momento non
 
 <u>Soluzione</u>
 
-Se hai accesso alla cassetta postale dell&#39;[indirizzo e-mail del proprietario corrente], reimposta la password per l&#39;indirizzo e-mail del proprietario corrente seguendo la [Guida reimposta o modifica la password di Adobe](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) nella Guida utente di Creative Cloud.
+Se hai accesso alla cassetta postale dell&#39;[indirizzo e-mail del proprietario corrente], reimposta la password per l&#39;indirizzo e-mail del proprietario corrente seguendo la [Guida reimposta o modifica la password di Adobe](https://helpx.adobe.com/it/manage-account/using/change-or-reset-password.html) nella Guida utente di Creative Cloud.
 
 1. Individuare il collegamento per la reimpostazione della password inviato alla cassetta postale del proprietario corrente con le istruzioni.
 1. Imposta una nuova password e cambia l&#39;e-mail in [indirizzo e-mail nuovo proprietario].
@@ -62,5 +62,5 @@ Tuttavia, se non hai accesso alle e-mail inviate all&#39;[indirizzo e-mail del p
 
 ## Lettura correlata
 
-[Reimposta password dimenticata](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) nella Guida utente di Creative Cloud.
-[Aggiorna il profilo dell&#39;account](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html) nella Guida utente di Creative Cloud.
+[Reimposta password dimenticata](https://helpx.adobe.com/it/manage-account/using/change-or-reset-password.html) nella Guida utente di Creative Cloud.
+[Aggiorna il profilo dell&#39;account](https://helpx.adobe.com/it/manage-account/using/edit-adobe-account-personal-profile.html) nella Guida utente di Creative Cloud.

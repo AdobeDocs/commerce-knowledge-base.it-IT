@@ -38,7 +38,7 @@ L&#39;aggiornamento alla versione 1.5.2 del B2B non riesce e si verifica un erro
 
 <u>Passaggi da riprodurre</u>:
 
-1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
+1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
 1. Aggiornamento B2B alla versione 1.5.2.
 
 <u>Risultati previsti</u>:
@@ -78,4 +78,4 @@ Per l’infrastruttura Adobe Commerce on Cloud, segui i passaggi seguenti:
    composer update magento/magento-cloud-patches
    ```
 
-1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
+1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.

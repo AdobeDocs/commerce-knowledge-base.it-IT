@@ -1,6 +1,6 @@
 ---
 title: Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato
-description: Questo articolo fornisce una correzione per quando il menu principale (o il [menu di navigazione superiore per le categorie](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) nella nostra guida utente) non viene visualizzato nella vetrina per le pagine secondarie (ad esempio, *blog/pagina*) quando Fastly o Varnish è abilitato.
+description: Questo articolo fornisce una correzione per quando il menu principale (o il [menu di navigazione superiore per le categorie](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=it) nella nostra guida utente) non viene visualizzato nella vetrina per le pagine secondarie (ad esempio, *blog/pagina*) quando Fastly o Varnish è abilitato.
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer

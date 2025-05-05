@@ -60,7 +60,7 @@ Per scaricarlo, fai clic sul seguente collegamento:
 
 ## Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=it) nella Knowledge Base di supporto per le istruzioni.
 
 ## Solo per gli esercenti di Adobe Commerce on Cloud: come stabilire se le patch sono state applicate
 
@@ -68,7 +68,7 @@ Considerando che non è possibile verificare facilmente se il problema è stato 
 
 <u>A tale scopo, eseguire la procedura seguente, utilizzando il file di esempio `VULN-27015-2.4.7_COMPOSER.patch` **come esempio</u>**:
 
-1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=it).
 1. Esegui il comando:<br>
    ![ac-13283-tell-if-patch-apply-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. Dovresti visualizzare un output simile a questo, dove VULN-27015 restituisce lo stato *Applicato*:

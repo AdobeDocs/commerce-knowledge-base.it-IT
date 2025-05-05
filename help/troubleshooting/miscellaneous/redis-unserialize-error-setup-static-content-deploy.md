@@ -99,5 +99,5 @@ STATIC_CONTENT_THREADS =1
 
 Nella documentazione per gli sviluppatori:
 
-* [Configura Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html)
-* [Aggiornamento riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)
+* [Configura Redis](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/config-redis.html?lang=it)
+* [Aggiornamento riga di comando](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=it)

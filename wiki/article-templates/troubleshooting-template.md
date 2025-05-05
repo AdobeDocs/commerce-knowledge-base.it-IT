@@ -67,7 +67,7 @@ Se esiste una soluzione alternativa temporanea, specificala come sezione separat
 
 ## Lettura correlata
 
-* [Argomento dell&#39;articolo](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home) nella guida utente.
+* [Argomento dell&#39;articolo](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home) nella guida utente.
 * [Argomento dell&#39;articolo](https://developer.adobe.com/commerce/docs/) nella documentazione per gli sviluppatori. Puoi anche dire di distinguere tra le istruzioni contenute nei devdocs per gli utenti cloud e quelle per gli utenti on-premise: &quot;[Argomento dell&#39;articolo](https://developer.adobe.com/commerce/docs/) nella nostra documentazione per sviluppatori per Adobe Commerce sull&#39;infrastruttura cloud.&quot; vs &quot;[Argomento dell&#39;articolo](https://developer.adobe.com/commerce/docs/) nella documentazione per gli sviluppatori di Adobe Commerce on-premise.&quot;
 * [Argomento dell&#39;articolo](https://support.magento.com/hc/en-us) nella Knowledge Base di supporto.
 * Qualsiasi risorsa correlata (blog, forum, StackOverflow, ecc.)

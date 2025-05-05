@@ -28,7 +28,7 @@ A seconda degli standard di sicurezza interni, è possibile scegliere di eseguir
 * Fornisci l’accesso di fornitori terzi all’ambiente cloud. Articoli correlati:
 
    * [Guida utente di Adobe Commerce Help Center > ACCESSO CONDIVISO: CONCEDI PRIVILEGI AD ALTRI UTENTI PER ACCEDERE AL TUO ACCOUNT](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) nella nostra Knowledge Base di supporto.
-   * [Condivisione dell&#39;account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) nella guida utente.
+   * [Condivisione dell&#39;account Commerce](https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-account-share) nella guida utente.
 
 * Crea un’immagine del database (o concedi al fornitore di terze parti l’accesso per farlo). Può essere eseguita utilizzando CLI o in Commerce Admin. Questo dump del database offuscherà i dati dei clienti, quindi tutto ciò che ottengono è codice e SKU del prodotto, ecc., nessun dato proprietario/cliente. Per riferimento, utilizzare [Condivisione dell&#39;account Commerce] (/help/how-to/general/create-database-dump-on-cloud.md) nella Knowledge Base di supporto.
 * Una volta completato il test, assicurati di revocare l&#39;accesso condiviso all&#39;ambiente cloud, come descritto in [Guida utente di Adobe Commerce Help Center > Revoca (elimina l&#39;accesso condiviso)](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) nella nostra knowledge base di supporto.

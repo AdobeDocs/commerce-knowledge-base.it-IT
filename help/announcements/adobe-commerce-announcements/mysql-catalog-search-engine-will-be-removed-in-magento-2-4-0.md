@@ -36,11 +36,11 @@ Il motivo della rimozione del motore di ricerca MySQL è che Elasticsearch forni
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">MySQL</td>
-<td style="width: 478.2px;">È necessario installare Elasticsearch. Consulta <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search">Installare e configurare Elasticsearch</a> nella documentazione per gli sviluppatori.</td>
+<td style="width: 478.2px;">È necessario installare Elasticsearch. Consulta <a href="https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/search/overview-search">Installare e configurare Elasticsearch</a> nella documentazione per gli sviluppatori.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">Elasticsearch (senza versione elencata)</td>
-<td style="width: 478.2px;">Stai utilizzando l’Elasticsearch 2 e devi aggiornarlo all’Elasticsearch 7 (preferito) o 6. Per informazioni dettagliate, consulta <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6">Aggiornamento di Elasticsearch</a> e <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine">Configurare Commerce per l'utilizzo di Elasticsearch</a> nella documentazione per gli sviluppatori.</td>
+<td style="width: 478.2px;">Stai utilizzando l’Elasticsearch 2 e devi aggiornarlo all’Elasticsearch 7 (preferito) o 6. Per informazioni dettagliate, consulta <a href="https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/search/overview-search#es-upgrade6">Aggiornamento di Elasticsearch</a> e <a href="https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/search/configure-search-engine">Configurare Commerce per l'utilizzo di Elasticsearch</a> nella documentazione per gli sviluppatori.</td>
 </tr>
 <tr>
 <td class="wysiwyg-text-align-center" style="width: 133px;">ELASTICSEARCH 5</td>
@@ -59,7 +59,7 @@ Il motivo della rimozione del motore di ricerca MySQL è che Elasticsearch forni
 
 ## Installazione:
 
-Quando Adobe Commerce on-premise e Magento Open Source 2.4.0 viene rilasciato, Elasticsearch sarà un componente obbligatorio, pertanto devi avere un Elasticsearch di configurazione host e configurato prima di installare la versione 2.4.0. Consulta [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search) nella documentazione per gli sviluppatori.
+Quando Adobe Commerce on-premise e Magento Open Source 2.4.0 viene rilasciato, Elasticsearch sarà un componente obbligatorio, pertanto devi avere un Elasticsearch di configurazione host e configurato prima di installare la versione 2.4.0. Consulta [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/search/overview-search) nella documentazione per gli sviluppatori.
 
 Per impostazione predefinita, la ricerca di Adobe Commerce utilizza Elasticsearch 7 come motore di ricerca e tenta di connettersi a un server in localhost:9200. È supportato anche l’Elasticsearch 6.x. Se la configurazione non corrisponde ai valori predefiniti, è possibile configurare queste impostazioni utilizzando gli argomenti passati a `setup:install`, nello stesso modo in cui viene configurata la connessione al database.
 

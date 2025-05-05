@@ -68,5 +68,5 @@ Crea un processo cron per eliminare gli indici di tracciamento. Questo comando e
 
 Se desideri eliminare gli indici con una frequenza temporale impostata, crea un processo cron facendo riferimento ai seguenti articoli nella documentazione per sviluppatori:
 
-* [Configurare un processo cron personalizzato e un gruppo cron (tutorial)](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [Configura processi cron](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [Configurare un processo cron personalizzato e un gruppo cron (tutorial)](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [Configura processi cron](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

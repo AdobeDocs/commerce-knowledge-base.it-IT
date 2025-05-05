@@ -44,7 +44,7 @@ Se si è verificata un&#39;interruzione potenzialmente causata da un database so
 Se il progetto Adobe Commerce è distribuito su architettura Pro, puoi utilizzare [!DNL Percona Toolkit] per analizzare le query.
 
 1. Eseguire il comando `pt-query-digest --type=slowlog` nei registri query lente MySQL.
-   * Per trovare il percorso dei registri di query lente, vedi **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)** nella documentazione per gli sviluppatori.
+   * Per trovare il percorso dei registri di query lente, vedi **[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=it)** nella documentazione per gli sviluppatori.
    * Consulta la documentazione di [[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest).
 1. In base ai problemi rilevati, puoi adottare le misure necessarie per correggere la query in modo che venga eseguita più rapidamente.
 
@@ -81,4 +81,4 @@ In questo modo sarà possibile stabilire se il server MySQL è attivo e se non s
 * [Sintassi elenco processi MySQL](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html) in dev.mysql.com.
 * [Sintassi di terminazione MySQL](https://dev.mysql.com/doc/refman/8.0/en/kill.html) in dev.mysql.com.
 * [Sicurezza, prestazioni e gestione dati](https://developer.adobe.com/commerce/php/best-practices/extensions/security/) nella documentazione per gli sviluppatori.
-* [Guida di MySQL](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) nella documentazione per gli sviluppatori.
+* [Guida di MySQL](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql) nella documentazione per gli sviluppatori.

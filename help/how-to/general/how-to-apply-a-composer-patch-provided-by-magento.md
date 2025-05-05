@@ -36,7 +36,7 @@ Questo articolo spiega come applicare una patch del compositore per Adobe Commer
    git push origin
    ```
 
-Per ulteriori informazioni sull&#39;applicazione di patch ai progetti Cloud, consulta [Applicare patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
+Per ulteriori informazioni sull&#39;applicazione di patch ai progetti Cloud, consulta [Applicare patch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ### Come applicare una patch del compositore per Adobe Commerce on-premise e Magento Open Source {#commerce}
 

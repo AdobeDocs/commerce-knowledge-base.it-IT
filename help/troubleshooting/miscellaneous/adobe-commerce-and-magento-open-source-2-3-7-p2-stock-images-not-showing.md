@@ -50,4 +50,4 @@ Elimina le immagini Adobe Stock caricate dalle cartelle `pub/media` e `pub/media
 
 ## Lettura correlata
 
-* [Archiviazione multimediale](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) nella guida utente.
+* [Archiviazione multimediale](https://experienceleague.adobe.com/it/docs/commerce-admin/content-design/wysiwyg/storage/media-storage) nella guida utente.

@@ -33,8 +33,8 @@ Le immagini non sono ottimizzate per bilanciare le prestazioni con la qualità d
 
 Prima di caricare le immagini, ottimizzale e comprimerle per bilanciare le prestazioni con la qualità di visualizzazione. Questo consente di aumentare lo spazio e ridurre i tempi di caricamento delle pagine. I PNG offrono dimensioni più piccole per le immagini con grandi aree di colore uniforme. I JPEG danno dimensioni più piccole per tutto il resto. Utilizza la compressione più elevata (senza degradazioni evidenti). Di solito si tratta del 60-80%.
 
-Utilizza [Fastly Image Optimization](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html) per produrre immagini più efficienti in termini di archiviazione.
+Utilizza [Fastly Image Optimization](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html?lang=it) per produrre immagini più efficienti in termini di archiviazione.
 
 ## Lettura correlata
 
-Per informazioni sulla gestione dello spazio su disco (se si utilizza Adobe Commerce su infrastruttura cloud), vedere [Gestione dello spazio su disco in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) nella Guida all&#39;infrastruttura Commerce su cloud.
+Per informazioni sulla gestione dello spazio su disco (se si utilizza Adobe Commerce su infrastruttura cloud), vedere [Gestione dello spazio su disco in Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=it) nella Guida all&#39;infrastruttura Commerce su cloud.

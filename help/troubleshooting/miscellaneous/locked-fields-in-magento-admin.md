@@ -52,6 +52,6 @@ Verificare che la configurazione non sia stata salvata in `app/etc/env.php` o `a
 
 ## Lettura correlata
 
-* [Esporta la configurazione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration) nella documentazione per gli sviluppatori.
-* [Imposta i valori di configurazione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values) nella documentazione per gli sviluppatori.
+* [Esporta la configurazione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration) nella documentazione per gli sviluppatori.
+* [Imposta i valori di configurazione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values) nella documentazione per gli sviluppatori.
 * [Adobe Commerce sull&#39;infrastruttura cloud: riduci i tempi di inattività dell&#39;implementazione con Configuration Management](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) nella knowledge base per il supporto.

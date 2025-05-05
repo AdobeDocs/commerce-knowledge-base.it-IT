@@ -28,7 +28,7 @@ Se utilizzi Adobe Commerce su un’infrastruttura cloud, ti preghiamo di collabo
 Note aggiuntive sulla ridistribuzione del sito Cloud per questo aggiornamento:
 
 * Se il tuo sito utilizza ancora PHP versione 7.0, dovrai prima effettuare l’aggiornamento a una versione PHP supportata per poter usufruire di questi aggiornamenti di sicurezza.
-* Per 2.1.x/2.2.x, ulteriori informazioni sull&#39;aggiornamento del PHP sono disponibili [qui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
+* Per 2.1.x/2.2.x, ulteriori informazioni sull&#39;aggiornamento del PHP sono disponibili [qui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=it).
 
 \* *Le versioni precedenti di questo articolo e della nostra messaggistica indicavano il 19 settembre, ma i nostri team hanno terminato il lavoro prima del previsto.*
 

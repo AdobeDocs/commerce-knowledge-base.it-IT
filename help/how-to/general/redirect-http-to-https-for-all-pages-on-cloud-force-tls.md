@@ -29,7 +29,7 @@ In questo passaggio definiamo gli URL sicuri per l’archivio. Se l&#39;operazio
 1. Impostare **Usa URL protetti in Storefront** e **Usa URL protetti in Admin** su **Sì**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. Fai clic su **Salva configurazione** nell&#39;angolo superiore destro per applicare le modifiche.
 
-**Documentazione correlata nella guida utente:**   [Archivia URL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
+**Documentazione correlata nella guida utente:**   [Archivia URL](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Passaggio 2: abilitare Force TLS (Forza TLS) {#step-2-enable-force-tls}
 

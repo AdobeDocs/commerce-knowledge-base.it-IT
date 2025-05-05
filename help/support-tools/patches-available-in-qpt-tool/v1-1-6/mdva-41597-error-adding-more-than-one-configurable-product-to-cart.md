@@ -1,6 +1,6 @@
 ---
 title: "MDVA-41597: errore durante l'aggiunta di più prodotti configurabili al carrello"
-description: La patch MDVA-41597 risolve il problema relativo all'errore che si verifica quando si aggiungono al carrello più prodotti configurabili tramite GraphQL. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L'ID della patch è MDVA-41597. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+description: La patch MDVA-41597 risolve il problema relativo all'errore che si verifica quando si aggiungono al carrello più prodotti configurabili tramite GraphQL. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L'ID della patch è MDVA-41597. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 777e0f9c-80e3-4cfb-9328-c20eb038f74a
 feature: Configuration, Orders, Products, Shopping Cart
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-41597: errore durante l&#39;aggiunta di più prodotti configurabili al carrello
 
-La patch MDVA-41597 risolve il problema relativo all&#39;errore che si verifica quando si aggiungono al carrello più prodotti configurabili tramite GraphQL. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L&#39;ID della patch è MDVA-41597. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch MDVA-41597 risolve il problema relativo all&#39;errore che si verifica quando si aggiungono al carrello più prodotti configurabili tramite GraphQL. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6. L&#39;ID della patch è MDVA-41597. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.4.2 - 2.4.3-p1
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=it). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -49,8 +49,8 @@ Solo il primo prodotto viene aggiunto al carrello.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

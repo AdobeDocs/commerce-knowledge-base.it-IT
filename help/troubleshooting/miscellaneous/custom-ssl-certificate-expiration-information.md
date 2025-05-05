@@ -46,6 +46,6 @@ Se ti trovi in una situazione in cui il tuo SSL personalizzato è stato sostitui
 ## Lettura correlata
 
 * [Certificati SSL (TLS) per il Magento Commerce Cloud: FAQ](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) nella Knowledge Base di supporto.
-* [Riferimento agli strumenti della riga di comando: magento-cloud certiified:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) nella documentazione per gli sviluppatori.
-* [Elenco di controllo di Launch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)nella documentazione per gli sviluppatori.
-* [Accedere allo strumento di analisi per l&#39;intero sito](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) nella guida utente.
+* [Riferimento agli strumenti della riga di comando: magento-cloud certiified:add](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd) nella documentazione per gli sviluppatori.
+* [Elenco di controllo di Launch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/launch/checklist)nella documentazione per gli sviluppatori.
+* [Accedere allo strumento di analisi per l&#39;intero sito](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool) nella guida utente.

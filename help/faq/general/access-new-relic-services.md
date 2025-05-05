@@ -28,8 +28,8 @@ Se alcuni clienti hanno ricevuto l&#39;e-mail contenente un collegamento di atti
 
 **Adobe Commerce sull&#39;infrastruttura cloud Pianifica per primi i clienti dell&#39;architettura che desiderano utilizzare New Relic:**
 
-I clienti con architettura Starter non ricevono il servizio New Relic Infrastructure come parte dell&#39;abbonamento. Tuttavia, possono utilizzare New Relic Application Performance Monitoring (APM) se aggiungono una licenza seguendo i passaggi [Connetti a New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) nella documentazione per gli sviluppatori.
+I clienti con architettura Starter non ricevono il servizio New Relic Infrastructure come parte dell&#39;abbonamento. Tuttavia, possono utilizzare New Relic Application Performance Monitoring (APM) se aggiungono una licenza seguendo i passaggi [Connetti a New Relic](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-Per informazioni sui servizi New Relic, consulta [Analisi delle prestazioni](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) nella documentazione per gli sviluppatori. Puoi anche esaminare [Risolvere i problemi relativi alle prestazioni utilizzando New Relic su Adobe Commerce sull&#39;infrastruttura cloud](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) nella nostra knowledge base di supporto.
+Per informazioni sui servizi New Relic, consulta [Analisi delle prestazioni](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service) nella documentazione per gli sviluppatori. Puoi anche esaminare [Risolvere i problemi relativi alle prestazioni utilizzando New Relic su Adobe Commerce sull&#39;infrastruttura cloud](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md) nella nostra knowledge base di supporto.

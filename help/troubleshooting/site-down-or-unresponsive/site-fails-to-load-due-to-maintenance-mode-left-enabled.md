@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## Lettura correlata
 
-Per informazioni su quando utilizzare la modalità di manutenzione, consultare [Attiva o disattiva la modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) nella documentazione per gli sviluppatori.
+Per informazioni su quando utilizzare la modalità di manutenzione, consultare [Attiva o disattiva la modalità di manutenzione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) nella documentazione per gli sviluppatori.

@@ -47,4 +47,4 @@ Configurare l&#39;indicizzatore `customer_grid` per la reindicizzazione utilizza
 Link ad argomenti correlati nella documentazione per gli sviluppatori:
 
 * [Panoramica sull&#39;indicizzazione](https://developer.adobe.com/commerce/php/development/components/indexing/)
-* [Gestione degli indicizzatori](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [Gestione degli indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-indexers)

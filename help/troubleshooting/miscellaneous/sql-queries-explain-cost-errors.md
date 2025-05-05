@@ -19,7 +19,7 @@ Ci sono alcuni motivi per cui questo potrebbe accadere. Di seguito sono riportat
 
 ## Impossibile eseguire la query. Il valore di costo EXPLAIN \[xxx\] è troppo alto per eseguire questa query.
 
-Se viene visualizzato questo messaggio, significa che l&#39;esecuzione della query è stata ritenuta troppo costosa. Abbiamo due raccomandazioni per questa situazione: una è quella di eliminare qualsiasi clausola ORDER BY dalla query, in quanto si tratta di operazioni costose. La seconda consiste nel seguire i suggerimenti contenuti nell&#39;[articolo sull&#39;ottimizzazione](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html) per modificare la query.
+Se viene visualizzato questo messaggio, significa che l&#39;esecuzione della query è stata ritenuta troppo costosa. Abbiamo due raccomandazioni per questa situazione: una è quella di eliminare qualsiasi clausola ORDER BY dalla query, in quanto si tratta di operazioni costose. La seconda consiste nel seguire i suggerimenti contenuti nell&#39;[articolo sull&#39;ottimizzazione](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html?lang=it) per modificare la query.
 
 ## Impossibile eseguire la query. Questa query restituisce \[xxx\] righe, superando il limite di 10.000
 

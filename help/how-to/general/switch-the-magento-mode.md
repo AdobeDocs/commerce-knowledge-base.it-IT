@@ -13,5 +13,5 @@ ht-degree: 0%
 
 Consulta i seguenti articoli nella documentazione per gli sviluppatori:
 
-* Adobe Commerce 2.3: [Impostare la modalità operativa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
-* Adobe Commerce 2.4: [Impostare la modalità operativa](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.3: [Impostare la modalità operativa](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/set-mode)
+* Adobe Commerce 2.4: [Impostare la modalità operativa](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/set-mode)

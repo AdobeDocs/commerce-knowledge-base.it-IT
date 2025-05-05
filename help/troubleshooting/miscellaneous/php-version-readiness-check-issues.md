@@ -32,7 +32,7 @@ Il controllo non riesce perché si utilizza una versione PHP non supportata.
 
 ### Soluzione
 
-Per risolvere questo problema, utilizza una delle versioni supportate elencate nella documentazione per gli sviluppatori [2.3.x Requisiti di sistema](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements) e [2.2.x Requisiti di sistema](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements).
+Per risolvere questo problema, utilizza una delle versioni supportate elencate nella documentazione per gli sviluppatori [2.3.x Requisiti di sistema](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements) e [2.2.x Requisiti di sistema](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements).
 
 ## Il controllo di idoneità PHP non viene visualizzato
 
@@ -43,7 +43,7 @@ Il controllo di preparazione PHP non visualizza la versione PHP, come illustrato
 
 ### Soluzione
 
-Sintomo di una configurazione errata del processo cron. Per ulteriori informazioni, consulta [Configurare i processi cron](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration) nella documentazione per gli sviluppatori.
+Sintomo di una configurazione errata del processo cron. Per ulteriori informazioni, consulta [Configurare i processi cron](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/next-steps/configuration) nella documentazione per gli sviluppatori.
 
 ## Versione PHP errata
 
@@ -62,7 +62,7 @@ Per risolvere il problema, provare a eseguire le operazioni seguenti:
 * Riavvia il server web o php-fm.
 * Controllare la variabile di ambiente `$PATH` per individuare più percorsi a PHP.
 * Utilizzare il comando `which php` per individuare il primo eseguibile PHP nel percorso. Se non è corretto, rimuoverlo o creare un collegamento simbolico alla versione PHP corretta.
-* Utilizzare una pagina [`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software) per raccogliere ulteriori informazioni.
+* Utilizzare una pagina [`phpinfo.php`](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software) per raccogliere ulteriori informazioni.
 * Assicurati di eseguire una versione PHP supportata in base ai nostri requisiti di sistema, nella documentazione per gli sviluppatori:
-   * [Requisiti di sistema di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
-* Impostare le stesse impostazioni PHP sia per la riga di comando PHP che per il plug-in del server Web PHP, come descritto in [Opzioni di configurazione PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#php-settings) nella documentazione per gli sviluppatori.
+   * [Requisiti di sistema di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements)
+* Impostare le stesse impostazioni PHP sia per la riga di comando PHP che per il plug-in del server Web PHP, come descritto in [Opzioni di configurazione PHP](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements#php-settings) nella documentazione per gli sviluppatori.

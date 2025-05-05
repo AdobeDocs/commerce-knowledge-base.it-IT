@@ -27,7 +27,7 @@ Crea un dump &quot;scrubbed&quot; dall’amministratore:
 
 Puoi quindi fornire a Supporto del collegamento di download diretto ai file di dump (il tuo indirizzo dello store e il nome del file come visualizzato).
 
-In caso di problemi durante la creazione delle immagini da Admin, è consigliabile utilizzare i comandi CLI come descritto in [Eseguire le utilità di supporto](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) nella documentazione per gli sviluppatori.
+In caso di problemi durante la creazione delle immagini da Admin, è consigliabile utilizzare i comandi CLI come descritto in [Eseguire le utilità di supporto](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/run-support-utilities) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

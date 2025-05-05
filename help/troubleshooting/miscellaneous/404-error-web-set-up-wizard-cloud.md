@@ -43,9 +43,9 @@ L&#39;Impostazione guidata Web è stata disabilitata per tutte le istanze di Ado
 
 Questa funzione è disabilitata in Adobe Commerce sull’infrastruttura cloud.
 
-Consulta [Installare, gestire e aggiornare le estensioni](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce nell&#39;infrastruttura cloud.
-Consulta [Installazione rapida](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce on-premise.
+Consulta [Installare, gestire e aggiornare le estensioni](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure-store/extensions) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce nell&#39;infrastruttura cloud.
+Consulta [Installazione rapida](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori per informazioni su come eseguire aggiornamenti o installare moduli esterni per Adobe Commerce on-premise.
 
 ## Lettura correlata
 
-* Consulta [Installare un&#39;estensione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) nella documentazione per gli sviluppatori.
+* Consulta [Installare un&#39;estensione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension) nella documentazione per gli sviluppatori.

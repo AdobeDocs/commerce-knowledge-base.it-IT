@@ -95,7 +95,7 @@ Per aggiungere il processo come processo cron, è necessario aggiungere la varia
 
 >[!TIP]
 >
->[I file YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) fanno distinzione tra maiuscole e minuscole e non consentono tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
+>[I file YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it) fanno distinzione tra maiuscole e minuscole e non consentono tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
 
 >[!NOTE]
 >

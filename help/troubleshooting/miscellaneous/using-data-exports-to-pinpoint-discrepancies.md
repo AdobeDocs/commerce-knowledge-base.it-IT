@@ -1,6 +1,6 @@
 ---
 title: Utilizzo delle esportazioni di dati per individuare le discrepanze
-description: Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati BI di Magento. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l'elenco di controllo di [data discrepanza diagnostic checklist](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) non è stato utile per individuare il problema. Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
+description: Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati BI di Magento. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l'elenco di controllo di [data discrepanza diagnostic checklist](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) non è stato utile per individuare il problema. Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Utilizzo delle esportazioni di dati per individuare le discrepanze
 
-Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati BI di Magento. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l&#39;elenco di controllo di diagnostica delle discrepanze di dati [non ti ha aiutato a individuare il problema. ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
+Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati BI di Magento. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l&#39;elenco di controllo di diagnostica delle discrepanze di dati [non ti ha aiutato a individuare il problema. ](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
 
 Effettua questa analisi, ad esempio:
 
@@ -51,7 +51,7 @@ Ora che tutti i dati sono in un unico posto, possiamo cercare la fonte della dis
 
 Se entrambi i sistemi hanno lo stesso conteggio di righe e la metrica **Ricavi** non corrisponde ai dati di origine, il **ordine\_totale** deve essere disattivato. È possibile che il campo **order\_total** sia stato aggiornato nel database di origine e che Magento BI non stia rilevando queste modifiche.
 
-Per confermare, controlla se la colonna **order\_total** è stata ricontrollata. Passare alla Gestione Date Warehouse e fare clic sulla tabella **`orders`**. Visualizzerai la [frequenza di ricontrollo](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) elencata in &#39;Modifiche?&#39; colonna. Il campo **order\_total** deve essere impostato in modo da ricontrollare ogni volta che si prevede che cambi; in caso contrario, procedere e impostarlo sulla frequenza di ricontrollo desiderata.
+Per confermare, controlla se la colonna **order\_total** è stata ricontrollata. Passare alla Gestione Date Warehouse e fare clic sulla tabella **`orders`**. Visualizzerai la [frequenza di ricontrollo](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=it) elencata in &#39;Modifiche?&#39; colonna. Il campo **order\_total** deve essere impostato in modo da ricontrollare ogni volta che si prevede che cambi; in caso contrario, procedere e impostarlo sulla frequenza di ricontrollo desiderata.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ Passare alla pagina Connessioni e controllare lo stato dell&#39;origine dati con
 
 ## Il database di origine contiene un numero minore di righe rispetto a Magento BI {#lessrows}
 
-Se il database di origine contiene meno righe rispetto a Magento BI, è possibile che le righe vengano eliminate dal database di origine e che Magento BI non le stia rilevando. **&#x200B; [L&#39;eliminazione dei dati](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) può causare discrepanze, tempi di aggiornamento più lunghi e numerosi problemi logistici** pertanto si consiglia vivamente di non eliminare mai i dati a meno che non sia realmente necessario.
+Se il database di origine contiene meno righe rispetto a Magento BI, è possibile che le righe vengano eliminate dal database di origine e che Magento BI non le stia rilevando. **&#x200B; [L&#39;eliminazione dei dati](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=it) può causare discrepanze, tempi di aggiornamento più lunghi e numerosi problemi logistici** pertanto si consiglia vivamente di non eliminare mai i dati a meno che non sia realmente necessario.
 
 Se, tuttavia, le righe vengono eliminate dalla tabella, controllare la frequenza di ricontrollo della chiave primaria. Ricontrollare la chiave primaria significa che la tabella verrà controllata per le righe eliminate.
 
@@ -89,7 +89,7 @@ Se non si è in grado di individuare la fonte del problema, sarà necessario ese
 
 ## Lettura correlata
 
-* [Elenco di controllo diagnostica discrepanza dati](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [Criteri di servizio Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Elenco di controllo diagnostica discrepanza dati](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Criteri di servizio Adobe Commerce Intelligence](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
 

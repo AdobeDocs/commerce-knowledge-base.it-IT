@@ -33,7 +33,7 @@ La chiave di crittografia utilizzata per crittografare i dati sensibili, come i 
 
 Per copiare la chiave di crittografia:
 
-1. SSH al progetto che era l&#39;origine per l&#39;immagine del database, come descritto in [SSH all&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) nella documentazione per gli sviluppatori.
+1. SSH al progetto che era l&#39;origine per l&#39;immagine del database, come descritto in [SSH all&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it) nella documentazione per gli sviluppatori.
 1. Apri `app/etc/env.php` in un editor di testo.
 1. Copia il valore di `key` per `crypt`.
 
@@ -44,7 +44,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 Per impostare il valore chiave per il progetto di destinazione:
 
 1. Apri [Cloud Console](https://console.adobecommerce.com) e individua il progetto.
-1. Imposta il valore della variabile [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) (nella documentazione per gli sviluppatori), come descritto in [Configura il progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) nella documentazione per gli sviluppatori. In questo modo verrà attivato il processo di distribuzione e `CRYPT_KEY` verrà sovrascritto nel file `app/etc/env.php` in ogni distribuzione.
+1. Imposta il valore della variabile [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=it) (nella documentazione per gli sviluppatori), come descritto in [Configura il progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=it) nella documentazione per gli sviluppatori. In questo modo verrà attivato il processo di distribuzione e `CRYPT_KEY` verrà sovrascritto nel file `app/etc/env.php` in ogni distribuzione.
 
 Se necessario, è possibile sovrascrivere manualmente la chiave di crittografia nel file `app/etc/env.php`:
 

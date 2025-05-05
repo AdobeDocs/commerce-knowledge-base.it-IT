@@ -32,7 +32,7 @@ L&#39;aggiornamento del modulo `Magento_Company` dopo l&#39;aggiornamento a B2B 
 
 <u>Passaggi da riprodurre</u>:
 
-1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
+1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
 1. Aggiornamento B2B alla versione 1.5.2.
 
 <u>Risultati previsti</u>:
@@ -61,7 +61,7 @@ Per risolvere il problema, effettua le seguenti operazioni:
 
 ### Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto per le istruzioni.
 
 ### Applicare una patch utilizzando le patch cloud
 
@@ -80,8 +80,8 @@ Per gli esercenti di Adobe Commerce on Cloud, segui i passaggi seguenti:
    ```
 
 1. Aggiungere ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch alla directory `m2-hotfixes`.
-1. Eseguire il commit e il push delle modifiche per avviare la ridistribuzione e `bin/magento setup:upgrade`. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
+1. Eseguire il commit e il push delle modifiche per avviare la ridistribuzione e `bin/magento setup:upgrade`. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
 
 ## Lettura correlata
 
-* [L&#39;aggiornamento a B2B 1.5.2 non riesce e viene restituito un errore di sintassi SQL a causa della mancanza della funzione REGEXP_LIKE](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [L&#39;aggiornamento a B2B 1.5.2 non riesce e viene restituito un errore di sintassi SQL a causa della mancanza della funzione REGEXP_LIKE](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

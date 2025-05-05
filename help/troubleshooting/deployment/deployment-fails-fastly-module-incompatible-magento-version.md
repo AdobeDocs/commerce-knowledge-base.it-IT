@@ -54,7 +54,7 @@ La distribuzione potrebbe non riuscire e presentare i seguenti messaggi di error
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-Se utilizzi la soluzione Adobe Commerce su infrastruttura cloud, visualizzerai questo messaggio di errore nel [registro di distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations). Per Adobe Commerce on-premise, l’errore verrà visualizzato nella riga di comando.
+Se utilizzi la soluzione Adobe Commerce su infrastruttura cloud, visualizzerai questo messaggio di errore nel [registro di distribuzione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/test/log-locations). Per Adobe Commerce on-premise, l’errore verrà visualizzato nella riga di comando.
 
 ## Causa
 
@@ -70,4 +70,4 @@ A questo scopo, effettua le seguenti operazioni:
    * se il modulo Fastly è incluso in magento-cloud-metapackage:    <pre>aggiornamento compositore magento/magento-cloud-metapackage</pre>
    * se il modulo Fastly è stato installato separatamente (ad esempio, nel caso di utilizzo di Adobe Commerce on-premise, non dell’edizione cloud) <pre>aggiornamento rapido compositore/magento2</pre>
 1. Esegui il commit e l’invio delle modifiche, quindi attiva il processo di distribuzione se non viene eseguito automaticamente.
-1. In Admin, [carica il nuovo VCL in Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).
+1. In Admin, [carica il nuovo VCL in Fastly](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets).

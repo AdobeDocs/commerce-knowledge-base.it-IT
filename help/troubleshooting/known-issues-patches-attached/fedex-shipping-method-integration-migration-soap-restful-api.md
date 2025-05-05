@@ -18,11 +18,11 @@ ht-degree: 0%
 >
 >Utilizzare la patch ACSD-61622 di [!DNL Quality Patches Tool] (QPT) versione 1.1.57 invece della patch fornita in precedenza. La nuova patch è compatibile con le versioni di Adobe Commerce (tutti i metodi di distribuzione) 2.4.6-p1 - 2.4.6-p8. Potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool].
 >
->Per ulteriori informazioni, consulta l&#39;[articolo sulla patch ACSD-61622](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) nella guida degli strumenti di Adobe Commerce.
+>Per ulteriori informazioni, consulta l&#39;[articolo sulla patch ACSD-61622](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-57/acsd-61622-fedex-account-specific-rates-missing-from-response) nella guida degli strumenti di Adobe Commerce.
 
 >[!WARNING]
 >
->Prima di installare la nuova patch, è necessario disinstallare la patch precedente fornita in questo articolo. Per istruzioni sulla disinstallazione delle patch, consulta [Ripristinare una patch personalizzata](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) nella guida utente.
+>Prima di installare la nuova patch, è necessario disinstallare la patch precedente fornita in questo articolo. Per istruzioni sulla disinstallazione delle patch, consulta [Ripristinare una patch personalizzata](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches#revert-a-custom-patch) nella guida utente.
 
 
 Questo articolo fornisce una patch per risolvere i problemi relativi alla migrazione dell&#39;integrazione del metodo di spedizione [!DNL FedEx] dall&#39;SOAP all&#39;API RESTful per Adobe Commerce 2.4.4-p4 - 2.4.6-pX.
@@ -75,7 +75,7 @@ Utilizza le seguenti patch allegate, a seconda della versione di Adobe Commerce/
 
 ## Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=it) nella Knowledge Base di supporto per le istruzioni.
 
 ## Come stabilire se i cerotti sono stati applicati
 
@@ -83,7 +83,7 @@ Considerando che non è possibile verificare facilmente se il problema è stato 
 
 <u>A tale scopo, procedere come segue</u>:
 
-1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Installa  [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=it).
 1. Esegui il comando:
 
    ```bash

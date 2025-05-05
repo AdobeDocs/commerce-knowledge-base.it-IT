@@ -63,5 +63,5 @@ Effettua le seguenti operazioni:
 
 ## Lettura correlata
 
-* [L&#39;URL riscrive](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) nella nostra guida utente.
-* [Best practice per l&#39;ottimizzazione SEO](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview) nella guida utente.
+* [L&#39;URL riscrive](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite) nella nostra guida utente.
+* [Best practice per l&#39;ottimizzazione SEO](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/seo-overview) nella guida utente.

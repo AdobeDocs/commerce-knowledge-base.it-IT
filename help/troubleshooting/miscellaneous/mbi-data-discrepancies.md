@@ -18,7 +18,7 @@ I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati val
 * [Elenco di controllo diagnostico delle discrepanze di dati](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [Utilizzo delle esportazioni per evidenziare le discrepanze di dati](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-È inoltre consigliabile verificare che siano stati impostati i [metodi di replica](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e i [nuovi controlli](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretti per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
+È inoltre consigliabile verificare che siano stati impostati i [metodi di replica](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e i [nuovi controlli](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretti per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
 
 ## Ho ancora bisogno di aiuto!
 
@@ -32,4 +32,4 @@ Se il rapporto è ancora inesatto, non preoccuparti: il nostro team di supporto 
 ## Lettura correlata
 
 * [Colonne calcolate](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [Modifiche strutturali al database](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [Modifiche strutturali al database](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=it)

@@ -29,5 +29,5 @@ Dopo aver installato lo strumento, è possibile verificare la disponibilità di 
 
 Per informazioni dettagliate, consulta la documentazione per gli sviluppatori:
 
-* [Patch disponibili nello strumento Patch di qualità](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [Note sulla versione dello strumento Patch di qualità](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Patch disponibili nello strumento Patch di qualità](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=it)
+* [Note sulla versione dello strumento Patch di qualità](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/release-notes)

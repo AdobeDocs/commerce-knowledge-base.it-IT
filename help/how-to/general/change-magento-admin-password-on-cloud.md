@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ![login_panel_s.png](assets/login_panel_s.png)
 
-Leggi i passaggi nella sezione [Reimpostare la password di Accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html#admin-sign-in) nella nostra guida utente.
+Leggi i passaggi nella sezione [Reimpostare la password di Accesso amministratore](https://experienceleague.adobe.com/docs/commerce-admin/start/admin/admin-signin.html?lang=it#admin-sign-in) nella nostra guida utente.
 
 Di seguito sono riportate le note di utilizzo critiche.
 
 ### Abilita e-mail in uscita
 
-Prima di utilizzare il modulo **Password dimenticata**, [abilita le e-mail in uscita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html) tramite [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html).
+Prima di utilizzare il modulo **Password dimenticata**, [abilita le e-mail in uscita](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html?lang=it) tramite [Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=it).
 
 ### Controlla la cartella Posta indesiderata
 
@@ -32,5 +32,5 @@ Se non riesci a trovare il messaggio con un collegamento Reimposta password, con
 
 Se non è possibile ripristinare o reimpostare la password per l&#39;utente esistente, è possibile creare un nuovo utente amministratore e impostare una password per questo utente. A tale scopo, effettua le seguenti operazioni:
 
-1. Utilizza [SSH per accedere all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. Utilizza [SSH per accedere all&#39;ambiente remoto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
 1. Esegui il comando seguente: `bin/magento admin:user:create   --admin-user=%user_name% --admin-password=%your_password% --admin-email=%your_email% --admin-firstname=%admin_user_first_name% --admin-lastname=%admin_user_last_name%`

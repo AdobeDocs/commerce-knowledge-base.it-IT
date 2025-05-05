@@ -33,7 +33,7 @@ Queste sono le cause più comuni dei problemi:
 
 ### Posizione codice di accesso anticipato
 
-Durante i periodi di accesso beta, i pacchetti di rilascio sono disponibili solo tramite Composer su [repo.magento.com](https://repo.magento.com/). I pacchetti di rilascio non sono disponibili sui portali GitHub e Adobe Commerce in questo periodo e verranno pubblicati in queste posizioni nella data GA. Per ulteriori dettagli su come utilizzare Composer, fare clic [qui](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer).
+Durante i periodi di accesso beta, i pacchetti di rilascio sono disponibili solo tramite Composer su [repo.magento.com](https://repo.magento.com/). I pacchetti di rilascio non sono disponibili sui portali GitHub e Adobe Commerce in questo periodo e verranno pubblicati in queste posizioni nella data GA. Per ulteriori dettagli su come utilizzare Composer, fare clic [qui](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer).
 
 ### MageID da utilizzare
 

@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 Dopo aver installato il pacchetto, configura Google reCAPTCHA (consigliato) o CAPTCHA come descritto nei seguenti documenti:
 
-* [Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) nella guida utente.
-* [CAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha) nella guida utente.
+* [Google reCAPTCHA](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/captcha/security-google-recaptcha) nella guida utente.
+* [CAPTCHA](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/captcha/security-captcha) nella guida utente.
 
 La nuova opzione del modulo di pagamento è:
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB25-08]
 
-L’11 febbraio 2025, Adobe ha rilasciato un aggiornamento sulla sicurezza regolarmente pianificato per Adobe Commerce e Magento Open Source. Questo aggiornamento risolve [[!DNL critical, important] e  [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html) vulnerabilità. Il successo dello sfruttamento di queste vulnerabilità potrebbe portare all’esecuzione arbitraria del codice, al bypass della funzione di sicurezza e all’escalation dei privilegi. Ulteriori informazioni sono disponibili nel [Bollettino sulla sicurezza di Adobe ([!DNL APSB25-08]) qui](https://helpx.adobe.com/security/products/magento/apsb25-08.html).
+L’11 febbraio 2025, Adobe ha rilasciato un aggiornamento sulla sicurezza regolarmente pianificato per Adobe Commerce e Magento Open Source. Questo aggiornamento risolve [[!DNL critical, important] e  [!DNL moderate]](https://helpx.adobe.com/it/security/severity-ratings.html) vulnerabilità. Il successo dello sfruttamento di queste vulnerabilità potrebbe portare all’esecuzione arbitraria del codice, al bypass della funzione di sicurezza e all’escalation dei privilegi. Ulteriori informazioni sono disponibili nel [Bollettino sulla sicurezza di Adobe ([!DNL APSB25-08]) qui](https://helpx.adobe.com/it/security/products/magento/apsb25-08.html).
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Adobe Commerce su infrastruttura cloud, Adobe Commerce on-premise e Magento Open
 
 >[!NOTE]
 >
->Questo problema è stato risolto con l&#39;[ultimo aggiornamento di patch cloud](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Il tentativo di applicare la patch isolata quando la correzione è già in atto dall’aggiornamento di Cloud-patches può causare errori di installazione.
+>Questo problema è stato risolto con l&#39;[ultimo aggiornamento di patch cloud](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest). Il tentativo di applicare la patch isolata quando la correzione è già in atto dall’aggiornamento di Cloud-patches può causare errori di installazione.
 
 Per risolvere la vulnerabilità dei prodotti e delle versioni interessati, è necessario applicare la patch isolata [!DNL CVE-2025-24434], a seconda della versione di Adobe Commerce/Magento Open Source in uso.
 
@@ -71,7 +71,7 @@ Utilizza le seguenti patch isolate allegate, a seconda della versione di Adobe C
 
 ## Come applicare il cerotto isolato
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=it) nella Knowledge Base di supporto per le istruzioni.
 
 ## Solo per gli esercenti di Adobe Commerce on Cloud: come stabilire se le patch isolate sono state applicate
 
@@ -81,7 +81,7 @@ Considerando che non è possibile verificare facilmente se il problema è stato 
 >
 ><u>A tale scopo, eseguire la procedura seguente, utilizzando il file `VULN-27015-2.4.7_COMPOSER.patch` **come esempio**</u>:
 
-1. [Installare lo strumento Patch di qualità](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Installare lo strumento Patch di qualità](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=it).
 1. Esegui il comando:<br>
    ![cve-2024-34102-tell-if-patch-apply-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. Dovresti visualizzare un output simile a questo, dove VULN-27015 restituisce lo stato *Applicato*:
@@ -100,5 +100,5 @@ Considerando che non è possibile verificare facilmente se il problema è stato 
 
 Aggiornamenti di sicurezza disponibili per Adobe Commerce:
 
-* [Bollettino sulla sicurezza di Adobe ([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [Aggiornamenti alla sicurezza più recenti disponibili per Adobe Commerce](https://helpx.adobe.com/security/products/magento.html)
+* [Bollettino sulla sicurezza di Adobe ([!DNL APSB25-08])](https://helpx.adobe.com/it/security/products/magento/apsb25-08.html)
+* [Aggiornamenti alla sicurezza più recenti disponibili per Adobe Commerce](https://helpx.adobe.com/it/security/products/magento.html)

@@ -80,7 +80,7 @@ Per risolvere la distribuzione bloccata, aggiornare il file `routes.yaml` per co
 
 1. Сometti e invia le modifiche per ridistribuire il progetto.
 
-Per istruzioni dettagliate sull&#39;aggiornamento della configurazione della route, vedere [Cloud for Adobe Commerce > Configurare le route](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) nella documentazione per gli sviluppatori.
+Per istruzioni dettagliate sull&#39;aggiornamento della configurazione della route, vedere [Cloud for Adobe Commerce > Configurare le route](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >

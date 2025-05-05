@@ -56,4 +56,4 @@ In questo articolo sono elencate le opzioni di campo **Motivo del problema** per
 
 ## Lettura correlata
 
-* [Invia un caso di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) nella Guida utente del supporto Experience League per Adobe Commerce.
+* [Invia un caso di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case) nella Guida utente del supporto Experience League per Adobe Commerce.

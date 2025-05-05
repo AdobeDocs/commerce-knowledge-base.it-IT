@@ -48,11 +48,11 @@ L’utilizzo del sottodominio ti consente di eseguire un &quot;avvio morbido&quo
 
 Nella nostra knowledge base di supporto:
 
-* [Configurare le impostazioni DNS veloci negli ambienti di staging e produzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [Imposta Fastly per il piano Starter sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [Potenziali blocchi per l&#39;avvio su Adobe Commerce nell&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [Configurare le impostazioni DNS veloci negli ambienti di staging e produzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=it)
+* [Imposta Fastly per il piano Starter sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=it)
+* [Potenziali blocchi per l&#39;avvio su Adobe Commerce nell&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=it)
 
 Nella documentazione per gli sviluppatori:
 
-* [Panoramica rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Elenco di controllo pubblicazione: configurazioni DNS per Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Panoramica rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it)
+* [Elenco di controllo pubblicazione: configurazioni DNS per Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=it)

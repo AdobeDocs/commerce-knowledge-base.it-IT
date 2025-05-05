@@ -45,4 +45,4 @@ Le pagine vengono ancora memorizzate nella cache, pertanto la pagina di manutenz
 
 ## Lettura correlata
 
-[Attiva o disattiva la modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) nella documentazione per gli sviluppatori.
+[Attiva o disattiva la modalità di manutenzione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) nella documentazione per gli sviluppatori.

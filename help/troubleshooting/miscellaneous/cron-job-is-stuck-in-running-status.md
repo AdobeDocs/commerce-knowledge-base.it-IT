@@ -37,7 +37,7 @@ I sintomi di [!DNL cron] processi che devono essere reimpostati includono:
 
 Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] utilizzando il comando `cron:unlock`. Questo comando modifica lo stato del processo [!DNL cron] nel database, interrompendo il processo forzatamente per consentire la continuazione di altri processi pianificati.
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Ottenere le credenziali del database MySQL:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
 1. Connettersi al database utilizzando `mysql`:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
 1. Selezionare il database `main`:    ```shell    use main    ```
@@ -47,7 +47,7 @@ Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] util
 
 ### Soluzione per arrestare un singolo [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Controllare le attività con tempi di esecuzione lunghi utilizzando il comando seguente:
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```

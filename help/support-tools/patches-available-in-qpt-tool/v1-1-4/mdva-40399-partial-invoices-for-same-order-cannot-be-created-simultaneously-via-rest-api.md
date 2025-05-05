@@ -1,6 +1,6 @@
 ---
 title: "MDVA-40399: impossibile creare contemporaneamente fatture parziali per lo stesso ordine tramite API"
-description: La patch MDVA-40399 risolve il problema che impedisce la creazione simultanea di fatture parziali per lo stesso ordine tramite l'API REST. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L'ID della patch è MDVA-40399. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+description: La patch MDVA-40399 risolve il problema che impedisce la creazione simultanea di fatture parziali per lo stesso ordine tramite l'API REST. Questa patch è disponibile quando è installato [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L'ID della patch è MDVA-40399. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 exl-id: 2444ba57-b30b-4fdf-9e5d-988cf7fa8dd1
 feature: REST, Invoices, Orders
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-40399: impossibile creare contemporaneamente fatture parziali per lo stesso ordine tramite API
 
-La patch MDVA-40399 risolve il problema che impedisce la creazione simultanea di fatture parziali per lo stesso ordine tramite l&#39;API REST. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L&#39;ID della patch è MDVA-40399. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
+La patch MDVA-40399 risolve il problema che impedisce la creazione simultanea di fatture parziali per lo stesso ordine tramite l&#39;API REST. Questa patch è disponibile quando è installato [QPT (Quality Patches Tool)](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4. L&#39;ID della patch è MDVA-40399. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.4.
 
 ## Prodotti e versioni interessati
 
@@ -27,7 +27,7 @@ Adobe Commerce (tutti i metodi di implementazione) 2.4.2 - 2.4.3-p1
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni dello strumento Patch di qualità. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto `magento/quality-patches` alla versione più recente e verificare la compatibilità nella pagina [[!DNL Quality Patches Tool]: Cerca patch](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=it). Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 
@@ -59,8 +59,8 @@ Un prodotto configurabile con almeno due varianti.
 
 Per applicare singole patch, utilizzare i collegamenti seguenti, a seconda del metodo di distribuzione utilizzato:
 
-* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
-* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
+* Adobe Commerce o Magento Open Source on-premise: [Guida all&#39;aggiornamento software > Applicazione di patch](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/usage) nella documentazione per gli sviluppatori.
+* Adobe Commerce sull&#39;infrastruttura cloud: [Aggiornamenti e patch > Applica patch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

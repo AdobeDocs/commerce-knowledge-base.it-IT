@@ -58,4 +58,4 @@ Controlla la cartella Spam per l’e-mail. Se l&#39;e-mail viene visualizzata, [
 
 ## Lettura correlata
 
-* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) nella documentazione per gli sviluppatori.
+* [SendGrid](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/project/sendgrid) nella documentazione per gli sviluppatori.

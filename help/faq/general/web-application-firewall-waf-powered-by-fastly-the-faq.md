@@ -104,7 +104,7 @@ A ogni richiesta non memorizzata in cache viene introdotta una latenza stimata t
 
 ## I clienti possono creare e modificare blacklist IP per bloccare il traffico?
 
-Sì, i clienti possono abilitare il blocco per paese e l’elenco di controllo di accesso (ACL) dall’interfaccia utente di amministrazione di Adobe Commerce sull’infrastruttura cloud. Utilizza queste funzioni nei casi in cui desideri bloccare l’accesso per i visitatori provenienti da paesi specifici o da determinati IP o intervalli IP. Se desideri che i visitatori bloccati visualizzino una pagina personalizzata invece di un codice di errore, puoi creare una pagina di errore personalizzata caricando HTML nel menu Configurazione rapida. Consulta [Creare una pagina di errore/manutenzione personalizzata](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella documentazione per gli sviluppatori.
+Sì, i clienti possono abilitare il blocco per paese e l’elenco di controllo di accesso (ACL) dall’interfaccia utente di amministrazione di Adobe Commerce sull’infrastruttura cloud. Utilizza queste funzioni nei casi in cui desideri bloccare l’accesso per i visitatori provenienti da paesi specifici o da determinati IP o intervalli IP. Se desideri che i visitatori bloccati visualizzino una pagina personalizzata invece di un codice di errore, puoi creare una pagina di errore personalizzata caricando HTML nel menu Configurazione rapida. Consulta [Creare una pagina di errore/manutenzione personalizzata](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella documentazione per gli sviluppatori.
 
 ## Dove è possibile controllare lo stato operativo del servizio WAF?
 
@@ -118,7 +118,7 @@ Al momento, la gestione degli incidenti non è disponibile.
 
 Sebbene Adobe Commerce non disponga di un Centro operativo per la sicurezza, disponiamo di un processo operativo per la sicurezza che ci consente di utilizzare le risorse giuste per rispondere in tempo reale agli incidenti di sicurezza. Offriamo anche supporto 24/7/365 follow-the-sun.
 
-È inoltre possibile ricevere le notizie e gli aggiornamenti sulla sicurezza relativi ad Adobe Commerce dal [Centro sicurezza PC](https://helpx.adobe.com/security.html).
+È inoltre possibile ricevere le notizie e gli aggiornamenti sulla sicurezza relativi ad Adobe Commerce dal [Centro sicurezza PC](https://helpx.adobe.com/it/security.html).
 
 ## Quale supporto è disponibile?
 
@@ -160,7 +160,7 @@ Nella tabella seguente sono riepilogati i canali di supporto e la disponibilità
 </tr>
 <tr>
 <td>Escalation di emergenza*</td>
-<td>Consulta l'articolo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Hotline per le notifiche Adobe Commerce P1</a> per i numeri degli Stati Uniti e internazionali.</td>
+<td>Consulta l'articolo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=it">Hotline per le notifiche Adobe Commerce P1</a> per i numeri degli Stati Uniti e internazionali.</td>
 </tr>
 </tbody>
 </table>

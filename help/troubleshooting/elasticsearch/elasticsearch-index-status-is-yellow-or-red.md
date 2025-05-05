@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Consulta [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search).
+> [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch. Consulta [Installare e configurare Elasticsearch](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/search/overview-search).
 
 L&#39;articolo fornisce una correzione quando lo stato dell&#39;indice Elasticsearch non è &#39;*green*&#39;. &#39;*giallo*&#39; indica normale e &#39;*rosso*&#39; indica non valido. Lo stato &quot;giallo&quot; o &quot;rosso&quot; può comparire insieme a prodotti mancanti o alla visualizzazione di informazioni sul prodotto obsolete.
 

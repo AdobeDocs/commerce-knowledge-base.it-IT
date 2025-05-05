@@ -67,4 +67,4 @@ Di solito, la cache viene invalidata per i seguenti motivi:
 ## Consiglio
 
 1. Evita di scaricare la cache da Commerce CLI.
-1. Configurare gli indicizzatori in **Aggiorna in base alla pianificazione** anziché **Aggiorna in modalità di salvataggio** perché quest&#39;ultima attiva la reindicizzazione completa. Per maggiori informazioni, consulta [Gestire gli indicizzatori > Configurare gli indicizzatori](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) nella documentazione per gli sviluppatori.
+1. Configurare gli indicizzatori in **Aggiorna in base alla pianificazione** anziché **Aggiorna in modalità di salvataggio** perché quest&#39;ultima attiva la reindicizzazione completa. Per maggiori informazioni, consulta [Gestire gli indicizzatori > Configurare gli indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers) nella documentazione per gli sviluppatori.

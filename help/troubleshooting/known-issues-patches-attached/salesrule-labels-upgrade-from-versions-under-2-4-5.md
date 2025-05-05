@@ -24,7 +24,7 @@ Utilizzi la seguente patch allegata:
 
 ## Come applicare il cerotto
 
-1. Segui i passaggi in [Esegui un aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) nella guida di Commerce.
+1. Segui i passaggi in [Esegui un aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=it) nella guida di Commerce.
 1. Applicare la patch allegata prima della fase **[!UICONTROL Update metadata]**.
 (Puoi anche applicare la patch dopo aver completato la fase **[!UICONTROL Update metadata]**, ma in questo caso devi eseguire di nuovo `bin/magento setup:upgrade`).
-1. Procedi con gli altri passaggi in [Esegui un aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
+1. Procedi con gli altri passaggi in [Esegui un aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=it).

@@ -45,5 +45,5 @@ Dopo aver installato l&#39;aggiornamento della sicurezza, la password viene crit
 ## Ulteriori informazioni {#Adminpasswordsaresavedasplaintexttoactionslog('magento_logging_event_changes'table)-Moreinformation}
 
 * [Pagina di aggiornamento sulla sicurezza di Adobe Commerce 2.0.16 e 2.1.9](https://magento.com/security/patches/magento-2016-and-219-security-update) nel nostro centro sicurezza
-* [Aggiorna l&#39;applicazione Adobe Commerce e i relativi componenti](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html) nella documentazione per gli sviluppatori
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Aggiorna l&#39;applicazione Adobe Commerce e i relativi componenti](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/overview.html?lang=it) nella documentazione per gli sviluppatori
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

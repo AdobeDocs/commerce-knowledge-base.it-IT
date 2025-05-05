@@ -47,7 +47,7 @@ Questo non è un bug. Per impostare un ramo principale per un altro ramo, il com
 
 ## Soluzione
 
-Un ramo padre può essere impostato solo dopo che il commerciante ha inviato e attivato un ramo appena creato. Consulta [Adobe Commerce su infrastruttura cloud > Integrazione bitbucket](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) nella documentazione per sviluppatori.
+Un ramo padre può essere impostato solo dopo che il commerciante ha inviato e attivato un ramo appena creato. Consulta [Adobe Commerce su infrastruttura cloud > Integrazione bitbucket](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch) nella documentazione per sviluppatori.
 
 Per aggiornare un elemento padre per il ramo esistente sul server, utilizzare il comando `magento-cloud environment:info` nell&#39;interfaccia CLI di Magento-Cloud.
 
@@ -59,4 +59,4 @@ In questo modo il ramo padre verrà impostato su &quot;Staging&quot; per il ramo
 
 ## Lettura correlata
 
-* [Adobe Commerce su infrastruttura cloud > CLI di magento-cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) nella documentazione per gli sviluppatori.
+* [Adobe Commerce su infrastruttura cloud > CLI di magento-cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview) nella documentazione per gli sviluppatori.

@@ -19,15 +19,15 @@ Se sei un cliente Adobe Commerce su infrastruttura cloud con architettura Pro e 
 >
 > L’aggiornamento a Integrazione avanzata potrebbe non risolvere tutti i problemi di prestazioni, in quanto dipenderebbe dai requisiti di risorse totali dell’installazione, incluse integrazioni o personalizzazioni di terze parti.
 >
-> È inoltre necessario assicurarsi di seguire le best practice per ottenere le migliori prestazioni nell’ambiente di integrazione, e anche questo potrebbe non essere una soluzione completa. Per informazioni, consulta la seguente documentazione: [Architettura Pro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) e [Architettura Starter](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) nella Guida all&#39;infrastruttura cloud di Commerce.
+> È inoltre necessario assicurarsi di seguire le best practice per ottenere le migliori prestazioni nell’ambiente di integrazione, e anche questo potrebbe non essere una soluzione completa. Per informazioni, consulta la seguente documentazione: [Architettura Pro](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) e [Architettura Starter](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) nella Guida all&#39;infrastruttura cloud di Commerce.
 
 ## Pro
 
-1. Se usi Pro, per eseguire l&#39;aggiornamento devi ridurre il numero di rami di integrazione a due (**il ramo di integrazione principale è incluso nel totale**). **Nota: non contare il ramo principale in questo totale. Il ramo principale non è considerato un ramo di integrazione.** Segui i passaggi descritti in [Gestire i rami con Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) nella documentazione per sviluppatori.
+1. Se usi Pro, per eseguire l&#39;aggiornamento devi ridurre il numero di rami di integrazione a due (**il ramo di integrazione principale è incluso nel totale**). **Nota: non contare il ramo principale in questo totale. Il ramo principale non è considerato un ramo di integrazione.** Segui i passaggi descritti in [Gestire i rami con Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=it) nella documentazione per sviluppatori.
 1. Il commerciante deve [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aggiornamento agli ambienti di integrazione avanzata, utilizzando il motivo del contatto &quot;*Richiedere una modifica alla configurazione cloud*&quot;.
 1. Il team di progettazione clienti di Adobe conferma il numero di ambienti di integrazione e avvia la modifica.
 1. Il commerciante verrà informato nel ticket quando l’aggiornamento sarà completato.
-1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push &lt;branch-name></pre>
+1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push &lt;branch-name></pre>
 
 Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di integrazione avanzata.
 
@@ -39,11 +39,11 @@ Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di i
 
 ## Starter
 
-1. I piani iniziali non possono avere rami di integrazione: i commercianti devono eliminare gli ambienti di integrazione e lasciare solo l’ambiente di staging. Segui i passaggi descritti in [Gestire i rami con Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html) nella documentazione per sviluppatori. Il numero di ambienti disponibili verrà ridotto per consentire al massimo un ambiente di integrazione.
+1. I piani iniziali non possono avere rami di integrazione: i commercianti devono eliminare gli ambienti di integrazione e lasciare solo l’ambiente di staging. Segui i passaggi descritti in [Gestire i rami con Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=it) nella documentazione per sviluppatori. Il numero di ambienti disponibili verrà ridotto per consentire al massimo un ambiente di integrazione.
 1. Il commerciante deve [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aggiornamento agli ambienti di integrazione avanzata, utilizzando il motivo di contatto *&quot;Richiedere una modifica alla configurazione cloud&quot;* - **l&#39;ambiente di staging è un ambiente di integrazione denominato**.
 1. Il team di progettazione clienti di Adobe conferma il numero di ambienti di integrazione e avvia la modifica.
 1. Il commerciante verrà informato nel ticket quando l’aggiornamento sarà completato.
-1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push &lt;branch-name></pre>
+1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push &lt;branch-name></pre>
 
 Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di integrazione avanzata.
 

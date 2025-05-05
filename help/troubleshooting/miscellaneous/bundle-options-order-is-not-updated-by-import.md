@@ -29,7 +29,7 @@ Hai un file .csv valido contenente prodotti bundle.
 
 <u>Passaggi da riprodurre</u>:
 
-1. Importa il file utilizzando la [funzionalità di importazione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/import/data-import).
+1. Importa il file utilizzando la [funzionalità di importazione](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/import/data-import).
 1. Apri la pagina del prodotto del bundle.
 
 <u>Risultati previsti</u>:
@@ -46,7 +46,7 @@ La posizione delle opzioni non è stata dichiarata esplicitamente.
 
 ## Soluzione
 
-1. Dichiara esplicitamente una posizione per ogni opzione nel parametro `position` della colonna `bundle_values` nel file .csv. Per istruzioni dettagliate, consulta [Modifica i dati del prodotto](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data) nella nostra guida utente.
+1. Dichiara esplicitamente una posizione per ogni opzione nel parametro `position` della colonna `bundle_values` nel file .csv. Per istruzioni dettagliate, consulta [Modifica i dati del prodotto](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products#method-2-edit-the-product-data) nella nostra guida utente.
 1. Ripetere l&#39;operazione di importazione.
 
-Per informazioni generali sull&#39;importazione, vedere [Importazione prodotto bundle](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products) nella guida utente.
+Per informazioni generali sull&#39;importazione, vedere [Importazione prodotto bundle](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/data-transfer/examples/data-transfer-bundle-products) nella guida utente.

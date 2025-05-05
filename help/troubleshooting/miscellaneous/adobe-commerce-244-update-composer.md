@@ -29,7 +29,7 @@ Durante l’aggiornamento a Adobe Commerce 2.4.4 o versione successiva dopo lugl
 
 Prerequisiti: è installato Adobe Commerce 2.4.3 o versione precedente.
 
-1. Avviare l&#39;aggiornamento come descritto in [Eseguire un aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
+1. Avviare l&#39;aggiornamento come descritto in [Eseguire un aggiornamento](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=it).
 1. Eseguire il comando `composer update` per aggiornare l&#39;applicazione Adobe Commerce.
 
 <u>Risultati previsti</u>:
@@ -64,7 +64,7 @@ Dopo luglio 2022 Composer modifica il valore predefinito dell&#39;opzione [`allo
 
 Aggiungi quanto segue al file `composer.json`, a seconda di come hai installato Adobe Commerce:
 
-* Se il progetto è stato creato [utilizzando il comando `composer create-project`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage):
+* Se il progetto è stato creato [utilizzando il comando `composer create-project`](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer#get-the-metapackage):
 
   ```json
   "config": {

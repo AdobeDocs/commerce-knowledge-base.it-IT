@@ -45,7 +45,7 @@ Opzioni soluzione:
 * Pulire la directory `var`.
 * Configurare un processo cron per tenere traccia delle dimensioni della directory `var` e pulirla.
 * Allocare più spazio su disco, se ne sono presenti alcuni inutilizzati. (Consulta la sezione seguente per informazioni su come verificare qual è il limite di spazio).
-   * Per la pianificazione Starter, tutti gli ambienti e gli ambienti Pro plan Integration, è possibile allocare spazio su disco se ne sono inutilizzati alcuni, come descritto in [Gestione spazio su disco: allocazione spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
+   * Per la pianificazione Starter, tutti gli ambienti e gli ambienti Pro plan Integration, è possibile allocare spazio su disco se ne sono inutilizzati alcuni, come descritto in [Gestione spazio su disco: allocazione spazio su disco](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
    * Per gli ambienti Pro plan di staging e produzione, contattare l&#39;assistenza per allocare più spazio su disco se sono presenti alcuni elementi inutilizzati.
 * Se hai raggiunto il limite di spazio e riscontri ancora problemi di spazio insufficiente, puoi acquistare altro spazio su disco. Per ulteriori informazioni, contatta il team dell’account Adobe.
 

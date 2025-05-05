@@ -24,7 +24,7 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 in cui la conv
 
 Prerequisiti:
 
-Abilita **Pulizia indirizzi vertici**. Per i passaggi, consulta [Configurazione della pulizia degli indirizzi di Storefront](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) nella nostra guida utente.
+Abilita **Pulizia indirizzi vertici**. Per i passaggi, consulta [Configurazione della pulizia degli indirizzi di Storefront](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=it) nella nostra guida utente.
 
 <u>Passaggi da riprodurre:</u>
 

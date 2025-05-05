@@ -39,10 +39,10 @@ Problema con le impostazioni [!DNL OPcache].
 
 ## Soluzione
 
-Aggiorna [!DNL ECE Tools] alla versione più recente [2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
+Aggiorna [!DNL ECE Tools] alla versione più recente [2002.1.13](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
 
 ## Lettura correlata
 
-* [Prestazioni lente, esecuzione lenta e prolungata [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html) nella Knowledge Base di supporto.
-* [[!DNL Cron] le attività bloccano le attività da altri gruppi](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en) nella knowledge base di supporto.
-* Il processo [[!DNL Cron] è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en) nella knowledge base di supporto.
+* [Prestazioni lente, esecuzione lenta e prolungata [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=it) nella Knowledge Base di supporto.
+* [[!DNL Cron] le attività bloccano le attività da altri gruppi](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=it) nella knowledge base di supporto.
+* Il processo [[!DNL Cron] è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it) nella knowledge base di supporto.

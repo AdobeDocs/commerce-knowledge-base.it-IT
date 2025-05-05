@@ -32,7 +32,7 @@ Impostare tutte le opzioni seguenti in base alle esigenze.
 
 ### Tutti i server web e Vernice {#all-web-servers-and-varnish}
 
-1. Individua `php.ini` utilizzando un file [`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software).
+1. Individua `php.ini` utilizzando un file [`phpinfo.php`](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software).
 1. In qualità di utente con privilegi di `root`, apri `php.ini` in un editor di testo.
 1. Individuare l&#39;impostazione `max_execution_time`.
 1. Cambia il valore in `18000`.

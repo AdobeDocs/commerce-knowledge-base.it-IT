@@ -47,10 +47,10 @@ Prima di iniziare il processo di aggiornamento ad Adobe Commerce 2.4.4, tuttavia
 
 Se la versione di base di Adobe Commerce su supporta l’Elasticsearch 7.10, può essere utilizzata.
 
-Consulta [Requisiti di sistema](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) nella documentazione per gli sviluppatori per informazioni sulla compatibilità delle versioni.
+Consulta [Requisiti di sistema](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=it) nella documentazione per gli sviluppatori per informazioni sulla compatibilità delle versioni.
 
 >[!NOTE]
 >
 >Si consiglia di pianificare l’aggiornamento a Adobe Commerce 2.4.4 il prima possibile, in quanto l’Elasticsearch 7.10 sarà fine del ciclo di vita a maggio 2022.
 
-I partner Adobe possono iscriversi al nostro programma beta [qui](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html) per accedere al nostro ultimo codice beta4 testato in base all&#39;Elasticsearch 7.16.1 e OpenSearch 1.1.
+I partner Adobe possono iscriversi al nostro programma beta [qui](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html?lang=it) per accedere al nostro ultimo codice beta4 testato in base all&#39;Elasticsearch 7.16.1 e OpenSearch 1.1.

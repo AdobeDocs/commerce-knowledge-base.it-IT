@@ -16,9 +16,9 @@ Questo articolo spiega come accedere al tuo account Fastly fornito con Adobe Com
 
 ## Come visualizzare le credenziali Fastly
 
-Consulta la sezione [Ottieni credenziali rapide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) nella documentazione per gli sviluppatori.
+Consulta la sezione [Ottieni credenziali rapide](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds) nella documentazione per gli sviluppatori.
 
 ## Come verificare le credenziali Fastly
 
-Consulta la sezione [Verifica credenziali rapide](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) nella documentazione per gli sviluppatori.
+Consulta la sezione [Verifica credenziali rapide](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials) nella documentazione per gli sviluppatori.
 

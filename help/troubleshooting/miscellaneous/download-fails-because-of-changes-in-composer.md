@@ -52,5 +52,5 @@ Per aggirare il problema:
    * Aggiornare Compositore a una versione successiva al 26 novembre 2015: `composer self-update`.
 
 1. Elimina la directory e le sottodirectory di Adobe Commerce.
-1. Riprovare il download utilizzando `[composer create-project](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)` o `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`.
+1. Riprovare il download utilizzando `[composer create-project](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer)` o `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`.
 1. Dopo aver scaricato correttamente il software Adobe Commerce, aggiornare Compositore: `composer self-update`.

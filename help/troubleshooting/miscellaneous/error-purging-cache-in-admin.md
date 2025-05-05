@@ -60,4 +60,4 @@ Tuttavia, se l&#39;output mostra che i file sono ancora nella cache, è necessar
 
 ## Lettura correlata
 
-* [Gestione della cache](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management) nella documentazione per gli sviluppatori.
+* [Gestione della cache](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/cache-management) nella documentazione per gli sviluppatori.

@@ -34,11 +34,11 @@ Queste eccezioni sono il risultato delle impostazioni delle autorizzazioni del f
 
 ### Soluzione
 
-[Imposta nuovamente la proprietà e le autorizzazioni del file system](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html) come utente con privilegi `root`.
+[Imposta nuovamente la proprietà e le autorizzazioni del file system](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=it) come utente con privilegi `root`.
 
 ## Sintomo (modalità di produzione)
 
-Se si è impostati per la [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html), l&#39;installazione dei dati di esempio non riesce se si utilizza il comando [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html):
+Se si è impostati per la [modalità di produzione](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=it), l&#39;installazione dei dati di esempio non riesce se si utilizza il comando [magento sampledata:deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=it):
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +48,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 Non installare dati di esempio in modalità di produzione. Passa alla modalità sviluppatore, cancella alcune directory `var` e riprova.
 
-Immettere i seguenti comandi nell&#39;ordine indicato come [proprietario del file system Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html):
+Immettere i seguenti comandi nell&#39;ordine indicato come [proprietario del file system Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=it):
 
 ```php
 cd <magento_root>

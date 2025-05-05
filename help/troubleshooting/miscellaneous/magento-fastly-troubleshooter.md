@@ -48,7 +48,7 @@ b. NO - Controllare il DNS eseguendo il comando in CLI/terminale: `dig [your web
 
 +++**Cosa succede quando esegui `dig`?**
 
-`dig` ha restituito un record che punta a prod.magentocloud.map.fastly.net o a uno dei seguenti indirizzi IP (vedi [Aggiornare la configurazione DNS con le impostazioni di produzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) nella documentazione per gli sviluppatori):
+`dig` ha restituito un record che punta a prod.magentocloud.map.fastly.net o a uno dei seguenti indirizzi IP (vedi [Aggiornare la configurazione DNS con le impostazioni di produzione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) nella documentazione per gli sviluppatori):
 
 * 151 101 124
 * 151 101 65 124
@@ -56,7 +56,7 @@ b. NO - Controllare il DNS eseguendo il comando in CLI/terminale: `dig [your web
 * 151 101 193 124
 
 a. SÌ - Il problema non è relativo al DNS. Procedi al [passaggio 5](#step-5).\
-b. NO - Il problema è probabilmente correlato al DNS. Il cliente deve [controllare la configurazione DNS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) o contattare il provider DNS per ulteriori informazioni.
+b. NO - Il problema è probabilmente correlato al DNS. Il cliente deve [controllare la configurazione DNS](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/launch/checklist#update-dns-configuration-with-production-settings) o contattare il provider DNS per ulteriori informazioni.
 
 +++
 
@@ -74,7 +74,7 @@ b. NO - Visita [http://fastly-debug.com](https://www.fastly-debug.com/) e condiv
 +++**Il certificato è scaduto?**
 
 a. SÌ - È necessario rinnovare il certificato TLS con l’autorità di certificazione (CA).\
-b. NO - È possibile che non si disponga di un certificato. Se disponi di Adobe Commerce, ti consigliamo di acquistare un certificato TLS. Se ti trovi su Adobe Commerce nell’infrastruttura cloud, puoi disporre di un certificato SSL/TLS crittografato con convalida di dominio per gestire il traffico HTTPS protetto da Fastly. Consulta [effettuare il provisioning dei certificati SSL/TLS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) nella documentazione per gli sviluppatori.
+b. NO - È possibile che non si disponga di un certificato. Se disponi di Adobe Commerce, ti consigliamo di acquistare un certificato TLS. Se ti trovi su Adobe Commerce nell’infrastruttura cloud, puoi disporre di un certificato SSL/TLS crittografato con convalida di dominio per gestire il traffico HTTPS protetto da Fastly. Consulta [effettuare il provisioning dei certificati SSL/TLS](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) nella documentazione per gli sviluppatori.
 
 +++
 

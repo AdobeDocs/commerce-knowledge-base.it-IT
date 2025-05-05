@@ -14,15 +14,15 @@ ht-degree: 0%
 
 i processi cron di Adobe Commerce su infrastruttura cloud non vengono completati, rimangono bloccati e impediscono l’esecuzione di altri processi cron. Questo articolo mostra come ripristinare manualmente i processi bloccati del cron.
 
-Utilizzare questo comando con cautela. Per ulteriori dettagli, si consiglia di leggere l&#39;articolo [Ripristina processi cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html) nella Knowledge Base di supporto.
+Utilizzare questo comando con cautela. Per ulteriori dettagli, si consiglia di leggere l&#39;articolo [Ripristina processi cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it) nella Knowledge Base di supporto.
 
 ## Passaggi
 
 >[!INFO]
 >
->Da [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4) è possibile reimpostare manualmente i processi cron bloccati utilizzando un comando CLI tramite accesso SSH.
+>Da [ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html?lang=it#v2002.0.4) è possibile reimpostare manualmente i processi cron bloccati utilizzando un comando CLI tramite accesso SSH.
 
-1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
 1. Esegui questo comando: `./vendor/bin/ece-tools cron:unlock`
 
 ## Avvisi
@@ -32,4 +32,4 @@ Utilizzare questo comando con cautela. Per ulteriori dettagli, si consiglia di l
 
 ## Leggilo nella nostra knowledge base di supporto:
 
-[Ripristina processi cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+[Ripristina processi cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it)

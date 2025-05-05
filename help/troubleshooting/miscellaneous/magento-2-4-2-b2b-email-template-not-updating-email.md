@@ -45,4 +45,4 @@ Esegui manualmente il processo cron o il consumer per propagare le nuove informa
 
 ## Lettura correlata
 
-* [Gestisci le code dei messaggi](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) nella documentazione per gli sviluppatori.
+* [Gestisci le code dei messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues) nella documentazione per gli sviluppatori.

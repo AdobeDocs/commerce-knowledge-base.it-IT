@@ -47,5 +47,5 @@ Verificare che il controllo degli accessi non sia abilitato: accedere al ramo/am
 
 ## Lettura correlata
 
-* [Guida utente di Adobe Commerce > Cache a pagina intera](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) nella guida utente.
+* [Guida utente di Adobe Commerce > Cache a pagina intera](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/tools/cache-management#full-page-caching) nella guida utente.
 * [Riscaldamento della cache e sito non disponibile in Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) nella Knowledge Base di supporto.

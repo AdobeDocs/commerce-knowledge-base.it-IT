@@ -53,7 +53,7 @@ Verificare se i file specificati sopra hanno l&#39;impostazione `cacheable="fals
 
 >[!NOTE]
 >
->Per Adobe Commerce su infrastruttura cloud 2.4.1 e versioni successive, puoi utilizzare [Strumento di analisi a livello di sito](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access) per verificare automaticamente se la cache a pagina intera non è configurata correttamente.
+>Per Adobe Commerce su infrastruttura cloud 2.4.1 e versioni successive, puoi utilizzare [Strumento di analisi a livello di sito](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/site-wide-analysis-tool/access) per verificare automaticamente se la cache a pagina intera non è configurata correttamente.
 
 ### Lettura correlata
 

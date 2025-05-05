@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # La classificazione del dashboard e dei risultati di ricerca [!DNL Live Search] non è corretta
 
-Se si nota che i dati visualizzati nel dashboard [!DNL Live Search] non sono corretti o se la [classificazione dei risultati della ricerca](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) non è quella prevista, vedere quanto segue per possibili motivi:
+Se si nota che i dati visualizzati nel dashboard [!DNL Live Search] non sono corretti o se la [classificazione dei risultati della ricerca](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies) non è quella prevista, vedere quanto segue per possibili motivi:
 
 * Manca il campo `topLevelSku` del contesto di prodotto negli eventi `productView`. Questo causa conversioni vuote e altre metriche impreviste.
 

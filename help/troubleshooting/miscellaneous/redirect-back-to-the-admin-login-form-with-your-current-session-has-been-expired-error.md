@@ -51,7 +51,7 @@ Controllare il record di sessione creato nella tabella `admin_user_session`. Se 
 
 ### Modificare l’archiviazione della sessione
 
-Prova a modificare l’archivio della sessione. Utilizza le informazioni dell&#39;articolo [Come individuare i file di sessione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/session-storage/sessions) nella documentazione per gli sviluppatori per scoprire dove è archiviata la sessione e modificarla modificando il file `app/etc/env.php`.
+Prova a modificare l’archivio della sessione. Utilizza le informazioni dell&#39;articolo [Come individuare i file di sessione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/storage/session-storage/sessions) nella documentazione per gli sviluppatori per scoprire dove è archiviata la sessione e modificarla modificando il file `app/etc/env.php`.
 
 Ad esempio, per iniziare a memorizzare la sessione nel file system, modificare la sezione `'session'` come segue:
 
@@ -69,9 +69,9 @@ Eseguire il comando `bin/magento app:config:import` per importare i dati di conf
 
 ## Lettura correlata
 
-* [Importa dati dai file di configurazione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/import-configuration) nella documentazione per gli sviluppatori
-* [Configura [!DNL Redis]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) nella documentazione per gli sviluppatori
-* [Reindirizzamento al modulo di accesso di [!UICONTROL Commerce Admin] con l&#39;errore &quot;L&#39;account è temporaneamente disabilitato&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error) nella Knowledge Base di supporto
-* [Reindirizzare al modulo di accesso senza errori quando si tenta di accedere a [!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) nella Knowledge Base di supporto
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Importa dati dai file di configurazione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configuration-management/import-configuration) nella documentazione per gli sviluppatori
+* [Configura [!DNL Redis]](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/redis/config-redis) nella documentazione per gli sviluppatori
+* [Reindirizzamento al modulo di accesso di [!UICONTROL Commerce Admin] con l&#39;errore &quot;L&#39;account è temporaneamente disabilitato&quot;](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error) nella Knowledge Base di supporto
+* [Reindirizzare al modulo di accesso senza errori quando si tenta di accedere a [!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin) nella Knowledge Base di supporto
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
 

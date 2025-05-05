@@ -34,5 +34,5 @@ Considera le seguenti opzioni per evitare una diminuzione delle prestazioni:
 
 ## Lettura correlata
 
-* [Tabelle di log delle modifiche di dimensioni eccessive che causano ritardi negli aggiornamenti delle entità](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront) nella Knowledge Base di supporto
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Tabelle di log delle modifiche di dimensioni eccessive che causano ritardi negli aggiornamenti delle entità](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront) nella Knowledge Base di supporto
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

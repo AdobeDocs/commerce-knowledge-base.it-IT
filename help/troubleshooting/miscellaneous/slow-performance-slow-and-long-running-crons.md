@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Su qualsiasi versione di Adobe Commerce, poiché alcune estensioni funzionano solo con le tabelle a comparsa, esiste un rischio se si disattivano le tabelle a comparsa. Se si è certi di disporre di alcune estensioni che utilizzano indici Flat Catalog, potrebbe essere necessario tenerne conto quando si impostano tali valori su &quot; *No* &quot;.
 
-In questo articolo viene descritto come risolvere i problemi di prestazioni del sito e rallentare l&#39;esecuzione e il blocco di nodi causati dall&#39;attivazione di [tabelle flat e indicizzatori](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat).
+In questo articolo viene descritto come risolvere i problemi di prestazioni del sito e rallentare l&#39;esecuzione e il blocco di nodi causati dall&#39;attivazione di [tabelle flat e indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-admin/catalog/catalog/catalog-flat).
 
 PRODOTTI E VERSIONI INTERESSATI
 

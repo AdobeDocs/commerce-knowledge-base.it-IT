@@ -23,7 +23,7 @@ Questo articolo fornisce una soluzione alternativa per le estensioni mancanti ne
 
 Quando acquisti estensioni tramite Commerce Marketplace, non puoi installarle utilizzando l’Extension Manager di Adobe Commerce di base. Quando aggiungi i tasti di accesso e esegui la sincronizzazione con il Marketplace, nell’Extension Manager non viene visualizzata alcuna estensione.
 
-La **soluzione** per il problema consiste nell&#39;utilizzare l&#39;installazione della riga di comando di Adobe Commerce, come illustrato nella [Installazione generale di CLI](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) nella documentazione per gli sviluppatori.
+La **soluzione** per il problema consiste nell&#39;utilizzare l&#39;installazione della riga di comando di Adobe Commerce, come illustrato nella [Installazione generale di CLI](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/extensions) nella documentazione per gli sviluppatori.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -44,4 +44,4 @@ L’estensione viene visualizzata nella sezione Extension Manager di Commerce Ad
 
 ## Soluzione alternativa
 
-Utilizzare l&#39;installazione della riga di comando di Adobe Commerce come illustrato in [Installazione generale di CLI](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/extensions) nella documentazione per gli sviluppatori.
+Utilizzare l&#39;installazione della riga di comando di Adobe Commerce come illustrato in [Installazione generale di CLI](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/extensions) nella documentazione per gli sviluppatori.

@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>Passaggi da riprodurre</u>
 
-(Prerequisiti: verificare che l&#39;archivio non sia in [modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
+(Prerequisiti: verificare che l&#39;archivio non sia in [modalità di manutenzione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)).
 
 Passa all’amministratore di Commerce o alla vetrina in un browser web.
 

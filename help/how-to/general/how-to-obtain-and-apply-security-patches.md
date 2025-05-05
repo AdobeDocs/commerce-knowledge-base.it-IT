@@ -30,7 +30,7 @@ La maggior parte di [!UICONTROL Security Patches] viene rilasciata senza patch o
 
 ### Caso I:
 
-* Se nelle [Note sulla versione](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) è menzionato un file/hotfix di patch isolato, scarica il file dalla sezione di download di [https://account.magento.com](https://account.magento.com/downloads/view/). Agli utenti con accesso condiviso devono prima essere concessi i privilegi di download dal proprietario dell’account/titolare della licenza.
+* Se nelle [Note sulla versione](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) è menzionato un file/hotfix di patch isolato, scarica il file dalla sezione di download di [https://account.magento.com](https://account.magento.com/downloads/view/). Agli utenti con accesso condiviso devono prima essere concessi i privilegi di download dal proprietario dell’account/titolare della licenza.
 
 **Avvertenze:**
 
@@ -50,15 +50,15 @@ Se nelle Note sulla versione non è menzionato un file patch o un hotfix isolato
 
 * **Cloud:**
 
-1. Alcuni [!UICONTROL Security Patches] potrebbero essere inclusi/rilasciati nell&#39;ultima versione di Cloud Tools Suite (ECE Tools) in Cloud Patches for Commerce. Controllare le [Note sulla versione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) e, se nella versione è menzionata una correzione di sicurezza, aggiornare il pacchetto a tale versione.
+1. Alcuni [!UICONTROL Security Patches] potrebbero essere inclusi/rilasciati nell&#39;ultima versione di Cloud Tools Suite (ECE Tools) in Cloud Patches for Commerce. Controllare le [Note sulla versione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) e, se nella versione è menzionata una correzione di sicurezza, aggiornare il pacchetto a tale versione.
 1. Se le Note sulla versione non menzionano una correzione di sicurezza, continua a leggere.
 
 * **Cloud o on-premise:**
 
-* Se un file/hotfix di patch isolato non è disponibile, [aggiorna la versione di Adobe Commerce su Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X all&#39;ultima versione della patch 2.4.X-pY.
-* Se un file/hotfix di patch isolato non è disponibile, [aggiorna la versione di Adobe Commerce On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X all&#39;ultima versione della patch 2.4.X-pY.
+* Se un file/hotfix di patch isolato non è disponibile, [aggiorna la versione di Adobe Commerce su Cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X all&#39;ultima versione della patch 2.4.X-pY.
+* Se un file/hotfix di patch isolato non è disponibile, [aggiorna la versione di Adobe Commerce On-Premise](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X all&#39;ultima versione della patch 2.4.X-pY.
 
 ## Lettura correlata
 
-* Consulta le [note sulla versione della suite di strumenti Commerce Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
-* Consulta [Aggiornare Adobe Commerce versione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
+* Consulta le [note sulla versione della suite di strumenti Commerce Cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.
+* Consulta [Aggiornare Adobe Commerce versione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) nella *Guida di Adobe Commerce sull&#39;infrastruttura cloud*.

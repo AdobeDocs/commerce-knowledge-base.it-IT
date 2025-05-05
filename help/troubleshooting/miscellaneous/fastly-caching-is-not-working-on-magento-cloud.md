@@ -170,13 +170,13 @@ Per verificare che Fastly sia abilitato in Staging e Produzione, controlla la co
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. Se si utilizza Gestione configurazione, è necessario disporre di un file di configurazione. Modificare il file app/etc/config.app.php (2.0, 2.1) o app/etc/config.php (2.2) e verificare che l&#39;impostazione `'Fastly_Cdn' => 1` sia corretta. L&#39;impostazione non deve essere `'Fastly_Cdn' => 0` (ovvero disabilitata).Se si abilita Fastly, eliminare il file di configurazione ed eseguire il comando bin/magento magento-cloud:scd-dump per eseguire l&#39;aggiornamento. Per una descrizione dettagliata del file, vedere [Esempio di gestione delle impostazioni specifiche del sistema](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) nella Guida alla configurazione.
+1. Se si utilizza Gestione configurazione, è necessario disporre di un file di configurazione. Modificare il file app/etc/config.app.php (2.0, 2.1) o app/etc/config.php (2.2) e verificare che l&#39;impostazione `'Fastly_Cdn' => 1` sia corretta. L&#39;impostazione non deve essere `'Fastly_Cdn' => 0` (ovvero disabilitata).Se si abilita Fastly, eliminare il file di configurazione ed eseguire il comando bin/magento magento-cloud:scd-dump per eseguire l&#39;aggiornamento. Per una descrizione dettagliata del file, vedere [Esempio di gestione delle impostazioni specifiche del sistema](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html?lang=it#manage-the-system-specific-configuration) nella Guida alla configurazione.
 
-Se il modulo non è installato, è necessario installarlo in un ramo [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) e distribuirlo a Staging e Produzione. Per istruzioni, consulta [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella Guida all&#39;infrastruttura cloud di Commerce.
+Se il modulo non è installato, è necessario installarlo in un ramo [Integration environment](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) e distribuirlo a Staging e Produzione. Per istruzioni, consulta [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella Guida all&#39;infrastruttura cloud di Commerce.
 
 ### Fastly-Magento-VCL-Uploaded non presente
 
-Durante l’installazione e la configurazione, dovresti aver caricato Fastly VCL. Si tratta dei snippet VCL di base forniti dal modulo Fastly, non dei snippet VCL personalizzati creati. Per istruzioni, consulta [Caricare snippet VCL Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) nella Guida di Commerce on Cloud Infrastructure.
+Durante l’installazione e la configurazione, dovresti aver caricato Fastly VCL. Si tratta dei snippet VCL di base forniti dal modulo Fastly, non dei snippet VCL personalizzati creati. Per istruzioni, consulta [Caricare snippet VCL Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#upload-vcl-to-fastly) nella Guida di Commerce on Cloud Infrastructure.
 
 ### X-Cache include MISS
 
@@ -190,7 +190,7 @@ Se ottieni lo stesso risultato, utilizza i comandi curl e verifica le intestazio
 
 Se il problema persiste, è probabile che un’altra estensione ripristini queste intestazioni. Ripeti la seguente procedura in Staging per disabilitare le estensioni per trovare quella che sta causando il problema. Dopo aver individuato le estensioni che causano il problema, dovrai disabilitare le estensioni in Produzione.
 
-1. Per disabilitare le estensioni, segui i passaggi descritti nella sezione [Gestione estensioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) della guida di Commerce su Cloud Infrastructure.
+1. Per disabilitare le estensioni, segui i passaggi descritti nella sezione [Gestione estensioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=it#manage-extensions) della guida di Commerce su Cloud Infrastructure.
 1. Dopo aver disabilitato le estensioni, passa a **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
 1. Fare clic su **[!UICONTROL Flush Magento Cache]**.
 1. Ora abilita un’estensione alla volta, salvando la configurazione e svuotando la cache.
@@ -201,6 +201,6 @@ Quando isoli l’estensione che sta reimpostando le intestazioni Fastly, contatt
 
 ## Ulteriori informazioni sono disponibili nella documentazione per gli sviluppatori:
 
-* [Informazioni su Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Configurazione rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [Snippet VCL Fastly personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [Informazioni su Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it)
+* [Configurazione rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it)
+* [Snippet VCL Fastly personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=it)

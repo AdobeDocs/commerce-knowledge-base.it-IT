@@ -18,9 +18,9 @@ ht-degree: 0%
 > [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). Prima di installare la versione 2.4.0, è necessario aver configurato e configurato l’host Elasticsearch.
 > 
 > Consulta:
-> [Installa e configura Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
-> [Installa e configura Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
-> [Installa e configura Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
+> [Installa e configura Elasticsearch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [Installa e configura Opensearch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [Installa e configura Live Search](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/live-search/install)
 
 Questo articolo fornisce una soluzione per modificare il motore di ricerca di Adobe Commerce utilizzando l&#39;amministratore di Commerce se il campo **Motore di ricerca** non è visualizzato o se la casella di controllo **Usa valore di sistema** è disattivata e non accessibile.
 
@@ -74,7 +74,7 @@ Il motore di ricerca è una configurazione globale impostata a livello di applic
 
 ![cambia_vista_archivio.png](assets/change_store_view.png)
 
-**Documentazione correlata:** [Modifica dell&#39;ambito](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html#set-the-scope) nella guida utente.
+**Documentazione correlata:** [Modifica dell&#39;ambito](https://experienceleague.adobe.com/docs/commerce-admin/config/scope-change.html?lang=it#set-the-scope) nella guida utente.
 
 ### Problema 2: impossibile deselezionare &quot;Usa valore di sistema&quot;
 
@@ -108,7 +108,7 @@ Rimuovere la sezione con la configurazione predefinita del motore di ricerca dai
 
 ### Articoli correlati nella documentazione per sviluppatori
 
-[File di configurazione di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html) nella Guida alla configurazione di Adobe Commerce
+[File di configurazione di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/files/deployment-files.html?lang=it) nella Guida alla configurazione di Adobe Commerce
 
 ## Adobe Commerce sull’infrastruttura cloud
 
@@ -137,7 +137,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Se si passa a [Opensearch (in 2.4.6 e versioni successive)](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search), la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
+Se si passa a [Opensearch (in 2.4.6 e versioni successive)](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search), la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
 
 ```yaml
 stage:
@@ -150,7 +150,7 @@ stage:
      elasticsearch_server_timeout: '15'
 ```
 
-Se [passi a Live Search](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
+Se [passi a Live Search](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch), la variabile SEARCH\_CONFIGURATION nel file `.magento.env.yaml` risultante potrebbe avere il seguente aspetto:
 
 ```yaml
 stage:
@@ -167,8 +167,8 @@ stage:
 
 #### Documentazione per gli sviluppatori
 
-* [Configura servizio Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html)
-* [Genera e distribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (documentazione sul file di configurazione `.magento.env.yaml`)
-* [Distribuisci variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([SEARCH\_CONFIGURATION section](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
-* [Servizi](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (documentazione sul file di configurazione `.magento/services.yaml`)
-* [Live Search](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
+* [Configura servizio Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html?lang=it)
+* [Genera e distribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it) (documentazione sul file di configurazione `.magento.env.yaml`)
+* [Distribuisci variabili](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=it) ([SEARCH\_CONFIGURATION section](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=it#search_configuration))
+* [Servizi](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html?lang=it) (documentazione sul file di configurazione `.magento/services.yaml`)
+* [Live Search](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/live-search/overview)

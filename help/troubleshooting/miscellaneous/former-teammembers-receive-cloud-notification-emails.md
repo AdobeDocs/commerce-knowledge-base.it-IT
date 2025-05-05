@@ -30,12 +30,12 @@ Questo articolo fornisce una soluzione per rimuovere dall’elenco dei destinata
 
 Esistono due modi per interrompere le notifiche rimuovendo gli utenti dal progetto:
 
-* Metodo 1: utilizzo del cloud [!DNL Project URL]. Per ulteriori informazioni, consulta [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nella guida all&#39;infrastruttura cloud di Commerce.
-* Metodo 2: utilizzo del cloud magento [!DNL CLI]. Per ulteriori informazioni, consulta [Gestire gli utenti con  [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) nella guida all&#39;infrastruttura cloud di Commerce.
+* Metodo 1: utilizzo del cloud [!DNL Project URL]. Per ulteriori informazioni, consulta [Gestire l&#39;accesso degli utenti](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it) nella guida all&#39;infrastruttura cloud di Commerce.
+* Metodo 2: utilizzo del cloud magento [!DNL CLI]. Per ulteriori informazioni, consulta [Gestire gli utenti con  [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it#manage-users-with-the-cli) nella guida all&#39;infrastruttura cloud di Commerce.
 
 Se questa operazione è già stata eseguita e le notifiche e-mail continuano a includere tali utenti, inviare un ticket di supporto per richiedere la rimozione dall&#39;impostazione *[!UICONTROL Always CC]* dell&#39;account.
 
 ## Lettura correlata
 
-* [Visualizza il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user&#39;s-project-role) nella guida Commerce su infrastruttura cloud.
-* [Come includere un membro del team nelle notifiche di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) nella KB di Commerce.
+* [Visualizza il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it#view-a-user&?lang=it#39;s-project-role) nella guida Commerce su infrastruttura cloud.
+* [Come includere un membro del team nelle notifiche di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html?lang=it) nella KB di Commerce.

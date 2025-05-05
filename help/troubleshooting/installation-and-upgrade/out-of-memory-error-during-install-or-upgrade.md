@@ -40,7 +40,7 @@ può essere visualizzato anche sulla riga di comando.
 
 ## Soluzione {#solution}
 
-È consigliabile [allocare 2 GB di memoria a PHP](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings) nella documentazione per gli sviluppatori per verificare che l&#39;installazione o l&#39;aggiornamento abbiano esito positivo.
+È consigliabile [allocare 2 GB di memoria a PHP](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/php-settings) nella documentazione per gli sviluppatori per verificare che l&#39;installazione o l&#39;aggiornamento abbiano esito positivo.
 
 Se lo hai già fatto, crea un file di scambio sul computer. Un computer Linux utilizza *spazio di swap* se necessita di più risorse di memoria e la RAM è piena. Lo spazio di swap viene utilizzato per le pagine inattive in memoria.
 

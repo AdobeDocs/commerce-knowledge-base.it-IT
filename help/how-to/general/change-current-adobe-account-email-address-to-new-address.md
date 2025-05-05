@@ -28,6 +28,6 @@ Se non hai accesso all’indirizzo e-mail corrente, imposta l’inoltro e-mail d
 
 Per modificare l’indirizzo e-mail, segui la procedura riportata di seguito:
 
-1. Reimposta la password utilizzata con il vecchio indirizzo e-mail. Segui le istruzioni fornite in [Reimposta password dimenticata](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html) in Adobe helpx.
+1. Reimposta la password utilizzata con il vecchio indirizzo e-mail. Segui le istruzioni fornite in [Reimposta password dimenticata](https://helpx.adobe.com/it/manage-account/using/change-or-reset-password.html) in Adobe helpx.
 1. Il collegamento per la reimpostazione della password viene inviato alla cassetta postale del proprietario corrente con le istruzioni.
 1. Passa alla [pagina dell&#39;account di Adobe](https://account.adobe.com) per accedere con la nuova e-mail e impostare la password.

@@ -36,7 +36,7 @@ Le richieste AJAX a throughput elevato includono quelle relative ai contenuti pr
 
 Sono disponibili tre soluzioni:
 
-* [Eseguire l&#39;aggiornamento alla versione 2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
+* [Eseguire l&#39;aggiornamento alla versione 2.3.4](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version).
 * Assicurati richieste più leggere (memorizza nella cache le richieste o passa al contenuto privato dei clienti).
 * Riduci il numero di richieste.
 
@@ -46,7 +46,7 @@ Se in ogni pagina sono presenti richieste AJAX di terze parti attivate, prova a 
 
 <u>Riduci il numero di richieste</u>
 
-* Disattiva il carrello acquisti permanente, in quanto può aumentare il numero di `customer/section/load` richieste. Segui i passaggi descritti in [Percorsi persistenti del carrello](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/config-reference-general) nella documentazione per gli sviluppatori per verificare se il carrello permanente è abilitato.
+* Disattiva il carrello acquisti permanente, in quanto può aumentare il numero di `customer/section/load` richieste. Segui i passaggi descritti in [Percorsi persistenti del carrello](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/paths/config-reference-general) nella documentazione per gli sviluppatori per verificare se il carrello permanente è abilitato.
 * Se devi ricaricare o annullare la validità del contenuto in `sections.xml`, segui i passaggi descritti in [Contenuto privato: annulla la validità del contenuto privato](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content) nella documentazione per sviluppatori. Assicurarsi di non utilizzare il metodo `customerData.reload()` direttamente nelle personalizzazioni.
 * Controlla le altre richieste AJAX di POST sulla stessa pagina. Apri Google Chrome Developer Tool nel browser Google Chrome. Fare clic sulla scheda **Rete** e quindi sulla scheda **XHR**. Verrà visualizzato l&#39;elenco di tutte le richieste AJAX dalla pagina specifica. Quindi fai clic su ciascuna richiesta e nel campo Request Method (Metodo di richiesta) dovrebbero essere le richieste GET. Nota: Google Chrome viene utilizzato come esempio ed è possibile farlo anche in altri browser.
 * Verifica la funzionalità Google Tag Manager (GTM) che è una richiesta AJAX specifica. L’utente può rimuovere questo AJAX e rieseguire il factoring della personalizzazione con funzionalità private per ridurre il numero totale di richieste al server.

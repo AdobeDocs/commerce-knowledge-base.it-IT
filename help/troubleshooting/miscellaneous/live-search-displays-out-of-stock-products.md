@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Questo problema è stato risolto in [[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html). Per installare la versione più recente, consulta [Aggiornamento [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#update) nella guida utente.
+>Questo problema è stato risolto in [[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=it). Per installare la versione più recente, consulta [Aggiornamento [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=it#update) nella guida utente.
 
 Questo articolo fornisce informazioni sul problema noto in cui la pagina dell&#39;elenco dei prodotti (PLP) mostra l&#39;errore *Impossibile trovare prodotti corrispondenti alla selezione* mentre il popover di ricerca restituisce alcuni elementi.
 
@@ -49,4 +49,4 @@ Al momento non esiste una soluzione per questo problema. Il nostro team [!DNL Li
 
 ## Lettura correlata
 
-[Installa [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install) nella guida utente.
+[Installa [!DNL Live Search]](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/live-search/install) nella guida utente.

@@ -22,7 +22,7 @@ Tutti i facet della vetrina Adobe Commerce sono ordinati alfabeticamente con opz
 
 ## Soluzione alternativa
 
-Tuttavia, in alcuni casi edge, i facet potrebbero non essere ordinati alfabeticamente come impostato nell&#39;[[!DNL Live Search] area di lavoro Faceting](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace).
+Tuttavia, in alcuni casi edge, i facet potrebbero non essere ordinati alfabeticamente come impostato nell&#39;[[!DNL Live Search] area di lavoro Faceting](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace).
 
 Come soluzione alternativa, è possibile ordinare gli attributi del prodotto nella sezione degli attributi [!UICONTROL Admin].
 

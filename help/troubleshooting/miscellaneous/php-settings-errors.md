@@ -48,7 +48,7 @@ Configurazioni con un numero elevato di visualizzazioni, prodotti, attributi o o
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-Nessun valore &quot;corretto&quot; per `max-input-vars`. Dipende dalle dimensioni e dalla complessità della configurazione. Modificare il valore nel file `php.ini` in base alle esigenze. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Nessun valore &quot;corretto&quot; per `max-input-vars`. Dipende dalle dimensioni e dalla complessità della configurazione. Modificare il valore nel file `php.ini` in base alle esigenze. Vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/php-settings).
 
 ## errore del livello massimo di nidificazione delle funzioni xdebug
 
@@ -76,4 +76,4 @@ Più modelli hanno una sintassi per il livello astratto di supporto nei modelli 
 
 Ulteriori informazioni su [asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags).
 
-Modifica `php.ini` e imposta `asp_tags = off`. Per ulteriori informazioni, vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings).
+Modifica `php.ini` e imposta `asp_tags = off`. Per ulteriori informazioni, vedere [Impostazioni PHP richieste](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/php-settings).

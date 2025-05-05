@@ -33,4 +33,4 @@ Quando si esegue la prima installazione o aggiornamento, tutti i prodotti vengon
 
 Se disponi di più siti web, devi aggiungerli come Sales Channel al Magazzino predefinito o ad altri titoli personalizzati.
 
-Per informazioni dettagliate su come eseguire questa operazione, consulta la sezione [Stock del wiki/guida utente](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage) nella guida utente.
+Per informazioni dettagliate su come eseguire questa operazione, consulta la sezione [Stock del wiki/guida utente](https://experienceleague.adobe.com/it/docs/commerce-admin/inventory/stocks/stocks-manage) nella guida utente.

@@ -19,7 +19,7 @@ In questo articolo viene fornita una correzione per il messaggio di errore &quot
 >
 >**Avviso di rimozione**
 >
->A causa della direttiva sui servizi di pagamento [PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) e della continua evoluzione di molte API, Authorize.Net rischia di diventare obsoleto e non più conforme alla sicurezza in futuro. Per questo motivo, è ora obsoleto. Ti consigliamo di disabilitarlo nella configurazione di Adobe Commerce e di passare alla corrispondente [estensione Commerce Marketplace](https://marketplace.magento.com/extensions.html).
+>A causa della direttiva sui servizi di pagamento [PSD2](https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive) e della continua evoluzione di molte API, Authorize.Net rischia di diventare obsoleto e non più conforme alla sicurezza in futuro. Per questo motivo, è ora obsoleto. Ti consigliamo di disabilitarlo nella configurazione di Adobe Commerce e di passare alla corrispondente [estensione Commerce Marketplace](https://marketplace.magento.com/extensions.html).
 >
 >**Questa integrazione è stata rimossa da Adobe Commerce 2.4.0 ed è stata rimossa dalle versioni correnti di 2.3.**
 >
@@ -27,7 +27,7 @@ In questo articolo viene fornita una correzione per il messaggio di errore &quot
 
 ## Problema
 
-Se si effettua un ordine utilizzando l&#39;account sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server), viene visualizzato un messaggio di errore:
+Se si effettua un ordine utilizzando l&#39;account sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server), viene visualizzato un messaggio di errore:
 
 &#x200B;>>
 &quot;Si è verificato un errore sul server. Provare a riordinare&quot;

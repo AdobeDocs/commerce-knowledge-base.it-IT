@@ -23,7 +23,7 @@ Questo articolo corregge il problema relativo alla visualizzazione di una pagina
 
 <u>Passaggi da riprodurre</u>:
 
-1. Configurare lo strumento Security Scan per controllare il sito Web, come descritto in [Security Scan](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) nella guida utente.
+1. Configurare lo strumento Security Scan per controllare il sito Web, come descritto in [Security Scan](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan) nella guida utente.
 1. Nella colonna Azioni selezionare **Esegui analisi**.
 
 <u>Risultati previsti</u>:
@@ -47,5 +47,5 @@ Prova ad aprire il tuo sito web.
 
 ## Lettura correlata
 
-* [Pubblica e avvia](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview) nella documentazione per gli sviluppatori.
-* [Analisi protezione](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan) nella guida utente.
+* [Pubblica e avvia](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/launch/overview) nella documentazione per gli sviluppatori.
+* [Analisi protezione](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/security-scan) nella guida utente.

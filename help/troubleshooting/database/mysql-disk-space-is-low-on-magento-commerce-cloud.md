@@ -78,7 +78,7 @@ Il mount `/data/mysql` potrebbe diventare pieno a causa di una serie di problemi
 
 È possibile prendere un&#39;iniziativa immediata per riportare [!DNL MySQL] in pista (o impedire che si blocchi): liberare spazio scaricando le tabelle di grandi dimensioni.
 
-Una soluzione a lungo termine, tuttavia, consiste nell&#39;allocare più spazio e seguire le [best practice per il database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html), inclusa l&#39;abilitazione della funzionalità [Archivio ordini/fatture/spedizioni](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
+Una soluzione a lungo termine, tuttavia, consiste nell&#39;allocare più spazio e seguire le [best practice per il database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it), inclusa l&#39;abilitazione della funzionalità [Archivio ordini/fatture/spedizioni](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 Di seguito sono riportati dettagli sulle soluzioni rapide e a lungo termine.
 
@@ -124,7 +124,7 @@ Verificare la presenza di un file `ibtmp1` di grandi dimensioni su `/data/mysql`
 
 >[!WARNING]
 >
->Si consiglia vivamente di creare un backup del database prima di eseguire eventuali manipolazioni ed evitarle durante i periodi di caricamento elevato del sito. Vedi [Scarica il database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) nella documentazione per gli sviluppatori.
+>Si consiglia vivamente di creare un backup del database prima di eseguire eventuali manipolazioni ed evitarle durante i periodi di caricamento elevato del sito. Vedi [Scarica il database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots) nella documentazione per gli sviluppatori.
 
 Controlla se ci sono tabelle di grandi dimensioni e considera se una di esse può essere scaricata. Esegui questa operazione sul nodo principale (sorgente).
 
@@ -132,7 +132,7 @@ Ad esempio, le tabelle con i rapporti possono in genere essere scaricate. Per in
 
 Se non sono presenti tabelle di report di grandi dimensioni, è consigliabile svuotare `_index` tabelle per rimettere in sesto l&#39;applicazione Adobe Commerce. `index_price` tabelle sono le più idonee. Ad esempio, `catalog_category_product_index_storeX` tabelle, dove X può avere valori da &quot;1&quot; al numero massimo di archivi. Tieni presente che dovrai reindicizzare per ripristinare i dati in queste tabelle e, nel caso di cataloghi di grandi dimensioni, questa reindicizzazione potrebbe richiedere molto tempo.
 
-Una volta scaricati, attendere il completamento della sincronizzazione wsrep. È ora possibile creare backup e adottare misure più significative per aggiungere più spazio, ad esempio allocando/acquistando più spazio e abilitando la funzionalità [Archivio ordini/fatture/spedizioni](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
+Una volta scaricati, attendere il completamento della sincronizzazione wsrep. È ora possibile creare backup e adottare misure più significative per aggiungere più spazio, ad esempio allocando/acquistando più spazio e abilitando la funzionalità [Archivio ordini/fatture/spedizioni](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/order-management/orders/order-archive).
 
 ### Verifica impostazioni di registrazione binaria
 
@@ -151,4 +151,4 @@ Se hai raggiunto il limite di spazio e riscontri ancora problemi di spazio insuf
 
 ## Lettura correlata
 
-[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

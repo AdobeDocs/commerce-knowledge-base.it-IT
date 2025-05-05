@@ -33,15 +33,15 @@ L’estensione Fastly è stata aggiornata (insieme a una configurazione VCL in b
 
 ## Soluzione
 
-1. Verifica che siano installati gli strumenti ECE più recenti e che sia installata la [versione corrente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html) nella documentazione per gli sviluppatori. ECE-Tools ha una versione del pacchetto Fastly nelle sue dipendenze.
+1. Verifica che siano installati gli strumenti ECE più recenti e che sia installata la [versione corrente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite.html?lang=it) nella documentazione per gli sviluppatori. ECE-Tools ha una versione del pacchetto Fastly nelle sue dipendenze.
 
    Questa potrebbe non essere la versione più recente del plug-in Fastly, ma è probabile che sia una versione successiva a quella attualmente installata ed è consigliabile installare gli strumenti ECE più recenti.
 
-1. Se non utilizzi la versione corrente di ECE-Tools, segui questi passaggi per [aggiornare](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html) nella documentazione per gli sviluppatori.
+1. Se non utilizzi la versione corrente di ECE-Tools, segui questi passaggi per [aggiornare](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=it) nella documentazione per gli sviluppatori.
 1. Dopo aver aggiornato ECE-Tools, verifica se è installata una versione corrente del [plugin Fastly](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets).
-1. Se la versione del plug-in Fastly non è la versione corrente, eseguire la procedura seguente per [aggiornare il plug-in alla versione più recente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) nella documentazione per gli sviluppatori.
+1. Se la versione del plug-in Fastly non è la versione corrente, eseguire la procedura seguente per [aggiornare il plug-in alla versione più recente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#upgrade-the-fastly-module) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-* Per informazioni sulla configurazione di Fastly, vedere [Configurare Fastly Services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html) nella documentazione per gli sviluppatori.
+* Per informazioni sulla configurazione di Fastly, vedere [Configurare Fastly Services](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it) nella documentazione per gli sviluppatori.
 * Per informazioni generali su Fastly, vedere [fastly.com](https://www.fastly.com/).

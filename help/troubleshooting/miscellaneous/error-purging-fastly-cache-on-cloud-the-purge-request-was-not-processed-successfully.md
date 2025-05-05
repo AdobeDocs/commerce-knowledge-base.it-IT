@@ -49,12 +49,12 @@ Se le credenziali sono corrette, è possibile che si verifichino problemi con le
 curl -X GET -s https://api.fastly.com/service/<Service ID>/version/<Editable Version #>/snippet -H "Fastly-Key:FASTLY_API_TOKEN"
 ```
 
-Rivedi l’elenco delle VCL. In caso di problemi con le VCL predefinite da Fastly, puoi caricare nuovamente o verificare il contenuto in base alle [VCL predefinite](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). Per la modifica dei VCL personalizzati, vedere [Snippet VCL Fastly personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) nella Guida all&#39;infrastruttura cloud di Commerce.
+Rivedi l’elenco delle VCL. In caso di problemi con le VCL predefinite da Fastly, puoi caricare nuovamente o verificare il contenuto in base alle [VCL predefinite](https://github.com/fastly/fastly-magento2/tree/master/etc/vcl_snippets). Per la modifica dei VCL personalizzati, vedere [Snippet VCL Fastly personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=it) nella Guida all&#39;infrastruttura cloud di Commerce.
 
 ## Ulteriori informazioni
 
 Nella documentazione per gli sviluppatori:
 
-* [Informazioni su Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Configurazione rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [Snippet VCL Fastly personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [Informazioni su Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it)
+* [Configurazione rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it)
+* [Snippet VCL Fastly personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=it)

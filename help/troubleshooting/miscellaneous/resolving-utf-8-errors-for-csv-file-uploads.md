@@ -23,4 +23,4 @@ Per risolvere il problema, è necessario modificare la codifica del file. Il sal
 1. Fai clic su &#x200B;&#x200B; **File** > **Salva con nome** &#x200B;&#x200B; e scegli il formato &#x200B;&#x200B; **Valori separati da virgole (.csv)** per salvare il file.
 1. Apri il file CSV in Testo sublime.
 1. In Testo sublime passare a &#x200B;&#x200B; **File** > **Salva con codifica** > **UTF-8\*&#x200B;**. Il file CSV verrà salvato con codifica UTF-8.    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [Carica i dati](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (nella guida utente) in una nuova tabella in Magento BI.
+1. [Carica i dati](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) (nella guida utente) in una nuova tabella in Magento BI.

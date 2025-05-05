@@ -30,6 +30,6 @@ Se si disabilita l&#39;output di un modulo in **Archivi** > **Impostazioni** > *
 
 ## Soluzione
 
-Se devi disabilitare la funzionalità del modulo, disabilita il modulo come descritto in [Abilita o disabilita i moduli](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules) nella documentazione per gli sviluppatori.
+Se devi disabilitare la funzionalità del modulo, disabilita il modulo come descritto in [Abilita o disabilita i moduli](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/manage-modules) nella documentazione per gli sviluppatori.
 
 La funzionalità di disabilitazione dell’output del modulo è stata rimossa a partire dalla versione 2.2.0.

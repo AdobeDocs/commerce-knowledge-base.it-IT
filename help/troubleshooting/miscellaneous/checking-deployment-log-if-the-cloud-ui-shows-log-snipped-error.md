@@ -30,11 +30,11 @@ Quando si tenta di visualizzare il registro di distribuzione nell&#39;interfacci
 
 ## Causa
 
-Tieni presente che il registro visualizzato nell’interfaccia utente non deve essere trattato come l’origine della verità, soprattutto se scopri che il sito non risponde o non funziona correttamente dopo che la distribuzione è stata elencata con lo stato di Operazione completata. È inoltre necessario verificare con i registri sul server. Consulta [Visualizzare e gestire i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) nella documentazione per gli sviluppatori.
+Tieni presente che il registro visualizzato nell’interfaccia utente non deve essere trattato come l’origine della verità, soprattutto se scopri che il sito non risponde o non funziona correttamente dopo che la distribuzione è stata elencata con lo stato di Operazione completata. È inoltre necessario verificare con i registri sul server. Consulta [Visualizzare e gestire i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=it) nella documentazione per gli sviluppatori.
 
 ## Soluzione
 
-1. Verificare che nell&#39;ambiente locale sia installato [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html).
+1. Verificare che nell&#39;ambiente locale sia installato [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=it).
 1. È possibile eseguire uno dei seguenti comandi:
 
    ```bash
@@ -70,5 +70,5 @@ Tieni presente che il registro visualizzato nell’interfaccia utente non deve e
 
 ## Letture correlate nella documentazione per gli sviluppatori:
 
-* [Adobe Commerce su infrastruttura cloud > Genera e distribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [Adobe Commerce su infrastruttura cloud > Visualizza e gestisci registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* [Adobe Commerce su infrastruttura cloud > Genera e distribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it)
+* [Adobe Commerce su infrastruttura cloud > Visualizza e gestisci registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=it)

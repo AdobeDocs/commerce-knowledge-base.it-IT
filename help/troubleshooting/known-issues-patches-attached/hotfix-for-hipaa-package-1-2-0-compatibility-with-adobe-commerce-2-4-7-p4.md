@@ -22,8 +22,8 @@ Adobe Commerce sull’infrastruttura cloud 2.4.7-p4 e versioni precedenti
 
 ## Prerequisiti
 
-* Adobe ha eseguito il provisioning del tuo account Adobe Commerce per accedere all&#39;estensione **[!DNL HIPAA Ready]**. Consulta [[!DNL HIPAA] preparazione su Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) per ulteriori dettagli nella **Guida introduttiva di Adobe Commerce**.
-* Accedi a [repo.magento.com](https://repo.magento.com) per installare l&#39;estensione. Per generare le chiavi e ottenere i diritti necessari, vedere [Ottenere le chiavi di autenticazione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) nella **Guida all&#39;installazione di Adobe Commerce**.
+* Adobe ha eseguito il provisioning del tuo account Adobe Commerce per accedere all&#39;estensione **[!DNL HIPAA Ready]**. Consulta [[!DNL HIPAA] preparazione su Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-admin/start/compliance/hipaa-ready-service/overview) per ulteriori dettagli nella **Guida introduttiva di Adobe Commerce**.
+* Accedi a [repo.magento.com](https://repo.magento.com) per installare l&#39;estensione. Per generare le chiavi e ottenere i diritti necessari, vedere [Ottenere le chiavi di autenticazione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) nella **Guida all&#39;installazione di Adobe Commerce**.
 
 ## Problema
 
@@ -43,7 +43,7 @@ Per risolvere il problema relativo all’infrastruttura Adobe Commerce on Cloud 
 
 ## Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=it) nella Knowledge Base di supporto per le istruzioni.
 
 ## Solo per gli esercenti di Adobe Commerce on Cloud: come stabilire se la patch è stata applicata
 
@@ -53,7 +53,7 @@ Considerando che non è possibile verificare facilmente se il problema è stato 
 >
 ><u>Per eseguire questa operazione, eseguire la procedura seguente, utilizzando il file `VULN-27015-2.4.7_COMPOSER.patch` **come esempio**</u>:
 
-1. [Installare lo strumento Patch di qualità](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [Installare lo strumento Patch di qualità](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=it).
 1. Esegui il comando:<br>
    ![cve-2024-34102-tell-if-patch-apply-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. Dovresti visualizzare un output simile a questo, **<u>dove l&#39;esempio utilizzato qui, VULN-27015</u>**, restituisce lo stato *Applicato*:

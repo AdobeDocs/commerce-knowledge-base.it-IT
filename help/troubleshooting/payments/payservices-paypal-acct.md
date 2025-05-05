@@ -21,13 +21,13 @@ Questo articolo spiega perché il tuo account sandbox PayPal per Payment Service
 
 ## Problema
 
-Nella [documentazione sull&#39;onboarding](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html) ti viene richiesto di iscriverti a un account PayPal, accedere al conto PayPal Developers e quindi creare un account sandbox. Se selezioni di creare un nuovo account durante l’onboarding nella finestra a comparsa per l’onboarding di PayPal, PayPal non sarà in grado di verificare il tuo account sandbox e non potrai completare l’onboarding.
+Nella [documentazione sull&#39;onboarding](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html?lang=it) ti viene richiesto di iscriverti a un account PayPal, accedere al conto PayPal Developers e quindi creare un account sandbox. Se selezioni di creare un nuovo account durante l’onboarding nella finestra a comparsa per l’onboarding di PayPal, PayPal non sarà in grado di verificare il tuo account sandbox e non potrai completare l’onboarding.
 
 <u>Passaggi da riprodurre</u>:
 
-1. [installa Servizi di pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) e [configura i servizi Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#configure-commerce-services).
-1. Vai a **Servizi di pagamento** nell&#39;amministrazione e [avvia l&#39;onboarding della sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html).
-1. Nella finestra a comparsa per l&#39;onboarding di PayPal, puoi creare un nuovo account Business (invece di [accedere con un account sandbox PayPal creato in precedenza](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) durante l&#39;onboarding.
+1. [installa Servizi di pagamento](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html?lang=it) e [configura i servizi Commerce](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html?lang=it#configure-commerce-services).
+1. Vai a **Servizi di pagamento** nell&#39;amministrazione e [avvia l&#39;onboarding della sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/onboard.html?lang=it).
+1. Nella finestra a comparsa per l&#39;onboarding di PayPal, puoi creare un nuovo account Business (invece di [accedere con un account sandbox PayPal creato in precedenza](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html?lang=it#test-in-sandbox-environment) durante l&#39;onboarding.
 1. Hai completato correttamente l’onboarding su PayPal.
 1. L’Amministratore ti informa che i pagamenti sandbox sono in sospeso e che devi confermare il tuo indirizzo e-mail con PayPal per completare l’onboarding.
 
@@ -40,5 +40,5 @@ PayPal non sarà in grado di verificare il tuo account sandbox e non potrai comp
 ## Soluzione
 
 1. Utilizzando un account sandbox creato nel portale [PayPal Developer](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account).
-1. Fai clic su [ripristina sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment) e riavvia l&#39;onboarding della sandbox.
+1. Fai clic su [ripristina sandbox](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html?lang=it#test-in-sandbox-environment) e riavvia l&#39;onboarding della sandbox.
 1. [Contatta il supporto](mailto:payment-services-support@adobe.com) se non riesci ad alleviare i problemi dell&#39;account in modo da poter riprendere l&#39;onboarding e accettare i pagamenti.

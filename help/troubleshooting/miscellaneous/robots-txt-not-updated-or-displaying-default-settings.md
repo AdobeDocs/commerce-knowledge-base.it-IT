@@ -42,8 +42,8 @@ L&#39;indicizzazione da parte dei motori di ricerca è disattivata.
 
 ## Soluzione
 
-Abilita l’indicizzazione tramite i motori di ricerca. Consulta [Configurare l&#39;indicizzazione tramite il motore di ricerca](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) nella documentazione per gli sviluppatori.
+Abilita l’indicizzazione tramite i motori di ricerca. Consulta [Configurare l&#39;indicizzazione tramite il motore di ricerca](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-* [Aggiungi mappa del sito e robot motore di ricerca](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) nella documentazione per gli sviluppatori.
+* [Aggiungi mappa del sito e robot motore di ricerca](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap) nella documentazione per gli sviluppatori.

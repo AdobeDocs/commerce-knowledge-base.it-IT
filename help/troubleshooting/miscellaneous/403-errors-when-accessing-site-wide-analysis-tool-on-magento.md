@@ -79,4 +79,4 @@ Se non riesci ancora ad accedere allo strumento di analisi a livello di sito, al
 
 ## Lettura correlata
 
-* [Guida allo strumento di analisi a livello di sito](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html)
+* [Guida allo strumento di analisi a livello di sito](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/intro.html?lang=it)

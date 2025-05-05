@@ -24,8 +24,8 @@ Prima di creare un nuovo modulo, consulta i seguenti argomenti nella documentazi
 
 * [Guida per gli sviluppatori PHP](https://developer.adobe.com/commerce/php/development/)
 * [Panoramica modulo](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [Crea un nuovo modulo](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
-* [File di configurazione modulo](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [Crea un nuovo modulo](https://experienceleague.adobe.com/it/docs/commerce-learn/tutorials/backend-development/create-module)
+* [File di configurazione modulo](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## Informazioni richieste
 
