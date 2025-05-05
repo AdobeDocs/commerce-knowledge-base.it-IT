@@ -44,23 +44,23 @@ Le query GraphQL non vengono visualizzate nei termini di ricerca più comuni nel
 
 <pre>
 <code class="language-graphql">
-{
+&lbrace;
   products(
     search: "jackets"
     filter: { price: { to: "50" } }
     pageSize: 20
-   ) {
+   ) &lbrace;
     total_count
-    items {
+    items &lbrace;
       name
       sku
-    }
-    page_info {
+    &rbrace;
+    page_info &lbrace;
       page_size
       current_page
-    }
-  }
-}
+    &rbrace;
+  &rbrace;
+&rbrace;
 </code>
 </pre>
 

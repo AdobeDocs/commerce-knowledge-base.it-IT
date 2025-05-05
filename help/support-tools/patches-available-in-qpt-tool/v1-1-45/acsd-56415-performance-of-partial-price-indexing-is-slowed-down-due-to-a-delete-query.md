@@ -40,15 +40,15 @@ Le prestazioni di [!UICONTROL Partial Price Indexing] sono rallentate a causa di
 1. Crea *10 gruppi di clienti*.
 1. Eseguire la query seguente per aggiungere prodotti alla tabella `_cl`:
 
-   ``
+   &grave;&grave;
     insert into catalog_product_price_cl (entity_id) select entity_id from catalog_product_entity
- ``
+ &grave;&grave;
 
 1. Esegui il comando seguente per attivare il processo di indicizzazione parziale dei prezzi:
 
-   ``
+   &grave;&grave;
     bin/magento cron:run --group=index --bootstrap=standaloneProcessStarted=1
- ``
+ &grave;&grave;
 
 <u>Risultati previsti</u>:
 

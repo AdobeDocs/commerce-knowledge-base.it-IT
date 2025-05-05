@@ -29,7 +29,7 @@ In questo articolo viene fornita una correzione per il messaggio di errore &quot
 
 Se si effettua un ordine utilizzando l&#39;account sandbox [Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server), viene visualizzato un messaggio di errore:
 
->>
+&#x200B;>>
 &quot;Si è verificato un errore sul server. Provare a riordinare&quot;
 
 ## Causa 1: la modalità di test è abilitata

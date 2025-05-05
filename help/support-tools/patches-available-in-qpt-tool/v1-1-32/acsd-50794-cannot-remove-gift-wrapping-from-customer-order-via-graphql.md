@@ -49,13 +49,13 @@ Gli utenti non possono rimuovere la confezione regalo dall’ordine del cliente 
 1. Ora controlla la confezione regalo *Uid* con questa query del carrello:
 
    <pre><code class="language-GraphQL">
-    {
-      cart(cart_id: "{{CART_ID}}") {
-        available_gift_wrappings{
+    &lbrace;
+      cart(cart_id: "{{CART_ID}}") &lbrace;
+        available_gift_wrappings&lbrace;
             uid
-        }
-    }
-    }
+        &rbrace;
+    &rbrace;
+    &rbrace;
     </code></pre>
 
 1. Impostare il wrapping regalo utilizzando `setGiftOptionsOnCart`.
@@ -66,38 +66,38 @@ Gli utenti non possono rimuovere la confezione regalo dall’ordine del cliente 
 1. Esegui query cliente: cliente.
 
    <pre><code class="language-graphql">
-    query {
-      customer {
+    query &lbrace;
+      customer &lbrace;
         firstname
         middlename
         lastname
         suffix
         email
-        orders {
-            items {
+        orders &lbrace;
+            items &lbrace;
                 order_date
-                gift_wrapping {
+                gift_wrapping &lbrace;
                     design
                     uid
-                }
-            }
-        }
-        addresses {
+                &rbrace;
+            &rbrace;
+        &rbrace;
+        addresses &lbrace;
           firstname
           middlename
           lastname
           street
           city
-          region {
+          region &lbrace;
             region_code
             region
-          }
+          &rbrace;
           postcode
           country_code
           telephone
-        }
-      }
-    }
+        &rbrace;
+      &rbrace;
+    &rbrace;
     </code></pre>
 
 <u>Risultati previsti</u>:

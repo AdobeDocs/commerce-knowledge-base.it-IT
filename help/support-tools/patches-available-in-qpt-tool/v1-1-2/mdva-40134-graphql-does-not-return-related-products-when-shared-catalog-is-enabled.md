@@ -46,16 +46,16 @@ L’istanza deve essere pulita con solo i dati di esempio.
 1. In **Prodotti correlati**, aggiungi le due borse (ID 7 e 13).
 1. Invia una richiesta **Post**:
 
-<pre>{
-  products(filter: {sku: {eq: "24-MB01"}}, sort: {name: ASC}) {
-    elementi {
-      related_products {
+<pre>&lbrace;
+  products(filter: {sku: {eq: "24-MB01"}}, sort: {name: ASC}) &lbrace;
+    elementi &lbrace;
+      related_products &lbrace;
         uid
         nome
-      }
-    }
-  }
-}</pre>
+      &rbrace;
+    &rbrace;
+  &rbrace;
+&rbrace;</pre>
 
 <u>Risultati previsti</u>:
 
@@ -65,7 +65,7 @@ I prodotti correlati sono mostrati nella risposta di GraphQL.
 
 Gli utenti ricevono il seguente errore:
 
-<pre>Il valore restituito da Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() deve essere di tipo int, null ha restituito {"exception":"[object] (GraphQL\\Error\\Error(code: 0): il valore restituito da Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() deve essere di tipo int, null ha restituito </pre>
+<pre>Il valore restituito da Magento\CatalogPermissionsGraphQl\Model\Store\StoreProcessor::getStoreId() deve essere di tipo int, null ha restituito &lbrace;"exception":"[object] (GraphQL\\Error\\Error(code: 0): il valore restituito da Magento\\CatalogPermissionsGraphQl\\Model\\Store\\StoreProcessor::getStoreId() deve essere di tipo int, null ha restituito </pre>
 
 ## Applicare la patch
 

@@ -57,10 +57,10 @@ I dati del cliente vengono aggiornati.
 Viene visualizzato il seguente errore:
 
     &quot;json
-    {
+    &lbrace;
     &quot;message&quot;: &quot;Esiste già un cliente con lo stesso indirizzo e-mail in un sito Web associato.&quot;,
     &quot;trace&quot;: ...
-    }
+    &rbrace;
     &quot;
 
 ## Applicare la patch

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47444: errore _[!UICONTROL Trying to access array offset on value of type bool]_durante l&#39;accesso a determinati percorsi di categoria non esistenti per prodotti noti in PHP 7.4
+# ACSD-47444: errore _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;durante l&#39;accesso a determinati percorsi di categoria non esistenti per prodotti noti in PHP 7.4
 
-La patch ACSD-47444 risolve il problema relativo all&#39;errore _[!UICONTROL Trying to access array offset on value of type bool]_durante l&#39;accesso a determinati percorsi di categoria non esistenti per prodotti noti in PHP 7.4. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22.
+La patch ACSD-47444 risolve il problema relativo all&#39;errore _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;durante l&#39;accesso a determinati percorsi di categoria non esistenti per prodotti noti in PHP 7.4. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.22.
 
 ## Prodotti e versioni interessati
 
@@ -29,7 +29,7 @@ La patch ACSD-47444 risolve il problema relativo all&#39;errore _[!UICONTROL Try
 
 ## Problema
 
-Errore: _[!UICONTROL Trying to access array offset on value of type bool]_durante l&#39;accesso a determinati percorsi di categoria non esistenti per prodotti noti in PHP 7.4.
+Errore: _[!UICONTROL Trying to access array offset on value of type bool]_&#x200B;durante l&#39;accesso a determinati percorsi di categoria non esistenti per prodotti noti in PHP 7.4.
 
 <u>Prerequisiti</u>:
 

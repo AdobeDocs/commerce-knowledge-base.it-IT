@@ -36,7 +36,7 @@ Queste pagine sono:
 
 I termini &quot;memorizzabile in cache&quot; e &quot;non memorizzabile in cache&quot; indicano se una pagina deve essere memorizzata in cache o meno. Per impostazione predefinita, tutte le pagine sono memorizzabili in cache. Tuttavia, se qualsiasi blocco in un layout è designato come non memorizzabile in cache, l’intera pagina non è memorizzabile in cache.
 
-La schermata seguente mostra un blocco con un&#39;impostazione `cacheable="false"` ** ** che crea una pagina non memorizzabile in cache.
+La schermata seguente mostra un blocco con un&#39;impostazione `cacheable="false"` **&#x200B; ** che crea una pagina non memorizzabile in cache.
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 

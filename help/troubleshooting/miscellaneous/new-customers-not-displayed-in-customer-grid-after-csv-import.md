@@ -1,6 +1,6 @@
 ---
 title: I nuovi clienti non vengono visualizzati nella griglia clienti dopo l’importazione CSV
-description: Questo articolo fornisce una correzione del problema quando non è possibile visualizzare nuovi clienti in **Clienti** &gt; **Tutti i clienti** dopo un’importazione da un file `.csv`. La soluzione è quella di impostare l’indicizzatore "customer_grid" sulla modalità "Aggiorna al salvataggio" e reindicizzare manualmente la griglia del cliente.
+description: Questo articolo fornisce una correzione del problema quando non è possibile visualizzare nuovi clienti in **Clienti** &gt; **Tutti i clienti** dopo un’importazione da un file &grave;.csv&grave;. La soluzione è quella di impostare l’indicizzatore "customer_grid" sulla modalità "Aggiorna al salvataggio" e reindicizzare manualmente la griglia del cliente.
 exl-id: e4d9d60a-a0d1-4602-924e-a338e56de61d
 feature: Data Import/Export
 role: Developer

@@ -1,6 +1,6 @@
 ---
 title: Errore [!DNL opensearch] motore di ricerca inesistente. Ripristino di  [!DNL livesearch].
-description: Questo articolo fornisce una soluzione al problema in cui viene visualizzato l'errore, "Error- [!DNL opensearch] search engine does not exist. Ripristino di  [!DNL livesearch].` in Adobe Commerce su infrastruttura cloud.
+description: Questo articolo fornisce una soluzione al problema in cui viene visualizzato l'errore, "Error- [!DNL opensearch] search engine does not exist. Ripristino di  [!DNL livesearch].&grave; in Adobe Commerce su infrastruttura cloud.
 feature: Deploy, Search
 role: Developer
 exl-id: a6cc981d-b8f0-402d-8771-60d2f21f09f8

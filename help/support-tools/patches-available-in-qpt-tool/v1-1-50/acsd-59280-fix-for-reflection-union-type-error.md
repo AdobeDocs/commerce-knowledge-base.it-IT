@@ -1,5 +1,5 @@
 ---
-title: 'Errore "ACSD-59280: `ReflectionUnionType::getName()` nelle installazioni 2.4.4-pX"'
+title: 'Errore "ACSD-59280: &grave;ReflectionUnionType::getName()&grave; nelle installazioni 2.4.4-pX"'
 description: Applica la patch ACSD-59280 per risolvere il problema di Adobe Commerce, in cui si verifica l’errore "call to undefined method ReflectionUnionType::getName()" durante l’installazione delle versioni 2.4.4-pX.
 feature: Install, Upgrade
 role: Admin, Developer

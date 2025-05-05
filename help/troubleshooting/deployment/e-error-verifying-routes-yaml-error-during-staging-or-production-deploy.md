@@ -36,9 +36,9 @@ La distribuzione è bloccata e nel registro viene visualizzato il seguente messa
 <pre>Distribuzione di applicazioni Verifica della configurazione E: errore durante la verifica di route.yaml.
 I seguenti domini sono configurati per il cluster, ma non hanno route definite nel file route.yaml:
 
-- store1.example.com
-- store2.example.com
-- test-store.example.com
+&#x200B;- store1.example.com
+&#x200B;- store2.example.com
+&#x200B;- test-store.example.com
 
 Con la configurazione route.yaml corrente,
   Questi domini NON verrebbero serviti.

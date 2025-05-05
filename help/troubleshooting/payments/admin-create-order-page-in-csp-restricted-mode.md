@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Risolvere i problemi relativi alla creazione della pagina dell&#39;ordine in modalità con restrizioni [!UICONTROL CSP]
 
-Questo articolo fornisce spiegazioni e correzioni per i problemi di Adobe Commerce 2.4.7 durante la creazione di un ordine sul lato Amministratore con **[!UICONTROL CSP restricted mode]** abilitato *2}, con il messaggio di errore &quot;* Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; nel registro della console del browser.*
+Questo articolo fornisce spiegazioni e correzioni per i problemi di Adobe Commerce 2.4.7 durante la creazione di un ordine sul lato Amministratore con **[!UICONTROL CSP restricted mode]** abilitato *2&rbrace;, con il messaggio di errore &quot;* Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; nel registro della console del browser.*
 
 ## Prodotti e versioni interessati
 

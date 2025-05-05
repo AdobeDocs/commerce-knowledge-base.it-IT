@@ -38,7 +38,7 @@ Un utente amministratore con restrizioni non può aggiornare [!UICONTROL Product
 1. Crea una visualizzazione aggiuntiva per sito Web, store e store.
 1. Aggiungere un prodotto al secondo store, quindi aggiungere una recensione.
 1. Crea un utente amministratore con restrizioni con accesso solo al secondo archivio.
-1. Accedi come utente amministratore con restrizioni, quindi vai a **[!UICONTROL  Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]** e imposta **Stato** su *Approvato* o *In sospeso*.
+1. Accedi come utente amministratore con restrizioni, quindi vai a **[!UICONTROL &#x200B; Marketings]** > **[!UICONTROL Reviews]** > **[!UICONTROL Mass Update]** e imposta **Stato** su *Approvato* o *In sospeso*.
 
 <u>Risultati previsti</u>:
 

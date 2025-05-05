@@ -76,7 +76,7 @@ Di seguito sono riportate le domande comuni che potresti porre quando prendi in 
   **Nei cluster non sovraccaricati** - **Le connessioni slave rallenteranno le prestazioni del 10-15%**, che è uno dei motivi per cui non è predefinito.
 
   *Nei cluster con sovraccarico, tuttavia, si verifica un aumento delle prestazioni perché questi 10-15% vengono mitigati riducendo il carico dal traffico.*
-* È necessario attivare queste impostazioni per il negozio? *Se il carico è elevato o si prevede un carico elevato sul database MySQL o Redis, è assolutamente necessario abilitare le connessioni slave. Per un cliente normale con traffico medio, questa è&#x200B;**not**un&#39;impostazione ottimale da abilitare.*
+* È necessario attivare queste impostazioni per il negozio? *Se il carico è elevato o si prevede un carico elevato sul database MySQL o Redis, è assolutamente necessario abilitare le connessioni slave. Per un cliente normale con traffico medio, questa è&#x200B;**not**&#x200B;un&#39;impostazione ottimale da abilitare.*
 
 ## Lettura correlata
 

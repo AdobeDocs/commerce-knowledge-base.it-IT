@@ -1,6 +1,6 @@
 ---
 title: Gli script personalizzati lato server non vengono eseguiti nella directory dei file multimediali del pub
-description: Questo articolo fornisce una correzione per i casi in cui gli script personalizzati lato server non vengono eseguiti se inseriti nel "./pub/media/` della tua applicazione Adobe Commerce sull’infrastruttura cloud. Si tratta di una limitazione di sicurezza prevista, poiché il ".La directory /pub/media/` è scrivibile. Per rendere eseguibili gli script, inserirli in directory non scrivibili, ad esempio `./app/code/` o `./pub/`.
+description: Questo articolo fornisce una correzione per i casi in cui gli script personalizzati lato server non vengono eseguiti se inseriti nel "./pub/media/&grave; della tua applicazione Adobe Commerce sull’infrastruttura cloud. Si tratta di una limitazione di sicurezza prevista, poiché il ".La directory /pub/media/&grave; è scrivibile. Per rendere eseguibili gli script, inserirli in directory non scrivibili, ad esempio &grave;./app/code/&grave; o &grave;./pub/&grave;.
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer

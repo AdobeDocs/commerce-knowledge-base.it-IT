@@ -27,7 +27,7 @@ Se sei un cliente Adobe Commerce su infrastruttura cloud con architettura Pro e 
 1. Il commerciante deve [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aggiornamento agli ambienti di integrazione avanzata, utilizzando il motivo del contatto &quot;*Richiedere una modifica alla configurazione cloud*&quot;.
 1. Il team di progettazione clienti di Adobe conferma il numero di ambienti di integrazione e avvia la modifica.
 1. Il commerciante verrà informato nel ticket quando l’aggiornamento sarà completato.
-1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push <branch-name></pre>
+1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push &lt;branch-name></pre>
 
 Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di integrazione avanzata.
 
@@ -43,7 +43,7 @@ Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di i
 1. Il commerciante deve [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) richiedendo un aggiornamento agli ambienti di integrazione avanzata, utilizzando il motivo di contatto *&quot;Richiedere una modifica alla configurazione cloud&quot;* - **l&#39;ambiente di staging è un ambiente di integrazione denominato**.
 1. Il team di progettazione clienti di Adobe conferma il numero di ambienti di integrazione e avvia la modifica.
 1. Il commerciante verrà informato nel ticket quando l’aggiornamento sarà completato.
-1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push <branch-name></pre>
+1. Il commerciante ridistribuisce gli ambienti di integrazione. Segui i passaggi descritti in [Unire un ramo](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch) nella documentazione per sviluppatori. *Nota*: la distribuzione viene eseguita automaticamente quando si esegue: <pre>origine git push &lt;branch-name></pre>
 
 Un aumento delle prestazioni indica un aggiornamento riuscito agli ambienti di integrazione avanzata.
 

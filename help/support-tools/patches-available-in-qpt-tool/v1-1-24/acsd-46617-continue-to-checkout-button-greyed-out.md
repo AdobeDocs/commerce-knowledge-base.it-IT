@@ -37,7 +37,8 @@ Il pulsante **[!UICONTROL Continue to Checkout]** è disattivato anche se il sub
 
 1. Vai a Adobe Commerce Admin > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL Sales]** > **[!UICONTROL Minimum Order Amount]** e imposta quanto segue:
    * [!UICONTROL Enable]: *[!UICONTROL Yes]*
-   * 
+   * &#x200B;
+
      [!UICONTROL Minimum Amount]: *2*
 
 1. Crea un [!UICONTROL Cart Price Rule].
@@ -45,7 +46,8 @@ Il pulsante **[!UICONTROL Continue to Checkout]** è disattivato anche se il sub
    * [!UICONTROL Conditions]: *[!UICONTROL Keep empty]*
    * [!UICONTROL Actions]:
       * [!UICONTROL Apply]: *[!UICONTROL Percent of product price discount]*
-      * 
+      * &#x200B;
+
         [!UICONTROL Discount Amount]: *92*
       * [!UICONTROL Apply to Shipping Amount]: *[!UICONTROL Yes]*
 1. Crea un prodotto al prezzo di 25 $.

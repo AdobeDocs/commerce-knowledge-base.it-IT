@@ -27,7 +27,7 @@ L&#39;ACSD-49877 risolve il problema per cui l&#39;opzione di riproduzione autom
 
 >[!NOTE]
 >
->La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto [!magento/quality-patches] alla versione più recente e verificare la compatibilità in [[!DNL Quality Patches Tool]: Cerca patch]. Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
+>La patch potrebbe diventare applicabile ad altre versioni con le nuove versioni di [!DNL Quality Patches Tool]. Per verificare se la patch è compatibile con la versione di Adobe Commerce in uso, aggiornare il pacchetto [ !magento/quality-patches] alla versione più recente e verificare la compatibilità in [[!DNL Quality Patches Tool]: Cerca patch]. Utilizza l’ID patch come parola chiave di ricerca per individuare la patch.
 
 ## Problema
 

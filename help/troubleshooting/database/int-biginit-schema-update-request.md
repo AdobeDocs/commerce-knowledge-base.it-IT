@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Prima di implementare la soluzione in questo articolo (`INT` in `BIGINT` aggiornamento schema) i commercianti devono sempre verificare che il campo che stanno per modificare NON presenti relazioni di chiave esterna con un&#39;altra tabella. Se il campo ha relazioni di chiave esterna con un&#39;altra tabella, si verificheranno problemi perché il campo correlato è ancora `INT`. Per verificarlo, è possibile utilizzare la query seguente. Questa query elenca le relazioni di chiave esterna disponibili nel database per il campo di tabella specificato:
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM

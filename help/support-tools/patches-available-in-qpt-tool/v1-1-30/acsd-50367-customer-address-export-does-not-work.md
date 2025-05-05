@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-50367: l’esportazione dell’indirizzo del cliente non funziona con l’attributo a selezione multipla'
-description: Applica la patch ACSD-50367 per risolvere il problema di Adobe Commerce per cui l’esportazione dell’indirizzo del cliente non funziona quando viene creato un attributo **`Indirizzo del cliente`** a selezione multipla senza valori.
+description: Applica la patch ACSD-50367 per risolvere il problema di Adobe Commerce per cui l’esportazione dell’indirizzo del cliente non funziona quando viene creato un attributo **&grave;Indirizzo del cliente&grave;** a selezione multipla senza valori.
 exl-id: 688831d4-b49e-48fa-b4db-1328cda09a2b
 feature: Admin Workspace, Attributes, Data Import/Export, Shipping/Delivery
 role: Admin

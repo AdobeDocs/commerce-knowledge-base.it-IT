@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# ACSD-47336: errore _[!UICONTROL Something went wrong]_durante la rimozione delle notifiche in Adobe Commerce Admin
+# ACSD-47336: errore _[!UICONTROL Something went wrong]_&#x200B;durante la rimozione delle notifiche in Adobe Commerce Admin
 
-La patch ACSD-47336 risolve il problema per cui l&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_durante l&#39;eliminazione delle notifiche nell&#39;amministratore [!DNL Commerce]. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24. L’ID della patch è ACSD-47336. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
+La patch ACSD-47336 risolve il problema per cui l&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_&#x200B;durante l&#39;eliminazione delle notifiche nell&#39;amministratore [!DNL Commerce]. Questa patch è disponibile quando è installato [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.24. L’ID della patch è ACSD-47336. Il problema è pianificato per essere risolto in Adobe Commerce 2.4.6.
 
 ## Prodotti e versioni interessati
 
@@ -31,7 +31,7 @@ La patch ACSD-47336 risolve il problema per cui l&#39;utente visualizza l&#39;er
 
 ## Problema
 
-L&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_quando ignora le notifiche nell&#39;amministratore [!DNL Commerce].
+L&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_&#x200B;quando ignora le notifiche nell&#39;amministratore [!DNL Commerce].
 
 <u>Passaggi da riprodurre</u>:
 
@@ -41,7 +41,7 @@ L&#39;utente visualizza l&#39;errore _[!UICONTROL Something went wrong]_quando i
 
 <u>Risultati previsti</u>:
 
-L&#39;errore _[!UICONTROL Something went wrong]_non deve essere visualizzato quando si cancellano le attività completate.
+L&#39;errore _[!UICONTROL Something went wrong]_&#x200B;non deve essere visualizzato quando si cancellano le attività completate.
 
 <u>Risultati effettivi</u>:
 

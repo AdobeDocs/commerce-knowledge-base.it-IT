@@ -44,10 +44,10 @@ Impossibile recuperare in GraphQL il token cliente per un archivio personalizzat
 
    <pre>
     <code class="language-graphql">
-    {
+    &lbrace;
       "username": "login",
       "password": "password"
-    }
+    &rbrace;
     </code>
     </pre>
 
