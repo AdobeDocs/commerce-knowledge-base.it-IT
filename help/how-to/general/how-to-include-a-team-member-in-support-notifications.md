@@ -31,14 +31,14 @@ Questo articolo spiega come includere un membro del team per ricevere automatica
 
 Se non sono stati aggiunti al progetto, dovrai aggiungerli come [!DNL Super User] e concedere [!DNL Shared Access]:
 
-* [Gestire l&#39;accesso utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) nella guida utente.
-* [Impossibile aggiungere l&#39;utente al progetto cloud Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) nella Knowledge Base di Commerce.
-* [Guida utente di Adobe Commerce Help Center: accesso condiviso](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) nella Knowledge Base di Commerce.
+* [Gestire l&#39;accesso utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it) nella guida utente.
+* [Impossibile aggiungere l&#39;utente al progetto cloud Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html?lang=it) nella Knowledge Base di Commerce.
+* [Guida utente di Adobe Commerce Help Center: accesso condiviso](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=it#shared-access) nella Knowledge Base di Commerce.
 
-Se sono stati aggiunti a [!DNL cloud project], ma non dispongono di [!DNL Super User role], aggiorna di conseguenza [!DNL role] in [Gestisci accesso utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+Se sono stati aggiunti a [!DNL cloud project], ma non dispongono di [!DNL Super User role], aggiorna di conseguenza [!DNL role] in [Gestisci accesso utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it).
 
-Se desideri consentire a un membro del team di essere un osservatore in tutti i casi aperti per la tua organizzazione, invia un [ticket di supporto](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support).
+Se desideri consentire a un membro del team di essere un osservatore in tutti i casi aperti per la tua organizzazione, invia un [ticket di supporto](https://experienceleague.adobe.com/home?lang=it&amp;support-tab=home#support).
 
 ## Lettura correlata
 
-[Gli ex membri del team ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+[Gli ex membri del team ricevono le e-mail di notifica cloud di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html?lang=it)
