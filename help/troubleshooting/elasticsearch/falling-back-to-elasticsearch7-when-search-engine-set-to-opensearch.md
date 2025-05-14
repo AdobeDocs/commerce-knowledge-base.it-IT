@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per il problema quando un *f
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 6b8eecb3df0bb32344a5861a604a40402bb4d392
+source-git-commit: d17af0f8f92726aa5a6914fc9e1ff13268256d04
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,13 @@ Questo articolo fornisce una soluzione al problema quando si verifica un errore 
 
 ## Versioni interessate
 
-Adobe Commerce sull’infrastruttura cloud 2.4.4 - 2.4.5
+Adobe Commerce sull’infrastruttura cloud
+2.4.4 - 2.4.4-p12
+2,4,5 - 2,4,5-p11
 
 >[!NOTE]
 >
->[!DNL OpenSearch] è disponibile come motore di ricerca a partire da Adobe Commerce 2.4.6.
+>[!DNL OpenSearch] è disponibile come motore di ricerca a partire da Adobe Commerce 2.4.6, 2.4.5-p12, 2.4.4-p13.
 
 ## Problema
 
@@ -50,4 +52,4 @@ Aggiornare la variabile `SEARCH_CONFIGURATION` nel file `.magento.env.yaml` e ve
 
 ## Lettura correlata
 
-[Configura il servizio OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=it) nella guida Commerce su infrastruttura cloud.
+[Configura il servizio OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) nella guida Commerce su infrastruttura cloud.
