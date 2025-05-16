@@ -33,4 +33,4 @@ Gli utenti di [accounts.magento.cloud](https://accounts.magento.cloud/) possono 
 ## Lettura correlata
 
 * [Impossibile accedere al supporto Adobe Commerce o all’account cloud](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [Il proprietario dell&#39;account MageID non è in grado di accedere e inviare un ticket di supporto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [Il proprietario dell&#39;account MageID non è in grado di accedere e inviare un ticket di supporto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-25231)
