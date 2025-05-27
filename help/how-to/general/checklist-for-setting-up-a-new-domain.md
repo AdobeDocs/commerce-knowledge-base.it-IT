@@ -3,9 +3,9 @@ title: Elenco di controllo per la configurazione di un nuovo [!DNL domain]
 description: Elenco di controllo per la configurazione di un nuovo [!DNL domain] in Adobe Commerce su un'infrastruttura cloud.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: f7b246088e3580922bd3389b2992e5dd8f97ff7a
+source-git-commit: 57535392a15294eebe97a161977fb697708bbe68
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 
 ### Passaggio 1: si tratta di [!DNL Integration, Staging] o [!DNL Production environment]?
 
-* **[!DNL Integration]**: [!DNL Custom domains] non sono supportati. È necessario utilizzare questo metodo: [Configurare più siti Web o store: Configurare l&#39;installazione locale](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=it#add-new-domains) nella guida utente.
+* **[!DNL Integration]**: [!DNL Custom domains] non sono supportati. È necessario utilizzare questo metodo: [Configurare più siti Web o store: Configurare l&#39;installazione locale](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) nella guida utente.
 * **[!DNL Staging]**: Passare al **passaggio 2**.
 * **[!DNL Production]**: Passare a **Passaggio 3**.
 
 ### Passaggio 2 - [!DNL Staging environment]: si utilizza [!DNL Pro] o [!DNL Starter]?
 
-* **[!DNL Pro]**: **Invia una richiesta** per aggiungere il dominio a [!DNL Fastly, Nginx] e configurare [!DNL SSL certificate] (nonché [!DNL Sendgrid domain], se necessario). Una volta configurata, [aggiorna la [!DNL DNS] configurazione con [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#update-dns-configuration-with-development-settings).
+* **[!DNL Pro]**: **Invia una richiesta** per aggiungere il dominio a [!DNL Fastly, Nginx] e configurare [!DNL SSL certificate] (nonché [!DNL Sendgrid domain], se necessario). Una volta configurata, [aggiorna la [!DNL DNS] configurazione con [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
 
 >[!NOTE]
 >
->È possibile aggiungere il nuovo [!DNL domain] a [!DNL Fastly] da solo aggiornando la configurazione in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** come in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=it#manage-domains) nella guida utente.
+>È possibile aggiungere il nuovo [!DNL domain] a [!DNL Fastly] da solo aggiornando la configurazione in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** come in [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) nella guida utente.
 >
 >Se non riesci ad aggiungere il dominio, la causa potrebbe essere uno dei seguenti:
 >
@@ -47,7 +47,7 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 
 >[!NOTE]
 >
->È possibile aggiungere il nuovo [!DNL domain] a [!DNL Fastly] da solo aggiornando la configurazione in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=it#manage-domains) nella guida utente.
+>È possibile aggiungere il nuovo [!DNL domain] a [!DNL Fastly] da solo aggiornando la configurazione in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) nella guida utente.
 >
 >
 >Se non riesci ad aggiungere il dominio, la causa potrebbe essere uno dei seguenti:
@@ -59,10 +59,104 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 
 ### Passaggio 4: [!DNL domain] è attivo?
 
-* **SÌ**: [Aggiorna la configurazione [!DNL DNS] con [!UICONTROL production] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=it#update-dns-configuration-with-production-settings).
-* **NO**: [Aggiorna la  [!DNL DNS] configurazione con [!UICONTROL development] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#update-dns-configuration-with-development-settings).
+* **SÌ**: [Aggiorna la configurazione [!DNL DNS] con [!UICONTROL production] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
+* **NO**: [Aggiorna la  [!DNL DNS] configurazione con [!UICONTROL development] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+
+### Passaggio 5: la configurazione di [!DNL domain] è verificata?
+
+Se sono stati aggiunti nuovi store, gruppi di store e siti Web in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL All Stores]** per i nuovi domini, verificare se nel file `app/etc/config.php` vengono visualizzate le sezioni seguenti, ad esempio:
+
+```php
+'scopes' => [
+    'websites' => [
+        'admin' => [
+            'website_id' => '0',
+            'code' => 'admin',
+            'name' => 'Admin',
+            'sort_order' => '0',
+            'default_group_id' => '0',
+            'is_default' => '0',
+        ],
+        'base' => [
+            'website_id' => '1',
+            'code' => 'base',
+            'name' => 'Main Website',
+            'sort_order' => '0',
+            'default_group_id' => '1',
+            'is_default' => '1',
+        ],
+        'site2' => [
+            'website_id' => '2',
+            'code' => 'site2',
+            'name' => 'Second Website',
+            'sort_order' => '0',
+            'default_group_id' => '2',
+            'is_default' => '0',
+        ],
+    ],
+    'groups' => [
+        0 => [
+            'group_id' => '0',
+            'website_id' => '0',
+            'name' => 'Default',
+            'root_category_id' => '0',
+            'default_store_id' => '0',
+            'code' => 'default',
+        ],
+        1 => [
+            'group_id' => '1',
+            'website_id' => '1',
+            'name' => 'Main Website Store',
+            'root_category_id' => '2',
+            'default_store_id' => '1',
+            'code' => 'main_website_store',
+        ],
+        2 => [
+            'group_id' => '2',
+            'website_id' => '2',
+            'name' => 'Second Website Store',
+            'root_category_id' => '2',
+            'default_store_id' => '2',
+            'code' => 'site2store',
+        ],
+    ],
+    'stores' => [
+        'admin' => [
+            'store_id' => '0',
+            'code' => 'admin',
+            'website_id' => '0',
+            'group_id' => '0',
+            'name' => 'Admin',
+            'sort_order' => '0',
+            'is_active' => '1',
+        ],
+        'default' => [
+            'store_id' => '1',
+            'code' => 'default',
+            'website_id' => '1',
+            'group_id' => '1',
+            'name' => 'Default Store View',
+            'sort_order' => '0',
+            'is_active' => '1',
+        ],
+        'site2sv' => [
+            'store_id' => '2',
+            'code' => 'site2sv',
+            'website_id' => '2',
+            'group_id' => '2',
+            'name' => 'Second Website Store view',
+            'sort_order' => '0',
+            'is_active' => '1',
+        ],
+    ],
+]
+```
+
+Ciò significa che in passato hai impostato [SCD sulla build](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build) eseguendo il comando `config:dump` nel pacchetto `ece-tools`.
+
+Se il nuovo archivio o sito Web creato non viene visualizzato nel file `app/etc/config.php`, eseguire nuovamente il comando per sincronizzare il file `config.php` con le modifiche apportate al database, quindi eseguire il commit del file `config.php` e ridistribuirlo. Questo consente di facilitare la distribuzione di contenuti statici per i nuovi store o siti Web nei percorsi di file appropriati.
 
 ## Lettura correlata
 
-* [Configura più siti Web o store: Aggiungi nuovo [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=it#add-new-domains) nella nostra guida utente.
-* [Sito non accessibile a causa del cloaking dell&#39;origine](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
+* [Configura più siti Web o store: Aggiungi nuovo [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) nella nostra guida utente.
+* [Sito non accessibile a causa del cloaking dell&#39;origine](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
