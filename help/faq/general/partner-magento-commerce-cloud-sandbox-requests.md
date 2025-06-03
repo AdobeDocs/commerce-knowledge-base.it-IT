@@ -3,9 +3,9 @@ title: Partner Adobe Commerce su richieste sandbox di infrastruttura cloud
 description: Questo articolo contiene collegamenti a risorse utili per Adobe Commerce sulle richieste sandbox dell’infrastruttura cloud.
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
+source-git-commit: 4ed280478e1c3eb9d10eb4d62f71f7dd3bef6d6c
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -28,5 +28,11 @@ Consulta la [Knowledge Base del supporto Adobe Commerce](https://support.magento
 
 ## Dove e come i partner della soluzione o i partner tecnici inviano una richiesta di supporto? {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
-* I partner della soluzione possono inviare un ticket per problemi relativi alla sandbox inviando un&#39;e-mail a [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) che verrà inoltrata al team di supporto tecnico partner.
-* I partner tecnici possono [contattare il supporto tecnico per il Marketplace](mailto:commercemarketplacesupport@adobe.com).
+I partner con un progetto Sandbox Cloud non possono inviare biglietti per problemi relativi alla sandbox tramite Experience League. Non utilizzare l&#39;account di un commerciante per inviare questi biglietti, poiché potrebbero sembrare inviati per loro conto e causare confusione.
+
+Se stai inviando un ticket per conto di un commerciante a cui non è stato concesso l’accesso condiviso, richiedi l’accesso al proprietario dell’account. Per i passaggi su come richiedere l&#39;accesso, consulta [Accesso condiviso: concedere privilegi ad altri utenti per accedere al tuo account](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access).
+
+* I Solution Partner devono inviare richieste di supporto relative alla sandbox inviando un&#39;e-mail a [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com). Queste richieste verranno inoltrate al team di supporto tecnico dei partner.
+* I partner tecnici devono contattare il [supporto Marketplace](mailto:commercemarketplacesupport@adobe.com).
+
+
