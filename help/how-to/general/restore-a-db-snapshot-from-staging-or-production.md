@@ -62,7 +62,7 @@ I passaggi sono i seguenti:
    ```
 
 1. Copiare il database [!DNL dump file] (ad esempio: `<cluster ID>.sql.gz` per [!DNL Production] o `<cluster ID_stg>.sql.gz` per [!DNL Staging]) nel computer locale.
-1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) nella documentazione per gli sviluppatori.
+1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) nella documentazione per gli sviluppatori.
 1. Connettersi al database.
 
    ```sql
@@ -158,6 +158,6 @@ I passaggi sono i seguenti:
 
 Nella documentazione per gli sviluppatori:
 
-* [Codice importazione: importare il database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [Backup (snapshot) nel cloud: domande frequenti](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [Codice importazione: importare il database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Backup (snapshot) nel cloud: domande frequenti](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
