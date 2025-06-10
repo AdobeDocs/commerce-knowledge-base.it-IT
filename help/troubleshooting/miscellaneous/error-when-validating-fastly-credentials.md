@@ -29,7 +29,7 @@ I passaggi descritti in questo articolo si applicano anche se è necessario ruot
 
 ## Soluzione
 
-1. Verifica di disporre dell&#39;ID servizio [!DNL Fastly] e del token API corretti e riprova a eseguire la convalida. Per istruzioni dettagliate, consulta [Verifica le [!DNL Fastly] credenziali](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) nella documentazione per gli sviluppatori.
+1. Verifica di disporre dell&#39;ID servizio [!DNL Fastly] e del token API corretti e riprova a eseguire la convalida. Per istruzioni dettagliate, consulta [Verifica le [!DNL Fastly] credenziali](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials) nella documentazione per gli sviluppatori.
 1. Se la verifica delle credenziali non riesce, esegui il seguente comando curl per confermare lo stato del servizio:
 
    ```curl
@@ -50,6 +50,6 @@ I passaggi descritti in questo articolo si applicano anche se è necessario ruot
 
 ## Letture correlate nella documentazione per gli sviluppatori:
 
-* [Cloud per Adobe Commerce > [!DNL Fastly] > [!DNL Fastly] account del servizio e credenziali](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* [Cloud per Adobe Commerce > [!DNL Fastly] > [!DNL Fastly] account del servizio e credenziali](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* [Cloud for Adobe Commerce > Configura [!DNL Fastly] > Verifica le [!DNL Fastly] credenziali](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* [Cloud for Adobe Commerce > Configura [!DNL Fastly] > Verifica le [!DNL Fastly] credenziali](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
