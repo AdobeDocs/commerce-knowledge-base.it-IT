@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: a827b0d4166f70efdb578f537183566075348579
+source-git-commit: e5f5fda302aa5023cc4c05ec0971086bffbeaf39
 workflow-type: tm+mt
-source-wordcount: '3649'
+source-wordcount: '3657'
 ht-degree: 0%
 
 ---
@@ -354,6 +354,7 @@ ht-degree: 0%
       * [Il numero massimo di cookie verrebbe superato dall’errore in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
       * [È stato aumentato il tempo di esecuzione per tutti gli endpoint web asincroni in blocco dopo la patch di sicurezza APSB25-08](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
       * [Nomi di gruppi di clienti, segmenti e informazioni sulle regole promozionali esposti tramite [!DNL GraphQL]](/help/troubleshooting/known-issues-patches-attached/hotfix-for-exposed-customer-group-segments-promo-rules-information.md)
+      * [Aggiornamento di sicurezza disponibile per Adobe Commerce - APSB25-50](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-50.md)
    * Elasticsearch {#elasticsearch}
       * [Fallback a  [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Problemi di Elasticsearch dopo l’aggiornamento all’infrastruttura cloud Adobe Commerce 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
