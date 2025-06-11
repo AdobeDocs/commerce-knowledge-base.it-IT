@@ -50,7 +50,7 @@ Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del 
 
 ### Ambiente di integrazione (sviluppo)
 
-* [Il backup dell&#39;ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) non viene eseguito automaticamente ****, ma è possibile creare istantanee **manualmente**.
+* [Il backup dell&#39;ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) non viene eseguito automaticamente **&#x200B;**, ma è possibile creare istantanee **manualmente**.
 * Puoi creare istantanee manuali per gli ambienti di integrazione su store non live.
 * Potresti avere **più snapshot** che sono stati attivati manualmente.
 * Uno snapshot attivato manualmente è archiviato per **7 giorni**.
