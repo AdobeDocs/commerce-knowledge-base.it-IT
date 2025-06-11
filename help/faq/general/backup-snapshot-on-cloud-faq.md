@@ -3,9 +3,9 @@ title: 'Backup (snapshot) su Cloud: domande frequenti'
 description: Questo articolo illustra le nozioni di base per il backup degli ambienti con istantanee su Adobe Commerce su infrastrutture cloud.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 173745ce917f7e3ffce2238c7c398734d74086cd
+source-git-commit: 3df2d07bb5765fb0ddcb4417b7c4e4ae33ef2d42
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,23 @@ Questo articolo descrive il backup degli ambienti con istantanee sull’infrastr
 ### Ambienti di staging e produzione
 
 * Le istantanee manuali non sono disponibili per gli ambienti di staging e produzione su piano Pro.
+* Gli snapshot automatici vengono creati **indipendentemente dallo stato attivo** del sito (gli snapshot vengono creati anche per i siti non ancora avviati). I backup automatici non sono accessibili pubblicamente perché sono archiviati in un sistema separato.
+Puoi [inviare un ticket di supporto Adobe Commerce](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) per richiedere un backup speciale o per eseguire il ripristino da un backup specifico, specificando la data, l&#39;ora e il fuso orario nel ticket. Dopo che il team dell&#39;infrastruttura ha fornito lo snapshot, per determinare il timestamp in cui è stato originariamente creato, eseguire il comando seguente dal percorso in cui è stato inserito lo snapshot:
+
+  `cat /mnt/recovery/vol-<volume_id>/snap.time`
+
+  Esempio di output:
+
+  <strong>2025-01-13 08:42:17,123000+00:00</strong>
+
+
+* Il supporto non genera snapshot manuali su richiesta. Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del database, poiché recupera lo snapshot, ma è necessario ripristinare il database manualmente.
 * Gli snapshot automatici vengono creati **indipendentemente dallo stato attivo** del sito (gli snapshot vengono creati anche per i siti non ancora avviati). I backup automatici sono archiviati in un sistema separato e non sono accessibili al pubblico.
 Puoi [inviare un ticket di supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md) per richiedere un backup speciale o per eseguire il ripristino da un backup specifico, specificando la data, l&#39;ora e il fuso orario nel ticket. Il supporto non genera snapshot manuali su richiesta.
 Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del database, poiché recupera lo snapshot, ma è necessario ripristinare il database manualmente.
 * I backup vengono creati utilizzando **snapshot crittografati di Amazon Web Services Elastic Block Store (AWS EBS)**.
 * Le istantanee dell’ambiente includono l’intero sistema (file system e database).
-* Il tempo di conservazione per gli snapshot automatici **è diverso** e segue [la pianificazione](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery).
+* Il tempo di conservazione per gli snapshot automatici **è diverso** e segue [la pianificazione](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery).
 
 >[!NOTE]
 >
@@ -39,15 +50,15 @@ Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del 
 
 ### Ambiente di integrazione (sviluppo)
 
-* [Il backup dell&#39;ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) non viene eseguito automaticamente **&#x200B;**, ma è possibile creare istantanee **manualmente**.
+* [Il backup dell&#39;ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) non viene eseguito automaticamente ****, ma è possibile creare istantanee **manualmente**.
 * Puoi creare istantanee manuali per gli ambienti di integrazione su store non live.
 * Potresti avere **più snapshot** che sono stati attivati manualmente.
 * Uno snapshot attivato manualmente è archiviato per **7 giorni**.
 
 **Articoli correlati nella documentazione per gli sviluppatori:**
 
-* [Backup e disaster recovery](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Crea uno snapshot](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
+* [Backup e disaster recovery](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Crea uno snapshot](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
 
 ## Istantanea dell’ambiente, piano iniziale
 
@@ -57,7 +68,7 @@ Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del 
 
 ## Ripristinare uno snapshot dell’ambiente
 
-Per ripristinare uno snapshot esistente (nell&#39;ambiente supportato: integrazione, gestione temporanea, produzione su piano Starter o integrazione su piano Pro), seguire i passaggi descritti in [Gestione backup: ripristino di un backup manuale](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) nella Guida all&#39;infrastruttura Commerce su Cloud.
+Per ripristinare uno snapshot esistente (nell&#39;ambiente supportato: integrazione, gestione temporanea, produzione su piano Starter o integrazione su piano Pro), seguire i passaggi descritti in [Gestione backup: ripristino di un backup manuale](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) nella Guida all&#39;infrastruttura Commerce su Cloud.
 
 ## Backup database (DB)
 
@@ -67,8 +78,8 @@ Uno snapshot è un backup completo di un ambiente che include tutti i dati persi
 
 >[!NOTE]
 >
->I volumi montati includono/fanno riferimento solo ai [mount scrivibili](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#mounts) e non includeranno tutta la directory `/app`. Come per gli altri file, questi vengono creati/generati da [il processo di compilazione e distribuzione](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/architecture/pro-develop-deploy-workflow#deployment-workflow) e sarà necessario estrarre i file rimanenti dall&#39;archivio Git.
+>I volumi montati includono/fanno riferimento solo ai [mount scrivibili](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#mounts) e non includeranno tutta la directory `/app`. Come per gli altri file, questi vengono creati/generati da [il processo di compilazione e distribuzione](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-develop-deploy-workflow#deployment-workflow) e sarà necessario estrarre i file rimanenti dall&#39;archivio Git.
 
-[Snapshot e gestione dei backup](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/snapshots) nella documentazione per gli sviluppatori.
+[Snapshot e gestione dei backup](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots) nella documentazione per gli sviluppatori.
 
 Invia una [richiesta di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md) per uno snapshot del database da Pro Production e Staging solo se il database è necessario da un momento specifico. Se hai bisogno solo di un backup corrente del tuo database (in qualsiasi ambiente), consulta l&#39;articolo della knowledge base: [Genera immagini di database su Cloud](/help/how-to/general/create-database-dump-on-cloud.md).
