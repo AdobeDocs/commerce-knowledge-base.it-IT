@@ -4,9 +4,9 @@ description: Questo articolo suggerisce soluzioni per la situazione in cui si es
 exl-id: 1b2c25d3-ca1b-4409-8d6b-378aa0952f94
 feature: Storage, Observability
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 842c329b5d8bacf72ac689412fde5a5d76d16e85
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Questo articolo suggerisce soluzioni per la situazione in cui si esaurisce lo sp
 
 ## Problema
 
-Spazio su disco insufficiente con directory scrivibili. Un sintomo può essere [distribuzione bloccata](/help/troubleshooting/deployment/deployment-stuck-with-unable-to-upload-the-application-to-the-remote-cluster-error.md).
+Spazio su disco insufficiente con directory scrivibili. Un sintomo può essere [distribuzione bloccata](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26878).
 
 Per verificare l&#39;utilizzo del disco, eseguire il comando seguente:
 
@@ -45,7 +45,7 @@ Opzioni soluzione:
 * Pulire la directory `var`.
 * Configurare un processo cron per tenere traccia delle dimensioni della directory `var` e pulirla.
 * Allocare più spazio su disco, se ne sono presenti alcuni inutilizzati. (Consulta la sezione seguente per informazioni su come verificare qual è il limite di spazio).
-   * Per la pianificazione Starter, tutti gli ambienti e gli ambienti Pro plan Integration, è possibile allocare spazio su disco se ne sono inutilizzati alcuni, come descritto in [Gestione spazio su disco: allocazione spazio su disco](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
+   * Per la pianificazione Starter, tutti gli ambienti e gli ambienti Pro plan Integration, è possibile allocare spazio su disco se ne sono inutilizzati alcuni, come descritto in [Gestione spazio su disco: allocazione spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space).
    * Per gli ambienti Pro plan di staging e produzione, contattare l&#39;assistenza per allocare più spazio su disco se sono presenti alcuni elementi inutilizzati.
 * Se hai raggiunto il limite di spazio e riscontri ancora problemi di spazio insufficiente, puoi acquistare altro spazio su disco. Per ulteriori informazioni, contatta il team dell’account Adobe.
 
