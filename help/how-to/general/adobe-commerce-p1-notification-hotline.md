@@ -3,7 +3,7 @@ title: Hotline per le notifiche Adobe Commerce P1
 description: Questo articolo fornisce i numeri di hotline per le notifiche P1 per Adobe Commerce che possono essere utilizzati quando si cerca di segnalare un incidente P1 e spiega quali informazioni fornire.
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: 8c0c128f2469086c44dcea0e9edc87f934578a69
+source-git-commit: bbff778a020a05953b82b452cdede7c46f20c990
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Come definito nei [Termini e condizioni dei servizi di supporto Adobe Commerce](
 ## Criteri telefonici hotline per le notifiche P1
 
 * La hotline per le notifiche P1 è disponibile per segnalare problemi a livello di P1. (vedi la definizione dell’incidente P1 nella sezione precedente).
-* [Invia un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=it#submit-ticket) prima di chiamare la hotline per le notifiche Adobe Commerce P1.
+* [Invia un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) prima di chiamare la hotline per le notifiche Adobe Commerce P1.
 * Le indagini, la risoluzione dei problemi e la comunicazione si svolgono esclusivamente all’interno del ticket di supporto.
 * Aggiungi direttamente al ticket tutte le informazioni aggiuntive che potresti avere relative al problema, prima di chiamare.
 * Quando chiami, assicurati di avere il numero del biglietto.
@@ -32,7 +32,7 @@ Come definito nei [Termini e condizioni dei servizi di supporto Adobe Commerce](
 Nota: se per qualsiasi motivo raggiungete la segreteria telefonica, lasciate le vostre informazioni: nome completo, società, numero di telefono e #. del biglietto Le linee vengono monitorate e un ingegnere ti richiamerà il prima possibile.
 
 * STATI UNITI
-   * Numero verde: (+1) 800 497 0335 (nel primo menu, premere 6 per la hotline Adobe Commerce P1)
+   * Numero verde: (+1) 800 497 0335 (nel primo menu, premere 3 per la hotline Adobe Commerce P1)
 * EMEA
    * Regno Unito: (+44) 800 169 0454 (nel primo menu, premere 6 per la hotline Adobe Commerce P1)
    * Danimarca: (+45) 80206017 (nel primo menu, premere 6 per la hotline Adobe Commerce P1)
