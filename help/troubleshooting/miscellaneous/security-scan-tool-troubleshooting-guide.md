@@ -104,7 +104,7 @@ Puoi generare i 10 rapporti precedenti dalla tua fine. Se sono necessari rapport
 
 ### Quali informazioni sono necessarie per inviare un ticket di supporto?
 
-Specifica il nome di dominio esattamente come è stato inviato per [analisi sicurezza](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Tieni presente che Cloud Project_ID non è richiesto per Adobe Commerce on-premise.
+Specifica il nome di dominio esattamente come è stato inviato per [analisi sicurezza](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Tieni presente che Cloud Project_ID non è richiesto per Adobe Commerce on-premise.
 
 ### Cosa succede se rimuovo lo store dalla scansione dello strumento di scansione?
 
