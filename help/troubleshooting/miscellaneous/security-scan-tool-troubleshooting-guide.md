@@ -4,9 +4,9 @@ description: Scopri come risolvere i vari problemi con lo strumento Security Sca
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
+source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Scopri come risolvere i vari problemi con lo strumento Security Scan per Adobe C
 
 ## Problema: impossibile inviare il sito
 
-Lo strumento Security Scan richiede di dimostrare la proprietà del sito prima che il dominio possa essere aggiunto allo strumento Security Scan. È possibile aggiungere un codice di conferma al sito utilizzando un commento HTML o il tag `<meta>`. Il commento HTML deve essere inserito all&#39;interno del tag `<body>`, ad esempio nella sezione piè di pagina. Il tag `<meta>` deve essere inserito nella sezione `<head>` della pagina.
+Lo strumento Security Scan richiede di dimostrare la proprietà del sito prima che il dominio possa essere aggiunto allo strumento Security Scan. È possibile aggiungere un codice di conferma al sito utilizzando un commento di HTML o il tag `<meta>`. Il commento HTML deve trovarsi all&#39;interno del tag `<body>`, ad esempio nella sezione piè di pagina. Il tag `<meta>` deve essere inserito nella sezione `<head>` della pagina.
 
 Un problema comune riscontrato dai commercianti si verifica quando lo strumento Security Scan non è in grado di confermare la proprietà del sito del commerciante.
 
@@ -25,11 +25,11 @@ Se ricevi un errore e non riesci a inviare il sito per la scansione, consulta l&
 
 ## Problema: rapporti vuoti generati dallo strumento Security Scan
 
-Si ottengono report di analisi vuoti dallo strumento Security Scan o report contenenti un solo errore come *Impossibile raggiungere l&#39;URL di base* o *Impossibile trovare l&#39;installazione di Magento nell&#39;URL specificato*.
+Si ottengono report di analisi vuoti dallo strumento Security Scan o report contenenti un solo errore come *Impossibile raggiungere l&#39;URL di base* oppure *Impossibile trovare l&#39;installazione di Magento nell&#39;URL specificato*.
 
 ### Soluzione
 
-1. Verificare che gli IP 52.87.98.44, 34.196.167.176 e 3.218.25.102 non siano bloccati alle porte 80 e 443.
+1. Verificare che 52.87.98.44, 34.196.167.176 e 3.218.25.102 IP non siano bloccati su 80 e 443 porte.
 1. Controllare l&#39;URL inviato per i reindirizzamenti (ad esempio, `https://mystore.com` reindirizzamenti a `https://www.mystore.com` o viceversa o reindirizzamenti ad altri nomi di dominio).
 1. Esaminare i registri di accesso a WAF e server Web per le richieste rifiutate o non soddisfatte. HTTP 403 `Forbidden` e HTTP 500 `Internal server error` sono le risposte comuni del server che causano la generazione di rapporti vuoti. Di seguito è riportato un esempio di codice di conferma che blocca le richieste da parte degli agenti utente:
 
@@ -57,7 +57,7 @@ Gli stati seguenti possono essere visualizzati dai controlli:
 
 1. **Passaggio**: lo strumento Security Scan ha analizzato i dati aggiornati e ha approvato le modifiche.
 1. **Sconosciuto**: lo strumento Security Scan non contiene ancora dati sul dominio. Attendere il prossimo ciclo di sincronizzazione.
-1. **Non riuscito**: se lo stato non viene visualizzato correttamente, è necessario risolvere il problema (abilitare 2FA, cambiare l&#39;URL di amministrazione, ecc.) e attendere il successivo ciclo di sincronizzazione.
+1. **Non riuscito**: se lo stato non viene visualizzato, è necessario risolvere il problema (abilitare 2FA, cambiare l&#39;URL di amministrazione, ecc.) e attendere il successivo ciclo di sincronizzazione.
 
 Se sono trascorse 24 ore dalle modifiche apportate all&#39;istanza e non vengono riportate nel rapporto Security Scan, puoi [inviare un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). Immetti l’URL dello store durante l’invio del ticket.
 
@@ -76,7 +76,7 @@ Ricevi una notifica relativa al guasto &quot;BotNet Suspect&quot;.
 
 1. Controlla se sono stati creati nuovi account SSH, modifiche al file system e così via.
 1. Eseguire un&#39;analisi della protezione.
-1. Controlla la versione e l’aggiornamento di Adobe Commerce, soprattutto se è ancora in esecuzione il Magento 1, che non è più supportato.
+1. Controlla la versione e l’aggiornamento di Adobe Commerce, soprattutto se è ancora in esecuzione Magento 1, che non è più supportato.
 1. Se il problema persiste, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) e fornisci l&#39;URL dell&#39;archivio.
 
 ## Problema: errore di inserimento compromissione
@@ -104,8 +104,8 @@ Puoi generare i 10 rapporti precedenti dalla tua fine. Se sono necessari rapport
 
 ### Quali informazioni sono necessarie per inviare un ticket di supporto?
 
-Assicurarsi di specificare il nome di dominio.
+Specifica il nome di dominio esattamente come è stato inviato per [analisi sicurezza](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Tieni presente che Cloud Project_ID non è richiesto per Adobe Commerce on-premise.
 
 ### Cosa succede se rimuovo lo store dalla scansione dello strumento di scansione?
 
-Se elimini l’invio dell’archivio, tutti i dati correlati, inclusi i rapporti di scansione, verranno eliminati. Questa operazione è irreversibile. L’invio del dominio archivio dopo la sua eliminazione crea un NUOVO invio.
+Se elimini l’invio dell’archivio, tutti i dati correlati, inclusi i rapporti di scansione, verranno eliminati. Questa operazione è irreversibile. L’invio del dominio di archivio dopo la sua eliminazione crea un NUOVO invio.
