@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce fornisce correzioni di qualità per una versione secondaria per un minimo di 12 mesi dalla data di disponibilità generale della successiva versione software secondaria. Il modo in cui forniamo correzioni di qualità durante questo periodo sta cambiando:
 
 * **Criterio precedente:** Attualmente le correzioni di qualità alla riga precedente nella finestra EOS di 12 mesi vengono distribuite tramite il rilascio della patch trimestrale, rendendo quindi le patch trimestrali una combinazione di sicurezza e qualità.
-* **Nuovo criterio:** A partire dalla versione 2.4 come versione secondaria più recente, le patch di rilascio per la versione supportata precedente (2.3) verranno spostate in modalità di sola protezione. Verranno comunque fornite correzioni di qualità per la precedente linea supportata durante l&#39;intervallo di 12 mesi dopo il rilascio di una versione secondaria (come 2.4) e successive nuove linee di versione secondarie; ma queste saranno rese disponibili tramite [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) e saranno concentrate solo su problemi critici.
+* **Nuovo criterio:** A partire dalla versione 2.4 come versione secondaria più recente, le patch di rilascio per la versione supportata precedente (2.3) verranno spostate in modalità di sola protezione. Verranno comunque fornite correzioni di qualità per la precedente linea supportata durante l&#39;intervallo di 12 mesi dopo il rilascio di una versione secondaria (come 2.4) e successive nuove linee di versione secondarie; ma queste saranno rese disponibili tramite [Quality Patches Tool (QPT)](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) e saranno concentrate solo su problemi critici.
 
 ## Quando ha effetto questo criterio?
 
@@ -38,7 +38,7 @@ Anche Adobe continuerà a disporre delle versioni di sola sicurezza per la versi
 
 ## Che cos&#39;è lo strumento Patch di qualità?
 
-Consulta l&#39;articolo [Quality Patches Tool rilasciato: un nuovo strumento per rendere autonome le patch di qualità](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) nella knowledge base di supporto.
+Consulta l&#39;articolo [Quality Patches Tool rilasciato: un nuovo strumento per rendere autonome le patch di qualità](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches) nella knowledge base di supporto.
 
 ## Chi dovrebbe considerare l’utilizzo di questo nuovo criterio?
 
