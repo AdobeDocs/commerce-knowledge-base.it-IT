@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 4f4d516ab4250249928c676d9451a1efe041c207
+source-git-commit: 2ed731574bb25c31d0fcb800fcf8f98b85ff0bc2
 workflow-type: tm+mt
-source-wordcount: '3533'
+source-wordcount: '3459'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,6 @@ ht-degree: 0%
       * [Patch riviste per Google Maps: perdita di accesso su tutte le versioni di Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * Varie {#miscellaneous}
       * [Correggi i dati non aggiornati in [!DNL Commerce Data Exporter] feed e [!DNL cron] registri gli errori con la tabella changelog non esistono](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
-      * [Verificare il motivo della disabilitazione di  [!DNL cron] ](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [Errore [!DNL opensearch] motore di ricerca inesistente. Ripristino di  [!DNL livesearch].](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [E-mail che indica che lo spazio di archiviazione per l’esportazione è quasi pieno](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [Gli indici invalidati e &quot;indexer_reindex_all_invalid&quot; vengono eseguiti costantemente](/help/troubleshooting/miscellaneous/constant-reindexing-with-cron-job-indexer-reindex-all-invalid.md)
@@ -165,7 +164,6 @@ ht-degree: 0%
       * [Errore di pagina vuota o ciclo di reindirizzamento durante l’accesso a storefront o Commerce Admin](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Aggiornamento indirizzo e-mail del messaggio di convalida degli indirizzi verticali di Adobe Commerce 2.4.1](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)
       * [Extension Manager non mostra estensioni in Adobe Commerce 2.3.x](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
-      * [Applicare una patch per continuare a offrire DHL come corriere](/help/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.md)
       * [Reindirizzamento accesso quando si tenta di accedere ad Amministratore Commerce](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Risolvi i problemi relativi alla chiave di crittografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [Errore &quot;L’applicazione di aggiornamento non è disponibile&quot;](/help/troubleshooting/miscellaneous/updater-application-is-not-available-error.md)
@@ -195,7 +193,6 @@ ht-degree: 0%
       * [Il report dello strumento Security Scan è vuoto](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
       * [Adobe Commerce 2.4.2-p1: nota fattura con valore errato](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
       * [Impossibile accedere all’ultima versione non definitiva di Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
-      * [Password amministratore salvate come testo normale nel registro delle azioni](/help/troubleshooting/miscellaneous/admin-passwords-saved-as-plain-text-to-actions-log.md)
       * [Indice bloccato da un altro processo](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
       * [Diagnostica di una discrepanza di dati](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
       * [Notifiche e-mail di Admin 2FA non ricevute](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
@@ -206,7 +203,6 @@ ht-degree: 0%
       * [Blocchi all’avvio su Adobe Commerce per l’infrastruttura cloud](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [Errori impostazioni PHP](/help/troubleshooting/miscellaneous/php-settings-errors.md)
       * [Il problema Redis ritarda l’accesso o il pagamento dell’amministratore di Commerce](/help/troubleshooting/miscellaneous/redis-issue-delay-magento-admin-login-or-checkout.md)
-      * [Problemi relativi ai plug-in del compositore durante l’aggiornamento ad Adobe Commerce 2.4.4](/help/troubleshooting/miscellaneous/adobe-commerce-244-update-composer.md)
       * [Estensione PHP Mcrypt non installata correttamente](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6, 2.4.0-p1, 2.4.1 problema noto: accesso dotdigital](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Il processo Cron è bloccato nello stato &quot;in esecuzione&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
@@ -214,7 +210,6 @@ ht-degree: 0%
       * [Problemi dopo la disattivazione di un modulo](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [Offload di reindirizzamenti non regex a Fastly anziché a Nginx (route)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Problema noto di Adobe Commerce 2.4.0: pulsanti Crea nuovo ordine mancanti](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
-      * [Errori 403 durante l’accesso a Site-Wide Analysis Tool (Strumento di analisi a livello di sito) su Adobe Commerce](/help/troubleshooting/miscellaneous/403-errors-when-accessing-site-wide-analysis-tool-on-magento.md)
       * [Risoluzione dei problemi di Reporting avanzato per Adobe Commerce](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [Errori irreversibili PHP comuni e soluzioni](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
       * [Aggiornamento del compositore non riuscito in Adobe Commerce: tipo di argomento non compatibile](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
@@ -304,15 +299,12 @@ ht-degree: 0%
       * [Prestazioni insoddisfacenti negli ambienti di integrazione](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * Distribuzione {#deployment}
       * [Distribuzione non riuscita: versioni di Elasticsearch e Adobe Commerce non compatibili](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
-      * [Distribuzione non riuscita: impossibile applicare la patch MDVA-43395](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
-      * [Errori di distribuzione dall&#39;abilitazione del modulo Bilanciatore alfa anticipato](/help/troubleshooting/deployment/deployment-errors-from-enabling-early-alpha-baler-javascript-bundling-build.md)
       * [Errore &quot;Versione corrente di RDBMS non supportata&quot; durante la distribuzione](/help/troubleshooting/deployment/current-version-of-rdbms-is-not-supported.md)
       * [La distribuzione non riesce La versione di Adobe Commerce non compatibile con il modulo Fastly](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [Errore di distribuzione: SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [Problemi di distribuzione relativi alle autorizzazioni dell’account e alle chiavi di accesso](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
       * [Risoluzione dei problemi di distribuzione di Adobe Commerce](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [Errore durante la distribuzione durante l’aggiornamento alla versione che supporta PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
-      * [La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la creazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;](/help/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.md)
       * [Errore di distribuzione: &quot;errore 7 durante il download della porta 443. Connessione rifiutata&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Errori di distribuzione durante il commit di file non corretti](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [Errori di distribuzione in cui non sono state trovate patch](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
