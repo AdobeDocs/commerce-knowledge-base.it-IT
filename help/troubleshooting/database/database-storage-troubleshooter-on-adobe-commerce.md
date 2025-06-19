@@ -4,9 +4,9 @@ description: Questo articolo è uno strumento di risoluzione dei problemi per i 
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Se si verifica uno dei sintomi descritti in precedenza, controllare lo stato deg
 
 L’IUse% è > 90%?
 
-a. SÌ - La causa è un numero eccessivo di file. Rivedi i passaggi per rimuovere i file in modo sicuro in [Eliminare i file in modo sicuro quando lo spazio su disco è esaurito, Adobe Commerce sull&#39;infrastruttura cloud](/help/troubleshooting/miscellaneous/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md). Procedi al [passaggio 2](#step-2) dopo aver completato questi passaggi. Per richiedere più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SÌ - La causa è un numero eccessivo di file. Rivedi i passaggi per rimuovere i file in modo sicuro in [Eliminare i file in modo sicuro quando lo spazio su disco è esaurito, Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Procedi al [passaggio 2](#step-2) dopo aver completato questi passaggi. Per richiedere più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO - Controllare lo spazio. Eseguire `df -h | grep mysql` e quindi `df -h | grep tmp` nella CLI/Terminal per verificare l&#39;utilizzo dello spazio su disco nelle directory `/tmp` e `/data/mysql`. Procedi al [passaggio 3](#step-3).
 
 +++
@@ -93,4 +93,4 @@ b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magent
 
 ## Lettura correlata
 
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
