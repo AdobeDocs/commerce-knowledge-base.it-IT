@@ -30,7 +30,7 @@ Uno dei motivi del peggioramento delle prestazioni potrebbe essere la disabilita
 
 ## Soluzione
 
-1. Innanzitutto, controlla lo stato della cache di Adobe Commerce per verificare se è questo il problema. Per questo, [SSH nel tuo ambiente](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) ed esegui il seguente comando:
+1. Innanzitutto, controlla lo stato della cache di Adobe Commerce per verificare se è questo il problema. Per questo, [SSH nel tuo ambiente](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh) ed esegui il seguente comando:
 
    ```bash
    php bin/magento cache:status
@@ -48,11 +48,11 @@ In caso di dubbi e/o domande sulla possibilità o meno di disabilitare un determ
 Documentazione della cache di Adobe Commerce nella documentazione per gli sviluppatori:
 
 * [Panoramica della cache di Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [Gestione della cache](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [Gestione della cache](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Altri possibili motivi per problemi di prestazioni e relative soluzioni:
 
-* [Disattiva l&#39;output del banner Adobe Commerce per migliorare le prestazioni del sito](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
-* [Le tabelle MySQL sono troppo grandi](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
+* [Disattiva l&#39;output del banner Adobe Commerce per migliorare le prestazioni del sito](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [Le tabelle MySQL sono troppo grandi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [Prestazioni lente, esecuzione lenta e cronica prolungata](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [Accesso amministratore limitato che causa problemi di prestazioni](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
