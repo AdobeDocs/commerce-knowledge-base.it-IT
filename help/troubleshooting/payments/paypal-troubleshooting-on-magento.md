@@ -41,7 +41,7 @@ Se il metodo di pagamento PayPal prevede l&#39;utilizzo di API con contratti di 
 
 Vedi i seguenti articoli:
 
-* [Richiesta rifiutata dal gateway PayPal - problema fattura duplicato](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) nella Knowledge Base del supporto tecnico.
+* [Richiesta rifiutata dal gateway PayPal - problema fattura duplicato](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26838) nella Knowledge Base del supporto tecnico.
 * [Modifica l&#39;ID incremento per la nuova entità dello store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) nella Knowledge Base di supporto.
 
 ## Contatta il supporto per raccogliere i registri di pagamento avanzato

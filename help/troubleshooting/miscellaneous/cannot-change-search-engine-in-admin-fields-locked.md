@@ -42,4 +42,4 @@ La configurazione del motore di ricerca è bloccata nel file `app/etc/env.php` o
 
 ## Lettura correlata
 
-* [Campi bloccati (disattivati) in Commerce Admin](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26879) nella Guida di Commerce on Cloud Infrastructure.
+* [Campi bloccati (disattivati) in Commerce Admin](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26879) nella Guida di Commerce on Cloud Infrastructure.
