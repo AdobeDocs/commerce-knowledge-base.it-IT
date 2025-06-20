@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: dc2149f886d46826610f2f74b48ef9060a4ff376
+source-git-commit: 9defec16bbe62e13320d20fcbd0b5e65e946d9f7
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3257'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,6 @@ ht-degree: 0%
       * [Nuovi ambienti messi in produzione quando vengono inviati da Git](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [Errore dopo l’accesso all’amministrazione di Commerce](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [Timeout di Magento Order Management System (OMS) per Adobe Commerce](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [Ritira spedizione diretta all&#39;indirizzo errato](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
       * [Errore durante la rimozione della cache in Commerce Admin](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1: pagina vuota al salvataggio del modulo per il Page Builder dotdigital](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce cloud: reindicizzazione terminata con il messaggio Killed](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
