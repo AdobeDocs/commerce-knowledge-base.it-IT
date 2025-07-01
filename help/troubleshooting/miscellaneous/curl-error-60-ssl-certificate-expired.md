@@ -4,9 +4,9 @@ description: 'Questo articolo mostra come verificare quando è stata distribuita
 exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: dcaae51408534b82181b268f60905b123e240900
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,10 @@ L’errore sarà simile al seguente:
 cURL error 60: SSL certificate problem: certificate has expired
 ```
 
+>[!NOTE]
+>
+>Questi certificati non sono firmati da Autorità di certificazione esterne note come [!DNL Let's Encrypt] o [!DNL DigiCert]. Sono gestite dalla piattaforma Adobe a scopo di test e sviluppo e potrebbero non essere considerate attendibili per impostazione predefinita nei browser o nel linguaggio curl, a meno che la radice che rilascia il certificato non sia esplicitamente considerata attendibile.
+
 ## Soluzione
 
 Controlla quando è stata implementata l’ultima volta il ramo. Se supera la soglia di 30 giorni, ridistribuisci il ramo.
@@ -40,11 +44,11 @@ Due metodi per verificare quando è stata eseguita l’ultima distribuzione:
 
 Se la distribuzione è stata completata correttamente, [!DNL SSL certificate] verrà automaticamente rinnovato.
 
-Se la distribuzione non riesce e hai bisogno di assistenza per risolverla, [invia un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=it#submit-ticket).
+Se la distribuzione non riesce e hai bisogno di assistenza per risolverla, [invia un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
 
 ### Metodo 1: utilizzare [!DNL magento-cloud] CLI {#meth2}
 
-Esegui questo comando: `magento-cloud activity:list`
+Esegui questo comando: `magento-cloud activity:list --type=environment.push`
 
 ### Metodo 2: aprire [!DNL Project URL] {#meth3}
 
@@ -55,9 +59,9 @@ Passare a, ad esempio: `https://demo.magento.cloud/#/projects/<project>/environm
 Nella documentazione per gli sviluppatori:
 
 * [API Cloud Manager: SSLCertificates](https://developer.adobe.com/experience-cloud/cloud-manager/reference/api/#tag/SSLCertificates)
-* [Configurazione rapida: provisioning dei certificati SSL/TLS](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+* [Configurazione rapida: provisioning dei certificati SSL/TLS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
 
 Nella nostra knowledge base di supporto:
 
-* [Informazioni sulla scadenza del certificato SSL personalizzato](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html?lang=it)
-* [Certificati SSL (TLS) per Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html?lang=it)
+* [Informazioni sulla scadenza del certificato SSL personalizzato](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.html)
+* [Certificati SSL (TLS) per Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/ssl-tls-certificates-for-magento-commerce-cloud-faq.html)
