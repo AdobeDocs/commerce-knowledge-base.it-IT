@@ -30,7 +30,7 @@ b. NO - Manutenzione o interruzioni globali. Controlla la durata stimata e gli a
 
 +++**Esistono distribuzioni in altri ambienti che bloccano la distribuzione nell&#39;ambiente esistente?**
 
-Per ottenere un elenco delle attività in corso, esegui il seguente comando utilizzando magento-cloud CLI (se sei stato aggiunto a un solo progetto cloud). **Nota**: verifica di essere nella versione più recente di CLI di Magento-Cloud. Per i passaggi, fare riferimento a [Aggiornare CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) nella guida Commerce su Cloud Infrastructure.
+Per ottenere un elenco delle attività in corso, esegui il seguente comando utilizzando magento-cloud CLI (se sei stato aggiunto a un solo progetto cloud). **Nota**: verifica di essere nella versione più recente di CLI di Magento-Cloud. Per i passaggi, fare riferimento a [Aggiornare CLI](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview) nella guida Commerce su Cloud Infrastructure.
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ Per ottenere un elenco delle attività in corso, esegui il seguente comando util
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-Per trovare informazioni su un&#39;attività di distribuzione esistente (fare riferimento a [Verifica del registro di distribuzione se l&#39;interfaccia utente di Cloud presenta un errore &quot;log snipped&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+Per trovare informazioni su un&#39;attività di distribuzione esistente (fare riferimento a [Verifica del registro di distribuzione se l&#39;interfaccia utente di Cloud presenta un errore &quot;log snipped&quot;](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 per ulteriori dettagli) puoi eseguire questo comando per ottenere un registro in esecuzione dell’attività:
 
 ```bash
@@ -79,7 +79,7 @@ b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magent
 +++**Utilizzo di Bitbucket?**
 
 a. SÌ - Controllare [status.bitbucket.com](https://bitbucket.status.atlassian.com/).\
-b. NO - Controllare gli errori del registro di distribuzione nei [registri di compilazione e distribuzione](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations). Procedi al [passaggio 6](#step-6).
+b. NO - Controllare gli errori del registro di distribuzione nei [registri di compilazione e distribuzione](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/test/log-locations). Procedi al [passaggio 6](#step-6).
 
 +++
 
@@ -123,11 +123,11 @@ b. NO - Procedi al [passaggio 11](#step-11).
 
 +++**Spazio di archiviazione disponibile valido?**
 
-* [Verifica integrazione/ambiente di avvio](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
-* [Verifica l&#39;ambiente Pro Staging/Produzione](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
+* [Verifica integrazione/ambiente di avvio](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
+* [Verifica l&#39;ambiente Pro Staging/Produzione](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
 
 a. SÌ - Procedere con [Passaggio 11](#step-11).\
-b. NO - Rivedi [Gestione spazio su disco](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
+b. NO - Rivedi [Gestione spazio su disco](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space).
 
 +++
 
@@ -139,7 +139,7 @@ a. SÌ
 
 * Per gli ambienti di integrazione/avvio:
 
-   * [aumenta il valore del disco in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space) e ridistribuiscilo. Se non funziona, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+   * [aumenta il valore del disco in .magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=it#application-disk-space) e ridistribuiscilo. Se non funziona, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
    * In alternativa, esaminare la cartella `var/log` ed eliminare tutti i file di registro superiori a 1 MB. Esegui questo comando per verificare le dimensioni dei file:
 
      ```bash
@@ -176,7 +176,7 @@ b. NO - Procedi al [passaggio 14](#step-14).
 
 +++**Il file system è esaurito negli inodi o nello spazio?**
 
-a. SÌ - Vedere [Gestione spazio su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space).\
+a. SÌ - Vedere [Gestione spazio su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=it#application-disk-space).\
 b. NO - Procedi al [passaggio 15](#step-15).
 
 +++
@@ -218,7 +218,7 @@ b. NO - Procedi al [passaggio 18](#step-18).
 
 +++**Errore/blocco post hook?**
 
-a. SÌ - Database: [Spazio libero su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space), tabelle danneggiate o incomplete.\
+a. SÌ - Database: [Spazio libero su disco](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=it#allocate-disk-space), tabelle danneggiate o incomplete.\
 b. NO - Procedi al [passaggio 19](#step-19).
 
 +++
@@ -227,7 +227,7 @@ b. NO - Procedi al [passaggio 19](#step-19).
 
 +++**Utilizzo di estensioni di terze parti?**
 
-a. SÌ - Provare a [Disabilitare le estensioni di terze parti](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions) ed eseguire la distribuzione (per verificare se sono la causa del problema), soprattutto se sono presenti nomi di estensione in errori.\
+a. SÌ - Provare a [Disabilitare le estensioni di terze parti](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure-store/extensions) ed eseguire la distribuzione (per verificare se sono la causa del problema), soprattutto se sono presenti nomi di estensione in errori.\
 b. NO - Procedi al [passaggio 20](#step-20).
 
 +++
