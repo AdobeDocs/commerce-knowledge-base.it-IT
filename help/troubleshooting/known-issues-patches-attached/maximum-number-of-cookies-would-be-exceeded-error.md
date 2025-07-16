@@ -19,9 +19,9 @@ In questo articolo vengono fornite patch per risolvere l&#39;errore che indica i
 
 Adobe Commerce (tutti i metodi di implementazione) 2.4.4 - 2.4.7, con una delle seguenti patch:
 
-* Patch MDVA-12304 applicata utilizzando [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
-* [Aggiornamento sicurezza disponibile per Adobe Commerce - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
-* [Patch cloud per [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
+* Patch MDVA-12304 applicata utilizzando [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Aggiornamento sicurezza disponibile per Adobe Commerce - APSB25-08](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27149)
+* [Patch cloud per [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
 
 ## Problema
 
@@ -50,6 +50,6 @@ Il problema si verifica perché il numero massimo di cookie consentiti è impost
 
 ### Lettura correlata
 
-* [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply) nella guida all&#39;aggiornamento di Adobe Commerce
-* [Best practice per la distribuzione delle patch di Adobe Commerce su larga scala](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) nel playbook di implementazione di Adobe Commerce
-* [Note sulla versione per Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) nella Guida di Commerce su Cloud.
+* [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/apply) nella guida all&#39;aggiornamento di Adobe Commerce
+* [Best practice per la distribuzione delle patch di Adobe Commerce su larga scala](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) nel playbook di implementazione di Adobe Commerce
+* [Note sulla versione per Commerce Cloud Tools Suite](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) nella Guida di Commerce su Cloud.
