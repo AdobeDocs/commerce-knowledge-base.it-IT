@@ -3,9 +3,10 @@ title: Il numero massimo di cookie verrebbe superato dall’errore in Adobe Comm
 description: Scopri come risolvere il problema di Adobe Commerce in cui si verifica un errore che indica il superamento del numero massimo di cookie.
 feature: Deploy, Support, Upgrade, Tools and External Services
 role: Admin, Developer
-source-git-commit: 44e167c801bbcd313f74c9fc51f9cde9473ef96f
+exl-id: 5c42ea7a-f023-4d34-8417-bb470efc3b84
+source-git-commit: 87e98607ee5e1cc41e4266836fd09531a290725e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ In questo articolo vengono fornite patch per risolvere l&#39;errore che indica i
 
 Adobe Commerce (tutti i metodi di implementazione) 2.4.4 - 2.4.7, con una delle seguenti patch:
 
-* Patch MDVA-12304 applicata utilizzando [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/release-notes)
-* [APSB25-08 patch di sicurezza isolata](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
-* [Patch cloud per [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
+* Patch MDVA-12304 applicata utilizzando [[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Aggiornamento sicurezza disponibile per Adobe Commerce - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
+* [Patch cloud per [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)
 
 ## Problema
 
@@ -49,6 +50,6 @@ Il problema si verifica perché il numero massimo di cookie consentiti è impost
 
 ### Lettura correlata
 
-* [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/apply) nella guida all&#39;aggiornamento di Adobe Commerce
-* [Best practice per la distribuzione delle patch di Adobe Commerce su larga scala](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) nel playbook di implementazione di Adobe Commerce
-* [Note sulla versione per Commerce Cloud Tools Suite](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) nella Guida di Commerce su Cloud.
+* [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply) nella guida all&#39;aggiornamento di Adobe Commerce
+* [Best practice per la distribuzione delle patch di Adobe Commerce su larga scala](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) nel playbook di implementazione di Adobe Commerce
+* [Note sulla versione per Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite) nella Guida di Commerce su Cloud.

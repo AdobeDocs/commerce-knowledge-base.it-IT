@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 86fcde85e7e751125c47f3bc3693b8155d1e972f
+source-git-commit: f0c2e20e0bd6dab713be59c1c686ee2948445bd4
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3192'
 ht-degree: 0%
 
 ---
@@ -285,10 +285,6 @@ ht-degree: 0%
       * [Errori di distribuzione in cui non sono state trovate patch](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
       * [Distribuzione non riuscita durante lo svuotamento della cache: errore &quot;Nessun comando definito nello spazio dei nomi &#39;cache&#39;&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Problemi noti {#known-issues-patches-attached}
-      * [Hotfix per il pacchetto di compatibilità di Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0](/help/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4.md)
-      * [Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB25-08]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
-      * [Modifiche non compatibili con le versioni precedenti per  [!DNL GraphQL "placeOrder" API]  in Adobe Commerce 2.4.6-p8](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
-      * [Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [Indicazioni sulla protezione dell&#39;archivio e sulla rotazione delle chiavi di crittografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [Aggiornamento di sicurezza disponibile per Adobe Commerce - [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
       * [Risoluzione dei problemi relativi alla rotazione delle chiavi di crittografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)

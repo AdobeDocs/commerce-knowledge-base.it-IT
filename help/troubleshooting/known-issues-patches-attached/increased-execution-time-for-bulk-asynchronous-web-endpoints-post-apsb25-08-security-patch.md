@@ -3,9 +3,10 @@ title: È stato aumentato il tempo di esecuzione per gli endpoint web asincroni 
 description: Questo articolo fornisce un hotfix per il problema in cui le richieste POST rest/all/async/bulk/V1/products per più di 1000 voci registrano un aumento significativo dei tempi di esecuzione dopo l’applicazione della patch di sicurezza APSB25-08.
 feature: Security, Cache, REST, Products, Customers
 role: Admin, Developer
-source-git-commit: fce7f860b9fddd694b311ffc4acd56a48c06e14b
+exl-id: 784a48cb-1ef1-432b-b09f-ebcbb9bebf01
+source-git-commit: f0c2e20e0bd6dab713be59c1c686ee2948445bd4
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -55,8 +56,8 @@ Per risolvere il problema, applica [AC-14078-2-4x-poser-patch.zip](assets/AC-140
 
 ## Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=it) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) nella Knowledge Base di supporto per le istruzioni.
 
 ## Lettura correlata
 
-* [Aggiornamento di sicurezza disponibile per Adobe Commerce - APSB25-08](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
+* [Aggiornamento sicurezza disponibile per Adobe Commerce - APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
