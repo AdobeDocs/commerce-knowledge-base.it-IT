@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: acc2baf6066204bb8a4babf18fce9d595b011394
+source-git-commit: 15d38d9b0cb18536326c0afbb12b8a21eaee596c
 workflow-type: tm+mt
-source-wordcount: '3081'
+source-wordcount: '3029'
 ht-degree: 0%
 
 ---
@@ -286,11 +286,6 @@ ht-degree: 0%
       * [Distribuzione non riuscita durante lo svuotamento della cache: errore &quot;Nessun comando definito nello spazio dei nomi &#39;cache&#39;&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Problemi noti {#known-issues-patches-attached}
       * [Indicazioni sulla protezione dell&#39;archivio e sulla rotazione delle chiavi di crittografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
-      * [Migrazione dell&#39;integrazione del metodo di spedizione [!DNL FedEx] da SOAP all&#39;API RESTful](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
-      * [Il numero massimo di cookie verrebbe superato dall’errore in Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
-      * [È stato aumentato il tempo di esecuzione per tutti gli endpoint web asincroni in blocco dopo la patch di sicurezza APSB25-08](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
-      * [Nomi di gruppi di clienti, segmenti e informazioni sulle regole promozionali esposti tramite [!DNL GraphQL]](/help/troubleshooting/known-issues-patches-attached/hotfix-for-exposed-customer-group-segments-promo-rules-information.md)
-      * [Aggiornamento di sicurezza disponibile per Adobe Commerce - APSB25-50](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-50.md)
    * Elasticsearch {#elasticsearch}
       * [Fallback a  [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Problemi di Elasticsearch dopo l’aggiornamento all’infrastruttura cloud Adobe Commerce 2.3.1+](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
