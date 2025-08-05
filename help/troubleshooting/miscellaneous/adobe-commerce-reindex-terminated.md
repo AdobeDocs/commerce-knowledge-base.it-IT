@@ -31,11 +31,11 @@ Il motivo più comune è l’esistenza di un numero elevato di prodotti, store e
 1. Riduci il numero di prodotti (nonché i gruppi di clienti e i negozi, se applicabile).
 1. Limita l’utilizzo a uno o due utenti simultanei.
 1. Disabilita i processi cron ed esegui manualmente in base alle esigenze.
-1. Se non è già stato fatto in precedenza, richiedi un aggiornamento agli ambienti di integrazione avanzata . Tieni presente la restrizione sul numero di ambienti a cui verrai limitato una volta eseguito l’aggiornamento. Per ulteriori informazioni, consulta l&#39;articolo [Richiesta di miglioramento dell&#39;ambiente di integrazione - Pro e Starter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) nella knowledge base di supporto.
+1. Se non è già stato fatto in precedenza, richiedi un aggiornamento agli ambienti di integrazione avanzata . Tieni presente la restrizione sul numero di ambienti a cui verrai limitato una volta eseguito l’aggiornamento. Per ulteriori informazioni, consulta l&#39;articolo [Richiesta di miglioramento dell&#39;ambiente di integrazione - Pro e Starter](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27242) nella knowledge base di supporto.
 
 ## Lettura correlata:
 
 Nella documentazione per gli sviluppatori:
 
-* [Architettura Pro > Ambiente di integrazione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Architettura Starter > Ambiente di staging](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [Architettura Pro > Ambiente di integrazione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Architettura Starter > Ambiente di staging](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

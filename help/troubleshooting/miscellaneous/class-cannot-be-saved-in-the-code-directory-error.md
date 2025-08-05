@@ -26,7 +26,7 @@ In questo articolo viene descritto come risolvere il problema in cui il modo in 
 1. Nell’ambiente locale, scrivi una classe personalizzata con una dipendenza dalla classe generata automaticamente.
 1. Esegui lo scenario in cui viene attivata la classe personalizzata e verificane il corretto funzionamento.
 1. Apporta le modifiche all&#39;ambiente di integrazione. Questo attiverebbe il processo di distribuzione. Implementazione completata.
-1. Nell&#39;[ambiente di integrazione](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), esegui lo scenario in cui viene attivata la classe personalizzata.
+1. Nell&#39;[ambiente di integrazione](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27242), esegui lo scenario in cui viene attivata la classe personalizzata.
 
 <u>Risultato previsto</u>
 
