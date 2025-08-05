@@ -4,9 +4,9 @@ description: '* Adobe Commerce su infrastruttura cloud (tutte le versioni)'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -31,11 +31,11 @@ Il motivo più comune è l’esistenza di un numero elevato di prodotti, store e
 1. Riduci il numero di prodotti (nonché i gruppi di clienti e i negozi, se applicabile).
 1. Limita l’utilizzo a uno o due utenti simultanei.
 1. Disabilita i processi cron ed esegui manualmente in base alle esigenze.
-1. Se non è già stato fatto in precedenza, richiedi un aggiornamento agli ambienti di integrazione avanzata . Tieni presente la restrizione sul numero di ambienti a cui verrai limitato una volta eseguito l’aggiornamento. Per ulteriori informazioni, consulta l&#39;articolo [Richiesta di miglioramento dell&#39;ambiente di integrazione - Pro e Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) nella knowledge base di supporto.
+1. Se non è già stato fatto in precedenza, richiedi un aggiornamento agli ambienti di integrazione avanzata . Tieni presente la restrizione sul numero di ambienti a cui verrai limitato una volta eseguito l’aggiornamento. Per ulteriori informazioni, consulta l&#39;articolo [Richiesta di miglioramento dell&#39;ambiente di integrazione - Pro e Starter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) nella knowledge base di supporto.
 
 ## Lettura correlata:
 
 Nella documentazione per gli sviluppatori:
 
-* [Architettura Pro > Ambiente di integrazione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Architettura Starter > Ambiente di staging](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [Architettura Pro > Ambiente di integrazione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Architettura Starter > Ambiente di staging](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

@@ -4,9 +4,9 @@ description: Questo articolo descrive come risolvere il problema in cui il modo 
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ In questo articolo viene descritto come risolvere il problema in cui il modo in 
 1. Nell’ambiente locale, scrivi una classe personalizzata con una dipendenza dalla classe generata automaticamente.
 1. Esegui lo scenario in cui viene attivata la classe personalizzata e verificane il corretto funzionamento.
 1. Apporta le modifiche all&#39;ambiente di integrazione. Questo attiverebbe il processo di distribuzione. Implementazione completata.
-1. Nell&#39;[ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md), esegui lo scenario in cui viene attivata la classe personalizzata.
+1. Nell&#39;[ambiente di integrazione](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242), esegui lo scenario in cui viene attivata la classe personalizzata.
 
 <u>Risultato previsto</u>
 

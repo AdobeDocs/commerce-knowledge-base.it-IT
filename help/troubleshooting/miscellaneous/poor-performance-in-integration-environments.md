@@ -3,7 +3,8 @@ title: Prestazioni insoddisfacenti negli ambienti di integrazione
 description: Questo articolo fornisce una soluzione per il problema in cui gli ambienti di integrazione Pro e gli ambienti di staging Starter hanno prestazioni insoddisfacenti.
 feature: Integration, Staging
 role: Developer
-source-git-commit: c0e2a8fdd2e4d231e56a3121544dbd8a25a8d60c
+exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 0%
@@ -30,10 +31,10 @@ A seconda delle dimensioni del catalogo o dei dati o dei requisiti delle integra
 
 Per risolvere i problemi relativi alle prestazioni, assicurati di seguire le best practice per prestazioni ottimali nell’ambiente di integrazione. Per migliorare l’integrazione, potrebbe essere inoltre necessario richiedere un aggiornamento degli ambienti.
 
-Determinare innanzitutto se l&#39;ambiente si trova nella [configurazione di integrazione avanzata](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter).
+Determinare innanzitutto se l&#39;ambiente si trova nella [configurazione di integrazione avanzata](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
-* [Architettura Pro](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Architettura Starter](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Architettura Pro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Architettura Starter](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Controllare il registro di distribuzione utilizzando uno di questi metodi.
 
@@ -58,11 +59,10 @@ opensearch (type: opensearch:2, size: L, disk: 1024)
 rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 ```
 
-Se non sei nella configurazione dell&#39;integrazione avanzata, puoi [richiedere il miglioramento/aggiornamento](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/announcements/commerce-announcements/integration-environment-enhancement-request-pro-and-starter).
+Se non sei nella configurazione dell&#39;integrazione avanzata, puoi [richiedere il miglioramento/aggiornamento](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 Se ti trovi già nella configurazione di Integrazione avanzata o riscontri ancora problemi di prestazioni dopo l’aggiornamento, assicurati di seguire le best practice per prestazioni ottimali nell’ambiente di integrazione:
 
-* [Architettura Pro](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Architettura Starter](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Architettura Pro](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Architettura Starter](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
-Se hai soddisfatto le raccomandazioni precedenti, [invia una richiesta di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) per ulteriore assistenza.
- 
+Se hai soddisfatto le raccomandazioni precedenti, [invia una richiesta di supporto](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) per ulteriore assistenza.

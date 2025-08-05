@@ -1,10 +1,10 @@
 ---
 title: Configurare NPM per l'utilizzo di PWA Studio
-description: '[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studio, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nella sezione "hooks:build" del file di configurazione &grave;.magento.app.yaml&grave;.'
+description: '[Progressive Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/) è un nuovo progetto disponibile per Adobe Commerce su infrastruttura cloud 2.3.x o versione successiva. Per poter utilizzare e installare PWA Studio, è necessario impostare la versione di Gestione pacchetti NPM su 5.x o successiva per ottenere il supporto per Node.js 8.x. Questa operazione viene eseguita nella sezione "hooks:build" del file di configurazione `.magento.app.yaml`.'
 exl-id: 3854fc94-e8ad-45d8-bf3e-73462364220d
-source-git-commit: 37ac9cca1f876a48092467aa38f2f2f013c83dd9
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per impostare la versione NPM necessaria, specificarla nel file di configurazion
    >
    >Se desideri eseguire Node.JS nell’applicazione e non solo nella build, aggiungi i seguenti comandi per modificare l’hook di build:
    > 
-   > ```
+   ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
@@ -48,10 +48,10 @@ Per impostare la versione NPM necessaria, specificarla nel file di configurazion
    > ```
 
 1. Salva le modifiche nel file.
-1. Git invia il file modificato all&#39;[ambiente di integrazione](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md).
+1. Git invia il file modificato all&#39;[ambiente di integrazione](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 Le modifiche diventano effettive dopo che Git ha inviato il file YAML aggiornato all’ambiente.
 
 ## Documentazione correlata
 
-* [Configurazione dell&#39;applicazione: hook](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=it) nella Guida all&#39;infrastruttura di Adobe Commerce su Cloud.
+* [Configurazione dell&#39;applicazione: hook](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html) nella Guida all&#39;infrastruttura di Adobe Commerce su Cloud.
