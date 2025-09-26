@@ -4,9 +4,9 @@ description: Questo articolo spiega un problema noto in Adobe Commerce 2.3.5 in 
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: b3d39e6b02728f05f046adf7be94ffacbca944d5
+source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '183'
 ht-degree: 0%
 
 ---
@@ -44,9 +44,7 @@ Una correzione sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pia
 
 Nella nostra knowledge base di supporto:
 
-* [Problema noto relativo al confronto dei prodotti in Adobe Commerce 2.3.5](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
 * [Problema noto relativo al conteggio dei prodotti per azioni in blocco in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
-* [Patch per il problema di pagamento Amazon in Adobe Commerce 2.3.5-p1](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
 
 Nella documentazione per gli sviluppatori:
 

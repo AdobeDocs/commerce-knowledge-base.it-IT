@@ -4,9 +4,9 @@ description: 'Questo articolo descrive una soluzione per un problema noto in Ado
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Il messaggio di errore &quot;*Non sono attualmente disponibili metodi di pagamen
 
 * Adobe Commerce 2.4.0 è installato.
 * Crea un prodotto e una categoria.
-* Configura [Braintree metodo di pagamento](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
+* Configura [Metodo di pagamento Braintree](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/).
 
 <u>Passaggi da riprodurre</u>:
 
@@ -52,8 +52,7 @@ La soluzione consiste nell&#39;ignorare il messaggio di errore visualizzato e co
 
 ## Lettura correlata
 
-* [Problema noto di Adobe Commerce 2.4.0: visualizzazione dei dati dei messaggi non elaborati nella vetrina](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
 * [Problema noto di Adobe Commerce 2.4.0: l’esportazione delle aliquote fiscali non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Problema noto di Adobe Commerce 2.4.0: i metodi di pagamento Braintree non vengono visualizzati nel checkout di più indirizzi](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
+* [Problema noto di Adobe Commerce 2.4.0: i metodi di pagamento di Braintree non vengono visualizzati nell’estrazione di più indirizzi](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Problema noto di Adobe Commerce 2.4.0: l’aggiornamento delle attività del cliente non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
 * [L’amministratore B2B di Adobe Commerce 2.4.0 non può aggiungere un prodotto configurabile all’offerta](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
