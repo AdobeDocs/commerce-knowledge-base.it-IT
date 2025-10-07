@@ -4,9 +4,9 @@ description: Questo articolo è uno strumento di risoluzione dei problemi per i 
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+source-git-commit: aa4cfbceb745f1a06b8a8f9e93cbdebbc151458b
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Questo articolo è uno strumento di risoluzione dei problemi per i clienti che s
 
 Ciò può essere indicato da una serie di sintomi, tra cui il montaggio `/tmp` pieno, il sito inattivo o l&#39;impossibilità di SSH in un nodo. Potresti anche riscontrare errori come _Spazio esaurito sul dispositivo (28)_. Per un elenco degli errori risultanti dal completamento di `/tmp`, esaminare [/tmp mount full](/help/troubleshooting/miscellaneous/tmp-mount-full.md).
 
-Oppure si è verificato un problema di `/data/mysql` causato dalla mancanza di spazio? Ciò può essere indicato anche da una serie di sintomi, tra cui l&#39;interruzione del sito, l&#39;impossibilità per i clienti di aggiungere prodotti al carrello, l&#39;errore di connessione al database e gli errori di Galeria come _SQLSTATE\[08S01\]: errore del collegamento di comunicazione: 1047 WSREP_. Per un elenco degli errori derivanti da uno spazio su disco insufficiente di [!DNL MySQL], vedere [[!DNL MySQL] lo spazio su disco è insufficiente in Adobe Commerce nell&#39;infrastruttura cloud](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md).
+Oppure si è verificato un problema di `/data/mysql` causato dalla mancanza di spazio? Ciò può essere indicato anche da una serie di sintomi, tra cui l&#39;interruzione del sito, l&#39;impossibilità per i clienti di aggiungere prodotti al carrello, l&#39;errore di connessione al database e gli errori di Galeria come _SQLSTATE\[08S01\]: errore del collegamento di comunicazione: 1047 WSREP_. Per un elenco degli errori derivanti da uno spazio su disco insufficiente di [!DNL MySQL], vedere [[!DNL MySQL] lo spazio su disco è insufficiente in Adobe Commerce nell&#39;infrastruttura cloud](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806).
 
 Se non si è sicuri di avere un problema di spazio su disco e si dispone di un account New Relic, passare alla [pagina Host di monitoraggio infrastruttura New Relic](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/). A questo punto, fare clic sulla scheda **Archiviazione**, modificare l&#39;elenco a discesa **Grafico mostra** da 5 a 20 risultati ed esaminare la tabella per l&#39;utilizzo su disco elevato nel grafico o nella tabella % utilizzata su disco. Per i passaggi più dettagliati, fare riferimento alla [scheda Monitoraggio infrastruttura New Relic > Archiviazione]https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#storage).
 
@@ -30,7 +30,7 @@ Se si verifica uno dei sintomi descritti in precedenza, controllare lo stato deg
 
 L’IUse% è > 90%?
 
-a. SÌ - La causa è un numero eccessivo di file. Rivedi i passaggi per rimuovere i file in modo sicuro in [Eliminare i file in modo sicuro quando lo spazio su disco è esaurito, Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26889). Procedi al [passaggio 2](#step-2) dopo aver completato questi passaggi. Per richiedere più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SÌ - La causa è un numero eccessivo di file. Rivedi i passaggi per rimuovere i file in modo sicuro in [Eliminare i file in modo sicuro quando lo spazio su disco è esaurito, Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Procedi al [passaggio 2](#step-2) dopo aver completato questi passaggi. Per richiedere più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO - Controllare lo spazio. Eseguire `df -h | grep mysql` e quindi `df -h | grep tmp` nella CLI/Terminal per verificare l&#39;utilizzo dello spazio su disco nelle directory `/tmp` e `/data/mysql`. Procedi al [passaggio 3](#step-3).
 
 +++
@@ -81,7 +81,7 @@ b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magent
 
 +++**Controlla valore predefinito**
 
-È possibile che la configurazione del database non sia più impostata sul valore predefinito originale. Trovare la configurazione tmpdir del database eseguendo in [!DNL MySQL] CLI: `SELECT @@DATADIR;`. Se viene eseguito l&#39;output di `/data/mysql/`, il tmpdir del database sta scrivendo in `/data/mysql/`. Prova ad aumentare lo spazio in questa directory seguendo la procedura descritta in [[!DNL MySQL] lo spazio su disco in Adobe Commerce è insufficiente nella nostra infrastruttura cloud](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md). Eseguire quindi `df -h | grep mysql` e `df -h | grep tmp` nell&#39;interfaccia CLI/Terminal per verificare l&#39;utilizzo dello spazio su disco in `/data/mysql` e `/tmp`.\
+È possibile che la configurazione del database non sia più impostata sul valore predefinito originale. Trovare la configurazione tmpdir del database eseguendo in [!DNL MySQL] CLI: `SELECT @@DATADIR;`. Se viene eseguito l&#39;output di `/data/mysql/`, il tmpdir del database sta scrivendo in `/data/mysql/`. Prova ad aumentare lo spazio in questa directory seguendo la procedura descritta in [[!DNL MySQL] lo spazio su disco in Adobe Commerce è insufficiente nella nostra infrastruttura cloud](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806). Eseguire quindi `df -h | grep mysql` e `df -h | grep tmp` nell&#39;interfaccia CLI/Terminal per verificare l&#39;utilizzo dello spazio su disco in `/data/mysql` e `/tmp`.\
   &lt; 70% utilizzato?
 
 a. SÌ - Il problema è stato risolto. \
@@ -93,4 +93,4 @@ b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magent
 
 ## Lettura correlata
 
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
