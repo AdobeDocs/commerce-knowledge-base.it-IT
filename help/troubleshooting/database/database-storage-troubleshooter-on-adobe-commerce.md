@@ -30,7 +30,7 @@ Se si verifica uno dei sintomi descritti in precedenza, controllare lo stato deg
 
 L’IUse% è > 90%?
 
-a. SÌ - La causa è un numero eccessivo di file. Rivedi i passaggi per rimuovere i file in modo sicuro in [Eliminare i file in modo sicuro quando lo spazio su disco è esaurito, Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889). Procedi al [passaggio 2](#step-2) dopo aver completato questi passaggi. Per richiedere più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
+a. SÌ - La causa è un numero eccessivo di file. Rivedi i passaggi per rimuovere i file in modo sicuro in [Eliminare i file in modo sicuro quando lo spazio su disco è esaurito, Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26889). Procedi al [passaggio 2](#step-2) dopo aver completato questi passaggi. Per richiedere più spazio, [invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).\
 b. NO - Controllare lo spazio. Eseguire `df -h | grep mysql` e quindi `df -h | grep tmp` nella CLI/Terminal per verificare l&#39;utilizzo dello spazio su disco nelle directory `/tmp` e `/data/mysql`. Procedi al [passaggio 3](#step-3).
 
 +++
@@ -93,4 +93,4 @@ b. NO - [Invia un ticket di supporto](/help/help-center-guide/help-center/magent
 
 ## Lettura correlata
 
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
