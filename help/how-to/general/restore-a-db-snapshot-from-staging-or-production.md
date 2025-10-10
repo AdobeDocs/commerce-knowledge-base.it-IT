@@ -17,7 +17,7 @@ In questo articolo viene illustrato come ripristinare un database [!DNL snapshot
 >[!NOTE]
 >
 >Questi metodi ripristineranno lo **snapshot completo**.
->>Se è necessario ripristinare lo snapshot **parzialmente**, ad esempio solo ripristinando le tabelle di catalogo senza modificare le tabelle dell&#39;ordine, è necessario consultare lo sviluppatore o il DBA.
+>&#x200B;>Se è necessario ripristinare lo snapshot **parzialmente**, ad esempio solo ripristinando le tabelle di catalogo senza modificare le tabelle dell&#39;ordine, è necessario consultare lo sviluppatore o il DBA.
 
 
 ## Prodotti e versioni interessati
