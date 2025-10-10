@@ -60,7 +60,7 @@ Se l’e-mail veniva visualizzata nella cartella Spam, l’autenticazione e-mail
 
 Se si utilizza il servizio SendGrid gestito da Adobe:
 
-[Invia un ticket di supporto](https://experienceleague.adobe.com/home?support-tab=home#support) richiedendo l&#39;autenticazione del dominio di invio (talvolta denominato *white-label*) con SendGrid.
+[Invia un ticket di supporto](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support) richiedendo l&#39;autenticazione del dominio di invio (talvolta denominato *white-label*) con SendGrid.
 Questo processo comporta l’aggiunta di record DNS (DKIM e SPF) per autorizzare SendGrid a inviare e-mail per conto del dominio, il che aumenta la probabilità che le e-mail vengano recapitate nella casella in entrata invece che nella cartella Spam.
 
 Se si utilizza un account SendGrid personalizzato:
@@ -74,4 +74,4 @@ Se si utilizza un account SendGrid personalizzato:
 
 ## Lettura correlata
 
-* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) nella documentazione per gli sviluppatori.
+* [SendGrid](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/project/sendgrid) nella documentazione per gli sviluppatori.
