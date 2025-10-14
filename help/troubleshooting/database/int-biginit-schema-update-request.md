@@ -111,7 +111,7 @@ Per eseguire questa operazione:
 
 ## Lettura correlata
 
-* [Indicazioni generali [!DNL MySQL] ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=it) nella Guida all&#39;installazione di Commerce
+* [Indicazioni generali [!DNL MySQL] &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=it) nella Guida all&#39;installazione di Commerce
 * [Il caricamento del database perde la connessione a  [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html?lang=it) nella Knowledge Base di supporto
 * [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=it) nella knowledge base per il supporto
 * [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=it) nella knowledge base di supporto

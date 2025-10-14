@@ -15,4 +15,4 @@ ht-degree: 0%
 
 Le API di United Postal Service (UPS) sono temporaneamente obsolete in quanto l’integrazione di Adobe Commerce con UPS non supporta attualmente il modello di sicurezza OAuth 2.0. Tuttavia, prevediamo di attivare il supporto per questo modello entro la fine del 2023. Questo non influisce sugli attuali commercianti con chiavi API generate, poiché UPS supporterà l’autenticazione tramite chiavi API fino al 3 giugno 2024. I commercianti senza chiavi generate non possono utilizzare la nostra integrazione, ma possono utilizzare un’integrazione esistente dal marketplace.
 
-Per ulteriori informazioni, consulta developer.ups.com: [Guida alla migrazione della chiave di accesso al portale per sviluppatori](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914).
+Per ulteriori informazioni, consulta developer.ups.com: [Guida alla migrazione della chiave di accesso al portale per sviluppatori](https://developer.ups.com/oauth-developer-guide?loc=en_US&sp_rid=NTA5MzQ1OTE2NjEyS0&sp_mid=72989914).

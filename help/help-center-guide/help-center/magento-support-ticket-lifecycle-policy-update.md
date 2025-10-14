@@ -48,6 +48,6 @@ I clienti possono riaprire un caso chiuso entro 14 giorni per continuare la comu
 ## Lettura correlata
 
 * [Invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [ Il collegamento &quot;Invia un ticket&quot; non è visualizzato nella pagina iniziale del Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
+* [&#x200B; Il collegamento &quot;Invia un ticket&quot; non è visualizzato nella pagina iniziale del Centro assistenza Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)
 * [Modulo di invio ticket: commerciante non visualizzato nel menu a discesa Organizzazione](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
 * [Panoramica dei piani di successo di Adobe: ciclo di vita del caso di supporto](https://experienceleague.adobe.com/it/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
