@@ -25,21 +25,21 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 >Prima di procedere con la configurazione del dominio, assicurati che:
 >
 >Tutti gli URL di base sono configurati per utilizzare HTTPS in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**, con ambito nella visualizzazione corretta del sito Web o dello store.
->&#x200B;> [Force TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996) is enabled to redirect all HTTP traffic to HTTPS in your Adobe Commerce site on cloud infrastructure (Forza TLS è abilitato per reindirizzare tutto il traffico HTTP a HTTPS nel sito di nell&#39;infrastruttura cloud).
+>&#x200B;> [Force TLS](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996) is enabled to redirect all HTTP traffic to HTTPS in your Adobe Commerce site on cloud infrastructure (Forza TLS è abilitato per reindirizzare tutto il traffico HTTP a HTTPS nel sito di nell&#39;infrastruttura cloud).
 
 ### Passaggio 1: si tratta di [!DNL Integration, Staging] o [!DNL Production environment]?
 
-* **[!DNL Integration]**: [!DNL Custom domains] non sono supportati. È necessario utilizzare questo metodo: [Configurare più siti Web o store: Configurare l&#39;installazione locale](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) nella guida utente.
+* **[!DNL Integration]**: [!DNL Custom domains] non sono supportati. È necessario utilizzare questo metodo: [Configurare più siti Web o store: Configurare l&#39;installazione locale](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=it#add-new-domains) nella guida utente.
 * **[!DNL Staging]**: Passare al **passaggio 2**.
 * **[!DNL Production]**: Passare a **Passaggio 3**.
 
 ### Passaggio 2 - [!DNL Staging environment]: si utilizza [!DNL Pro] o [!DNL Starter]?
 
-* **[!DNL Pro]**: **Invia una richiesta** per aggiungere il dominio a [!DNL Fastly, Nginx] e configurare [!DNL SSL certificate] (nonché [!DNL Sendgrid domain], se necessario). Una volta configurata, [aggiorna la [!DNL DNS] configurazione con [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+* **[!DNL Pro]**: **Invia una richiesta** per aggiungere il dominio a [!DNL Fastly, Nginx] e configurare [!DNL SSL certificate] (nonché [!DNL Sendgrid domain], se necessario). Una volta configurata, [aggiorna la [!DNL DNS] configurazione con [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#update-dns-configuration-with-development-settings).
 
 >[!NOTE]
 >
->Per l’architettura PRO, l’aggiunta di un nuovo dominio richiede l’invio di una richiesta di supporto ad Adobe Commerce. Anche se alcuni clienti possono essere in grado di configurare manualmente Fastly tramite Admin Console, questo si applica solo in casi limitati, come quando il dominio non è legato a un altro servizio o progetto Fastly. Tuttavia, la configurazione Nginx è sempre richiesta e questo passaggio deve essere gestito da Adobe. Per questo motivo, l&#39;approccio consigliato e più affidabile consiste nell&#39;inviare un [ticket di supporto](https://experienceleague.adobe.com/home?support-tab=home#support) e consentire ad Adobe di gestire l&#39;intero processo di configurazione del dominio.
+>Per l’architettura PRO, l’aggiunta di un nuovo dominio richiede l’invio di una richiesta di supporto ad Adobe Commerce. Anche se alcuni clienti possono essere in grado di configurare manualmente Fastly tramite Admin Console, questo si applica solo in casi limitati, come quando il dominio non è legato a un altro servizio o progetto Fastly. Tuttavia, la configurazione Nginx è sempre richiesta e questo passaggio deve essere gestito da Adobe. Per questo motivo, l&#39;approccio consigliato e più affidabile consiste nell&#39;inviare un [ticket di supporto](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support) e consentire ad Adobe di gestire l&#39;intero processo di configurazione del dominio.
 
 
 * **[!DNL Starter]**: [!DNL Custom domains] non sono supportati nell&#39;ambiente di staging.
@@ -50,7 +50,7 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 
 >[!NOTE]
 >
->È possibile aggiungere il nuovo [!DNL domain] a [!DNL Fastly] da solo aggiornando la configurazione in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) nella guida utente.
+>È possibile aggiungere il nuovo [!DNL domain] a [!DNL Fastly] da solo aggiornando la configurazione in [!DNL Admin] in **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=it#manage-domains) nella guida utente.
 >
 >
 >Se non riesci ad aggiungere il dominio, la causa potrebbe essere uno dei seguenti:
@@ -62,12 +62,12 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 
 ### Passaggio 4: [!DNL domain] è attivo?
 
-* **SÌ**: [Aggiorna la configurazione [!DNL DNS] con [!UICONTROL production] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings).
-* **NO**: [Aggiorna la  [!DNL DNS] configurazione con [!UICONTROL development] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings).
+* **SÌ**: [Aggiorna la configurazione [!DNL DNS] con [!UICONTROL production] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=it#update-dns-configuration-with-production-settings).
+* **NO**: [Aggiorna la  [!DNL DNS] configurazione con [!UICONTROL development] impostazioni](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#update-dns-configuration-with-development-settings).
 
 ### Passaggio 5: i reindirizzamenti di dominio sono configurati in `magento-vars.php`?
 
-Dopo aver configurato il dominio, è necessario [modificare le variabili](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables) nel file `magento-vars.php` per indirizzare il dominio all&#39;URL del sito Web o dello store appropriato.
+Dopo aver configurato il dominio, è necessario [modificare le variabili](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables) nel file `magento-vars.php` per indirizzare il dominio all&#39;URL del sito Web o dello store appropriato.
 
 ### Passaggio 6: la configurazione di [!DNL domain] è verificata?
 
@@ -159,11 +159,11 @@ Se sono stati aggiunti nuovi store, gruppi di store e siti Web in **[!UICONTROL 
 ]
 ```
 
-Ciò significa che in passato hai impostato [SCD sulla build](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build) eseguendo il comando `config:dump` nel pacchetto `ece-tools`.
+Ciò significa che in passato hai impostato [SCD sulla build](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build) eseguendo il comando `config:dump` nel pacchetto `ece-tools`.
 
 Se il nuovo archivio o sito Web creato non viene visualizzato nel file `app/etc/config.php`, eseguire nuovamente il comando per sincronizzare il file `config.php` con le modifiche apportate al database, quindi eseguire il commit del file `config.php` e ridistribuirlo. Questo consente di facilitare la distribuzione di contenuti statici per i nuovi store o siti Web nei percorsi di file appropriati.
 
 ## Lettura correlata
 
-* [Configura più siti Web o store: Aggiungi nuovo [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains) nella nostra guida utente.
-* [Sito non accessibile a causa del cloaking dell&#39;origine](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26856)
+* [Configura più siti Web o store: Aggiungi nuovo [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=it#add-new-domains) nella nostra guida utente.
+* [Sito non accessibile a causa del cloaking dell&#39;origine](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26856)
