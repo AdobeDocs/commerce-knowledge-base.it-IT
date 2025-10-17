@@ -21,7 +21,7 @@ Come definito nei [Termini e condizioni dei servizi di supporto Adobe Commerce](
 ## Criteri telefonici hotline per le notifiche P1
 
 * La hotline per le notifiche P1 è disponibile per segnalare problemi a livello di P1 (vedi la definizione dell’incidente P1 nella sezione precedente).
-* [Invia un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) prima di chiamare la hotline per le notifiche Adobe Commerce P1.
+* [Invia un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=it#submit-ticket) prima di chiamare la hotline per le notifiche Adobe Commerce P1.
 * Le indagini, la risoluzione dei problemi e la comunicazione si svolgono esclusivamente all’interno del ticket di supporto.
 * Aggiungi direttamente al ticket tutte le informazioni aggiuntive che potresti avere relative al problema, prima di chiamare.
 * Quando chiami, assicurati di avere il numero del biglietto.
