@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Best practice per la dimensione della cache del realpath](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [Ottimizzare i file CSS e JS in Adobe Commerce](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * Database {#database}
-      * [Aggiornamento Adobe Commerce 2.3.5: compatta in tabelle dinamiche](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [Aggiornamento Adobe Commerce 2.3.5: compatta in tabelle dinamiche](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=it)
       * [Procedure consigliate per l’utilizzo dei trigger](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=it)
       * [Best practice Adobe Commerce sull’infrastruttura cloud per la connessione slave MySQL](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+      * [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it)
    * Generale {#general}
       * [_isScopePrivate nei blocchi di contenuto privato rallenta le prestazioni di Adobe Commerce](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [Risoluzione dei problemi relativi alle best practice per Adobe Commerce sull’infrastruttura cloud](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [Procedure consigliate per le immagini in Adobe Commerce sull’infrastruttura cloud](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Best practice Adobe Commerce: eseguire azioni critiche in Admin](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Best practice Adobe Commerce: disabilita i rapporti se non utilizzi](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [Gli indicizzatori &quot;Aggiorna secondo pianificazione&quot; ottimizzano le prestazioni di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [Gli indicizzatori &quot;Aggiorna secondo pianificazione&quot; ottimizzano le prestazioni di Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=it)
       * [Best practice per le varianti di prodotto di Adobe Commerce](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Best practice Prestazioni di Adobe Commerce per il posizionamento degli ordini](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Best practice Adobe Commerce: abilitare l’elaborazione asincrona degli ordini](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
