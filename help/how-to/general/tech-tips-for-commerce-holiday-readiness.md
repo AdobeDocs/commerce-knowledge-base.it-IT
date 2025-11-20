@@ -5,9 +5,9 @@ description: Il PDF allegato fornisce suggerimenti su come preparare l’infrast
 feature: Cloud, Configuration, Paas, Logs, Iaas, Build, Best Practices
 role: Admin, Developer
 exl-id: b61955ba-bc52-42de-8a55-07c19bf42596
-source-git-commit: dccb8dde1666fa0c72c7c94cd94c82daddaadc54
+source-git-commit: 11890cde797ea7d2ecfa446b19288caa3d9130cc
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Suggerimenti tecnici per prepararsi alle feste con Commerce
 
 Il PDF allegato offre suggerimenti su come preparare l’infrastruttura per un traffico elevato, evitare tempi di inattività e ottimizzare le prestazioni durante le feste.
+
+Per ulteriori informazioni sulla preparazione dell&#39;organizzazione, dell&#39;infrastruttura e dei team per la stagione di picco, vedere la [Guida di preparazione alle vacanze unificate per le soluzioni Adobe DX](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 ## Prodotti e versioni interessati
 

@@ -4,9 +4,9 @@ description: Durante la stagione di picco delle vendite durante le festività (a
 exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
 feature: Cloud, Paas
 role: Admin
-source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
+source-git-commit: 9cd7eeb6af379fa94e234bb677b532051079995c
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 0%
 # Richieste di capacità di crescita in vacanza per Adobe Commerce sulla nostra infrastruttura cloud
 
 Durante la stagione di picco delle vendite durante le festività (approssimativamente da metà novembre a metà gennaio), Adobe consiglia a tutti i commercianti Adobe Commerce ospitati sulla nostra infrastruttura cloud di prepararsi per un aumento del traffico.
+
+Per un elenco di controllo completo e per più soluzioni e best practice per preparare i sistemi e i team per la stagione di picco, consulta la [Guida di preparazione alle feste unificate di Adobe DX](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 **Pianificazione e stima del traffico**
 
@@ -34,20 +36,20 @@ Per ogni richiesta di ridimensionamento sono disponibili le seguenti informazion
 
 **Richiesta capacità di sovraccarico**
 
-I commercianti Adobe Commerce nella nostra infrastruttura cloud che prevedono la necessità di una capacità aggiuntiva durante le feste devono [inviare un ticket per il supporto della capacità di sovraccarico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=it) tramite il nostro [Centro assistenza](/help/overview.md), indicando le date e le esigenze di capacità previste all&#39;interno del ticket. Tieni presente che per aumentare la capacità è necessario utilizzare la capacità di eccedenza concessa in licenza.
+I commercianti Adobe Commerce nella nostra infrastruttura cloud che prevedono la necessità di una capacità aggiuntiva durante le feste devono [inviare un ticket per il supporto della capacità di sovraccarico](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html) tramite il nostro [Centro assistenza](/help/overview.md), indicando le date e le esigenze di capacità previste all&#39;interno del ticket. Tieni presente che per aumentare la capacità è necessario utilizzare la capacità di eccedenza concessa in licenza.
 
 **Si consiglia di inviare questi biglietti con almeno 48 ore lavorative di anticipo rispetto al momento in cui è necessaria la capacità e inoltre di inviare le richieste per il periodo Black Friday / Cyber Monday il più in anticipo possibile, in quanto la capacità durante questo periodo è limitata.**
 
 
 **Ulteriori informazioni?**
 
-Hai bisogno di maggiori indicazioni per prepararti al traffico nelle stagioni di picco? I commercianti Adobe Commerce nella nostra infrastruttura cloud possono contattare il team dell’account Adobe per assistenza, strategia e suggerimenti di pianificazione per prepararsi per una stagione di picco di successo. È inoltre consigliabile consultare il [Blog di Magento](https://magento.com/blog) per suggerimenti di strategia per tutto l&#39;anno.
+Hai bisogno di maggiori indicazioni per prepararti al traffico nelle stagioni di picco? I commercianti Adobe Commerce nella nostra infrastruttura cloud possono contattare il proprio Account Team Adobe per assistenza, strategia e suggerimenti di pianificazione per prepararsi per una stagione di picco di successo. È inoltre consigliabile consultare il [blog di Magento](https://magento.com/blog) per suggerimenti di strategia per tutto l&#39;anno.
 
 ## Risorse sulla revisione della capacità
 
 Nella nostra knowledge base di supporto:
 
-* [Calcolo allocazione CPU per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=it)
-* [Verifica se è necessario eseguire l&#39;upsize per le istanze dell&#39;host per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=it)
-* [Verifica la configurazione della CPU dell&#39;host per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=it)
-* [Identificare e misurare le interruzioni per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=it)
+* [Calcolo allocazione CPU per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
+* [Verifica se è necessario eseguire l&#39;upsize per le istanze dell&#39;host per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
+* [Verifica la configurazione CPU dell&#39;host per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+* [Identificare e misurare le interruzioni per Adobe Commerce sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)
