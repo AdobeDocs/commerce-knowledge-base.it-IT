@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Il PDF allegato offre suggerimenti su come preparare l’infrastruttura per un traffico elevato, evitare tempi di inattività e ottimizzare le prestazioni durante le feste.
 
-Per ulteriori informazioni sulla preparazione dell&#39;organizzazione, dell&#39;infrastruttura e dei team per la stagione di picco, vedere la [Guida di preparazione alle vacanze unificate per le soluzioni Adobe DX](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness).
+Per ulteriori informazioni sulla preparazione dell&#39;organizzazione, dell&#39;infrastruttura e dei team per la stagione di picco, vedere la [Guida di preparazione alle vacanze unificate per le soluzioni Adobe DX](https://experienceleague.adobe.com/it/docs/support-resources/data-sheets/unified-holiday-readiness).
 
 ## Prodotti e versioni interessati
 
