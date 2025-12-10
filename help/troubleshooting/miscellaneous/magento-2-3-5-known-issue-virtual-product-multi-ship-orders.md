@@ -4,9 +4,9 @@ description: Questo articolo spiega un problema noto in Adobe Commerce 2.3.5 in 
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
+source-git-commit: 39e61a3fe8b75fb613819d89c7d47acdf1c384f6
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,6 @@ L&#39;ordine per il prodotto virtuale è vuoto.
 Una correzione sarà disponibile in Adobe Commerce 2.3.6, il cui rilascio è pianificato per il quarto trimestre del 2020.
 
 ## Lettura correlata
-
-Nella nostra knowledge base di supporto:
-
-* [Problema noto relativo al conteggio dei prodotti per azioni in blocco in Adobe Commerce 2.3.5](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 
 Nella documentazione per gli sviluppatori:
 
