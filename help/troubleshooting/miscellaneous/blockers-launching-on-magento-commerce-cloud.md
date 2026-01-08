@@ -4,7 +4,7 @@ description: Questo articolo fornisce una correzione per i blocchi da avviare su
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 878abfdc4353122d808929f4834930a16b953e24
+source-git-commit: d653957b94127e8b1d37a66c069a618f34ac5af9
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -23,26 +23,26 @@ Questo articolo fornisce una correzione per i blocchi da avviare sull’infrastr
 >
 >Con la cache a pagina intera abilitata (FPC), le prestazioni del sito web sono diverse; assicurati di verificarle prima di andare &quot;live&quot;.
 
-Il processo di configurazione Fastly è documentato in dettaglio nell&#39;argomento [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella nostra guida utente. Di seguito sono riportati i passaggi importanti.
+Il processo di configurazione Fastly è documentato in dettaglio nell&#39;argomento [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella nostra guida utente. Di seguito sono riportati i passaggi importanti.
 
 ### 1 bis. Verificare di avere installato la versione più recente del modulo Fastly
 
-Per ottenere le funzioni e i miglioramenti più recenti, accertati di aver installato la versione più recente del modulo Fastly. Per verificare se disponi della versione più recente di Fastly, controlla [Aggiorna il modulo Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#upgrade-the-fastly-module) nella nostra guida utente. Per ulteriori dettagli, consulta [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella nostra guida utente.
+Per ottenere le funzioni e i miglioramenti più recenti, accertati di aver installato la versione più recente del modulo Fastly. Per verificare se disponi della versione più recente di Fastly, controlla [Aggiorna il modulo Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upgrade-the-fastly-module) nella nostra guida utente. Per ulteriori dettagli, consulta [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella nostra guida utente.
 
 ### 1 ter. Abilitare e configurare Fastly tramite l’amministratore di Commerce
 
-Per ulteriori dettagli, consulta [Ottieni le tue credenziali Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#get-fastly-credentials) nella nostra guida utente.
+Per ulteriori dettagli, consulta [Ottieni le tue credenziali Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#get-fastly-credentials) nella nostra guida utente.
 
 ### 1 quater. Carica snippet VCL Fastly
 
-Per ulteriori dettagli, consulta [Caricare VCL in Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella nostra guida utente.
+Per ulteriori dettagli, consulta [Caricare VCL in Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella nostra guida utente.
 
-È inoltre possibile [creare e aggiungere snippet VCL personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=it).
+È inoltre possibile [creare e aggiungere snippet VCL personalizzati](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html).
 
 ### 1 quinquies. Configurare DNS per Fastly
 
 
-Consulta questo articolo per i passaggi dettagliati: [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it#update-dns-configuration-with-development-settings) nella nostra guida utente.
+Consulta questo articolo per i passaggi dettagliati: [Configura Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings) nella nostra guida utente.
 
 ## &#x200B;2. Certificato SSL (TLS) valido
 
@@ -63,9 +63,9 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 **Articoli correlati:**
 
-* [Reindirizza tramite route.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html?lang=it) nella guida utente.
-* [Reindirizzamenti tramite Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=it) nella guida utente.
-* [L&#39;URL riscrive](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html?lang=it) nella nostra guida utente.
+* [Reindirizza tramite route.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/redirects.html) nella guida utente.
+* [Reindirizzamenti tramite Cloud Console](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) nella guida utente.
+* [L&#39;URL riscrive](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite.html) nella nostra guida utente.
 
 ## &#x200B;4. Rendimento degli attivi
 
@@ -73,13 +73,13 @@ Problema: le risorse statiche vengono distribuite lentamente, pertanto le presta
 
 Consiglio: per identificare le possibili cause di prestazioni scadenti, utilizzare [Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit) per il test delle prestazioni. Puoi inoltre considerare questi strumenti di terze parti:
 
-* [Assedio](https://www.joedog.org/siege-home): utilità di benchmark e test di carico HTTP; supporta l&#39;autenticazione di base, i cookie, i protocolli HTTP, HTTPS e FTP.
+* [Assedio](https://www.joedog.org/siege): utilità di benchmark e test di carico HTTP; supporta l&#39;autenticazione di base, i cookie, i protocolli HTTP, HTTPS e FTP.
 * [Jmeter](https://jmeter.apache.org/): uno strumento affidabile per il test di carico e la misurazione delle prestazioni. Consente di misurare le prestazioni per il traffico con picchi di traffico, ad esempio per le vendite flash.
 * [New Relic](https://support.newrelic.com/): individua i processi e le aree del sito causando un rallentamento delle prestazioni con tempo di rilevamento trascorso per azione, come la trasmissione di dati, query, Redis e così via.
 * [WebPageTest](https://www.webpagetest.org/) (gratuito) e [PKingdom](https://www.pingdom.com/) (a pagamento): l&#39;analisi in tempo reale delle pagine del sito viene caricata con percorsi di origine diversi.
 
-Puoi anche prendere in considerazione [minimizzazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=it) per CSS, JavaScript e HTML.
+Puoi anche prendere in considerazione [minimizzazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) per CSS, JavaScript e HTML.
 
 **Articoli correlati:**
 
-* [Verifica distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html?lang=it) nella documentazione per gli sviluppatori.
+* [Verifica distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production.html) nella documentazione per gli sviluppatori.
