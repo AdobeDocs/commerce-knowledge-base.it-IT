@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: f619f3de2f2032ef0a79d9a001817458f22394e6
+source-git-commit: 466435b0f73d1fb26ce492c0063104b1dd932e2d
 workflow-type: tm+mt
-source-wordcount: '2576'
+source-wordcount: '2570'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 0%
       * [Passaggio a OpenSearch per Adobe Commerce su Cloud 2.4.4](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [Raccomandazioni di Adobe Commerce per le vulnerabilità PHP](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
       * [Il motore di ricerca del catalogo MySQL verrà rimosso in Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
-      * [API UPS obsolete](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
-      * [Pianificazione della versione 2024](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Supporto di Adobe Commerce per la migrazione dei processi di acquisizione ad Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * Notizie dell&#39;Help Center {#news}
       * [Disattivazione di Adobe Commerce Help Center](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
