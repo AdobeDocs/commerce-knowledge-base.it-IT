@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
+source-git-commit: d9d2382570c53d8da835d770dfae108fe64b31cc
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 0%
       * [La distribuzione non riesce La versione di Adobe Commerce non compatibile con il modulo Fastly](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [Errore di distribuzione: SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [Problemi di distribuzione relativi alle autorizzazioni dell’account e alle chiavi di accesso](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
-      * [Risoluzione dei problemi di distribuzione di Adobe Commerce](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [Errore durante la distribuzione durante l’aggiornamento alla versione che supporta PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [Errore di distribuzione: &quot;errore 7 durante il download della porta 443. Connessione rifiutata&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Errori di distribuzione durante il commit di file non corretti](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
