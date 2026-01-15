@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per un problema noto di Adob
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: 60f68b9edabd13a69e84705b85d84fd10ee6e2be
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,3 @@ Metodi di pagamento mancanti.
 * [Problema noto di Adobe Commerce 2.4.0: messaggio di errore durante la selezione del metodo di pagamento locale visualizzato per alcuni paesi durante l’acquisto](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
 * [L’amministratore B2B di Adobe Commerce 2.4.0 non può aggiungere un prodotto configurabile all’offerta](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Problema noto di Adobe Commerce 2.4.0: i metodi di pagamento di Braintree non vengono visualizzati nell’estrazione di più indirizzi](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Problema noto di Adobe Commerce 2.4.0: l’aggiornamento delle attività del cliente non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Problema noto di Adobe Commerce 2.4.0 - L’aliquota dell’imposta sull’esportazione non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Problema noto di Adobe Commerce 2.4.0: il pulsante &quot;Aggiungi selezioni al carrello&quot; non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)

@@ -4,9 +4,9 @@ description: Questo articolo parla di un problema noto in Commerce Admin quando 
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
 feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,4 @@ In questo articolo viene illustrato un problema noto in Commerce Admin durante l
 ## Consiglio
 
 Attualmente, non esiste una soluzione alternativa per questo problema con la modifica dei preventivi B2B, ma per la gestione degli ordini e del carrello acquisti è possibile selezionare i prodotti dall&#39;**elenco prodotti** invece di aggiungerli per **SKU**. Una patch per risolvere il problema sarà disponibile per Adobe Commerce 2.4.1, il cui rilascio è pianificato per il quarto trimestre del 2020.
-
-## Lettura correlata
-
-* [Problema noto di Adobe Commerce 2.4.0: l’aggiornamento delle attività del cliente non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Problema noto di Adobe Commerce 2.4.0: l’esportazione delle aliquote fiscali non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 

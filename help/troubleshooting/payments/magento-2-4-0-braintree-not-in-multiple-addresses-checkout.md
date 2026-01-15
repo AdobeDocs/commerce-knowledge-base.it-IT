@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione alternativa per un problema 
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,3 @@ Braintree non è disponibile come metodo di pagamento.
 ## Soluzione alternativa
 
 Non abilitare le opzioni con più indirizzi se si utilizza Braintree in Adobe Commerce 2.4.0. Questo problema è stato risolto in Adobe Commerce 2.4.1.
-
-## Lettura correlata nella knowledge base del supporto
-
-* [Problema noto di Adobe Commerce 2.4.0: l’aggiornamento delle attività del cliente non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Problema noto di Adobe Commerce 2.4.0 - L’aliquota dell’imposta sull’esportazione non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Problema noto di Adobe Commerce 2.4.0: il pulsante &quot;Aggiungi selezioni al carrello&quot; non funziona](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
