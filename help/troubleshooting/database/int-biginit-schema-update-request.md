@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Prima di implementare la soluzione in questo articolo (`INT` in `BIGINT` aggiornamento schema) i commercianti devono sempre verificare che il campo che stanno per modificare NON presenti relazioni di chiave esterna con un&#39;altra tabella. Se il campo ha relazioni di chiave esterna con un&#39;altra tabella, si verificheranno problemi perché il campo correlato è ancora `INT`. Per verificarlo, è possibile utilizzare la query seguente. Questa query elenca le relazioni di chiave esterna disponibili nel database per il campo di tabella specificato:
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM
@@ -111,7 +111,7 @@ Per eseguire questa operazione:
 
 ## Lettura correlata
 
-* [Indicazioni generali [!DNL MySQL] ](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) nella Guida all&#39;installazione di Commerce
+* [Indicazioni generali [!DNL MySQL] &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html) nella Guida all&#39;installazione di Commerce
 * [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html) nella knowledge base per il supporto
 * [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html) nella knowledge base di supporto
 * [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
