@@ -45,7 +45,7 @@ Il valore predefinito di 16 MB per l&#39;impostazione [!DNL MySQL] `max_allowed_
 
 ## Lettura correlata
 
-* [Panoramica sull&#39;installazione locale](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) nella documentazione per gli sviluppatori.
-* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) nella knowledge base di supporto.
-* [Best practice per risolvere i problemi di prestazioni del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) nella knowledge base di supporto.
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Panoramica sull&#39;installazione locale](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/overview) nella documentazione per gli sviluppatori.
+* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it) nella knowledge base di supporto.
+* [Best practice per risolvere i problemi di prestazioni del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=it) nella knowledge base di supporto.
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
