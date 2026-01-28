@@ -4,9 +4,9 @@ description: Questo articolo descrive un problema noto di Adobe Commerce 2.3.6, 
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 38b4d310cab9dccad142c244f6e07f8421a9894d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,3 @@ Impossibile accedere a dotdigital.
 ## Soluzione
 
 Soluzione alternativa: utilizza un browser alternativo a Safari per questa particolare situazione.
-
-## Lettura correlata
-
-[Problema noto di Adobe Commerce 2.4.1 - L&#39;indirizzo del vertice non viene convalidato con indirizzi di spedizione/fatturazione diversi](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) nella Knowledge Base del supporto tecnico.
