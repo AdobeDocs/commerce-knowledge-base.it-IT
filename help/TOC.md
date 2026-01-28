@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: e73894751543dcd1197cc0d20cfac61c44b3ecaa
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2396'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ ht-degree: 0%
       * [Guida alla risoluzione dei problemi relativi allo strumento Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [Problemi di verifica della preparazione delle autorizzazioni dei file](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
       * [Diagnosi delle discrepanze nei ricavi di Google eCommerce](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
-      * [Ho configurato le chiavi API per Sensei ma visualizzo un solo spazio dati SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
+      * [Ho configurato le chiavi API per l’intelligenza artificiale di Adobe ma visualizzo un solo spazio dati SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
       * [Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
       * [Archiviazione dei file bassa; il caricamento di pagine specifiche è lento](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
       * [Prestazioni lente a causa della reindicizzazione completa](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
