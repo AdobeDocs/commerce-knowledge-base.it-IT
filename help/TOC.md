@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 038d6e68093742a0ef7d6bd76996f416559ba5c0
+source-git-commit: db498cd9d256e542c7b2db7ee383c296f782800b
 workflow-type: tm+mt
-source-wordcount: '2286'
+source-wordcount: '2276'
 ht-degree: 0%
 
 ---
@@ -189,7 +189,6 @@ ht-degree: 0%
       * [Impossibile aggiungere l’utente al progetto cloud Adobe Commerce](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [Cron si arresta a causa di configurazione errata o mancante [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [Accesso [!DNL Admin] non funzionante - dimensione massima sessione consentita superata](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
-      * [Configurazione della connessione Adobe Commerce Intelligence per i progetti cloud starter esistenti](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager] è danneggiato dal widget Live Search](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
       * [Le vulnerabilità rilevate dalle scansioni di sicurezza di terze parti dovrebbero andare a  [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [Ottenere migliaia di risultati di ricerca dopo l’aggiornamento da 2.4.2 a 2.4.5-p3](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
