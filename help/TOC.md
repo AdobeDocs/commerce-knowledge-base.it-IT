@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: db498cd9d256e542c7b2db7ee383c296f782800b
+source-git-commit: 538514ebb9a262af74aa1304ea7d70aefcf08dbe
 workflow-type: tm+mt
-source-wordcount: '2276'
+source-wordcount: '2269'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,6 @@ ht-degree: 0%
       * [Diagnostica di una discrepanza di dati](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
       * [Notifiche e-mail di Admin 2FA non ricevute](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
       * [Reindirizza al modulo di accesso dell’amministratore di Commerce con l’errore &quot;La sessione corrente è scaduta&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
-      * [Redis: installazione dell&#39;errore di annullamento della serializzazione:static-content:distribuzione](/help/troubleshooting/miscellaneous/redis-unserialize-error-setup-static-content-deploy.md)
       * [Sito in modalità manutenzione, ma disponibile per i clienti](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
       * [lo sviluppo dell’origine git pull ha esito negativo durante l’aggiornamento del software Adobe Commerce](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
       * [Blocchi all’avvio su Adobe Commerce per l’infrastruttura cloud](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
@@ -156,7 +155,6 @@ ht-degree: 0%
       * [Risolvi un errore di offset non valido](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [Lo stato del prodotto non è corretto quando viene creato a livello di programmazione](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
       * [Gli aggiornamenti pianificati per la gestione temporanea dei contenuti non vengono visualizzati con la cache Fastly non aggiornata](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
-      * [Risolvere i problemi relativi a cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [Il file .csv dei prodotti esportati non viene visualizzato](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
       * [Verifica del registro di distribuzione se nell’interfaccia utente di Cloud è presente l’errore &quot;log snipped&quot;](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
       * [Download non riuscito a causa di modifiche nel Compositore](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
