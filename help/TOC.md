@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: eb9dce9eaf08283ff20d4a30b619e4c00207f551
+source-git-commit: a1ce42bcd018d2c9b9b40060c225a22112d878fc
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2257'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,6 @@ ht-degree: 0%
       * [Risolvere i problemi relativi alle prestazioni con New Relic su Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
       * [Controllo dell&#39;attacco DDoS da CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
       * [Errore di pagina vuota o ciclo di reindirizzamento durante l’accesso a storefront o Commerce Admin](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
-      * [Extension Manager non mostra estensioni in Adobe Commerce 2.3.x](/help/troubleshooting/miscellaneous/extension-manager-shows-no-extensions-in-magento-commerce-2-3-x.md)
       * [Reindirizzamento accesso quando si tenta di accedere ad Amministratore Commerce](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [Risolvi i problemi relativi alla chiave di crittografia](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [PWA Studio: le query di Venia GraphQL su Adobe Commerce generano errori di convalida](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
