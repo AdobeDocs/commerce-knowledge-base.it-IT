@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 538514ebb9a262af74aa1304ea7d70aefcf08dbe
+source-git-commit: eb9dce9eaf08283ff20d4a30b619e4c00207f551
 workflow-type: tm+mt
-source-wordcount: '2269'
+source-wordcount: '2266'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,6 @@ ht-degree: 0%
       * [Risoluzione dei problemi del modulo Consigli di prodotto in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
       * [Modulo sconosciuto Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
       * [Problemi relativi al controllo di preparazione al problema](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
-      * [Arresto anomalo del servizio Redis](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
       * [Query SQL: SPIEGARE GLI ERRORI RELATIVI AI COSTI](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [L’amministratore B2B di Adobe Commerce 2.4.0 non può aggiungere un prodotto configurabile all’offerta](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
       * [Risoluzione dei problemi relativi a New Relic su Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
