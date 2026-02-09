@@ -1,5 +1,5 @@
 ---
-title: esegui il problema 'setup:static-content:deploy` deployed_version.txt
+title: esegui il problema 'setup:static-content:deploy&grave; deployed_version.txt
 description: 'Questo articolo fornisce una correzione per "deployed_version.txt": errore non scrivibile quando si esegue manualmente il comando "setup:static-content:deploy".'
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
