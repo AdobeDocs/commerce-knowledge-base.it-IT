@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per i casi in cui i prodotti non
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ Ciascuno dei seguenti punti potrebbe risolvere il problema.
 
 ## Lettura correlata nella knowledge base del supporto
 
-* [Posizioni di registro (directory) per l’architettura Pro](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
-* [Posizioni di registro (directory) per l’architettura Starter](/help/how-to/general/log-locations-directories-for-starter-plan.md)
+[Posizioni di registro (directory) per l’architettura Pro](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
+

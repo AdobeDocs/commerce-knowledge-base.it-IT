@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 943a85cb94073190654ae8abd7315f3014c40170
+source-git-commit: ceea083458aef5f8d0fcabef66399046d0d2016b
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2234'
 ht-degree: 0%
 
 ---
@@ -220,8 +220,6 @@ ht-degree: 0%
    * [Video di formazione Adobe Commerce Intelligence: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [Fornisci lo sconto solo per il primo acquisto (nessun coupon)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [Ripristino dello stato precedente dell’ambiente senza snapshot cloud](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [Registra le posizioni (directory) per il piano iniziale](/help/how-to/general/log-locations-directories-for-starter-plan.md)
-   * [Riduzione dei tempi di inattività dell&#39;implementazione su Adobe Commerce su infrastruttura cloud](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)
    * [Come aggiungere un nuovo paese ad Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Personalizzare la configurazione del progetto in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [Aumento dello spazio su disco per l&#39;ambiente di integrazione nel cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
