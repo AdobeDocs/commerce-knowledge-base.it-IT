@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: ceea083458aef5f8d0fcabef66399046d0d2016b
+source-git-commit: 014b425a0db4b5824a1caf033318fe7fd74d9a92
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2226'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,6 @@ ht-degree: 0%
    * [Elenco di controllo per la configurazione di un nuovo [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Ripristinare uno snapshot del database da Gestione temporanea o Produzione](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: aggiorna metodo di pagamento o annulla abbonamento](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
-   * [Video di formazione Adobe Commerce Intelligence: SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [Fornisci lo sconto solo per il primo acquisto (nessun coupon)](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [Ripristino dello stato precedente dell’ambiente senza snapshot cloud](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Come aggiungere un nuovo paese ad Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
