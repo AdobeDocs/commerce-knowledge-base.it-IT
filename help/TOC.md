@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 950cbe6a4886f1f4f9f38250a46eb7f82bda73d4
+source-git-commit: 0e5465d2d3ef177f8d42f791f4652fc9139695fb
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2192'
 ht-degree: 0%
 
 ---
@@ -230,7 +230,6 @@ ht-degree: 0%
    * [Identificare e misurare le interruzioni per l’infrastruttura cloud di Adobe Commerce](/help/how-to/general/how-to-identify-outages.md)
    * [Cambia il proprietario dell&#39;account per New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Modificare l’URL amministratore su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [Abilita Elasticsearch su Cloud](/help/how-to/general/enable-elasticsearch-on-cloud.md)
    * [Configurare NPM per l&#39;utilizzo di PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [Riorganizzare i rami cloud in Adobe Commerce](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [Come trovare la documentazione del prodotto Adobe Commerce](/help/how-to/general/how-to-find-magento-product-documentation.md)
