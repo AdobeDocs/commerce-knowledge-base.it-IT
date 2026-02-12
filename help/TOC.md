@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 4c8bb0d63cd7826b24c2f6c85fbb9bb5982b2a35
+source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
 workflow-type: tm+mt
-source-wordcount: '2170'
+source-wordcount: '2140'
 ht-degree: 0%
 
 ---
@@ -211,16 +211,13 @@ ht-degree: 0%
    * [Guida utente al supporto Experience League per Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Procedura {#how-to}
    * [Panoramica sulle procedure](/help/how-to/overview.md)
-   * [Come includere un membro del team nelle notifiche di supporto](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
    * [Come ottenere e applicare patch di sicurezza](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Elenco di controllo per la configurazione di un nuovo [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Ripristinare uno snapshot del database da Gestione temporanea o Produzione](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: aggiorna metodo di pagamento o annulla abbonamento](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Ripristino dello stato precedente dell’ambiente senza snapshot cloud](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
-   * [Come aggiungere un nuovo paese ad Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Adobe Commerce su infrastruttura cloud: calcolo dell’allocazione CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Trova tabelle MySQL di grandi dimensioni](/help/how-to/general/find-large-mysql-tables.md)
-   * [Verifica dello spazio su disco tramite CLI in Adobe Commerce nell’ambiente dell’infrastruttura cloud](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [Ripristino manuale dei processi bloccati di Adobe Commerce sull’infrastruttura cloud cron](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Test rapido in produzione se un sito live utilizza lo stesso dominio](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [Opzioni di distribuzione dei contenuti statici per ridurre i tempi di inattività dell’implementazione su Cloud](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
