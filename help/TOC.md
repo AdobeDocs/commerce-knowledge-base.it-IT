@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 0e5465d2d3ef177f8d42f791f4652fc9139695fb
+source-git-commit: 888089e960017477364b3b3dae7e9cc5c69892ba
 workflow-type: tm+mt
-source-wordcount: '2192'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,6 @@ ht-degree: 0%
    * [Ripristino dello stato precedente dell’ambiente senza snapshot cloud](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Come aggiungere un nuovo paese ad Adobe Commerce](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [Personalizzare la configurazione del progetto in Commerce Admin](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
-   * [Aumento dello spazio su disco per l&#39;ambiente di integrazione nel cloud](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)
    * [Adobe Commerce su infrastruttura cloud: calcolo dell’allocazione CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Aggiornamento dei prezzi del catalogo condiviso tramite API REST](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [Trova tabelle MySQL di grandi dimensioni](/help/how-to/general/find-large-mysql-tables.md)
