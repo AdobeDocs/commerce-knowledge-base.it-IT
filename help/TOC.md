@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
+source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,6 @@ ht-degree: 0%
    * [Guida utente al supporto Experience League per Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * Procedura {#how-to}
    * [Panoramica sulle procedure](/help/how-to/overview.md)
-   * [Come ottenere e applicare patch di sicurezza](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [Elenco di controllo per la configurazione di un nuovo [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Ripristinare uno snapshot del database da Gestione temporanea o Produzione](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials: aggiorna metodo di pagamento o annulla abbonamento](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
@@ -220,7 +219,6 @@ ht-degree: 0%
    * [Trova tabelle MySQL di grandi dimensioni](/help/how-to/general/find-large-mysql-tables.md)
    * [Ripristino manuale dei processi bloccati di Adobe Commerce sull’infrastruttura cloud cron](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [Test rapido in produzione se un sito live utilizza lo stesso dominio](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-   * [Opzioni di distribuzione dei contenuti statici per ridurre i tempi di inattività dell’implementazione su Cloud](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
    * [Identificare e misurare le interruzioni per l’infrastruttura cloud di Adobe Commerce](/help/how-to/general/how-to-identify-outages.md)
    * [Cambia il proprietario dell&#39;account per New Relic on Cloud](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [Modificare l’URL amministratore su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/change-magento-admin-url-on-cloud.md)
