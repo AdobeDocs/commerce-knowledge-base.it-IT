@@ -4,9 +4,9 @@ description: Questo articolo fornisce soluzioni per i problemi relativi all'elab
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
@@ -41,14 +41,14 @@ Se il metodo di pagamento PayPal prevede l&#39;utilizzo di API con contratti di 
 
 Vedi i seguenti articoli:
 
-* [Richiesta rifiutata dal gateway PayPal - problema fattura duplicato](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26838) nella Knowledge Base del supporto tecnico.
+* [Richiesta rifiutata dal gateway PayPal - problema fattura duplicato](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) nella Knowledge Base del supporto tecnico.
 * [Modifica l&#39;ID incremento per la nuova entità dello store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) nella Knowledge Base di supporto.
 
 ## Contatta il supporto per raccogliere i registri di pagamento avanzato
 
 Per risolvere problemi di pagamento complessi, il team di supporto Adobe Commerce può richiedere l’applicazione di una patch dedicata per abilitare la registrazione avanzata dei pagamenti. In questo caso, i passaggi da seguire sono i seguenti:
 
-[Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) con i dettagli seguenti:
+[Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) con i dettagli seguenti:
 
 * Specifica il problema con il maggior numero di dettagli possibile.
 * Elencare i passaggi tentati da questo articolo, knowledge base e altre risorse. Includi tutti i risultati.
@@ -57,5 +57,5 @@ Per risolvere problemi di pagamento complessi, il team di supporto Adobe Commerc
 Se ricevi la patch Registrazione pagamenti avanzata:
 
 * Applichi il cerotto.
-* Raccogli i registri e allegali al [ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+* Raccogli i registri e allegali al [ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 * Attendi ulteriori raccomandazioni dal team di supporto Adobe Commerce.

@@ -3,9 +3,9 @@ title: 'Web Application Firewall (WAF) basato su Fastly: le domande frequenti'
 description: I Web Application Firewall (WAF) impediscono al traffico dannoso di entrare in siti e reti filtrando il traffico in base a una serie di regole di sicurezza. Il traffico che attiva una qualsiasi delle regole viene bloccato prima che possa danneggiare i siti o la rete.
 exl-id: d977ea68-7d8c-4863-b026-acdc25d8c430
 feature: Cache
-source-git-commit: f384ff9d5d8a8c5c5da20b582c02a2d783b32d7e
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1655'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ A ogni richiesta non memorizzata in cache viene introdotta una latenza stimata t
 
 ## I clienti possono creare e modificare blacklist IP per bloccare il traffico?
 
-Sì, i clienti possono abilitare il blocco per paese e l’elenco di controllo di accesso (ACL) dall’interfaccia utente di amministrazione di Adobe Commerce sull’infrastruttura cloud. Utilizza queste funzioni nei casi in cui desideri bloccare l’accesso per i visitatori provenienti da paesi specifici o da determinati IP o intervalli IP. Se desideri che i visitatori bloccati visualizzino una pagina personalizzata invece di un codice di errore, puoi creare una pagina di errore personalizzata caricando HTML nel menu Configurazione rapida. Consulta [Creare una pagina di errore/manutenzione personalizzata](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella documentazione per gli sviluppatori.
+Sì, i clienti possono abilitare il blocco per paese e l’elenco di controllo di accesso (ACL) dall’interfaccia utente di amministrazione di Adobe Commerce sull’infrastruttura cloud. Utilizza queste funzioni nei casi in cui desideri bloccare l’accesso per i visitatori provenienti da paesi specifici o da determinati IP o intervalli IP. Se desideri che i visitatori bloccati visualizzino una pagina personalizzata invece di un codice di errore, puoi creare una pagina di errore personalizzata caricando HTML nel menu Configurazione rapida. Consulta [Creare una pagina di errore/manutenzione personalizzata](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) nella documentazione per gli sviluppatori.
 
 ## Dove è possibile controllare lo stato operativo del servizio WAF?
 
@@ -118,7 +118,7 @@ Al momento, la gestione degli incidenti non è disponibile.
 
 Sebbene Adobe Commerce non disponga di un Centro operativo per la sicurezza, disponiamo di un processo operativo per la sicurezza che ci consente di utilizzare le risorse giuste per rispondere in tempo reale agli incidenti di sicurezza. Offriamo anche supporto 24/7/365 follow-the-sun.
 
-È inoltre possibile ricevere le notizie e gli aggiornamenti sulla sicurezza relativi ad Adobe Commerce dal [Centro sicurezza PC](https://helpx.adobe.com/it/security.html).
+È inoltre possibile ricevere le notizie e gli aggiornamenti sulla sicurezza relativi ad Adobe Commerce dal [Centro sicurezza PC](https://helpx.adobe.com/security.html).
 
 ## Quale supporto è disponibile?
 
@@ -132,7 +132,7 @@ Consulta i termini di [Cloud SLA](https://www.adobe.com/content/dam/cc/en/legal/
 
 ## Se WAF blocca il traffico legittimo o causa altri problemi, come posso ottenere aiuto?
 
-[Invia un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) presso il [Centro assistenza Adobe Commerce](https://support.magento.com). Indica che il ticket è correlato al servizio WAF e includi l’identificatore della richiesta (ID) bloccato.
+[Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) presso il [Centro assistenza Adobe Commerce](https://support.magento.com). Indica che il ticket è correlato al servizio WAF e includi l’identificatore della richiesta (ID) bloccato.
 
 Il sistema di ticket del supporto Adobe Commerce tiene traccia delle comunicazioni tra i tecnici del supporto e il personale di un cliente. Questo sistema fornisce una trascrizione con marca temporale delle comunicazioni e invia e-mail al cliente e al personale di Adobe Commerce man mano che i biglietti vengono aggiornati.
 
@@ -160,7 +160,7 @@ Nella tabella seguente sono riepilogati i canali di supporto e la disponibilità
 </tr>
 <tr>
 <td>Escalation di emergenza*</td>
-<td>Consulta l'articolo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=it">Hotline per le notifiche Adobe Commerce P1</a> per i numeri degli Stati Uniti e internazionali.</td>
+<td>Consulta l'articolo <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Hotline per le notifiche Adobe Commerce P1</a> per i numeri degli Stati Uniti e internazionali.</td>
 </tr>
 </tbody>
 </table>

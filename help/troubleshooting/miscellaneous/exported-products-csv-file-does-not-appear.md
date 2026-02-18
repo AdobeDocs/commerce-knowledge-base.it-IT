@@ -4,9 +4,9 @@ description: Questo articolo corregge il problema relativo al tentativo di espor
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -95,8 +95,8 @@ Per aggiungere il processo come processo cron, è necessario aggiungere la varia
 
 >[!TIP]
 >
->[I file YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it) fanno distinzione tra maiuscole e minuscole e non consentono tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
+>[I file YAML](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) fanno distinzione tra maiuscole e minuscole e non consentono tabulazioni. Fai attenzione a utilizzare un rientro coerente in tutto il file .magento.env.yaml, altrimenti la configurazione potrebbe non funzionare come previsto. Gli esempi nella documentazione e nel file di esempio utilizzano il rientro a due spazi. Utilizza il comando di convalida degli strumenti ece per controllare la configurazione.
 
 >[!NOTE]
 >
->Nei progetti Pro di Adobe Commerce su infrastrutture cloud, la funzione [auto-crons](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve essere abilitata nell&#39;infrastruttura Adobe Commerce su cloud prima di poter aggiungere processi cron personalizzati agli ambienti di staging e produzione utilizzando `.magento.app.yaml`. Se questa funzionalità non è abilitata, [crea un ticket di supporto](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per aggiungere il processo.
+>Nei progetti Pro di Adobe Commerce su infrastrutture cloud, la funzione [auto-crons](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab) deve essere abilitata nell&#39;infrastruttura Adobe Commerce su cloud prima di poter aggiungere processi cron personalizzati agli ambienti di staging e produzione utilizzando `.magento.app.yaml`. Se questa funzionalità non è abilitata, [crea un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per aggiungere il processo.

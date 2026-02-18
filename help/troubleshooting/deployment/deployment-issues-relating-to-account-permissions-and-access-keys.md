@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per i problemi relativi all�
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 feature: Deploy, Roles/Permissions
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -50,11 +50,11 @@ Se una distribuzione non è riuscita dopo che è stata apportata una modifica al
 
 ### Come disattivare il tasto di scelta
 
-Se non hai accesso all&#39;account [Commerce Marketplace](https://marketplace.magento.com/) associato alla chiave precedente, [contatta il supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per disabilitare la chiave.
+Se non hai accesso all&#39;account [Commerce Marketplace](https://marketplace.magento.com/) associato alla chiave precedente, [contatta il supporto Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per disabilitare la chiave.
 
 Se hai accesso all’account Marketplace associato alla vecchia chiave, procedi come segue per disabilitare la chiave:
 
-1. Accedi alla [Commerce Marketplace](https://marketplace.magento.com/) utilizzando le credenziali dell&#39;account precedente.
+1. Accedi a [Commerce Marketplace](https://marketplace.magento.com/) utilizzando le credenziali dell&#39;account precedente.
 1. Fai clic sul nome dell&#39;account in alto a destra della pagina e seleziona **Il mio profilo**.
 1. Fare clic su **Chiavi di accesso** nella scheda Marketplace.
 
@@ -64,4 +64,4 @@ Se hai accesso all’account Marketplace associato alla vecchia chiave, procedi 
 
 ## Lettura correlata
 
-* [Ottieni le chiavi di autenticazione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) nella documentazione per gli sviluppatori.
+* [Ottieni le chiavi di autenticazione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) nella documentazione per gli sviluppatori.

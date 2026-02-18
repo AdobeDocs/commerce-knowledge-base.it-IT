@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per il problema dell'infrast
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ In precedenza, nel nostro ambiente cloud, il server Jenkins veniva utilizzato pe
 
 ## Soluzione
 
-1. Contatta il [supporto Adobe Commerce](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) per abilitare [!DNL crons] gestito autonomamente.
+1. Contatta il [supporto Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per abilitare [!DNL crons] gestito autonomamente.
 1. Modificare il file `.magento.app.yaml` nella directory radice del codice per Adobe Commerce nel ramo [!DNL Git]. Aggiungi quanto segue:
 
    ```yaml
@@ -71,5 +71,5 @@ Per verificare se [!DNL cron] gestito in modo autonomo è abilitato, eseguire il
 
 ## Lettura correlata
 
-* [Configura [!DNL cron] processi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) nella documentazione per gli sviluppatori
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Configura [!DNL cron] processi](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) nella documentazione per gli sviluppatori
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

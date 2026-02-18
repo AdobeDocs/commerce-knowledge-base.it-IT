@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per gli errori di connession
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Il valore predefinito di 16 MB per l&#39;impostazione [!DNL MySQL] `max_allowed_
 ## Soluzione
 
 1. Identifica le query in cui le singole righe superano il limite `max_allowed_packet` corrente. Tali query devono essere riscritte per ridurre la quantità di dati restituiti. Per eseguire l&#39;operazione, è possibile ridurre il numero di colonne nell&#39;istruzione `SELECT` oppure scegliere un tipo di dati più piccolo per varie colonne come parte della struttura della tabella. Se si dispone di un account New Relic, utilizzare la [pagina Errori APM di New Relic](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors) e la [pagina Database APM di New Relic](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time) e i [registri New Relic](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management) per cercare le query rilevanti.
-1. Per una correzione rapida, è possibile richiedere temporaneamente un aumento delle dimensioni di `max_allowed_packet` quando si [invia un ticket](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket), a discrezione del team di progettazione clienti, poiché un valore troppo grande può causare errori di replica causando congestione della rete.
+1. Per una correzione rapida, è possibile richiedere temporaneamente un aumento delle dimensioni di `max_allowed_packet` quando si [invia un ticket](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket), a discrezione del team di progettazione clienti, poiché un valore troppo grande può causare errori di replica causando congestione della rete.
 1. Come best practice, è consigliabile eseguire il comando seguente nella CLI per alcune tabelle di database di grandi dimensioni:
 
    ```
@@ -45,7 +45,7 @@ Il valore predefinito di 16 MB per l&#39;impostazione [!DNL MySQL] `max_allowed_
 
 ## Lettura correlata
 
-* [Panoramica sull&#39;installazione locale](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/overview) nella documentazione per gli sviluppatori.
-* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it) nella knowledge base di supporto.
-* [Best practice per risolvere i problemi di prestazioni del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=it) nella knowledge base di supporto.
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Panoramica sull&#39;installazione locale](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview) nella documentazione per gli sviluppatori.
+* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) nella knowledge base di supporto.
+* [Best practice per risolvere i problemi di prestazioni del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html) nella knowledge base di supporto.
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
