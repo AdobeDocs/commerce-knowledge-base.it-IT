@@ -59,7 +59,7 @@ Gli stati seguenti possono essere visualizzati dai controlli:
 1. **Sconosciuto**: lo strumento Security Scan non contiene ancora dati sul dominio. Attendere il prossimo ciclo di sincronizzazione.
 1. **Non riuscito**: se lo stato non viene visualizzato, è necessario risolvere il problema (abilitare 2FA, cambiare l&#39;URL di amministrazione, ecc.) e attendere il successivo ciclo di sincronizzazione.
 
-Se sono trascorse 24 ore dalle modifiche apportate all&#39;istanza e non vengono riportate nel rapporto Security Scan, puoi [inviare un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide). Immetti l’URL dello store durante l’invio del ticket.
+Se sono trascorse 24 ore dalle modifiche apportate all&#39;istanza e non vengono riportate nel rapporto Security Scan, puoi [inviare un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide). Immetti l’URL dello store durante l’invio del ticket.
 
 ## Errore sospetto BotNet
 
@@ -77,7 +77,7 @@ Ricevi una notifica relativa al guasto &quot;BotNet Suspect&quot;.
 1. Controlla se sono stati creati nuovi account SSH, modifiche al file system e così via.
 1. Eseguire un&#39;analisi della protezione.
 1. Controlla la versione e l’aggiornamento di Adobe Commerce, soprattutto se è ancora in esecuzione Magento 1, che non è più supportato.
-1. Se il problema persiste, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) e fornisci l&#39;URL dell&#39;archivio.
+1. Se il problema persiste, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) e fornisci l&#39;URL dell&#39;archivio.
 
 ## Problema: errore di inserimento compromissione
 
@@ -90,7 +90,7 @@ Riceve un errore relativo a un errore di &quot;Iniezione compromessa&quot;.
 1. Eseguire la revisione delle modifiche alla configurazione del sistema, in particolare `HTML head` e `Miscellaneous HTML` personalizzati nei valori di sezione `footer`.
 1. Eseguire la revisione del codice e del database per individuare eventuali modifiche e segni di malware iniettato.
 
-Se nessuno dei problemi sopra descritti è utile, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) e fornisci l&#39;URL dell&#39;archivio e il messaggio di errore dal report.
+Se nessuno dei problemi sopra descritti è utile, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) e fornisci l&#39;URL dell&#39;archivio e il messaggio di errore dal report.
 
 ## Domande frequenti
 
@@ -104,7 +104,7 @@ Puoi generare i 10 rapporti precedenti dalla tua fine. Se sono necessari rapport
 
 ### Quali informazioni sono necessarie per inviare un ticket di supporto?
 
-Specifica il nome di dominio esattamente come è stato inviato per [analisi sicurezza](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Tieni presente che Cloud Project_ID non è richiesto per Adobe Commerce on-premise.
+Specifica il nome di dominio esattamente come è stato inviato per [analisi sicurezza](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26357), MAGEID e Cloud Project_ID. Tieni presente che Cloud Project_ID non è richiesto per Adobe Commerce on-premise.
 
 ### Cosa succede se rimuovo lo store dalla scansione dello strumento di scansione?
 

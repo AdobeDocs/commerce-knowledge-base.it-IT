@@ -34,13 +34,13 @@ Quando pianifichi il progetto Adobe Commerce su infrastruttura cloud, puoi speci
 
 Per elaborare il sottodominio all’interno del progetto di infrastruttura cloud di Adobe Commerce, segui la procedura riportata di seguito:
 
-* [Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) richiedendo di aggiungere il sottodominio alla configurazione Fastly Service/Nginx (per l&#39;architettura del piano Pro di Adobe Commerce on Cloud Infrastructure).
+* [Invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) richiedendo di aggiungere il sottodominio alla configurazione Fastly Service/Nginx (per l&#39;architettura del piano Pro di Adobe Commerce on Cloud Infrastructure).
 * Configura le impostazioni DNS corrispondenti sul tuo lato.
 
 Dopo aver eseguito i passaggi per la configurazione del sottodominio, devi eseguire anche questi passaggi per convalidare il dominio di produzione per il certificato SSL:
 
 * Carica il record TXT DNS per la convalida SSL del dominio di produzione.
-* [Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) richiedendo di convalidare il dominio di produzione per il certificato SSL.
+* [Invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) richiedendo di convalidare il dominio di produzione per il certificato SSL.
 
 L’utilizzo del sottodominio ti consente di eseguire un &quot;avvio morbido&quot; dello store in futuro, in quanto tale avvio richiede solo l’aggiornamento delle impostazioni DNS corrispondenti.
 
@@ -48,11 +48,11 @@ L’utilizzo del sottodominio ti consente di eseguire un &quot;avvio morbido&quo
 
 Nella nostra knowledge base di supporto:
 
-* [Configurare le impostazioni DNS veloci negli ambienti di staging e produzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [Imposta Fastly per il piano Starter sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [Potenziali blocchi per l&#39;avvio su Adobe Commerce nell&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [Configurare le impostazioni DNS veloci negli ambienti di staging e produzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=it)
+* [Imposta Fastly per il piano Starter sul cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=it)
+* [Potenziali blocchi per l&#39;avvio su Adobe Commerce nell&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=it)
 
 Nella documentazione per gli sviluppatori:
 
-* [Panoramica rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [Elenco di controllo pubblicazione: configurazioni DNS per Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Panoramica rapida](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=it)
+* [Elenco di controllo pubblicazione: configurazioni DNS per Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=it)

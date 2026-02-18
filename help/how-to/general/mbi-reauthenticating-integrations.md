@@ -16,7 +16,7 @@ Questo articolo fornisce soluzioni per autorizzare nuovamente un’integrazione 
 
 ## Integrazioni di database e SaaS
 
-Per gli elenchi delle integrazioni di Database e SaaS, consulta [Connessione di dati esterni tramite un&#39;integrazione](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) nella documentazione per gli sviluppatori. All’apertura della pagina, utilizza il sommario a sinistra per la navigazione.
+Per gli elenchi delle integrazioni di Database e SaaS, consulta [Connessione di dati esterni tramite un&#39;integrazione](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/analyze/saas/integrations) nella documentazione per gli sviluppatori. All’apertura della pagina, utilizza il sommario a sinistra per la navigazione.
 
 ## Problemi di connessione?
 
@@ -35,4 +35,4 @@ Lo stato di tutte le integrazioni si trova nella pagina Integrazioni ( **Gestisc
 
 Per autenticare di nuovo, potrebbe essere necessario immettere nuovamente le credenziali dell&#39;account. In alcuni casi, potrebbe essere necessario generare nuove chiavi API per l’integrazione del problema. Fai clic sul nome dell’integrazione del problema per avviare il processo di riautorizzazione.
 
-Se il problema persiste, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+Se il problema persiste, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).

@@ -42,7 +42,7 @@ Per risolvere il problema, aggiorna la versione del Compositore al 1.10.22:
 1. Questo aggiunge il requisito per la versione del pacchetto Compositore. Controllare il file di blocco - la versione `composer/composer` deve essere 1.0.22 o successiva.
 1. Eseguire il commit di `composer.json` e `composer.lock` e inviare una distribuzione push.
 
-Se questo metodo non funziona, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+Se questo metodo non funziona, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 
 ## Lettura correlata
 

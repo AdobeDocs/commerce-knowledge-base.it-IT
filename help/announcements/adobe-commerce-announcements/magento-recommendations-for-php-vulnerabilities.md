@@ -17,7 +17,7 @@ Il 3 settembre, il Multi-State Information Sharing and Analysis Center (MS-ISAC)
 
 >[!WARNING]
 >
->Sull’infrastruttura cloud Adobe Commerce on, tieni presente che gli aggiornamenti dei servizi non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico del supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi, 48 ore prima del momento in cui le modifiche devono essere in produzione [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) specificando l&#39;aggiornamento del servizio richiesto e indicando l&#39;ora in cui desideri avviare il processo di aggiornamento.
+>Sull’infrastruttura cloud Adobe Commerce on, tieni presente che gli aggiornamenti dei servizi non possono essere inviati all’ambiente di produzione senza un preavviso di 48 ore lavorative al nostro team di infrastruttura. Ciò è necessario in quanto è necessario disporre di un tecnico del supporto dell&#39;infrastruttura per aggiornare la configurazione entro l&#39;intervallo di tempo desiderato, riducendo al minimo i tempi di inattività dell&#39;ambiente di produzione. Quindi, 48 ore prima del momento in cui le modifiche devono essere in produzione [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) specificando l&#39;aggiornamento del servizio richiesto e indicando l&#39;ora in cui desideri avviare il processo di aggiornamento.
 
 Continua a leggere per conoscere l’impatto e i passaggi per i siti Adobe Commerce:
 
@@ -28,7 +28,7 @@ Se utilizzi Adobe Commerce su un’infrastruttura cloud, ti preghiamo di collabo
 Note aggiuntive sulla ridistribuzione del sito Cloud per questo aggiornamento:
 
 * Se il tuo sito utilizza ancora PHP versione 7.0, dovrai prima effettuare l’aggiornamento a una versione PHP supportata per poter usufruire di questi aggiornamenti di sicurezza.
-* Per 2.1.x/2.2.x, ulteriori informazioni sull&#39;aggiornamento del PHP sono disponibili [qui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html).
+* Per 2.1.x/2.2.x, ulteriori informazioni sull&#39;aggiornamento del PHP sono disponibili [qui](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=it).
 
 \* *Le versioni precedenti di questo articolo e della nostra messaggistica indicavano il 19 settembre, ma i nostri team hanno terminato il lavoro prima del previsto.*
 

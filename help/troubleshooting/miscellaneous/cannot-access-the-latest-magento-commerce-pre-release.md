@@ -40,7 +40,7 @@ Queste sono le cause più comuni dei problemi:
 
 Durante la fase di pre-release, i pacchetti di rilascio sono disponibili in due posizioni:
 
-1. Tramite Composer su [magento.com](https://repo.magento.com/) utilizzando l&#39;ID immagine principale per l&#39;account. Per ulteriori dettagli su come utilizzare Composer, consulta [Installare Adobe Commerce utilizzando Composer](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori.
+1. Tramite Composer su [magento.com](https://repo.magento.com/) utilizzando l&#39;ID immagine principale per l&#39;account. Per ulteriori dettagli su come utilizzare Composer, consulta [Installare Adobe Commerce utilizzando Composer](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer) nella documentazione per gli sviluppatori.
 1. **Il mio account** > **Download** su [account.magento.com](https://account.magento.com/customer/account/login).
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Per verificare se l&#39;ID immagine è primario, provare a eseguire le operazion
    * Se trovi le informazioni sulla licenza di Adobe Commerce, il tuo MageID è primario.
    * Se non visualizzi le informazioni sulla licenza di Adobe Commerce, il tuo MageID dispone solo dell’accesso condiviso. Per scoprire chi è il titolare dell&#39;ID primario, vai a **Condiviso con me** Notare il SHARENAME ivi specificato. Fare clic su **Cambia account** e selezionare il valore indicato in SHARENAME. Nella pagina di benvenuto viene visualizzata l’e-mail del titolare dell’ID primario.
 1. Se per qualsiasi motivo non riesci a trovare queste informazioni in [magento.com](https://account.magento.com/customer/account/login), contatta il tuo account team di Adobe.
-1. Se non funziona nessuno di questi, [contatta l&#39;assistenza](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Se non funziona nessuno di questi, [contatta l&#39;assistenza](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 **Per i partner**
 
@@ -71,8 +71,8 @@ Per verificare se l&#39;ID immagine è primario, provare a eseguire le operazion
    * Se vengono visualizzate le informazioni sulla licenza del partner attivo, il MageID è primario. La licenza Partner è attiva se il valore DATA FINE è una data futura.
    * Se non vengono visualizzate le informazioni sulla licenza del partner attivo, il tuo MageID ha solo accesso condiviso. Per scoprire chi è il titolare dell&#39;ID primario, vai a **Condiviso con me** Notare il SHARENAME ivi specificato. Fare clic su **Cambia account** e selezionare il valore indicato in SHARENAME. Nella pagina di benvenuto viene visualizzata l’e-mail del titolare dell’ID primario.
 1. Se per qualsiasi motivo non riesci a trovare queste informazioni in [magento.com](https://account.magento.com/customer/account/login), contatta il tuo Partner Manager.
-1. Se non funziona nessuno di questi, [сcontatta l&#39;assistenza](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
+1. Se non funziona nessuno di questi, [сcontatta l&#39;assistenza](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide).
 
 ### Non fa parte del programma pre-release
 
-Per essere inclusa nel programma di accesso pre-release, la tua organizzazione deve disporre di un account Adobe Commerce o Partner attivo e in buono stato. Se ritieni di soddisfare questi criteri e di non poter accedere al codice pre-release, [contatta l&#39;assistenza](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) con il tuo MageID.
+Per essere inclusa nel programma di accesso pre-release, la tua organizzazione deve disporre di un account Adobe Commerce o Partner attivo e in buono stato. Se ritieni di soddisfare questi criteri e di non poter accedere al codice pre-release, [contatta l&#39;assistenza](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) con il tuo MageID.
