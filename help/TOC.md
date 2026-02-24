@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 4d86db1115489e83e58d82464abed8fbd82fea25
+source-git-commit: 14dbbb4e661ea66c79a8532eaa8ea6cb5e45d0c0
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2091'
 ht-degree: 1%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 1%
    * [Ammortamento delle integrazioni di pagamento Adobe Commerce di base](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
    * [Posso installare applicazioni di terze parti nella mia istanza cloud?](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [Collegamento Magento.com e accessi account accounts.magento.cloud](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
-   * [Domande frequenti sull’abilitazione del cloaking dell’origine rapida](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
    * [Variabile di incremento auto_increment del database impostata su &quot;3&quot; Adobe Commerce nell’architettura cloud pro](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
    * [Accedere ai servizi New Relic](/help/faq/general/access-new-relic-services.md)
    * [Accessibilità dei contenuti web per Adobe Commerce](/help/faq/general/accessibility.md)
