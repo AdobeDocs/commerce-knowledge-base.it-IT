@@ -4,9 +4,9 @@ description: 'Questo articolo fornisce una soluzione per l’errore di distribuz
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: c005409900021a72d73c10a2df5f23be3f2bc2cf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,6 @@ Per verificare chi è un utente privilegiato nel progetto, consulta [Visualizzar
 
 ## Lettura consigliata
 
-* [Risoluzione dei problemi di distribuzione di Adobe Commerce](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
+* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
 * [Impossibile accedere all&#39;archivio Adobe Commerce sul cloud: errore 403 Non consentito o 404 Non trovato durante la distribuzione](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
 * [La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
