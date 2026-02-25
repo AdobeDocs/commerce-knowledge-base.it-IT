@@ -1,6 +1,6 @@
 ---
 title: 'PWA Studio: impossibile risolvere il sito .local.pwadev nel browser'
-description: Questo articolo fornisce una soluzione per i casi in cui un altro programma o processo ha modificato il [file host](https://en.wikipedia.org/wiki/Hosts_(file\) e rimosso la voce per il dominio del progetto.
+description: Questo articolo fornisce una soluzione per i casi in cui un altro programma o processo ha modificato il [file host] (https://en.wikipedia.org/wiki/Hosts_(file) e rimosso la voce per il dominio del progetto.
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration
 role: Developer
