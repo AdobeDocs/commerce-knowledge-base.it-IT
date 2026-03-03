@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: d1169e70188408f48207d9ca9b5a9ec3aaabeea0
+source-git-commit: 37d987f5eab3d229f0f3230c7da5a7a79c910dc4
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -162,7 +162,6 @@ ht-degree: 1%
       * [I profili cliente non vengono visualizzati in Experience Platform](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio: impossibile risolvere il sito .local.pwadev nel browser](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [Consigli di prodotto non visualizzati in Page Builder](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
-      * [Le richieste AJAX con throughput elevato causano prestazioni insoddisfacenti](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)
       * [PWA Studio: nel browser viene visualizzato l’errore &quot;Impossibile eseguire il proxy a&quot;](/help/troubleshooting/miscellaneous/pwa-studio-browser-displays-cannot-proxy-to-error.md)
       * [esegui il problema setup:static-content:deploy_version.txt](/help/troubleshooting/miscellaneous/run-setup-static-content-deploy-deployed-version-txt-issue.md)
       * [Reindirizza al modulo di accesso dell’amministratore di Commerce con l’errore &quot;L’account è temporaneamente disabilitato&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)
