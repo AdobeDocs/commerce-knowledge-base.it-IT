@@ -50,7 +50,7 @@ Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del 
 
 ### Ambiente di integrazione (sviluppo)
 
-* [Il backup dell&#39;ambiente di integrazione](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) non viene eseguito automaticamente ****, ma è possibile creare istantanee **manualmente**.
+* [Il backup dell&#39;ambiente di integrazione](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) non viene eseguito automaticamente **&#x200B;**, ma è possibile creare istantanee **manualmente**.
 * Puoi creare istantanee manuali per gli ambienti di integrazione su store non live.
 * Potresti avere **più snapshot** che sono stati attivati manualmente.
 * Uno snapshot attivato manualmente viene archiviato per 7 giorni. Se è necessario conservare un&#39;istantanea oltre il periodo di conservazione, copiarla in un&#39;altra cartella o in un server esterno entro tale periodo di tempo. Per ripristinare lo snapshot in una data successiva, seguire la stessa procedura descritta in [Importare il dump del database direttamente dal server](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/restore-a-db-snapshot-from-staging-or-production#meth3).
