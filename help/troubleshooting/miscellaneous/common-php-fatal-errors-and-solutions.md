@@ -4,7 +4,7 @@ description: Questo articolo elenca alcuni esempi rapidi di errore irreversibile
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8be0c125bb0417e34e016656337506da88796630
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ Ad esempio:
 
 `max_execution_time = 120`
 
-Consulta l&#39;articolo [Personalizzare le impostazioni php.ini](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
+Consulta l&#39;articolo [Personalizzare le impostazioni php.ini](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
 
 ## Esempio
 
@@ -35,7 +35,7 @@ Consulta l&#39;articolo [Personalizzare le impostazioni php.ini](https://experie
 
 ## Soluzione
 
-Personalizzare le impostazioni di `php.ini`. Consulta questo articolo [Personalizzare le impostazioni php.ini](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
+Personalizzare le impostazioni di `php.ini`. Consulta questo articolo [Personalizzare le impostazioni php.ini](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings).
 
 ## Esempio
 
@@ -55,7 +55,7 @@ Spazio su disco insufficiente nell&#39;ambiente MySQL. Fornire più spazio su di
 
 ## Esempio
 
-Errore irreversibile PHP *: TypeError non rilevato: valore restituito del Magento &#39;*
+Errore irreversibile PHP di *: TypeError non rilevato: valore restituito di Magento&#39;*
 
 ## Soluzione
 
@@ -65,9 +65,9 @@ Controllare la directory `<root>/tmp` perché è probabilmente piena. Se è pien
 
 Nella documentazione per gli sviluppatori:
 
-* [Errori impostazioni PHP](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [Impostazioni PHP richieste](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [Verifica Redis](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [Configura Redis](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [Errore limite memoria PHP](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [Soluzioni ai problemi comuni - Limite di memoria](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)
+* [Errori impostazioni PHP](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Impostazioni PHP richieste](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Verifica Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [Configura Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [Errore limite memoria PHP](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [Soluzioni ai problemi comuni - Limite di memoria](https://developer.adobe.com/commerce/testing/guide/unit/command-line#solutions-to-common-problems)

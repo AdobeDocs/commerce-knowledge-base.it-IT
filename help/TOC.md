@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 9ca39100b19808db467383433d5f6b58da3fc000
+source-git-commit: 8be0c125bb0417e34e016656337506da88796630
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '1978'
 ht-degree: 1%
 
 ---
@@ -130,7 +130,6 @@ ht-degree: 1%
       * [lo sviluppo dell’origine git pull ha esito negativo durante l’aggiornamento del software Adobe Commerce](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
       * [Blocchi all’avvio su Adobe Commerce per l’infrastruttura cloud](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
       * [Errori impostazioni PHP](/help/troubleshooting/miscellaneous/php-settings-errors.md)
-      * [Estensione PHP Mcrypt non installata correttamente](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Il processo Cron è bloccato nello stato &quot;in esecuzione&quot;](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
       * [Offload di reindirizzamenti non regex a Fastly anziché a Nginx (route)](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
       * [Errori irreversibili PHP comuni e soluzioni](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)

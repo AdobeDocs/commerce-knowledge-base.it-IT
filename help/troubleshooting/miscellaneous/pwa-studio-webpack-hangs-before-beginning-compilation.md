@@ -1,10 +1,10 @@
 ---
 title: 'PWA Studio: Webpack si blocca prima di iniziare la compilazione'
-description: In questo articolo viene illustrata una soluzione consigliata per l'interruzione prolungata di un codice JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
+description: In questo articolo viene illustrata una soluzione consigliata per l'interruzione prolungata di un codice JavaScript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio: Webpack si blocca prima di iniziare la compilazione
 
-In questo articolo viene illustrata una soluzione suggerita per la sospensione prolungata di un codice JavaScript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
+In questo articolo viene illustrata la soluzione suggerita per l&#39;interruzione prolungata di un javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack) prima di iniziare la compilazione in Progressive Web App Studio (PWA Studio).
 
 ## Prodotti e versioni interessati
 
@@ -37,7 +37,7 @@ progetto, il webpack potrebbe bloccarsi per molto tempo prima di iniziare la com
 
 <u>Passaggi da riprodurre</u>:
 
-<u>Prerequisiti</u>: configura una vetrina PWA Studi, ad esempio Venia, con un&#39;istanza Adobe Commerce locale ed esegui una
+<u>Prerequisiti</u>: configura una vetrina PWA Studio, ad esempio Venia, con un&#39;istanza Adobe Commerce locale ed esegui una
 
 ```yaml
 build
@@ -93,7 +93,7 @@ Puoi installare versioni successive di OpenSSL con [Homebrew](https://brew.sh/) 
 ## Lettura correlata
 
 * [Webpack JavaScript: Concetti](https://webpack.js.org/concepts/)
-* [Configurazione vetrina Venia](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [interfaccia della riga di comando buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [Strumenti e librerie: buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [Configurazione vetrina Venia](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [interfaccia della riga di comando buildpack](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [Strumenti e librerie: buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
