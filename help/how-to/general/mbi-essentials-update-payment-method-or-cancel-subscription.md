@@ -3,9 +3,9 @@ title: 'Adobe Commerce Intelligence Essentials: aggiorna metodo di pagamento o a
 description: In che modo i clienti idonei di Commerce Intelligence Essentials (standalone, mese per mese, fatturazione tramite account.magento.com) possono aggiornare il metodo di pagamento o annullare. Non si applica agli abbonamenti Pro, Cloud o basati su contratto o fatturati.
 exl-id: 45e95451-6d17-44c7-81d3-87f5876b5758
 feature: Commerce Intelligence
-source-git-commit: 7d304a492471168f456071a9a38134f465dbc88f
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Affinché i clienti Commerce Intelligence Essentials possano annullare i loro ab
 
 ## Lettura correlata
 
-* [Guida utente di Commerce Intelligence](/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [Guida utente di Commerce Intelligence](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)

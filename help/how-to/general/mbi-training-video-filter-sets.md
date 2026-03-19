@@ -1,11 +1,11 @@
 ---
-title: "Video di formazione su Adobe Commerce Intelligence: set di filtri"
+title: 'Video di formazione su Adobe Commerce Intelligence: Set di filtri'
 description: Si desidera analizzare solo alcuni dati aziendali? Stanco di pulire manualmente le cose? In Adobe Commerce Intelligence, puoi utilizzare la funzione set di filtri per semplificare questo processo.
 exl-id: 2756f1f0-1465-4a7b-b249-7a3b36674e43
 feature: Commerce Intelligence
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,6 @@ Questo video illustra:
 * Applicare un set di filtri a una metrica
 * Applicare un set di filtri a una dimensione dati calcolata
 
-Per guardare il video, vai a [Commerce Intelligence - Set di filtri](/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
+Per guardare il video, vai a [Commerce Intelligence - Set di filtri](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
 
-**Continuare?** Consulta il [tutorial Creazione di set di filtri per le metriche](/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) per istruzioni scritte.
+**Continuare?** Consulta il [tutorial Creazione di set di filtri per le metriche](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) per istruzioni scritte.

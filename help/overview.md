@@ -4,7 +4,7 @@ description: Tutto ciò che è necessario sapere per risolvere i problemi e gest
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+source-git-commit: 984562f30789ee4cea1f6b43eb960545a71da35e
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ![Home page della Knowledge Base](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-Le informazioni contenute in questa Knowledge Base sono complementari a [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=it) e ad altre pubblicazioni Adobe Commerce. Descrive la risoluzione dei problemi e le best practice, gli annunci host, le risposte alle domande frequenti ed evidenzia scenari specifici che non sono stati menzionati (per qualsiasi motivo) nella documentazione ufficiale.
+Le informazioni contenute in questa Knowledge Base sono complementari a [Adobe Commerce Developer Documentation](https://developer.adobe.com/commerce/docs), [Adobe Commerce Merchant Guide](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) e ad altre pubblicazioni Adobe Commerce. Descrive la risoluzione dei problemi e le best practice, gli annunci host, le risposte alle domande frequenti ed evidenzia scenari specifici che non sono stati menzionati (per qualsiasi motivo) nella documentazione ufficiale.
 
 ## Cosa contiene la Knowledge Base?
 
@@ -28,7 +28,7 @@ Le informazioni contenute in questa Knowledge Base sono complementari a [Adobe C
 | [Strumenti di supporto](/help/support-tools/overview.md) | Migliora la tua esperienza nei negozi di e-commerce con i diversi strumenti di supporto forniti da Adobe Commerce. Forniamo best practice personalizzate, strumenti di diagnostica e monitoraggio e le informazioni più rilevanti sul tuo sito. |
 | [Annunci](/help/announcements/overview.md) | Ottieni aggiornamenti importanti dai team di Adobe Commerce. |
 | [Risoluzione dei problemi](/help/troubleshooting/overview.md) | Soluzioni e patch self-service dal team di supporto Adobe Commerce. |
-| [Guida utente del Centro assistenza](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) | Scopri come gestire i ticket di supporto, concedere l’accesso condiviso e sfogliare in modo efficace la Knowledge Base. |
+| [Guida utente del Centro assistenza](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide) | Scopri come gestire i ticket di supporto, concedere l’accesso condiviso e sfogliare in modo efficace la Knowledge Base. |
 | [Istruzioni](/help/how-to/overview.md) | Ricevi istruzioni dettagliate dal team di supporto Adobe Commerce. |
 | [Domande frequenti](/help/faq/overview.md) | Trova le domande frequenti su politiche, strategie e specifiche di Adobe Commerce relative alle funzioni di Adobe Commerce. |
 

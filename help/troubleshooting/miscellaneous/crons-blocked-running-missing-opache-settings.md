@@ -1,12 +1,12 @@
 ---
-title: Cron si arresta a causa di impostazioni non configurate o mancanti [!DNL OpCache]
+title: 'Cron si arresta a causa di impostazioni non configurate o mancanti [!DNL OpCache] '
 description: In questo articolo viene fornita una soluzione per i casi in cui i nodi smettono di funzionare a causa di impostazioni non configurate o mancanti [!DNL OpCache] .
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Il cron smise di funzionare.
 
 ## Causa
 
-Il modulo [!DNL OpCache] è stato aggiornato a una versione più recente che ha introdotto un plug-in [!DNL GraphQL] che riscrive `env.php` in fase di esecuzione e potrebbe ignorare l&#39;impostazione cron, causando probabilmente il problema. È necessario aggiornare la configurazione di [!DNL OpCache] per evitare problemi con `env.php file` che sono stati risolti nella [versione 2002.1.13](/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) del pacchetto [!DNL ECE Tools].
+Il modulo [!DNL OpCache] è stato aggiornato a una versione più recente che ha introdotto un plug-in [!DNL GraphQL] che riscrive `env.php` in fase di esecuzione e potrebbe ignorare l&#39;impostazione cron, causando probabilmente il problema. È necessario aggiornare la configurazione di [!DNL OpCache] per evitare problemi con `env.php file` che sono stati risolti nella [versione 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) del pacchetto [!DNL ECE Tools].
 
 ## Soluzione
 
@@ -56,6 +56,6 @@ Se questo file non è presente, aggiungi https://github.com/magento/magento-clou
 
 ## Lettura correlata
 
-* [Problemi relativi al controllo di preparazione al problema](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons, proprietà](/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Il processo Cron è bloccato nello stato &quot;in esecuzione&quot;](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Problemi relativi al controllo di conformità](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
+* [Proprietà Crons](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
+* [Il processo Cron è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
