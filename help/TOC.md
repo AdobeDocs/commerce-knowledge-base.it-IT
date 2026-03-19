@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: e669e0f092b009a124f728390f6fff24aadece15
+source-git-commit: 03cb143909535a2e615b87ac4bdff425fb667c97
 workflow-type: tm+mt
-source-wordcount: '1955'
+source-wordcount: '1945'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,6 @@ ht-degree: 1%
    * [Panoramica sulle procedure](/help/how-to/overview.md)
    * [Elenco di controllo per la configurazione di un nuovo [!DNL domain]](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [Ripristinare uno snapshot del database da Gestione temporanea o Produzione](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
-   * [Adobe Commerce Intelligence Essentials: aggiorna metodo di pagamento o annulla abbonamento](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [Ripristino dello stato precedente dell’ambiente senza snapshot cloud](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [Adobe Commerce su infrastruttura cloud: calcolo dell’allocazione CPU](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [Ripristino manuale dei processi bloccati di Adobe Commerce sull’infrastruttura cloud cron](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
