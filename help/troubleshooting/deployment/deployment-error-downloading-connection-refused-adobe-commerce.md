@@ -55,10 +55,10 @@ Chiedi a un utente privilegiato sul progetto di eseguire questo comando:
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-Per verificare chi è un utente privilegiato nel progetto, consulta [Visualizzare il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+Per verificare chi è un utente privilegiato nel progetto, consulta [Visualizzare il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it#view-a-user’s-project-role) nella Guida all&#39;infrastruttura di Commerce su Cloud.
 
 ## Lettura consigliata
 
-* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
-* [Impossibile accedere all&#39;archivio Adobe Commerce sul cloud: errore 403 Non consentito o 404 Non trovato durante la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-29640).
+* [Impossibile accedere all&#39;archivio Adobe Commerce sul cloud: errore 403 Non consentito o 404 Non trovato durante la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html?lang=it).
+* [La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html?lang=it).

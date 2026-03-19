@@ -21,6 +21,6 @@ Questo video illustra:
 * Applicare un set di filtri a una metrica
 * Applicare un set di filtri a una dimensione dati calcolata
 
-Per guardare il video, vai a [Commerce Intelligence - Set di filtri](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html) in Adobe Experience League.
+Per guardare il video, vai a [Commerce Intelligence - Set di filtri](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html?lang=it) in Adobe Experience League.
 
-**Continuare?** Consulta il [tutorial Creazione di set di filtri per le metriche](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html) per istruzioni scritte.
+**Continuare?** Consulta il [tutorial Creazione di set di filtri per le metriche](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html?lang=it) per istruzioni scritte.

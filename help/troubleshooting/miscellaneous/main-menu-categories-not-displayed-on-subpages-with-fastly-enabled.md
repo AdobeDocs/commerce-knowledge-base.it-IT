@@ -1,6 +1,6 @@
 ---
 title: Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato
-description: Questo articolo fornisce una correzione per quando il menu principale (o il [menu di navigazione superiore per le categorie](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) nella nostra guida utente) non viene visualizzato nella vetrina per le pagine secondarie (ad esempio, *blog/pagina*) quando Fastly o Varnish è abilitato.
+description: Questo articolo fornisce una correzione per quando il menu principale (o il [menu di navigazione superiore per le categorie](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=it) nella nostra guida utente) non viene visualizzato nella vetrina per le pagine secondarie (ad esempio, *blog/pagina*) quando Fastly o Varnish è abilitato.
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato
 
-Questo articolo fornisce una correzione per quando il menu principale (o il [menu di navigazione superiore per categorie](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) nella guida utente) non viene visualizzato in vetrina per le pagine secondarie (ad esempio, *blog/pagina*) quando Fastly o Varnish è abilitato.
+Questo articolo fornisce una correzione per quando il menu principale (o il [menu di navigazione superiore per categorie](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=it) nella guida utente) non viene visualizzato in vetrina per le pagine secondarie (ad esempio, *blog/pagina*) quando Fastly o Varnish è abilitato.
 
 **Causa:** il carattere `/` (barra) non consentito nel parametro *Chiave URL* della pagina (impostazioni di ottimizzazione motore di ricerca). Il carattere viene in genere aggiunto quando il percorso *URL* (con l&#39;intera posizione della pagina) viene erroneamente specificato al posto della *chiave URL*: ad esempio, *blog/pagina\_name* invece di solo *pagina\_name*.
 
@@ -27,7 +27,7 @@ Questo articolo fornisce una correzione per quando il menu principale (o il [men
 
 ## Problema
 
-Il menu principale (indicato anche come [menu di navigazione superiore categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html) nella guida utente) non viene visualizzato nella vetrina per le pagine secondarie quando sono abilitati i servizi Fastly o altri servizi basati su Vernice.
+Il menu principale (indicato anche come [menu di navigazione superiore categoria](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=it) nella guida utente) non viene visualizzato nella vetrina per le pagine secondarie quando sono abilitati i servizi Fastly o altri servizi basati su Vernice.
 
 ## Causa
 
@@ -57,10 +57,10 @@ Ai fini SEO sulle pagine dei prodotti, utilizza URL Rewrite (**Marketing** > **S
 
 Il parametro *Chiave URL* per SEO:
 
-* [Ottimizzazione motore di ricerca](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html)
-* [Aggiunta di una nuova pagina](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html)
+* [Ottimizzazione motore di ricerca](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html?lang=it)
+* [Aggiunta di una nuova pagina](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html?lang=it)
 
 Gerarchia pagine:
 
-* [Panoramica](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html)
-* [Aggiunta di un nodo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node)
+* [Panoramica](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=it)
+* [Aggiunta di un nodo](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=it#add-a-hierarchy-node)

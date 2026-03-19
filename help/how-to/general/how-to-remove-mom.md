@@ -12,5 +12,5 @@ ht-degree: 0%
 # Come rimuovere Magento Order Management (MOM)
 
 1. Disattivare l&#39;integrazione MOM seguendo la procedura descritta in [Disattivare o attivare l&#39;integrazione](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/#disable-or-enable-the-integration).
-1. Disattivare il modulo MOM seguendo la procedura descritta in [Moduli di disinstallazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html).
+1. Disattivare il modulo MOM seguendo la procedura descritta in [Moduli di disinstallazione](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall-modules.html?lang=it).
 1. Per l’estrazione dei dati dell’ordine completo, offriamo l’API. Per saperne di più, consulta [Archivio ordini](https://commerce-docs.github.io/oms-documentation-archive/specifications/#magento.sales.order_repository) nel nostro Adobe | Documentazione di Magento OMS, relativa alle informazioni sull&#39;ordine (order_repository). Utilizza la [sezione delle specifiche](https://commerce-docs.github.io/oms-documentation-archive/specifications/#services) nel nostro Adobe | Documentazione di Magento OMS per utilizzare altre API per estrarre diversi tipi di informazioni.

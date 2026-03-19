@@ -16,17 +16,17 @@ In questo articolo sono elencate le risorse ufficiali per la documentazione che 
 
 ## Adobe Commerce è pronto per il RGPD
 
-La [home page ufficiale](https://business.adobe.com/privacy/general-data-protection-regulation.html) per tutte le risorse RGPD di Adobe Commerce.
+La [home page ufficiale](https://business.adobe.com/it/privacy/general-data-protection-regulation.html) per tutte le risorse RGPD di Adobe Commerce.
 
 ## Dichiarazioni ufficiali di Adobe Commerce
 
-* [Regolamento generale sulla protezione dei dati (RGPD)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
-* [Conformità RGPD](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
+* [Regolamento generale sulla protezione dei dati (RGPD)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html?lang=it)
+* [Conformità RGPD](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html?lang=it)
 
 ## Conformità al RGPD nella documentazione per gli sviluppatori: Adobe Commerce 2.X e 1.X
 
-* [Riferimento informazioni personali cliente (versione 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-* [Riferimento informazioni personali cliente (versione 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+* [Riferimento informazioni personali cliente (versione 2.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=it)
+* [Riferimento informazioni personali cliente (versione 1.x)](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=it)
 
 Questi argomenti della documentazione per gli sviluppatori di Adobe Commerce forniscono diagrammi di flusso dei dati e informazioni sul database che consentono ai commercianti e agli integratori di sistemi di risolvere casi di utilizzo simili ai seguenti:
 
