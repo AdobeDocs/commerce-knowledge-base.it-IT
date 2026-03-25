@@ -54,7 +54,7 @@ Per risolvere il problema della versione 2.3.7-p1, Adobe Commerce (tutti i metod
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita da Magento](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Magento](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
 
 ## Lettura correlata
 

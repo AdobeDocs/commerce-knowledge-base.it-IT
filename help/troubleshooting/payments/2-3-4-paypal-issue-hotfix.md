@@ -49,11 +49,11 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 Per gli esercenti locali di Adobe Commerce: applica l&#39;[hotfix,](https://magento.com/tech-resources/download#download2353) disponibile nella sezione Download del portale [magento.com](https://magento.com) nel mio account.
 
-Per i commercianti di infrastrutture cloud di Adobe Commerce: Adobe ha incluso la correzione nella versione 1.0.2 delle patch cloud per Commerce. Per istruzioni sull&#39;applicazione del pacchetto più recente, consulta le [note sulla versione delle patch cloud per Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) nella documentazione per gli sviluppatori.
+Per i commercianti di infrastrutture cloud di Adobe Commerce: Adobe ha incluso la correzione nella versione 1.0.2 delle patch cloud per Commerce. Per istruzioni sull&#39;applicazione del pacchetto più recente, consulta le [note sulla versione delle patch cloud per Commerce](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche) nella documentazione per gli sviluppatori.
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
 
 ## Lettura correlata
 

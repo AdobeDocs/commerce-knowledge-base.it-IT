@@ -65,12 +65,12 @@ Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic 
 
 <u>Correzione compositore </u>
 
-Per istruzioni sulla patch del compositore, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
+Per istruzioni sulla patch del compositore, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
 
 <u>Patch Git </u>
 
-* Per le istruzioni sulle patch Git per Adobe Commerce sull&#39;infrastruttura cloud, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
-* Per istruzioni sulla patch Git per Adobe Commerce, consulta [Applicazione delle patch: patch personalizzate](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) nella documentazione per gli sviluppatori.
+* Per le istruzioni sulle patch Git per Adobe Commerce sull&#39;infrastruttura cloud, consulta [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches) nella documentazione per gli sviluppatori.
+* Per istruzioni sulla patch Git per Adobe Commerce, consulta [Applicazione delle patch: patch personalizzate](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

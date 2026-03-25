@@ -38,7 +38,7 @@ L&#39;aggiornamento alla versione 1.5.2 del B2B non riesce e si verifica un erro
 
 <u>Passaggi da riprodurre</u>:
 
-1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
+1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
 1. Aggiornamento B2B alla versione 1.5.2.
 
 <u>Risultati previsti</u>:
@@ -64,7 +64,7 @@ Per risolvere il problema, effettua le seguenti operazioni:
    composer update magento/module-b2b
    ```
 
-1. Applica la patch [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) allegata. Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
+1. Applica la patch [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) allegata. Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
 1. Esegui `bin/magento setup:upgrade`.
 
 ### Applicare una patch utilizzando le patch cloud
@@ -78,4 +78,4 @@ Per l’infrastruttura Adobe Commerce on Cloud, segui i passaggi seguenti:
    composer update magento/magento-cloud-patches
    ```
 
-1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
+1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
