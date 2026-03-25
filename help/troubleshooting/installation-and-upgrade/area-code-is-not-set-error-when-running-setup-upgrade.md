@@ -4,9 +4,9 @@ description: Questo articolo fornisce una patch per il problema noto di Adobe Co
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 4617b915a62093e00da428a753d913a39d30f3a0
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Quando si esegue
 bin/magento setup:upgrade
 ```
 
-comando, viene visualizzato il seguente messaggio di errore: *&quot;Modulo &#39;Magento\_AdvancedSalesRule&#39;: Installazione dei dati...Codice area non impostato: è necessario impostare il codice area prima di avviare una sessione&quot;* e l&#39;esecuzione del comando viene interrotta. Il problema viene visualizzato perché la configurazione dell’area è richiesta prima dell’effettiva impostazione. La patch consente di rilevare l’errore e non di interrompere il processo di aggiornamento.
+comando, viene visualizzato il seguente messaggio di errore: *&quot;Modulo &#39;Magento\_AdvancedSalesRule&#39;: installazione dei dati...Codice di zona non impostato: è necessario impostare il codice di zona prima di avviare una sessione&quot;* e l&#39;esecuzione del comando viene interrotta. Il problema viene visualizzato perché la configurazione dell’area è richiesta prima dell’effettiva impostazione. La patch consente di rilevare l’errore e non di interrompere il processo di aggiornamento.
 
 ## Patch
 
@@ -51,6 +51,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
 
 ## File allegati

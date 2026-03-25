@@ -4,9 +4,9 @@ description: Questo articolo parla del problema in cui una patch appena applicat
 exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 feature: Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Per le versioni di Magento Open Source 1.X,
 
 ### Adobe Commerce on-premise, Magento Open Source, tutte le versioni 2.x
 
-Per le versioni on-premise e Magento Open Source 2.x di Adobe Commerce,
+Per le versioni on-premise di Adobe Commerce e Magento Open Source 2.x,
 
 1. Esegui il seguente comando SSH:
 
@@ -65,4 +65,4 @@ Per Adobe Commerce su infrastruttura cloud, tutte le versioni,
 
 ## Lettura correlata
 
-* [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) nella Knowledge Base di supporto.
+* [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.

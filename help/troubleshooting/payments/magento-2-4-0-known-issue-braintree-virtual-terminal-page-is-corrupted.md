@@ -1,19 +1,19 @@
 ---
-title: Pagina Braintree terminale virtuale Adobe Commerce 2.4.0 danneggiata
-description: Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0, in cui la pagina Braintree terminale virtuale non carica gli elementi dell’interfaccia utente corretti o un messaggio di errore corretto se Braintree non è configurato.
+title: Pagina Adobe Commerce 2.4.0 Braintree Virtual Terminal danneggiata
+description: Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0, in cui la pagina Braintree Virtual Terminal non carica gli elementi dell’interfaccia utente corretti o un messaggio di errore corretto se Braintree non è configurato.
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
 
-# Pagina Braintree terminale virtuale Adobe Commerce 2.4.0 danneggiata
+# Pagina Adobe Commerce 2.4.0 Braintree Virtual Terminal danneggiata
 
-Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0, in cui la pagina Braintree terminale virtuale non carica gli elementi dell’interfaccia utente corretti o un messaggio di errore corretto se Braintree non è configurato.
+Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0, in cui la pagina Braintree Virtual Terminal non carica gli elementi dell’interfaccia utente corretti o un messaggio di errore corretto se Braintree non è configurato.
 
 ## Prodotti e versioni interessati
 
@@ -26,29 +26,29 @@ Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0,
 
 <u>Passaggi da riprodurre:</u>
 
-In Commerce Admin, vai a **Vendite** > **Braintree terminale virtuale** . **&#x200B; &#x200B;**
+In Commerce Admin, vai a **Vendite** > **Braintree Virtual Terminal** . ** **
 
 <u>Risultato previsto:</u>
 
-La pagina **Braintree terminale virtuale** viene caricata con l&#39;interfaccia utente corretta.
+La pagina **Braintree Virtual Terminal** viene caricata con l&#39;interfaccia utente corretta.
 
 <u>Risultato effettivo:</u>
 
-L&#39;interfaccia utente della pagina **Braintree terminale virtuale** è interrotta.
+L&#39;interfaccia utente della pagina **Braintree Virtual Terminal** è interrotta.
 
 ### Scenario 2: il metodo di pagamento Braintree è configurato
 
 <u>Passaggi da riprodurre:</u>
 
-In Commerce Admin, vai a **Vendite** > **Braintree terminale virtuale** . **&#x200B; &#x200B;**
+In Commerce Admin, vai a **Vendite** > **Braintree Virtual Terminal** . ** **
 
 <u>Risultato previsto:</u>
 
-La pagina **Braintree terminale virtuale** viene caricata con l&#39;interfaccia utente corretta e viene visualizzato un avviso che informa che Braintree non è ancora configurato.
+La pagina **Braintree Virtual Terminal** viene caricata con l&#39;interfaccia utente corretta e viene visualizzato un avviso che informa che Braintree non è ancora configurato.
 
 <u>Risultato effettivo:</u>
 
-L&#39;interfaccia utente della pagina **Braintree terminale virtuale** è interrotta e non viene visualizzato alcun avviso.
+L&#39;interfaccia utente della pagina **Braintree Virtual Terminal** è interrotta e non viene visualizzato alcun avviso.
 
 ## Soluzione
 
@@ -69,6 +69,6 @@ La patch è stata creata per:
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita dall&#39;Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
 
 ## File allegati
