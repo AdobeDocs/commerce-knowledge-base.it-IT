@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
+source-git-commit: 1502ee72f4421f8fdec5c0e780f1f56423a2cce8
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1880'
 ht-degree: 1%
 
 ---
@@ -215,10 +215,8 @@ ht-degree: 1%
    * [Modifica l&#39;ID incremento per un&#39;entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare archivio](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [Ripristinare l’ambiente su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI: nuova autenticazione delle integrazioni](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [Posizioni di registro (directory) per il piano Pro: integrazione, gestione temporanea, produzione](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [Adobe Commerce on cloud: verifica se è necessario eseguire l’upsize per le istanze dell’host](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [Bootstrap Adobe Commerce 2 in uno script sandbox](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
-   * [Video di formazione su Adobe Commerce Intelligence: Set di filtri](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [Blocca il traffico dannoso per Adobe Commerce a livello Fastly](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [Modifica della password amministratore su Adobe Commerce nell’infrastruttura cloud](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [Visualizzazione del livello vCPU dell’ambiente nel cluster in Adobe Commerce](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
