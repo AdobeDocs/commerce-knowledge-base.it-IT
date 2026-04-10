@@ -5,18 +5,18 @@ source-wordcount: '401'
 ht-degree: 6%
 
 ---
-# articolo Contribute
+# Contribuisci articolo
 
-Apprezziamo i contributi della nostra community e dei dipendenti Adobi esterni ai team di documentazione.
+Apprezziamo i contributi della nostra community e dei dipendenti Adobe esterni ai team di documentazione.
 
 
 ## Codice di condotta di Adobe Open Source
 
 Questo progetto ha adottato il [Codice di condotta di Adobe Open Source](code-of-conduct.md) o il [Codice di condotta di .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Per ulteriori informazioni, consulta l’articolo [Contribuzione](contributing.md).
 
-## Informazioni sui contributi ai contenuti Adobe
+## Informazioni sui contributi ai contenuti di Adobe
 
-Consulta la [Guida collaboratore per i documenti di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
+Consulta la [Guida per i collaboratori per la documentazione di Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con cui desideri contribuire:
 
@@ -28,13 +28,13 @@ Le correzioni minori o i chiarimenti inviati per la documentazione e gli esempi 
 
 ### Modifiche sostanziali o nuovi articoli da parte dei membri della community
 
-Se fai parte della community di Adobi e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Issues (Problemi) nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Dopo aver concordato un piano, dovrai collaborare con un dipendente per coordinare la pubblicazione dei nuovi contenuti attraverso una combinazione di interventi negli archivi pubblici e privati.
+Se fai parte della community Adobe e desideri creare un nuovo articolo o inviare modifiche importanti, utilizza la scheda Issues (Problemi) nell’archivio Git per inviare una segnalazione e avviare una conversazione con il team addetto alla documentazione. Dopo aver concordato un piano, dovrai collaborare con un dipendente per coordinare la pubblicazione dei nuovi contenuti attraverso una combinazione di interventi negli archivi pubblici e privati.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Modifiche principali da dipendenti Adobe
+### Modifiche sostanziali apportate dai dipendenti Adobe
 
 Se sei un autore tecnico, un responsabile di programma o uno sviluppatore del team di prodotto per una soluzione Adobe Experience Cloud ed è tuo compito creare o contribuire ad articoli tecnici, devi utilizzare l&#39;archivio privato all&#39;indirizzo `https://git.corp.adobe.com/AdobeDocs`.
 
