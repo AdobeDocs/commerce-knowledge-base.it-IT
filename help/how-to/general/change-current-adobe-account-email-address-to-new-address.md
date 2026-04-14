@@ -3,9 +3,9 @@ title: Modifica l'indirizzo e-mail dell'account Adobe corrente
 description: Scopri come modificare l’indirizzo e-mail corrente registrato nell’account Adobe in un nuovo indirizzo attualmente non registrato nell’account Adobe o Magento.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 8d91d4c21dc981accf25537cdb61e1271e17b78c
+source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Dopo aver modificato l’indirizzo e-mail del tuo ID immagine, devi completare a
 
 ### Verifica e-mail Commerce Marketplace
 
-1. Accedi al tuo account Commerce Marketplace e verifica che l’e-mail dell’account sia stata aggiornata al nuovo indirizzo.
+1. Accedi al tuo [account Commerce Marketplace](https://commercemarketplace.adobe.com/) e verifica che l&#39;e-mail dell&#39;account sia stata aggiornata al nuovo indirizzo.
 1. Se l&#39;e-mail non è stata aggiornata, invia un [ticket di supporto](https://experienceleague.adobe.com/it/support#home) per richiedere la correzione dell&#39;e-mail dell&#39;account Commerce Marketplace.
 
 ### Chiedi al supporto di finalizzare gli aggiornamenti dell’account interno
