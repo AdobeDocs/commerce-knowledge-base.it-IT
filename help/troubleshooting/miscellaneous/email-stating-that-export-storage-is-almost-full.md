@@ -79,4 +79,4 @@ Segui questi passaggi per rivedere, pulire e convalidare l’utilizzo dello stor
 
 ## Lettura correlata
 
-[Controlla i cluster dedicati](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) nella knowledge base di supporto.
+[Controlla i cluster dedicati](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters) nella knowledge base di supporto.
