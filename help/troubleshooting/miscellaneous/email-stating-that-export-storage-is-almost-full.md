@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione al problema in cui si riceve
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 89f985b832545f1fbccf94aac1d60f1e767b5bc4
+source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,53 @@ Hai ricevuto un&#39;e-mail con il seguente contenuto ma non riesci a individuare
 
 ## Causa
 
-L&#39;e-mail fa riferimento all&#39;archivio **exports**, che corrisponde alla quantità di disco allocata ai file/supporti e non a una cartella specifica denominata *exports*.
+L&#39;avviso fa riferimento al file system di archiviazione delle esportazioni, ovvero il volume del disco in cui vengono memorizzati i supporti e altri dati di file. Questo file system viene in genere montato su `/data/exports`. L&#39;avviso non indica la presenza di una singola directory denominata letteralmente exports.
+
+Per confermare a cosa si riferisce l’avviso, controlla l’utilizzo dell’archiviazione per le esportazioni:
+
+* Eseguire `df -h | grep exports` e viene visualizzato il seguente output di esempio:
+
+  ```
+  /dev/nvme1n1 50G 38G 12G 77% /data/exports
+  tmpfs         7.7G 4.0K 7.7G  1% /data/exports/shared
+  ```
+
+* In questo esempio, `/data/exports` è il file system di esportazione principale:
+
+   * 50 GB in totale
+   * 38 GB utilizzati
+   * 12 GB disponibili (77% di utilizzo)
+
+* `/data/exports/shared` è un mount `tmpfs` (in memoria) utilizzato per i dati condivisi e non contribuisce in modo significativo alla pressione del disco.
+
+Ciò conferma che l&#39;avviso viene attivato dall&#39;utilizzo complessivo del disco di `/data/exports`, non da una singola cartella denominata exports.
+
+Se `/data/exports` mostra un utilizzo elevato, le directory di grandi dimensioni in questo file system, ad esempio pub/supporti o altri percorsi di file personalizzati, sono in genere responsabili di un maggiore utilizzo.
 
 ## Soluzione
 
-È necessario verificare l’utilizzo dei file nell’ambiente. Esegui questo comando per ottenere l’utilizzo esistente:
+Segui questi passaggi per rivedere, pulire e convalidare l’utilizzo dello storage per le esportazioni.
 
-`df -h |grep data`
+1. Eseguire il comando `df -h | grep exports` per verificare l&#39;utilizzo corrente del file system di archiviazione delle esportazioni. Rivedi la colonna **Use%** per `/data/exports`:
 
-I percorsi tipici in cui è probabile che l&#39;archiviazione dei file venga riempita sono le cartelle *pub/media/catalog/product/cache* o *var/log*. Per determinare lo spazio su disco utilizzato dai file, eseguire questo comando con il percorso appropriato */path/to/folder*:
+   * Se l&#39;utilizzo è del 70-85%, avvia la pianificazione della pulizia.
+   * Se l’utilizzo è superiore al 90%, intervieni immediatamente per evitare errori di scrittura o un impatto sul servizio.
 
-`du -shc` */path/to/folder*
+1. Identificare le directory che occupano molto spazio su disco in `/data/exports` eseguendo:
 
-Se l&#39;utilizzo del disco multimediale costituisce una percentuale elevata dello spazio totale su disco, è consigliabile abilitare [Fastly Deep Image Optimization](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization), quindi eliminare manualmente i file nella cartella *pub/media/catalog/product/cache* sul server.
+   ```bash
+   du -sh /data/exports/* 2>/dev/null
+   ```
+
+   I percorsi tipici in cui è probabile che l&#39;archiviazione dei file venga riempita sono `pub/media/catalog/product/cache` o `var/log` cartelle.
+
+1. Pulizia dei file in base all&#39;ambiente:
+
+   * Rimuovi prima i file di esportazione, i registri o i dati temporanei obsoleti o inutilizzati.
+   * In ambienti non di produzione, in genere è possibile rimuovere i supporti di test o gli artefatti obsoleti in modo più aggressivo.
+   * Negli ambienti di produzione, coordina con il tuo team prima di eliminare qualsiasi file multimediale o di importanza critica per l’azienda.
+
+1. Dopo la pulizia, eseguire il comando seguente `df -h | grep exports` per confermare che il valore **Use%** per `/data/exports` è stato ridotto a un livello operativo sicuro.
 
 ## Lettura correlata
 
