@@ -3,9 +3,9 @@ title: 'Backup (snapshot) su Cloud: domande frequenti'
 description: Questo articolo illustra le nozioni di base per il backup degli ambienti con istantanee su Adobe Commerce su infrastrutture cloud.
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 79e7cd40665b1857a9c68916679f07b1c046028a
+source-git-commit: 878a49fd1bbfa98dd506f0e81008ebe3bf7ecaca
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,14 @@ Questo articolo descrive il backup degli ambienti con istantanee sull’infrastr
 
 ## Snapshot dell&#39;ambiente, piano Pro
 
+### Preparazione per un aggiornamento
+
+Se è necessario eseguire il backup del database in preparazione di un aggiornamento, è necessario creare e convalidare il backup prima di procedere. Le istantanee di ripristino di emergenza sono destinate al ripristino del database solo se l&#39;aggiornamento non riesce e non in sostituzione dei backup di preparazione dell&#39;aggiornamento.
+
+Se un errore impedisce la creazione di un backup personalizzato, [contatta l&#39;assistenza](https://experienceleague.adobe.com/home?lang=it&support-tab=home#support) e includi i dettagli dell&#39;errore di backup nel ticket.
+
+Nota: uno snapshot di disaster recovery è un punto di ripristino del sistema acquisito in precedenza, non un backup creato manualmente per un aggiornamento pianificato e non può essere generato su richiesta. Se viene richiesta un&#39;istantanea, viene fornito il punto di ripristino disponibile più recente, pertanto eventuali modifiche apportate dopo tale punto potrebbero non essere recuperabili.
+
 ### Ambienti di staging e produzione
 
 * Le istantanee manuali non sono disponibili per gli ambienti di staging e produzione su piano Pro.
@@ -31,7 +39,7 @@ Puoi [inviare un ticket di supporto Adobe Commerce](https://experienceleague.ado
 
   Esempio di output:
 
-  <strong>2025-01-13 08:42:17,123000+00:00</strong>
+  <strong>2025-01-13 08:42:17.123000+00:00</strong>
 
 * Il montaggio sarà disponibile per 7 giorni e il periodo di conservazione non può essere esteso. Se è necessario conservare una copia istantanea oltre questo periodo di tempo, è necessario copiarla in una cartella diversa o in un server esterno entro tale periodo di tempo
 * Il supporto non genera snapshot manuali su richiesta. Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del database, poiché recupera lo snapshot, ma è necessario ripristinare il database manualmente.
@@ -58,7 +66,7 @@ Inoltre, il supporto non esegue automaticamente il rollback o il ripristino del 
 **Articoli correlati nella documentazione per gli sviluppatori:**
 
 * [Backup e disaster recovery](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Crea uno snapshot](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
+* [Creare un’istantanea](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
 
 ## Istantanea dell’ambiente, piano iniziale
 
