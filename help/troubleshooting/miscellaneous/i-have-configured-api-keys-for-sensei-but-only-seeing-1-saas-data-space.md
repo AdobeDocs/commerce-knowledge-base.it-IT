@@ -57,4 +57,4 @@ I clienti Magento Open Source che utilizzano Adobe Payment Services possono rich
 
 ## Lettura completata
 
-[Provisioning dello spazio dati SaaS](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
+[Provisioning dello spazio dati SaaS](https://experienceleague.adobe.com/it/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
