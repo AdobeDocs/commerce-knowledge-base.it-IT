@@ -17,7 +17,7 @@ Questo articolo fornisce una soluzione per risolvere i problemi di sincronizzazi
 
 ## Prodotti e versioni interessati
 
-Istanze di Adobe Commerce in cui il codice personalizzato è stato applicato alla funzionalità di esportazione dei dati (`commerce-data-exporter` o `saas-exporter`). L&#39;errore si verifica se la versione di [[!DNL SaaS] Esportazione dati installata è 103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) o successiva e il codice fa direttamente riferimento all&#39;indice `catalog_data_exporter_products`.
+Istanze di Adobe Commerce in cui il codice personalizzato è stato applicato alla funzionalità di esportazione dei dati (`commerce-data-exporter` o `saas-exporter`). L&#39;errore si verifica se la versione di [[!DNL SaaS] Esportazione dati installata è 103.3.0](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/saas-data-export/release-notes#release-6) o successiva e il codice fa direttamente riferimento all&#39;indice `catalog_data_exporter_products`.
 
 ## Problema
 
@@ -29,7 +29,7 @@ I commercianti potrebbero rilevare la mancanza di aggiornamenti dei dati dalle t
 
 ## Causa
 
-A causa delle modifiche dei nomi nelle tabelle di feed, negli indici e nelle tabelle di registro delle modifiche nella versione [!DNL Commerce Data Export] [versione 103.3.0](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes#release-9), le sottoscrizioni [!DNL Mview] nelle estensioni personalizzate che utilizzano le estensioni [!DNL Commerce Data Export] potrebbero non funzionare correttamente.
+A causa delle modifiche dei nomi nelle tabelle di feed, negli indici e nelle tabelle di registro delle modifiche nella versione [!DNL Commerce Data Export] [versione 103.3.0](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/saas-data-export/release-notes#release-9), le sottoscrizioni [!DNL Mview] nelle estensioni personalizzate che utilizzano le estensioni [!DNL Commerce Data Export] potrebbero non funzionare correttamente.
 
 In questo caso, l&#39;errore *tabella inesistente* si verifica perché il nome della tabella `catalog_data_exporter` è stato modificato in `cde_products_feed` e si dispone di codice personalizzato che fa riferimento al nome precedente nella sottoscrizione [!DNL Data Exporter Mview].
 
@@ -49,5 +49,5 @@ Nell&#39;esempio seguente viene illustrato il codice che specifica le tabelle tr
 
 ## Lettura correlata
 
-* [[!DNL SaaS] Note sulla versione dell&#39;estensione per l&#39;esportazione dei dati](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes) nella Guida all&#39;esportazione dei dati di Adobe Commerce per i servizi [!DNL SaaS]
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [[!DNL SaaS] Note sulla versione dell&#39;estensione per l&#39;esportazione dei dati](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/saas-data-export/release-notes) nella Guida all&#39;esportazione dei dati di Adobe Commerce per i servizi [!DNL SaaS]
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

@@ -63,4 +63,4 @@ Poiché si accede ad Admin tramite Microsoft, non è possibile accedere ad Admin
 $ bin/magento cache:enable
 ```
 
-Per ulteriori informazioni sull&#39;utilizzo della riga di comando, vedere [Introduzione alla configurazione della riga di comando](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli).
+Per ulteriori informazioni sull&#39;utilizzo della riga di comando, vedere [Introduzione alla configurazione della riga di comando](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/config-cli).
