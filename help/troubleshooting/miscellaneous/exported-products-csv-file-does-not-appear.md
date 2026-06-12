@@ -4,9 +4,9 @@ description: Questo articolo corregge il problema relativo al tentativo di espor
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ I dettagli di entrambe le opzioni sono riportati nei paragrafi seguenti.
 1. In Amministrazione, passa a **Archivi** > **Configurazione** > **Avanzate** > **Amministrazione** > **Sicurezza**.
 1. Imposta l&#39;opzione **Aggiungi chiave segreta agli URL** su *No.*
 1. Fai clic su **Salva configurazione**.
-1. Pulisci cache in **Sistema** > **Strumenti** > **Gestione cache** o eseguendo    ```bash    bin/magento cache:clean``` o nell&#39;amministratore.
+1. Pulisci la cache in **Sistema** > **Strumenti** > **Gestione cache** o eseguendo `bin/magento cache:clean` o nell&#39;amministratore.
 
 ### Esegui il comando di esportazione manualmente e, facoltativamente, aggiungilo come processo cron
 
@@ -74,7 +74,7 @@ Per aggiungere il processo come processo cron, è necessario aggiungere la varia
 #### Aggiungi processo come processo cron (facoltativo)
 
 1. Assicurati che il cron sia configurato e configurato. Per ulteriori informazioni, vedere [Configurare i processi cron](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=it).
-1. Esegui il comando seguente per restituire un elenco di consumer della coda di messaggi:     `./bin/magento queue:consumers:list`
+1. Eseguire il comando seguente per restituire un elenco di consumer della coda di messaggi: `./bin/magento queue:consumers:list`
 1. Aggiungere quanto segue al file `.magento.env.yaml` nella directory dell&#39;applicazione radice e includere i consumer che si desidera aggiungere. Ad esempio, ecco il consumatore necessario per l’elaborazione dell’esportazione:
 
    ```yaml

@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per risolvere i problemi di 
 feature: Data Import/Export, Saas, Logs
 role: Developer
 exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ In questo caso, l&#39;errore *tabella inesistente* si verifica perché il nome d
 
 ## Soluzione
 
-Nell&#39;estensione personalizzata, modificare il file di configurazione [!DNL Mview] (```./etc/mview.xml```) per modificare il nome della tabella `catalog_data_exporter_products` in *`cde_products_feed`*.
+Nell&#39;estensione personalizzata, modificare il file di configurazione [!DNL Mview] (`./etc/mview.xml`) per modificare il nome della tabella `catalog_data_exporter_products` in *`cde_products_feed`*.
 
 Nell&#39;esempio seguente viene illustrato il codice che specifica le tabelle tracciate dalla sottoscrizione [!DNL Mview]:
 

@@ -4,9 +4,9 @@ description: Questo articolo parla di un problema di indicizzazione comune in Ad
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 1536ad8672498cf36f3d28452762744e4ffcc5de
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,28 @@ Questo errore può verificarsi se l’indice precedente non è stato completato 
 
 ## Passaggi da riprodurre
 
-1. Ad esempio, supponiamo che il    ```bash    cataloginventory_stock ```    tipo di indice bloccato.
-1. Quando si tenta di reindicizzare tutti i dati eseguendo il comando CLI    ```bash    php bin/magento indexer:reindex    ```, si otterrà il seguente risultato:    ```bash    customer_grid index has been rebuilt successfully in 00:00:09    catalog_category_product index has been rebuilt successfully in 00:00:07    catalog_product_category index has been rebuilt successfully in 00:00:00    catalogrule_rule index has been rebuilt successfully in 00:00:05    catalog_product_attribute index has been rebuilt successfully in 00:00:04    cataloginventory_stock index is locked by another reindex process. Skipping.    catalog_product_price index has been rebuilt successfully in 00:00:01    catalogrule_product has been rebuilt successfully in 00:00:00    catalogsearch_fulltext index has been rebuilt successfully in 00:00:01    ```
-1. Come si può vedere sopra, il    ```bash    cataloginventory_stock```    il processo di indicizzazione è stato ignorato.
+1. Si supponga, ad esempio, che il tipo di indice `cataloginventory_stock` sia bloccato.
+1. Quando si tenta di reindicizzare tutti i dati eseguendo il comando CLI:
 
+   ```bash
+   php bin/magento indexer:reindex
+   ```
+
+   Otterrai il seguente risultato:
+
+   ```
+   customer_grid index has been rebuilt successfully in 00:00:09
+   catalog_category_product index has been rebuilt successfully in 00:00:07
+   catalog_product_category index has been rebuilt successfully in 00:00:00
+   catalogrule_rule index has been rebuilt successfully in 00:00:05
+   catalog_product_attribute index has been rebuilt successfully in 00:00:04
+   cataloginventory_stock index is locked by another reindex process. Skipping.
+   catalog_product_price index has been rebuilt successfully in 00:00:01
+   catalogrule_product has been rebuilt successfully in 00:00:00
+   catalogsearch_fulltext index has been rebuilt successfully in 00:00:01
+   ```
+
+1. Come si vede in precedenza, il processo di indicizzazione `cataloginventory_stock` è stato ignorato.
 
 ## Soluzione
 
@@ -68,7 +86,6 @@ bin/magento indexer:reset catalogrule_product;
 bin/magento indexer:reset catalogsearch_fulltext;
 ```
 
-
 ## Lettura correlata
 
 Nella nostra knowledge base di supporto:
@@ -81,8 +98,8 @@ Nella nostra guida utente:
 
 Nella documentazione per gli sviluppatori:
 
-* [Panoramica sull&#39;indicizzazione](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [Panoramica sull’indicizzazione](https://developer.adobe.com/commerce/php/development/components/indexing/)
 * [Best practice per gli indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-operations/performance-best-practices/configuration)
-* [Configura Ed Esegui Cron](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
-* [Gestione Degli Indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-indexers)
-* [Ottimizzazione indicizzatore](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+* [Configurare Ed Eseguire Cron](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [Gestire Gli Indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [Ottimizzazione dell&#39;indicizzatore](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)

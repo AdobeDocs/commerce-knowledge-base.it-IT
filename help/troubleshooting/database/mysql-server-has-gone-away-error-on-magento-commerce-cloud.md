@@ -4,9 +4,9 @@ description: Questo articolo parla della soluzione al problema per cui ricevi un
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -41,11 +41,11 @@ Il valore `default_socket_timeout` è impostato su un valore troppo basso. La ca
 
 ## Soluzione
 
-1. Controllare il periodo di timeout corrente per `default_socket_timeout` eseguendo in CLI:    ```    php -i |grep default_socket_timeout    ```
+1. Controllare il periodo di timeout corrente per `default_socket_timeout` eseguendo in CLI: `php -i |grep default_socket_timeout`
 1. A seconda dell&#39;aumento dell&#39;impostazione di timeout, la variabile `default_socket_timeout` raggiunge il tempo di esecuzione più lungo possibile previsto nel file `/etc/platform/<project_name>/php.ini`. Si consiglia di impostare un valore compreso tra 10 e 15 minuti.
 1. Esegui il commit in GIT e ridistribuiscilo.
 
 ## Lettura correlata
 
-* [Best practice per il database di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it)
-* [Problemi di database più comuni in Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=it)
+* [Best practice per il database di Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it)
+* [Problemi di database più comuni in Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=it)
