@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per i casi in cui Adobe Commerce
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: 08a241131453725a86eda5f267a209e6705da2e3
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -37,20 +37,20 @@ I sintomi di [!DNL cron] processi che devono essere reimpostati includono:
 
 Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] utilizzando il comando `cron:unlock`. Questo comando modifica lo stato del processo [!DNL cron] nel database, interrompendo il processo forzatamente per consentire la continuazione di altri processi pianificati.
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
-1. Ottenere le credenziali del database MySQL:    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
-1. Connettersi al database utilizzando `mysql`:    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
-1. Selezionare il database `main`:    ```shell    use main    ```
-1. Trova tutti i [!DNL cron] processi in esecuzione:    ```shell    SELECT * FROM cron_schedule WHERE status = 'running';    ```
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Ottenere le credenziali del database MySQL: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
+1. Connetti al database tramite `mysql`: `mysql -hdatabase.internal -uuser -ppassword main`
+1. Selezionare il database `main`: `use main`
+1. Trova tutti i [!DNL cron] processi in esecuzione: `SELECT * FROM cron_schedule WHERE status = 'running';`
 1. Copia `job_code` di qualsiasi processo in esecuzione più a lungo del solito.
-1. Utilizza gli ID pianificazione del passaggio precedente per sbloccare [!DNL cron] processi specifici:    ```shell    ./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]    ```
+1. Utilizza gli ID pianificazione del passaggio precedente per sbloccare [!DNL cron] processi specifici: `./vendor/bin/ece-tools cron:unlock --job-code=<job_code_1> [... --job-code=<job_code_x>]`
 
 ### Soluzione per arrestare un singolo [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Controllare le attività con tempi di esecuzione lunghi utilizzando il comando seguente:
 
-   ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```
+   `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`
 
 1. Nell’output, come nell’output di esempio riportato di seguito, verranno visualizzate la data corrente e l’elenco dei processi. La colonna `START` mostra l&#39;ora di inizio o la data del processo:
 
@@ -75,6 +75,6 @@ Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] util
 1. Se sono presenti [!DNL cron] processi in esecuzione da molto tempo che possono costituire il processo di distribuzione del blocco, è possibile terminare il processo utilizzando il comando `kill`. È possibile identificare l&#39;**ID processo** (trovata la colonna `PID`), quindi inserire `PID` nel comando per terminare il processo.
 Il comando **kill process** è:
 
-   ```kill -9 <PID>```
+   `kill -9 <PID>`
 
 1. Puoi quindi distribuirla nuovamente, se stavi tentando di distribuirla nuovamente.

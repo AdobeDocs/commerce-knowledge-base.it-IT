@@ -4,9 +4,9 @@ description: Questo articolo fornisce una soluzione per il problema quando un *f
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: d17af0f8f92726aa5a6914fc9e1ff13268256d04
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Adobe Commerce sull’infrastruttura cloud
 
 Hai impostato il **motore di ricerca** su **[!DNL OpenSearch]**, ma vedi questo tipo di errore nel file `var/log/support_report.log`:
 
-```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
+`[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []`
 
 <u>Passaggi da riprodurre</u>:
 
@@ -52,4 +52,4 @@ Aggiornare la variabile `SEARCH_CONFIGURATION` nel file `.magento.env.yaml` e ve
 
 ## Lettura correlata
 
-[Configura il servizio OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=it) nella guida Commerce su infrastruttura cloud.
+[Configura il servizio OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) nella guida Commerce su infrastruttura cloud.

@@ -4,9 +4,9 @@ description: In questo articolo vengono fornite soluzioni per la risoluzione del
 exl-id: 3f001cc9-b19a-4dee-bff0-fc8ba89e2646
 feature: Cache, Categories
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per risolvere il problema, aumentare il valore predefinito del parametro `http_r
    * Ubuntu: `/etc/default/varnish`
 1. Cerca il parametro `http_resp_hdr_len`.
 1. Se il parametro non esiste, aggiungerlo dopo `thread_pool_max`.
-1. Imposta `http_resp_hdr_len` su un valore uguale al numero di prodotti della categoria più grande moltiplicato per 21. (Ogni tag di prodotto è lungo circa 21 caratteri).    Ad esempio, l’impostazione del valore su 65536 byte dovrebbe funzionare se la categoria più grande dispone di 3.000 prodotti.    Ad esempio:    ```conf    -p http_resp_hdr_len=65536 \    ```
+1. Imposta `http_resp_hdr_len` su un valore uguale al numero di prodotti della categoria più grande moltiplicato per 21. (Ogni tag di prodotto è lungo circa 21 caratteri). Ad esempio, l’impostazione del valore su 65536 byte dovrebbe funzionare se la categoria più grande dispone di 3.000 prodotti. Esempio: `-p http_resp_hdr_len=65536 \`
 1. Imposta `http_resp_size` su un valore che tenga conto dell&#39;aumento della lunghezza dell&#39;intestazione di risposta.    Ad esempio, l&#39;utilizzo della somma dell&#39;aumento della lunghezza dell&#39;intestazione e della dimensione della risposta predefinita è un buon punto di partenza (ad esempio, 65536 + 32768 = 98304): `-p http_resp_size=98304`. Di seguito è riportato uno snippet:
 
    ```
@@ -63,4 +63,4 @@ Poiché si accede ad Admin tramite Microsoft, non è possibile accedere ad Admin
 $ bin/magento cache:enable
 ```
 
-Per ulteriori informazioni sull&#39;utilizzo della riga di comando, vedere [Introduzione alla configurazione della riga di comando](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/config-cli).
+Per ulteriori informazioni sull&#39;utilizzo della riga di comando, vedere [Introduzione alla configurazione della riga di comando](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli).
