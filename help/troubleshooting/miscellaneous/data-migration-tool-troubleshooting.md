@@ -83,7 +83,7 @@ Class <extension/class_name> is not mapped in record <attribute_id=196>
 
 ### Causa
 
-Impossibile trovare una classe da Adobe Commerce 1 codebase nella base di codice di Adobe Commerce 2 durante il [passaggio di migrazione EAV](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/basics/technical-specification) nella documentazione per gli sviluppatori. Nella maggior parte dei casi, la classe mancante appartiene a un&#39;estensione [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/glossary#extension).
+Impossibile trovare una classe da Adobe Commerce 1 codebase nella base di codice di Adobe Commerce 2 durante il [passaggio di migrazione EAV](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/data-migration/basics/technical-specification) nella documentazione per gli sviluppatori. Nella maggior parte dei casi, la classe mancante appartiene a un&#39;estensione [extension](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/glossary#extension).
 
 ### Soluzioni possibili
 
@@ -155,7 +155,7 @@ Deltalog for <TABLE_NAME> is not installed
 
 ### Causa
 
-Questo errore si verifica durante la [migrazione incrementale](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/delta) (nella documentazione per gli sviluppatori) delle modifiche ai dati. Ciò significa che non sono state trovate le tabelle di deltalog (con prefisso `m2_cl_*`) nel database di Adobe Commerce 1. Lo strumento installa queste tabelle durante la [migrazione dei dati](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/data-migration/migrate-data/data) (nella documentazione per gli sviluppatori), nonché i trigger del database che tengono traccia delle modifiche e riempiono le tabelle del catalogo.
+Questo errore si verifica durante la [migrazione incrementale](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/data-migration/migrate-data/delta) (nella documentazione per gli sviluppatori) delle modifiche ai dati. Ciò significa che non sono state trovate le tabelle di deltalog (con prefisso `m2_cl_*`) nel database di Adobe Commerce 1. Lo strumento installa queste tabelle durante la [migrazione dei dati](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/data-migration/migrate-data/data) (nella documentazione per gli sviluppatori), nonché i trigger del database che tengono traccia delle modifiche e riempiono le tabelle del catalogo.
 
 Uno dei motivi dell&#39;errore potrebbe essere che si sta tentando di eseguire la migrazione da una *copia* dell&#39;archivio Adobe Commerce 1 live, non dall&#39;archivio live stesso. Quando crei una copia da un archivio Adobe Commerce 1 live che non è mai stata migrata, la copia non contiene i trigger e le tabelle di dialogo aggiuntive necessarie per completare una migrazione delta, pertanto la migrazione non riesce. Lo strumento di migrazione dei dati NON effettua confronti tra il database di AC1 e AC2 per migrare le differenze. Per eseguire le migrazioni delta successive, lo strumento utilizza invece le tabelle triggers e deltalog installate durante la prima migrazione. In questo caso, la tua copia del database live di Adobe Commerce 1 non conterrà i trigger e le tabelle di deltalog utilizzati dallo strumento di migrazione dei dati per eseguire una migrazione.
 
@@ -165,5 +165,5 @@ Per risolvere i problemi di migrazione, è consigliabile eseguire il test del pr
 
 ## Lettura correlata
 
-[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
 
