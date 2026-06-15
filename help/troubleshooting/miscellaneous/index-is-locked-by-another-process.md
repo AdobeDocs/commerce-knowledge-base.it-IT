@@ -4,7 +4,7 @@ description: Questo articolo parla di un problema di indicizzazione comune in Ad
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: 1536ad8672498cf36f3d28452762744e4ffcc5de
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -103,3 +103,4 @@ Nella documentazione per gli sviluppatori:
 * [Configurare Ed Eseguire Cron](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
 * [Gestire Gli Indicizzatori](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-indexers)
 * [Ottimizzazione dell&#39;indicizzatore](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+

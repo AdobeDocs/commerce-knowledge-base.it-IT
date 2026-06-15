@@ -4,7 +4,7 @@ description: Questo articolo corregge il problema relativo al tentativo di espor
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -100,3 +100,4 @@ Per aggiungere il processo come processo cron, è necessario aggiungere la varia
 >[!NOTE]
 >
 >Nei progetti Pro di Adobe Commerce su infrastrutture cloud, la funzione [auto-crons](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=it#crontab) deve essere abilitata nell&#39;infrastruttura Adobe Commerce su cloud prima di poter aggiungere processi cron personalizzati agli ambienti di staging e produzione utilizzando `.magento.app.yaml`. Se questa funzionalità non è abilitata, [crea un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per aggiungere il processo.
+
