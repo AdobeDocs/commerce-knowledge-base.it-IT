@@ -4,7 +4,7 @@ description: Questo articolo fornisce soluzioni per i casi in cui Adobe Commerce
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -37,7 +37,7 @@ I sintomi di [!DNL cron] processi che devono essere reimpostati includono:
 
 Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] utilizzando il comando `cron:unlock`. Questo comando modifica lo stato del processo [!DNL cron] nel database, interrompendo il processo forzatamente per consentire la continuazione di altri processi pianificati.
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Ottenere le credenziali del database MySQL: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
 1. Connetti al database tramite `mysql`: `mysql -hdatabase.internal -uuser -ppassword main`
 1. Selezionare il database `main`: `use main`
@@ -47,7 +47,7 @@ Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] util
 
 ### Soluzione per arrestare un singolo [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Controllare le attività con tempi di esecuzione lunghi utilizzando il comando seguente:
 
    `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`
@@ -78,3 +78,4 @@ Il comando **kill process** è:
    `kill -9 <PID>`
 
 1. Puoi quindi distribuirla nuovamente, se stavi tentando di distribuirla nuovamente.
+
