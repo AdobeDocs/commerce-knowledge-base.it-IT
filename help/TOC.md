@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 5cb7550f95d48b89fc0d68c5e282bc3efe817f17
+source-git-commit: dd7e3fe0f0d7e65fefc20c46db52581b14986f64
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1790'
 ht-degree: 1%
 
 ---
@@ -185,7 +185,6 @@ ht-degree: 1%
       * [Errore durante la distribuzione durante l’aggiornamento alla versione che supporta PHP 8.1](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [Errore di distribuzione: &quot;errore 7 durante il download della porta 443. Connessione rifiutata&quot;](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [Errori di distribuzione durante il commit di file non corretti](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
-      * [Patch non trovata durante la distribuzione o l&#39;applicazione manuale](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
       * [Distribuzione non riuscita durante lo svuotamento della cache: errore &quot;Nessun comando definito nello spazio dei nomi &#39;cache&#39;&quot;](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
    * Problemi noti {#known-issues-patches-attached}
       * [Indicazioni sulla protezione dell&#39;archivio e sulla rotazione delle chiavi di crittografia: [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
