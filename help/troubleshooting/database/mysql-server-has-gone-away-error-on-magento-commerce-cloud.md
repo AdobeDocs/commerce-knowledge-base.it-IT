@@ -4,9 +4,9 @@ description: Questo articolo parla della soluzione al problema per cui ricevi un
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+source-git-commit: 467d214d25b2154af0545054a026a588de883f58
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ Il valore `default_socket_timeout` è impostato su un valore troppo basso. La ca
 
 ## Soluzione
 
+1. Controllare il periodo di timeout corrente per `default_socket_timeout` eseguendo in CLI: `php -i |grep default_socket_timeout`.
 1. Controllare il periodo di timeout corrente per `default_socket_timeout` eseguendo in CLI: `php -i |grep default_socket_timeout`
 1. A seconda dell&#39;aumento dell&#39;impostazione di timeout, la variabile `default_socket_timeout` raggiunge il tempo di esecuzione più lungo possibile previsto nel file `/etc/platform/<project_name>/php.ini`. Si consiglia di impostare un valore compreso tra 10 e 15 minuti.
 1. Esegui il commit in GIT e ridistribuiscilo.
 
 ## Lettura correlata
 
-* [Best practice per il database di Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it)
-* [Problemi di database più comuni in Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=it)
-
+* [Best practice per il database di Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Problemi di database più comuni in Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
