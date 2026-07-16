@@ -1,7 +1,7 @@
 ---
 source-git-commit: c992521cae8c847adc0cc23d2323300e0ba69cdc
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Nel dubbio, non scrivere con l’iniziale maiuscola. Nei titoli, utilizza l’in
 
 * Tutto ciò su cui l&#39;utente fa clic viene inserito in **bold**. Ad esempio, &quot;Fare clic su **Continua**.&quot; I valori delle opzioni e i messaggi di errore sono formattati con _corsivo_.
 * Laddove possibile, evita di menzionare il tipo di elemento dell’interfaccia utente nelle istruzioni. (Fai clic su **Avanti**. e fare clic sul pulsante **Avanti**.)
-* Utilizzare &quot;Scegli&quot; e &quot;>&quot; nelle sequenze di comandi. (Scegli **Modifica** > **Preferenze**. e fai clic su Modifica | Preferenze.)
+* Utilizzare &quot;Scegli&quot; e &quot;>&quot; nelle sequenze di comandi. (Scegli **Modifica** > **Preferenze**. e fai clic su Modifica | Preferenze).
 * Preposizione: &quot;in&quot; per finestra di dialogo, finestra, sono un, pannello, vista, procedura guidata, elenco, cartella, nodo.
 * Preposizione: &quot;su&quot; per schermo, pagina, barra degli strumenti, barra dei menu, scheda, riquadro, barra multifunzione.
 * Preposizione: fai clic su (fai clic su **Avanti** e poi su **Avanti**).
@@ -100,7 +100,7 @@ Scrivi entrambi i numeri in parole o in entrambe le cifre, se hai due numeri in 
 
 <tr>
 
-<td>Accedi alla pagina Account Magento.com </td>
+<td>Accedi alla pagina dell’account Magento.com </td>
 
 <td>Accedi al tuo account Adobe Commerce</td>
 
@@ -164,7 +164,7 @@ Adobe Commerce versione 2.4.0
 
 </td>
 
-<td colspan="1">Adobe Commerce 2.4.0 (nessuna versione o versione)</td>
+<td colspan="1">Adobe Commerce 2.4.0 (no v. o versione)</td>
 
 <td colspan="1"></td>
 
@@ -276,4 +276,4 @@ In generale, seguite le raccomandazioni del Manuale di stile di Chicago per la p
 
 ## Marchio
 
-* Il Magento Commerce è ora Adobe Commerce. Per ulteriori informazioni su come utilizzare un linguaggio di branding aggiornato, fare riferimento al wiki [Termini di rebrand](https://github.com/magento/knowledge-base/wiki).
+* Magento Commerce ora è Adobe Commerce. Per ulteriori informazioni su come utilizzare un linguaggio di branding aggiornato, fare riferimento al wiki [Termini di rebrand](https://github.com/magento/knowledge-base/wiki).
