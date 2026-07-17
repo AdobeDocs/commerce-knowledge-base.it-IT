@@ -1,18 +1,18 @@
 ---
-title: Come evitare WAF per le richieste GraphQL
+title: Come evitare le richieste di WAF per GraphQL
 description: Questo articolo spiega come evitare WAF per le richieste GraphQL.
 feature: GraphQL
 exl-id: 3a0f2c22-f976-4596-b6a9-4634be1ea4c3
 source-git-commit: 2bec86818336a9ef4d8316e257a0ca4256cdd93c
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
 
-# Come evitare WAF per le richieste GraphQL
+# Come evitare le richieste di WAF per GraphQL
 
-In questo articolo viene illustrato come ignorare WAF per le richieste GraphQL quando WAF [!DNL Fastly] blocca le richieste GraphQL.
+In questo articolo viene illustrato come ignorare le richieste WAF per GraphQL quando il WAF [!DNL Fastly] blocca le richieste GraphQL.
 
 ## Prodotti e versioni interessati
 
@@ -24,11 +24,11 @@ A causa della natura intrinseca delle richieste GraphQL, possono essere presenti
 
 ## Soluzione
 
-1. Ignorare WAF per queste richieste aggiungendo uno snippet personalizzato tramite il modulo di Magento [!DNL Fastly]:
+1. Ignorare il WAF per queste richieste aggiungendo uno snippet personalizzato tramite il modulo Magento [!DNL Fastly]:
 
    tipo: recv
-priorità: 15
-contenuto:
+   priorità: 15
+   contenuto:
 
    ```
    if( req.url.path ~ "^/graphql" ) {
@@ -40,5 +40,5 @@ contenuto:
 
 ## Lettura correlata
 
-* [Web Application Firewall (WAF)](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) nella guida di Commerce on Cloud Infrastructure.
-* [Guida introduttiva a VCL personalizzato](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) nella guida Commerce su infrastruttura cloud.
+* [Firewall applicazione Web (WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service) nella guida di Commerce su infrastruttura cloud.
+* [Guida introduttiva a VCL personalizzato](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets) nella guida Commerce su infrastruttura cloud.
