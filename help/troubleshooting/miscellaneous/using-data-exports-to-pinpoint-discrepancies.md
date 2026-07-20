@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Utilizzo delle esportazioni di dati per individuare le discrepanze
 
-Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati di Magento BI. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l&#39;elenco di controllo diagnostico delle discrepanze di dati [non è stato utile per individuare il problema. ](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
+Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati di Magento BI. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l&#39;elenco di controllo diagnostico delle discrepanze di dati [non è stato utile per individuare il problema. &#x200B;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
 
 Effettua questa analisi, ad esempio:
 
@@ -69,7 +69,7 @@ Passare alla pagina Connessioni e controllare lo stato dell&#39;origine dati con
 
 ## Il database di origine contiene un numero minore di righe rispetto a Magento BI {#lessrows}
 
-Se il database di origine contiene meno righe rispetto a Magento BI, è possibile che le righe vengano eliminate dal database di origine e che Magento BI non le selezioni. ** [L&#39;eliminazione dei dati](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) può causare discrepanze, tempi di aggiornamento più lunghi e numerosi problemi logistici** pertanto si consiglia vivamente di non eliminare mai i dati a meno che non sia realmente necessario.
+Se il database di origine contiene meno righe rispetto a Magento BI, è possibile che le righe vengano eliminate dal database di origine e che Magento BI non le selezioni. **&#x200B; [L&#39;eliminazione dei dati](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) può causare discrepanze, tempi di aggiornamento più lunghi e numerosi problemi logistici** pertanto si consiglia vivamente di non eliminare mai i dati a meno che non sia realmente necessario.
 
 Se, tuttavia, le righe vengono eliminate dalla tabella, controllare la frequenza di ricontrollo della chiave primaria. Ricontrollare la chiave primaria significa che la tabella verrà controllata per le righe eliminate.
 
