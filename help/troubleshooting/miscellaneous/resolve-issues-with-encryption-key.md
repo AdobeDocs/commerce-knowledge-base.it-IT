@@ -6,7 +6,7 @@ feature: Cache, Variables
 role: Developer
 source-git-commit: 0458b37e2af4c9ad2ec92a1fdd6844ef222ef84a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
