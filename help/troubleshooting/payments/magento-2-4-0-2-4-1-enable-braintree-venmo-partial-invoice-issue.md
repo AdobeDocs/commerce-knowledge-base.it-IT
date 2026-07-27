@@ -1,19 +1,19 @@
 ---
-title: "Adobe Commerce 2.4.0, 2.4.1: Abilita fattura parziale Braintree Venmo"
-description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.0 e 2.4.1, in cui la fattura parziale non è disponibile per gli ordini effettuati utilizzando la Braintree tramite Venmo.
+title: 'Adobe Commerce 2.4.0, 2.4.1: Abilita fattura parziale Braintree Venmo'
+description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.0 e 2.4.1, in cui la fattura parziale non è disponibile per gli ordini effettuati utilizzando Braintree tramite Venmo.
 exl-id: ef6c8aa4-a2a7-4e07-a957-23173017baf2
 feature: Invoices, Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.0, 2.4.1: Abilitare la fattura parziale Braintree Venmo
+# Adobe Commerce 2.4.0, 2.4.1: Abilita fattura parziale Braintree Venmo
 
-Questo articolo descrive un problema noto di Adobe Commerce 2.4.0 e 2.4.1, in cui la fattura parziale non è disponibile per gli ordini effettuati utilizzando la Braintree tramite Venmo.
+Questo articolo descrive un problema noto di Adobe Commerce 2.4.0 e 2.4.1, in cui la fattura parziale non è disponibile per gli ordini effettuati utilizzando Braintree tramite Venmo.
 
 ## Prodotti e versioni interessati
 
@@ -43,4 +43,4 @@ Viene visualizzato il seguente messaggio di errore: *Il comando &quot;vault\_cap
 
 ## Soluzione alternativa
 
-Acquisire l&#39;intero importo durante la creazione di fatture per ordini effettuati utilizzando Braintree tramite Venmo.
+Acquisisci l’intero importo durante la creazione di fatture per ordini effettuati utilizzando Braintree tramite Venmo.
