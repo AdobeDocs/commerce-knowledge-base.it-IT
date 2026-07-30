@@ -6,27 +6,27 @@ role: Developer
 exl-id: fb92b75d-c88b-4810-a309-d6ab38485e86
 source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
 
 # Risolvere i problemi relativi alla pagina di estrazione della vetrina in modalità con restrizioni [!UICONTROL CSP]
 
-Questo articolo fornisce spiegazioni e correzioni per i problemi di Adobe Commerce 2.4.7 durante la visualizzazione della pagina di estrazione in **[!UICONTROL CSP restricted mode]**, con il messaggio di errore &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva Content Security Policy: &quot;script-src ...*&quot; nel registro della console del browser.
+In questo articolo vengono fornite spiegazioni e correzioni per i problemi di Adobe Commerce 2.4.7 durante la visualizzazione della pagina di estrazione in **[!UICONTROL CSP restricted mode]**, con &quot;*Rifiutata l&#39;esecuzione dello script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 ## Prodotti e versioni interessati
 
 Adobe Commerce su infrastruttura cloud, Adobe Commerce on-premise e Magento Open Source:
 
-* 2.4.7.
-* 2,4,6-pX
-* 2,4,5-pX
-* 2,4,4-pX
+* 2.4.7
+* 2.4.6-pX
+* 2.4.5-pX
+* 2.4.4-pX
 
 ## Problema - La pagina Storefront Checkout è danneggiata o non è in grado di essere caricata
 
-La pagina **storefront checkout** è interrotta o non è in grado di essere caricata con &quot;*Rifiutata l&#39;esecuzione dello script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: messaggio di errore &quot;script-src ...*&quot; nel registro della console del browser.
+La pagina **storefront checkout** è interrotta o non è in grado di essere caricata con &quot;*Rifiutata l&#39;esecuzione dello script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -44,7 +44,7 @@ La pagina di pagamento è vuota o non contiene componenti. Nel registro della co
 ### Causa
 
 In Adobe Commerce e Magento Open Source versione 2.4.7 e successive, **[!UICONTROL CSP]** è configurato in `restrict-mode` per impostazione predefinita per le pagine di pagamento nelle aree storefront e admin e in modalità `report-only` per tutte le altre pagine.
-L&#39;intestazione **[!UICONTROL CSP]** corrispondente non contiene la parola chiave `unsafe-inline` all&#39;interno della direttiva `script-src` per le pagine di pagamento. Inoltre, sono consentiti solo [!DNL whitelisted] script in linea.
+L&#39;intestazione **[!UICONTROL CSP]** corrispondente non contiene la parola chiave `unsafe-inline` nella direttiva `script-src` per le pagine di pagamento. Inoltre, sono consentiti solo [!DNL whitelisted] script in linea.
 
 ### Soluzione
 
@@ -95,7 +95,7 @@ Adobe Commerce e Magento Open Source 2.4.7 e versioni successive includono un pr
 
 ## Problema - Il metodo di pagamento è mancante o non funziona
 
-Metodo di pagamento mancante o non funzionante nella pagina **storefront checkout** con il messaggio di errore &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri di sicurezza del contenuto: &quot;script-src ...*&quot; nel registro della console del browser.
+Metodo di pagamento mancante o non funzionante nella pagina **storefront checkout** con &quot;*Rifiutata l&#39;esecuzione dello script in linea perché viola la seguente direttiva dei criteri di sicurezza del contenuto: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -114,7 +114,7 @@ Metodo di pagamento mancante o non funzionante. Nel registro della console del b
 ### Causa
 
 In Adobe Commerce e Magento Open Source versione 2.4.7 e successive, **[!UICONTROL CSP]** è configurato in `restrict-mode` per impostazione predefinita per le pagine di pagamento nelle aree storefront e admin e in modalità `report-only` per tutte le altre pagine.
-L&#39;intestazione **[!UICONTROL CSP]** corrispondente non contiene la parola chiave `unsafe-inline` all&#39;interno della direttiva `script-src` per le pagine di pagamento. Inoltre, sono consentiti solo [!DNL whitelisted] script in linea.
+L&#39;intestazione **[!UICONTROL CSP]** corrispondente non contiene la parola chiave `unsafe-inline` nella direttiva `script-src` per le pagine di pagamento. Inoltre, sono consentiti solo [!DNL whitelisted] script in linea.
 
 ### Soluzione
 
@@ -165,7 +165,7 @@ Adobe Commerce e Magento Open Source 2.4.7 e versioni successive includono un pr
 
 ## Problema - Il cliente non può effettuare un ordine
 
-Un cliente non è in grado di effettuare un ordine con &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva del criterio sulla sicurezza dei contenuti: messaggio di errore &quot;script-src ...*&quot; nel registro della console del browser.
+Un cliente non è in grado di effettuare un ordine con &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva del criterio sulla sicurezza dei contenuti: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -185,7 +185,7 @@ Non sei in grado di fare un ordine. Nel registro della console del browser viene
 ### Causa
 
 In Adobe Commerce e Magento Open Source versione 2.4.7 e successive, **[!UICONTROL CSP]** è configurato in `restrict-mode` per impostazione predefinita per le pagine di pagamento nelle aree storefront e admin e in modalità `report-only` per tutte le altre pagine.
-L&#39;intestazione **[!UICONTROL CSP]** corrispondente non contiene la parola chiave `unsafe-inline` all&#39;interno della direttiva `script-src` per le pagine di pagamento. Inoltre, sono consentiti solo [!DNL whitelisted] script in linea.
+L&#39;intestazione **[!UICONTROL CSP]** corrispondente non contiene la parola chiave `unsafe-inline` nella direttiva `script-src` per le pagine di pagamento. Inoltre, sono consentiti solo [!DNL whitelisted] script in linea.
 
 ### Soluzione
 

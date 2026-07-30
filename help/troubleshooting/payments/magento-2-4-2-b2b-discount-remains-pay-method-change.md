@@ -6,7 +6,7 @@ feature: B2B, Orders, Payments, Personalization
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '210'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,9 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 B2B in cui uno
 
 <u>Risultati effettivi</u>:
 
-Lo sconto per il metodo di pagamento rimane applicato al totale dell&#39;ordine.  Non viene visualizzato alcun messaggio di errore. Il proprietario dell&#39;archivio sarà in grado di visualizzare questo problema verificatosi verificando la cronologia degli ordini.
+Lo sconto per il metodo di pagamento rimane applicato al totale dell&#39;ordine.  Nessun messaggio di errore visualizzato.Il proprietario dell&#39;archivio potrà vedere se ciò si è verificato verificando la cronologia degli ordini.
 
-<u>Risultati previsti</u>: lo sconto per il metodo di pagamento viene rimosso dal totale dell&#39;ordine, come previsto.
+<u>Risultati previsti</u> Lo sconto per il metodo di pagamento :The è stato rimosso dal totale dell&#39;ordine, come previsto.
 
 ## Soluzione
 
