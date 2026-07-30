@@ -62,8 +62,8 @@ Aggiungere il consumer `sales.rule.update.coupon.usage` al file `app/etc/env.php
 ...
 ```
 
-Per i passaggi dettagliati, consulta [Gestione delle code di messaggi > Configurazione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) nella documentazione per gli sviluppatori.
+Per i passaggi dettagliati, consulta [Gestione delle code di messaggi > Configurazione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-[Panoramica delle code di messaggi](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) nella documentazione per gli sviluppatori.
+[Panoramica delle code di messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) nella documentazione per gli sviluppatori.
