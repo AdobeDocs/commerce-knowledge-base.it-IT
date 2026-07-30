@@ -1,12 +1,12 @@
 ---
-title: "Adobe Commerce 2.4.2: il pagamento Braintree Venmo non funziona"
+title: 'Adobe Commerce 2.4.2: il pagamento Braintree Venmo non funziona'
 description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.2 in cui non vengono generati ordini quando si utilizza Braintree Venmo durante il pagamento. Al momento non è disponibile alcuna risoluzione.
 exl-id: 1832ab64-5024-444b-915e-473b34979a6e
 feature: Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ L’ordine non viene creato nel codice Adobe Commerce dopo che il cliente viene 
 
 <u>Risultati previsti</u>:
 
-L’ordine viene creato in Adobe Commerce dopo che il cliente viene reindirizzato allo store dall’app Venmo e creato in Braintree, come previsto.
+L’ordine viene creato in Adobe Commerce dopo che il cliente viene reindirizzato allo store dall’app Venmo e viene creato in Braintree, come previsto.
 
 ## Soluzione
 

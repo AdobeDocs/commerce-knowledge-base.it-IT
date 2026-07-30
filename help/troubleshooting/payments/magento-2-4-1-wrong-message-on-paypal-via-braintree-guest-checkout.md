@@ -6,7 +6,7 @@ feature: Checkout, Orders, Payments
 role: Developer
 source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 in cui se il p
 
 ## Problema
 
-Viene visualizzato un errore non specifico quando il pagamento del cliente ospite è disabilitato dal backend e l&#39;opzione di pagamento PayPal tramite Braintree è selezionata dal Mini-carrello o dal Carrello acquisti.
+Viene visualizzato un errore non specifico quando il pagamento del cliente ospite viene disabilitato dal backend e l&#39;opzione di pagamento PayPal tramite Braintree viene selezionata dal Mini-carrello o dal Carrello acquisti.
 
 <u>Prerequisiti</u>:
 
 1. In Amministrazione Commerce, in **Archivi** > **Configurazione** > **Vendite** > **Pagamento**, impostare **Consenti pagamento ospite** = *No*.
-1. Abilita PayPal tramite Braintree come descritto nella [Braintree](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
+1. Abilita PayPal tramite Braintree come descritto in [Braintree](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -55,7 +55,7 @@ Il cliente viene reindirizzato alla pagina Carrello acquisti e viene visualizzat
 
 ## Soluzione alternativa
 
-La soluzione a questo problema consiste nel fatto che il cliente può effettuare l&#39;accesso in uno store (gli utenti connessi non utilizzano l&#39;estrazione guest) in cui l&#39;estrazione guest è disabilitata. Questo problema è stato risolto nella versione 2.4.2 di Adobe Commerce.
+La soluzione a questo problema consiste nel fatto che il cliente può effettuare l’accesso in uno store (gli utenti connessi non utilizzano il pagamento come ospite). in cui l&#39;estrazione guest è disabilitata. Questo problema è stato risolto nella versione 2.4.2 di Adobe Commerce.
 
 ## Lettura correlata
 
