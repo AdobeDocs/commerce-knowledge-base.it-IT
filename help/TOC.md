@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 804fdcd482abed2b61fb31e805ee9a24491ff58f
+source-git-commit: 4787dec7aefd10f0b8db97ee5e76b09abe78af6c
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1753'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,6 @@ ht-degree: 1%
     * [Errore cURL 60: certificato SSL scaduto](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Risoluzione dei problemi del modulo Consigli di prodotto in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Modulo sconosciuto Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
-    * [Problemi relativi al controllo di preparazione al problema](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [Query SQL: SPIEGARE GLI ERRORI RELATIVI AI COSTI](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Guida alla risoluzione dei problemi relativi allo strumento Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Problemi di verifica della preparazione delle autorizzazioni dei file](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
