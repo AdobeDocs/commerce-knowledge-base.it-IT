@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 4787dec7aefd10f0b8db97ee5e76b09abe78af6c
+source-git-commit: 5bb5ce75f5bd20f21762c0c43ab0f54286baf076
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -73,19 +73,15 @@ ht-degree: 1%
     * [Patch riviste per Google Maps: perdita di accesso su tutte le versioni di Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Varie {#miscellaneous}
     * [E-mail che indica che lo spazio di archiviazione per l’esportazione è quasi pieno](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [Errore cURL 60: certificato SSL scaduto](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Risoluzione dei problemi del modulo Consigli di prodotto in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Modulo sconosciuto Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
-    * [Query SQL: SPIEGARE GLI ERRORI RELATIVI AI COSTI](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
     * [Guida alla risoluzione dei problemi relativi allo strumento Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
-    * [Problemi di verifica della preparazione delle autorizzazioni dei file](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [Diagnosi delle discrepanze nei ricavi di Google eCommerce](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [Ho configurato le chiavi API per Adobe AI ma visualizzo un solo spazio dati SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
     * [Archiviazione dei file bassa; il caricamento di pagine specifiche è lento](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [Prestazioni lente a causa della reindicizzazione completa](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [Guida generale alla risoluzione dei problemi dei moduli personalizzati](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [Spazio su disco insufficiente](/help/troubleshooting/miscellaneous/low-disk-space.md)
     * [Riscaldamento della cache e sito non disponibile in Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [Risoluzione degli errori UTF-8 per il caricamento di file CSV](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [Risolvere i problemi relativi alle prestazioni con New Relic su Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
