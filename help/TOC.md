@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 5bb5ce75f5bd20f21762c0c43ab0f54286baf076
+source-git-commit: 9216789f967ee842ee41d669779d8037fd47897f
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1724'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,6 @@ ht-degree: 1%
     * [Guida alla risoluzione dei problemi relativi allo strumento Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Diagnosi delle discrepanze nei ricavi di Google eCommerce](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [Ho configurato le chiavi API per Adobe AI ma visualizzo un solo spazio dati SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [Menu principale (Categorie) non visualizzato nelle pagine secondarie con Fastly abilitato](/help/troubleshooting/miscellaneous/main-menu-categories-not-displayed-on-subpages-with-fastly-enabled.md)
     * [Archiviazione dei file bassa; il caricamento di pagine specifiche è lento](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [Prestazioni lente a causa della reindicizzazione completa](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [Guida generale alla risoluzione dei problemi dei moduli personalizzati](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
