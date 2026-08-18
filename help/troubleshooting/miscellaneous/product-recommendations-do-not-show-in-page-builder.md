@@ -32,10 +32,10 @@ In Page Builder non è disponibile alcuna opzione per aggiungere Consigli di pro
 1. Verificare di aver installato il modulo separatamente eseguendo il comando: `composer show magento/module-page-builder-product-recommendations`
 1. Se restituisce il seguente messaggio: *Impossibile trovare il pacchetto magento/module-page-builder-recommendations*, installarlo eseguendo il comando: `composer require magento/module-page-builder-product-recommendations`
 
-Attivando Consigli di prodotto in Page Builder, potrai [aggiungere un&#39;unità di consigli](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) a qualsiasi contenuto creato in Page Builder.
+Attivando Consigli di prodotto in Page Builder, potrai [aggiungere un&#39;unità di consigli](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=it) a qualsiasi contenuto creato in Page Builder.
 
 ## Lettura correlata
 
-* [Aggiungi contenuto - Consigli di prodotto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html) nella nostra guida utente.
-* [Installa e configura Product Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) nella documentazione per gli sviluppatori.
-* [Guida utente di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)
+* [Aggiungi contenuto - Consigli di prodotto](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/add-content/recommendations.html?lang=it) nella nostra guida utente.
+* [Installa e configura Product Recommendations](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure) nella documentazione per gli sviluppatori.
+* [Guida utente di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-admin/user-guides/home)
