@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 2ae94bc621d0cc4b308fbf7d5c0f58a5284b6f4d
+source-git-commit: a57fca068b8154dfa451b2ba76e297f57e7229eb
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1688'
 ht-degree: 1%
 
 ---
@@ -73,8 +73,6 @@ ht-degree: 1%
     * [Patch riviste per Google Maps: perdita di accesso su tutte le versioni di Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Varie {#miscellaneous}
     * [E-mail che indica che lo spazio di archiviazione per l’esportazione è quasi pieno](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [Errore cURL 60: certificato SSL scaduto](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
-    * [Risoluzione dei problemi del modulo Consigli di prodotto in Adobe Commerce](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [Guida alla risoluzione dei problemi relativi allo strumento Adobe Commerce Security Scan](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [Diagnosi delle discrepanze nei ricavi di Google eCommerce](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [Ho configurato le chiavi API per Adobe AI ma visualizzo un solo spazio dati SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
