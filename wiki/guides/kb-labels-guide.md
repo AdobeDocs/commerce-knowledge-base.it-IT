@@ -1,7 +1,7 @@
 ---
 source-git-commit: 88a2b8fe11d718f33c26bbc6f407c55d9f1fd189
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Per ogni articolo aggiungi i seguenti tipi di etichetta:
 * Etichette per prodotti. (obbligatorio)
 * Etichette per le versioni interessate. (obbligatorio, tranne gli articoli di supporto generale)
 * Etichetta per il tipo di contenuto. (obbligatorio)
-* Etichette per i principali componenti tecnici.(se applicabile)
+* Etichette per il componente tecnico principale (se applicabile).
 * Etichette per processi/funzionalità in fase di risoluzione dei problemi/descrizione. (se applicabile)
 * Correzione/descrizione delle etichette per il problema. (se applicabile)
 
@@ -123,7 +123,7 @@ NON &quot;2.3.0-2.3.5&quot;
 
 * Utilizzare l&#39;iniziale maiuscola in base alla denominazione ufficiale del componente.
 * Non utilizzare sinonimi, un’etichetta per un componente.
-* È preferibile utilizzare etichette di una parola, ma se il nome del componente contiene più parole, utilizzare più parole. Non aggiungere descrizioni dei problemi. Vale a dire, mettete &quot;Elasticsearch&quot; invece di &quot;problemi Elasticsearch&quot;.
+* È preferibile utilizzare etichette di una parola, ma se il nome del componente contiene più parole, utilizzare più parole. Non aggiungere descrizioni dei problemi. Ovvero, inserisci &quot;Elasticsearch&quot; invece di &quot;Problemi Elasticsearch&quot;.
 * Se il contenuto è pertinente solo per una particolare versione del componente, aggiungi un’etichetta contenente nome + versione.\
   Esempio: &quot;Elasticsearch 5&quot;. Se è pertinente per diverse versioni particolari, aggiungi diverse etichette di questo tipo. Esempio: &quot;Elasticsearch 5&quot;, &quot;Elasticsearch 6&quot;. Se necessario, utilizzare &quot;x&quot; per più versioni. Esempio: &quot;Elasticsearch 2.x&quot;
 

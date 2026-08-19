@@ -1,12 +1,12 @@
 ---
-title: '''[!UICONTROL Recommendations] [!DNL JS] errori dopo l''aggiornamento ad Adobe Commerce versione 2.4.5'''
+title: '[!UICONTROL Recommendations] [!DNL JS]  errori dopo l''aggiornamento alla versione 2.4.5 di Adobe Commerce'
 description: In questo articolo viene fornita una correzione per i casi in cui, dopo l'aggiornamento ad Adobe Commerce (tutti i metodi di distribuzione), nella console siano presenti  [!DNL JS]  errori relativi ai moduli [!UICONTROL Recommendations] del prodotto.
 feature: Install, Upgrade
 role: Developer
 exl-id: 51d899eb-48f7-48c5-8bda-bd72a4d28945
 source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Il problema è causato dal fatto che la pagina Web storefront fa ancora riferime
 
 1. Esegui l’aggiornamento ad Adobe Commerce 2.4.5.
 1. Accedi alla pagina web vetrina.
-1. Fai clic con il pulsante destro del mouse e seleziona **Inspect** per aprire il controllo Web nel browser.
+1. Fai clic con il pulsante destro del mouse e seleziona **Ispeziona** per aprire il controllo Web nel browser.
 1. Fare clic sulla scheda **[!UICONTROL Console]**.
 1. Esaminare gli errori [!DNL JS].
 

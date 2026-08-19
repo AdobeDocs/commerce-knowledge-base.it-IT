@@ -5,8 +5,8 @@ exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
 source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 0%
+source-wordcount: '1292'
+ht-degree: 1%
 
 ---
 
@@ -113,27 +113,27 @@ I clienti Managed Services possono collaborare con il team di progettazione clie
     <td>Q4</td>
   </tr>
   <tr>
-    <td>2.4.4.</td>
+    <td>2.4.4</td>
     <td></td>
     <td colspan="13" style="background-color:#67ac68;"></td>
     <td colspan="4" style="background-color:#ffd700;"></td>
     <td colspan="6"></td>
   </tr>
   <tr>
-    <td>2.4.5.</td>
+    <td>2.4.5</td>
     <td colspan="2"></td>
     <td colspan="13" style="background-color:#67ac68;"></td>
     <td colspan="4" style="background-color:#ffd700;"></td>
     <td colspan="6"></td>
   </tr>
   <tr>
-    <td>2.4.6.</td>
+    <td>2.4.6</td>
     <td colspan="4"></td>
     <td colspan="15" style="background-color:#67ac68;"></td>
     <td colspan="8"></td>
   </tr>
   <tr>
-    <td>2.4.7.</td>
+    <td>2.4.7</td>
     <td colspan="9"></td>
     <td colspan="13" style="background-color:#67ac68;"></td>
     <td colspan="2"></td>
@@ -173,13 +173,13 @@ Questi piani includono patch di qualità e sicurezza per l&#39;applicazione prin
 <td class="wysiwyg-text-align-center" style="width: 140.2px;"><strong>Fine del supporto esteso</strong></td>
 </tr>
 <tr>
-<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.4.</td>
+<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.4</td>
 <td style="width: 96px;">12 aprile 2022</td>
 <td style="width: 144px;">8 aprile 2025</td>
 <td style="width: 140.2px;">14 aprile 2026</td>
 </tr>
 <tr>
-<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.5.</td>
+<td class="wysiwyg-text-align-center" style="width: 132px;">2.4.5</td>
 <td style="width: 96px;">9 agosto 2022</td>
 <td style="width: 144px;">12 agosto 2025</td>
 <td style="width: 140.2px;">11 agosto 2026</td>
@@ -205,7 +205,7 @@ Adobe non fornisce supporto per tecnologie di terze parti che hanno raggiunto la
 <td class="wysiwyg-text-align-center" style="width: 96px;"><strong>Versione [!DNL RabbitMQ] supportata, EOS</strong></td>
 </tr>
 <tr>
-<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.4.</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.4</strong></td>
 <td style="width: 72px;">[!DNL PHP] 8.1, EOS - <strong>31 dicembre 2025<sup>1</sup></strong></td>
 <td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - Luglio 2026<sup>2</sup></td>
 <td style="width: 108px;">[!DNL Composer] 2.8, EOS - previsto nel 2026<sup>3</sup></td>
@@ -214,7 +214,7 @@ Adobe non fornisce supporto per tecnologie di terze parti che hanno raggiunto la
 <td style="width: 96px;">[!DNL RabbitMQ] 3.9, FINE DEL CICLO DI VITA</td>
 </tr>
 <tr>
-<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.5.</strong></td>
+<td class="wysiwyg-text-align-center" style="width: 48px;"><strong>2.4.5</strong></td>
 <td style="width: 72px;">[!DNL PHP] 8.1, EOS - <strong>31 dicembre 2025<sup>1</sup></strong></td>
 <td style="width: 96px;">[!DNL MariaDB] 10.6, EOS - Luglio 2026<sup>2</sup></td>
 <td style="width: 108px;">[!DNL Composer] 2.8, EOS - previsto nel 2026<sup>3</sup></td>

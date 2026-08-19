@@ -6,7 +6,7 @@ role: Developer
 exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
 source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Per risolvere i problemi relativi alle prestazioni, assicurati di seguire le bes
 Determinare innanzitutto se l&#39;ambiente si trova nella [configurazione di integrazione avanzata](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-27242).
 
 * [Architettura Pro](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Architettura Starter](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Architettura iniziale](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Controllare il registro di distribuzione utilizzando uno di questi metodi.
 
@@ -63,6 +63,6 @@ Se non sei nella configurazione dell&#39;integrazione avanzata, puoi [richiedere
 Se ti trovi già nella configurazione di Integrazione avanzata o riscontri ancora problemi di prestazioni dopo l’aggiornamento, assicurati di seguire le best practice per prestazioni ottimali nell’ambiente di integrazione:
 
 * [Architettura Pro](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [Architettura Starter](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
+* [Architettura iniziale](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 Se hai soddisfatto le raccomandazioni precedenti, [invia una richiesta di supporto](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket) per ulteriore assistenza.
