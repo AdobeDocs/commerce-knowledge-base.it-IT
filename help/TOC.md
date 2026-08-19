@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: ae5cf17925a4b4c9ef5827345a471abd3a9728ce
+source-git-commit: 82e5a4168fb4e79577bbccb1b2384943bf045708
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 1%
     * [Controllo dell&#39;attacco DDoS da CLI](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [Reindirizzamento accesso quando si tenta di accedere ad Amministratore Commerce](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [Utilizzo delle esportazioni di dati per individuare le discrepanze](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-    * [Risoluzione dei problemi relativi allo strumento di migrazione dei dati](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [Problemi di verifica della preparazione delle dipendenze dei componenti](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [Impossibile accedere all’interfaccia utente di Adobe Commerce sull’infrastruttura cloud](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
     * [Le modifiche alle categorie non vengono salvate](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
