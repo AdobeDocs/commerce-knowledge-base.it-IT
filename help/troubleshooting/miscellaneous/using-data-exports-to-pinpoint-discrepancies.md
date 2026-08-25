@@ -1,19 +1,19 @@
 ---
 title: Utilizzo delle esportazioni di dati per individuare le discrepanze
-description: Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati di Magento BI. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine, al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l'elenco di controllo di [data discrepanza diagnostic checklist](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy) non è stato utile per individuare il problema. Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
+description: Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati di Magento BI. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine, al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l'elenco di controllo di [data discrepanza diagnostic checklist](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479) non è stato utile per individuare il problema. Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1389'
 ht-degree: 0%
 
 ---
 
 # Utilizzo delle esportazioni di dati per individuare le discrepanze
 
-Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati di Magento BI. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l&#39;elenco di controllo diagnostico delle discrepanze di dati [non è stato utile per individuare il problema. &#x200B;](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
+Questo articolo fornisce soluzioni per la risoluzione dei problemi relativi alle discrepanze nei dati di Magento BI. Le esportazioni di dati sono uno strumento utile per confrontare i dati di Magento BI con i dati di origine al fine di individuare le discrepanze di dati nei rapporti, soprattutto se l&#39;elenco di controllo diagnostico delle discrepanze di dati [non è stato utile per individuare il problema. &#x200B;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)Questo articolo ti guiderà attraverso un esempio reale di come è possibile individuare le discrepanze di dati utilizzando le esportazioni di dati.
 
 Effettua questa analisi, ad esempio:
 
@@ -89,7 +89,7 @@ Se non si è in grado di individuare la fonte del problema, sarà necessario ese
 
 ## Lettura correlata
 
-* [Elenco di controllo diagnostico delle discrepanze di dati](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Elenco di controllo diagnostico delle discrepanze di dati](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Criteri di servizio Adobe Commerce Intelligence](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
 
