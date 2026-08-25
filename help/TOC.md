@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: f0181656eb18a7d9e4b7a78639c9fadb130d74e6
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1657'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,6 @@ ht-degree: 1%
     * [Indice bloccato da un altro processo](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
     * [Diagnostica di una discrepanza di dati](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [Notifiche e-mail di Admin 2FA non ricevute](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
-    * [Reindirizza al modulo di accesso dell’amministratore di Commerce con l’errore &quot;La sessione corrente è scaduta&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [Sito in modalità manutenzione, ma disponibile per i clienti](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [lo sviluppo dell’origine git pull ha esito negativo durante l’aggiornamento del software Adobe Commerce](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [Blocchi all’avvio su Adobe Commerce per l’infrastruttura cloud](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)

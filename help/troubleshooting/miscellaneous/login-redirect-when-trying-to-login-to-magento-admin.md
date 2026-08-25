@@ -4,9 +4,9 @@ description: Questo articolo illustra le possibili soluzioni per il problema di 
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Prova a utilizzare un browser diverso e aumenta la durata della sessione di ammi
 Per aumentare la durata della sessione di amministrazione, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ Per aumentare la durata della sessione di amministrazione, effettua le seguenti 
 Per verificare e cancellare i valori delle impostazioni dei cookie, effettua le seguenti operazioni:
 
 1. Creare un backup del database.
-1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
+1. Utilizza uno strumento di database come [phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin) oppure accedi al database manualmente dalla riga di comando per eseguire la seguente query SQL:
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -90,4 +90,4 @@ Per verificare e cancellare i valori delle impostazioni dei cookie, effettua le 
 ## Articoli correlati
 
 * [Errore &quot;Il tuo account è temporaneamente disabilitato&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) nella Knowledge Base di supporto per reindirizzare nuovamente al modulo di accesso dell&#39;amministratore.
-* [Errore &quot;La sessione corrente è scaduta&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) nella Knowledge Base di supporto per il reindirizzamento al modulo di accesso dell&#39;amministratore.
+* [Errore &quot;La sessione corrente è scaduta&quot;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686) nella Knowledge Base di supporto per il reindirizzamento al modulo di accesso dell&#39;amministratore.
