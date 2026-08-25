@@ -51,7 +51,7 @@ Ora che tutti i dati sono in un unico posto, possiamo cercare la fonte della dis
 
 Se entrambi i sistemi hanno lo stesso conteggio di righe e la metrica **Ricavi** non corrisponde ai dati di origine, il **ordine\_totale** deve essere disattivato. È possibile che il campo **order\_total** sia stato aggiornato nel database di origine e che Magento BI non stia rilevando queste modifiche.
 
-Per confermare, controlla se la colonna **order\_total** è stata ricontrollata. Passare a Data Warehouse Manager e fare clic sulla tabella **`orders`**. Nella colonna &#39;Modifiche?&#39; verrà visualizzata la [frequenza di ricontrollo](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html). Il campo **order\_total** deve essere impostato in modo da ricontrollare ogni volta che si prevede che cambi; in caso contrario, procedere e impostarlo sulla frequenza di ricontrollo desiderata.
+Per confermare, controlla se la colonna **order\_total** è stata ricontrollata. Passare a Data Warehouse Manager e fare clic sulla tabella **`orders`**. Nella colonna &#39;Modifiche?&#39; verrà visualizzata la [frequenza di ricontrollo](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=it). Il campo **order\_total** deve essere impostato in modo da ricontrollare ogni volta che si prevede che cambi; in caso contrario, procedere e impostarlo sulla frequenza di ricontrollo desiderata.
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ Passare alla pagina Connessioni e controllare lo stato dell&#39;origine dati con
 
 ## Il database di origine contiene un numero minore di righe rispetto a Magento BI {#lessrows}
 
-Se il database di origine contiene meno righe rispetto a Magento BI, è possibile che le righe vengano eliminate dal database di origine e che Magento BI non le selezioni. **&#x200B; [L&#39;eliminazione dei dati](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html) può causare discrepanze, tempi di aggiornamento più lunghi e numerosi problemi logistici** pertanto si consiglia vivamente di non eliminare mai i dati a meno che non sia realmente necessario.
+Se il database di origine contiene meno righe rispetto a Magento BI, è possibile che le righe vengano eliminate dal database di origine e che Magento BI non le selezioni. **&#x200B; [L&#39;eliminazione dei dati](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=it) può causare discrepanze, tempi di aggiornamento più lunghi e numerosi problemi logistici** pertanto si consiglia vivamente di non eliminare mai i dati a meno che non sia realmente necessario.
 
 Se, tuttavia, le righe vengono eliminate dalla tabella, controllare la frequenza di ricontrollo della chiave primaria. Ricontrollare la chiave primaria significa che la tabella verrà controllata per le righe eliminate.
 
@@ -90,6 +90,6 @@ Se non si è in grado di individuare la fonte del problema, sarà necessario ese
 ## Lettura correlata
 
 * [Elenco di controllo diagnostico delle discrepanze di dati](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
-* [Criteri di servizio Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Criteri di servizio Adobe Commerce Intelligence](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
 
