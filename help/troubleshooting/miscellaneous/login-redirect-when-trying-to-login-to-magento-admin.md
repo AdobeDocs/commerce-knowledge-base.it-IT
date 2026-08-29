@@ -90,4 +90,4 @@ Per verificare e cancellare i valori delle impostazioni dei cookie, effettua le 
 ## Articoli correlati
 
 * [Errore &quot;Il tuo account è temporaneamente disabilitato&quot;](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) nella Knowledge Base di supporto per reindirizzare nuovamente al modulo di accesso dell&#39;amministratore.
-* [Errore &quot;La sessione corrente è scaduta&quot;](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686) nella Knowledge Base di supporto per il reindirizzamento al modulo di accesso dell&#39;amministratore.
+* [Errore &quot;La sessione corrente è scaduta&quot;](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-41686) nella Knowledge Base di supporto per il reindirizzamento al modulo di accesso dell&#39;amministratore.
