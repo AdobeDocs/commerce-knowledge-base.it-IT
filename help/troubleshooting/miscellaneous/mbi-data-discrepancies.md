@@ -15,7 +15,7 @@ ht-degree: 0%
 
 I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati valori NULL imprevisti? Se noti qualcosa che non va bene, ti consigliamo di utilizzare queste risorse per aiutarti a risolvere i problemi:
 
-* [Elenco di controllo diagnostico delle discrepanze di dati](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [Elenco di controllo diagnostico delle discrepanze di dati](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Utilizzo delle esportazioni per evidenziare le discrepanze di dati](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
 È inoltre consigliabile verificare che siano stati impostati i [metodi di replica](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods) e i [nuovi controlli](https://experienceleague.adobe.com/it/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks) corretti per le tabelle e le colonne interessate dalla discrepanza. Per accedere al metodo di replica e ricontrollare le informazioni sono necessarie le autorizzazioni di amministratore.
