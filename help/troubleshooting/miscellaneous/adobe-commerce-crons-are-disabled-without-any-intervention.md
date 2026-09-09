@@ -2,9 +2,9 @@
 title: Adobe Commerce [!DNL crons] disabilitato senza intervento
 description: Utilizza questo articolo per risolvere il problema in cui  [!DNL crons]  viene disabilitato senza intervento.
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6bff1d7a0578ceb8ea17dff347b1bcd4f0068e7a
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -39,10 +39,10 @@ Problema con le impostazioni [!DNL OPcache].
 
 ## Soluzione
 
-Aggiorna [!DNL ECE Tools] alla versione più recente [2002.1.13](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
+Aggiorna [!DNL ECE Tools] alla versione più recente [2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113).
 
 ## Lettura correlata
 
-* [Prestazioni lente, esecuzione lenta e prolungata [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=it) nella Knowledge Base di supporto.
-* [[!DNL Cron] le attività bloccano le attività da altri gruppi](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=it) nella knowledge base di supporto.
-* Il processo [[!DNL Cron] è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it) nella knowledge base di supporto.
+* [Prestazioni lente, esecuzione lenta e prolungata [!DNL crons]](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-42802) nella Knowledge Base di supporto.
+* [[!DNL Cron] le attività bloccano le attività da altri gruppi](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en) nella knowledge base di supporto.
+* Il processo [[!DNL Cron] è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en) nella knowledge base di supporto.
