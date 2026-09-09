@@ -3,17 +3,12 @@ title: Azione urgente Richiesta Aggiornamento della sicurezza critica disponibil
 description: Adobe ha rilasciato il bollettino sulla sicurezza APSB26-146 relativo a CVE-2026-75650, una vulnerabilità di giorno zero in Adobe Commerce. Scopri come applicare l’hotfix e ruotare le credenziali.
 autotag-review: '2026-09-07T17:27:44.037Z'
 TQID: 'https://experienceleague.adobe.com/ADVRRn85--ZgWtPdi4qA49fsDPVW976N4MYWp26taho'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e95fb4ca696be9f6d348ff66196565797575f74a
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 7526f999381e9f117ea2d52dc59330b0d34cba62
 workflow-type: tm+mt
-source-wordcount: 954
+source-wordcount: 952
 ht-degree: 0%
 
 ---
@@ -73,7 +68,7 @@ Per risolvere la vulnerabilità dei prodotti e delle versioni interessati, è ne
 
 | Numero versione | Patch |
 |---|---|
-| 2,4.9-2026-ago, 2,4.8-2026-ago, 2,4.7-2026-ago, 2,4.6-2026-ago, 2,4.5-2026-ago, 2,4.4-2026-ago, 2,4.9-2026-lug, 2,4.8-2026-lug, 2,4.7-2026-lug, 2,4.6-2026-lug, 2,4.5-2026-lug, 2,4.4-2026-lug, 2,4,8-p5, 2,4,8-p4, 2,4,8-p3, 2,4,7-p10, 2,4,7-p9, 2,4,6-p15, 2.4.6-p14, 2.4.5-p17, 2.4.5-p16, 2.4.4-p18, 2.4.4-p17 | [Hotfix VULN-39341-compositore-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip) |
+| 2,4.9-2026-ago, 2,4.8-2026-ago, 2,4.7-2026-ago, 2,4.6-2026-ago, 2,4.5-2026-ago, 2,4.4-2026-ago, 2,4.9-2026-lug, 2,4.8-2026-lug, 2,4.7-2026-lug, 2,4.6-2026-lug, 2,4.5-2026-lug, 2,4.4-2026-lug, 2,4,8-p5, 2,4,8-p4, 2,4,7-p10, 2,4,7-p9, 2,4,6-p15, 2,4,6-p14, 2.4.5-p17, 2.4.5-p16, 2.4.4-p18, 2.4.4-p17 | [Hotfix VULN-39341-compositore-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip) |
 | 2,4,8-p3, 2,4,8-p2 | [VULN-39341_248-p3.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p3-patch.zip) |
 | 2.4.8-p1, 2.4.8 | [VULN-39341_248-p1.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p1-patch.zip) |
 | 2,4,7-p8, 2,4,7-p7 | [VULN-39341_247-p8.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p8-patch.zip) |
@@ -86,7 +81,7 @@ Per risolvere la vulnerabilità dei prodotti e delle versioni interessati, è ne
 
 ### Come applicare l’hotfix
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto per le istruzioni.
 
 ### Conferma l’applicazione dell’hotfix (solo per Adobe Commerce su Cloud Merchants)
 
@@ -94,7 +89,7 @@ Poiché non è possibile determinare facilmente se il problema è stato corretto
 
 Per eseguire questa operazione, eseguire la procedura seguente, utilizzando il file `VULN-39341_Hotfix_COMPOSER.patch` come esempio:
 
-1. [Installare lo strumento Patch di qualità](https://experienceleague.adobe.com/it/docs/commerce-operations/tools/quality-patches-tool/usage#install).
+1. [Installare lo strumento Patch di qualità](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage#install).
 1. Eseguire il comando: `vendor/bin/magento-patches -n status | grep "39341\|Status"`.
 1. Dovresti visualizzare un output simile a questo, dove questo esempio VULN-39341 restituisce lo stato Applicato:
 
@@ -115,7 +110,7 @@ Per ruotare le credenziali, eseguire la procedura seguente:
 1. Applica l’hotfix.
 1. Abilita la modalità di manutenzione.
 1. Disabilita esecuzione cron (comando Commerce su Cloud: `vendor/bin/ece-tools cron:disable`).
-1. [Ruota le chiavi di crittografia](https://experienceleague.adobe.com/it/docs/commerce-admin/systems/security/encryption-key?lang=en).
+1. [Ruota le chiavi di crittografia](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en).
 1. Ruota tutte le password utente del pannello di amministrazione.
 1. Disattivare e rigenerare tutti i token di integrazione REST/SOAP/GraphQL (**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**).
 1. Ruota i segreti del client OAuth per tutte le applicazioni di terze parti collegate.
@@ -137,4 +132,4 @@ Aggiornamenti di sicurezza disponibili per Adobe Commerce:
 
 ### Lettura correlata
 
-[Attivare o disattivare la modalità di manutenzione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en) nella Guida all&#39;installazione di Adobe Commerce
+[Attivare o disattivare la modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en) nella Guida all&#39;installazione di Adobe Commerce
