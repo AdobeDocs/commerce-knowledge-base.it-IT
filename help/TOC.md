@@ -2,9 +2,9 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: 829114a6626409412d62e829ba1209d3fbc55ae2
+source-git-commit: 104c637c8f1c0a22b34d0b963a7cacf80b074999
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1602'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,6 @@ ht-degree: 1%
     * [Errore di elaborazione di Magento Order Management System (OMS) per Adobe Commerce](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
     * [Le immagini nella cache non vengono caricate dopo l’aggiornamento da 2.2.X a 2.3.X](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [Messaggio di errore durante l’aggiunta di siti a Security Scan](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
-    * [Risoluzione dei problemi di accesso condiviso](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
     * [Il report dello strumento Security Scan è vuoto](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1: nota fattura con valore errato](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [Impossibile accedere all’ultima versione non definitiva di Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
