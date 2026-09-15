@@ -2,13 +2,11 @@
 user-guide-title: Knowledge Base di Adobe Commerce
 user-guide-description: Tutto il necessario per risolvere eventuali problemi e gestire il tuo archivio Commerce.
 breadcrumb-title: Knowledge base di Commerce
-source-git-commit: f88551f595f1907957301f2ebdf9c0c9dc685939
+source-git-commit: 75d326acaa5926506fe3078da18abbbcdf2f3df4
 workflow-type: tm+mt
-source-wordcount: '1597'
+source-wordcount: '1589'
 ht-degree: 1%
-
 ---
-
 # Knowledge Base di Adobe Commerce {#kb}
 
 * [Knowledge Base di supporto Adobe Commerce](/help/overview.md)
@@ -73,7 +71,6 @@ ht-degree: 1%
     * [L’applicazione di una patch blocca il sito](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
     * [Patch riviste per Google Maps: perdita di accesso su tutte le versioni di Adobe Commerce](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * Varie {#miscellaneous}
-    * [E-mail che indica che lo spazio di archiviazione per l’esportazione è quasi pieno](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
     * [Ho configurato le chiavi API per Adobe AI ma visualizzo un solo spazio dati SaaS](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [Guida generale alla risoluzione dei problemi dei moduli personalizzati](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [Riscaldamento della cache e sito non disponibile in Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
