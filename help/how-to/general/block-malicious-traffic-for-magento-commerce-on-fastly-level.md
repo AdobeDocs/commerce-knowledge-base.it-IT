@@ -3,13 +3,11 @@ title: Blocca il traffico dannoso per Adobe Commerce a livello Fastly
 description: Questo articolo descrive i passaggi da seguire per bloccare traffico dannoso se si sospetta che l’archivio Adobe Commerce su infrastruttura cloud stia avendo un attacco DDoS.
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 8bde15deccc24c548c20cf5955cbebc45ac1d9a1
+source-git-commit: 8e64b148938394e67265da543784b2769df56c58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # Blocca il traffico dannoso per Adobe Commerce a livello Fastly
 
 Questo articolo spiega come bloccare il traffico indesiderato verso il tuo negozio, non solo in risposta a minacce dannose, ma anche come metodo di filtraggio geografico.
@@ -26,7 +24,7 @@ In questo articolo supponiamo che tu disponga già di IP dannosi e/o del loro pa
 
 Se il tuo sito web è sovraccaricato da DDoS, potresti non essere in grado di accedere al tuo amministratore Commerce (ed eseguire tutti i passaggi descritti più avanti in questo articolo).
 
-Per accedere all&#39;amministratore, attivare la modalità di manutenzione del sito Web come descritto in [Attivare o disattivare la modalità di manutenzione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) e inserire in una whitelist l&#39;indirizzo IP. Al termine, disattiva la modalità di manutenzione.
+Per accedere all&#39;amministratore, attivare la modalità di manutenzione del sito Web come descritto in [Attivare o disattivare la modalità di manutenzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) e inserire in una whitelist l&#39;indirizzo IP. Al termine, disattiva la modalità di manutenzione.
 
 ## Blocca traffico per IP
 
@@ -47,8 +45,8 @@ Per l’archivio infrastrutture cloud di Adobe Commerce, il modo più efficace p
 
 Per stabilire il blocco in base all’agente utente, devi aggiungere uno snippet VCL personalizzato alla configurazione Fastly. A questo scopo, effettua le seguenti operazioni:
 
-1. In Amministrazione Commerce, passa a **Archivi** > **Configurazione** > **Avanzate** > **Sistema** > **Cache a pagina intera**.
-1. Quindi **Configurazione Fastly** > **Snippet VCL Personalizzati**.
+1. In Commerce **[!UICONTROL Admin]**, passare a **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]**.
+1. Quindi **[!UICONTROL Fastly Configuration]** > **[!UICONTROL Custom VCL Snippets]**.
 1. Creare il nuovo snippet personalizzato come descritto nella guida [Snippet VCL personalizzati](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md) per il modulo Fastly\_Cdn. Puoi utilizzare il seguente codice di esempio. In questo esempio viene disattivato il traffico per l&#39;agente utente `AhrefsBot`.
 
 ```php
@@ -60,6 +58,64 @@ name: block_bad_useragents
       error 405 "Not allowed";
   }
 ```
+
+## Blocca il traffico con le firme JA3/JA4/OH (acquisisci i valori JA3, JA4 e OHFP da Newrelic)
+
+1. Crea un dizionario: Passa a **[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL System]** > **[!UICONTROL Full page cache]** > **[!UICONTROL Fastly configuration]** > **[!UICONTROL Edge Dictionary]** e crea questo blocco di esempio:
+
+   ```
+   #table ja3_blocklist:
+   table ja3_blocklist {
+       "********************************": "********************************",
+   }
+   
+   #table ja4_blocklist:
+   table filter_bad_ja4 {
+       "************************************": "************************************",
+   }
+   ```
+
+1. Quindi aggiungi un VCL per bloccare qualsiasi JA3, JA4 elencato nella tabella sopra definita:
+
+   ```
+   name: block_traffic_ja3_ja4
+   type: recv 
+   priority: 5 
+   
+   VCL:
+   if (req.restarts == 0 && fastly.ff.visits_this_service == 0) {
+     if(table.contains(ja3_blocklist, tls.client.ja3_md5)){
+       error 403;
+     }
+     if(table.contains(ja4_blocklist, tls.client.ja4)){
+       error 403;
+     }
+   }
+   ```
+
+1. Esempio di blocco basato su OHFP:
+
+   ```
+   #table ohfp_h2fp_blocklist
+   table ohfp_h2fp_blocklist {
+       "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx":"xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx",
+   }
+   ```
+
+
+1. Quindi aggiungi un VCL per bloccare qualsiasi OHFP elencato nella tabella sopra definita:
+
+   ```
+   # Snippet block_ohfp_h2fp
+   name: block_ohfp_h2fp
+   type: recv 
+   Priority: 5
+   
+   if (table.contains(ohfp_h2fp_blocklist, fastly_info.oh_fingerprint)) {
+     error 403 "Forbidden";
+   }
+   ```
+
 
 ## Limitazione della velocità (funzionalità sperimentale Fastly)
 
@@ -76,7 +132,7 @@ Durante l&#39;utilizzo di `robots.txt` sono presenti due considerazioni importan
 * I robot possono ignorare `robots.txt`. Soprattutto i robot malware, che scansionano il web per individuare vulnerabilità di sicurezza, e i raccoglitori di indirizzi e-mail utilizzati da spammer non presteranno attenzione.
 * Il file `robots.txt` è disponibile pubblicamente. Chiunque può vedere quali sezioni del server non si desidera che i robot utilizzino.
 
-Le informazioni di base e la configurazione predefinita di Adobe Commerce `robots.txt` sono disponibili nell&#39;articolo [Robot dei motori di ricerca](https://experienceleague.adobe.com/it/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) nella documentazione per gli sviluppatori.
+Le informazioni di base e la configurazione predefinita di Adobe Commerce `robots.txt` sono disponibili nell&#39;articolo [Robot dei motori di ricerca](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots) nella documentazione per gli sviluppatori.
 
 Per informazioni generali e raccomandazioni su `robots.txt`, vedere:
 
@@ -88,4 +144,4 @@ Collabora con il tuo sviluppatore e/o esperto di SEO per determinare quali agent
 ## Lettura correlata
 
 * [Condizioni di licenza specifiche per Adobe Commerce su Cloud](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* [VCL personalizzato per il blocco delle richieste](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) nella Guida di Commerce su Cloud
+* [VCL personalizzato per il blocco delle richieste](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking) nella Guida di Commerce su Cloud
