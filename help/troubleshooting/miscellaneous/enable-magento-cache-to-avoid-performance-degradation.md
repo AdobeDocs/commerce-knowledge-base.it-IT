@@ -4,13 +4,11 @@ description: Questo articolo spiega come risolvere un problema di sito lento cau
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: 42aa1d4ef3540d4eb9682627dc5bf1dd14091dc3
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # Abilitare la cache per evitare il deterioramento delle prestazioni
 
 Questo articolo spiega come risolvere un problema di sito lento causato dalla disabilitazione di alcuni tipi di cache di Adobe Commerce.
@@ -48,10 +46,10 @@ In caso di dubbi e/o domande sulla possibilità o meno di disabilitare un determ
 Documentazione della cache di Adobe Commerce nella documentazione per gli sviluppatori:
 
 * [Panoramica della cache di Adobe Commerce](https://developer.adobe.com/commerce/frontend-core/guide/caching)
-* [Gestione della cache](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [Gestire la cache](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 Altri possibili motivi per problemi di prestazioni e relative soluzioni:
 
 * [Disattiva l&#39;output del banner Adobe Commerce per migliorare le prestazioni del sito](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [Le tabelle MySQL sono troppo grandi](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26945)
-* [Prestazioni lente, esecuzione lenta e cronica prolungata](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+* [Prestazioni lente, esecuzione lenta e cronica prolungata](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-42802)

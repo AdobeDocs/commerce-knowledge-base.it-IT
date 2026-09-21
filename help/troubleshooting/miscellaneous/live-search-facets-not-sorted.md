@@ -1,15 +1,14 @@
 ---
-title: '[!DNL Live Search] facet non sono in ordine alfabetico'
-description: Questo articolo fornisce informazioni sulla risoluzione dei problemi se i facet  [!DNL Live Search]  non sono ordinati alfabeticamente.
+title: '[!DNL Live Search] facet non sono ordinati alfabeticamente'
+description: Questo articolo fornisce informazioni sulla risoluzione dei problemi se i facet [!DNL Live Search] non sono ordinati alfabeticamente.
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search] facet non sono ordinati alfabeticamente
 
 ## Prodotti e versioni interessati

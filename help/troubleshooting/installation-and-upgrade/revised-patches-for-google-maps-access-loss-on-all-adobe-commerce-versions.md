@@ -1,15 +1,14 @@
 ---
 title: 'Patch riviste per Google Maps: perdita di accesso su tutte le versioni di Adobe Commerce'
-description: 'Questo articolo fornisce una correzione per gli esercenti di Adobe Commerce che non sono compatibili con nessuna versione recente di [!DNL Google Maps] dalla versione 3.54+.'
+description: Questo articolo fornisce una correzione per gli esercenti Adobe Commerce che non sono compatibili con nessuna versione [!DNL Google Maps] recente dalla versione 3.54+.
 feature: Install, Upgrade
 role: Developer
-source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
+exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
+source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # Patch riviste per la perdita dell&#39;accesso [!DNL Google Maps] su tutte le versioni di Adobe Commerce
 
 Questo articolo fornisce una correzione per gli esercenti Adobe Commerce che non sono compatibili con nessuna versione [!DNL Google Maps] recente dalla versione 3.54+. Questa correzione consente di risolvere il problema per cui i commercianti di Adobe Commerce non hanno più accesso a [!DNL Google Maps] in alcuna versione di Adobe Commerce.
@@ -72,4 +71,4 @@ Questo problema verrà risolto definitivamente nell’ambito delle versioni di p
 
 ## Lettura correlata
 
-[Applicare una patch del compositore fornita dall&#39;Adobe](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
