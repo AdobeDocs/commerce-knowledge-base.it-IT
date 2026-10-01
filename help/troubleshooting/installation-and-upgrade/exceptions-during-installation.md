@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '93'
 ht-degree: 0%
-
 ---
-
 # Eccezioni durante l&#39;installazione
 
 Questo articolo fornisce una possibile soluzione per i problemi relativi all&#39;installazione di Adobe Commerce tramite l&#39;Installazione guidata Web.
