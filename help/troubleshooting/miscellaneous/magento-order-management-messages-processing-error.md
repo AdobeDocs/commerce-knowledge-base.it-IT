@@ -1,19 +1,17 @@
 ---
-title: Errore di elaborazione di OMS (Magenti Order Management System) per Adobe Commerce
-description: Questo articolo fornisce una soluzione al problema quando si riceve un errore "getMode()" nella CLI che esegue "bin/magento oms:messages:process" nel sistema di Magento Order Management (OMS) per Adobe Commerce.
+title: Errore di elaborazione di Magento Order Management System (OMS) per Adobe Commerce
+description: Questo articolo fornisce una soluzione al problema quando si verifica un errore "getMode()" nella CLI che esegue "bin/magento oms:messages:process" nel Magento Order Management System (OMS) per Adobe Commerce.
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '242'
 ht-degree: 0%
-
 ---
+# Errore di elaborazione di Magento Order Management System (OMS) per Adobe Commerce
 
-# Errore di elaborazione di OMS (Magenti Order Management System) per Adobe Commerce
-
-Questo articolo fornisce una soluzione al problema quando si riceve un errore `getMode()` nell&#39;interfaccia CLI che esegue `bin/magento oms:messages:process` nel Magento Order Management (OMS) per Adobe Commerce.
+Questo articolo fornisce una soluzione al problema quando si verifica un errore `getMode()` nell&#39;interfaccia CLI che esegue `bin/magento oms:messages:process` in Magento Order Management System (OMS) per Adobe Commerce.
 
 ## Prodotti e versioni interessati
 
@@ -68,4 +66,4 @@ Per risolvere il problema, eseguire l&#39;istruzione [!DNL SQL] seguente nella C
 ## Lettura correlata
 
 * Esercitazione di configurazione del connettore OMS [OMS Docs](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
