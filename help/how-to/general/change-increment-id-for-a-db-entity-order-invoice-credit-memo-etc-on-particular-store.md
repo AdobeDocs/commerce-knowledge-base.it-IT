@@ -24,7 +24,7 @@ Questo articolo illustra come modificare l&#39;ID incremento per un&#39;entità 
 
 * Adobe Commerce on-premise: 2.x.x
 * Adobe Commerce sull’infrastruttura cloud: 2.x.x
-* MySQL: qualsiasi [versione supportata](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
+* MySQL: qualsiasi [versione supportata](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/system-requirements)
 
 ## Quando è necessario modificare l’ID incremento (casi)
 
@@ -35,12 +35,12 @@ Potrebbe essere necessario modificare l&#39;ID incremento per le nuove entità D
 
 >[!NOTE]
 >
->Puoi anche risolvere il problema del gateway di pagamento per PayPal consentendo più pagamenti per ID fattura nelle Preferenze di ricezione pagamento di PayPal. Vedi [Richiesta rifiutata gateway PayPal - problema fattura duplicata](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) nella knowledge base del supporto.
+>Puoi anche risolvere il problema del gateway di pagamento per PayPal consentendo più pagamenti per ID fattura nelle Preferenze di ricezione pagamento di PayPal. Vedi [Richiesta rifiutata gateway PayPal - problema fattura duplicata](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26838) nella knowledge base del supporto.
 
 ## Passaggi preliminari
 
 1. Trova archivi ed entità per i quali modificare il nuovo ID incremento.
-1. [Connetti](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) al database MySQL. Per Adobe Commerce su infrastruttura cloud, devi prima [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [Connetti](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) al database MySQL. Per Adobe Commerce su infrastruttura cloud, devi prima [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
 1. Controllare il valore corrente di auto\_increment per la tabella di sequenza entità utilizzando la seguente query:
 
 ```sql
@@ -59,7 +59,7 @@ Se il valore della colonna `auto_increment` è *1234*, il *ID \#100001234* verr�
 
 ### Documentazione correlata
 
-* [Configurare una connessione remota al database MySQL](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) nella documentazione per gli sviluppatori.
+* [Configurare una connessione remota al database MySQL](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote) nella documentazione per gli sviluppatori.
 
 ## Aggiorna entità per modificare l&#39;ID incremento
 
@@ -93,5 +93,5 @@ Prima di eseguire la query `ALTER TABLE` nell&#39;ambiente di produzione di Adob
 ## Documentazione correlata
 
 * [Crea un dump del database nel cloud](/help/how-to/general/create-database-dump-on-cloud.md) nella knowledge base di supporto
-* [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) nella documentazione per gli sviluppatori
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it) nella documentazione per gli sviluppatori
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
