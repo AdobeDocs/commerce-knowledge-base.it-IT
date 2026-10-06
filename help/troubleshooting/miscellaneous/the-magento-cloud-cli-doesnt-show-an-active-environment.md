@@ -1,16 +1,14 @@
 ---
-title: Il &grave;Magento-cloud&grave; [!DNL CLI] non mostra un ambiente attivo
-description: Questo articolo descrive un problema noto di Adobe Commerce in cui "Magento-cloud" [!DNL CLI] (strumento da riga di comando) non mostra un ambiente attivo.
+title: Il `Magento-cloud` [!DNL CLI] non mostra un ambiente attivo
+description: Questo articolo descrive un problema noto di Adobe Commerce per cui "Magento-cloud" [!DNL CLI] (strumento da riga di comando) non mostra un ambiente attivo.
 feature: Cloud, Integration, Configuration
 role: Developer
 exl-id: 3c1b5de2-8888-4531-9dc1-cd478e3c96fc
 source-git-commit: 5eac8bb54e205eff6a96e279295cd12db1009f0a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '136'
 ht-degree: 0%
-
 ---
-
 # `Magento-cloud` [!DNL CLI] non mostra un ambiente attivo
 
 ## Problema

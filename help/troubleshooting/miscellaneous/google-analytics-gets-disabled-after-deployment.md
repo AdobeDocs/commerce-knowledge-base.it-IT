@@ -1,19 +1,17 @@
 ---
-title: La Google Analytics viene disabilitata dopo la distribuzione
-description: In questo argomento viene illustrata la soluzione di un problema tipico che può verificarsi con le Google Analytics durante la distribuzione.
+title: Google Analytics viene disabilitato dopo la distribuzione
+description: In questo argomento viene illustrata la soluzione di un problema tipico che potrebbe verificarsi con Google Analytics durante la distribuzione.
 exl-id: ecf6a277-2dfa-45cf-b86f-9a27f39017f4
 feature: Build, Deploy, Variables
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '203'
 ht-degree: 0%
-
 ---
+# Google Analytics viene disabilitato dopo la distribuzione
 
-# La Google Analytics viene disabilitata dopo la distribuzione
-
-In questo argomento viene illustrata la soluzione di un problema tipico che può verificarsi con le Google Analytics durante la distribuzione.
+In questo argomento viene illustrata la soluzione di un problema tipico che potrebbe verificarsi con Google Analytics durante la distribuzione.
 
 ## Prodotti e versioni interessati
 
@@ -21,15 +19,15 @@ In questo argomento viene illustrata la soluzione di un problema tipico che può
 
 ## Problema
 
-Durante la distribuzione del codice tra ambienti, gli script di compilazione e distribuzione verificano che il ramo `master/production/staging` sia distribuito per mantenere abilitate le Google Analytics. Quando si distribuiscono rami di sviluppo (o secondari) di master in ambienti di sviluppo (integrazione), lo script di distribuzione disabilita le Google Analytics.
+Quando si distribuisce il codice in ambienti diversi, gli script di compilazione e distribuzione verificano che il ramo `master/production/staging` sia distribuito per mantenere abilitato Google Analytics. Durante la distribuzione di rami di sviluppo (o secondari) di master in ambienti di sviluppo (integrazione), lo script di distribuzione disabilita Google Analytics.
 
 ## Causa
 
-Questa è una funzione progettata per garantire che i dati e le interazioni degli sviluppatori non vengano inviati o tracciati dalle Google Analytics.
+Questa è una funzione progettata per garantire che i dati e le interazioni degli sviluppatori non vengano inviati a Google Analytics o tracciati da.
 
 ## Soluzione
 
-Se si desidera che le Google Analytics siano sempre abilitate, impostare la variabile di distribuzione `ENABLE_GOOGLE_ANALYTICS = true`, come descritto in [Distribuire variabili](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) nella documentazione per gli sviluppatori.
+Se si desidera che Google Analytics sia sempre abilitato, impostare la variabile di distribuzione `ENABLE_GOOGLE_ANALYTICS = true`, come descritto in [Distribuire variabili](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >
