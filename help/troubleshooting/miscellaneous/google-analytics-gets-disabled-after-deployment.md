@@ -27,7 +27,7 @@ Questa è una funzione progettata per garantire che i dati e le interazioni degl
 
 ## Soluzione
 
-Se si desidera che Google Analytics sia sempre abilitato, impostare la variabile di distribuzione `ENABLE_GOOGLE_ANALYTICS = true`, come descritto in [Distribuire variabili](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) nella documentazione per gli sviluppatori.
+Se si desidera che Google Analytics sia sempre abilitato, impostare la variabile di distribuzione `ENABLE_GOOGLE_ANALYTICS = true`, come descritto in [Distribuire variabili](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics) nella documentazione per gli sviluppatori.
 
 >[!NOTE]
 >
