@@ -1,18 +1,16 @@
 ---
-title: Modifica l'ID incremento per un'entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare archivio
-description: Questo articolo illustra come modificare l’ID incremento di un’entità database (DB) di Adobe Commerce (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l’istruzione SQL "ALTER TABLE".
+title: Modifica ID incremento per un'entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare negozio
+description: Questo articolo illustra come modificare l'ID incremento per un'entità database di Adobe Commerce (DB) (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l’istruzione SQL "ALTER TABLE".
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
 source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '617'
 ht-degree: 0%
-
 ---
+# Modifica ID incremento per un&#39;entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare negozio
 
-# Modifica l&#39;ID incremento per un&#39;entità DB (ordine, fattura, nota di accredito, ecc.) in un particolare archivio
-
-In questo articolo viene illustrato come modificare l&#39;ID incremento per un&#39;entità database (DB) di Adobe Commerce (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l&#39;istruzione SQL `ALTER TABLE`.
+Questo articolo illustra come modificare l&#39;ID incremento per un&#39;entità database di Adobe Commerce (DB) (ordine, fattura, nota di accredito, ecc.) in un particolare archivio Adobe Commerce utilizzando l&#39;istruzione SQL `ALTER TABLE`.
 
 >[!NOTE]
 >

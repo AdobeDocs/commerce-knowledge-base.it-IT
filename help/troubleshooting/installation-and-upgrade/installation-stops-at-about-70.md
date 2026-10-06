@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '200'
 ht-degree: 0%
-
 ---
-
 # L&#39;installazione si arresta a circa il 70%
 
 Questo articolo fornisce una correzione per i casi in cui l’installazione si interrompe a circa il 70%.
