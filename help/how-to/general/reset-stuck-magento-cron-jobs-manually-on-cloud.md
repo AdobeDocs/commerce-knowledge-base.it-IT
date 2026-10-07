@@ -5,11 +5,9 @@ exl-id: aec6de8e-c3a9-4a6d-8ecd-a213e77c97a1
 feature: Cloud
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # Ripristino manuale dei processi bloccati di Adobe Commerce sull’infrastruttura cloud cron
 
 i processi cron di Adobe Commerce su infrastruttura cloud non vengono completati, rimangono bloccati e impediscono l’esecuzione di altri processi cron. Questo articolo mostra come ripristinare manualmente i processi bloccati del cron.
@@ -32,4 +30,4 @@ Utilizzare questo comando con cautela. Per ulteriori dettagli, si consiglia di l
 
 ## Leggilo nella nostra knowledge base di supporto:
 
-[Ripristina processi cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it)
+[Reimposta processi cron](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it)
