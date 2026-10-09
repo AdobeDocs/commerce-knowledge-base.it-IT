@@ -1,18 +1,16 @@
 ---
 title: 'Adobe Commerce su cloud: modifica le chiavi di autenticazione e ridistribuisci'
-description: Questo articolo fornisce istruzioni su come ridistribuire Adobe Commerce su un’infrastruttura cloud con diverse chiavi di autenticazione. Ad esempio, potresti aver utilizzato le chiavi per un altro account o potresti aver utilizzato le chiavi di Magento Open Source invece delle chiavi di Adobe Commerce.
+description: Questo articolo fornisce istruzioni su come ridistribuire Adobe Commerce su un’infrastruttura cloud con diverse chiavi di autenticazione. Ad esempio, potresti aver utilizzato le chiavi per un altro account o potresti aver utilizzato le chiavi Magento Open Source invece delle chiavi Adobe Commerce.
 exl-id: 47407c81-5c52-406f-812f-6c6b3ca5cafa
 feature: Cloud, Deploy
 source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce su cloud: modifica le chiavi di autenticazione e ridistribuisci
 
-Questo articolo fornisce istruzioni su come ridistribuire Adobe Commerce su un’infrastruttura cloud con diverse chiavi di autenticazione. Ad esempio, potresti aver utilizzato le chiavi per un altro account o potresti aver utilizzato le chiavi di Magento Open Source invece delle chiavi di Adobe Commerce.
+Questo articolo fornisce istruzioni su come ridistribuire Adobe Commerce su un’infrastruttura cloud con diverse chiavi di autenticazione. Ad esempio, potresti aver utilizzato le chiavi per un altro account o potresti aver utilizzato le chiavi Magento Open Source invece delle chiavi Adobe Commerce.
 
 Se sono state utilizzate chiavi non corrette, la distribuzione non riesce. Per ripristinare, è necessario clonare il progetto, aggiungere le chiavi corrette a `auth.json` e inviare la modifica al ramo principale.
 
