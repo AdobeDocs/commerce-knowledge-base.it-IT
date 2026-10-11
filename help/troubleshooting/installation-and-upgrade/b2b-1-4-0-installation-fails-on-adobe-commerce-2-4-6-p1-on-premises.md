@@ -128,5 +128,5 @@ Installazione o aggiornamento a [!DNL B2B] versione 1.4.0 in Adobe Commerce 2.4.
 
 1. Completare il processo di installazione o aggiornamento.
 
-   * [Installa [!DNL B2B] sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
-   * [Installazione on-premise](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)
+   * [Installa [!DNL B2B] sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html?lang=it)
+   * [Installazione on-premise](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html?lang=it)
