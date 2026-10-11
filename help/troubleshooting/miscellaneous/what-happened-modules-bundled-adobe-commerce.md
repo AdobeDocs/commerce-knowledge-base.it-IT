@@ -4,13 +4,23 @@ description: Questo articolo fornisce una soluzione al problema che si verifica 
 exl-id: c0335b66-803b-44d7-b966-7d60a5f21d8d
 feature: Extensions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 # Moduli mancanti in Adobe Commerce 2.4.4
 
 Questo articolo fornisce una soluzione per i casi in cui i moduli inclusi nelle versioni precedenti di Adobe Commerce non sono presenti nella versione 2.4.4.
@@ -31,7 +41,7 @@ Questo comportamento è previsto in quanto le estensioni in bundle con il fornit
 
 ## Soluzione
 
-Installa/acquista separatamente le estensioni ufficiali. Sono disponibili nella [Commerce Marketplace](https://marketplace.magento.com/extensions.html).
+Installa/acquista separatamente le estensioni ufficiali. Sono disponibili in [Commerce Marketplace](https://marketplace.magento.com/extensions.html).
 
 ## Lettura correlata
 
