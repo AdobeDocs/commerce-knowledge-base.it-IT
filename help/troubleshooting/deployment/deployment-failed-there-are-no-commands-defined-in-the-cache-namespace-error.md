@@ -1,16 +1,23 @@
 ---
-title: "Distribuzione non riuscita durante lo svuotamento della cache: errore 'Nessun comando definito nello spazio dei nomi 'cache'"
+title: 'Distribuzione non riuscita durante lo svuotamento della cache: errore "Nessun comando definito nello spazio dei nomi ''cache''"'
 description: Questo articolo fornisce una soluzione al problema quando la distribuzione non riesce con il seguente errore **Non sono stati definiti comandi nello spazio dei nomi della cache**.
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 
 # Distribuzione non riuscita durante lo svuotamento della cache: errore &quot;Nessun comando definito nello spazio dei nomi &#39;cache&#39;&quot;
 
@@ -83,7 +90,7 @@ Per risolvere questo problema, identifica le righe non valide rimaste da tali co
 
    `bin/magento`
 
-   Se ricevi un errore simile al seguente che indica che il sito web con ID X richiesto non è stato trovato, sono presenti configurazioni rimanenti        nel database dai siti Web e dai negozi che sono stati eliminati.
+   Se ricevi un errore simile al seguente che indica che il sito web con ID X richiesto non è stato trovato, significa che sono rimaste configurazioni eliminate nel database sia dal sito web che dallo store.
 
    ```
    In WebsiteRepository.php line 110:
@@ -107,6 +114,6 @@ Per verificare che la soluzione funzioni, eseguire di nuovo il comando `bin/mage
 
 ## Lettura correlata
 
-* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
-* [Controllo del registro di distribuzione se nell&#39;interfaccia utente di Cloud è presente l&#39;errore &quot;log snipped&quot;](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
-* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [Verifica del registro di distribuzione se nell’interfaccia utente di Cloud è presente l’errore &quot;log snipped&quot;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

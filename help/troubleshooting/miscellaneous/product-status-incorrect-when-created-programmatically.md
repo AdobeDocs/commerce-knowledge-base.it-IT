@@ -4,13 +4,20 @@ description: Questo articolo corregge i casi in cui lo stato del prodotto è Dis
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '227'
 ht-degree: 0%
-
 ---
-
 # Lo stato del prodotto non è corretto quando viene creato a livello di programmazione
 
 Questo articolo corregge i casi in cui lo stato del prodotto è Disattivato e i prodotti non vengono visualizzati nella vetrina o sono assegnati a viste errate, quando vengono creati o aggiornati a livello di programmazione.

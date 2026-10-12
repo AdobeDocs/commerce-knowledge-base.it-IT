@@ -4,13 +4,22 @@ description: Questo articolo fornisce una patch per il problema noto di Adobe Co
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # Errore &#39;Codice località non impostato&#39; durante l&#39;esecuzione di `setup:upgrade`
 
 Questo articolo fornisce una patch per il problema noto di Adobe Commerce on Cloud Infrastructure 2.2.3 relativo all&#39;ottenimento dell&#39;errore *&quot;Area code is not set&quot;* durante l&#39;esecuzione del comando seguente:
@@ -31,7 +40,7 @@ Quando si esegue
 bin/magento setup:upgrade
 ```
 
-comando, viene visualizzato il seguente messaggio di errore: *&quot;Modulo &#39;Magento\_AdvancedSalesRule&#39;: installazione dei dati...Codice di zona non impostato: è necessario impostare il codice di zona prima di avviare una sessione&quot;* e l&#39;esecuzione del comando viene interrotta. Il problema viene visualizzato perché la configurazione dell’area è richiesta prima dell’effettiva impostazione. La patch consente di rilevare l’errore e non di interrompere il processo di aggiornamento.
+comando, viene visualizzato il seguente messaggio di errore: *&quot;Modulo &#39;Magento\_AdvancedSalesRule&#39;: Installazione dei dati...Codice di zona non impostato: è necessario impostare il codice di zona prima di avviare una sessione&quot;* e l&#39;esecuzione del comando viene interrotta. Il problema viene visualizzato perché la configurazione dell’area è richiesta prima dell’effettiva impostazione. La patch consente di rilevare l’errore e non di interrompere il processo di aggiornamento.
 
 ## Patch
 
@@ -51,6 +60,6 @@ La patch è compatibile (ma potrebbe non risolvere il problema) anche con le seg
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
+Per istruzioni, vedere [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
 
 ## File allegati

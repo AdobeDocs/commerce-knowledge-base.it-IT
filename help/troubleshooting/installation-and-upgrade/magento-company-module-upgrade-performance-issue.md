@@ -4,7 +4,23 @@ description: Questo articolo fornisce un hotfix per il problema di prestazioni n
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
-source-git-commit: e0524b54ee0adae1caa809212e98dda3a33c1954
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 0%
@@ -31,7 +47,7 @@ L&#39;aggiornamento del modulo `Magento_Company` dopo l&#39;aggiornamento a B2B 
 
 <u>Passaggi da riprodurre</u>:
 
-1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
+1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
 1. Aggiornamento B2B alla versione 1.5.2.
 
 <u>Risultati previsti</u>:
@@ -60,7 +76,7 @@ Per risolvere il problema, effettua le seguenti operazioni:
 
 ### Come applicare il cerotto
 
-Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto per le istruzioni.
+Decomprimi il file e vedi [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto per le istruzioni.
 
 ### Applicare una patch utilizzando le patch cloud
 
@@ -79,8 +95,8 @@ Per gli esercenti di Adobe Commerce on Cloud, segui i passaggi seguenti:
    ```
 
 1. Aggiungere ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch alla directory `m2-hotfixes`.
-1. Eseguire il commit e il push delle modifiche per avviare la ridistribuzione e `bin/magento setup:upgrade`. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
+1. Eseguire il commit e il push delle modifiche per avviare la ridistribuzione e `bin/magento setup:upgrade`. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
 
 ## Lettura correlata
 
-* [L’aggiornamento a B2B 1.5.2 non riesce e viene restituito un errore di sintassi SQL a causa della mancanza della funzione REGEXP_LIKE](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [L’aggiornamento a B2B 1.5.2 non riesce e viene restituito un errore di sintassi SQL a causa della mancanza della funzione REGEXP_LIKE](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

@@ -4,7 +4,18 @@ description: Questo articolo fornisce una correzione per gli esercenti Adobe Com
 feature: Install, Upgrade
 role: Developer
 exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
-source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -24,9 +35,9 @@ Il *14 giugno 2024* la versione [!DNL Google Maps] *3.53* ha raggiunto la fine d
 
 Per ulteriori informazioni, fare riferimento a [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
-Adobe Commerce non è compatibile con nessuna versione [!DNL &#x200B; Google Maps] recente dalla versione 3.54+.
+Adobe Commerce non è compatibile con nessuna versione [!DNL  Google Maps] recente dalla versione 3.54+.
 
-L&#39;incompatibilità è stata causata dalla versione legacy di `prototype.js script`, caricata tramite `lib/web/legacy-build.min.js`, che sostituisce la funzione nativa Array.from, causando un conflitto diretto con l&#39;API [!DNL &#x200B; Google Maps].
+L&#39;incompatibilità è stata causata dalla versione legacy di `prototype.js script`, caricata tramite `lib/web/legacy-build.min.js`, che sostituisce la funzione nativa Array.from, causando un conflitto diretto con l&#39;API [!DNL  Google Maps].
 
 Fare riferimento a [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices).
 
@@ -71,4 +82,4 @@ Questo problema verrà risolto definitivamente nell’ambito delle versioni di p
 
 ## Lettura correlata
 
-[Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)

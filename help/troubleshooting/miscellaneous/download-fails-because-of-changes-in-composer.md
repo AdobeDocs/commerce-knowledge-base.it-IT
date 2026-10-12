@@ -4,13 +4,20 @@ description: Questo articolo fornisce una correzione per un errore di download e
 exl-id: 5abdab97-4b0c-466b-a68f-a2637d2826e5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
-
 ---
-
 # Download non riuscito a causa di modifiche nel Compositore
 
 Questo articolo fornisce una correzione per un errore di download e di eccezione di Adobe Commerce non riuscito.
@@ -52,5 +59,5 @@ Per aggirare il problema:
    * Aggiornare Compositore a una versione successiva al 26 novembre 2015: `composer self-update`.
 
 1. Elimina la directory e le sottodirectory di Adobe Commerce.
-1. Riprovare il download utilizzando `[composer create-project](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/composer)` o `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`.
+1. Riprovare il download utilizzando `[composer create-project](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)` o `[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`.
 1. Dopo aver scaricato correttamente il software Adobe Commerce, aggiornare Compositore: `composer self-update`.

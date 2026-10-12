@@ -3,13 +3,19 @@ title: Suggerimenti per i test di terze parti per Adobe Commerce sull’infrastr
 description: Questo articolo fornisce opzioni per condividere l’accesso con terze parti a scopo di test/convalida in caso di problemi con un’estensione per Adobe Commerce sull’infrastruttura cloud.
 exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 feature: Best Practices, Cloud
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 # Suggerimenti per i test di terze parti per Adobe Commerce sull’infrastruttura cloud
 
 Questo articolo fornisce opzioni per condividere l’accesso con terze parti a scopo di test/convalida in caso di problemi con un’estensione per Adobe Commerce sull’infrastruttura cloud.
@@ -27,11 +33,11 @@ A seconda degli standard di sicurezza interni, è possibile scegliere di eseguir
 
 * Fornisci l’accesso di fornitori terzi all’ambiente cloud. Articoli correlati:
 
-   * [Guida utente di Adobe Commerce Help Center > ACCESSO CONDIVISO: CONCEDI PRIVILEGI AD ALTRI UTENTI PER ACCEDERE AL TUO ACCOUNT](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access) nella nostra Knowledge Base di supporto.
-   * [Condivisione dell&#39;account Commerce](https://experienceleague.adobe.com/it/docs/commerce-admin/start/commerce-account/commerce-account-share) nella guida utente.
+  * [Guida utente di Adobe Commerce Help Center > ACCESSO CONDIVISO: CONCEDI PRIVILEGI AD ALTRI UTENTI PER ACCEDERE AL TUO ACCOUNT](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access) nella nostra Knowledge Base di supporto.
+  * [Condivisione dell&#39;account Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) nella guida utente.
 
 * Crea un’immagine del database (o concedi al fornitore di terze parti l’accesso per farlo). Può essere eseguita utilizzando CLI o in Commerce Admin. Questo dump del database offuscherà i dati dei clienti, quindi tutto ciò che ottengono è codice e SKU del prodotto, ecc., nessun dato proprietario/cliente. Per riferimento, utilizzare [Condivisione dell&#39;account Commerce] (/help/how-to/general/create-database-dump-on-cloud.md) nella Knowledge Base di supporto.
-* Una volta completato il test, assicurati di revocare l&#39;accesso condiviso all&#39;ambiente cloud, come descritto in [Guida utente di Adobe Commerce Help Center > Revoca (elimina l&#39;accesso condiviso)](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) nella nostra knowledge base di supporto.
+* Una volta completato il test, assicurati di revocare l&#39;accesso condiviso all&#39;ambiente cloud, come descritto in [Guida utente di Adobe Commerce Help Center > Revoca (elimina l&#39;accesso condiviso)](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access) nella nostra knowledge base di supporto.
 
 ## Best practice per la verifica
 

@@ -1,13 +1,14 @@
 ---
 title: Durante l'installazione, eccezione SessionHandler::read()
-description: "Questo articolo corregge un errore di eccezione **SessionHandler::read()** durante l’installazione di Adobe Commerce."
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+description: Questo articolo corregge un errore **SessionHandler::read()** durante l’installazione di Adobe Commerce.
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # Durante l&#39;installazione, eccezione SessionHandler::read()
 
@@ -25,7 +26,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->Questo errore si verifica solo nelle versioni dei codici precedenti al 28 settembre 2015. Se installi un codice datato 29 settembre o successivo, questo errore non dovrebbe verificarsi. Per ulteriori informazioni sulle opzioni di configurazione per Redis, vedi [Configurare Redis](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cache/redis/config-redis) nella documentazione per gli sviluppatori. Per ulteriori informazioni su come specificare Redis utilizzando il programma di installazione della riga di comando, vedere l&#39;[argomento sull&#39;installazione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/advanced) o l&#39;[argomento sulla configurazione della distribuzione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/deployment) nella documentazione per gli sviluppatori.
+>Questo errore si verifica solo nelle versioni dei codici precedenti al 28 settembre 2015. Se installi un codice datato 29 settembre o successivo, questo errore non dovrebbe verificarsi. Per ulteriori informazioni sulle opzioni di configurazione per Redis, vedi [Configurare Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis) nella documentazione per gli sviluppatori. Per ulteriori informazioni su come specificare Redis utilizzando il programma di installazione della riga di comando, vedere l&#39;[argomento sull&#39;installazione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced) o l&#39;[argomento sulla configurazione della distribuzione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/deployment) nella documentazione per gli sviluppatori.
 
 ## Causa
 
@@ -33,7 +34,7 @@ Ciò si verifica quando il parametro PHP `session.save_handler` è impostato su 
 
 ## Soluzioni:
 
-* Aggiorna il codice Adobe Commerce. Consulta [Guida all&#39;installazione > Aggiornare il software Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/tutorials/uninstall) nella documentazione per gli sviluppatori.
+* Aggiorna il codice Adobe Commerce. Consulta [Guida all&#39;installazione > Aggiornare il software Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall) nella documentazione per gli sviluppatori.
 * Utilizza la seguente soluzione alternativa con il codice esistente:
 
 ## Individua `php.ini` {#locate-php-ini}

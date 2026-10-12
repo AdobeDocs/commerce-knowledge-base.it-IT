@@ -4,20 +4,34 @@ description: Questo articolo fornisce un hotfix per il problema in cui si verifi
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # L’aggiornamento a B2B 1.5.2 non riesce e viene restituito un errore di sintassi SQL a causa della mancanza della funzione REGEXP_LIKE
 
 >[!INFO]
 >
 >Se si verifica un problema di prestazioni durante l&#39;aggiornamento del modulo `Magento_Company` dopo l&#39;aggiornamento a B2B 1.5.2, applicare il [ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch allegato](assets/ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch.zip).
 >
->Per ulteriori informazioni, consultare [Problema di prestazioni nell&#39;aggiornamento del modulo Magento_Company dopo l&#39;aggiornamento B2B 1.5.2](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md) nella Knowledge Base di Adobe Commerce.
+>Per ulteriori informazioni, consulta [Problema di prestazioni nell’aggiornamento del modulo Magento_Company dopo l’aggiornamento B2B 1.5.2](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md) nella knowledge base di Adobe Commerce.
 
 In questo articolo viene fornito un hotfix per l&#39;errore di sintassi SQL che si verifica a causa della funzione `REGEXP_LIKE` mancante durante il tentativo di aggiornamento della tabella `company_structure`.
 
@@ -38,7 +52,7 @@ L&#39;aggiornamento alla versione 1.5.2 del B2B non riesce e si verifica un erro
 
 <u>Passaggi da riprodurre</u>:
 
-1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/it/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
+1. Assegnare una società a una società padre per stabilire la gerarchia della società. Per ulteriori informazioni, consulta [Gestire la gerarchia aziendale](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy) nella guida B2B di Adobe Commerce.
 1. Aggiornamento B2B alla versione 1.5.2.
 
 <u>Risultati previsti</u>:
@@ -64,7 +78,7 @@ Per risolvere il problema, effettua le seguenti operazioni:
    composer update magento/module-b2b
    ```
 
-1. Applica la patch [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) allegata. Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
+1. Applica la patch [ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip) allegata. Per istruzioni, consulta [Come applicare una patch del compositore fornita da Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento) nella Knowledge Base di supporto.
 1. Esegui `bin/magento setup:upgrade`.
 
 ### Applicare una patch utilizzando le patch cloud
@@ -78,4 +92,4 @@ Per l’infrastruttura Adobe Commerce on Cloud, segui i passaggi seguenti:
    composer update magento/magento-cloud-patches
    ```
 
-1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.
+1. Esegui il commit e invia le modifiche per avviare la ridistribuzione. Per istruzioni, consulta [Applicare le patch](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches) nella guida di Adobe Commerce su Cloud.

@@ -4,13 +4,20 @@ description: Questo articolo fornisce una soluzione per il problema che si verif
 feature: Deploy
 role: Developer
 exl-id: c795f9d5-7171-4846-b99f-c018f1d2bf12
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '159'
+source-wordcount: '181'
 ht-degree: 0%
-
 ---
-
 # Errori di distribuzione durante il commit di file non corretti
 
 Questo articolo fornisce una correzione del problema che si verifica quando si verificano errori di distribuzione causati da commit non corretti nell’archivio di file/cartelle che non avrebbero dovuto essere aggiunti.
@@ -21,7 +28,7 @@ Adobe Commerce su infrastruttura cloud (tutte le versioni)
 
 ## Problema
 
-Si verificano errori di distribuzione quando si esegue il commit nel repository di file/cartelle. Ad esempio, il seguente errore è causato da un tentativo di connessione al database quando non è attualmente disponibile durante la [fase di compilazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=it#build-phase):
+Si verificano errori di distribuzione quando si esegue il commit nel repository di file/cartelle. Ad esempio, il seguente errore è causato da un tentativo di connessione al database quando non è attualmente disponibile durante la [fase di compilazione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase):
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +49,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## Causa
 
-Alcuni file o cartelle non devono essere salvati nell&#39;archivio, in quanto causano un&#39;interruzione nel [flusso di lavoro di distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=it).
+Alcuni file o cartelle non devono essere salvati nell&#39;archivio, in quanto causano un&#39;interruzione nel [flusso di lavoro di distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html).
 
 ## Soluzione
 

@@ -1,16 +1,23 @@
 ---
 title: Il processo [!DNL Cron] è bloccato nello stato **in esecuzione**
-description: Questo articolo fornisce soluzioni per i casi in cui Adobe Commerce [!DNL cron] processi non vengono completati e rimangono nello stato "in esecuzione", impedendo l'esecuzione di altri [!DNL cron] processi. Ciò può verificarsi per diversi motivi, ad esempio problemi di rete, arresti anomali dell’applicazione e problemi di ridistribuzione.
+description: In questo articolo vengono fornite soluzioni per i casi in cui i processi di Adobe Commerce [!DNL cron] non vengono completati e rimangono nello stato "in esecuzione", impedendo l'esecuzione di altri processi di [!DNL cron]. Ciò può verificarsi per diversi motivi, ad esempio problemi di rete, arresti anomali dell’applicazione e problemi di ridistribuzione.
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # Il processo [!DNL Cron] è bloccato nello stato &quot;in esecuzione&quot;
 
 In questo articolo vengono fornite soluzioni per i casi in cui i processi di Adobe Commerce [!DNL cron] non vengono completati e rimangono nello stato &quot;in esecuzione&quot;, impedendo l&#39;esecuzione di altri processi di [!DNL cron]. Ciò può verificarsi per diversi motivi, ad esempio problemi di rete, arresti anomali dell’applicazione e problemi di ridistribuzione.
@@ -37,7 +44,7 @@ I sintomi di [!DNL cron] processi che devono essere reimpostati includono:
 
 Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] utilizzando il comando `cron:unlock`. Questo comando modifica lo stato del processo [!DNL cron] nel database, interrompendo il processo forzatamente per consentire la continuazione di altri processi pianificati.
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Ottenere le credenziali del database MySQL: `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
 1. Connetti al database tramite `mysql`: `mysql -hdatabase.internal -uuser -ppassword main`
 1. Selezionare il database `main`: `use main`
@@ -47,7 +54,7 @@ Per risolvere il problema, è necessario reimpostare i processi [!DNL cron] util
 
 ### Soluzione per arrestare un singolo [!DNL cron] {#solution-stop-a-single-cron}
 
-1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
+1. Apri un terminale e usa le [chiavi SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) per connetterti all&#39;ambiente interessato.
 1. Controllare le attività con tempi di esecuzione lunghi utilizzando il comando seguente:
 
    `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`

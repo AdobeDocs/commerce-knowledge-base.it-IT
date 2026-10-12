@@ -4,13 +4,20 @@ description: Questo articolo fornisce una soluzione per il problema quando i cou
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # Coupon monouso viene utilizzato più volte, Adobe Commerce
 
 Questo articolo fornisce una soluzione per il problema quando i coupon della regola di prezzo del carrello non funzionano correttamente. Gli esercenti impostano un coupon per singolo utilizzo e i clienti possono utilizzarlo più volte.
@@ -62,8 +69,8 @@ Aggiungere il consumer `sales.rule.update.coupon.usage` al file `app/etc/env.php
 ...
 ```
 
-Per i passaggi dettagliati, consulta [Gestione delle code di messaggi > Configurazione](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) nella documentazione per gli sviluppatori.
+Per i passaggi dettagliati, consulta [Gestione delle code di messaggi > Configurazione](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 
-[Panoramica delle code di messaggi](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) nella documentazione per gli sviluppatori.
+[Panoramica delle code di messaggi](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework) nella documentazione per gli sviluppatori.

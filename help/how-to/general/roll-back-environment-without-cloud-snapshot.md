@@ -3,13 +3,26 @@ title: Ripristino dello stato precedente dell’ambiente senza snapshot cloud
 description: Questo articolo mostra due soluzioni per eseguire il rollback di un ambiente senza avere un’istantanea dell’ambiente su Adobe Commerce sull’infrastruttura cloud.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # Ripristino dello stato precedente dell’ambiente senza snapshot cloud
 
 Questo articolo mostra due soluzioni per eseguire il rollback di un ambiente senza avere un’istantanea dell’ambiente su Adobe Commerce sull’infrastruttura cloud.
@@ -48,7 +61,7 @@ Per disabilitare Gestione configurazione, assicurarsi che la directory `/app/etc
 
 Per rimuovere il file di configurazione, effettuare le seguenti operazioni:
 
-1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
+1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Rimuovi il file di configurazione:
    * Per Adobe Commerce 2.4:
 
@@ -62,18 +75,18 @@ Per rimuovere il file di configurazione, effettuare le seguenti operazioni:
      rm app/etc/config.local.php
    ```
 
-Per ulteriori informazioni sulla gestione della configurazione, consulta [Gestione della configurazione per le impostazioni dello store](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=it) nella documentazione per gli sviluppatori.
+Per ulteriori informazioni sulla gestione della configurazione, consulta [Gestione della configurazione per le impostazioni dello store](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html) nella documentazione per gli sviluppatori.
 
 ### Passaggio 1: disinstallare il software Adobe Commerce con il comando setup:uninstall {#setup-uninstall}
 
 
 La disinstallazione del software Adobe Commerce provoca la perdita e il ripristino del database, la rimozione della configurazione di distribuzione e la cancellazione delle directory in `var`.
 
-Consulta [Disinstallare il software Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=it) nella documentazione per gli sviluppatori.
+Consulta [Disinstallare il software Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html) nella documentazione per gli sviluppatori.
 
 Per disinstallare il software Adobe Commerce, effettuare le seguenti operazioni:
 
-1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
+1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Esegui `setup:uninstall`:
 
    ```php
@@ -94,7 +107,7 @@ Questo significa che abbiamo ripristinato l’installazione di Adobe Commerce (i
 
 Con il ripristino di Git, il codice viene ripristinato allo stato desiderato nel passato.
 
-1. Clona l’ambiente nell’ambiente di sviluppo locale. Puoi copiare il comando nella console Cloud:    ![copia_git_clone.png](assets/copy_git_clone.png)
+1. Clona l’ambiente nell’ambiente di sviluppo locale. È possibile copiare il comando nella console cloud: ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Accedi alla cronologia dei commit. Utilizza `--reverse` per visualizzare la cronologia in ordine inverso per maggiore comodità:
 
    ```git
@@ -128,7 +141,7 @@ In questo scenario, devi innanzitutto ripristinare lo stato di funzionamento del
 
 [&#x200B;3. Disinstallare il software Adobe Commerce.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&period; Forza ridistribuzione.
+4&amp;period; Forza la ridistribuzione.
 
 Dopo aver eseguito questi passaggi, si otterranno gli stessi risultati dello Scenario 1.
 
@@ -144,7 +157,7 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 Se l&#39;esecuzione del comando `setup:uninstall` ha esito negativo e non può essere completata, è possibile cancellare il database manualmente con la procedura seguente:
 
-1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
+1. [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. Connettersi al database MySQL:
 
    ```sql
@@ -165,15 +178,15 @@ Se l&#39;esecuzione del comando `setup:uninstall` ha esito negativo e non può e
 
 1. Eliminare i seguenti file di configurazione: `config.php`, `config.php` `.bak`, `env.php` e `env.php.bak`.
 
-Dopo aver reimpostato il database, [invia un messaggio Git all&#39;ambiente per attivare la ridistribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=it#git-commands) e installa Adobe Commerce in un database appena creato. Oppure [eseguire il comando di ridistribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=it#environment-commands).
+Dopo aver reimpostato il database, [invia un messaggio Git all&#39;ambiente per attivare la ridistribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands) e installa Adobe Commerce in un database appena creato. Oppure [eseguire il comando di ridistribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands).
 
 ## Lettura correlata
 
 Nella documentazione per gli sviluppatori:
 
-* [Ripristinare uno snapshot nel cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [Crea uno snapshot](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [Snapshot e gestione backup](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [Gestire i rami con Cloud Console - Visualizzare i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=it#view-logs)
-* [Errore di distribuzione del componente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=it)
-* [Gestisci il progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=it#configure-the-project)
+* [Ripristinare una copia istantanea nel cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [Creare un’istantanea](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [Snapshot e gestione dei backup](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Gestire i rami con Cloud Console: visualizza i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
+* [Errore di distribuzione del componente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
+* [Gestione del progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)

@@ -4,13 +4,22 @@ description: Questo articolo spiega come risolvere i problemi relativi alla lett
 feature: Configuration
 role: Developer,Admin
 exl-id: b7af1cc3-93ff-40c5-8959-076cedddb56d
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # Leggi i problemi relativi alle repliche su Adobe Commerce Cloud 2.4.6 con MariaDB 10.6
 
 Questo articolo fornisce soluzioni per comportamenti imprevisti quando si utilizzano repliche di lettura su Adobe Commerce Cloud 2.4.6 con MariaDB 10.6+.
@@ -30,7 +39,7 @@ La configurazione di `slave_parallel_mode` nel database è stata modificata per 
 
 ## Soluzione
 
-1. Verificare che il parametro `slave_parallel_mode` sia impostato su *conservativo* (sarà necessario [alzare un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=it#submit-ticket) se il valore non è visualizzato come *conservativo*). Per eseguire il controllo, eseguire il comando seguente:
+1. Verificare che il parametro `slave_parallel_mode` sia impostato su *conservativo* (sarà necessario [alzare un ticket di supporto](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) se il valore non è visualizzato come *conservativo*). Per eseguire il controllo, eseguire il comando seguente:
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
@@ -54,10 +63,10 @@ La configurazione di `slave_parallel_mode` nel database è stata modificata per 
 
 
 
-Per i passaggi relativi all&#39;aggiornamento della configurazione del database, fare riferimento a [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=it#database_configuration) nell&#39;argomento Distribuisci variabili nella Guida all&#39;infrastruttura di Commerce su Cloud.
+Per i passaggi relativi all&#39;aggiornamento della configurazione del database, fare riferimento a [DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration) nell&#39;argomento Distribuisci variabili nella Guida all&#39;infrastruttura di Commerce su Cloud.
 
 
 ## Lettura correlata
 
-* [Configurare le variabili di ambiente per la distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it) nella Guida all&#39;infrastruttura di Commerce su Cloud.
-* [Best practice per la configurazione del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=it) nella playbook di implementazione.
+* [Configurare le variabili di ambiente per la distribuzione](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+* [Best practice per la configurazione del database](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html) nella playbook di implementazione.

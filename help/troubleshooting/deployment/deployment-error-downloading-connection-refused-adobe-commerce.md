@@ -4,13 +4,25 @@ description: 'Questo articolo fornisce una soluzione per l’errore di distribuz
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # Errore di distribuzione: *errore 7 durante il download della porta 443. Connessione rifiutata*
 
 Questo articolo fornisce una correzione del problema quando la distribuzione non riesce con il seguente messaggio di errore:
@@ -55,10 +67,10 @@ Chiedi a un utente privilegiato sul progetto di eseguire questo comando:
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-Per verificare chi è un utente privilegiato nel progetto, consulta [Visualizzare il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=it#view-a-user’s-project-role) nella Guida all&#39;infrastruttura di Commerce su Cloud.
+Per verificare chi è un utente privilegiato nel progetto, consulta [Visualizzare il ruolo di progetto di un utente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) nella Guida all&#39;infrastruttura di Commerce su Cloud.
 
 ## Lettura consigliata
 
-* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-29640).
-* [Impossibile accedere all&#39;archivio Adobe Commerce sul cloud: errore 403 Non consentito o 404 Non trovato durante la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html?lang=it).
-* [La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html?lang=it).
+* [Risoluzione dei problemi di distribuzione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640).
+* [Impossibile accedere all&#39;archivio Adobe Commerce sul cloud: errore 403 Non consentito o 404 Non trovato durante la distribuzione](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
+* [La distribuzione non riesce e viene visualizzato il messaggio &quot;Errore durante la compilazione del progetto: hook di compilazione non riuscito con codice di stato 1&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).

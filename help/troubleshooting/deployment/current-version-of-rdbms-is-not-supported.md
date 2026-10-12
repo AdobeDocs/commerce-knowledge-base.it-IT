@@ -4,13 +4,20 @@ description: 'Questo articolo fornisce una soluzione per i casi in cui una distr
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 # Errore &quot;Versione corrente di RDBMS non supportata&quot; durante la distribuzione
 
 Questo articolo fornisce una soluzione per i casi in cui una distribuzione non riesce e si verifica il seguente errore nel registro di distribuzione: *la versione corrente di RDBMS non è supportata*.
@@ -45,12 +52,12 @@ La versione di MariaDB in uso non è compatibile con la versione di Adobe Commer
 Prima di aggiornare l&#39;applicazione, è necessario aggiornare il servizio MariaDB a una versione compatibile.
 
 
-Per il ramo di integrazione su Adobe Commerce su infrastruttura cloud Architettura del piano Pro (e tutti i rami nell&#39;architettura Starter), segui [Configurazione del servizio](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) nella documentazione per gli sviluppatori.
+Per il ramo di integrazione su Adobe Commerce su infrastruttura cloud Architettura del piano Pro (e tutti i rami nell&#39;architettura Starter), segui [Configurazione del servizio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml) nella documentazione per gli sviluppatori.
 
-Per l&#39;architettura di staging e produzione su Adobe Commerce su infrastruttura cloud Pro, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per richiedere l&#39;aggiornamento dei servizi prima di distribuire l&#39;aggiornamento della versione di Adobe Commerce.
+Per l&#39;architettura di staging e produzione su Adobe Commerce su infrastruttura cloud Pro, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per richiedere l&#39;aggiornamento dei servizi prima di distribuire l&#39;aggiornamento della versione di Adobe Commerce.
 
 
 ## Lettura correlata
 
-* [Best practice per le build e la distribuzione](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) nella documentazione per gli sviluppatori.
-* [Aggiornamento Adobe Commerce 2.3.5: compatta in tabelle dinamiche](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=it) nella knowledge base di supporto.
+* [Best practice per le build e la distribuzione](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices) nella documentazione per gli sviluppatori.
+* [Aggiornamento Adobe Commerce 2.3.5: compatta in tabelle dinamiche](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) nella knowledge base di supporto.

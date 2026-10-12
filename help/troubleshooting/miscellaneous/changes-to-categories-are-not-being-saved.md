@@ -4,13 +4,23 @@ description: 'Questo articolo corregge alcuni problemi che si verificavano duran
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '760'
 ht-degree: 0%
-
 ---
-
 # Le modifiche alle categorie non vengono salvate
 
 Questo articolo corregge alcuni problemi che si verificavano durante l’aggiornamento delle categorie di prodotti tramite l’amministratore di Commerce: le modifiche non venivano visualizzate nell’amministratore e nella vetrina. Il problema è causato dai dati danneggiati nella tabella `catalog_category_entity`. Per risolvere il problema, correggere o rimuovere i record di aggiornamento delle categorie problematici nella tabella. Dopodiché, dovresti essere in grado di aggiornare le categorie di prodotto utilizzando l’Amministratore.
@@ -92,4 +102,4 @@ Segui questi passaggi:
 
 ## Lettura correlata
 
-[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/it/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce
+[Best practice per la modifica delle tabelle del database](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications) nel playbook di implementazione di Commerce

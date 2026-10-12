@@ -1,15 +1,19 @@
 ---
 title: Collegamento Magento.com e accessi account accounts.magento.cloud
-description: A partire dal 1° aprile 2020, Adobe Commerce richiederà agli utenti che dispongono di un account in [accounts.magento.cloud](https://accounts.magento.cloud/) di collegare questo account con il proprio account [Magento.com](https://account.magento.com/customer/account/login/). In questo modo l’accesso all’account [Magento.com](https://account.magento.com/customer/account/login/) diventerà il metodo di accesso principale per entrambi gli account e migliorerà la sicurezza per gli utenti.
+description: A partire dal 1° aprile 2020, Adobe Commerce richiederà agli utenti che dispongono di un account in [accounts.magento.cloud](https://accounts.magento.cloud/) di collegare questo account con il proprio account [Magento.com](https://account.magento.com/customer/account/login/). In questo modo, l’accesso all’account [Magento.com](https://account.magento.com/customer/account/login/) diventerà il metodo di accesso principale per entrambi gli account e migliorerà la sicurezza per gli utenti.
 exl-id: 89afec50-bc21-46cd-8440-2bcf717ded69
 feature: Cloud
-source-git-commit: 74b04ca74330037252334c288b15d8412d00d253
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # Collegamento Magento.com e accessi account accounts.magento.cloud
 
 A partire dal 1° aprile 2020, Adobe Commerce richiederà agli utenti che dispongono di un account in [accounts.magento.cloud](https://accounts.magento.cloud/) di collegare questo account con il loro account [Magento.com](https://account.magento.com/customer/account/login/). In questo modo l&#39;accesso all&#39;account [Magento.com](https://account.magento.com/customer/account/login/) diventerà il metodo di accesso principale per entrambi gli account e migliorerà la sicurezza per gli utenti.
@@ -33,4 +37,4 @@ Gli utenti di [accounts.magento.cloud](https://accounts.magento.cloud/) possono 
 ## Lettura correlata
 
 * [Impossibile accedere al supporto Adobe Commerce o all’account cloud](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [Il proprietario dell&#39;account MageID non è in grado di accedere e inviare un ticket di supporto](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [Il proprietario dell’account MageID non è in grado di accedere e inviare un ticket di supporto](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)

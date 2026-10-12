@@ -4,13 +4,22 @@ description: Questo articolo fornisce soluzioni per i problemi relativi all'elab
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 # Risoluzione dei problemi di PayPal su Adobe Commerce
 
 Questo articolo fornisce soluzioni per i problemi relativi all&#39;elaborazione dei pagamenti tramite PayPal, in particolare la soluzione PayFlow Pro. Alcune raccomandazioni in questo articolo possono sembrare ovvie. Ti chiediamo di provare le opzioni di risoluzione dei problemi elencate in questa knowledge base e di includere tutte le informazioni nei ticket inseriti. I tecnici dell&#39;assistenza Adobe Commerce o PayPal ti chiederanno di eseguire questi passaggi durante la diagnosi dei tuoi problemi.
@@ -31,7 +40,7 @@ Assicurati di aver applicato le stesse impostazioni e di aver attivato le stesse
 
 Quando si applica la soluzione di pagamento PayPal Express, le transazioni basate sulle risposte AVS/CSC devono essere rifiutate in **Gestione PayPal** (Impostazioni servizio > Imposta > Opzioni di sicurezza) e in **Amministrazione Commerce** ( **Archivi** > Configurazione > **Vendite** > **Metodi di pagamento** ...).
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
-Per ulteriori informazioni, consulta la documentazione: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) e [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html?lang=it) nella nostra guida utente.
+Per ulteriori informazioni, consulta la documentazione: [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm) e [Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html) nella guida utente.
 
 ## Consenti transazioni di riferimento
 
@@ -41,14 +50,14 @@ Se il metodo di pagamento PayPal prevede l&#39;utilizzo di API con contratti di 
 
 Vedi i seguenti articoli:
 
-* [Richiesta rifiutata dal gateway PayPal - problema fattura duplicato](https://experienceleague.adobe.com/it/docs/experience-cloud-kcs/kbarticles/ka-26838) nella Knowledge Base del supporto tecnico.
+* [Richiesta rifiutata dal gateway PayPal - problema fattura duplicato](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838) nella Knowledge Base del supporto tecnico.
 * [Modifica l&#39;ID incremento per la nuova entità dello store](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md) nella Knowledge Base di supporto.
 
 ## Contatta il supporto per raccogliere i registri di pagamento avanzato
 
 Per risolvere problemi di pagamento complessi, il team di supporto Adobe Commerce può richiedere l’applicazione di una patch dedicata per abilitare la registrazione avanzata dei pagamenti. In questo caso, i passaggi da seguire sono i seguenti:
 
-[Invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) con i dettagli seguenti:
+[Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) con i dettagli seguenti:
 
 * Specifica il problema con il maggior numero di dettagli possibile.
 * Elencare i passaggi tentati da questo articolo, knowledge base e altre risorse. Includi tutti i risultati.
@@ -57,5 +66,5 @@ Per risolvere problemi di pagamento complessi, il team di supporto Adobe Commerc
 Se ricevi la patch Registrazione pagamenti avanzata:
 
 * Applichi il cerotto.
-* Raccogli i registri e allegali al [ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+* Raccogli i registri e allegali al [ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 * Attendi ulteriori raccomandazioni dal team di supporto Adobe Commerce.

@@ -2,13 +2,14 @@
 title: Ripristinare uno snapshot del database da Gestione temporanea o Produzione
 description: Questo articolo mostra come ripristinare un’istantanea del database da Staging o Produzione su Adobe Commerce su un’infrastruttura cloud.
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 62815213ce54f72d27812b9c2d7b3997f2e88897
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '548'
 ht-degree: 0%
-
 ---
-
 # Ripristinare uno snapshot del database da [!DNL Staging] o [!DNL Production]
 
 In questo articolo viene illustrato come ripristinare un database [!DNL snapshot] da [!DNL Staging] o [!DNL Production] nell&#39;infrastruttura Adobe Commerce su Cloud Pro.
@@ -17,7 +18,7 @@ In questo articolo viene illustrato come ripristinare un database [!DNL snapshot
 >[!NOTE]
 >
 >Questi metodi ripristineranno lo **snapshot completo**.
->&#x200B;>Se è necessario ripristinare lo snapshot **parzialmente**, ad esempio solo ripristinando le tabelle di catalogo senza modificare le tabelle dell&#39;ordine, è necessario consultare lo sviluppatore o il DBA.
+>Se è necessario ripristinare lo snapshot **parzialmente**, ad esempio solo ripristinando le tabelle di catalogo senza modificare le tabelle dell&#39;ordine, è necessario consultare lo sviluppatore o il DBA.
 
 
 ## Prodotti e versioni interessati
@@ -28,7 +29,7 @@ Scegliere il caso più appropriato:
 
 >[!NOTE]
 >
-> Se si importa un&#39;istantanea in un ambiente di integrazione, tenere presente le dimensioni del database. I database di grandi dimensioni possono causare un calo delle prestazioni dopo l&#39;importazione. Si consiglia di importare l&#39;istantanea in un ambiente di staging o locale per esaminarla e ridurne le dimensioni prima di trasferirla all&#39;integrazione. Inoltre, se si verificano problemi di prestazioni dopo l’importazione, è consigliabile disabilitare i processi cron nel ramo dell’integrazione. Per ulteriori informazioni, consulta [Ambiente di integrazione](https://experienceleague.adobe.com/it/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) nella guida Commerce su infrastruttura cloud.
+> Se si importa un&#39;istantanea in un ambiente di integrazione, tenere presente le dimensioni del database. I database di grandi dimensioni possono causare un calo delle prestazioni dopo l&#39;importazione. Si consiglia di importare l&#39;istantanea in un ambiente di staging o locale per esaminarla e ridurne le dimensioni prima di trasferirla all&#39;integrazione. Inoltre, se si verificano problemi di prestazioni dopo l’importazione, è consigliabile disabilitare i processi cron nel ramo dell’integrazione. Per ulteriori informazioni, consulta [Ambiente di integrazione](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment) nella guida Commerce su infrastruttura cloud.
 
 * [Metodo 1: trasferire il database [!DNL dump] nel computer locale e importarlo](#meth2).
 * [Metodo 2: importare il database [!DNL dump] direttamente dal server](#meth3).
@@ -49,7 +50,7 @@ I passaggi sono i seguenti:
    > * `/mnt/shared/<cluster ID>/all-databases.sql.gz`
    > * `/mnt/shared/<cluster ID_stg>/all-databases.sql.gz`
 
-   **Passaggi di estrazione specifici di Azure**
+   **Passaggi di estrazione specifici per Azure**
 
    **Per la produzione:**
 
@@ -83,7 +84,7 @@ I passaggi sono i seguenti:
    ```
 
 1. Copiare il database [!DNL dump file] (ad esempio: `<cluster ID>.sql.gz` per [!DNL Production] o `<cluster ID_stg>.sql.gz` per [!DNL Staging]) nel computer locale.
-1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) nella documentazione per gli sviluppatori.
+1. Assicurarsi di aver configurato [!DNL SSH tunnel] per la connessione al database in modalità remota: [[!DNL SSH] and [!DNL sFTP]: [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) nella documentazione per gli sviluppatori.
 1. Connettersi al database.
 
    ```bash
@@ -179,6 +180,6 @@ I passaggi sono i seguenti:
 
 Nella documentazione per gli sviluppatori:
 
-* [Codice importazione: importare il database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [Backup (snapshot) nel cloud: domande frequenti](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [Importa codice: importa il database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] e [!DNL backup] gestione: [!DNL Dump] database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Backup (snapshot) su Cloud: domande frequenti](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)

@@ -4,13 +4,24 @@ description: Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 i
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.1: messaggio errato al pagamento PayPal-Braintree
 
 Questo articolo descrive un problema noto di Adobe Commerce 2.4.1 in cui se il pagamento dei clienti guest è disabilitato, un cliente ospite che tenta di effettuare un ordine con PayPal tramite Braintree riceve un messaggio di errore non informativo.
@@ -27,7 +38,7 @@ Viene visualizzato un errore non specifico quando il pagamento del cliente ospit
 <u>Prerequisiti</u>:
 
 1. In Amministrazione Commerce, in **Archivi** > **Configurazione** > **Vendite** > **Pagamento**, impostare **Consenti pagamento ospite** = *No*.
-1. Abilita PayPal tramite Braintree come descritto in [Braintree](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
+1. Abilita PayPal tramite Braintree come descritto in [Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?) nella nostra guida utente.
 
 <u>Passaggi da riprodurre</u>:
 

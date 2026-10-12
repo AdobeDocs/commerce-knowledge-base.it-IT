@@ -4,13 +4,22 @@ description: Questo articolo fornisce una correzione del problema noto durante l
 exl-id: 97479615-bf3f-4544-a9c1-8f19ba74318e
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '388'
 ht-degree: 0%
-
 ---
-
 # Errore nella lista dei desideri durante l’aggiornamento alle versioni 2.3.4-p1 o 2.3.5 di Adobe Commerce
 
 Questo articolo fornisce una correzione del problema noto durante l’aggiornamento alle versioni 2.3.4-p1 e 2.3.5 di Adobe Commerce relativo a un errore della lista dei desideri durante l’aggiornamento a tali versioni.
@@ -57,8 +66,8 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 Nella documentazione per gli sviluppatori:
 
-* [Guida di Adobe Commerce sull&#39;infrastruttura cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/overview)
-* [Adobe Commerce sull&#39;infrastruttura cloud - Aggiornamento della versione di Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
-* [Adobe Commerce on-premise e Magento Open Source - Aggiornamento dell&#39;applicazione Adobe Commerce e dei moduli](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/overview)
-* [Pagina di configurazione elemento lista dei desideri](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts#wishlist-item-configure-page)
-* [Moduli che forniscono funzioni di reporting avanzate](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)
+* [Guida di Adobe Commerce sull’infrastruttura cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/overview)
+* [Adobe Commerce sull’infrastruttura cloud: aggiornamento della versione di Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [Adobe Commerce on-premise e Magento Open Source: aggiornamento dell’applicazione e dei moduli Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/overview)
+* [Pagina di configurazione voce elenco desideri](https://developer.adobe.com/commerce/frontend-core/guide/layouts/product-layouts#wishlist-item-configure-page)
+* [Moduli per la generazione di rapporti avanzati](https://developer.adobe.com/commerce/php/development/advanced-reporting/modules/)

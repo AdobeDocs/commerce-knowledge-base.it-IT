@@ -3,13 +3,22 @@ title: Reindirizza HTTP a HTTPS per tutte le pagine su Adobe Commerce nell’inf
 description: Attiva la funzionalità **Force TLS** di Fastly nell’amministratore di Commerce per abilitare il reindirizzamento globale da HTTP a HTTPS per tutte le pagine dell’Adobe Commerce nell’archivio dell’infrastruttura cloud.
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '519'
 ht-degree: 0%
-
 ---
-
 # Reindirizza HTTP a HTTPS per tutte le pagine su Adobe Commerce nell’infrastruttura cloud (Forza TLS)
 
 Attiva la funzionalità **Force TLS** di Fastly nell&#39;amministratore di Commerce per abilitare il reindirizzamento globale da HTTP a HTTPS per tutte le pagine dell&#39;Adobe Commerce nell&#39;archivio dell&#39;infrastruttura cloud.
@@ -26,20 +35,20 @@ In questo passaggio definiamo gli URL sicuri per l’archivio. Se l&#39;operazio
 1. Passa a **Archivi** > **Configurazione** > **Generale** > **Web**.
 1. Espandi la sezione **URL di base (protetti)**.    ![magento-admin_base-urls-secure.png](assets/magento-admin_base-urls-secure.png)
 1. Nel campo **URL di base sicuro**, specifica l&#39;URL HTTPS dell&#39;archivio.
-1. Impostare **Usa URL protetti in Storefront** e **Usa URL protetti in Admin** su **Sì**.    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
+1. Imposta **Usa URL protetti in Storefront** e **Usa URL protetti in Admin** su **Sì**. ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. Fai clic su **Salva configurazione** nell&#39;angolo superiore destro per applicare le modifiche.
 
-**Documentazione correlata nella guida utente:**   [Archivia URL](https://experienceleague.adobe.com/it/docs/commerce-admin/stores-sales/site-store/store-urls).
+**Documentazione correlata nella guida utente:** [Archivia URL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls).
 
 ### Passaggio 2: abilitare Force TLS (Forza TLS) {#step-2-enable-force-tls}
 
 1. In Amministrazione Commerce, passa a **Archivi** > **Configurazione** > **Avanzate** > **Sistema**.
 1. Espandi la sezione **Cache a pagina intera**, quindi **Configurazione rapida** e infine **Configurazione avanzata**.
 1. Fare clic sul pulsante **Forza TLS**.    ![magento-admin_force-tls-button.png](assets/magento-admin_force-tls-button.png)
-1. Nella finestra di dialogo visualizzata, fai clic su **Carica**.    ![magento-admin_force-tls-confirm-dialog.png](assets/magento-admin_force-tls-confirmation-dialog.png)
-1. Dopo la chiusura della finestra di dialogo, accertati che lo stato corrente di Force TLS sia visualizzato come **enabled**.    ![magento-admin_force-tls-enabled.png](assets/magento-admin_force-tls-enabled.png)
+1. Nella finestra di dialogo visualizzata, fai clic su **Carica**. ![magento-admin_force-tls-confirm-dialog.png](assets/magento-admin_force-tls-confirmation-dialog.png)
+1. Dopo la chiusura della finestra di dialogo, accertati che lo stato corrente di Force TLS sia visualizzato come **enabled**. ![magento-admin_force-tls-enabled.png](assets/magento-admin_force-tls-enabled.png)
 
-**Documentazione rapida correlata:**   [Forza la guida TLS](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md) per Adobe Commerce 2.
+**Documentazione Fastly correlata:** [Forza guida TLS](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md) per Adobe Commerce 2.
 
 ## Info Forza TLS
 
@@ -47,7 +56,7 @@ TLS (Transport Layer Security) è un protocollo per connessioni HTTP sicure che 
 
 La funzionalità Force TLS di Fastly consente di forzare a TLS tutte le richieste non crittografate in entrata per le pagine del sito.
 
-&#x200B;>>
+>>
 Funziona restituendo una risposta *301 spostata definitivamente* a qualsiasi richiesta non crittografata, che reindirizza all&#39;equivalente TLS. Ad esempio, la creazione di una richiesta per *http://www.example.com/foo.jpeg* verrebbe reindirizzata a *https://www.example.com/foo.jpeg*.
 
 [Protezione delle comunicazioni](https://docs.fastly.com/guides/securing-communications/) (documentazione rapida)
@@ -55,8 +64,8 @@ Funziona restituendo una risposta *301 spostata definitivamente* a qualsiasi ric
 ## Versioni interessate
 
 * **Adobe Commerce sull&#39;infrastruttura cloud:**
-   * versione: 2.1.4 e successive
-   * piani: Adobe Commerce su infrastruttura cloud Architettura del piano iniziale e Adobe Commerce su infrastruttura cloud Architettura del piano Pro (inclusa Pro Legacy)
+  * versione: 2.1.4 e successive
+  * piani: Adobe Commerce su infrastruttura cloud Architettura del piano iniziale e Adobe Commerce su infrastruttura cloud Architettura del piano Pro (inclusa Pro Legacy)
 * **In breve:** 1.2.4
 
 ## Nessuna modifica necessaria in route.yaml
@@ -66,5 +75,5 @@ Per abilitare il reindirizzamento da HTTP a HTTPS su **tutte** le pagine dell&#3
 ## Documentazione Fastly correlata
 
 * [Forza guida TLS per Adobe Commerce 2](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/FORCE-TLS.md)
-* [Forzatura di un reindirizzamento TLS](https://docs.fastly.com/guides/securing-communications/forcing-a-tls-redirect)
+* [Forzare un reindirizzamento TLS](https://docs.fastly.com/guides/securing-communications/forcing-a-tls-redirect)
 * [Protezione delle comunicazioni](https://docs.fastly.com/guides/securing-communications/)

@@ -2,13 +2,14 @@
 title: Come creare un’immagine "eliminata" quando richiesto dall’agente di supporto
 description: Questo articolo fornisce informazioni su come creare un’immagine (backup) "pulita" del database e del codice da parte dell’amministratore di Adobe Commerce, quando richiesto da un agente di supporto Adobe Commerce. Questo dump esclude i file multimediali per accelerare il processo e ottenere un file molto più piccolo. Durante il backup del database viene eseguito l'hashing di tutti i dati sensibili.
 exl-id: ad088bd2-3f92-416e-89f0-d037d53cd6a9
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
-
 ---
-
 # Come creare un’immagine &quot;eliminata&quot; quando richiesto dall’agente di supporto
 
 
@@ -27,7 +28,7 @@ Crea un dump &quot;scrubbed&quot; dall’amministratore:
 
 Puoi quindi fornire a Supporto del collegamento di download diretto ai file di dump (il tuo indirizzo dello store e il nome del file come visualizzato).
 
-In caso di problemi durante la creazione delle immagini da Admin, è consigliabile utilizzare i comandi CLI come descritto in [Eseguire le utilità di supporto](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/cli/run-support-utilities) nella documentazione per gli sviluppatori.
+In caso di problemi durante la creazione delle immagini da Admin, è consigliabile utilizzare i comandi CLI come descritto in [Eseguire le utilità di supporto](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities) nella documentazione per gli sviluppatori.
 
 ## Lettura correlata
 

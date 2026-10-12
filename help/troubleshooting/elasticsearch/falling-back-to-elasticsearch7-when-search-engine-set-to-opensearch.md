@@ -1,16 +1,26 @@
 ---
-title: Fallback a  [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]
-description: Questo articolo fornisce una soluzione per il problema quando un *fallback a [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch]  in Adobe Commerce.
+title: Ripristino di [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]
+description: Questo articolo fornisce una soluzione al problema quando si verifica un errore *Fallback to [!DNL Elasticsearch7]* quando il motore di ricerca è impostato su [!DNL OpenSearch] in Adobe Commerce.
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # Ripristino di [!DNL Elasticsearch7] quando il motore di ricerca è impostato su [!DNL Opensearch]
 
 Questo articolo fornisce una soluzione al problema quando si verifica un errore *Fallback a[!DNL Elasticsearch7]* quando il motore di ricerca è impostato su [!DNL OpenSearch] in Adobe Commerce.
@@ -52,4 +62,4 @@ Aggiornare la variabile `SEARCH_CONFIGURATION` nel file `.magento.env.yaml` e ve
 
 ## Lettura correlata
 
-[Configura il servizio OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=it) nella guida Commerce su infrastruttura cloud.
+[Configura il servizio OpenSearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html) nella guida Commerce su infrastruttura cloud.

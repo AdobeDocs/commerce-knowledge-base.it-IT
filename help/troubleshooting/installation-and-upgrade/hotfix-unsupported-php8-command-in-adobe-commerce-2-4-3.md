@@ -4,18 +4,27 @@ description: 'Questo articolo fornisce una correzione per consentire agli eserce
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # Aggiornamento Adobe Commerce 2.4.3, 2.3.7-p1 PHP Errore irreversibile Hotfix
 
 Questo articolo fornisce una correzione per consentire agli esercenti che tentano di eseguire l’aggiornamento ad Adobe Commerce (tutti i metodi di distribuzione) o a Magento Open Source 2.4.3 o 2.3.7-p1 di visualizzare il seguente errore:
 
-*Errore irreversibile PHP: errore non rilevato: chiamata a una funzione non definita Magento\Framework\Filesystem\Directory\str_contains() in &lt;...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
+*Errore irreversibile PHP: Errore non rilevato: chiamata a una funzione non definita Magento\Framework\Filesystem\Directory\str_contains() in &lt;...>/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php:74*
 
 Il problema verrà risolto nell’ambito delle versioni 2.4.4, 2.4.3-p1 e 2.3.7-p2.
 
@@ -42,7 +51,7 @@ Errore irreversibile PHP.
 
 ## Soluzione
 
-Come soluzione alternativa è possibile eseguire il comando seguente in CLI/Terminal: `composer require symfony/polyfill-php80` dalla cartella principale di Magento oppure installare una patch del compositore.
+Come soluzione alternativa è possibile eseguire il comando seguente in CLI/Terminal: `composer require symfony/polyfill-php80` dalla cartella principale di Magento o installare una patch del compositore.
 
 Per risolvere il problema della versione 2.4.3, Adobe Commerce (tutti i metodi di distribuzione) e i rivenditori Magento Open Source devono applicare la patch:
 
@@ -54,7 +63,7 @@ Per risolvere il problema della versione 2.3.7-p1, Adobe Commerce (tutti i metod
 
 ## Come applicare il cerotto
 
-Per istruzioni, vedere [Come applicare una patch del compositore fornita da Magento](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
+Per istruzioni, consulta [Come applicare una patch del compositore fornita da Magento](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento).
 
 ## Lettura correlata
 

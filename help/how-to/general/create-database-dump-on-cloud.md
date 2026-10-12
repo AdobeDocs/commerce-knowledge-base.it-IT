@@ -3,13 +3,17 @@ title: Creazione di un dump del database sull’infrastruttura cloud di Adobe Co
 description: Questo articolo illustra i modi possibili (e consigliati) per creare un’immagine database (DB) su Adobe Commerce nell’infrastruttura cloud.
 exl-id: 4a2e54ac-8d65-4e51-8337-08f9748dc6c0
 feature: Cloud
-source-git-commit: 96b145a1f76c296907da96fd97c7a8f7778463f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # Creazione di un dump del database sull’infrastruttura cloud di Adobe Commerce
 
 Questo articolo illustra i modi possibili (e consigliati) per creare un’immagine database (DB) su Adobe Commerce nell’infrastruttura cloud.
@@ -18,7 +22,7 @@ Per scaricare il database è sufficiente utilizzare una sola variante (opzione).
 
 ## Prerequisito: SSH per l’ambiente
 
-Per eseguire il dump del database sull&#39;infrastruttura cloud di Adobe Commerce con qualsiasi variante descritta in questo articolo, devi prima [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=it).
+Per eseguire il dump del database sull&#39;infrastruttura cloud di Adobe Commerce con qualsiasi variante descritta in questo articolo, devi prima [SSH nell&#39;ambiente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 
 >[!WARNING]
 >
@@ -26,7 +30,7 @@ Per eseguire il dump del database sull&#39;infrastruttura cloud di Adobe Commerc
 
 ## Opzione 1: db-dump (**ece-tools; consigliato**)
 
-Puoi scaricare il tuo database utilizzando il comando [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=it):
+Puoi scaricare il tuo database utilizzando il comando [ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html):
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +38,7 @@ vendor/bin/ece-tools db-dump
 
 Questa è l’opzione consigliata e più sicura.
 
-Consulta [Eseguire il dump del database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=it) nella Guida all&#39;infrastruttura cloud di Commerce.
+Consulta [Eseguire il dump del database (ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html) nella Guida all&#39;infrastruttura cloud di Commerce.
 
 ## Opzione 2: mariadb-dump (o mysqldump per le versioni precedenti)
 
@@ -73,4 +77,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **Documentazione correlata:**
 
 * [mysqldump - Un programma di backup del database](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html) nella documentazione ufficiale di MySQL.
-* [Variabili specifiche per il cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=it) (vedere `MAGENTO_CLOUD_RELATIONSHIPS`) nella guida Commerce on Cloud Infrastructure.
+* [Variabili specifiche per il cloud](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) (vedere `MAGENTO_CLOUD_RELATIONSHIPS`) nella guida Commerce on Cloud Infrastructure.

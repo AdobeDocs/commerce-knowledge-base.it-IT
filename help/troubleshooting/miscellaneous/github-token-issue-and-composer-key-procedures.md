@@ -4,13 +4,23 @@ description: Questo articolo fornisce soluzioni per il problema di distribuzioni
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # Problema del token Github e procedure chiave del compositore
 
 Questo articolo fornisce soluzioni per il problema di distribuzioni non riuscite relative a errori del token Github causati da chiavi Composer obsolete.
@@ -28,7 +38,7 @@ Questo articolo fornisce soluzioni per il problema di distribuzioni non riuscite
 
 Le distribuzioni non riescono e i registri di distribuzione contengono informazioni simili alle seguenti:
 
-*Errore irreversibile: imprevistoValueException non rilevato: il token oauth github per github.com contiene caratteri non validi: &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot; in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
+*Errore irreversibile: UnexpectedValueException non rilevata. Il token oauth github per github.com contiene caratteri non validi: &quot;ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&quot; in /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*
 
 ## Causa
 
@@ -42,9 +52,9 @@ Per risolvere il problema, aggiorna la versione del Compositore al 1.10.22:
 1. Questo aggiunge il requisito per la versione del pacchetto Compositore. Controllare il file di blocco - la versione `composer/composer` deve essere 1.0.22 o successiva.
 1. Eseguire il commit di `composer.json` e `composer.lock` e inviare una distribuzione push.
 
-Se questo metodo non funziona, [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
+Se questo metodo non funziona, [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket).
 
 ## Lettura correlata
 
 * [Blog Github: dietro i nuovi formati dei token di autenticazione di GitHub](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [InfoQ.com news article: GitHub cambia il formato del token per migliorare l&#39;identificabilità, la scansione segreta e l&#39;entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [InfoQ.com news article: GitHub Cambia il formato del token per migliorare l&#39;identificabilità, la scansione segreta e l&#39;entropia](https://www.infoq.com/news/2021/04/github-new-token-format/)

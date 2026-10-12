@@ -1,18 +1,22 @@
 ---
 title: Adobe Commerce *post-implementazione ignorata perché la distribuzione non è riuscita* errore
-description: "Questo articolo spiega come analizzare un errore di distribuzione: *La distribuzione di Post viene ignorata perché la distribuzione non è riuscita*"
+description: 'Questo articolo spiega come analizzare un errore di distribuzione: *La post-distribuzione viene ignorata perché la distribuzione non è riuscita*'
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '155'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce *post-distribuzione ignorato perché la distribuzione non è riuscita* errore
 
-In questo articolo viene illustrato come analizzare un errore di distribuzione: *La distribuzione di Post è stata ignorata perché la distribuzione non è riuscita*. Ciò si verifica durante la distribuzione in ambienti diversi, ad esempio durante l&#39;aggiornamento.
+Questo articolo spiega come analizzare un errore di distribuzione: *La post-distribuzione viene ignorata perché la distribuzione non è riuscita*, che si verifica durante la distribuzione in ambienti diversi, ad esempio l&#39;aggiornamento.
 
 ## Prodotti e versioni interessati
 

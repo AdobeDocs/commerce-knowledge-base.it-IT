@@ -1,16 +1,27 @@
 ---
 title: Limitazione di [!DNL SendGrid] file per Adobe Commerce Cloud
-description: Questo articolo fornisce una soluzione alternativa alla limitazione  [!DNL SendGrid]  per Adobe Commerce sull'infrastruttura cloud.
+description: Questo articolo fornisce una soluzione alternativa alla limitazione [!DNL SendGrid] per Adobe Commerce sull'infrastruttura cloud.
 feature: Deploy, Marketing Tools
 role: Developer, Admin
 exl-id: 48629f48-8100-4128-9211-53d947aecd49
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '206'
 ht-degree: 0%
-
 ---
-
 # Limitazione di [!DNL SendGrid] per Adobe Commerce Cloud
 
 Questo articolo fornisce alcune soluzioni alternative alla limitazione [!DNL SendGrid] per l&#39;infrastruttura Adobe Commerce su cloud.
@@ -52,9 +63,9 @@ Staging2:
 ## Soluzione alternativa
 
 * Non utilizzare allegati di dimensioni superiori a 6 MB o 10 MB.
-* Prendi in considerazione l’utilizzo di un server SMTP remoto nell’istanza di Adobe Commerce. Per i passaggi, consulta [Configurare le comunicazioni e-mail](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=it) nella Guida ai sistemi di amministrazione.
+* Prendi in considerazione l’utilizzo di un server SMTP remoto nell’istanza di Adobe Commerce. Per i passaggi, consulta [Configurare le comunicazioni e-mail](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html) nella Guida ai sistemi di amministrazione.
 * Riconfigura il server in modo che i file possano essere salvati all’interno del modulo, quindi allega il collegamento ai file nelle e-mail.
 
 ## Lettura correlata
 
-* [[!DNL SendGrid] servizio e-mail](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=it) nella guida all&#39;infrastruttura Commerce on Cloud.
+* [[!DNL SendGrid] servizio e-mail](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html) nella guida all&#39;infrastruttura Commerce on Cloud.

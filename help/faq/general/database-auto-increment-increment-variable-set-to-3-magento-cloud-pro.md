@@ -3,13 +3,17 @@ title: Variabile di incremento auto_increment del database impostata su "3" Adob
 description: Questo è il comportamento previsto per le soluzioni di architettura Pro di Adobe Commerce su infrastruttura cloud a causa dell'architettura a 3 nodi e non può essere modificato.
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '309'
 ht-degree: 0%
-
 ---
-
 # Variabile di incremento auto_increment del database impostata su &quot;3&quot; Adobe Commerce nell’architettura cloud pro
 
 Questo è il comportamento previsto per le soluzioni di architettura Pro di Adobe Commerce su infrastruttura cloud a causa dell&#39;architettura a 3 nodi e non può essere modificato.
@@ -31,5 +35,5 @@ Ad esempio, se l&#39;elemento principale selezionato è il nodo 1 in cui `auto_i
 
 Consulta nella documentazione per gli sviluppatori:
 
-* [Cloud per Adobe Commerce > Architettura Pro > Backup e disaster recovery](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [Cloud per Adobe Commerce > Installa prerequisiti: database](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/overview)
+* [Cloud per Adobe Commerce > Architettura Pro > Backup e disaster recovery](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [Cloud for Adobe Commerce > Installa prerequisiti: database](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)

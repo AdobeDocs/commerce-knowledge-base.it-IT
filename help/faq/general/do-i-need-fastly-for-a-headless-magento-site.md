@@ -3,13 +3,26 @@ title: È necessario utilizzare Fastly per un sito Adobe Commerce headless?
 description: È necessario utilizzare Fastly per un sito Adobe Commerce headless?
 exl-id: d7e07160-6a61-4c03-8f8c-4f879d86ea44
 feature: Cache, GraphQL, Compliance
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
-
 ---
-
 # È necessario utilizzare Fastly per un sito Adobe Commerce headless?
 
 >[!NOTE]
@@ -25,7 +38,7 @@ Sto sviluppando un’implementazione headless di Adobe Commerce. Devo ancora uti
 No, non è vero. In questa situazione, puoi saltare utilizzando Fastly - almeno, all’inizio dello sviluppo.
 
 L’unica situazione che potresti non abilitare è una distribuzione headless.
-Consulta [Cloud for Adobe Commerce > Fastly](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly) nella documentazione per gli sviluppatori.
+Consulta [Cloud for Adobe Commerce > Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly) nella documentazione per gli sviluppatori.
 
 Tuttavia, molto probabilmente, per utilizzare il certificato SSL dovrai usare Fastly.
 
@@ -34,4 +47,4 @@ Tutti i clienti di Adobe Commerce su infrastruttura cloud ottengono un certifica
 ## Ulteriori informazioni
 
 * [Siti Web headless: qual è il problema con l&#39;architettura disaccoppiata?](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) di [Josh Koenig](https://pantheon.io/team/josh-koenig).
-* [Fastly](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/fastly) nella documentazione per gli sviluppatori.
+* [Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly) nella documentazione per gli sviluppatori.
