@@ -4,13 +4,23 @@ description: Questo articolo descrive gli strumenti generali per la risoluzione 
 exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 feature: Extensions
 role: Developer
-source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # Guida generale alla risoluzione dei problemi dei moduli personalizzati
 
 Questo articolo descrive gli strumenti generali per la risoluzione dei problemi dei moduli personalizzati in Adobe Commerce.
@@ -41,10 +51,10 @@ Controlla i registri per verificare se nell’errore sono presenti voci con il n
 
 Nella documentazione per gli sviluppatori:
 
-* [Panoramica modulo](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [Panoramica del modulo](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
 * [Errori durante l&#39;installazione dei dati di esempio facoltativi](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [Gestione delle eccezioni](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
 * [Eccezioni durante l&#39;installazione](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
-* [Esegui Gestione moduli](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
-* [File di configurazione modulo](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/files/module-files)
+* [Eseguire il Gestore moduli](https://experienceleague.adobe.com/it/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
+* [File di configurazione del modulo](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/files/module-files)
 * [Errori di memoria insufficiente](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)

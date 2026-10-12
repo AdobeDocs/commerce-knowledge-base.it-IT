@@ -4,13 +4,22 @@ description: Questo articolo fornisce una patch per il problema noto di Adobe Co
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '304'
 ht-degree: 0%
-
 ---
-
 # Pagina Adobe Commerce 2.4.0 Braintree Virtual Terminal danneggiata
 
 Questo articolo fornisce una patch per il problema noto di Adobe Commerce 2.4.0, in cui la pagina Braintree Virtual Terminal non carica gli elementi dell’interfaccia utente corretti o un messaggio di errore corretto se Braintree non è configurato.
@@ -58,7 +67,7 @@ Applichi la patch fornita in questo articolo.
 
 La patch è allegata a questo articolo. Per scaricarlo, scorri verso il basso fino alla fine dell’articolo e fai clic sul nome del file, oppure fai clic sul seguente collegamento:
 
-[BUNDLE-2670-composer.patch](assets/BUNDLE-2670-composer.patch.zip)
+[BUNDLE-2670-compositore.patch](assets/BUNDLE-2670-composer.patch.zip)
 
 ### Versioni compatibili di Adobe Commerce:
 

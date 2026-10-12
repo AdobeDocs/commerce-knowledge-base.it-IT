@@ -1,14 +1,15 @@
 ---
 title: Adobe Commerce [!DNL crons] disabilitato senza intervento
-description: Utilizza questo articolo per risolvere il problema in cui  [!DNL crons]  viene disabilitato senza intervento.
+description: Utilizzare questo articolo per risolvere il problema in cui [!DNL crons] viene disabilitato senza intervento.
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 6bff1d7a0578ceb8ea17dff347b1bcd4f0068e7a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '192'
 ht-degree: 0%
-
 ---
-
 # Client Adobe Commerce disabilitati senza intervento
 
 Questo articolo fornisce una soluzione per i casi in cui [!DNL crons] viene disabilitato senza intervento.

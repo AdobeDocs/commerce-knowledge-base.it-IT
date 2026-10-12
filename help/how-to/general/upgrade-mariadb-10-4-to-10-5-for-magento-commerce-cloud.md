@@ -3,13 +3,19 @@ title: Aggiornamento da MariaDB 10.4 a 10.5 per Adobe Commerce su cloud
 description: MariaDB 10.4 raggiunge la fine del supporto il 18 giugno 2024. Questo articolo spiega come aggiornare MariaDB dalla versione 10.4 alla versione 10.5 per continuare a utilizzare Adobe Commerce sull’infrastruttura cloud.
 feature: Best Practices, Cloud
 exl-id: 065840b8-28c1-4686-95fc-df3e73152845
-source-git-commit: 70c2421cb28b45f82ab7c0568c6a45b9572897df
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '696'
 ht-degree: 0%
-
 ---
-
 # Aggiornamento da MariaDB 10.4 a 10.5 per Adobe Commerce su cloud
 
 MariaDB è un database open source aziendale utilizzato con Adobe Commerce.

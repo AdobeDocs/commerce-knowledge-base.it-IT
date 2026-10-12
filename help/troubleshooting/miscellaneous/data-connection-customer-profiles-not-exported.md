@@ -1,19 +1,32 @@
 ---
 title: I profili cliente non vengono visualizzati in Experience Platform
-description: In questo articolo vengono illustrati i passaggi per la risoluzione dei problemi se i dati del profilo cliente non vengono visualizzati nell'Experience Platform quando si utilizza l'estensione  [!DNL Data Connection] .
+description: In questo articolo vengono illustrati i passaggi per la risoluzione dei problemi se i dati del profilo cliente non vengono visualizzati in Experience Platform quando si utilizza l'estensione [!DNL Data Connection].
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
 exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f37757d8-3174-5335-b977-1161792f965d
+    internal-label: Personalization
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '556'
 ht-degree: 0%
-
 ---
-
 # I profili cliente non vengono visualizzati in Experience Platform
 
-Questo articolo fornisce passaggi per la risoluzione dei problemi se i dati del profilo cliente non vengono visualizzati nell’Experience Platform quando si utilizza l’estensione Data Connection.
+Questo articolo fornisce passaggi per la risoluzione dei problemi se i dati del profilo cliente non vengono visualizzati in Experience Platform quando si utilizza l’estensione Data Connection.
 
 ## Prodotti e versioni interessati
 
@@ -21,11 +34,11 @@ Questo articolo fornisce passaggi per la risoluzione dei problemi se i dati del 
 
 ## Problema
 
-L&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/data-connection/overview) è stata installata e configurata e i dati del profilo cliente sono stati abilitati per l&#39;invio all&#39;Experience Platform, ma i dati del profilo non sono visualizzati nell&#39;Experience Platform.
+Hai installato e configurato l&#39;estensione [[!DNL Data Connection]](https://experienceleague.adobe.com/it/docs/commerce-merchant-services/data-connection/overview) e hai abilitato i dati del profilo cliente da inviare ad Experience Platform, ma tali dati di profilo non sono visualizzati in Experience Platform.
 
 ## Soluzione
 
-Se le informazioni sul profilo cliente non sono visualizzate nell’Experience Platform, verifica quanto segue:
+Se le informazioni sul profilo cliente non sono visualizzate in Experience Platform, verifica quanto segue:
 
 ### Verificare che sia installata la versione più recente di [!DNL Data Connection]
 
@@ -35,7 +48,7 @@ Consulta le [[!DNL Data Connection] note sulla versione dell&#39;estensione](htt
 
 >[!NOTE]
 >
->La versione più recente dell&#39;estensione [!DNL Data Connection] include il modulo `customers-connector`, responsabile dell&#39;invio dei dati del profilo all&#39;Experience Platform. La versione del modulo `customers-connector` deve essere `1.2.0` o successiva.
+>La versione più recente dell&#39;estensione [!DNL Data Connection] include il modulo `customers-connector`, responsabile dell&#39;invio dei dati del profilo ad Experience Platform. La versione del modulo `customers-connector` deve essere `1.2.0` o successiva.
 
 ### Conferma la configurazione del modulo del connettore clienti
 
@@ -69,7 +82,7 @@ Esegui i seguenti comandi per abilitare la generazione del codice e gli eventi A
    bin/magento config:set adobe_io_events/eventing/enabled 1
 ```
 
-### Conferma di aver abilitato i dati del profilo da acquisire e inviare all’Experience Platform
+### Conferma di aver abilitato l’acquisizione e l’invio dei dati del profilo ad Experience Platform
 
 In Amministrazione Commerce, accertati che siano impostati i seguenti campi:
 
@@ -120,8 +133,8 @@ select * from event_data_saas;
 
 ### Controlla se l’ID servizio si trova nel inserisco nell&#39;elenco Consentiti di e conferma con il supporto di Adobe Commerce
 
-1. Verificare che l&#39;elemento [!UICONTROL Commerce Services Connector] `serviceId` venga visualizzato nel elenco Consentiti di controllo in Adobe Commerce.
-1. Contatta il [supporto Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) per confermare lo stato di inserita nell&#39;elenco Consentiti del.
+1. Verificare che il [!UICONTROL Commerce Services Connector] `serviceId` sia visualizzato nel inserisco nell&#39;elenco Consentiti di in Adobe Commerce.
+1. Contatta il [supporto Adobe Commerce](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide) per confermare lo stato di inserita nell&#39;elenco Consentiti di
 
 ## Lettura correlata
 

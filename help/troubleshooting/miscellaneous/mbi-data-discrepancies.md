@@ -4,13 +4,20 @@ description: 'I numeri di un determinato rapporto sembrano imprecisi? Vengono vi
 exl-id: 2ecea990-7292-46c1-b6eb-75f0404aaf0b
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # MBI: discrepanze di dati
 
 I numeri di un determinato rapporto sembrano imprecisi? Vengono visualizzati valori NULL imprevisti? Se noti qualcosa che non va bene, ti consigliamo di utilizzare queste risorse per aiutarti a risolvere i problemi:

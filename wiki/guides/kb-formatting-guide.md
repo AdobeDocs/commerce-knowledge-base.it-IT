@@ -1,15 +1,18 @@
 ---
-source-git-commit: c587986edc925c49bf95ab935888b59f265371af
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
+
 # Guida alla formattazione di KB
 
 ## Autore in Markdown
 
-In genere si utilizza la [Guida di stile della sintassi Markdown di Adobe Experience League](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=it), ma esistono alcune differenze ed eccezioni. Inoltre, in alcuni casi sono necessari determinati tag HTML.
+In genere si utilizza la [Guida allo stile della sintassi Markdown di Adobe Experience League](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en), ma con alcune differenze ed eccezioni. Inoltre, in alcuni casi sono necessari determinati tag HTML.
 
 Di seguito sono riportati alcuni esempi della formattazione Markdown più comunemente utilizzata nel nostro archivio.
 
@@ -76,7 +79,7 @@ In base alle nostre regole di evidenziazione, devi sempre specificare una lingua
 
 Per l’elenco delle lingue supportate, consulta https://github.com/github/linguist/blob/master/lib/linguist/languages.yml.
 
-Se l’evidenziazione non funziona per una determinata lingua in markdown (ovvero, la lingua non è supportata), per renderla almeno evidenziata quando viene pubblicata su https://support.magento.com/hc/en-us/, utilizza il seguente HTML:
+Se l’evidenziazione non funziona per una determinata lingua in Markdown (ovvero, la lingua non è supportata), per renderla almeno evidenziata quando viene pubblicata su https://support.magento.com/hc/en-us/, utilizza il seguente HTML:
 
 ```html
 <pre><code class="language-%language-code%"
@@ -165,7 +168,7 @@ Questo è un collegamento a questa intestazione:
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-Se devi fare riferimento a un elemento diverso da header, utilizza HTML per definire l&#39;elemento da aggiungere utilizza l&#39;[attributo id](https://www.w3schools.com/html/html_id.asp). Puoi quindi utilizzare Markdown o HTML per fare riferimento a questo ID.
+Se devi fare riferimento a un elemento diverso dall&#39;intestazione, utilizza HTML per definire l&#39;elemento da aggiungere e utilizza l&#39;attributo [id](https://www.w3schools.com/html/html_id.asp). Puoi quindi utilizzare Markdown o HTML per fare riferimento a questo ID.
 
 ### Collegamenti relativi e collegamenti ad altri articoli
 

@@ -1,10 +1,13 @@
 ---
-source-git-commit: c992521cae8c847adc0cc23d2323300e0ba69cdc
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
-
 ---
+
 # Guida allo stile KB di supporto
 
 Per contribuire al Centro assistenza Adobe Commerce, segui queste raccomandazioni su stile e formattazione.
@@ -30,12 +33,12 @@ Per contribuire al Centro assistenza Adobe Commerce, segui queste raccomandazion
 
 * Gli elenchi puntati semplificano la scansione.
 
-   * Utilizzare elenchi puntati per metodi, approcci, opzioni e passaggi di attività non consecutivi.
-   * Mantieni il testo tra punti elenco brevi, preferibilmente non più di due frasi.
-   * Riduci al minimo il numero di punti elenco; sette o meno è ideale.
-   * Evita di inserire suggerimenti o note tra gli elementi puntati.
-   * Utilizza la struttura grammaticale parallela negli elenchi, ma interrompi questa regola se genera un eccesso di verbosità o di linguaggio stilizzato.
-   * Usa l’iniziale maiuscola per ogni elemento di un elenco puntato, anche se si tratta di un frammento.
+  * Utilizzare elenchi puntati per metodi, approcci, opzioni e passaggi di attività non consecutivi.
+  * Mantieni il testo tra punti elenco brevi, preferibilmente non più di due frasi.
+  * Riduci al minimo il numero di punti elenco; sette o meno è ideale.
+  * Evita di inserire suggerimenti o note tra gli elementi puntati.
+  * Utilizza la struttura grammaticale parallela negli elenchi, ma interrompi questa regola se genera un eccesso di verbosità o di linguaggio stilizzato.
+  * Usa l’iniziale maiuscola per ogni elemento di un elenco puntato, anche se si tratta di un frammento.
 
 * Creare elenchi paralleli. Ad esempio, ogni elemento deve essere un nome o una frase che inizia con un verbo.
 
@@ -71,10 +74,10 @@ Scrivi un numero come numero, ad esempio &quot;42&quot; o &quot;11&quot; quando:
 
 * Il numero è superiore a 9 (numeri dieci e superiori).
 * Si sta specificando il numero:
-   * All&#39;interno di una riga di codice o frammento di codice.
-   * All&#39;interno di un percorso di file o di un nome di directory.
-   * Quando si comunica un intervallo, ad esempio &quot;tra 5 e 25&quot; o &quot;rivedi i numeri da 8 a 21&quot;.
-   * I numeri sono stati misurati o calcolati come &quot;62 pica&quot; o &quot;830 MHz&quot;.
+  * All&#39;interno di una riga di codice o frammento di codice.
+  * All&#39;interno di un percorso di file o di un nome di directory.
+  * Quando si comunica un intervallo, ad esempio &quot;tra 5 e 25&quot; o &quot;rivedi i numeri da 8 a 21&quot;.
+  * I numeri sono stati misurati o calcolati come &quot;62 pica&quot; o &quot;830 MHz&quot;.
 
 Utilizza una combinazione di numeri e numeri quando noti una quantità di elementi numerati, come &quot;una raccolta di quindici esecuzioni di prova da 1000&quot;.
 

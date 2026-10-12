@@ -1,21 +1,22 @@
 ---
-title: Gli indici di tracciamento ElasticSuite causano problemi con gli Elasticsearch
-description: Questo articolo parla del problema dei problemi di memoria Elasticsearch causati dagli indici di tracciamento prodotti dal plug-in ElasticSuite.
+title: Gli indici di tracciamento ElasticSuite causano problemi con Elasticsearch
+description: Questo articolo parla del problema dei problemi di memoria di Elasticsearch causati dagli indici di tracciamento prodotti dal plug-in ElasticSuite.
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
-# Gli indici di tracciamento ElasticSuite causano problemi con gli Elasticsearch
+# Gli indici di tracciamento ElasticSuite causano problemi con Elasticsearch
 
 >[!NOTE]
 >
 >ElasticSuite e le sue applicazioni affiliate sono strumenti di terze parti attualmente non supportati da Adobe. Questo contenuto viene presentato solo a scopo informativo e non come indicazione di ciò che è abilitato per la copertura del supporto.
 
-Questo articolo parla del problema dei problemi di memoria Elasticsearch causati dagli indici di tracciamento prodotti dal plug-in ElasticSuite.
+Questo articolo parla del problema dei problemi di memoria di Elasticsearch causati dagli indici di tracciamento prodotti dal plug-in ElasticSuite.
 
 ## Prodotti e versioni interessati
 
@@ -25,17 +26,17 @@ Le versioni di ElasticSuite precedenti alla 2.9.8 / 2.10.7 memorizzano gli indic
 
 ## Problema
 
-Se è installato il plug-in di terze parti ElasticSuite, potrebbero verificarsi problemi di memoria Elasticsearch e il servizio di Elasticsearch potrebbe bloccarsi a causa degli indici di tracciamento ElasticSuite. I sintomi includono:
+Se è installato il plug-in di terze parti ElasticSuite, potrebbero verificarsi problemi di memoria di Elasticsearch e il servizio Elasticsearch potrebbe bloccarsi a causa di indici di tracciamento ElasticSuite. I sintomi includono:
 
-* L&#39;Elasticsearch si blocca senza errori di memoria.
+* Elasticsearch si blocca senza errori di memoria.
 * Durante l&#39;esecuzione di un comando di integrità `curl -m1 localhost:9200/_cluster/health?pretty` o `curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` (per gli account di avvio) sono presenti centinaia o migliaia di `unassigned_shards`
-* Le prestazioni dell&#39;Elasticsearch o del sito sono gravemente compromesse.
-* *&quot;Nessun nodo attivo trovato nel cluster&quot;* in Elasticsearch errori di distribuzione o di registro.
-* *&quot;Rifiuto dell&#39;aggiornamento della mappatura a [&lt;\*>_ tracking_log_event _&lt;\*>]&quot;* in errori di distribuzione o di registro.
+* Le prestazioni di Elasticsearch o del sito sono gravemente peggiorate.
+* *&quot;Nessun nodo attivo trovato nel cluster&quot;* in Elasticsearch deploy o log errors.
+* *&quot;Rifiuto dell&#39;aggiornamento della mappatura a [&lt;\*>_tracking_ log_event_&lt;\*>]&quot;* in errori di distribuzione o di registro.
 
 ## Causa
 
-ElasticSuite dispone di una nuova funzione che crea indici di tracciamento. Questi indici di tracciamento registrano quali termini di ricerca sono più utilizzati, quali termini generano il maggior fatturato e quali termini portano a una pagina di nessun risultato in modo che i commercianti possano creare sinonimi per correggerli. Non sembra eliminare gli indici di tracciamento, quindi Elasticsearch esaurisce le risorse e si arresta in modo anomalo.
+ElasticSuite dispone di una nuova funzione che crea indici di tracciamento. Questi indici di tracciamento registrano quali termini di ricerca sono più utilizzati, quali termini generano il maggior fatturato e quali termini portano a una pagina di nessun risultato in modo che i commercianti possano creare sinonimi per correggerli. Non sembra eliminare gli indici di tracciamento, pertanto Elasticsearch esaurisce le risorse e subisce arresti anomali.
 
 ## Soluzione
 
@@ -69,4 +70,4 @@ Crea un processo cron per eliminare gli indici di tracciamento. Questo comando e
 Se desideri eliminare gli indici con una frequenza temporale impostata, crea un processo cron facendo riferimento ai seguenti articoli nella documentazione per sviluppatori:
 
 * [Configurare un processo cron personalizzato e un gruppo cron (tutorial)](https://experienceleague.adobe.com/it/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [Configura processi cron](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [Imposta processi cron](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

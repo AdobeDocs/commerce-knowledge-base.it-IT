@@ -3,13 +3,17 @@ title: Creazione di un dump del database sull’infrastruttura cloud di Adobe Co
 description: Questo articolo illustra i modi possibili (e consigliati) per creare un’immagine database (DB) su Adobe Commerce nell’infrastruttura cloud.
 exl-id: 4a2e54ac-8d65-4e51-8337-08f9748dc6c0
 feature: Cloud
-source-git-commit: 96b145a1f76c296907da96fd97c7a8f7778463f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # Creazione di un dump del database sull’infrastruttura cloud di Adobe Commerce
 
 Questo articolo illustra i modi possibili (e consigliati) per creare un’immagine database (DB) su Adobe Commerce nell’infrastruttura cloud.

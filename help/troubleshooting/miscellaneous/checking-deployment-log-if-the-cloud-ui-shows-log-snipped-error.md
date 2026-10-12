@@ -4,13 +4,29 @@ description: Questo articolo fornisce una soluzione per il problema relativo all
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '378'
 ht-degree: 0%
-
 ---
-
 # Controllo del registro di distribuzione se nell&#39;interfaccia utente del cloud è presente l&#39;errore *log snipped*
 
 Questo articolo fornisce una soluzione al problema relativo alla visualizzazione del log di distribuzione nell&#39;interfaccia utente del progetto cloud da parte dell&#39;interfaccia utente di Adobe Commerce su infrastruttura cloud *log snipped a causa di un messaggio di errore troppo lungo*. (Non si applica alla [console Adobe Commerce Cloud](https://console.adobecommerce.com/).)
@@ -34,7 +50,7 @@ Tieni presente che il registro visualizzato nell’interfaccia utente non deve e
 
 ## Soluzione
 
-1. Verificare che nell&#39;ambiente locale sia installato [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=it).
+1. Assicurati di avere [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=it) installato nell&#39;ambiente locale.
 1. È possibile eseguire uno dei seguenti comandi:
 
    ```bash
@@ -70,5 +86,5 @@ Tieni presente che il registro visualizzato nell’interfaccia utente non deve e
 
 ## Letture correlate nella documentazione per gli sviluppatori:
 
-* [Adobe Commerce su infrastruttura cloud > Genera e distribuisci](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it)
-* [Adobe Commerce su infrastruttura cloud > Visualizza e gestisci registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=it)
+* [Adobe Commerce su infrastruttura cloud > Genera e implementa](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=it)
+* [Adobe Commerce su infrastruttura cloud > Visualizza e gestisci i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=it)

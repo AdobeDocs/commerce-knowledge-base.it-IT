@@ -3,13 +3,26 @@ title: Ripristino dello stato precedente dell’ambiente senza snapshot cloud
 description: Questo articolo mostra due soluzioni per eseguire il rollback di un ambiente senza avere un’istantanea dell’ambiente su Adobe Commerce sull’infrastruttura cloud.
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # Ripristino dello stato precedente dell’ambiente senza snapshot cloud
 
 Questo articolo mostra due soluzioni per eseguire il rollback di un ambiente senza avere un’istantanea dell’ambiente su Adobe Commerce sull’infrastruttura cloud.
@@ -94,7 +107,7 @@ Questo significa che abbiamo ripristinato l’installazione di Adobe Commerce (i
 
 Con il ripristino di Git, il codice viene ripristinato allo stato desiderato nel passato.
 
-1. Clona l’ambiente nell’ambiente di sviluppo locale. Puoi copiare il comando nella console Cloud:    ![copia_git_clone.png](assets/copy_git_clone.png)
+1. Clona l’ambiente nell’ambiente di sviluppo locale. È possibile copiare il comando nella console cloud: ![copy_git_clone.png](assets/copy_git_clone.png)
 1. Accedi alla cronologia dei commit. Utilizza `--reverse` per visualizzare la cronologia in ordine inverso per maggiore comodità:
 
    ```git
@@ -128,7 +141,7 @@ In questo scenario, devi innanzitutto ripristinare lo stato di funzionamento del
 
 [&#x200B;3. Disinstallare il software Adobe Commerce.](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&period; Forza ridistribuzione.
+4&period; Forza la ridistribuzione.
 
 Dopo aver eseguito questi passaggi, si otterranno gli stessi risultati dello Scenario 1.
 
@@ -171,9 +184,9 @@ Dopo aver reimpostato il database, [invia un messaggio Git all&#39;ambiente per 
 
 Nella documentazione per gli sviluppatori:
 
-* [Ripristinare uno snapshot nel cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [Crea uno snapshot](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [Snapshot e gestione backup](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [Gestire i rami con Cloud Console - Visualizzare i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=it#view-logs)
+* [Ripristinare una copia istantanea nel cloud](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [Creare un’istantanea](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [Snapshot e gestione dei backup](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [Gestire i rami con Cloud Console: visualizza i registri](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=it#view-logs)
 * [Errore di distribuzione del componente](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=it)
-* [Gestisci il progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=it#configure-the-project)
+* [Gestione del progetto](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=it#configure-the-project)

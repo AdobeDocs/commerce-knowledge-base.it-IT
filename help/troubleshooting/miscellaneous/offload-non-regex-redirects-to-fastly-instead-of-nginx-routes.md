@@ -1,16 +1,23 @@
 ---
 title: Offload non-[!DNL regex] reindirizzamenti a [!DNL Fastly] invece di [!DNL Nginx] (route)
-description: In questo argomento viene suggerita una soluzione a un tipico problema di prestazioni che potrebbe verificarsi quando si scaricano reindirizzamenti non[!DNL regex] a [!DNL Fastly] invece di [!DNL Nginx] in Adobe Commerce sull'infrastruttura cloud.
+description: In questo argomento viene suggerita una soluzione a un problema di prestazioni tipico dei reindirizzamenti che potrebbe verificarsi quando si scaricano reindirizzamenti non [!DNL regex] a [!DNL Fastly] invece di [!DNL Nginx] in Adobe Commerce sull'infrastruttura cloud.
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 1783ae9f-7157-5aeb-a915-91e260301e46
+    internal-label: Routes
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '796'
 ht-degree: 0%
-
 ---
-
 # Offload non-[!DNL regex] reindirizzamenti a [!DNL Fastly] invece di [!DNL Nginx] (route)
 
 In questo argomento viene suggerita una soluzione a un problema di prestazioni tipico dei reindirizzamenti che potrebbe verificarsi quando si scaricano reindirizzamenti non [!DNL regex] a [!DNL Fastly] invece di [!DNL Nginx] in Adobe Commerce sull&#39;infrastruttura cloud.
@@ -99,7 +106,7 @@ Se non si desidera eseguire un ambiente di gestione temporanea di Adobe Commerce
 
 ## Lettura correlata
 
-* [[!DNL Fastly VCL] riferimento](https://docs.fastly.com/vcl/)
+* [Riferimento [!DNL Fastly VCL]](https://docs.fastly.com/vcl/)
 * [Configurare le route](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=it) nella documentazione per gli sviluppatori
 * [Configurazione [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=it) nella documentazione per gli sviluppatori
 * [[!DNL VCL] scheda di riferimento rapido per espressioni regolari](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) nella documentazione per gli sviluppatori

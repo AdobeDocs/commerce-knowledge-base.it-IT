@@ -3,13 +3,22 @@ title: Consultate i registri per risolvere i problemi relativi agli errori 500 e
 description: Questo articolo spiega come controllare il "access.log" e i relativi registri per risolvere i problemi relativi agli errori 503 e 500, che possono essere causati da traffico o risorse server insufficienti. La visualizzazione di "access.log" e dei relativi registri può fornire informazioni su ciò che potrebbe causare problemi relativi ad Adobe Commerce sull’infrastruttura cloud.
 exl-id: 47d7de6b-3e12-4e79-a5c1-c27a9196b99c
 feature: Cloud, Logs
-source-git-commit: 66ac9de94e9a4a1eccdb5aac1875ecf0a0637e90
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '338'
 ht-degree: 0%
-
 ---
-
 # Consultate i registri per risolvere i problemi relativi agli errori 500 e 503 in Adobe Commerce
 
 In questo articolo viene illustrato come controllare `access.log` e i registri correlati per risolvere gli errori 503 e 500, che possono essere causati da traffico o risorse server insufficienti. La visualizzazione di `access.log` e dei relativi registri può fornire informazioni su ciò che potrebbe causare problemi relativi ad Adobe Commerce sull&#39;infrastruttura cloud.

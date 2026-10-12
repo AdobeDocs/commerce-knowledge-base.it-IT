@@ -2,13 +2,14 @@
 title: Impossibile cambiare il motore di ricerca in "app/etc/env.php"
 description: Questo articolo fornisce una soluzione al problema per cui si tenta di modificare il motore di ricerca nell’amministratore di Commerce, ma i campi sono bloccati.
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # Impossibile modificare il motore di ricerca in `app/etc/env.php`
 
 In questo articolo viene fornita una soluzione al problema in cui si tenta di rimuovere la configurazione del motore di ricerca dal file `app/etc/env.php`, ma dopo la ridistribuzione la configurazione torna all&#39;impostazione precedente o viene modificata in [!DNL OpenSearch] per impostazione predefinita.

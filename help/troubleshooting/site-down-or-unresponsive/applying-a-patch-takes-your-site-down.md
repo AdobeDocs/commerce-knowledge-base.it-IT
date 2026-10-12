@@ -4,13 +4,23 @@ description: Questo articolo parla del problema in cui una patch appena applicat
 exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 feature: Cache
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # L’applicazione di una patch blocca il sito
 
 Questo articolo parla del problema in cui una patch appena applicata distrugge il sito. Per risolvere il problema, è possibile rimuovere la patch.

@@ -1,15 +1,22 @@
 ---
 title: Elenco di controllo per la configurazione di un nuovo [!DNL domain]
-description: Elenco di controllo per la configurazione di un nuovo [!DNL domain] in Adobe Commerce su un'infrastruttura cloud.
+description: Elenco di controllo per la configurazione di un nuovo [!DNL domain] in Adobe Commerce su infrastruttura cloud.
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 552a290b50f9e0c5fa740f26092c57bac447fe68
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 # Elenco di controllo per la configurazione di un nuovo [!DNL domain]
 
 Questo elenco di controllo spiega come impostare un nuovo [!DNL domain] in Adobe Commerce sull&#39;infrastruttura cloud. Si applica sia quando si aggiunge un nuovo dominio che quando si sostituisce quello corrente. Si applica anche dopo aver ottenuto un nuovo ambiente di staging (vedi Passaggio 4).
@@ -25,7 +32,7 @@ Adobe Commerce sull&#39;infrastruttura cloud, [tutte le versioni supportate](htt
 >Prima di procedere con la configurazione del dominio, assicurati che:
 >
 >Tutti gli URL di base sono configurati per utilizzare HTTPS in **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**, con ambito nella visualizzazione corretta del sito Web o dello store.
->&#x200B;> [Force TLS](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996) is enabled to redirect all HTTP traffic to HTTPS in your Adobe Commerce site on cloud infrastructure (Forza TLS è abilitato per reindirizzare tutto il traffico HTTP a HTTPS nel sito di nell&#39;infrastruttura cloud).
+> [Force TLS](https://experienceleague.adobe.com/it/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996) is enabled to redirect all HTTP traffic to HTTPS in your Adobe Commerce site on cloud infrastructure (Forza TLS è abilitato per reindirizzare tutto il traffico HTTP a HTTPS nel sito di nell&#39;infrastruttura cloud).
 
 ### Passaggio 1: si tratta di [!DNL Integration, Staging] o [!DNL Production environment]?
 

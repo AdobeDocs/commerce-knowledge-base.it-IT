@@ -2,13 +2,14 @@
 title: Accesso [!UICONTROL Admin] non funzionante - dimensione massima sessione consentita superata
 description: Risolvere il problema quando si tenta di accedere al pannello [!UICONTROL Admin] e il modulo viene aggiornato, rendendo impossibile l'accesso.
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '413'
 ht-degree: 0%
-
 ---
-
 # Accesso [!UICONTROL Admin] non funzionante - dimensione massima sessione consentita superata
 
 In questo articolo viene fornita una correzione per i casi in cui si tenta di accedere al pannello [!UICONTROL Admin], ma il modulo viene appena aggiornato e non è possibile effettuare l&#39;accesso oppure si eseguono alcune azioni nel pannello [!UICONTROL Admin] e si esce automaticamente.

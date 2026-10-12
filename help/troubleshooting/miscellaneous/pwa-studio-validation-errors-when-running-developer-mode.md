@@ -1,19 +1,26 @@
 ---
 title: 'PWA Studio: errori di convalida durante l’esecuzione della modalità sviluppatore'
-description: In questo argomento viene illustrata una soluzione per i casi in cui si verificano errori di convalida durante l’esecuzione della modalità sviluppatore in Progressive Web App (PWA) Studio per Adobe Commerce a causa della mancata creazione del file di ambiente venia-concept (Venia è una vetrina PWA). Questo file conterrà le variabili per l’ambiente di sviluppo locale.
+description: In questo argomento viene illustrata una soluzione che consente di individuare i casi in cui si verificano errori di convalida durante l’esecuzione della modalità sviluppatore in Progressive Web App (PWA) Studio per Adobe Commerce a causa della mancata creazione del concetto di "venia" (Venia è una vetrina PWA). file di ambiente. Questo file conterrà le variabili per l’ambiente di sviluppo locale.
 exl-id: 97d042ef-88e6-4eda-a834-2cff4de276e2
 feature: Configuration
 role: Developer
-source-git-commit: 9d32a5971341ed8dc46e0932c10eaac4d17ec299
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '239'
 ht-degree: 0%
-
 ---
-
 # PWA Studio: errori di convalida durante l’esecuzione della modalità sviluppatore
 
-In questo argomento viene illustrata una soluzione per i casi in cui si verificano errori di convalida durante l’esecuzione della modalità sviluppatore in Progressive Web App (PWA) Studio per Adobe Commerce a causa della mancata creazione del file di ambiente venia-concept (Venia è una vetrina PWA). Questo file conterrà le variabili per l’ambiente di sviluppo locale.
+In questo argomento viene illustrata una soluzione che consente di individuare i casi in cui si verificano errori di convalida durante l’esecuzione della modalità sviluppatore in Progressive Web App (PWA) Studio per Adobe Commerce a causa della mancata creazione del concetto di &quot;venia&quot; (Venia è una vetrina PWA). file di ambiente. Questo file conterrà le variabili per l’ambiente di sviluppo locale.
 
 ## Prodotti e versioni interessati
 
@@ -54,4 +61,4 @@ nella directory principale per generare il file che conterrà le variabili per l
 ## Lettura correlata
 
 * [Documentazione di PWA Studio per Adobe Commerce](https://developer.adobe.com/commerce/pwa-studio/)
-* [Venia Storefront (Concetto)](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [Venia Storefront (concetto)](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)

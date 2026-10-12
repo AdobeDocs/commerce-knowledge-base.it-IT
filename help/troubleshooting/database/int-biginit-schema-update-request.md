@@ -4,13 +4,20 @@ description: Questo articolo fornisce soluzioni per i casi in cui non è possibi
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 2fa4ab1fcba962033a6dd6a448a6cec49b5e8bf2
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # Valore numerico del database Adobe Commerce non compreso nell&#39;intervallo, da `INT` a `BIGINT`
 
 >[!WARNING]
@@ -33,7 +40,7 @@ WHERE
 * Adobe Commerce (tutti i metodi di distribuzione) tutte le [versioni supportate](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 Questo articolo fornisce soluzioni per i casi in cui non è possibile salvare un aggiornamento del prodotto, ad esempio una modifica del prezzo o l’eliminazione e la duplicazione di un prodotto.
-È possibile che venga visualizzato il messaggio di errore *Impossibile salvare l&#39;elemento azionario. Riprova.* È possibile che la distribuzione non riesca dopo un aggiornamento del prodotto. È inoltre possibile che venga visualizzato il seguente messaggio di errore [!DNL MySQL] quando si esegue `php bin/magento setup:upgrade` (in Adobe Commerce sull&#39;infrastruttura cloud questo errore viene visualizzato nei registri di distribuzione):
+È possibile che venga visualizzato il messaggio di errore *Impossibile salvare l&#39;elemento azionario. Riprova.* Dopo un aggiornamento del prodotto, potrebbe non essere possibile eseguire la distribuzione. È inoltre possibile che venga visualizzato il seguente messaggio di errore [!DNL MySQL] quando si esegue `php bin/magento setup:upgrade` (in Adobe Commerce sull&#39;infrastruttura cloud questo errore viene visualizzato nei registri di distribuzione):
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)

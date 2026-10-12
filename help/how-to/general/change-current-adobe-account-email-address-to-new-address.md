@@ -3,13 +3,17 @@ title: Modifica l'indirizzo e-mail dell'account Adobe corrente
 description: Scopri come modificare l’indirizzo e-mail corrente registrato nell’account Adobe in un nuovo indirizzo attualmente non registrato nell’account Adobe o Magento.
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # Modifica l&#39;indirizzo e-mail dell&#39;account Adobe corrente
 
 In questo articolo viene illustrato come modificare l&#39;indirizzo di posta elettronica corrente registrato nell&#39;[account Adobe](https://account.adobe.com/) in un nuovo indirizzo attualmente non registrato nell&#39;[account Adobe](https://account.adobe.com/) o nell&#39;[account Magento](https://account.magento.com/).

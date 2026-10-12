@@ -4,29 +4,42 @@ description: In questo articolo vengono illustrati gli errori di creazione di un
 feature: Checkout,Security,Orders,Payments
 role: Developer
 exl-id: c1a0886a-df1f-418a-9e4d-562b28a0d8b3
-source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8cd50456-5eb0-5364-922a-f14161feb828
+    internal-label: Checkout
+  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
+    internal-label: Security
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '1085'
 ht-degree: 0%
-
 ---
-
 # Risolvere i problemi relativi alla creazione della pagina dell&#39;ordine in modalità con restrizioni [!UICONTROL CSP]
 
-Questo articolo fornisce spiegazioni e correzioni per i problemi di Adobe Commerce 2.4.7 durante la creazione di un ordine sul lato Amministratore con **[!UICONTROL CSP restricted mode]** abilitato *2&rbrace;, con il messaggio di errore &quot;* Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; nel registro della console del browser.*
+Questo articolo fornisce spiegazioni e correzioni per i problemi di Adobe Commerce 2.4.7 durante la creazione di un ordine sul lato Amministratore con **[!UICONTROL CSP restricted mode]** abilitato *2&rbrace;, con &quot;* Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot;* messaggio di errore nel registro della console del browser.
 
 ## Prodotti e versioni interessati
 
 Adobe Commerce su infrastruttura cloud, Adobe Commerce on-premise e Magento Open Source:
 
-* 2.4.7.
-* 2,4,6-pX
-* 2,4,5-pX
-* 2,4,4-pX
+* 2.4.7
+* 2.4.6-pX
+* 2.4.5-pX
+* 2.4.4-pX
 
 ## Problema - La pagina **Crea ordine** dell&#39;amministratore è interrotta o non è in grado di essere caricata
 
-La pagina Admin **create order** è interrotta o non è in grado di caricare. &quot;*Impossibile eseguire lo script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: messaggio di errore &quot;script-src ...*&quot; nel registro della console del browser.
+La pagina Admin **create order** è interrotta o non è in grado di caricare. &quot;*Impossibile eseguire lo script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -95,7 +108,7 @@ Adobe Commerce e Magento Open Source 2.4.7 e versioni successive includono un pr
 
 ## Problema - Il metodo di pagamento è mancante o non funziona
 
-Metodo di pagamento mancante o non funzionante nella pagina di creazione dell&#39;ordine **amministratore**, con il messaggio di errore &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri di sicurezza del contenuto: &quot;script-src ...*&quot; nel registro della console del browser.
+Metodo di pagamento mancante o non funzionante nella pagina di creazione dell&#39;ordine **amministratore**, con &quot;*Rifiutata l&#39;esecuzione dello script in linea perché viola la seguente direttiva dei criteri sulla sicurezza dei contenuti: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 <u>Passaggi da riprodurre</u>:
 
@@ -168,7 +181,7 @@ Adobe Commerce e Magento Open Source 2.4.7 e versioni successive includono un pr
 
 ## Problema - L’amministratore non può effettuare un ordine
 
-Un amministratore non può inviare un ordine nella pagina **Crea ordine** dell&#39;amministratore, con il messaggio di errore &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri di sicurezza del contenuto: &quot;script-src ...*&quot; nel registro della console del browser.
+Un amministratore non può inviare un ordine nella pagina **Crea ordine** dell&#39;amministratore, con &quot;*Rifiutato di eseguire lo script in linea perché viola la seguente direttiva dei criteri di sicurezza del contenuto: &quot;script-src ...*&quot; messaggio di errore nel registro della console del browser.
 
 <u>Passaggi da riprodurre</u>:
 

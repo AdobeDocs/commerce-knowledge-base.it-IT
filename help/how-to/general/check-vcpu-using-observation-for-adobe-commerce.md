@@ -3,7 +3,10 @@ title: Visualizzazione del livello vCPU dell’ambiente nel cluster in Adobe Com
 promoted: true
 description: Questo articolo spiega come controllare l’allocazione a livello vCPU utilizzando la scheda New Relic Infra su Osservazione per Adobe Commerce. Observation for Adobe Commerce è un nerdlet di New Relic che mostra lo stato del sito Adobe Commerce e le visualizzazioni del tempo corrente e passato.
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
-source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%

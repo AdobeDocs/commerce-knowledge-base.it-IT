@@ -3,7 +3,13 @@ title: Come modificare l’indirizzo e-mail sull’account magento.com quando il
 description: Questo articolo illustra come modificare l’indirizzo e-mail sull’account [Magento.com](https://account.magento.com) quando il campo è disattivato.
 exl-id: cd527203-345c-4318-8ca8-0063109b5f79
 feature: Communications
-source-git-commit: 123027ee291b44ad4b234e561b9c3f4156af7c90
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%

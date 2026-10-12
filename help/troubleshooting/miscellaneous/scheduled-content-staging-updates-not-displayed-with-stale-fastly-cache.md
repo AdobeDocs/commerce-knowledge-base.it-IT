@@ -1,19 +1,35 @@
 ---
 title: Gli aggiornamenti pianificati per la gestione temporanea dei contenuti non vengono visualizzati con la cache Fastly non aggiornata
-description: Questo articolo corregge i casi in cui gli archivi Adobe Commerce non visualizzano gli aggiornamenti pianificati quando si utilizzano Content Staging e Fastly. Il problema è dovuto alla funzione Fastly Soft Purge abilitata per impostazione predefinita. Questa funzione riduce il carico delle risorse dell’applicazione e rigenera una nuova cache solo su una seconda richiesta. Per risolvere il problema, puoi abilitare la pagina Rimuovi CMS tramite l’amministratore di Commerce per rigenerare e distribuire sempre nuovo contenuto.
+description: Questo articolo corregge i casi in cui gli archivi Adobe Commerce non visualizzano gli aggiornamenti pianificati quando si utilizzano Content Staging e Fastly. Il problema è dovuto alla funzione Fastly Soft Purge abilitata per impostazione predefinita. Questa funzione riduce il carico delle risorse dell’applicazione e rigenera una nuova cache solo su una seconda richiesta. Per risolvere il problema, puoi abilitare la pagina Rimuovi CMS tramite l’amministratore Commerce per rigenerare e distribuire sempre nuovo contenuto.
 exl-id: becbffaa-b6dd-4e9b-894e-17901c40223a
 feature: CMS, Cache, Page Content, Staging
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # Gli aggiornamenti pianificati per la gestione temporanea dei contenuti non vengono visualizzati con la cache Fastly non aggiornata
 
-Questo articolo corregge i casi in cui gli archivi Adobe Commerce non visualizzano gli aggiornamenti pianificati quando si utilizzano Content Staging e Fastly. Il problema è dovuto alla funzione Fastly Soft Purge abilitata per impostazione predefinita. Questa funzione riduce il carico delle risorse dell’applicazione e rigenera una nuova cache solo su una seconda richiesta. Per risolvere il problema, puoi abilitare la pagina Rimuovi CMS tramite l’amministratore di Commerce per rigenerare e distribuire sempre nuovo contenuto.
+Questo articolo corregge i casi in cui gli archivi Adobe Commerce non visualizzano gli aggiornamenti pianificati quando si utilizzano Content Staging e Fastly. Il problema è dovuto alla funzione Fastly Soft Purge abilitata per impostazione predefinita. Questa funzione riduce il carico delle risorse dell’applicazione e rigenera una nuova cache solo su una seconda richiesta. Per risolvere il problema, puoi abilitare la pagina Rimuovi CMS tramite l’amministratore Commerce per rigenerare e distribuire sempre nuovo contenuto.
 
 ## Problema
 
@@ -31,7 +47,7 @@ Di conseguenza, Fastly può distribuire contenuto non aggiornato fino alla secon
 
 ## Soluzione
 
-Se anche per la prima richiesta non è consentito distribuire contenuto non aggiornato, è possibile disabilitare la funzione Pulizia temporanea e abilitare la pagina Rimuovi CMS:
+Se anche per la prima richiesta non è consentito distribuire contenuto non aggiornato, è possibile disabilitare la funzione di eliminazione temporanea e abilitare la pagina CMS di eliminazione:
 
 1. Accedi al tuo amministratore Commerce locale come amministratore.
 1. Vai a **Archivi** > **Configurazione** > **Avanzate** > **Sistema** > **Cache a pagina intera**.

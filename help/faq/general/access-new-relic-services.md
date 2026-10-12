@@ -2,13 +2,14 @@
 title: Accedere ai servizi New Relic
 description: 'Questo articolo spiega come i clienti con un’autorizzazione di licenza/abbonamento sufficiente possono accedere a determinati servizi New Relic:'
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 09777d70272bdb78a0bcf7566cc398a53c474f4c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # Accedere ai servizi New Relic
 
 Questo articolo spiega come i clienti con un’autorizzazione di licenza/abbonamento sufficiente possono accedere a determinati servizi New Relic:
