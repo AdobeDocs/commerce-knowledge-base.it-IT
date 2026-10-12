@@ -59,7 +59,7 @@ Se una distribuzione non è riuscita dopo che è stata apportata una modifica al
 
 ### Come disattivare il tasto di scelta
 
-Se non hai accesso all&#39;account [Commerce Marketplace](https://marketplace.magento.com/) associato alla chiave precedente, [contatta il supporto Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per disabilitare la chiave.
+Se non hai accesso all&#39;account [Commerce Marketplace](https://marketplace.magento.com/) associato alla chiave precedente, [contatta il supporto Adobe Commerce](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per disabilitare la chiave.
 
 Se hai accesso all’account Marketplace associato alla vecchia chiave, procedi come segue per disabilitare la chiave:
 
@@ -73,4 +73,4 @@ Se hai accesso all’account Marketplace associato alla vecchia chiave, procedi 
 
 ## Lettura correlata
 
-* [Ottieni le chiavi di autenticazione](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) nella documentazione per gli sviluppatori.
+* [Ottieni le chiavi di autenticazione](https://experienceleague.adobe.com/it/docs/commerce-operations/installation-guide/prerequisites/authentication-keys) nella documentazione per gli sviluppatori.

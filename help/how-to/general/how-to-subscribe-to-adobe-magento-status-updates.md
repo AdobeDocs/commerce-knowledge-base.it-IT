@@ -1,6 +1,6 @@
 ---
 title: Iscrizione agli aggiornamenti sullo stato di Adobe Commerce
-description: Questo articolo spiega come abbonarti allo stato di Adobe Commerce su [Adobe status](https://status.adobe.com) per ricevere avvisi, aggiornamenti e informazioni sullo stato di interruzioni o interventi di manutenzione importanti.
+description: Questo articolo spiega come abbonarti allo stato di Adobe Commerce su [Adobe status](https://status.adobe.com/it-it) per ricevere avvisi, aggiornamenti e informazioni sullo stato di interruzioni o interventi di manutenzione importanti.
 exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Iscrizione agli aggiornamenti sullo stato di Adobe Magento
 
-1. Vai a [Stato Adobe](https://status.adobe.com).
+1. Vai a [Stato Adobe](https://status.adobe.com/it-it).
 1. Fai clic su **Accedi**.
 1. Accedi con le tue credenziali Adobe.
 1. Selezionare **Account aziendale o scolastico** se viene presentata l&#39;opzione.

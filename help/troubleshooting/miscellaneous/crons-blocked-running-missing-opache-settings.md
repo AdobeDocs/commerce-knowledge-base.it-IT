@@ -35,7 +35,7 @@ Il cron smise di funzionare.
 
 ## Causa
 
-Il modulo [!DNL OpCache] è stato aggiornato a una versione più recente che ha introdotto un plug-in [!DNL GraphQL] che riscrive `env.php` in fase di esecuzione e potrebbe ignorare l&#39;impostazione cron, causando probabilmente il problema. È necessario aggiornare la configurazione di [!DNL OpCache] per evitare problemi con `env.php file` che sono stati risolti nella [versione 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13) del pacchetto [!DNL ECE Tools].
+Il modulo [!DNL OpCache] è stato aggiornato a una versione più recente che ha introdotto un plug-in [!DNL GraphQL] che riscrive `env.php` in fase di esecuzione e potrebbe ignorare l&#39;impostazione cron, causando probabilmente il problema. È necessario aggiornare la configurazione di [!DNL OpCache] per evitare problemi con `env.php file` che sono stati risolti nella [versione 2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=it#v2002.1.13) del pacchetto [!DNL ECE Tools].
 
 ## Soluzione
 
@@ -66,6 +66,6 @@ Opzione 2: aprire il file `app/etc/env.php`. Se viene visualizzato quanto segue,
 
 ## Lettura correlata
 
-* [Problemi relativi al controllo di preparazione al problema](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons, proprietà](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Il processo Cron è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Problemi relativi al controllo di preparazione al problema](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=it)
+* [Crons, proprietà](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=it)
+* [Il processo Cron è bloccato nello stato &quot;in esecuzione&quot;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=it)

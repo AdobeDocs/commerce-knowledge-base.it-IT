@@ -38,7 +38,7 @@ Per l’architettura del piano Starter e gli ambienti di integrazione PaaS, sar�
 Per aggiungere il dominio al servizio in [!DNL Fastly]:
 
 1. Puntare il dominio in DNS a prod.magentocloud.map.fastly.net e attendere fino a 6 ore.
-1. [Invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) richiedendo di aggiungere questo dominio nella configurazione Nginx (se non l&#39;hai già fatto in precedenza).
+1. [Invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) richiedendo di aggiungere questo dominio nella configurazione Nginx (se non l&#39;hai già fatto in precedenza).
 
 ## Come si richiede un certificato?
 
@@ -56,10 +56,10 @@ Se il sito è già attivo e/o puoi puntare immediatamente agli URL che verranno 
 
 Tuttavia, questo processo richiede un lavoro aggiuntivo per l&#39;impostazione e la manutenzione. Devi innanzitutto generare una richiesta di firma del certificato (CSR, Certificate Signing Request) per il nome di dominio (o nome comune) del sito web e fornirla al fornitore SSL per fornire un certificato SSL.
 
-Una volta ottenuto il certificato SSL, invia un [ticket di supporto Adobe Commerce](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) o collabora con il tuo CTA per aggiungere certificati con hosting personalizzato agli ambienti cloud.
+Una volta ottenuto il certificato SSL, invia un [ticket di supporto Adobe Commerce](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) o collabora con il tuo CTA per aggiungere certificati con hosting personalizzato agli ambienti cloud.
 
 * Se i domini non sono più in uso, verranno eliminati automaticamente dal nostro sistema e non sono necessarie ulteriori azioni.
-* Se possiedi già un certificato, caricalo utilizzando un client SFTP (SSH File Transfer Protocol) in un percorso di file inaccessibile al Web sul tuo server e [invia un ticket di supporto](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per comunicare al cliente il percorso del file.
+* Se possiedi già un certificato, caricalo utilizzando un client SFTP (SSH File Transfer Protocol) in un percorso di file inaccessibile al Web sul tuo server e [invia un ticket di supporto](https://experienceleague.adobe.com/it/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket) per comunicare al cliente il percorso del file.
 
 >[!WARNING]
 >
@@ -76,7 +76,7 @@ Il dominio visualizzato nel certificato è solo il primo dominio aggiunto al cer
 
 ## Posso utilizzare certificati TLS con caratteri jolly?
 
-I certificati TLS con caratteri jolly possono essere utilizzati solo con il certificato personalizzato e non con i certificati Adobe Commerce Let&#39;s Encrypt. Come parte dell’ottimizzazione di TLS, Adobe cesserà il supporto per i certificati TLS con caratteri jolly. Stiamo identificando e contattando i commercianti che utilizzano un certificato con caratteri jolly con i certificati Let&#39;s Encrypt di Adobe e che sono configurati nella console [!DNL Fastly] per Adobe Commerce. Stiamo chiedendo che questi certificati con caratteri jolly vengano sostituiti con domini esatti per garantire la copertura TLS. Per sostituire un certificato TLS con caratteri jolly, visita la [sezione dominio](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) del plug-in [!DNL Fastly]. Da qui è possibile aggiungere domini esatti e rimuovere il carattere jolly. Nota che il DNS dovrà puntare a [!DNL Fastly] affinché questi nuovi domini vengano instradati attraverso la rete CDN. Una volta aggiunti i domini e aggiornato il DNS, verrà eseguito il provisioning di un certificato [Crittografiamo](https://letsencrypt.org/) corrispondente. Se non rimuovi un dominio che punta a [!DNL Fastly] utilizzando un carattere jolly, Adobe eliminerà il certificato condiviso. Questo può causare un’interruzione del sito se non hai configurato l’FQDN dell’URL e lo stesso FQDN dell’URL nel DNS. È quindi necessario confermare che anche gli URL configurati hanno una corrispondenza uno-a-uno nel DNS che punta a [!DNL Fastly].
+I certificati TLS con caratteri jolly possono essere utilizzati solo con il certificato personalizzato e non con i certificati Adobe Commerce Let&#39;s Encrypt. Come parte dell’ottimizzazione di TLS, Adobe cesserà il supporto per i certificati TLS con caratteri jolly. Stiamo identificando e contattando i commercianti che utilizzano un certificato con caratteri jolly con i certificati Let&#39;s Encrypt di Adobe e che sono configurati nella console [!DNL Fastly] per Adobe Commerce. Stiamo chiedendo che questi certificati con caratteri jolly vengano sostituiti con domini esatti per garantire la copertura TLS. Per sostituire un certificato TLS con caratteri jolly, visita la [sezione dominio](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains) del plug-in [!DNL Fastly]. Da qui è possibile aggiungere domini esatti e rimuovere il carattere jolly. Nota che il DNS dovrà puntare a [!DNL Fastly] affinché questi nuovi domini vengano instradati attraverso la rete CDN. Una volta aggiunti i domini e aggiornato il DNS, verrà eseguito il provisioning di un certificato [Crittografiamo](https://letsencrypt.org/) corrispondente. Se non rimuovi un dominio che punta a [!DNL Fastly] utilizzando un carattere jolly, Adobe eliminerà il certificato condiviso. Questo può causare un’interruzione del sito se non hai configurato l’FQDN dell’URL e lo stesso FQDN dell’URL nel DNS. È quindi necessario confermare che anche gli URL configurati hanno una corrispondenza uno-a-uno nel DNS che punta a [!DNL Fastly].
 
 ## Cosa devo fare se il mio dominio non punta più ad Adobe Commerce?
 
@@ -84,4 +84,4 @@ Se il dominio non fa più riferimento a Adobe Commerce, rimuoverlo dal sistema d
 
 ## Lettura correlata
 
-[Fornire certificati SSL/TLS](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) nella documentazione per gli sviluppatori
+[Fornire certificati SSL/TLS](https://experienceleague.adobe.com/it/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates) nella documentazione per gli sviluppatori
