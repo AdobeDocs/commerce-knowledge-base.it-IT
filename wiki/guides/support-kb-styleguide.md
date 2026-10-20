@@ -256,7 +256,7 @@ Alla fine di un articolo viene visualizzato solo un elenco di collegamenti speci
 
 ### Collegamenti a siti Web esterni
 
-Utilizza URL normali anziché goURL per collegarti a pagine esterne a [Adobe.com](http://Adobe.com).
+Utilizza URL normali anziché goURL per collegarti a pagine esterne a [Adobe.com](http://Adobe.com/it).
 
 
 ## Virgole

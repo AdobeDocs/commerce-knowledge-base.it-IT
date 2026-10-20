@@ -129,7 +129,7 @@ Puoi incorporare gli elenchi anche in questo modo.
 I collegamenti esterni sono semplici:
 
 ```markdown
-[Adobe](https://www.adobe.com)
+[Adobe](https://www.adobe.com/it)
 ```
 
 ### Collegamenti ad allegati
